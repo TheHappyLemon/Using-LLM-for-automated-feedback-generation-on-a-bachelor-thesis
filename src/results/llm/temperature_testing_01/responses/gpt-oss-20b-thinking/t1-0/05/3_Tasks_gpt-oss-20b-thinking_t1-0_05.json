@@ -1,0 +1,37 @@
+[
+    {
+        "question" : "Outlook",
+        "feedback": "Teksts ir skaidri organizēts kā numurēts saraksts, ar katru uzdevumu atdalītā, numerētu pozīcijā.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "Tekstā ir 6 uzdevumi.",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "Uzdevumi aptver teorētisko analīzi (prasību un metožu izpēte), eksperimentālu izpēti, praktisku risinājumu izstrādi (rekomendācijas) un to validāciju (demonstrācija).",
+        "complies": true
+    },
+    {
+        "question" : "Format",
+        "feedback": "Katrs uzdevums ir vienā teikumā bez paplašinājumiem vai vairāku teikumu kombinācijām.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "Lielākā daļa uzdevumu sākas ar bezvārda darbības vārdu (Izpētīt, Analizēt, Izstrādāt, Demonstrēt), bet vienam – \"Eksperimentāli novērtēt\" – sākas ar adverbu, tāpēc struktūra nav pilnīgi konsekventa.",
+        "complies": false
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "Teksts satur īsus, tiešus un precīzus teikumus, kas skaidri norāda uz uzdevumu mērķi.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "Uzdevumu secība (prasību izpēte → metožu izpēte → atbilstības analīze → eksperimentāla novērtēšana → rekomendāciju izstrāde → demonstrācija) tieši atbalsta mērķi sniegt praktiskas un automatizētas testēšanas rekomendācijas.",
+        "complies": true
+    }
+]

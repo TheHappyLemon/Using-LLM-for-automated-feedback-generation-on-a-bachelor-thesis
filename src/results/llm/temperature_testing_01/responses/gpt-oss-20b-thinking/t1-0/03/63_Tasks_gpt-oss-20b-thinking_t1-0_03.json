@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text uses a numbered list clearly separating the five tasks.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are five tasks listed, which is within the acceptable range of 5-7.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "Tasks cover research and implementation but lack a comparison or benchmarking for validation; the developed simulator is only experimentally tested without reference to existing solutions.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence ending with a comma; no task spans multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Only four tasks begin directly with an infinitive; the fifth starts with an adverb, breaking consistency.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are concise, straightforward, and use precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The sequence of tasks logically supports the goal of developing and validating a simulator.",
+        "complies": true
+    }
+]

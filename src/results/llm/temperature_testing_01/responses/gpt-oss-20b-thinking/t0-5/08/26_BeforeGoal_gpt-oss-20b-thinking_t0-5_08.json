@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction touches on the general importance of steganography and its relevance to cybersecurity, but it does not clearly link the topic to specific current problems, trends, or developments (e.g., rise of sophisticated malware, need for covert channels). The motivation would be stronger if concrete examples or statistics were provided to illustrate why research on PE steganography is urgently needed.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single reference (Grebnikov V., 2019) is cited, and the discussion of existing techniques, tools, or recent advances in PE‑based steganography is minimal. A more thorough overview of recent literature, comparative studies, and cutting‑edge methods would demonstrate awareness of the current state of the art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a gap—PE files are widely used but not deeply studied for steganographic purposes—but it does not explicitly state what is missing or unresolved in the literature. A clear, concise gap statement (e.g., lack of systematic analysis of PE section vulnerabilities for hiding data) is needed.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is somewhat implied (to discover which PE properties allow hiding/detection) but is not formulated as a precise research question or objective. Explicitly stating the challenge (e.g., \"How can we effectively embed and detect covert data in PE files while maintaining executable integrity?\") would improve clarity.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "Only one reference is provided, and it is not integrated throughout the text. More citations are required to support claims, acknowledge prior work, and show how the thesis builds upon or diverges from existing research.",
+        "complies": false
+    }
+]

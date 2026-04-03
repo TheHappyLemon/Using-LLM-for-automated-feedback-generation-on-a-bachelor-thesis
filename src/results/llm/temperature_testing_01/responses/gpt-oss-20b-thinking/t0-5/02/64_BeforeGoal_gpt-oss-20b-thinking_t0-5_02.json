@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines Java’s popularity and the importance of garbage collection for performance and memory management, highlighting its relevance for developers, administrators, and researchers. It gives a general sense of why the topic matters, though it could strengthen the argument by referencing current industry trends such as microservices or cloud deployments.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lists GC variants (Serial, Parallel, Concurrent Mark Sweep) but does not cite any published studies, benchmarks, or recent advancements. There is no evidence of awareness of current research or cutting‑edge achievements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A clear research gap is not articulated. The passage mentions the need to reduce GC’s negative impact, but it does not specify what has already been solved, what remains unresolved, or how the proposed work would fill a void.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is somewhat vague: it refers to GC’s effect on performance and the lack of developer control, but it does not precisely define the concrete issue the thesis will tackle (e.g., measuring pause times, optimizing GC algorithms, or developing a new GC strategy).",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "No citations or references are provided to support claims or acknowledge prior work. The introduction would benefit from scholarly sources that discuss GC performance, recent research, and industry practices.",
+        "complies": false
+    }
+]

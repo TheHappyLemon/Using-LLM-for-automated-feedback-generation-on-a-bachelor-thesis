@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text outlines the general importance of garbage collection in Java, noting its impact on performance and relevance across various domains. However, it could be strengthened by explicitly linking to current trends such as microservices, cloud-native applications, or real‑time requirements. Overall, it meets the basic requirement of explaining why the topic matters.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The introduction does not reference any specific published research, benchmarks, or recent advances in garbage‑collection algorithms. There is no discussion of comparative studies or cutting‑edge implementations, leaving the reader without a sense of the current state of the art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text mentions generic problems (e.g., GC pauses, STW), it does not articulate a concrete, researchable gap. No clear question or unmet need is identified based on existing studies.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is vague: it references GC impact and pauses but does not define a specific challenge or objective that the thesis will address. A clearer research question or hypothesis is required.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "No citations or bibliographic references are provided to support claims or acknowledge prior work. The introduction lacks academic grounding.",
+        "complies": false
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is presented as a single paragraph without numbering or bullet points, so tasks are not clearly separated.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "Five distinct tasks are identified, which meets the requirement of 5-7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "While the tasks cover research, design, prototype, testing, and evaluation, they lack explicit comparison with existing solutions or demonstration that the prototype solves a practical problem, which is required for full validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "All tasks are embedded within two long sentences; none of them is a single-sentence item, so the format does not meet the one-sentence-per-task criterion.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The sentences start with finite verbs rather than infinitives, so the required infinitive structure is not used.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are long and contain multiple actions, making them less concise and harder to parse; they are not short, straightforward sentences.",
+        "complies": false
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically progress from research to prototype and evaluation, directly supporting the goal of developing a tourism guide with AR and GPS, so they are relevant.",
+        "complies": true
+    }
+]

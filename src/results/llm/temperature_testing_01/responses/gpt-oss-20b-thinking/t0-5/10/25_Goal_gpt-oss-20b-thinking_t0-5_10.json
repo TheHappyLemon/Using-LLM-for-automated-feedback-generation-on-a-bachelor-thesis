@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal clearly states the intended outcome: developing a solution to recognize room objects from fisheye camera images. It is specific and measurable, as performance can be evaluated on recognition metrics.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal mentions the method – neural networks – which violates the requirement to focus solely on the intended outcome. The statement should omit the method to meet the criterion.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, concise sentence that directly communicates the thesis objective.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows the gaps identified in the preceding text: the lack of a fisheye‑camera based room‑interior recognition solution. All elements of the goal are reflected in the motivation.",
+        "complies": true
+    }
+]

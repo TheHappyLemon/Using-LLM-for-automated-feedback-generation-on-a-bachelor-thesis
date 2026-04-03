@@ -1,0 +1,75 @@
+2026-04-02 14:03:08,171 - __main__ - INFO - STARTED EVALUATING DETERMENISM WITH ZERO TEMPERATURE
+2026-04-02 14:03:08,171 - src.code.functions - INFO - Imported prompt: REFINE_BEFORE_GOAL
+2026-04-02 14:03:08,172 - src.code.functions - INFO - Imported prompt: REFINE_GOAL_WITH_PRECEDING_TEXT
+2026-04-02 14:03:08,172 - src.code.functions - INFO - Imported prompt: REFINE_GOAL_WITHOUT_PRECEDING_TEXT
+2026-04-02 14:03:08,172 - src.code.functions - INFO - Imported prompt: REFINE_TASKS_WITH_GOAL
+2026-04-02 14:03:08,173 - src.code.functions - INFO - Imported prompt: REFINE_TASKS_WITHOUT_GOAL
+2026-04-02 14:03:08,173 - src.code.functions - INFO - Imported prompt: REFINE_AFTER_TASKS
+2026-04-02 14:03:08,182 - src.code.functions - INFO - get_texts executed
+2026-04-02 14:03:08,187 - src.code.functions - INFO - get_topics executed
+2026-04-02 14:03:08,189 - src.code.functions - INFO - prepare_prompts executed
+2026-04-02 14:03:08,189 - __main__ - INFO - Will evaluate following texts: dict_keys([10])
+2026-04-02 14:03:08,190 - src.code.functions - INFO - used prompts saved to D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\zero_temperature_determinism\prompts\
+2026-04-02 14:03:08,190 - __main__ - INFO - START PROMPTING 
+2026-04-02 14:03:08,190 - __main__ - INFO - Working on model 'gpt-oss-20b-thinking'.
+2026-04-02 14:03:08,190 - __main__ - INFO - Temperature = 0.
+2026-04-02 14:03:08,190 - __main__ - INFO - Iteration Nr. 1 
+2026-04-02 14:03:08,190 - __main__ - INFO - Text Nr. 10
+2026-04-02 14:03:08,190 - __main__ - INFO - BeforeGoal
+2026-04-02 14:03:26,059 - __main__ - INFO - Goal
+2026-04-02 14:03:45,466 - __main__ - INFO - Tasks
+2026-04-02 14:04:16,186 - __main__ - INFO - AfterTasks
+2026-04-02 14:04:30,172 - __main__ - INFO - Iteration Nr. 2 
+2026-04-02 14:04:30,174 - __main__ - INFO - Text Nr. 10
+2026-04-02 14:04:30,174 - __main__ - INFO - BeforeGoal
+2026-04-02 14:04:49,958 - __main__ - INFO - Goal
+2026-04-02 14:05:09,697 - __main__ - INFO - Tasks
+2026-04-02 14:05:40,858 - __main__ - INFO - AfterTasks
+2026-04-02 14:05:54,980 - __main__ - INFO - Iteration Nr. 3 
+2026-04-02 14:05:54,981 - __main__ - INFO - Text Nr. 10
+2026-04-02 14:05:54,981 - __main__ - INFO - BeforeGoal
+2026-04-02 14:06:14,944 - __main__ - INFO - Goal
+2026-04-02 14:06:34,846 - __main__ - INFO - Tasks
+2026-04-02 14:07:06,054 - __main__ - INFO - AfterTasks
+2026-04-02 14:07:20,129 - __main__ - INFO - Iteration Nr. 4 
+2026-04-02 14:07:20,129 - __main__ - INFO - Text Nr. 10
+2026-04-02 14:07:20,130 - __main__ - INFO - BeforeGoal
+2026-04-02 14:07:40,041 - __main__ - INFO - Goal
+2026-04-02 14:07:59,862 - __main__ - INFO - Tasks
+2026-04-02 14:08:31,025 - __main__ - INFO - AfterTasks
+2026-04-02 14:08:45,114 - __main__ - INFO - Iteration Nr. 5 
+2026-04-02 14:08:45,114 - __main__ - INFO - Text Nr. 10
+2026-04-02 14:08:45,114 - __main__ - INFO - BeforeGoal
+2026-04-02 14:09:05,049 - __main__ - INFO - Goal
+2026-04-02 14:09:24,828 - __main__ - INFO - Tasks
+2026-04-02 14:09:56,013 - __main__ - INFO - AfterTasks
+2026-04-02 14:10:10,080 - __main__ - INFO - Iteration Nr. 6 
+2026-04-02 14:10:10,081 - __main__ - INFO - Text Nr. 10
+2026-04-02 14:10:10,081 - __main__ - INFO - BeforeGoal
+2026-04-02 14:10:29,981 - __main__ - INFO - Goal
+2026-04-02 14:10:49,888 - __main__ - INFO - Tasks
+2026-04-02 14:11:21,131 - __main__ - INFO - AfterTasks
+2026-04-02 14:11:35,196 - __main__ - INFO - Iteration Nr. 7 
+2026-04-02 14:11:35,197 - __main__ - INFO - Text Nr. 10
+2026-04-02 14:11:35,197 - __main__ - INFO - BeforeGoal
+2026-04-02 14:11:55,094 - __main__ - INFO - Goal
+2026-04-02 14:12:14,897 - __main__ - INFO - Tasks
+2026-04-02 14:12:46,107 - __main__ - INFO - AfterTasks
+2026-04-02 14:13:00,192 - __main__ - INFO - Iteration Nr. 8 
+2026-04-02 14:13:00,192 - __main__ - INFO - Text Nr. 10
+2026-04-02 14:13:00,192 - __main__ - INFO - BeforeGoal
+2026-04-02 14:13:20,123 - __main__ - INFO - Goal
+2026-04-02 14:13:39,944 - __main__ - INFO - Tasks
+2026-04-02 14:14:11,087 - __main__ - INFO - AfterTasks
+2026-04-02 14:14:25,154 - __main__ - INFO - Iteration Nr. 9 
+2026-04-02 14:14:25,155 - __main__ - INFO - Text Nr. 10
+2026-04-02 14:14:25,155 - __main__ - INFO - BeforeGoal
+2026-04-02 14:14:45,039 - __main__ - INFO - Goal
+2026-04-02 14:15:04,806 - __main__ - INFO - Tasks
+2026-04-02 14:15:35,969 - __main__ - INFO - AfterTasks
+2026-04-02 14:15:50,020 - __main__ - INFO - Iteration Nr. 10
+2026-04-02 14:15:50,021 - __main__ - INFO - Text Nr. 10
+2026-04-02 14:15:50,022 - __main__ - INFO - BeforeGoal
+2026-04-02 14:16:09,940 - __main__ - INFO - Goal
+2026-04-02 14:16:29,732 - __main__ - INFO - Tasks
+2026-04-02 14:17:00,916 - __main__ - INFO - AfterTasks

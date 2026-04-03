@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the general importance of robotics and mentions economic and efficiency gains, but it does not explicitly tie these benefits to the specific problem of robot movement control using image segmentation. The connection between segmentation and the thesis objective is implicit rather than explicit, which weakens the argument for the study’s relevance.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites a couple of studies (Jahn & Heßet, 2020; Rubio & Valero, 2019) and refers to improved segmentation algorithms, yet it lacks a detailed survey of current leading methods, benchmarks, or comparative results. The mention of state‑of‑the‑art is brief and does not demonstrate a thorough awareness of recent advances or gaps in the literature.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "There is no clear statement of a specific research gap. While the paragraph suggests that modern segmentation methods could help, it does not explicitly say what is missing, insufficient, or unresolved in existing approaches for robot movement control.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem the thesis aims to solve is not plainly articulated. Readers can infer that the goal involves improving robot navigation via segmentation, but the exact challenge—e.g., real‑time segmentation accuracy, integration with motion planning, or robustness in harsh environments—is not directly stated.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "Only two references are included, and they are placed only in a few sentences. Many claims (e.g., economic impact, material costs, collision avoidance) are not supported by citations. The referencing style is also inconsistent, and it does not show how prior work is being built upon.",
+        "complies": false
+    }
+]

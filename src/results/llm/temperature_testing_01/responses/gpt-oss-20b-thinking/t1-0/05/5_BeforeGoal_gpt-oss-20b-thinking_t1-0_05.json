@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines that DOCX files are ubiquitous and may hide malicious data, hinting at relevance to security. However, it lacks a clear linkage to contemporary threats or quantitative motivation (e.g., prevalence of DOCX-based attacks). Strength: mentions data leakage and cyber attacks. Weakness: insufficient explanation of why DOCX steganalysis is urgent now.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Several studies are cited (Hassan 2016, Shehab 2022, Raggo 2012, Yang 2022, Mukesh 2020), but the discussion is generic. It does not mention specific state‑of‑the‑art tools, algorithms, or benchmarks for DOCX steganalysis, nor does it provide a concise summary of existing achievements or gaps. The citations appear, but the narrative lacks depth.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implies a need for better steganalysis methods for DOCX, but it does not explicitly state a concrete research gap derived from the literature. It fails to articulate what existing work is missing or insufficient. The gap is implied rather than clearly defined.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is stated as the necessity to investigate steganalysis for DOCX files in order to protect against hidden malicious content. This is clear enough for the reader to understand the thesis’s focus.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are mentioned in parentheses, but there is no formal reference list, and many claims lack citation. The introduction does not consistently cite sources to support assertions, making it hard to verify the information presented.",
+        "complies": false
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts skaidri norāda, ka Java ir plaši lietota valoda un ka GC ietekmē veiktspēju, bet nepieslēdzās konkrētām mūsdienu problēmām vai tendencēm, piemēram, mākoņsaplūtnēs vai lielos datu apstrādes projektos. Skaitliski norādītie piemēri un atspoguļojums par reāllaika sistēmu prasībām ir vāja pamatotība. Tādējādi prasība pēc skaidras nozīmes un aktualitātes ir nedaudz nepilnīgi apmierināta.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Teksts min GC tipus (Serial, Parallel, Concurrent Mark Sweep), bet nepiedāvā citācijas uz konkrētiem pētījumiem, rakstiem vai tehniskajām pārskatiem. Neaizstājama pieeja, kas parādītu, kāda ir pašreizējā zinātniskā un tehnoloģiskā situācija.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Raksts apraksta vispārējo problēmu (GC ietekme uz veiktspēju), taču nepaziņo skaidru pētniecisko trūkumu vai konkrētu jautājumu, kas vēl nav izpētīts vai atbilstoši dokumentēts. Nepieciešama konkrētāka, uz pētījumiem balstīta trūkuma formulēšana.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Ievadā minēts, ka GC var izraisīt “Stop‑The‑World” pausēs, bet nekas nepaziņo precīzu, par ko būtu jāizpēta vai kādās konkrētās situācijās. Problēmas formulējums ir pārāk plašs un neprecīzs.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "Tekstā nav cita neviena avota, ko balstīt uz, un nav cita, kas atspoguļotu literatūras pārskatu vai pētījumu rezultātus. Bez citēšanas teksts nedod iespēju pārbaudīt informācijas avotus.",
+        "complies": false
+    }
+]

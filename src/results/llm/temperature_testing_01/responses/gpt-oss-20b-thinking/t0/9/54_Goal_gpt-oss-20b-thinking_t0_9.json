@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is overly broad and contains vague phrases such as \"izpētīt esošus risinājumus\" and \"novērtēt optimizācijas metodes efektivitāti, precizitāti\" without specifying measurable criteria or concrete outcomes. It does not clearly state what will be achieved in a way that can be evaluated.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal mixes intended outcomes with actions (e.g., \"Izstrādāt un novērtēt autora automatizēto testēšanas metodesoptimizācijas paņēmienu\"). It therefore does not focus solely on the objective but also describes the process, violating the intention criterion.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as three separate sentences rather than a single concise statement. The requirement for a single, direct sentence is not met.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "While the goal mentions optimization in CI/CD pipelines, it does not explicitly reference the specific gaps highlighted earlier (e.g., long test times, high resource consumption). The link between the identified problems and the proposed goal is weak and not fully consistent.",
+        "complies": false
+    }
+]

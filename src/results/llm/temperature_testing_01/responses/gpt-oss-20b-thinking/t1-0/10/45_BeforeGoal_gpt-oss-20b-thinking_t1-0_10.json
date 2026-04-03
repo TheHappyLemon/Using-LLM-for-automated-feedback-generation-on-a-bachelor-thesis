@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The paragraph states that async and parallel programming are important for resource‑constrained mobile devices and that many languages now support it, but it does not clearly link the topic to specific current challenges or explain why research on Kotlin’s concurrency tools is necessary. The motivation is mentioned but lacks a strong, explicit rationale.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites several recent works (Elizarov et al., 2021; Bobrov, 2024; Skeen & Greenhalgh, 2018; Subramaniam, 2019; Griffiths & Griffiths, 2019) and refers to Kotlin’s support for coroutines and Java threads, showing awareness of current research and technologies.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "A gap is implied by the question of how to effectively use Kotlin’s concurrency tools, but the introduction does not explicitly state what is missing in the literature or practice. A clearer gap statement is needed to show what the thesis will address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The specific problem that the thesis intends to solve is not articulated. The text mentions a general question about tool advantages and disadvantages, but does not specify the concrete issue or challenge that will be tackled.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included for the claims made, although the formatting is inconsistent (e.g., missing commas, misplaced spaces). Overall, sources are cited where needed, supporting the introductory statements.",
+        "complies": true
+    }
+]

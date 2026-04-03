@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction highlights the rapid development of generative AI and its societal interest, and points out the limitation of language models in answering untrained queries, thereby motivating the need for Retrieval Augmented Generation (RAG). This gives a clear sense of relevance. However, the text could strengthen the significance by explicitly linking the identified limitation to a concrete, practical problem or a gap in current Latvian NLP applications.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references several recent studies (Naveed et al. 2024; Alammar & Grootendorst 2024; OpenAI 2023; Zhao et al. 2023; Lewis et al. 2021; Gao et al. 2024) that cover language modelling, prompting, and RAG techniques. These citations demonstrate awareness of the current state‑of‑the‑art and of key achievements related to the topic.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction notes a general limitation of language models, it does not explicitly articulate a concrete research gap—e.g., a lack of evaluation of RAG with embedding‑based segmentation specifically for Latvian text. Identifying such a gap would clarify the novelty of the proposed work.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is implied—improving context provision for language models via RAG—but is not explicitly stated as a research question or objective. A clearer problem statement would help readers see what challenge the thesis addresses.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The introduction includes many relevant citations to support claims. Some statements (e.g., the general rise of generative AI in the last decade) lack a direct reference, but overall the use of references is adequate for an introductory paragraph.",
+        "complies": true
+    }
+]

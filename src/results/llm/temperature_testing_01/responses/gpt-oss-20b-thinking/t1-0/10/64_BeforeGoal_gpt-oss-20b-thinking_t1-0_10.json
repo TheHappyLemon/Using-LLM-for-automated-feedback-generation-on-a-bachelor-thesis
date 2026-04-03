@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text outlines the widespread use of Java and the critical role of garbage collection in application performance, highlighting the practical importance for developers, administrators, and researchers. It clearly conveys why the topic is relevant in contemporary software development.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The introduction mentions different GC implementations (Serial, Parallel, Concurrent Mark Sweep) but does not reference any published studies, benchmarks, or recent advances. There is no citation of current research or evidence of awareness of the latest developments in the field.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "A research gap is not explicitly stated. The text alludes to performance issues caused by GC pauses, yet it does not clearly identify what remains unresolved or insufficiently explored in existing knowledge.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is reasonably clear: achieving efficient memory management while minimizing the negative impact of GC on performance, especially in large or real‑time systems.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "No references or citations are provided to support claims or acknowledge prior work, making it difficult to verify statements or locate related research.",
+        "complies": false
+    }
+]

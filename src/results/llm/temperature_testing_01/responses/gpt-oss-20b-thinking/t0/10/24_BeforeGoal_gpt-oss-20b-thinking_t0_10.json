@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions the importance of AI in games and the potential of improving alpha‑beta pruning, but the argument is somewhat vague and lacks concrete links to current industry trends or specific challenges that justify the research. The significance is mentioned but not strongly articulated.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two citations are provided (Sweetswer&Wiles, 2002; Luger, 2009) and they are not integrated into a broader discussion of recent advances in game‑playing AI or search algorithms. The state‑of‑the‑art coverage is minimal and does not demonstrate awareness of current leading research.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text clearly states that standard alpha‑beta pruning cannot distinguish between high‑heuristic nodes that still lead to loss and those that guarantee loss, and proposes a modification to address this. This identifies a concrete research gap.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is well defined: improving the decision quality of alpha‑beta pruning in non‑winning states to allow the AI to exploit opponent mistakes.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and not properly formatted; only two sources are cited, and there is no evidence of a comprehensive literature review. The introduction would benefit from additional, up‑to‑date references and correct citation formatting.",
+        "complies": false
+    }
+]

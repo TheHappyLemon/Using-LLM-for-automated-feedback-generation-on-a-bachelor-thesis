@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the importance of cookies for user experience and data analysis, highlights privacy and security risks such as session hijacking and XSS, and notes the growing threat landscape, thereby clearly establishing the relevance of the topic.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text lists mechanisms like Secure, HttpOnly, and SameSite, it does not cite any specific studies, papers, or recent developments in the field, so the awareness of the current state‑of‑the‑art is not demonstrated.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction does not explicitly state a concrete research gap; it mentions a need to investigate and improve security mechanisms but fails to point out what is missing or insufficient in existing research.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is reasonably clear: the thesis aims to analyze and compare browser cookie security mechanisms and propose improvements, which is a concrete challenge.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are provided to support claims or acknowledge prior work, leaving statements unsupported.",
+        "complies": false
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal clearly states that the thesis will investigate AI and machine learning tools for automated test generation, repair, and regeneration based on changing user‑story requirements, and will also examine how to ensure timely and accurate test scenario development and maintenance in continuous testing, as well as evaluate existing solutions. This is specific enough to be measurable.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal uses verbs such as \"investigate\" and \"evaluate\" and mentions \"how to ensure\", which implicitly describe the approach and processes. The requirement is to focus solely on the intended outcome without describing methods or processes, so this goal slightly over‑steps the boundary.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in two sentences, whereas the requirement calls for a single, concise sentence that directly communicates the thesis goal.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly addresses the gaps and motivations outlined in the introduction—namely the need for AI‑driven automation of test creation and maintenance in continuous testing—and aligns with the mentioned problems and objectives.",
+        "complies": true
+    }
+]

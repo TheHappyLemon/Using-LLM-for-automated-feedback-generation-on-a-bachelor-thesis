@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction touches on the importance of steganography and the widespread use of PE files, but it does not clearly link the topic to specific current problems, trends, or developments (e.g., recent cyber‑attack statistics, regulatory changes, or emerging steganalysis techniques). The relevance is implied rather than explicitly argued. Strengthen the argument by citing recent incidents or statistics that demonstrate why studying steganography in PE files is urgent.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single source (Grebnikov V., 2019) is cited, and the text does not mention other recent research, tools, or benchmarks in the field. There is no discussion of existing cutting‑edge methods or comparative studies. The state‑of‑the‑art section should include at least three to five recent publications and highlight their achievements or limitations.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints that PE‑based steganography has not been deeply studied, but it does not explicitly state a concrete research gap or formulate a clear unresolved question. A gap statement should identify what is missing in current knowledge (e.g., lack of systematic evaluation of hiding capacity, detection resistance, or a unified framework) and justify why this thesis will fill it.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is vaguely described as investigating how to hide and detect information in PE files. A precise research problem or question is missing (e.g., \"What are the optimal embedding strategies for PE files that maximize payload while minimizing detection risk?\"). Clarify the specific challenge the thesis will address.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are minimal and not consistently formatted. The introduction relies heavily on a single citation and lacks in‑text citations for many claims (e.g., statements about security threats, PE file structure). Expand the bibliography, use proper citation style, and reference all factual statements and prior work.",
+        "complies": false
+    }
+]

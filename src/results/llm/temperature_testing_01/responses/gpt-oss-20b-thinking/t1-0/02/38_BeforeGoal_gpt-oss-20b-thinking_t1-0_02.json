@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction provides a clear overview of why asynchronous programming matters in today’s high‑throughput, real‑time systems, citing its widespread use in web servers, microservices, and high‑performance computing. It connects the topic to current industry trends. It could be strengthened by explicitly stating the research necessity or potential impact on practice.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references recent studies (Zbarcea & Tudose, 2024; Zhang et al., 2024; Rucins et al., 2023; Python Software Foundation, 2025; Reguera‑Salgado et al., 2024; Zhulkovskyi et al., 2024) and mentions concrete tools (CompletableFuture, Akka, asyncio). This demonstrates awareness of the current state of the art and highlights cutting‑edge achievements.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "No explicit research gap is identified. The introduction lists applications and existing technologies but does not point out what remains unresolved or insufficiently addressed—for example, a lack of comparative evaluation between Java and Python in specific asynchronous scenarios.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The precise problem or challenge that the thesis will tackle is not clearly stated. While the title suggests a comparative study, the introduction does not specify whether it will compare performance, developer productivity, resource usage, or another metric.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included throughout the text to support claims about asynchronous programming’s relevance, tools, and applications. The citations are appropriate and cover recent literature.",
+        "complies": true
+    }
+]

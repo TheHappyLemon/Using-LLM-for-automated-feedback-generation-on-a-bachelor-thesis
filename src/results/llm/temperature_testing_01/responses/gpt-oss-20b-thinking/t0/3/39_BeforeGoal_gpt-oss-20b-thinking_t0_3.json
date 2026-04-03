@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction clearly explains that credit risk prediction is vital for financial institutions and that increasingly complex ML models become less transparent, creating a trust issue. It also states that XAI methods can improve interpretability, thereby justifying the need for research.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions XAI techniques such as LIME and SHAP but does not cite any specific studies, recent papers, or benchmark results. Therefore it does not demonstrate awareness of the current state‑of‑the‑art or reference existing cutting‑edge achievements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction does not explicitly identify a concrete research gap. It implies that XAI methods have not been evaluated in credit risk prediction, but it does not state this as a gap or contrast it with prior work.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated: the lack of interpretability in ML models used for credit risk prediction hampers trust and regulatory compliance.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included to support claims, acknowledge prior research, or show how earlier work is used or extended.",
+        "complies": false
+    }
+]

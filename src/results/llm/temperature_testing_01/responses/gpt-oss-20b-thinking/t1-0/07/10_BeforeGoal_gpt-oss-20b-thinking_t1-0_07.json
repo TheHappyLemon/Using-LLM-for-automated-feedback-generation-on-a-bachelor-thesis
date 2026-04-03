@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text outlines the widespread use of JSON and highlights performance challenges with large data and high-load services, which provides a clear motivation for research. However, the explanation could be strengthened by adding more concrete examples of current industry trends or statistics that demonstrate the urgency of the problem.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only one reference (Bourhis et al., 2017) is cited and repeated, and the discussion of libraries such as ujson, orjson, and simplejson is brief. The text does not demonstrate awareness of the most recent research, benchmark studies, or comparative evaluations that would establish the current state-of-the-art in JSON processing with Python.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction mentions a desire to systematize tools and methods but does not explicitly identify a specific research gap. There is no clear statement about what remains unresolved or insufficiently addressed by existing studies, making it difficult to see the novelty or contribution of the proposed work.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The main challenge—improving performance and reliability of JSON handling in Python for large datasets and high-load scenarios—is stated and can be inferred from the text. The problem is fairly clear to the reader.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse; only one repeated citation is present. Most claims about performance issues, library capabilities, and industry relevance lack proper citations, which weakens the scholarly foundation of the introduction.",
+        "complies": false
+    }
+]

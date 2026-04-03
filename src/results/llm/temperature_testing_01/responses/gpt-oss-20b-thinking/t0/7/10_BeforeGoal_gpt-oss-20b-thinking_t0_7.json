@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines JSON’s popularity and highlights performance and structural complexity issues, especially in high‑load and large‑data scenarios, which justifies the need for research. However, the discussion could be strengthened by linking these problems to current industry trends or recent developments in data‑intensive applications.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites a single source (Bourhis et al., 2017) and lists a few third‑party libraries (ujson, orjson, simplejson). It does not reference recent comparative studies, benchmarks, or state‑of‑the‑art techniques that demonstrate the current best practices or gaps in performance optimization.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction mentions the goal of identifying optimization methods, it does not explicitly state a concrete research gap derived from existing literature. A clear gap statement (e.g., lack of systematic comparison of JSON libraries under high‑load conditions) is missing.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is reasonably clear: JSON handling suffers from performance and structural complexity issues when dealing with large data volumes and high‑load applications. The thesis aims to address these challenges by exploring optimization techniques.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Only one reference is provided, and it is used twice. The introduction would benefit from additional citations for the mentioned libraries, recent benchmark studies, and any relevant theoretical frameworks to support the claims made.",
+        "complies": false
+    }
+]

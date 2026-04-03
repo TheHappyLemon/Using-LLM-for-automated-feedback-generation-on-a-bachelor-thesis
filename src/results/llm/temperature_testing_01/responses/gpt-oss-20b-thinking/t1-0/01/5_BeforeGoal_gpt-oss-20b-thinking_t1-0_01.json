@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction explains why the DOCX format is widely used and how it can carry hidden information that poses security risks. It also mentions the growing prevalence of electronic documents and the rise of steganography as a threat. These points highlight the relevance of studying steganalysis for DOCX files. However, the justification could be strengthened by linking the problem more directly to current security incidents or specific organizational impacts.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites several works (Hassan 2016, Shehab 2022, Raggo 2012, Yang 2022, Mukesh 2020) but offers only a cursory overview of existing research. It does not describe specific steganalysis techniques, benchmark results, or how current solutions perform on DOCX files. The state‑of‑the‑art section therefore lacks depth and fails to position the proposed research relative to existing achievements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A research gap is implied when the author states that current steganalysis methods are insufficient for DOCX and that many free tools exist. However, the text does not explicitly articulate what is missing in the literature (e.g., lack of evaluation metrics, limited datasets, or algorithmic shortcomings). Explicitly stating the gap would clarify the contribution.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The main challenge is identified as the need for improved steganalysis methods for DOCX files, but the problem statement is informal and does not specify what aspect will be tackled (e.g., detection accuracy, computational efficiency, or robustness against modern steganographic techniques). A clear, concise problem statement would help readers understand the scope of the thesis.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are mentioned by author and year, but the introduction lacks proper citation formatting and does not consistently support all claims. Some statements (e.g., prevalence of hidden data, impact on security) would benefit from additional sources. Improving the citation style and ensuring every factual claim is referenced would increase credibility.",
+        "complies": false
+    }
+]

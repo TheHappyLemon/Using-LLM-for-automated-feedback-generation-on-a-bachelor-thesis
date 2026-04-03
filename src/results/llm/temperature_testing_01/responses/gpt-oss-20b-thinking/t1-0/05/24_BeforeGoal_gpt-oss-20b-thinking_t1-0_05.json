@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "Text mentions gaming industry evolution but provides only generic statements about AI importance and does not clearly link the topic to current industry challenges or emerging trends, leaving the reader uncertain about the relevance of improving alpha‑beta.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only one source (Luger, 2009) is cited, and there is no discussion of recent advances, alternative pruning techniques, or comparative performance studies, so the state‑of‑the‑art is poorly represented.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text states that standard alpha‑beta cannot distinguish between high‑heuristic nodes that may still lead to loss and those guaranteeing loss, which is a concrete research gap; however, the description could be made more precise and supported by literature.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly articulated: to modify alpha‑beta so it can better select moves in states that are likely to cause loss, improving AI decision making.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse; many claims are made without citations, and only a single reference is provided, so the text does not adequately support its statements with sources.",
+        "complies": false
+    }
+]

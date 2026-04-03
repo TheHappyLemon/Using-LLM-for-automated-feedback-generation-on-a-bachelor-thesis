@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction explains that microservices architecture is increasingly popular, requires fast and effective testing, and that CI/CD pipelines face challenges such as long test times and high resource consumption. This clearly highlights the importance and relevance of the topic.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites a couple of sources (Statista 2021 and Mingxuan Hui et al. 2025) but does not provide a broader survey of recent research or detailed achievements in microservices test automation. The coverage of the state‑of‑the‑art is therefore limited.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction alludes to missing optimization methods and the need to balance cost with test coverage, it does not explicitly state a research gap or articulate what remains unresolved in current studies. The gap is only implied.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: improving the efficiency of test execution and the speed of CI pipelines to enable rapid development cycles without compromising quality.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present but sparse; many claims (e.g., about microservices popularity, CI/CD challenges) lack citations. More extensive referencing would strengthen the introduction.",
+        "complies": false
+    }
+]

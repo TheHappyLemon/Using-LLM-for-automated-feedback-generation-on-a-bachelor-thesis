@@ -1,0 +1,32 @@
+[
+    {
+        "question" : "Outlook",
+        "feedback": "Text is presented as a numbered list with items 1-5, clearly separated.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The list contains 5 tasks, which meets the allowed range (5-7).",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "While the tasks cover literature review, criteria definition, synthesis, experiments, and recommendations, the text does not explicitly describe how results will be validated against existing studies or benchmarks. Without this validation step the research process is incomplete.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Each task is a single sentence with no internal punctuation, satisfying the one-sentence requirement.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "Only the first task begins with an infinitive verb; the others use gerunds or nouns, so the consistent use of infinitives is not met.",
+        "complies": false
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "Sentences are short, straightforward, and use concise language, facilitating readability.",
+        "complies": true
+    }
+]

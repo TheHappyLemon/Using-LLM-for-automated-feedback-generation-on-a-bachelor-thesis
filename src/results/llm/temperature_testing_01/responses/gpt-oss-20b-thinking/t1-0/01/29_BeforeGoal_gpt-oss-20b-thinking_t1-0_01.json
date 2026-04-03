@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The introduction presents statistics on waste generation and highlights the inadequacy of manual sorting, indicating the importance of automated classification. However, it could better link the research to current policy trends or industrial needs, and emphasize the urgency of improving recycling rates.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text cites recent studies (e.g., Ba et al., 2023) and refers to neural networks and computer‑vision methods that are widely used in waste classification. This demonstrates awareness of current approaches, though additional references to benchmark datasets or comparative evaluations would strengthen the section.",
+        "complies": true
+    },
+    {
+        "question" : "Gap",
+        "feedback": "A specific research gap is not explicitly stated. The paragraph mentions the limitations of manual sorting and the need for automated systems, but it does not point out what current solutions lack (e.g., speed, accuracy, sensor integration) or where prior work fails to address the problem.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The challenge of automating waste sorting is mentioned, but the thesis problem is not clearly formulated. A concise statement such as ‘developing a fast, accurate multi‑class classifier for real‑time waste sorting’ would help readers understand the precise research objective.",
+        "complies": false
+    },
+    {
+        "question" : "References",
+        "feedback": "References are included in the text (World Bank, Wastedive, Ba et al., 2023), indicating that sources are acknowledged. Still, a proper bibliography and in‑text citation style would make the referencing more rigorous.",
+        "complies": true
+    }
+]

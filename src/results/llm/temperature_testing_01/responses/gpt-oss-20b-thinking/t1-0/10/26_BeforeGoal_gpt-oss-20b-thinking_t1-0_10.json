@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The introduction briefly notes that steganography is relevant due to the ubiquity of digital communication and the importance of data confidentiality. However, it does not explicitly connect the topic to specific contemporary challenges, such as modern malware evasion techniques or the growing use of PE files in cyber‑attacks. The motivation feels generic rather than compellingly grounded in current trends.",
+        "complies": false
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "Only a single reference to Grebnikov (2019) is provided, and the discussion is limited to broad statements about steganography. There is no overview of recent papers, tools, or benchmark results, nor a comparison of existing PE‑based steganographic methods. Thus the text does not demonstrate awareness of the current state‑of‑the‑art.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text does not identify a concrete research gap. While it mentions that PE‑based steganography has not been deeply explored, it does not specify what aspects are missing (e.g., lack of systematic analysis, absence of detection algorithms, or insufficient evaluation metrics).",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem statement is loosely articulated: to determine which PE format features enable steganographic methods and how information can be hidden or detected. This is a clear, albeit broad, research objective.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "References are scarce and not consistently cited. Only one source (Grebnikov V., 2019) is mentioned, and the formatting is inconsistent. The introduction would benefit from multiple peer‑reviewed citations that support the claims and situate the work within the existing literature.",
+        "complies": false
+    }
+]

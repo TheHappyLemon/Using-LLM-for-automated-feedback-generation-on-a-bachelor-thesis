@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the general importance of steganography and its relevance to security, mentioning the widespread use of PE files and the need to protect against malicious code. However, the discussion is somewhat generic and lacks specific contemporary threats or statistics that would strongly justify the research focus.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single citation (Grebnikov V., 2019) is provided, and there is no mention of recent or leading research, tools, or benchmarks in steganography for executable files. The text does not demonstrate awareness of current state‑of‑the‑art achievements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage hints at a gap by stating that PE file steganography is not deeply explored, but it does not clearly articulate a specific unresolved problem or limitation in existing studies. The gap remains implicit rather than explicitly defined.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is loosely identified as investigating how to hide and detect information in PE files, yet the exact research question or challenge (e.g., developing a new detection method, evaluating existing techniques) is not clearly stated.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse; only one source is cited, and many claims (e.g., about PE format characteristics, security implications) lack citations. The introduction would benefit from additional scholarly references to support its assertions.",
+        "complies": false
+    }
+]

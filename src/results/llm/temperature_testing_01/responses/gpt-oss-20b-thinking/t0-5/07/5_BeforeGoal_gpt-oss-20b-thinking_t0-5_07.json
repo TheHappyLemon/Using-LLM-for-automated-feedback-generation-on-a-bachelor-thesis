@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing importance of digital documents and the potential misuse of steganography, especially in DOCX files. It explains that malicious hidden data can lead to data leaks and cyber attacks, which justifies the need for research. However, the significance could be strengthened by linking the problem more directly to specific risks for DOCX users and organizations, and by quantifying the impact or prevalence of hidden data in DOCX files.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites several studies (e.g., Hassan 2016, Shehab 2022, Raggo 2012, Yang 2022, Mukesh 2020), indicating awareness of existing literature. Nevertheless, it does not describe current steganalysis techniques, tools, or benchmark results, nor does it discuss recent advances or limitations in DOCX‑specific steganalysis. The state‑of‑the‑art section is therefore incomplete and does not fully satisfy the requirement.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A gap is implied when the author states that new steganalysis methods for DOCX are needed, but the text does not explicitly formulate a research question or clearly articulate what is missing in the current knowledge (e.g., lack of automated detection, limited feature sets, insufficient evaluation metrics). A more precise gap statement would help focus the thesis.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The core problem is clearly identified: the need for effective steganalysis techniques for DOCX files to counter hidden malicious data. This is stated directly in the introduction.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "While in‑text citations are present, the introduction lacks a proper reference list, correct formatting, and consistent citation style. Claims that rely on external sources are not fully supported by detailed bibliographic information, which weakens the academic rigor of the text.",
+        "complies": false
+    }
+]

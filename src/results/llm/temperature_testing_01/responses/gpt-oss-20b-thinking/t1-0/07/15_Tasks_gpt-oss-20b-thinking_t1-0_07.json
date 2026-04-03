@@ -1,0 +1,37 @@
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The list is not cleanly numbered; there is a stray \"6\" before task 3, which makes the numbering confusing.",
+        "complies": false
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text contains six distinct tasks (1‑2‑3‑4‑5‑6).",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover analysis, comparison, development, parameter definition, data collection, and evaluation, but the evaluation step does not explicitly compare the new tool with existing solutions or benchmark it against prior work, which is needed for full validation.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Each task is written in a single sentence.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "All tasks start with an infinitive verb (Analizēt, Veikt, Izstrādāt, Noteikt, Iegūt, Novērtēt).",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "Sentences are short, straightforward, and use precise language.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The order of tasks logically leads to the goal of developing a tool, yet the validation step lacks a comparison with existing solutions or benchmarks, which weakens full relevance.",
+        "complies": false
+    }
+]

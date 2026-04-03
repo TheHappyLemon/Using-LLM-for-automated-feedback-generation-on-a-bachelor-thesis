@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction explains that credit risk prediction is essential for risk management, decision making, and regulatory compliance, and highlights the issue of black‑box machine learning models. It clearly states the relevance of explainable AI (XAI) to increase trust and regulatory adherence. However, it could be strengthened by mentioning specific current trends (e.g., stricter regulatory scrutiny, increasing model complexity) to further underline urgency.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text refers to LIME and SHAP generically but does not cite any specific studies, reports, or benchmarks that have applied these methods to financial credit risk prediction. There is no discussion of recent advances or comparative results in the literature, so the awareness of the current state‑of‑the‑art is lacking.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction mentions that the study will evaluate XAI methods, it does not explicitly state a research gap such as: previous work has not compared XAI effectiveness in credit risk models, or no empirical assessment exists for financial institutions. A clear gap statement would strengthen the motivation.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem—improving interpretability of machine‑learning credit risk models through XAI—is clearly identifiable. The introduction articulates the challenge of black‑box models and the need for practical explanations.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No citations or references are present in the excerpt. The introduction would benefit from including sources that support the claims about black‑box risks, regulatory demands, and prior applications of XAI in finance.",
+        "complies": false
+    }
+]

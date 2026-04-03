@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text outlines why microservice architectures are becoming prevalent and highlights the need for rapid, reliable testing, especially in CI/CD environments. It cites usage statistics (85% of surveyed companies) to emphasize relevance. However, the discussion could better connect these points to the specific research problem, stressing the business impact of testing inefficiencies.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two citations (Statista, 2021 and Hui et al., 2025) are provided, and the discussion does not mention key modern practices such as containerization, service meshes, or existing automation frameworks. The state‑of‑the‑art coverage is therefore insufficient and could be expanded to demonstrate awareness of current leading solutions.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction alludes to challenges in balancing cost and thoroughness but does not explicitly state a research gap. A clear statement such as “no comprehensive method exists to optimize automated tests for microservices within CI/CD pipelines” would strengthen the argument.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: improving the efficiency of automated testing for microservices in CI/CD pipelines without compromising quality. The text articulates this goal in a concise manner.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and only cover a few claims. Many assertions (e.g., high frequency of code changes, impact on test duration) lack citations. Including more sources would reinforce credibility and meet academic standards.",
+        "complies": false
+    }
+]

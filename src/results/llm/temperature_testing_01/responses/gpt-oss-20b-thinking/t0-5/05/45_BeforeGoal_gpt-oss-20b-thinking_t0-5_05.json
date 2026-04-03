@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction states that asynchronous and parallel programming is important for mobile devices with limited resources, and that Kotlin’s support for these features is growing. This gives a clear sense of relevance, but the argument could be strengthened by linking the significance more directly to specific performance or user‑experience problems that the thesis will address.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites recent works (Elizarovetal., 2021; Bobrov, 2024; Skeen & Greenhalgh, 2018; Subramaniam, 2019; Griffiths & Griffiths, 2019) and mentions Kotlin’s JVM compatibility and coroutine support, indicating awareness of current developments. Minor formatting inconsistencies in the citations do not undermine the overall coverage.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "A research gap is implied by the question about the effective use of Kotlin’s concurrency tools, but it is not explicitly stated. The introduction should clearly articulate what is missing in the literature (e.g., lack of comparative performance studies, insufficient guidelines for task‑specific coroutine usage, etc.).",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is hinted at by asking about the advantages and disadvantages of Kotlin’s concurrency mechanisms, yet a concrete, narrowly defined research problem is absent. The thesis should specify a particular challenge (e.g., measuring overhead of coroutines versus threads on low‑end devices) that the work will tackle.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included to support claims and acknowledge prior work. However, citation formatting is inconsistent (missing spaces, punctuation, and year placement). Improving the citation style would enhance clarity and academic rigor.",
+        "complies": true
+    }
+]

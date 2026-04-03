@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts apraksta paralēlisms kā mūsdienu programmatūras izstrādes pamata, uzsver C++ un TBB nozīmi augstas veiktspējas un mērogojamības jomās. Tomēr izklāsts ir diezgan vispārīgs un nepiedāvā konkrētus piemērus vai skaitļus, kas parādītu, kā šī tēma ietekmē aktuālos izaicinājumus. Lai būtu pilnīgāks, būtu lietderīgi pievienot konkrētus gadījumus vai tirgus datus, kas parāda, ka TBB ir nepieciešams risinājums.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Teksts neieskaitina nevienu konkrētu pētījumu, rakstu vai citātu, kas parādītu, ka autors ir informēts par pašreizējo zinātnisko un tehnisko stāvokli. Nav minēti pēdējie TBB attīstības posmi, salīdzinājumi ar OpenMP, C++17 std::thread vai citām bibliotēkām. Tas liek uzskart, ka state‑of‑the‑art daļa nav pilnīga.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Tēmas aprakstā nav skaidri formulēts konkrēts pētniecības trūkums. Ir minēts, ka būtu lietderīgi izskaidrot, kā TBB uzlabo ātrdarbību un salīdzināt to ar citiem risinājumiem, bet nav norādīts, kāpēc šī salīdzināšana vēl neizpētīta vai kāpēc esošie pētījumi nav pietiekami. Tāpēc trūkuma identifikācija nav pilnīga.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēmas nostādne ir atzīmēta – C++ sākumā trūca paralēlo programmēšanas iespējas, un TBB piedāvā risinājumu. Tēma vērsta uz TBB veiktspējas uzlabošanu un salīdzināšanu ar citām bibliotēkām. Problēma ir identificēta, taču formulējums varētu būt precīzāks, piemēram, definējot konkrētu mērķi vai jautājumu, ko pētījums atbildīs.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Teksts nepiedāvā nevienu atsauci vai bibliogrāfiju. Lai atbalstītu apgalvojumus, jāiekļauj citāti no zinātniskajiem rakstiem, tehniskajiem dokumentiem vai oficiālajiem TBB resursiem. Bez atsaucēm teksts izskatās mazāk akadēmisks.",
+        "complies": false
+    }
+]

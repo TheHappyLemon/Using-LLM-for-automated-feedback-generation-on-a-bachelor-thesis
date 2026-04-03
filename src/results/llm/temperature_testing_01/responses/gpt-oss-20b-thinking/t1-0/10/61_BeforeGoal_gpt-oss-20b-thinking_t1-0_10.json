@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing importance of robotics across many sectors, the economic and efficiency benefits of automation, and the need for robust perception systems (e.g., sensors and image segmentation) to enable safe robot navigation. It conveys why researching image segmentation for robot control is timely. The link between the broader robotics context and the specific thesis topic could be tightened, but the significance is generally clear.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites a few recent works (Jahn & Heßet 2020; Rubio & Valero 2019) and mentions that image‑segmentation algorithms are being improved. However, it does not specify which state‑of‑the‑art methods exist, how they perform, or provide any comparative discussion. A stronger state‑of‑the‑art would name concrete segmentation approaches (e.g., U‑Net, Mask R‑CNN, DeepLab) and their performance in robotic scenarios.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "No explicit research gap is stated. The paragraph suggests using newer segmentation methods, but does not articulate what is missing in current literature (e.g., lack of real‑time, low‑power models for mobile robots, insufficient datasets for robotic perception). The thesis would benefit from a clear gap statement.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is vague. While the text implies a need for better segmentation to improve collision avoidance and trajectory planning, it does not concretely define the research question or challenge (e.g., achieving X% accuracy at Y frames per second on resource‑constrained hardware). A precise problem definition is needed.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included, but many claims (e.g., economic benefits, sensor types, algorithm improvements) lack citations. The bibliography is sparse; additional sources should support all factual statements and contextualize the thesis within existing research.",
+        "complies": false
+    }
+]

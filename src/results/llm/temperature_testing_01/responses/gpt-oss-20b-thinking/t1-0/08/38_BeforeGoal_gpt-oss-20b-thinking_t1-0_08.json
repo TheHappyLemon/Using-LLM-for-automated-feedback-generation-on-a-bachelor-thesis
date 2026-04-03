@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction clearly outlines the importance of asynchronous programming in modern digital environments, highlighting its role in web servers, databases, microservices, and high-performance systems. It links the relevance to current trends such as real-time processing and system resilience, thereby meeting the requirement.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the field by citing recent studies and referencing well‑known asynchronous frameworks (CompletableFuture, Akka, Python coroutines, asyncio). It briefly describes existing cutting‑edge achievements, satisfying the criteria.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction does not articulate a specific research gap. While it states a need for deeper investigation, it fails to identify what remains unresolved or insufficiently addressed by current knowledge or practice.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "A concrete problem or challenge that the thesis aims to solve is not explicitly defined. The overview mentions general advantages of async programming but does not specify the particular aspect (e.g., performance comparison, error handling, scalability) that will be examined.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are appropriately included to support statements and acknowledge sources, such as Zbarcea & Tudose (2024), Zhang et al. (2024), Rucins et al. (2023), Python Software Foundation (2025), Reguera‑Salgado et al. (2024), and Zhulkovskyi et al. (2024).",
+        "complies": true
+    }
+]

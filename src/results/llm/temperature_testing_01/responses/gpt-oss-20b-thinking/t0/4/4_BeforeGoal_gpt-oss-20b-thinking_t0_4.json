@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the importance of concurrency in Java, citing its popularity and the introduction of virtual threads in JDK 21. It explains that concurrency is crucial for performance in both large projects and everyday applications. However, the explanation is somewhat repetitive and could be tightened to more directly link the topic to current industry challenges.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a handful of sources are referenced (Giebas et al., 2021; Oracle.com; TIOBE). The discussion of java.util.concurrent and virtual threads is brief and lacks comparison with recent research or benchmarks. A stronger state‑of‑the‑art section would include more recent papers, performance studies, or industry reports that illustrate the current limits of Java concurrency.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly state a research gap. It mentions evaluating old and new concurrency mechanisms but does not identify what is missing in existing studies, such as performance comparisons, correctness issues, or usability concerns.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete research problem is not clearly articulated. The reader cannot easily discern whether the thesis will compare performance, analyze safety properties, or propose a new concurrency model.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and not consistently linked to the claims made. Many statements (e.g., Java’s popularity ranking, the impact of virtual threads) lack citations. A more thorough bibliography and in‑text citations would strengthen the introduction.",
+        "complies": false
+    }
+]

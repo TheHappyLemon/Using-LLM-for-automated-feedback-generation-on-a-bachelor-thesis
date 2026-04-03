@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback" : "The introduction clearly states the relevance of the topic: the overwhelming amount of advertising, its negative effects, and the emerging AR technology that could mitigate these issues. It connects the problem to current industry trends (Apple Vision Pro) and societal concerns about attention and personal space. The rationale for research is well articulated.",
+        "complies" : true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback" : "While the text mentions leading industry players (Apple) and technical approaches (YOLO, AR glasses), it lacks detailed citations of specific academic papers or benchmark results that demonstrate the current state of the art. The references are incomplete (e.g., [1], [2] without authors, year, or titles), and there is no discussion of existing solutions or their limitations. Consequently, the state‑of‑the‑art coverage is insufficient.",
+        "complies" : false
+    },
+    {
+        "question" : "Gap",
+        "feedback" : "The introduction explicitly identifies a research gap: the absence of efficient real‑time solutions that can recognize and modify objects (e.g., ads) in an AR environment while maintaining high performance and low latency. It also points out that current systems cannot meet these requirements, thereby justifying the need for new research.",
+        "complies" : true
+    },
+    {
+        "question" : "Problem",
+        "feedback" : "The problem statement is clear: to develop a neural‑network‑based real‑time advertising filter for AR devices. The challenge is well defined, linking it to the identified gap and significance.",
+        "complies" : true
+    },
+    {
+        "question" : "References",
+        "feedback" : "The text includes placeholder citations ([1], [2]) but does not provide full bibliographic details or properly formatted references. This undermines the academic rigor and makes it difficult to verify claims. References need to be fully documented.",
+        "complies" : false
+    }
+]

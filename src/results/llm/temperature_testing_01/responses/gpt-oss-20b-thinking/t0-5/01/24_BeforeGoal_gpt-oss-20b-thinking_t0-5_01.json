@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction touches on the general importance of AI in games and mentions the stagnation of graphics, but it does not clearly link the research topic to current trends such as real‑time constraints, deep learning, or the increasing complexity of game AI. The motivation for improving alpha‑beta in unpromising states is implied rather than explicitly justified. Adding concrete examples of where standard alpha‑beta fails in modern games and why this matters would strengthen the significance.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two citations (Sweetswer&Wiles 2002, Luger 2009) are provided, and the discussion of the state‑of‑the‑art is limited to a brief mention of standard alpha‑beta pruning. Recent advances such as iterative deepening, transposition tables, move ordering heuristics, or machine‑learning guided pruning are absent. The text would benefit from a more comprehensive review of contemporary research and a clearer positioning of the proposed modification within that context.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text explicitly identifies a gap: standard alpha‑beta cannot distinguish between high‑heuristic nodes that still lead to loss and those that guarantee a negative outcome. It states that the modification aims to address this shortcoming. This is a clear, concrete research gap.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is stated clearly: improving the decision quality of the alpha‑beta algorithm in states that are likely to result in loss. The objective of the thesis is easily discernible.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included where needed, but the number is very limited and the formatting is inconsistent. Adding more recent and relevant citations, and ensuring proper formatting, would meet the requirement more robustly.",
+        "complies": true
+    }
+]

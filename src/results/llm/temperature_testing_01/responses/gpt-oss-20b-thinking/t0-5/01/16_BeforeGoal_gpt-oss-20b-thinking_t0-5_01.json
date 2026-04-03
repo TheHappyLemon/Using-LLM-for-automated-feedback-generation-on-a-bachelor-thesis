@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the overload of advertising, its negative effects on attention and emotion, and the emergence of AR technologies that could personalize the environment. It also references industry trends (Apple Vision Pro) and the growing interest in neural networks for real‑time image processing. These points establish relevance, but the argument could be strengthened by quantifying the problem or citing market data to show the urgency of research.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions Apple’s investment, the Apple Vision Pro, and YOLO neural‑network models, indicating awareness of current technologies. However, the citations are incomplete (e.g., [1], [2] without full references), and other relevant works (e.g., recent AR filtering frameworks, real‑time object detection benchmarks) are not referenced. Thus the state‑of‑the‑art coverage is incomplete.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A research gap is identified: the lack of efficient, real‑time solutions that can detect and modify advertising content in AR environments while maintaining high performance and low latency. This gap is explicitly stated, though it could be framed more formally with reference to specific shortcomings in existing studies.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly articulated: to develop a real‑time advertising filtering and personalization system for AR using neural networks. The challenge is well defined and aligns with the stated gap.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The introduction uses bracketed numbers ([1], [2]) but does not provide a bibliography or full citations. Proper references are needed to support claims, acknowledge sources, and demonstrate how prior research is used or extended.",
+        "complies": false
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions the importance of AI in games and the need for efficient search algorithms, but it does not clearly link the proposed improvement to current industry trends, research gaps, or real-world impact. The motivation is vague and lacks concrete examples of why a better alpha‑beta variant is necessary today.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two old references are cited and the discussion of the state of the art is limited to a brief mention of standard alpha‑beta pruning. There is no overview of recent advances, alternative pruning techniques, or empirical results that would situate the work within the current research landscape.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a deficiency in standard alpha‑beta but does not explicitly state a research gap. It lacks a clear statement such as \"no existing method addresses X in Y conditions\" or a comparison showing where current solutions fail.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is stated: to improve the decision making of a computer player when the state is likely to lead to a loss. This issue is identifiable and specific.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and many claims are unsupported. Key statements about AI importance, alpha‑beta limitations, and the proposed modification are not backed by citations. More recent and relevant literature should be included.",
+        "complies": false
+    }
+]

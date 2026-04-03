@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The introduction mentions the growing popularity of microservice architecture and the need for rapid, effective testing within CI/CD pipelines. It highlights the practical challenge of balancing cost efficiency with thorough automated testing, which supports the relevance of the research. However, the justification could be strengthened by linking the topic more explicitly to current industry pressures, such as continuous delivery demands or security concerns.",
+        "complies" : true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "Only a couple of sources are cited (Statista 2021, Hui et al. 2025), and the discussion remains vague. The text does not reference recent surveys, benchmark studies, or state‑of‑the‑art tools that are widely used for microservice test automation or CI/CD optimization. This limits the demonstration of awareness of the current research landscape.",
+        "complies" : false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The introduction states a need for faster, more efficient test cycles but does not explicitly formulate a research gap. It does not articulate what specific aspects of existing solutions are insufficient or what novel contribution is required, which would clarify the novelty of the study.",
+        "complies" : false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The core problem—optimizing automated test execution within CI/CD pipelines to reduce time and resource consumption while preserving quality—is clearly presented. The challenges of long test runtimes and excessive resource usage are identified as the main issues.",
+        "complies" : true
+    },
+    {
+        "question" : "References",
+        "feedback": "References are included but are sparse and inconsistently integrated into the narrative. Citations are not fully formatted and key claims (e.g., statistics on microservice adoption) lack explicit source attribution. More comprehensive referencing would strengthen the scholarly foundation.",
+        "complies" : false
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The list is not neatly formatted: there is a stray \"7\" line and the numbering is broken across lines, so items are not clearly separated as a numbered list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are six distinct tasks (1 through 6); the stray \"7\" is not a task. This falls within the acceptable range of 5–7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover analysis, literature review, tool selection, experimentation, evaluation, and demonstration, which outline a research process. However, there is no explicit mention of validating results by comparison with existing solutions or benchmarks, so the completeness requirement is not fully satisfied.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed in a single sentence and does not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks begin with an infinitive verb (Analizēt, Izpētīt, Izvēlēties, Ieplānot, Novērtēt, Demonstrēt), maintaining a consistent structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are concise, use precise language, and are straightforward, making the tasks easy to understand.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically progress from requirement analysis to literature review, tool selection, experiments, evaluation, and demonstration, directly supporting the thesis goal of exploring AI tools for continuous test maintenance.",
+        "complies": true
+    }
+]

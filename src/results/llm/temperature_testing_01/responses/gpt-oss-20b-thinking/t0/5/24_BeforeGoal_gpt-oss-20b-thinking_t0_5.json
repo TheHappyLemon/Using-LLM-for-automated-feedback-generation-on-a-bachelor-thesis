@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions AI and graphics trends but does not clearly explain why improving alpha‑beta in non‑advantageous states is important for current game development or industry needs. The motivation is vague and lacks concrete relevance.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two dated references (Sweetswer&Wiles, 2002; Luger, 2009) are cited, and the discussion of existing techniques is minimal. The text does not demonstrate awareness of recent advances or compare with other state‑of‑the‑art approaches.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text explicitly identifies a gap: standard alpha‑beta cannot differentiate between high‑heuristic nodes that still lead to loss and those that guarantee loss, which limits AI performance in challenging states.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated – improving alpha‑beta to better handle non‑advantageous states and reduce the probability of loss.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are mentioned but not properly formatted, and there is no bibliography. Citations are incomplete and lack sufficient context to support the claims.",
+        "complies": false
+    }
+]

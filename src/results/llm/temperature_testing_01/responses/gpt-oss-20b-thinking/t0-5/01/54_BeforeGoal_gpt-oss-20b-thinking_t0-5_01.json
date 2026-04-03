@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction explains that microservice architecture is increasingly popular and that automated testing in CI/CD pipelines faces challenges such as long execution times and resource consumption. It cites a 2021 survey and a 2025 study to illustrate the prevalence and difficulty. The motivation is clear, but could be strengthened by linking the significance more directly to business impact or industry trends.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two references are provided (Statista 2021 and Hui et al. 2025). The text does not discuss current tools, frameworks, or comparative studies that address automated testing optimization in microservices. A more thorough state‑of‑the‑art section would mention existing solutions and highlight where they fall short.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage mentions \"nepilnības saistītas ar testēšanas optimizācijas paņēmieniem DevOps vidē\" but does not explicitly articulate a concrete research gap or specify what is missing in the literature. The gap should be stated clearly, e.g., lack of efficient strategies to balance cost and coverage in CI/CD.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: optimizing automated testing in CI/CD flows to reduce time and resource consumption while maintaining quality. This is stated directly in the objectives.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present but limited. Many claims (e.g., about cost–efficiency trade‑offs, resource consumption) are not supported by citations. A more comprehensive referencing of related work would improve credibility.",
+        "complies": false
+    }
+]

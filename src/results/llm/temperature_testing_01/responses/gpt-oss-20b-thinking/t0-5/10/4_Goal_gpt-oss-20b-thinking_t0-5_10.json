@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the thesis will \"noteikt virtuālo pavedienu izmantošanas perspektīvas\", which is somewhat vague. It does not specify what aspects of the perspectives will be examined (e.g., performance, usability, integration with existing concurrency mechanisms) or how success will be measured. A more concrete objective would help clarify the intended outcome.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The statement focuses on the intended outcome (determining perspectives) and does not describe any methods, tools, or processes. This satisfies the requirement to avoid method descriptions.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single, concise sentence that directly communicates the thesis objective. It meets the structural criterion.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "While the goal references virtual threads and Java concurrency, it does not explicitly tie back to the specific gaps mentioned earlier, such as evaluating old vs. new concurrency mechanisms or addressing issues like race conditions. The goal could be strengthened by linking it more directly to the motivations presented in the introduction.",
+        "complies": false
+    }
+]

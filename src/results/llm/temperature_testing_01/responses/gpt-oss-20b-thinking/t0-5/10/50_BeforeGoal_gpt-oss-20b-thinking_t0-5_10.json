@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction touches on the importance of microservices and asynchronous programming, but the justification is vague and lacks concrete evidence or data to demonstrate the urgency or relevance of the research.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While several technologies (Flask, Django, FastAPI, Celery, aiohttp, asyncio) are mentioned, there are no citations of published studies, benchmarks, or recent advancements that situate the work within the current state of the art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly state a research gap; it merely notes that synchronous approaches cause problems and that asynchronous solutions exist, without identifying what is missing or insufficient in existing knowledge.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated: to investigate and demonstrate solutions for building asynchronous microservices in Python.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references or citations are provided to support claims, acknowledge sources, or illustrate how prior research is used or extended.",
+        "complies": false
+    }
+]

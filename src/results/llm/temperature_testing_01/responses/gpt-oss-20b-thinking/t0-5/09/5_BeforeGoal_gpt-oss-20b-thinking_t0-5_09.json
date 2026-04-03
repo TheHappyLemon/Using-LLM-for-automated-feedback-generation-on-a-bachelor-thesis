@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the prevalence of DOCX files and the potential for hidden malicious data, stressing the need for steganalysis research. It connects the issue to broader trends such as the exponential growth of digital information and the rise of steganographic tools. While the motivation is clear, the argument could be strengthened by quantifying the impact or citing recent incidents to sharpen the urgency.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references several recent studies (e.g., Hassan 2016, Shehab 2022, Raggo 2012, Yang 2022, Mukesh 2020) that discuss steganography, its threats, and the need for improved detection. These citations demonstrate awareness of current research directions. However, the discussion could benefit from mentioning specific state‑of‑the‑art steganalysis techniques or benchmark results to show a deeper engagement with the literature.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "A research gap is identified: existing steganalysis methods are insufficient for DOCX files and for keeping pace with evolving steganographic techniques. The text notes obstacles such as data volume, lack of training, and the proliferation of free tools. The gap is explicit, though it could be more precise by stating which aspects (e.g., feature extraction, machine‑learning models) are lacking.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated: to investigate and develop steganalysis methods specifically for the DOCX format to counter malicious hidden data. The thesis goal aligns with the stated problem, making it easy to identify the concrete challenge.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Citations are present throughout the text (author names and years in parentheses). However, a formal reference list is missing, and some claims could be better supported with more recent or directly relevant sources. Nonetheless, the required references are included where needed.",
+        "complies": true
+    }
+]

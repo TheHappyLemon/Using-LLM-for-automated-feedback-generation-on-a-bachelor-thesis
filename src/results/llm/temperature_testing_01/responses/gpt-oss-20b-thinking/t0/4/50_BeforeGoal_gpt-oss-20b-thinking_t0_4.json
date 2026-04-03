@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction explains the relevance of microservices, their benefits, and the challenges of synchronous communication, highlighting the need for asynchronous solutions in Python. It also mentions industry relevance (fintech, e‑commerce). The significance is therefore reasonably clear, though it could be strengthened with more explicit links to current research needs.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lists technologies such as Flask, Django, asyncio, FastAPI, Celery, and aiohttp, but it does not cite any published research, papers, or recent studies. There is no evidence of awareness of the current state‑of‑the‑art or comparison with existing solutions.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction does not explicitly identify a research gap. It states a need to investigate and demonstrate solutions, but it does not reference existing literature or show what remains unresolved or insufficiently addressed.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated: to investigate and demonstrate asynchronous microservice solutions in Python. The challenge is easily identifiable.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references or citations are provided to support claims or acknowledge prior work. The introduction lacks any bibliographic support.",
+        "complies": false
+    }
+]

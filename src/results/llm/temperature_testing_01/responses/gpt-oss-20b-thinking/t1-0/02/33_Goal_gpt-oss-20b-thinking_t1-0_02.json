@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the thesis aims to develop a solution for preventing downtime using Blue‑Green and Canary deployment strategies within DevOps processes. This is a clear, specific objective that can be measured by the successful implementation or evaluation of such a solution.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The statement explicitly mentions the methods (Blue‑Green and Canary strategies) and context (DevOps processes), which violates the requirement that a goal should focus solely on the intended outcome without describing methods, tools, or processes.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, concise sentence that directly communicates the thesis aim, meeting the structure criterion.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows from the preceding discussion of downtime risks and the need for high availability. It directly addresses the identified gaps by proposing a Blue‑Green/Canary based solution, which aligns with the motivations stated earlier.",
+        "complies": true
+    }
+]

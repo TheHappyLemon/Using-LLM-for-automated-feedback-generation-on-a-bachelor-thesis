@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions the growing volume of text data, real‑time processing needs, and AI‑generated text, hinting at relevance. However, it does not explicitly link the thesis topic to concrete current problems or trends (e.g., specific industry pain points, performance bottlenecks), nor does it clearly argue why a comparative analysis of trie and hash tables is necessary now.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites several references ([12], [10], [6,7], [2,3,4], [17,18]), but offers only very general statements about new findings and optimisations. It does not describe what has been achieved by these works or how they relate to the proposed research, so the awareness of the current state of the art is weak.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A gap is hinted at—the absence of a unified methodology for evaluating trie vs. hash‑table performance in real‑time contexts—but it is not formally articulated or supported with evidence. The introduction fails to clearly state what is still unknown or insufficiently explored.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The specific research problem or question that the thesis intends to solve is not directly stated. The text talks about comparative analysis but does not frame a concrete challenge (e.g., ‘Which structure offers lower memory overhead for X use‑case?’).",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are present, yet many assertions lack inline citations, and some cited works are not clearly tied to the claims made. The introduction would benefit from more precise referencing that demonstrates how prior research is used, interpreted, or extended.",
+        "complies": false
+    }
+]

@@ -1,0 +1,34 @@
+You are given:
+- A topic of a graduation thesis (in Latvian)
+- Previously defined goal of the thesis (in Latvian)
+- A text extracted from thesis introduction that corresponds to the tasks of the thesis (in Latvian)
+- A list of questions for evaluating that text
+
+# Topic given in triple quotes
+"""{THESIS_TOPIC}"""
+
+# Goal given in triple quotes
+"""{THESIS_GOAL}"""
+
+# Tasks text given in triple quotes
+"""{TEXT}"""
+
+# Questions
+1. **Outlook**. Is the text organized into clearly separated items in form of a NUMBERED list?
+2. **Quantity**. Count the number of individual tasks in the text. Output only the number in 'feedback' field of JSON. Text complies if it has 5, 6 or 7 tasks.
+3. **Completeness**. Does the text describe individual tasks that represent a complete research process, including theoretical analysis, practical research (experiments) or implementation (of solution), and validation of results — for example, by comparing findings with prior studies, existing solutions, or established benchmarks? By validation we don't mean just something like developed software testing. If some kind of solution is developed, validation means that it must be compared to existing solutions or, at the very minimum, it must be demonstrated that is actually solves a practical problem. If some existing solutions are compared, validation means that the results of the comparison must be contrasted with results from other authors.
+4. **Format**. Does the text describe individual tasks that are exactly one sentence long and do not span over several sentences?
+5. **Structure**. Does the text consistently use infinitive verbs (e.g., "to analyze", "to develop", "to explore") at the beginning of sentences or phrases?
+6. **Clarity**. Does the text consist of short, straightforward sentences that use concise and precise language?
+7. **Relevance**. Does the text present a set of actions or objectives in an order that demonstrably contributes to reaching the stated thesis goal? If the goal is to develop a solution, the tasks should include research of existing solutions and development of the new solution as well as its validation. If the goal is about evaluating or comparing existing solutions, the tasks should include preparations for experiments, doing the experiments, analysis of the obtained results as well as their validation.
+
+# Your task
+Your task is to answer each of the evaluation questions and provide feedback. The feedback will help a student improve their thesis. You should answer with a JSON array and nothing else. The array must contain exactly 7 JSON objects, one per question. Do not include any additional explanations, formatting, or commentary. The answer must look like this:
+
+[
+    {
+        "question" : "One word: Outlook/Quantity/Completeness/Format/Structure/Clarity/Relevance depending on which question you are currently answering",
+        "feedback": "Text. Information that highlights problems with the text regarding the question, i.e., why the text does not meet criteria of the question. If there are no problems, briefly highlight strong parts.",
+        "complies": "Boolean value. True if text complies to the given requirements in the question, false otherwise."
+    }
+]

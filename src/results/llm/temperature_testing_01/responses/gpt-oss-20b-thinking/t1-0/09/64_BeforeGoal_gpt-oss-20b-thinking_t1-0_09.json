@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text notes Java’s ubiquity and GC’s impact on performance, indicating relevance for large, resource‑intensive systems. However, it could better link GC issues to current industry trends (e.g., microservices, cloud‑native apps) and quantify the problem. The argument is present but not fully developed.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The introduction mentions a few GC algorithms (Serial, Parallel, Concurrent Mark‑Sweep) but provides no citations or discussion of recent research, benchmarks, or innovative GC techniques (e.g., G1, ZGC, Shenandoah). Thus the state‑of‑the‑art is not demonstrated.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "A concrete research gap is not explicitly identified. The text alludes to GC’s performance impact and lack of control but does not reference specific studies that have left this issue unresolved, nor does it state what remains insufficiently addressed.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is vaguely described as reducing GC pauses and improving performance in large or real‑time systems, but no precise research question or objective is formulated. The challenge is not clearly defined.",
+        "complies": false
+    },
+    {
+        "question" : "References",
+        "feedback": "No bibliographic references are included to support claims or acknowledge prior work. The text needs citations for GC mechanisms, performance studies, and relevant research.",
+        "complies": false
+    }
+]

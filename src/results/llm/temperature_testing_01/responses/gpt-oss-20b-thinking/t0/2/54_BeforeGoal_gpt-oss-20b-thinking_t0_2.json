@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing prevalence of microservices and the associated need for rapid, efficient testing, citing adoption statistics and highlighting challenges in CI/CD pipelines. While it establishes relevance, the argument could be strengthened by explicitly linking the research to broader industry trends and potential impact on software quality.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two sources are cited, and the discussion of existing solutions or evaluations is minimal. The text does not provide a comprehensive overview of current research or state‑of‑the‑art techniques in microservice test automation, leaving the reader uncertain about the novelty of the proposed work.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage mentions \"nepilnības\" (gaps) but does not specify what aspects of test optimization are lacking or how current approaches fall short. A clear, concrete research gap is missing.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is clear: to investigate optimization strategies for automated testing in CI/CD to achieve faster, more efficient test cycles without compromising quality.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse; only two are provided, and many claims (e.g., cost vs coverage trade‑offs, resource consumption) lack citations. The introduction would benefit from additional sources to support its assertions.",
+        "complies": false
+    }
+]

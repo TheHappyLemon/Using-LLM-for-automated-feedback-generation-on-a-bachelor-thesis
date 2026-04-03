@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions general trends in video games and AI, but does not convincingly argue why improving alpha‑beta pruning in unpromising states is important for current research or industry. The link between AI development and the proposed modification is weak and lacks concrete motivation.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two dated references (Sweetswer & Wiles 2002, Luger 2009) are cited, and the discussion of existing techniques is superficial. There is no mention of recent advances in game‑playing AI, modern pruning variants, or comparative performance studies, so the state‑of‑the‑art is not adequately demonstrated.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A research gap is hinted at – that standard alpha‑beta cannot distinguish between high‑heuristic nodes that still lead to loss – but it is not explicitly framed as a gap or supported by evidence that this limitation has not been addressed elsewhere. The statement is vague and lacks concrete justification.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is implied rather than clearly stated. Readers may struggle to pinpoint the exact challenge (e.g., designing a modification that improves move selection in states likely to lead to loss) and how it will be evaluated.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "Only two references are provided, and they are not used to substantiate key claims (e.g., the diminishing returns of graphics, the specific limitation of alpha‑beta). More recent and relevant literature should be cited, and in‑text citations should directly support the statements made.",
+        "complies": false
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states a clear aim: develop a modification to the Alpha‑Beta algorithm, integrate it into a full‑information two‑player game, and assess whether it increases the win rate and leads to more reasonable moves. However, terms such as \"augstāka uzvaru koeficienta\" and \"saprātīgākiem gājieniem\" are vague and not quantified, making it difficult to measure success precisely.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The statement describes specific actions—developing, integrating, and evaluating the modification—rather than focusing solely on the desired outcome. It therefore mixes objective with methods, which does not meet the criterion of describing only the intended result.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, concise sentence that directly communicates the thesis objective without unnecessary elaboration.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows the gaps identified earlier: it addresses the inability of the standard Alpha‑Beta algorithm to differentiate between high‑heuristic but losing nodes and guaranteed‑loss nodes, and proposes a modification to improve decision quality in unfavorable positions. All elements of the goal are reflected in the preceding motivation.",
+        "complies": true
+    }
+]

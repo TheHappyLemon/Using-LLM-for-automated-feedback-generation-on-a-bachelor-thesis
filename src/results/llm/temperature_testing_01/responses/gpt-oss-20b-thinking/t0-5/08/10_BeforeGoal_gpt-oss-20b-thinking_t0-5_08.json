@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions that JSON is widely used and that performance and structural complexity can become problematic in high‑load applications. However, it does not clearly connect these issues to current industry trends, emerging technologies, or specific real‑world scenarios that would underscore the urgency of the research. The significance is implied but not explicitly articulated.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites a single source (Bourhis et al., 2017) and lists a few third‑party libraries (ujson, orjson, simplejson). It does not reference recent studies, benchmarks, or comparative evaluations that demonstrate the current leading solutions or their limitations. Thus, the awareness of the state‑of‑the‑art is limited and not fully demonstrated.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction alludes to performance and structural challenges, it does not explicitly state a concrete research gap derived from the cited literature. There is no clear statement of what remains unresolved or insufficiently addressed in existing work.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is vaguely described as general performance and complexity issues with JSON in Python. A specific, well‑defined research question or challenge that the thesis will tackle is missing, making it difficult to identify the exact focus of the study.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "Only one reference is provided, and it is used to support a general statement about JSON’s popularity. Additional citations are needed to back up claims about performance issues, library comparisons, and the need for optimization methods.",
+        "complies": false
+    }
+]

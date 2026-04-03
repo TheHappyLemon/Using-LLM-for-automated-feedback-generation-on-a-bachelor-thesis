@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are listed in a numbered format, but the numbering is inconsistent: a stray line with just \"7\" appears before the last item, and the final two items are out of order (7 then 6). This disrupts the clarity of the list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains six distinct task descriptions (numbers 1–5 and 6).",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover literature review, analysis of existing models, methodology development, testing, comparison, and summary. However, there is no explicit mention of validating the findings against prior studies or benchmarking results, nor is there a clear step that implements or deploys a new solution.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed in a single sentence, ending with a period.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks start with an infinitive verb (e.g., \"Izpētīt\", \"Salīdzināt\", \"Apkopot\").",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are straightforward and concise, though some (particularly task 3) are relatively long and could be split for easier reading.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The sequence of tasks aligns with the goal: researching existing models, developing a methodology, testing, comparing, and summarizing. Adding a step that explicitly compares results with literature or benchmark data would strengthen the alignment.",
+        "complies": true
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the student will develop a modification of the Alpha‑Beta algorithm, integrate it into a full‑information two‑player game, and assess whether this leads to a higher win coefficient and more reasonable moves. This is a clear, specific objective that can be measured by win statistics and move quality metrics. The wording is not overly vague, though the sentence is somewhat long.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal explicitly mentions the methods to be used – developing a modification, integrating it, and determining its effect. An intention statement should focus solely on the desired outcome (e.g., higher win rate) without describing how it will be achieved. Therefore, the current wording does not meet the intention criterion.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single sentence, but it contains multiple clauses and is quite lengthy. The requirement for a concise sentence is not fully satisfied; a shorter, more focused statement would improve clarity.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows the gaps identified in the introduction: it proposes a modification to Alpha‑Beta to better handle unfavorable states and aims to evaluate its impact on win rates and move quality. All elements of the goal are consistent with the motivations presented earlier.",
+        "complies": true
+    }
+]

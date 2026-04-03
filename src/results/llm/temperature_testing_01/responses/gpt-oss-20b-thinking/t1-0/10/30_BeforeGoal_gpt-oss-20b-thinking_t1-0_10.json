@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text offers a general context of evolving database needs and hints at the importance of studying object-relational databases (ORDBs) in modern systems, but it does not explicitly explain why this particular comparison is crucial or how it addresses a current problem or trend. The relevance could be stated more sharply with specific examples or quantitative motivations.",
+        "complies": false
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "No references to published studies, benchmarks, or contemporary achievements are provided. The paragraph merely states that ORDBs have been studied and documented without citing any specific work, so the state-of-the-art awareness is not demonstrated.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text clearly identifies a research gap: a lack of empirical data on performance improvements and design trade‑offs when choosing between simple and complex ORDB structures. This gap is explicitly mentioned as a problem in the introduction.",
+        "complies": true
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The concrete issue the thesis aims to tackle is articulated: the non‑universal nature of ORDB design compared to relational databases and the absence of data on performance gains from different design choices.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "There are no citations or references supporting the statements made in the introduction. The claims rely solely on narrative without acknowledging prior research.",
+        "complies": false
+    }
+]

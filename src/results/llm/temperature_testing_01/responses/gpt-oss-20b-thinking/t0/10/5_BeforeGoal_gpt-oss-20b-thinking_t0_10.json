@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the prevalence of DOCX and the potential for hidden malicious data, linking it to broader trends in digital information exchange and security threats. It explains why research into steganalysis for DOCX is timely. However, the significance could be strengthened by quantifying the impact or providing concrete examples of recent incidents.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites several authors and years, but it does not describe specific state‑of‑the‑art techniques or results. It mentions that steganography is growing and that many tools exist, yet it lacks discussion of current leading methods or benchmarks. Therefore the state‑of‑the‑art coverage is incomplete.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The paragraph explicitly states that existing steganalysis methods are insufficient for DOCX, citing obstacles such as data volume, lack of training, and proliferation of free tools. This clearly identifies a research gap.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated: the need for improved steganalysis techniques to detect hidden malicious data in DOCX files, which is essential for protecting institutions.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "While in-text citations are present, the introduction does not provide a full reference list or properly formatted citations. The claims would be better supported with a bibliography and more precise referencing.",
+        "complies": false
+    }
+]

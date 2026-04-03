@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions YAML’s popularity and its advantages, but it does not strongly connect the topic to current industry challenges, such as the scale of system failures caused by misconfigurations or the increasing demand for efficient data serialization in modern microservices. It lacks quantitative or concrete examples of the impact of YAML-related issues.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "There are no references to peer‑reviewed studies, benchmarks, or recent technical reports that discuss YAML processing in programming languages. The text only lists popular libraries without citing any research on their performance, safety features, or advancements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text states that a comparison of languages and libraries is needed, it does not explicitly identify an existing gap in the literature. It fails to note whether previous evaluations are insufficient, outdated, or absent, which would justify the research.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The challenge is clearly articulated: to compare the data‑processing capabilities (e.g., speed) of different programming languages and their YAML libraries so that developers can choose the most efficient option.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No citations or bibliography entries are present. The introduction does not acknowledge any prior work, which undermines the scholarly foundation of the thesis.",
+        "complies": false
+    }
+]

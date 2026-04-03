@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is presented as a numbered list, which is clear. However, an isolated stray number \"6\" before item 3 creates a minor formatting confusion.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are six distinct tasks (1, 2, 3, 4, 5, 6) after ignoring the stray \"6\" line, which falls within the acceptable range of 5–7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis, tool development, parameter definition, data collection, and evaluation, but they do not include a comparison with existing solutions or external benchmarks. Validation is limited to internal parameters, so the process is not fully complete by the stated criteria.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed in a single, standalone sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks begin with an infinitive verb (e.g., \"Analizēt\", \"Veikt\", \"Izstrādāt\"), maintaining consistent structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are short, direct, and use precise terminology, making the tasks easy to understand.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The set of tasks logically progresses from analysis to development to evaluation, directly supporting the thesis goal of creating and assessing a learning tool.",
+        "complies": true
+    }
+]

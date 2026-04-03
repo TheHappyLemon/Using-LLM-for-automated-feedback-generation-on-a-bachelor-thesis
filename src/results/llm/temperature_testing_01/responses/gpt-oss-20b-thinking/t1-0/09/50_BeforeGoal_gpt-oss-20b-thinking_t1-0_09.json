@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction briefly mentions the benefits of microservices and the need for asynchronous solutions, but it does not strongly tie the topic to current industry trends, quantitative impacts, or specific problems that warrant research. The relevance section is generic and lacks concrete evidence or examples (e.g., performance metrics, case studies) that underscore the urgency of exploring asynchronous microservices in Python.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lists popular Python libraries (asyncio, FastAPI, Celery, aiohttp) but does not reference any published research, benchmarks, or comparative studies that demonstrate the current state-of-the-art. There are no citations, so it is unclear which solutions have been evaluated or how they compare to each other.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the problem statement mentions investigating and demonstrating solutions, the introduction does not explicitly identify a research gap based on existing studies. It lacks a clear statement of what is missing or insufficient in the current knowledge or practice that the thesis intends to address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The thesis problem is stated as the need to investigate and demonstrate asynchronous microservice solutions in Python. This is clear enough for a reader to understand the general focus, although the statement could be more specific about the particular challenges (e.g., performance bottlenecks, resource consumption, scalability limits).",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are provided to support claims, acknowledge sources, or show how prior research is used. The introduction should include citations for statements about microservice trends, synchronous vs asynchronous trade‑offs, and the relevance of Python libraries.",
+        "complies": false
+    }
+]

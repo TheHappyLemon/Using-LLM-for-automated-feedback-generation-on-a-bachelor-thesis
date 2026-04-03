@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions AI importance and graphics slowdown, but the argument for why improving alpha‑beta is crucial in today’s game development context is vague and not strongly tied to current industry trends or specific challenges.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two dated references (Sweetswer&Wiles, 2002; Luger, 2009) are cited, and the discussion does not cover recent advances or comparative studies, so the awareness of the current state‑of‑the‑art is limited.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text clearly identifies a concrete gap: standard alpha‑beta cannot differentiate between high‑heuristic nodes that still lead to loss and those that guarantee loss, which the proposed modification intends to address.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is explicitly stated – improving alpha‑beta’s decision quality in disadvantageous positions to exploit opponent mistakes – making it easy to identify the thesis challenge.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Although a couple of sources are cited, many claims (e.g., about graphics trends, AI importance) lack references, so the reference usage is insufficient to support all statements.",
+        "complies": false
+    }
+]

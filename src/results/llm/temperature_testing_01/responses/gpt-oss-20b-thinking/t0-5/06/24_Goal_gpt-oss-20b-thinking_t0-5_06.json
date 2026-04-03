@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the student will develop a modification to the Alpha‑Beta algorithm, integrate it into a two‑player game, and determine whether this leads to a higher win‑rate coefficient and more reasonable moves.  This is a clear, measurable objective, though the wording could be tightened by specifying the exact metric for \"higher win‑rate\".",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The statement mixes the intended outcome (higher win‑rate and better moves) with specific methods (developing, integrating, concluding).  An intention should focus only on the desired result, not on how it will be achieved.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single sentence, which satisfies the requirement.  It is somewhat long and contains several clauses, but it remains a single, coherent sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows from the preceding discussion about the limitations of standard Alpha‑Beta and the need for a modification that improves decision making in unfavorable states.  All elements mentioned in the goal (modification, integration, evaluation of win‑rate and move quality) are also present in the motivation.",
+        "complies": true
+    }
+]

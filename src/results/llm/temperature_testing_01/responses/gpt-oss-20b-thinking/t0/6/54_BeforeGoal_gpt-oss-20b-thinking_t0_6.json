@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing popularity of microservice architecture and the associated need for rapid, automated testing, citing adoption statistics and general challenges. It hints at the importance of improving CI/CD test efficiency to maintain quality. However, the explanation could be strengthened by explicitly linking the research to current industry pain points, such as specific cost or time metrics, and by framing the study’s relevance in a broader context of DevOps maturity.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two sources are cited (Statista 2021 and Hui et al. 2025). While these references provide some context, the text does not discuss recent tools, frameworks, or benchmark studies that represent the cutting‑edge of automated testing in microservices. A more comprehensive state‑of‑the‑art section should include additional peer‑reviewed papers, industry reports, or open‑source projects that illustrate current best practices and highlight where they fall short.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The paragraph mentions ‘nepilsības saistītas ar testēšanas optimizācijas paņēmieniem DevOps vidē’, but it does not clearly articulate a specific research gap. A stronger statement would identify what aspects of test optimization are missing (e.g., lack of scalable parallel test execution strategies, insufficient resource‑aware scheduling) and why existing solutions are inadequate.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is broadly stated: improving automated test efficiency in CI/CD pipelines for microservices to reduce execution time and resource consumption without sacrificing quality. This is understandable, but the wording could be tightened to specify the exact challenge (e.g., “reducing average test run time by X% while maintaining ≥95% coverage”).",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and not consistently linked to the claims made. Many statements (e.g., about cost‑efficiency trade‑offs, resource consumption) lack citations. Adding appropriate references for each factual claim and for the discussion of existing solutions would improve academic rigor.",
+        "complies": false
+    }
+]

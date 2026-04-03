@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat vague and overly broad. It states to 'investigate existing solutions' and to 'develop and evaluate' optimisation methods without specifying concrete deliverables, metrics, or scope that could be measured to determine success. A clear purpose would define what exactly will be achieved, for example a set of evaluated optimisation techniques or a measurable performance improvement.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The statement mixes the intended outcome with actions. While it indicates the aim to develop and evaluate methods, it also describes the processes ('izstrādāt' and 'novērtēt'), which violates the requirement that the goal should focus on the objective itself rather than on how it will be accomplished.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is split into three sentences and includes additional details beyond a single concise declaration. The requirement is a single, tight sentence that directly communicates the thesis objective, which is not met here.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal references optimisation of automated testing in CI/CD pipelines, which is related to the problems outlined in the introduction. However, it does not explicitly link the specific gaps identified (e.g., long test times, resource consumption) or mention the need to maintain quality. The alignment is present but not strong enough to satisfy the requirement that all aspects of the goal be directly derived from the preceding text.",
+        "complies": false
+    }
+]

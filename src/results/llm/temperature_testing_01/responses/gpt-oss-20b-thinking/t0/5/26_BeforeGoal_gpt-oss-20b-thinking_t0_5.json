@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the relevance of steganography and its application to PE files, mentioning the widespread use of the format and the need for security. However, the discussion is somewhat generic and could be strengthened by linking more explicitly to current cybersecurity threats, industry trends, or specific problems that motivate the research.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single citation (Grebnikov V., 2019) is provided, and most statements are presented without reference to recent or diverse studies. The text does not demonstrate awareness of the latest techniques, tools, or comparative evaluations in PE‑based steganography, which is required for a robust state‑of‑the‑art section.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage mentions that PE files have not been deeply studied for steganography, but it does not explicitly identify a concrete research gap or articulate what remains unresolved. A clear gap statement (e.g., lack of systematic evaluation of embedding capacity, detection resistance, or tool availability) is missing.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem that the thesis intends to solve is not clearly stated. The text lists potential applications and motivations but does not specify a single, focused research question or challenge that the work will address.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse; only one source is cited, and many claims (e.g., about security benefits, prevalence of PE files, or effectiveness of steganography) lack citations. The introduction would benefit from a broader bibliography and proper in‑text citations to support all factual statements.",
+        "complies": false
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The list is intended to be numbered, but the numbering is inconsistent (1, 7, 2, 3, 4, 5, 6). The stray \"7\" and the discontinuous sequence make the list unclear as a properly formatted numbered list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains six distinct task items (ignoring the stray \"7\"), which falls within the acceptable range of 5–7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover analysis, exploration, selection, experimentation, and evaluation. However, the validation step is not explicitly stated as a comparison with existing solutions or benchmarks; it only mentions evaluating results. This weakens the completeness regarding validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed in a single sentence, with no sentence spanning multiple lines or clauses.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks begin with an infinitive verb (Analizēt, Izpētīt, Izvēlēties, Ieplānot, Novērtēt, Demonstrēt), satisfying the structure requirement.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are short, direct, and use concise language, making the tasks easy to understand.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The sequence of tasks logically progresses from requirement analysis to exploration of existing solutions, tool selection, experimentation, result evaluation, and demonstration, directly supporting the stated thesis goal.",
+        "complies": true
+    }
+]

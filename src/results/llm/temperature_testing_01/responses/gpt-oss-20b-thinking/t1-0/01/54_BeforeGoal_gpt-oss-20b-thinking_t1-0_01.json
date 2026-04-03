@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction states that microservice architecture is increasingly popular and that rapid, effective testing is essential to avoid conflicts between code changes, citing statistics from 2021 and discussing cost‑efficiency challenges. This clearly ties the topic to current industry trends and the need for research in automated testing optimization. However, the argument could be strengthened by explicitly linking the identified problems to broader business impacts such as time‑to‑market or reliability metrics.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a few high‑level references (Statista 2021, Mingxuan Hui et al., 2025) are provided, and they are used mainly to describe general challenges rather than to summarize specific, published research or state-of-the-art solutions. There is no discussion of recent empirical studies, tools, or comparative evaluations that exist in the field, so the awareness of the current state of the art is not sufficiently demonstrated.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text mentions \"nepīlнības saistītas ar testēšanas optimizācijas paņēmieniem DevOps vidē\" but does not articulate a clear, concrete research gap. It would benefit from specifying exactly which aspects of test optimization are under‑researched (e.g., test selection, parallelization strategies, resource budgeting) and how existing literature fails to address them.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is stated as investigating optimization strategies for automated testing within CI/CD pipelines to improve speed and efficiency without compromising quality. This is a clear, concrete challenge that the thesis intends to address.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The introduction includes citations for statistical data and a recent paper, indicating an attempt to support claims. Nonetheless, several statements—such as the prevalence of microservice architecture or the cost‑efficiency trade‑offs—lack explicit references, so the coverage of citations could be more comprehensive.",
+        "complies": true
+    }
+]

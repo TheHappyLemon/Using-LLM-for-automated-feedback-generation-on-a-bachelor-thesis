@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are presented as a numbered list (1–6), which clearly separates each item.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are six distinct tasks listed.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover review, data preparation, model development, evaluation, XAI analysis, and impact assessment, but lack explicit comparison of results with existing studies or benchmark methods, which is required for full validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is written as a single, self‑contained sentence.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The verbs at the beginning of the tasks are not consistently infinitives; some are imperatives, which violates the requirement for a uniform infinitive structure.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, direct, and use precise terminology, making them easy to understand.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The ordered tasks logically progress from literature review to data handling, model building, evaluation, explanation, and impact assessment, directly supporting the thesis objective of assessing XAI methods in credit risk prediction.",
+        "complies": true
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the importance of offline support for web applications and cites a recent source (Orozco, 2024) to justify the relevance. However, the argument could be strengthened by linking the significance more directly to specific user pain points or industry trends, and by quantifying the impact of unreliable connectivity.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single reference (Orozco, 2024) is provided, and the text does not mention concrete technologies (e.g., Service Workers, IndexedDB, Progressive Web Apps) or recent studies that demonstrate current solutions. The state‑of‑the‑art section is therefore incomplete and does not fully satisfy the requirement.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage hints at a need for better offline solutions but does not explicitly state a research gap. A clear gap statement—such as the lack of efficient synchronization strategies for large datasets or the absence of standardized APIs—would make the research objective more precise.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is described in broad terms (supporting online and offline operation) but lacks specificity. Defining a concrete challenge—e.g., how to maintain data consistency across intermittent connections or how to provide seamless user experience during network outages—would clarify the thesis focus.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse; only one citation is included. The introduction should incorporate additional scholarly works, industry reports, and technical documentation to support claims, demonstrate awareness of prior research, and justify the chosen research direction.",
+        "complies": false
+    }
+]

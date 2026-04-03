@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions AI in games and the role of alpha‑beta pruning, but it does not convincingly link the proposed improvement to current industry trends or concrete problems. The relevance of better move selection in unpromising states is hinted at, yet the text could strengthen the argument by citing modern game engines, the increasing complexity of game trees, or player experience metrics that would benefit from such an enhancement.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two dated references (Sweetswer&Wiles, 2002; Luger, 2009) are provided, and the discussion of existing techniques is limited to the basic alpha‑beta algorithm. Recent developments such as iterative deepening, move ordering heuristics, null‑move pruning, and machine‑learning‑based evaluation functions are omitted, so the text does not demonstrate a comprehensive awareness of the current state‑of‑the‑art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text explicitly identifies a concrete gap: standard alpha‑beta cannot distinguish between high‑heuristic losing positions and positions that are almost guaranteed loss, leading to suboptimal move choices. This gap is clearly articulated and forms the basis for the proposed modification.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is straightforward: improve the alpha‑beta algorithm’s move selection in states that are likely to lead to loss. This challenge is easily discernible from the introduction.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and inconsistently cited. Key claims about AI importance, graphics trends, and algorithmic limitations lack proper citations. The text would benefit from a more robust bibliography and consistent citation formatting.",
+        "complies": false
+    }
+]

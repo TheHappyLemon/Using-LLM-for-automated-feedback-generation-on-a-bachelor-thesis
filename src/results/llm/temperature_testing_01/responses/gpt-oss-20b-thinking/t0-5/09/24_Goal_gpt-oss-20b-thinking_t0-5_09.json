@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the thesis will develop a modification to the alpha‑beta algorithm, integrate it into a full‑information two‑player game, and assess whether this leads to a higher win coefficient and more reasonable moves. While it outlines the intended outcome, terms such as \"augstāka uzvaru koeficienta\" and \"saprātīgākiem gājieniem\" are somewhat vague and could benefit from clearer, measurable definitions.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal mixes the intended result (higher win rate, better moves) with the methods to achieve it (developing the modification and integrating it). This violates the requirement that the goal focus solely on the outcome without describing processes or tools.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single sentence, satisfying the structural requirement. The sentence is long, but it remains concise enough to convey the thesis objective.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly addresses the problem highlighted earlier—standard alpha‑beta fails to distinguish between high‑heuristic nodes that may lead to loss and those that guarantee loss—and proposes a concrete modification and evaluation. Thus it logically builds on the preceding motivation.",
+        "complies": true
+    }
+]

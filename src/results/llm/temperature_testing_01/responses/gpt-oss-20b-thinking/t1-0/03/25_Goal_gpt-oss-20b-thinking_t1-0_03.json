@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the thesis aims to develop a neural‑network‑based solution for recognizing room objects from fisheye camera images. This is a clear, specific objective that can be evaluated by testing the resulting system on relevant data. The wording is not overly general and avoids vague phrases.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal references neural networks, which is a concrete method. The intention criterion prefers focusing solely on the desired outcome without mentioning methods or tools. Since a method is explicitly named, the goal does not fully satisfy this requirement.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single, concise sentence that directly communicates the thesis objective.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows the identified research gap—absence of room‑object recognition solutions for fisheye cameras—and proposes to address it by developing a neural‑network‑based system, directly responding to the motivations presented earlier.",
+        "complies": true
+    }
+]

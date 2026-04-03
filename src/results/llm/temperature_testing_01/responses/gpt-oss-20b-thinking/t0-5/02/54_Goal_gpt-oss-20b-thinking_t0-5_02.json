@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states several sub‑objectives (investigate existing solutions, develop and evaluate author’s methods, assess effectiveness, precision, and describe application possibilities). While it gives a general sense of what the student wants to achieve, it is not tightly focused and lacks concrete, measurable criteria (e.g., specific metrics or thresholds).",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The statement explicitly mentions developing and evaluating methods, which is a description of the approach rather than just the intended outcome. The goal therefore mixes objective and method, violating the requirement to focus solely on the outcome.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in three separate sentences instead of a single concise sentence. This makes it longer than necessary and less direct.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal refers to optimizing automated tests in CI/CD pipelines, which directly follows the problems and motivations outlined in the preceding text. The mention of the author’s own methods is a natural extension of the research focus and does not contradict earlier statements.",
+        "complies": true
+    }
+]

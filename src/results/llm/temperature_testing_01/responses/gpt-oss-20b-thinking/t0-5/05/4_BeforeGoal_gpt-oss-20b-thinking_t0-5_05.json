@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines Java’s popularity, the emergence of virtual threads in JDK 21, and the persistent weaknesses of classic threading, thereby establishing a clear relevance. However, the explanation could be strengthened by explicitly linking these points to concrete contemporary challenges or industry needs.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the JDK 21 virtual threads and cites Giebas et al. (2021), indicating some awareness of recent developments. Nonetheless, the coverage is sparse and lacks discussion of other key research or comparative studies on concurrency mechanisms, which would better demonstrate a comprehensive grasp of the state of the art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "No explicit research gap is identified. The paragraph suggests evaluating old and new mechanisms but does not articulate what remains unresolved or insufficiently explored in current knowledge or practice.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue the thesis intends to address is not clearly stated. While weaknesses of classic threading are mentioned, the specific research problem or question guiding the study is absent.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "Only one reference (Giebas et al., 2021) is provided, and even that is not fully formatted. Other claims, such as the introduction of virtual threads in JDK 21, lack citations. The reference section is incomplete and does not adequately support the statements made.",
+        "complies": false
+    }
+]

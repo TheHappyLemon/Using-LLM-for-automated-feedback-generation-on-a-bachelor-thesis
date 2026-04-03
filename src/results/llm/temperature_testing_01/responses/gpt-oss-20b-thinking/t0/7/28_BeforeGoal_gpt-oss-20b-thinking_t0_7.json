@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the importance of cookies for user experience and data collection, and highlights privacy and security risks such as session hijacking and XSS. It also notes that modern browsers implement protections (Secure, HttpOnly, SameSite) but that threats continue to grow. The relevance is clear, though the text could be more concise and focused.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing browser security mechanisms (Secure, HttpOnly, SameSite) but does not reference any published studies, surveys, or recent research that evaluate or compare these mechanisms. There are no citations or discussion of cutting‑edge achievements in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A specific research gap is not explicitly stated. The introduction suggests that new threats and evasion techniques exist, but it does not identify what is missing in current knowledge or practice that the thesis will address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is vague. It mentions analyzing and comparing security mechanisms, but does not clearly define a concrete issue, such as evaluating the effectiveness of SameSite in preventing cross‑site request forgery or measuring how well HttpOnly protects against XSS in real‑world scenarios.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "No references are provided to support claims, acknowledge sources, or show how prior research is used. The introduction would benefit from citations of relevant literature and standards.",
+        "complies": false
+    }
+]

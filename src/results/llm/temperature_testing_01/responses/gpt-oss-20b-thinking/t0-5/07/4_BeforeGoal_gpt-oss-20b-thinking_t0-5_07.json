@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "Text highlights Java popularity, concurrency importance, and introduction of virtual threads, but could better link these to specific industry challenges or performance metrics. Overall it provides a reasonable rationale.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a few references are cited (TIOBE, Giebas et al., Oracle.com). The discussion of virtual threads is limited to JDK 21 release; there is no mention of recent research, benchmarks, or comparative studies. Thus the state-of-the-art coverage is insufficient.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction mentions evaluating old and new concurrency mechanisms, but does not state a clear research gap or why existing studies are insufficient. A specific gap (e.g., lack of empirical comparison of virtual vs. platform threads in real-world workloads) is missing.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is implicit rather than explicit. It is not clear what specific challenge (e.g., performance overhead, scalability, ease of use) the thesis will address.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are mentioned but not properly cited or formatted. Several claims (e.g., popularity ranking, concurrency weaknesses) lack citations. The bibliography is incomplete.",
+        "complies": false
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines that industry needs have evolved since the 1980s and that modern information systems require handling complex, hierarchical, interconnected data. It also mentions that object-relational databases (ORDBMS) can simplify data modeling but lack empirical data on performance and design trade‑offs. While this gives a general sense of relevance, the text could strengthen its significance by citing specific current trends (e.g., big data, microservices, cloud-native applications) and explaining why a comparative study of ORDBMS and relational databases is timely and necessary.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The passage does not reference any published research, benchmarks, or recent advancements in ORDBMS or relational database performance. It merely states that such data are not available, without pointing to existing studies or evaluations. To meet the criteria, the author should include citations of recent comparative studies, performance benchmarks, or industry reports that highlight the current state of the art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a gap – the absence of empirical data on performance improvements and design choices for ORDBMS – but it does not explicitly formulate it as a research gap based on prior studies. A clearer statement such as \"Existing literature provides limited empirical evidence on how specific design decisions affect ORDBMS performance compared to relational databases\" would satisfy the requirement.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identified as the lack of data on performance improvements when designing ORDBMS compared to relational databases. Although the statement is present, it could be made more concise and focused, e.g., \"This thesis addresses the lack of empirical evidence guiding the design of ORDBMS for optimal performance.\"",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included anywhere in the introduction. The author should add citations to support claims about industry trends, the evolution of database systems, and the stated lack of empirical data. Proper referencing will also help demonstrate awareness of the state of the art.",
+        "complies": false
+    }
+]

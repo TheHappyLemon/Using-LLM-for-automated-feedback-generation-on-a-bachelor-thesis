@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions the importance of steganography for secrecy and authenticity, and it briefly touches on the relevance of PE files in Windows. However, it does not clearly link these points to current cybersecurity threats, emerging trends, or specific industry needs. The motivation is stated but lacks concrete examples or data that illustrate the urgency of the research.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single reference (Grebnikov V., 2019) is cited, and it is used to support generic statements about steganography. There is no discussion of recent advances, comparative studies, or existing tools/methods that specifically target PE files. The text therefore does not demonstrate awareness of the current state-of-the-art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage states a motivation to understand how PE file characteristics can be used for hiding and revealing information, but it does not explicitly identify what is missing in the literature or practice. No clear research gap is articulated.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "While the text hints at challenges such as hiding malicious code in PE files and detecting it, it does not formulate a concise, researchable problem statement. The reader cannot easily discern the specific issue the thesis will address.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and inconsistently applied. Many factual claims (e.g., about PE file sections, security implications) are presented without citations. The introduction would benefit from a more comprehensive bibliography that supports each key point.",
+        "complies": false
+    }
+]

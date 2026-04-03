@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "Text outlines the importance of microservices, scalability, performance issues with synchronous communication, and relevance of Python async features. However, it could strengthen significance by including quantitative data or recent industry trends and citing sources.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The introduction lists technologies (Flask, Django, FastAPI, Celery, aiohttp) but does not reference any academic studies, benchmarks, or recent publications that establish the current state-of-the-art. Lack of citations makes it unclear how the work relates to existing research.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly state a research gap; it merely states the problem to investigate. It fails to show what is missing in current knowledge or practice, such as lack of comparative studies or evaluation of async frameworks in microservice contexts.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is stated as the need to investigate and demonstrate solutions for asynchronous microservice development in Python. This is clear, though it could be phrased more precisely.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are provided throughout the introduction. All claims about performance, resource consumption, and technology capabilities are unsubstantiated.",
+        "complies": false
+    }
+]

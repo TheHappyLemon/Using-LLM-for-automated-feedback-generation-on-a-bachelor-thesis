@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text uses a numbered list, clearly separating each task.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are six individual tasks in the text.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "While the tasks cover theoretical analysis and an example, they do not include a formal validation step that compares results with existing solutions or benchmarks, nor an implementation or experimental validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed as a single, self‑contained sentence; none span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Tasks 1‑5 begin with infinitive verbs, but task 6 starts with a past participle, breaking consistency.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are short, straightforward, and use concise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered to evaluate YAML processing across languages, directly supporting the thesis goal.",
+        "complies": true
+    }
+]

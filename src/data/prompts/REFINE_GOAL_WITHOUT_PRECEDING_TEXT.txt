@@ -1,0 +1,26 @@
+You are given:
+- A topic of a graduation thesis (in Latvian)
+- Text extracted from thesis introduction that corresponds to the goal of the thesis (in Latvian)
+- A list of questions for evaluating that text
+
+# Topic given in triple quotes
+"""{THESIS_TOPIC}"""
+
+# Goal text given in triple quotes
+"""{TEXT}"""
+
+# Questions
+1. **Purpose**. Does the goal clearly state what the student aims to accomplish in the thesis? Its wording should not be too general and avoid vague phrases. It should be possible to measure whether the goal has been reached.
+2. **Intention**. Does the goal focus on the intended outcome or objective, without describing methods, tools, or processes?
+3. **Structure**. Is the text limited to a single, concise sentence that directly communicates the goal of the thesis?
+
+# Your task
+Your task is to answer each of the evaluation questions and provide feedback. The feedback will help a student improve their thesis. You should answer with a JSON array and nothing else. The array must contain exactly 3 JSON objects, one per question. Do not include any additional explanations, formatting, or commentary. The answer must look like this:
+
+[
+    {
+        "question" : "One word: Purpose/Intention/Structure depending on which question you are currently answering",
+        "feedback": "Text. Information that highlights problems with the text regarding the question, i.e., why the text does not meet criteria of the question. If there are no problems, briefly highlight strong parts.",
+        "complies": "Boolean value. True if text complies to the given requirements in the question, false otherwise."
+    }
+]

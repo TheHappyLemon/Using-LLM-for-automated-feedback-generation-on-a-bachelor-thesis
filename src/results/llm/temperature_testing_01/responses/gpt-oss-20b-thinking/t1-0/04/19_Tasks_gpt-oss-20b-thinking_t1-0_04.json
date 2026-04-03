@@ -1,0 +1,37 @@
+[
+    {
+        "question" : "Outlook",
+        "feedback": "Tasks are presented as bullet points, not a numbered list.",
+        "complies": false
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "Tasks cover research, analysis, development, and testing, but lack explicit comparison of the solution to existing ones or benchmark validation, so the validation step is incomplete.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "All tasks are single-sentence statements.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "Only the first three tasks start with an infinitive verb; the fourth begins with a participle, breaking the consistent pattern.",
+        "complies": false
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "Sentences are concise and straightforward; the only slightly long sentence is task 4, but overall clarity is acceptable.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "Tasks follow a logical order but do not include a comparison or benchmarking step to validate the new solution against existing ones, so they do not fully meet the goal of validating the solution.",
+        "complies": false
+    }
+]

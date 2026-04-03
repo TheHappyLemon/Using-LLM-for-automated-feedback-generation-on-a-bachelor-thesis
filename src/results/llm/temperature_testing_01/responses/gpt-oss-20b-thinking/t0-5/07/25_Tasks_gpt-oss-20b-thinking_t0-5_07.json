@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is organized as a numbered list from 1 to 6, clearly separating each task.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are six distinct tasks listed.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "While the tasks cover analysis, comparison, dataset creation, implementation, and evaluation, the validation step (task 6) does not explicitly state a comparison with existing solutions or a demonstration that the developed system solves a practical problem. Therefore the validation requirement is not fully met.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence; none span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks begin with an infinitive verb (Veikt, Aplūkot, Izpētīt, Izstrādāt, Novērtēt), maintaining consistent structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are concise, straightforward, and use precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks progress logically from analysis and comparison to dataset creation, solution development, and evaluation, directly supporting the goal of developing a neural‑network based recognition system.",
+        "complies": true
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing importance of asynchronous programming in modern software, citing digital transformation, high throughput, and real‑time processing as key drivers. It also references the widespread adoption of Java and Python in this domain. While the relevance is clear, the text could strengthen the link to the specific thesis by explicitly stating how the comparison will address a pressing need or challenge.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The passage demonstrates awareness of current developments by citing recent studies (e.g., Zbarcea & Tudose 2024, Rucins et al. 2023, Reguera‑Salgado et al. 2024) and mentioning concrete technologies such as CompletableFuture, Akka, and Python's async/await. These references provide a solid overview of existing solutions and achievements.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly identify a research gap. It mentions the need for further study but does not specify what aspects of Java vs. Python asynchronous programming remain unresolved or insufficiently explored. A clear gap statement would strengthen the motivation.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem or challenge that the thesis intends to tackle is not clearly stated. The introduction describes the importance of asynchronous programming but does not articulate the specific comparison criteria, evaluation metrics, or the question the research will answer.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included throughout the text to support claims and acknowledge prior work. However, ensuring that all statements, especially those about performance and resilience, are directly linked to a citation would improve scholarly rigor.",
+        "complies": true
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction explains the general importance of object recognition in computer vision and lists several application areas, which gives a broad sense of relevance. However, it does not clearly articulate why the specific problem of room‑interior recognition with fisheye cameras is significant in the current research landscape or how it addresses a pressing need. Strengthening the motivation with concrete examples (e.g., challenges in indoor navigation, augmented reality, or accessibility) would improve this section.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Some recent works are cited (e.g., 2021, 2023, 2024), and the text acknowledges that fisheye cameras are used mainly for autonomous driving. Nevertheless, the discussion lacks depth: it does not summarize key methods, datasets, or performance benchmarks, nor does it reference the most recent or relevant literature on interior recognition or fisheye‑based perception. A more systematic overview of existing solutions would better demonstrate awareness of the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text explicitly states that no solution exists for room‑interior recognition using fisheye camera images, thereby identifying a clear research gap. This statement is concise and directly follows the state‑of‑the‑art discussion.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly articulated: to develop a dataset and a neural‑network‑based solution for recognizing interior elements from fisheye camera images. The goal is stated in the final sentence, making the research challenge easy to identify.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are mentioned in parentheses, but the citation format is incomplete and inconsistent. The introduction would benefit from a proper bibliography with full author names, titles, venues, and publication years, as well as in‑text citations that follow a consistent style. This would strengthen the credibility and traceability of the claims.",
+        "complies": false
+    }
+]

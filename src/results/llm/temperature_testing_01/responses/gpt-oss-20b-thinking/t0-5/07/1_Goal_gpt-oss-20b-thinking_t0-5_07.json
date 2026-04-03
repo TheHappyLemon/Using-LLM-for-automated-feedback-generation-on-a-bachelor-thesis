@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the thesis will investigate AI and machine‑learning‑based tools for automated generation, repair, and maintenance of system tests based on changing requirements described in user stories. It also mentions ensuring timely and accurate test‑scenario creation and evaluating existing solutions. The wording is fairly specific and measurable, although it could be tightened to avoid repetition.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal includes descriptions of how the work will be carried out (e.g., \"apskatīt, kā nodrošināt\", \"tiks izvērtēti esošie risinājumi\"), which shifts focus from the objective to methods. This violates the requirement to avoid describing methods, tools, or processes.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in two sentences, not a single concise statement. The requirement for a single sentence is not met.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly addresses the problems highlighted earlier: manual test creation bottlenecks, need for dynamic continuous testing, and the potential of AI tools. It references user stories and continuous testing, which were mentioned in the introduction. Therefore it is logically consistent.",
+        "complies": true
+    }
+]

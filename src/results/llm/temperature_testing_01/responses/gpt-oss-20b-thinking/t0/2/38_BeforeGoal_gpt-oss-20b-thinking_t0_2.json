@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction effectively highlights the growing importance of asynchronous programming in the digital transformation era, citing scalability, real‑time processing, and resilience as key drivers. It also links these trends to Java and Python adoption. The argument could be strengthened by explicitly stating the research gap, but overall the significance is clear.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references recent studies (Zbarcea & Tudose 2024, Zhang et al. 2024, Rucins et al. 2023, etc.) and describes concrete language features (CompletableFuture, Akka, coroutines, async libraries). This demonstrates awareness of current developments. A more systematic comparison of the cited works would further improve the state‑of‑the‑art section.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction notes a need for deeper research and practical development, it does not articulate a specific, concrete gap—e.g., a lack of comparative performance studies between Java and Python asynchronous models in a particular domain. Explicitly stating such a gap would satisfy the requirement.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The thesis title suggests a comparison of Java and Python in asynchronous programming, but the introduction does not clearly state the concrete problem or research question (e.g., which language performs better under certain workloads). Clarifying the problem would make the thesis focus more evident.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The introduction includes citations for most claims, referencing recent literature and language features. Some statements could benefit from additional citations, but overall the references are appropriately used to support the discussion.",
+        "complies": true
+    }
+]

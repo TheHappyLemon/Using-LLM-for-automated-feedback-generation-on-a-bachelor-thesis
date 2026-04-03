@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing need for large text storage and the inefficiencies of traditional methods, making the topic timely and relevant. It clearly states why research on efficient data structures is necessary.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites a range of recent studies (e.g., Sun et al., 2024; Li Chen, 2022; Mazumdar & Sarma, 2023) and mentions current applications of Trie and hash tables in real‑time analysis and n‑gram processing, demonstrating awareness of the field’s cutting‑edge work.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "It explicitly notes that a deep analysis of Trie and hash table performance for very large text files is lacking, and states the need for a comparative study to determine the most resource‑efficient approach.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly defined: traditional storage and access methods are ineffective for large text files, leading to high memory usage and reduced processing efficiency, which the thesis aims to address by comparing Trie and hash tables.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "While many references are provided, some key claims (e.g., the proposal to use Trie and hash tables) lack explicit citations. Adding sources for these statements would strengthen the reference coverage.",
+        "complies": false
+    }
+]

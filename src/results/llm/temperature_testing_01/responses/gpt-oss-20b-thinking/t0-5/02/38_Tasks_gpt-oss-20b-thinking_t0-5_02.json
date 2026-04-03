@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are presented as a bulleted list, not a numbered list. The requirement for a clearly separated numbered list is not met.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are four individual tasks listed. The required number of tasks is 5, 6, or 7, so the quantity criterion is not satisfied.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover analysis, criterion definition, experimentation, and drawing conclusions. However, there is no explicit step for validating the results against existing solutions or benchmarks, which is required for a complete research process.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed in a single sentence, with no task spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The first three tasks begin with infinitive verbs, but the fourth task starts with a participial phrase before the infinitive. Therefore, the requirement for consistently using infinitives at the start is not fully met.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are concise, straightforward, and use precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically progress from analysis to experimentation to conclusions, directly supporting the thesis goal of comparing Java and Python asynchronous programming.",
+        "complies": true
+    }
+]

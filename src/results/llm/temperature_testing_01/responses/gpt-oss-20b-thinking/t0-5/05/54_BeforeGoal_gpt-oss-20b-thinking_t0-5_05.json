@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction clearly outlines why microservices architecture is increasingly important and why automated testing within CI/CD pipelines is critical. It references industry adoption statistics and highlights the trade‑off between cost, speed, and test coverage, making the research relevance evident.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites a few sources (Statista, 2021; Hui et al., 2025) but offers limited discussion of current research or cutting‑edge solutions in automated testing for microservices. A more comprehensive survey of recent papers, tools, or benchmarks would strengthen the state‑of‑the‑art section.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction mentions shortcomings in DevOps test optimization, it does not explicitly state a concrete research gap or articulate what remains unresolved. A clearer gap statement—e.g., lack of efficient test scheduling algorithms for CI/CD—would improve this aspect.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: improving the efficiency of automated test execution in CI/CD pipelines for microservices without compromising quality. The goal is stated in a straightforward manner.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and some claims (e.g., cost‑efficiency trade‑offs, long test times) lack citations. Adding more sources to support these statements and acknowledging prior work would meet the reference requirement.",
+        "complies": false
+    }
+]

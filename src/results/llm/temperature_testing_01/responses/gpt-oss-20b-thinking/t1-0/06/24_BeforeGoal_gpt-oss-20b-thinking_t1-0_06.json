@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text mentions the importance of AI in games and the potential benefit of improving move selection, but it does not clearly link this to current industry trends or concrete problems (e.g., lack of robust AI in certain game genres). The argument would benefit from stronger evidence or statistics about the market need or user experience impact.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a few references are cited (Luger, 2009; Sweetswer&Wiles, 2002) and the discussion of the state-of-the-art is very brief. There is no mention of recent work on alpha‑beta enhancements, iterative deepening, or machine‑learning guided pruning. The coverage is insufficient to demonstrate awareness of the current frontier.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction alludes to a gap—standard alpha‑beta’s inability to distinguish certain high‑heuristic but losing nodes—but it does not explicitly state the research gap or quantify the unmet need. A clearer statement of what is missing in existing solutions would strengthen this part.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is identified: standard alpha‑beta may choose moves that reduce winning chances in non‑promising states. This is stated explicitly and is easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Two citations are present, but the formatting is inconsistent and some claims (e.g., about graph growth and AI relevance) lack citations entirely. More recent and properly formatted references would be necessary for a scholarly thesis.",
+        "complies": false
+    }
+]

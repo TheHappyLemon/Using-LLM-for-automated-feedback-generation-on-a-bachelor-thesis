@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction clearly outlines the importance of JSON as a widely used data format, highlights performance and structural complexity issues in high‑load scenarios, and explains why studying optimization in Python is relevant.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single reference (Bourhis et al., 2017) is cited, and there is no discussion of recent research, comparative studies, or cutting‑edge solutions beyond mentioning a few libraries without sources.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text alludes to unresolved performance problems but does not explicitly state a concrete research gap or show what specific aspect remains insufficiently addressed in the literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: improving efficiency and reliability when working with JSON in Python, especially under high load and large data volumes.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse; only one source is cited twice, and there are no citations for the mentioned libraries or other relevant studies, leaving claims unsupported.",
+        "complies": false
+    }
+]

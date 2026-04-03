@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing role of robotics and the benefits of automation, and it connects these to the need for reliable object recognition and avoidance. It also highlights the importance of image segmentation for real‑time robot control, thereby establishing relevance. However, the link between segmentation and specific movement‑control challenges could be made more explicit.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites a couple of papers (Jahn & Heßet 2020, Rubio & Valero 2019) but does not discuss specific state‑of‑the‑art segmentation algorithms, their performance, or how they have been applied to robot navigation. The overview is too general and lacks concrete examples of cutting‑edge achievements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "No explicit research gap is stated. The paragraph mentions that modern or tested segmentation methods could be used, but it does not identify what is missing in current solutions or why a new approach is needed.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem that the thesis intends to solve is not clearly articulated. While the topic suggests improving robot movement control via segmentation, the introduction does not specify the particular challenge (e.g., speed, accuracy, robustness) that will be addressed.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "Only two references are provided, and many assertions (e.g., economic benefits, sensor requirements) are not cited. The bibliography is incomplete for the claims made, and there is no discussion of how prior work is built upon.",
+        "complies": false
+    }
+]

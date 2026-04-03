@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal clearly states the aim: to investigate AI/ML-based tools for automated test generation, fixing, and updating based on changing requirements described in user stories, and to evaluate existing solutions. It is specific enough to be measurable.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal also describes how to achieve the aim, e.g., by ensuring timely and accurate test scenario development and evaluating existing solutions, which introduces methods/processes. The intention should focus only on the objective, not on how it will be done.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in two sentences, making it longer than a single concise sentence. The requirement is a single sentence.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly addresses the gaps identified in the introduction: the need for automated test generation and maintenance, dynamic testing environments, and AI solutions. All elements mentioned in the goal are present in the preceding text.",
+        "complies": true
+    }
+]

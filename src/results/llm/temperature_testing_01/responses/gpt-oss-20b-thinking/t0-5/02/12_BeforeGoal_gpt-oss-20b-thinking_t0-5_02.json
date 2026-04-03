@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction notes the rapid growth of generative AI and its societal interest, and it explains the relevance of retrieval‑augmented generation for addressing data gaps. However, it could more explicitly state why this is crucial for Latvian language processing, e.g., limited training data or specific application needs.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites several recent works (Naveed et al. 2024, Alammar & Grootendorst 2024, OpenAI 2023, Zhao et al. 2023, Lewis et al. 2021, Gao et al. 2024) and describes key techniques such as language models, prompt engineering, and retrieval‑augmented generation. The overview is adequate, though adding a brief discussion of evaluation results or competing methods would strengthen it.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "A concrete research gap is not explicitly stated. The text mentions a limitation (models cannot answer untrained questions) and proposes retrieval‑augmented generation as a solution, but it does not indicate whether current implementations are insufficient, lack evaluation, or are missing for Latvian.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem the thesis aims to solve is not clearly articulated. While the title suggests studying embedding and segmentation methods for Latvian text generation, the introduction does not specify the exact challenge (e.g., performance bottlenecks, data scarcity, lack of segmentation algorithms) that will be addressed.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included for many statements, but some claims (e.g., the overall importance of generative AI in the last decade) lack citations. A more systematic referencing of all factual claims and a clearer indication of how prior work is extended would improve the section.",
+        "complies": false
+    }
+]

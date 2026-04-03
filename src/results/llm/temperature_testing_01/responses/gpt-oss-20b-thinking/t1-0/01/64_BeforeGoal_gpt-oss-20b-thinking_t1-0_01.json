@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts uzskaitē Java un GC nozīmi, bet nepiedāvā skaidru saistību ar mūsdienu tendencēm (piemēram, mikropakalpojumi, mākoņdatošana). Lai gan minēta ietekme uz veiktspēju, vajadzētu izcelēt konkrētus problēmu piemērus un nozīmīgumu programmētāju darbībā.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Teksts nepiedāvā konkrētu literatūras atsauci par jaunākajiem GC algoritmiem (p. ek. G1, ZGC, Shenandoah) vai par esošām pētījumu salīdzinājumiem. Tāpēc nav aplūkota lauka pašreizējā izpētes stāvokļa.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Iespējamais pētniecības atstarpe nav skaidri formulēta; teksts neparāda, kas jau zināms un kas joprojām neizpētīts vai nepietiekami izpētīts.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Teksts uzskaitē, ka GC veicina atmiņas noplūdes un veiktspējas pārtraukumus, tāpēc problēma ir GC ietekme uz veiktspēju. Šis jautājums ir identificējams, bet varētu tikt precizētāks.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Tekstā nav pievienotas nekādas atsauces uz publiskajiem darbiem vai avotiem, tādējādi trūkst atbalsta tesiem un kontekstu.",
+        "complies": false
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines why object recognition is a hot research area and gives examples of its applications (human recognition, autonomous driving, surveillance, indoor mapping, robot navigation). It also mentions the lack of wide‑angle camera solutions for interior recognition, hinting at relevance. However, the discussion could be strengthened by explicitly stating the practical benefits of a wide‑angle interior recognition system (e.g., improved robot navigation in cluttered spaces, better accessibility tools).",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites recent, relevant papers (Zou et al. 2023, Narzillo et al. 2021, Kumar et al. 2023, Abba et al. 2024, Singh et al. 2021, Rashed et al. 2020) that demonstrate awareness of current achievements in object recognition and its application domains. The citations cover a broad range of uses but could be more detailed about the specific methods used in these works and how they relate to the proposed research.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "A clear research gap is identified: \"Objectu atpazīšanai platleņķa kameras kontekstā tomēr neeksistē risinājums telpas interjera atpazīšanai.\" The text explicitly states that no wide‑angle camera solution exists for interior recognition and that a dataset is required. This gap is well framed and forms the basis for the thesis.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is readily discernible: to develop a neural‑network‑based interior‑recognition system that works with wide‑angle camera images, which requires creating a dedicated dataset. The statement is concise and directly linked to the identified gap.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included, but the formatting is inconsistent (author names truncated, missing article titles, journal names, volume/issue, and page numbers). Providing full bibliographic details would improve scholarly rigor and allow readers to locate the sources easily.",
+        "complies": false
+    }
+]

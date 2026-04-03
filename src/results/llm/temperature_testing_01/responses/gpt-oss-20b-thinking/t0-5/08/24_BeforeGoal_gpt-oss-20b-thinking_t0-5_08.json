@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction briefly mentions the importance of AI in games and the general evolution of the industry, but it does not clearly explain why improving alpha‑beta pruning for untried states is significant in today’s context. The link between current trends (e.g., increasing AI complexity, demand for smarter opponents) and the specific research problem is weak.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two references are cited (Sweetswer & Wiles, 2002; Luger, 2009), and the discussion of existing techniques is very superficial. Recent developments in game‑playing AI, enhanced pruning strategies, or machine‑learning‑based evaluation functions are not mentioned, leaving the reader without a clear picture of the current state of the art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a concrete gap: the standard alpha‑beta algorithm cannot distinguish between high‑heuristic but losing nodes and nodes that guarantee loss. This limitation is explicitly stated and motivates the proposed modification.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is stated clearly: to improve the move selection of a computer player in situations where the alpha‑beta algorithm would otherwise choose a move that significantly reduces the chance of winning. The challenge is well defined.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and not consistently used to support all claims. Many statements (e.g., about graphics trends, AI importance) lack citations. The introduction would benefit from a richer bibliography that includes recent surveys, benchmark results, and related algorithmic improvements.",
+        "complies": false
+    }
+]

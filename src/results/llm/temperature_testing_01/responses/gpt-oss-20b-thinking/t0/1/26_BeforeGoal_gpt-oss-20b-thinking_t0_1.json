@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction briefly mentions the importance of steganography for secrecy and the widespread use of the PE format, but it does not clearly link these points to current cybersecurity trends, emerging threats, or specific real‑world problems that justify the research. The significance statement is therefore weak and could be strengthened by citing recent incidents or statistics that highlight the need for better understanding of steganography in executable files.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single reference (Grebnikov V., 2019) is cited, and the text does not describe any specific techniques, tools, or recent achievements in the field. There is no discussion of existing methods for hiding data in PE files, nor any comparison with related work. The state‑of‑the‑art section is therefore incomplete.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text alludes to the fact that PE steganography has not been deeply studied, but it does not explicitly state a concrete research gap. A clear gap statement (e.g., lack of systematic evaluation of hiding capacity, detection methods, or impact on malware analysis) is missing.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem that the thesis intends to solve is not articulated in a concise research question or objective. Readers cannot easily discern whether the focus is on developing new hiding techniques, improving detection, or characterizing the PE format’s suitability for steganography.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and not consistently used to support claims. The introduction would benefit from additional citations of recent studies, standards, or tools related to PE analysis and steganography, as well as proper formatting of all references.",
+        "complies": false
+    }
+]

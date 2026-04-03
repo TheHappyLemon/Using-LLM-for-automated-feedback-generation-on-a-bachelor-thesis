@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction explains that Java is widely used and that garbage collection significantly influences performance and memory management, highlighting the relevance of studying GC. It could be strengthened by linking to current trends such as microservices, big data, or real‑time systems.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lists some GC algorithms (Serial, Parallel, Concurrent Mark Sweet) but does not cite any recent research, benchmarks, or state‑of‑the‑art GC implementations (e.g., G1, ZGC, Shenandoah). It lacks references to published studies that would demonstrate awareness of the current field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A concrete research gap is not explicitly identified. The passage mentions the need to reduce GC’s negative impact on performance, but it does not state what specific aspect has been insufficiently addressed by existing work or what new contribution is intended.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is vague: it refers to GC’s influence on performance and the lack of control for developers, but it does not clearly define a specific challenge or research question that the thesis will tackle.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "No citations or references are provided to support claims, acknowledge sources, or situate the work within prior research.",
+        "complies": false
+    }
+]

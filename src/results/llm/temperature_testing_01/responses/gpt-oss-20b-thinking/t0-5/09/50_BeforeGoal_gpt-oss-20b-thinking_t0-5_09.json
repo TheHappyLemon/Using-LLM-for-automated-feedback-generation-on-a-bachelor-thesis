@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions that microservices are widely used and that synchronous approaches cause high resource consumption, but it does not provide concrete evidence, statistics, or references to current industry trends or academic studies that would underscore the urgency of researching asynchronous solutions in Python. The rationale is somewhat generic and could be strengthened by linking to specific challenges in high‑load systems or citing recent reports on microservices performance.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text lists popular frameworks (Flask, Django, asyncio, FastAPI, Celery, aiohttp), it does not reference any published research, benchmark studies, or recent advancements that demonstrate the current state of the art. There are no citations or discussion of comparative evaluations, leaving the reader without a clear picture of what has already been achieved in this area.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction states that the problem is to investigate and demonstrate solutions, but it does not explicitly identify a specific research gap derived from existing literature. It lacks a clear statement such as \"no comprehensive evaluation of asynchronous microservices in Python exists\" or \"current solutions do not address X problem,\" which would justify the need for the thesis.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is articulated in the sentence: \"Problēma ir izpētīt un demonstrēt risinājumus asinhrono mikropakalpojumu veidošanā Python valodā.\" This is a clear, concise statement of the challenge the thesis intends to tackle, although it could be refined to specify the exact aspects of asynchronous microservice development that will be examined.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references or citations are present in the text. All claims about performance issues, benefits of microservices, and the capabilities of the mentioned frameworks are made without supporting literature, which weakens the academic rigor of the introduction.",
+        "complies": false
+    }
+]

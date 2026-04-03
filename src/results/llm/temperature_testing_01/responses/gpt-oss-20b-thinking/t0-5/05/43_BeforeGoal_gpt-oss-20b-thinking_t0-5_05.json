@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions plagiarism and the lack of research on concept‑map similarity, but it does not clearly articulate why this issue matters for academia, industry, or society. The relevance of detecting similarity in concept maps is only implied through the plagiarism discussion, without concrete examples of impact or urgency. Strengthening the significance would require linking the problem to current trends (e.g., digital learning, collaborative knowledge creation) and explaining the practical consequences of undetected similarity.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Several references are cited (e.g., Buholcs 2008, Jereb 2018, Kamzola 2020), yet the discussion is superficial. The text lists a handful of studies on text‑based similarity tools but does not detail their methodologies, performance, or why they cannot be directly applied to concept maps. The only explicit mention of concept‑map similarity research is a single 2002 paper, but there is no comparison with more recent advances or alternative approaches. The state‑of‑the‑art section would benefit from a clearer survey of current tools, algorithms, and their limitations.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The paragraph stating that only one 2002 publication exists on concept‑map similarity and that existing solutions are inadequate clearly identifies a research gap. It points out that semantic comparison methods used for text have not been sufficiently adapted to the relational structure of concept maps.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is stated: to develop a method or tool for detecting similarity between concept maps, given that current approaches are limited to text or diagrams. The challenge is explicitly identified and is understandable.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present, but the formatting is inconsistent and some claims lack in‑text citations (e.g., the statement about plagiarism being a serious violation). Proper citation style (e.g., APA, Harvard) and a complete bibliography are needed to support the arguments and acknowledge prior work.",
+        "complies": false
+    }
+]

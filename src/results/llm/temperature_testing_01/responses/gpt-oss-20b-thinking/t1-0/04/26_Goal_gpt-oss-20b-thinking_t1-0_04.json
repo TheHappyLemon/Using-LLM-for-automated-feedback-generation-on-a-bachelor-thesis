@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states a clear aim: to examine existing steganography methods with PE files, identify ways to improve the process, and analyze and compare available tools. It is specific enough to be measurable, although the phrase about making the process more effective could be more precise.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The statement includes specific methods (using PE files) and mentions tools, which goes beyond a pure intention focus on the desired outcome. This violates the requirement to avoid describing methods or processes.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed as one long sentence with multiple clauses. While it is a single sentence, it is not concise and may be difficult to parse quickly. The requirement for a concise statement is not fully met.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows the gaps and motivations discussed in the preceding text: it addresses the need to study steganography in PE files, improve methods, and evaluate tools. All aspects of the goal are mentioned in the earlier context.",
+        "complies": true
+    }
+]

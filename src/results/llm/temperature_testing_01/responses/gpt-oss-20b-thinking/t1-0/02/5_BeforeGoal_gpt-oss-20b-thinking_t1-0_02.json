@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction explains that DOCX files are widely used and can carry hidden data, which may be exploited for malicious purposes. It cites the growth of electronic information and the prevalence of steganography. However, the arguments remain somewhat generic and could be strengthened with recent statistics or specific incidents that underline the urgency of research in this area.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While several papers are cited (e.g., Nihad Ahmad Hassan 2016, Doaa A. Shehab 2022), the text does not discuss the most recent or leading steganalysis methods, datasets, or evaluation results for DOCX. It lacks mention of specific algorithms, tools, or benchmark studies that constitute the current state of the art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at gaps—e.g., the need for better steganalysis methods and the lack of training data—but it does not explicitly state a clear, researchable gap derived from the literature. A precise statement such as \"existing DOCX steganalysis techniques fail to detect X% of hidden payloads under Y conditions\" would strengthen this section.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The core problem is identified as the need for steganalysis research focused on the DOCX format. This objective is straightforward and aligns with the topic, although a more detailed problem definition (e.g., what aspects of DOCX are most vulnerable) would clarify the research scope.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The introduction includes inline citations to support claims. However, a complete reference list with full bibliographic details is missing, and some statements (e.g., the exact percentage of electronic information) would benefit from explicit source attribution.",
+        "complies": true
+    }
+]

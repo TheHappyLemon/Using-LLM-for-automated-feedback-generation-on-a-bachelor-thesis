@@ -1,0 +1,26 @@
+You are given:
+- A topic of a graduation thesis (in Latvian)
+- A final section of thesis introduction (in Latvian)
+- A list of questions for evaluating that text
+
+# Topic given in triple quotes
+"""{THESIS_TOPIC}"""
+
+# Final text given in triple quotes
+"""{TEXT}"""
+
+# Questions
+1. **Chapters**. Does the text list the main sections of the thesis?
+2. **Description**. Does the text briefly describe contents of each section.
+3. **Structure**. Can it be easily understood what is the general structure of the thesis just from this text?
+
+# Your task
+Your task is to answer each of the evaluation questions and provide feedback. The feedback will help a student improve their thesis. You should answer with a JSON array and nothing else. The array must contain exactly 3 JSON objects, one per question. Do not include any additional explanations, formatting, or commentary. The answer must look like this:
+
+[
+    {
+        "question" : "One word: Chapters/Description/Structure depending on which question you are currently answering",
+        "feedback": "Text. Information that highlights problems with the text regarding the question, i.e., why the text does not meet criteria of the question. If there are no problems, briefly highlight strong parts.",
+        "complies": "Boolean value. True if text complies to the given requirements in the question, false otherwise."
+    }
+]

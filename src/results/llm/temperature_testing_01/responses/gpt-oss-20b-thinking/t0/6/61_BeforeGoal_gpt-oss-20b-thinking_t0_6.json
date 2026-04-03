@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing role of robotics and the benefits of automation, and it links these to the need for reliable object recognition and avoidance. It also mentions the importance of image segmentation for real‑time robot control. While the general relevance is clear, the discussion could be strengthened by explicitly tying the significance to the specific challenges of robot movement control (e.g., dynamic environments, safety constraints).",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two references are cited, and the text does not describe specific state‑of‑the‑art segmentation algorithms, their performance, or how they have been applied to robot navigation. A more detailed overview of recent advances (e.g., deep learning‑based segmentation, real‑time inference on embedded hardware) would demonstrate awareness of the current field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction does not explicitly state a research gap. It mentions that segmentation methods are being improved, but it does not identify what is missing or insufficient in existing solutions (e.g., lack of speed, accuracy, robustness in harsh conditions). A clear gap statement is needed.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem that the thesis intends to solve is not clearly articulated. While the topic suggests improving image segmentation for robot movement control, the introduction does not specify a concrete challenge (e.g., achieving sub‑millisecond inference, handling occlusions, or integrating segmentation with motion planning).",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and are not linked to most claims. Key statements about robot benefits, sensor requirements, and segmentation importance lack citations. Adding appropriate references for each claim would strengthen the introduction.",
+        "complies": false
+    }
+]

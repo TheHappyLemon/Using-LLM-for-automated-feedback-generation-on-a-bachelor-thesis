@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction highlights the rapid growth of generative AI and the general interest in its applications, but it does not explicitly explain why studying RAG with embeddings for Latvian text is particularly important or relevant in the current context. A clearer statement of the significance—e.g., the lack of Latvian language resources, potential benefits for education or information access—would strengthen this section.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references several recent works (Naveed et al. 2024, Alammar & Grootendorst 2024, OpenAI 2023, Zhao et al. 2023, Lewis et al. 2021, Gao et al. 2024) that describe current models, prompting, and Retrieval Augmented Generation. This demonstrates awareness of the cutting‑edge developments relevant to the topic.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "A specific research gap is not articulated. While the text mentions that models struggle with queries beyond their training data and suggests RAG as a solution, it does not clearly state what is still missing in the current literature—e.g., lack of evaluation on Latvian data, scarcity of embeddings, or limitations of existing RAG pipelines.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The core challenge—developing or evaluating RAG with embeddings for Latvian text—is implied but not explicitly framed. A concise problem statement (e.g., \"There is no established pipeline for RAG that effectively handles Latvian language content\") would help readers quickly grasp the thesis aim.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are provided for key claims, showing that the author acknowledges prior work. However, some statements (e.g., about model limitations) lack citations, and the formatting is inconsistent. Adding missing citations and standardizing reference style would improve academic rigor.",
+        "complies": true
+    }
+]

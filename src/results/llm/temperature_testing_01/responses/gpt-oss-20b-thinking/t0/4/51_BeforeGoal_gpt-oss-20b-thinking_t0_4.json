@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the importance of parallelism in modern software development and positions C++ and Intel TBB as key tools, which clearly conveys relevance. However, it could strengthen the argument by linking to specific industry trends or performance metrics.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text does not reference any published research, benchmarks, or existing studies on TBB or parallel C++ programming. It lacks citations that would demonstrate awareness of current state‑of‑the‑art achievements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction hints at a need to explain how TBB can improve performance and to compare it with other solutions, it does not explicitly state a concrete research gap or articulate what remains unresolved in the literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is reasonably clear: C++ originally lacked parallel programming support, and the thesis aims to investigate how Intel TBB can address this limitation, especially regarding performance and comparison with other approaches.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are provided to support claims or acknowledge prior work. The introduction would benefit from citations of relevant papers, books, or technical reports.",
+        "complies": false
+    }
+]

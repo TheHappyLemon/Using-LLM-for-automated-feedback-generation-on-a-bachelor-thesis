@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the importance of cookies for user experience and privacy risks such as session hijacking and XSS. It explains that modern browsers provide mechanisms (Secure, HttpOnly, SameSite) but that threats still grow, indicating relevance. It could strengthen the significance by linking to current statistics or recent high-profile breaches.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing browser security mechanisms but does not reference specific studies, papers, or benchmarks. There is no citation of recent research or evaluation results, so the awareness of the current state‑of‑the‑art is insufficient.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage states that new security improvements and attack methods evolve, but it does not explicitly identify a concrete research gap. A clear gap—such as limited comparative analysis of cookie‑security mechanisms or lack of automated detection tools—would make the research objective sharper.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is implied (to analyze and compare cookie security mechanisms), yet a precise, focused research question or hypothesis is missing. A statement like \"Which mechanism best mitigates XSS‑based cookie theft under real‑world conditions?\" would clarify the thesis goal.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "No in‑text citations or bibliography entries appear. Including references to key works on cookie security, browser implementations, and vulnerability reports would substantiate claims and demonstrate scholarly rigor.",
+        "complies": false
+    }
+]

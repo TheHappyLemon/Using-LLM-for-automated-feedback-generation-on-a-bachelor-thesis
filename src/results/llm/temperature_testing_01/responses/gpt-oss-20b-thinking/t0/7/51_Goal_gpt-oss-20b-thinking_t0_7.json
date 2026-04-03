@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the thesis will investigate ways to improve parallelism in C++ using TBB, but it is still quite broad and vague. It does not specify concrete outcomes, metrics, or criteria for success, making it difficult to measure whether the goal has been achieved.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal explicitly mentions the TBB library as a tool, which violates the requirement to avoid describing methods, tools, or processes. It should focus solely on the intended outcome without naming the specific technology.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, concise sentence that directly communicates the thesis objective.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows from the preceding discussion of parallelism challenges and the role of TBB, directly addressing the identified gaps and motivations.",
+        "complies": true
+    }
+]

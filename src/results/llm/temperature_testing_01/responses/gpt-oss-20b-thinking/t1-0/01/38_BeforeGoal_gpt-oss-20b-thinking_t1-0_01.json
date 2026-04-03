@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "Text clearly highlights the importance of asynchronous programming in the context of digital transformation, high data throughput, and real‑time processing, and explains its relevance to web servers, microservices, and high‑performance systems. The motivation is well grounded but could be strengthened by explicitly linking the research goal to current industry or academic challenges.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The introduction cites recent studies (e.g., Zbarcea & Tudose 2024; Rucins et al. 2023; Python Software Foundation 2025) and mentions contemporary frameworks such as CompletableFuture, Akka, and async/await. This demonstrates awareness of the current state of the art, though a few more recent benchmarks or comparative works could enrich the context.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly state a research gap. It lists existing achievements and applications but does not point out what is still unresolved or insufficiently studied, such as performance trade‑offs, tooling maturity, or best‑practice guidelines for Java vs. Python.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "A clear problem statement is missing. While the introduction hints at evaluating asynchronous programming models in Java and Python, it does not define the concrete research question or challenge the thesis intends to tackle.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are provided where necessary to support claims and acknowledge prior work. However, ensuring all claims are directly linked to specific sources (e.g., performance figures) would further improve the scholarly rigor.",
+        "complies": true
+    }
+]

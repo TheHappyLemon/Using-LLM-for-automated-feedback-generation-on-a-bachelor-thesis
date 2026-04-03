@@ -1,0 +1,37 @@
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The tasks are clearly numbered and each task is separated, forming a numbered list.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "There are six tasks in total, which meets the acceptable range of 5-7 tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "While the tasks cover theory, analysis, experimentation, and recommendations, there is no explicit mention of validating the results against existing solutions or benchmarks, which is needed for a complete research process.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "All tasks are expressed in a single sentence and do not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "All tasks except the last one begin with an infinitive verb; the last task uses an imperative, violating the consistency requirement.",
+        "complies": false
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "Sentences are short and straightforward, using concise and precise language.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are organized to explore existing methods, develop tests, analyze results, and provide recommendations, directly supporting the thesis goal.",
+        "complies": true
+    }
+]

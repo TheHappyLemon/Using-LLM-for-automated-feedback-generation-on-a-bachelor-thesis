@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text briefly mentions the popularity of microservices and the need for async solutions, but it does not provide a clear, evidence‑based justification of why this topic is crucial in today’s context. Adding statistics on resource consumption, scalability issues, or recent industry trends would strengthen the significance.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the introduction lists technologies such as Flask, Django, FastAPI, Celery, and aiohttp, it does not cite any peer‑reviewed papers, conference proceedings, or comparative studies that demonstrate the current state of the art. Explicit references to existing research or benchmark results are missing.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The paragraph does not explicitly identify what is missing from the current literature or practice. There is no clear statement of a research gap that the thesis intends to fill. The gap needs to be articulated by referencing what prior work has not addressed.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is stated: to investigate and demonstrate solutions for asynchronous microservice development in Python. This is understandable, though a more concise and focused wording would improve clarity.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No citations or references are present in the text. All claims (e.g., about resource consumption, benefits of async, etc.) require supporting literature or official documentation references.",
+        "complies": false
+    }
+]

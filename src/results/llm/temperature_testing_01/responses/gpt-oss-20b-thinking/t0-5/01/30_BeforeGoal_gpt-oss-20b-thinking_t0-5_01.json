@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction hints at the importance of object-relational databases (ORDBMS) by noting industry changes since the 1980s and the need for handling complex, hierarchical data. However, it does not explicitly connect these points to current trends or concrete problems (e.g., performance bottlenecks in modern systems). The motivation would be stronger if it cited specific contemporary challenges or statistics that demonstrate the necessity of the research.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text does not reference any published studies, benchmarks, or recent developments in ORDBMS or relational database performance. It makes general statements about tools and knowledge requirements but lacks citations or discussion of existing cutting‑edge work, so the state‑of‑the‑art claim is not supported.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A research gap is mentioned – the absence of empirical data on performance improvements when designing ORDBMS compared to relational databases. This is a clear gap, though the wording could be tightened to explicitly state what is missing and why it matters for the thesis.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is identifiable: ORDBMS design is not straightforward, and there is a lack of data on performance gains from different design choices. The thesis aims to address this by evaluating or comparing these aspects.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included to support claims, acknowledge prior work, or show how earlier research is used or extended. Adding citations is essential for academic rigor.",
+        "complies": false
+    }
+]

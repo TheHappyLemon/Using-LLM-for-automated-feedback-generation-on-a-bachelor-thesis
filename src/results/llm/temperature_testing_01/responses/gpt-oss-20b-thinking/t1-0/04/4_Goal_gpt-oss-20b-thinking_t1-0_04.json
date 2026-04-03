@@ -1,0 +1,22 @@
+[
+    {
+        "question" : "Purpose",
+        "feedback": "The goal states that the thesis aims to \"noteikt virtuālo pavedienu izmantošanas perspektīvas citu Java paralēlo iespēju kontekstā\", which is somewhat clear but uses the vague term \"perspectives\". It would be better to specify a concrete outcome, e.g., evaluating performance or identifying use‑case benefits, so the success of the goal can be measured objectively.",
+        "complies": false
+    },
+    {
+        "question" : "Intention",
+        "feedback": "The goal is focused on the intended outcome – determining the use perspectives of virtual threads – and does not mention methods, tools, or processes, so it meets the intention criterion.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The goal is contained in a single, concise sentence that directly communicates the thesis objective, satisfying the structure requirement.",
+        "complies": true
+    },
+    {
+        "question" : "Congruence",
+        "feedback": "The goal logically follows from the introductory gaps (e.g., race conditions, bottlenecks) and the motivation to explore virtual threads. It directly addresses the need to assess how virtual threads compare to other Java concurrency mechanisms. The alignment is good, though explicitly linking to the specific issues mentioned could strengthen the coherence.",
+        "complies": true
+    }
+]

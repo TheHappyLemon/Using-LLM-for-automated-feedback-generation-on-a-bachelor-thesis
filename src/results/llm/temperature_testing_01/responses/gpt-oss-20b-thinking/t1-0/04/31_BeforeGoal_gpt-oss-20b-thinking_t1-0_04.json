@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing data volumes, the importance of efficient compression for transfer and storage, and mentions that modern applications require reliable libraries. However, it could more explicitly tie the topic to current industry challenges, such as cloud storage costs or real‑time streaming, to strengthen the relevance.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only the historical Huffman and Lempel‑Ziv algorithms are cited; there is no discussion of contemporary compression libraries, benchmark studies, or recent research on compression performance and security. The text lacks awareness of the current state‑of‑the‑art, leaving readers unable to assess the novelty of the proposed comparison.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The draft indicates a need for comparative analysis but does not explicitly identify a concrete gap, such as the absence of systematic evaluations of available libraries or limitations in existing studies. A clearer statement of what is missing in the literature would strengthen the justification.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is discernible: choosing the most suitable compression library to reduce data transfer costs and improve system response times. The statement is concise and relevant to the thesis topic.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No in‑text citations or bibliographic references are provided to support claims or acknowledge prior work. Adding appropriate references will improve credibility and demonstrate scholarly rigor.",
+        "complies": false
+    }
+]

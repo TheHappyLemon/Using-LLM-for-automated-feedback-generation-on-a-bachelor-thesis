@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing popularity of microservice architecture and the associated testing challenges, highlighting relevance to modern DevOps. It could strengthen the significance section by quantifying the impact of test delays on delivery timelines and explicitly linking the need for optimization to current industry trends.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two references (Statista 2021 and Hui et al. 2025) are cited, and the discussion of current research on automated test optimization, CI/CD best practices, or related tools is minimal. The state‑of‑the‑art section should be expanded to include recent studies, benchmarks, and existing solutions to demonstrate awareness of the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at ‘nepils’ (incompleteness) regarding test‑optimization techniques but does not explicitly articulate a concrete research gap. A clear gap statement, such as the lack of efficient test prioritization or scheduling methods tailored for microservice CI/CD pipelines, is needed.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: optimizing automated testing within CI/CD pipelines for microservices to reduce test execution time and resource consumption while maintaining quality.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included for some claims, but many statements—particularly those about cost‑efficiency trade‑offs and the prevalence of microservices—lack citations. Additional scholarly sources are required to support all key assertions.",
+        "complies": false
+    }
+]

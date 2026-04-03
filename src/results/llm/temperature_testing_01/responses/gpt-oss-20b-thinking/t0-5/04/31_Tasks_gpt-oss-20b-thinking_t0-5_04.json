@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is presented as a numbered list with items 1-5, clearly separated.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are 5 tasks listed, which meets the acceptable range of 5-7.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "While the tasks cover literature analysis, criteria definition, summarizing results, experiments, and recommendations, the text does not explicitly mention validation against existing solutions or benchmarks, so it does not fully satisfy the completeness requirement.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is written on a single line and does not span multiple sentences, satisfying the format criterion.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Only the first task begins with an infinitive verb; the others start with nouns or participles, so the structure is not consistently infinitive.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are concise, straightforward, and use precise language, making the text clear.",
+        "complies": true
+    }
+]

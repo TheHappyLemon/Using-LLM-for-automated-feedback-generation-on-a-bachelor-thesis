@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text highlights the ubiquity of JSON and the performance challenges when handling large data sets in high-load applications, thus underscoring the importance of studying optimization methods in Python. Adding references to current industry trends such as microservices or big‑data workloads would strengthen the argument.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "Only a single citation (Bourhis et al., 2017) is provided, and the discussion of state‑of‑the‑art relies on a generic list of libraries (json, ujson, orjson, simplejson) without referencing benchmark studies or recent comparative research. The section therefore does not fully demonstrate awareness of the field’s latest achievements.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The introduction alludes to a lack of systematic knowledge on the most efficient tools and techniques but does not explicitly articulate a concrete research gap, such as the absence of comprehensive performance evaluations or guidelines for selecting the appropriate library under specific conditions.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The concrete problem is clearly stated: performance degradation (deserialization, serialization, and structure creation) when processing large JSON data in Python, especially for high‑load services.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "Only one reference is cited, while several claims (e.g., performance issues, advantages of third‑party libraries, importance of JSON Schema) are presented without supporting literature. More citations would be necessary to substantiate these statements.",
+        "complies": false
+    }
+]

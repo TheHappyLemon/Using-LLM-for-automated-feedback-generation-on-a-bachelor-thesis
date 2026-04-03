@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction emphasizes Java’s ubiquity and the importance of garbage collection (GC) for performance and memory management, noting its relevance for developers, administrators, and researchers. It outlines how GC can affect large, complex projects and real‑time systems, indicating a clear motivation for the study. To strengthen the significance, the student could mention current trends such as the growing use of microservices, big data analytics, or cloud deployments that amplify GC impact.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lists several GC implementations (Serial, Parallel, Concurrent Mark Sweep) but does not reference any specific research papers, benchmark studies, or recent advances. Consequently, it does not demonstrate awareness of the current state‑of‑the‑art or cite cutting‑edge achievements. Adding citations to recent performance evaluations, JVM tuning guides, or academic studies on GC algorithms would satisfy this criterion.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction hints at unresolved issues—such as the negative impact of GC pauses on performance and the lack of developer control—it does not explicitly articulate a concrete research gap derived from existing studies. The student should identify a precise limitation in current knowledge (e.g., lack of comparative performance data for new GC policies in large web servers) to make the gap clear.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is vaguely described as GC’s impact on performance and the lack of control for developers. It is not tightly framed or quantified, making it difficult for a reader to pinpoint the exact challenge the thesis will tackle. A more specific problem—such as “How can a hybrid GC strategy reduce Stop‑The‑World pause times in high‑traffic web applications?”—would improve clarity.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "No references are provided to support claims, acknowledge sources, or situate the work within existing literature. Including citations for statements about Java’s popularity, GC mechanisms, and their performance effects is essential for academic rigor.",
+        "complies": false
+    }
+]

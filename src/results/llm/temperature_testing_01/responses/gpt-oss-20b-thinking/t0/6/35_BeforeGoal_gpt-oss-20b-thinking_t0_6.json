@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing reliance on web applications and the challenges posed by intermittent connectivity, citing Orozco (2024) to highlight rising demand for offline support. It effectively conveys the relevance of the topic to modern users and remote work scenarios.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single citation (Orozco 2024) is provided, and the discussion of existing solutions is generic. The text lacks a broader survey of recent research, frameworks, or technologies that enable offline web app functionality, such as service workers, IndexedDB, or PWA standards. Thus, the state‑of‑the‑art coverage is insufficient.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage does not explicitly state a research gap. It mentions that results could help analyze existing solutions and propose improvements, but it does not identify what is missing or insufficient in current knowledge or practice.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement clearly identifies issues related to offline operation of web apps—data synchronization, resource access, and user interaction—making the research challenge evident.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Only one reference is cited, and many assertions (e.g., the importance of offline support, the impact on productivity) are presented without sources. The introduction would benefit from additional citations to support its claims.",
+        "complies": false
+    }
+]

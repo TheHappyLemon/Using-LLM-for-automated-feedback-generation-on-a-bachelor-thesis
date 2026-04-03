@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction gives a broad overview of the importance of parallelism and C++ parallel capabilities, mentioning domains such as scientific computing and AI. However, it remains quite generic and does not tie the topic directly to a specific contemporary problem or trend beyond stating that performance is needed. The relevance is implied but could be strengthened with concrete industry or research statistics.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "There are no citations or references to recent papers, books, or other research that detail the current state of TBB or parallel programming in C++. The text fails to show awareness of existing cutting‑edge achievements or evaluations in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction does not articulate a clear research gap. While it hints that C++ historically lacked parallelism and that TBB helps, it does not specify what remains unresolved, what comparisons are missing, or why current solutions are insufficient.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is vague: it mentions C++’s past limitation and the use of libraries like TBB, but it does not define a precise, concrete issue the thesis will tackle. A clearer articulation of the challenge (e.g., performance bottleneck, lack of usability, missing benchmarking) is needed.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "No references are provided to support claims or acknowledge prior work. The text would benefit from proper citations of foundational TBB literature, related parallel frameworks, and relevant studies.",
+        "complies": false
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the thesis will develop a generative AI solution to answer user questions based on information from concept maps. This is a clear objective and can be measured by the system’s ability to answer questions. However, it could be strengthened by specifying what constitutes a successful answer (e.g., accuracy, coverage).",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal explicitly mentions the method/tool – a generative AI solution – which violates the requirement that the statement focus solely on the intended outcome without describing methods or tools.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The statement is a single sentence, but it is quite long and contains several clauses. The requirement for a concise sentence is not fully met; a shorter, more direct formulation would be preferable.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly addresses the identified gap in the preceding text – the lack of tools for analyzing concept maps with LLMs – by proposing a generative AI solution that uses concept map information to answer questions. The relationship is logical and consistent.",
+        "complies": true
+    }
+]

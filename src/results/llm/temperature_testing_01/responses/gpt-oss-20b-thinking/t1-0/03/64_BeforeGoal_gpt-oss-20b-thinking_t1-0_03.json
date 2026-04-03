@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts apraksta Java valodas izplatītību un GC nozīmi, taču trūkst konkrētu mūsdienu problēmu vai tendences atsauces, kas parādītu, kāpēc šī tēma ir īpaši aktuāla tagad. Vismaz jāpiemin pēdējā laika atmiņas pārvaldības izaicinājumi vai nozīmīgi lietošanas gadījumi.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Nav citētas konkrētas publiskās pētījumu publikācijas, standarta GC algoritmi nav aprakstīti ar atsaucēm, tādēļ nav liecināta zināšanu apjoma sapratne.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Tēmas atklātajā pārskatā nav skaidri definēts konkrēts zināšanu trūkums vai neizlīdzināšana, ko pētniecība apmeklē. Tiek minēti problēmas, bet nav norādīts, kas konkrēti ir neizpētīts.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Tēmas problēma – GC ietekme uz veiktspēju un atmiņas pārvaldības efektivitāti – ir skaidri identificēta. Tiek izklāstīta, kā GC var radīt STW uztraucējošas pauzes, kas ietekmē liela apjoma un reāllaika sistēmas.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Atsauces nav iekļautas, un citēšana trūkst vispār.",
+        "complies": false
+    }
+]

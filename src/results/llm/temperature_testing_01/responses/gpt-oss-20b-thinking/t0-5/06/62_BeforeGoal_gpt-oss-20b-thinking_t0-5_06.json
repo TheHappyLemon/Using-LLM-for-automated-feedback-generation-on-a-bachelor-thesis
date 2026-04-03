@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction notes that evacuation is a last resort, that panic makes planning difficult, and that simulation offers a safer way to test plans. However, it does not explicitly connect these points to current trends (e.g., increasing building occupancy, new evacuation technologies) or quantify the relevance (statistics on evacuation failures). A clearer statement of why this research matters today would strengthen the significance.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "References [8], [9], [10], [11], [12], [13], and [14] are listed, but the text does not discuss what those works contribute, how they compare, or what the latest achievements are. The reader cannot see whether existing simulation tools already address the identified issues or whether the proposed approach is novel.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage does not state a concrete research gap. It mentions that simulation has improved testing but does not point out what remains missing (e.g., lack of realistic crowd behavior models, insufficient validation against real events). Explicitly identifying the gap would guide the reader to the thesis contribution.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is loosely framed as using simulation to improve evacuation plans. While this is understandable, a more precise statement (e.g., ‘current simulation models fail to capture panic-driven movement, leading to inaccurate evacuation times’) would make the challenge clearer.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present, but the text does not explain how each source supports the claims or how the prior work is extended. Adding brief citations that describe the relevance of each reference would demonstrate proper acknowledgment and contextualization.",
+        "complies": true
+    }
+]

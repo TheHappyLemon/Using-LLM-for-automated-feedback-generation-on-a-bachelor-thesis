@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the relevance of steganography and its application to PE files, mentioning the widespread use of the format and the need for security. It touches on current trends such as digital communication and cyber‑security. However, the discussion could be strengthened by linking the topic more directly to specific contemporary challenges (e.g., malware evasion, data exfiltration) and by quantifying the impact or prevalence of the problem.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single citation (Grebnikov V., 2019) is provided, and the text does not reference recent or diverse studies on PE‑based steganography, detection methods, or comparative evaluations. The state‑of‑the‑art section is therefore incomplete and does not demonstrate a comprehensive awareness of current research.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints that PE steganography is 'not deeply studied' but does not explicitly state a concrete research gap, such as a lack of efficient embedding algorithms, limited detection tools, or insufficient empirical evaluation. A clear gap statement is missing.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The specific problem the thesis intends to solve is not clearly articulated. The introduction mentions general motivations but does not define a precise research question or challenge (e.g., developing a new embedding technique, improving detection accuracy, or benchmarking existing methods).",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse; only one source is cited, and many claims (e.g., about the prevalence of PE files, the effectiveness of steganography) lack citations. The introduction would benefit from a broader bibliography, proper in‑text citations, and a reference list formatted consistently.",
+        "complies": false
+    }
+]

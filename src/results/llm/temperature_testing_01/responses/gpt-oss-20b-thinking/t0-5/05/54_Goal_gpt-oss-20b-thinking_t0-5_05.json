@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states several specific objectives: investigate existing solutions for optimizing microservice automated testing in CI/CD pipelines, develop and evaluate the author's own optimization techniques, and assess their effectiveness, precision, and applicability. These are clear, measurable outcomes and are not overly vague, so the purpose is adequately defined.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal explicitly mentions actions such as \"izstrādāt\" (develop) and \"novērtēt\" (evaluate), which describe methods rather than focusing solely on the intended outcome. This violates the requirement that the goal should not describe methods, tools, or processes.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in three separate sentences instead of a single concise statement. The requirement for a single, concise sentence is not met, making the structure inadequate.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows the identified gaps in the introduction—namely the need for faster, more efficient testing within CI/CD pipelines—and directly addresses them by proposing investigation, development, and evaluation of optimization methods. All key aspects mentioned in the goal are also referenced in the preceding text, so the goal is congruent with the motivation.",
+        "complies": true
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text mentions that Java is widely used and that garbage collection influences performance, but it does not provide concrete contemporary context, such as current industry trends, quantitative data, or specific scenarios where GC becomes a critical bottleneck. The significance is therefore only partially addressed.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "There are no citations or references to recent research, benchmarks, or modern GC implementations (e.g., G1, ZGC, Shenandoah). The introduction does not demonstrate awareness of the current state‑of‑the‑art or mention any cutting‑edge achievements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction does not explicitly state a research gap. It does not contrast existing studies, highlight unresolved issues, or indicate what remains unknown or insufficiently addressed.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is stated as the impact of garbage collection on performance and the lack of developer control over GC pauses. This is clear enough to identify the challenge the thesis intends to tackle.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are provided to support claims, acknowledge sources, or show how prior research is used. The introduction relies solely on general statements.",
+        "complies": false
+    }
+]

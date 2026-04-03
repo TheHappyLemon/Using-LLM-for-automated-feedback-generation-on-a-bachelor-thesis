@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The introduction mentions the importance of AI in games and the limitations of the standard alpha‑beta algorithm, but it does not clearly articulate why this research is necessary in the context of current industry trends or scientific challenges. The link between the proposed improvement and real‑world impact remains implicit.",
+        "complies": false
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "Only a few generic citations (Sweetswer & Wiles, 2002; Luger, 2009) are provided. The text does not discuss recent advances in game‑playing AI, enhanced pruning techniques, or benchmarks that would position the proposed modification within the current research landscape.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The paragraph hints at a gap – that alpha‑beta cannot distinguish high‑heuristic but ultimately losing positions – but it is not stated explicitly as a research gap derived from a survey of existing literature. A clearer gap statement is needed.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is stated quite directly: improve the alpha‑beta algorithm’s move selection in unpromising states so the computer can exploit opponent mistakes. This is a clear, concrete challenge.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "While a few references appear, many claims (e.g., statements about graphics trends, AI importance) lack citations. A more thorough bibliography and proper inline citations would strengthen the introduction.",
+        "complies": false
+    }
+]

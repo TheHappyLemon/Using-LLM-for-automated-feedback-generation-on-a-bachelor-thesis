@@ -1,0 +1,37 @@
+[
+    {
+        "question" : "Outlook",
+        "feedback": "Text is presented as a numbered list, clearly separating each task.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "7",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover theoretical analysis and propose a new process, but they do not include any concrete implementation, experimentation or validation against existing solutions or benchmarks. Without validation, the research process remains incomplete.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Each task is expressed in a single sentence, without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "All tasks begin with an infinitive verb, maintaining consistent structure.",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "Sentences are concise and straightforward, using clear language to describe each task.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "Tasks align with the goal of investigating AI integration in drone swarms and propose a new process, yet the absence of implementation and validation steps means they do not fully demonstrate how the solution will be tested or compared to existing approaches.",
+        "complies": false
+    }
+]

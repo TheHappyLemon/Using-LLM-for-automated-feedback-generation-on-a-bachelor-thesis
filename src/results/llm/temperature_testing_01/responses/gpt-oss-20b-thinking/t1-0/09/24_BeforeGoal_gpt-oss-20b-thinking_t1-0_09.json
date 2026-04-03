@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The paragraph attempts to highlight the importance of AI in games and the need to improve alpha‑beta pruning, but the motivation is rather generic and does not explicitly link the research to current industry challenges or recent developments.",
+        "complies": false
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "Only two sources are cited (Sweetswer&Wiles, 2002; Luger, 2009) and the discussion is limited to a general overview; it does not cover recent advances or benchmark comparisons in alpha‑beta research.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text identifies that the standard algorithm cannot distinguish between losing nodes and those that could still lead to a win, suggesting a clear gap that the proposed modification aims to fill.",
+        "complies": true
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The thesis problem is clearly stated: to enhance the alpha‑beta algorithm so it can make better decisions in disadvantageous states.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "References are minimal and not consistently used to support claims; additional citations would strengthen the argument.",
+        "complies": false
+    }
+]

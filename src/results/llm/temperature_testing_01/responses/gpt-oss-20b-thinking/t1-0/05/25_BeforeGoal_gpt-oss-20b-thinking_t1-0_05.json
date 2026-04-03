@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction explains that object recognition is a prominent research area and is used in many applications such as person recognition, autonomous driving, and surveillance. It also notes the lack of solutions for interior recognition with fisheye cameras, implying a real-world need. However, the significance could be strengthened by linking the research more explicitly to current industry trends (e.g., AR/VR, robotics) and explaining why the fisheye approach offers a unique advantage.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites recent studies (Zou et al. 2023, Narzillo et al. 2021, Kumar et al. 2023, Abba et al. 2024, Singh et al. 2021, Rashed et al. 2020) that cover general object recognition and specific applications. It acknowledges existing solutions for other domains but not for the specific problem. The mention of these works demonstrates awareness of the state of the art, although more detailed discussion of their methods or results would provide deeper insight.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction explicitly states that there is no existing solution for interior recognition using fisheye cameras, identifying a clear research gap. It also notes the need to build a dataset and neural‑network model for this purpose, which reinforces the gap.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly defined: to develop a dataset and a neural‑network‑based solution for interior recognition from fisheye camera images. This objective is directly derived from the identified gap.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included throughout the text to support claims and acknowledge prior work. The citation format is somewhat informal and could be standardized, but the presence of sources meets the requirement.",
+        "complies": true
+    }
+]

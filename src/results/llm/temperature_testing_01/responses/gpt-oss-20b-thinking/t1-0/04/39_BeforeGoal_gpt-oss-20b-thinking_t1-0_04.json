@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text clearly states that credit risk prediction is vital for financial institutions and that increasing model complexity reduces transparency, thereby affecting trust and regulatory compliance. It links the need for XAI methods to improve interpretability. The significance is well presented, though including a brief mention of current regulatory or industry trends could strengthen the argument.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The introduction does not cite any specific studies, journals, or recent works. It mentions generic ML and XAI techniques (LIME, SHAP) without referencing where they have been applied or evaluated. This lack of citations prevents the reader from assessing the current state-of-the-art and how the proposed work relates to existing research.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "While the introduction highlights the problem of black‑box models, it does not explicitly identify a concrete research gap. There is no statement indicating what has not yet been studied or what deficiencies exist in current XAI applications to credit risk. The gap should be articulated in terms of missing evaluations or insufficiently robust explanations.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is reasonably clear: the lack of interpretability in complex ML credit‑risk models hinders trust and regulatory compliance. The thesis aims to evaluate the effectiveness of XAI methods in providing clear, actionable explanations. However, a more concise problem statement would improve readability.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "No references are provided to support claims, acknowledge sources, or illustrate how prior research is used or extended. Adding citations for key statements (e.g., regulatory requirements, ML model transparency issues, LIME/SHAP studies) is essential.",
+        "complies": false
+    }
+]

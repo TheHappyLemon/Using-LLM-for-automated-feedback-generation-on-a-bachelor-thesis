@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the importance of steganography for secrecy and authenticity, highlights the widespread use of the PE format, and notes the lack of deep study in this area, thereby establishing relevance. However, the discussion could be strengthened by linking the topic more explicitly to current cybersecurity threats or industry trends.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single reference (Grebnikov V., 2019) is cited, and the text does not mention other recent studies, tools, or benchmark results in PE‑file steganography. The state‑of‑the‑art section is therefore incomplete and does not demonstrate a comprehensive awareness of current research.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The author identifies a gap by stating that PE‑file steganography has not been deeply investigated and that the properties enabling hiding and detection are not well understood. This is a clear, though somewhat general, research gap.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is articulated as the need to determine how to hide and detect information in PE files, which is a concrete challenge. The statement is understandable and sets a clear direction for the thesis.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse; most claims lack citations. The introduction would benefit from additional sources to support statements about steganography trends, PE‑file characteristics, and existing detection methods.",
+        "complies": false
+    }
+]

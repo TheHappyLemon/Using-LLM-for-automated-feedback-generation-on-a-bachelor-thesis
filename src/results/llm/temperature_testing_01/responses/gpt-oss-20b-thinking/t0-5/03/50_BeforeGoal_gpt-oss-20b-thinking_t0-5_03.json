@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text mentions that micro‑service architecture is widely used and that asynchronous programming can improve performance, but it does not clearly link these points to current industry challenges, trends, or specific problems that justify research. The relevance is implied but not explicitly argued.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The introduction lists popular Python libraries (asyncio, FastAPI, Celery, aiohttp) but provides no citations of recent studies, benchmarks, or comparative analyses that establish the current state of the art. It therefore lacks the required evidence of awareness of existing research.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "No explicit research gap is stated. The text hints that the application of asynchronous techniques in micro‑services needs investigation, but it does not identify what is missing in the literature or practice, nor does it formulate a clear gap.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is broadly described as investigating and demonstrating asynchronous micro‑service solutions in Python. While the issue is identifiable, it is still vague and could benefit from a more precise statement of the specific challenge to be addressed.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text contains no in‑text citations or a bibliography. Claims about performance impacts and technology capabilities are made without supporting references, which does not meet the requirement for proper citation.",
+        "complies": false
+    }
+]

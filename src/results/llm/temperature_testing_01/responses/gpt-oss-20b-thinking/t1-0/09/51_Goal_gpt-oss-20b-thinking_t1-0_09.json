@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states the intent to investigate ways to improve C++ parallelism using TBB, which is a clear objective. However, the phrase \"izpētīt iespējas\" is somewhat broad and could benefit from a more specific metric (e.g., number of improvement techniques or performance gains) to make it measurable.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal references the TBB library as a means to achieve the objective, which introduces a tool/method detail. Ideally the statement should focus solely on the desired outcome (e.g., \"improve parallelism\") without naming the specific library or approach.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The statement is a single, concise sentence that directly conveys the thesis goal without unnecessary clauses.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows the motivation presented earlier: it addresses the need to enhance parallelism and specifically targets the TBB library, which was identified as a key solution in the introduction.",
+        "complies": true
+    }
+]

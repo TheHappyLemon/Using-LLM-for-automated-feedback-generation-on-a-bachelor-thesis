@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction clearly outlines the growing prevalence of microservices, the frequent code changes that necessitate rapid testing, and the challenges of balancing cost, speed, and quality in CI/CD pipelines. It convincingly argues that optimizing automated testing is essential to sustain fast development cycles without compromising quality.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text cites a 2021 Statista survey and a 2025 study by Mingxuan Hui et al., it provides limited evidence of the current state‑of‑the‑art. More recent, peer‑reviewed research on CI/CD test optimization, microservice testing frameworks, and performance tuning would strengthen the background.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The paragraph mentions 'nepilsības' (shortcomings) in DevOps test optimization, but does not explicitly state a concrete research gap or quantify what remains unresolved. A clear statement such as 'Existing solutions fail to reduce test execution time by more than X% while maintaining Y% coverage' would make the gap explicit.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: the thesis aims to investigate strategies to accelerate and make CI/CD test execution more efficient in microservice architectures without degrading quality.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Only two references are provided, and they are not consistently linked to specific claims. The citation of a 2025 study is problematic, and key statements (e.g., cost vs. thoroughness trade‑off) lack supporting sources. A more comprehensive bibliography and proper citation format are needed.",
+        "complies": false
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The introduction explains the growing importance of asynchronous programming in modern software, citing scalability, real‑time processing, and high performance as key motivations. It outlines relevant application domains such as web servers, microservices, and energy‑simulation systems, thus providing a clear context for why the topic is relevant today. It could strengthen the argument by explicitly linking the comparison of Java and Python to a specific industry or research need.",
+        "complies" : true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text references recent scholarly works (e.g., Zbarcea & Tudose, 2024; Zhang et al., 2024; Rucins et al., 2023; Python Software Foundation, 2025; Reguera‑Salgado et al., 2024; Zhulkovskyi et al., 2024) that cover asynchronous models in Java and Python, actor frameworks, and real‑world use cases. This demonstrates awareness of current research and leading implementations. A brief mention of benchmark studies or comparative surveys would further reinforce the state‑of‑the‑art coverage.",
+        "complies" : true
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The introduction does not identify a concrete research gap. While it states the importance of asynchronous programming, it fails to highlight what is missing in existing literature—e.g., lack of systematic performance comparison, limited evaluation under specific workloads, or insufficient guidance for language‑specific best practices. Articulating such a gap is essential for motivating the thesis.",
+        "complies" : false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The specific issue or challenge that the thesis will address is not clearly defined. The reader cannot discern whether the focus is on performance metrics, programming model ergonomics, error handling, or another aspect. A concise problem statement, such as 'how do Java CompletableFuture and Python async/await compare in throughput and latency under high concurrency?', would make the objective explicit.",
+        "complies" : false
+    },
+    {
+        "question" : "References",
+        "feedback": "References are included to support claims about the role of asynchronous programming and the features of Java and Python. The citations are up‑to‑date and relevant, providing a solid foundation for the discussion. Adding DOIs or publication venues could further improve scholarly rigor.",
+        "complies" : true
+    }
+]

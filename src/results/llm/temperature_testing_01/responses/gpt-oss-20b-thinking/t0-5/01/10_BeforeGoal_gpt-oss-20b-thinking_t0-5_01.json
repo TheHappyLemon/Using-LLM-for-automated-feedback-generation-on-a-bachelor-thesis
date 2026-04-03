@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines JSON’s popularity and the performance challenges in high‑load applications, which establishes relevance. However, it could strengthen the significance by linking more explicitly to current industry trends or recent developments in data‑heavy services.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single reference (Bourhis et al., 2017) is cited, and the discussion of existing Python libraries is superficial. The text does not provide a clear overview of recent research, benchmarks, or comparative studies, so it falls short of demonstrating awareness of the current state‑of‑the‑art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction does not explicitly state a research gap. It mentions the need to identify optimization methods but does not point out what is missing in the current literature or practice.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "While performance issues are mentioned, the specific problem the thesis will tackle (e.g., which aspect of serialization/deserialization to optimize, under what conditions, or which metrics) is not clearly articulated.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse; only one source is cited twice. The introduction would benefit from additional citations to support claims about performance problems, library comparisons, and the importance of JSON in modern applications.",
+        "complies": false
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal clearly states the main aim of the thesis: to investigate AI/ML-based tools for automated test generation, repair, and restoration, and to assess existing solutions. It specifies what will be explored and how it relates to changing requirements, making it measurable.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal describes specific methods and processes—such as how to ensure timely and accurate test scenario development and how to evaluate existing solutions—which violate the requirement that the intention should not mention methods, tools, or processes.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in two long sentences instead of a single concise statement, making it overly verbose and not meeting the structural requirement.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows the gaps and motivations identified earlier: it addresses the need for automated test generation, repair, and maintenance in a continuous testing context, and it aligns with the AI/ML solutions suggested in the introduction.",
+        "complies": true
+    }
+]

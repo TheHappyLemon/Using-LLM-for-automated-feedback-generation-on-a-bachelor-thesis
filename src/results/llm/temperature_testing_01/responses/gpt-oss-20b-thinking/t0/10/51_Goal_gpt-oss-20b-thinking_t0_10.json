@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the thesis will \"investigate possibilities to improve parallelism in C++ programming with the help of the TBB library.\" This phrasing is too vague and does not specify concrete outcomes or metrics that could be used to determine whether the goal has been achieved. It lacks measurability and specificity.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal explicitly mentions the TBB library, which is a tool/method. The question requires the goal to focus solely on the intended outcome without describing tools or processes. By naming the library, the goal mixes objective with a method, so it does not fully comply.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single, concise sentence that directly communicates the thesis objective.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows from the preceding text, which discusses the need for improved parallelism and introduces TBB as a solution. All elements of the goal are present in the motivation section, ensuring consistency.",
+        "complies": true
+    }
+]

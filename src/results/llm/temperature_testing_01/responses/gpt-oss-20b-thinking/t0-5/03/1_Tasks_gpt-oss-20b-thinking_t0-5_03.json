@@ -1,0 +1,37 @@
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The tasks are presented in a numbered list, though the formatting includes an extraneous '7' line. The numbering is clear enough for a reader to identify each task.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "There are six distinct tasks listed (1 through 6). The stray '7' does not count as a separate task.",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover requirement analysis, literature review, tool selection, experiment planning and execution, result evaluation, and demonstration. However, the validation step is implicit rather than explicit; there is no mention of comparing results with existing solutions or benchmarks, which weakens the completeness of the research process.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Each task is expressed in a single sentence, with no sentence spanning multiple lines or clauses.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "All tasks begin with an infinitive verb in Latvian (e.g., Analizēt, Izpētīt, Izvēlēties), providing a consistent grammatical structure.",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are concise and straightforward, using precise language that clearly states the intended action.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The sequence of tasks logically progresses from analysis to experimentation, evaluation, and demonstration, directly supporting the stated thesis goal of exploring AI-based tools for continuous testing.",
+        "complies": true
+    }
+]

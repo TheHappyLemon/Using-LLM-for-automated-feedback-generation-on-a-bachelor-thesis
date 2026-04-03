@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text mentions Java’s popularity and the introduction of virtual threads as recent developments, but it does not convincingly link these facts to a clear research need. It states general performance benefits and concurrency problems without explaining why investigating virtual threads specifically is important for current practice or how it will address unresolved issues. A stronger significance section should explicitly connect the problem space to real‑world challenges and articulate the value of the proposed research.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single citation (Giebas et al., 2021) and some references to Oracle and TIOBE are provided. The text does not discuss recent academic studies, benchmarks, or state‑of‑the‑art frameworks that evaluate or compare traditional and virtual threads. It therefore fails to demonstrate awareness of the current research landscape.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction does not explicitly state a concrete research gap. It lists general issues such as race conditions and deadlocks, but does not identify what is missing in existing literature (e.g., lack of systematic performance evaluation of virtual threads in real‑world scenarios). Without a clear gap, the motivation for the thesis is unclear.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem that the thesis intends to solve is not precisely formulated. The text refers to concurrency problems and new features but does not articulate a specific challenge, such as measuring throughput differences or designing a new synchronization primitive. Consequently, a reader cannot easily discern the concrete research question.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are minimal and inconsistently used. Statements about concurrency issues, Java popularity, and JDK releases lack proper citations, and the referencing style is informal. The introduction would benefit from a systematic bibliography that properly attributes all factual claims and situates the work within existing scholarship.",
+        "complies": false
+    }
+]

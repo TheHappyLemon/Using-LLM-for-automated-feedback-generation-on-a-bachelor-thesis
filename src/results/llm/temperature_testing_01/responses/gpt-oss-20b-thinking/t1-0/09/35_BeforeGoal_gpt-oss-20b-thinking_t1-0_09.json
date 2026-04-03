@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction explains why offline support for web applications is crucial in modern contexts, highlighting productivity and connectivity challenges. It references a recent study (Orozco 2024) to underscore growing demand, though additional empirical evidence could strengthen the case.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites only a single source (Orozco 2024) and does not discuss current technologies (e.g., PWAs, Service Workers, IndexedDB) or recent comparative studies. The awareness of the field’s cutting‑edge achievements is therefore weak.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction mentions unresolved issues like data synchronization and resource access offline, it does not explicitly state a research gap, such as the absence of a comprehensive evaluation or inadequate existing solutions.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly articulated: web applications face operational challenges without an internet connection, affecting data sync, resource access, and user interaction.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Only one reference is provided. Several claims (e.g., the importance of offline mode, impact on productivity) lack citations, and the single source is insufficient to support the statements made.",
+        "complies": false
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction highlights Java’s popularity, the emergence of virtual threads in JDK 21, and the importance of concurrency for performance. However, the explanation of why this specific topic is crucial in the current research landscape is somewhat repetitive and could be more focused on concrete problems that motivate the study.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a few general references are mentioned (TIOBE ranking, Giebas et al. 2021, Oracle.com). The text lacks a detailed discussion of recent academic or industry work on virtual threads, performance evaluation, or comparative studies, so the awareness of the state‑of‑the‑art is insufficient.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage does not explicitly state a research gap. It vaguely mentions evaluating old and new concurrency mechanisms but does not articulate what is missing or unresolved in existing studies.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete research problem is not clearly defined. While the text hints at evaluating concurrency mechanisms, it does not specify a particular issue, question, or hypothesis that the thesis will address.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are cited in a very informal manner (e.g., ‘Giebas et. al., 2021’, ‘Oracle.com’), without proper citation format or sufficient coverage of supporting literature. Many claims lack citations entirely.",
+        "complies": false
+    }
+]

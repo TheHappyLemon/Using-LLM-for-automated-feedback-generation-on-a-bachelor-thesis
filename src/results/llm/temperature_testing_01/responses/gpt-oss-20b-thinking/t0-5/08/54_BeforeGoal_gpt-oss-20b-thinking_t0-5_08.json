@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing popularity of microservice architecture, cites a 2021 Statista survey, and highlights the frequent code changes that demand rapid testing. It also points out the cost‑efficiency versus thoroughness dilemma in automated testing and the impact of CI/CD pipelines on test duration and resource consumption. These points establish why the topic is timely and relevant. A slightly stronger justification of the research necessity could be added, but overall the significance is well conveyed.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two references are provided (Statista, 2021 and Hui et al., 2025). The text does not discuss other recent studies, tools, or frameworks that address automated testing optimization in microservices or CI/CD pipelines. There is no comparison with existing solutions or mention of cutting‑edge achievements. Thus the state‑of‑the‑art coverage is insufficient.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The paragraph mentions \"nepilnības saistītas ar testēšanas optimizācijas paņēmieniem DevOps vidē\" but does not specify what those deficiencies are or how they differ from current knowledge. The gap is stated in general terms rather than as a concrete, researchable problem. Therefore the gap is not clearly identified.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: improving the efficiency of automated test execution in CI/CD pipelines for microservices, reducing test time and resource consumption while preserving quality. The statement is clear enough for a thesis scope.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Several claims (e.g., the rise in microservice popularity, the impact of regular updates, the challenges of CI/CD integration) lack citations. Only two sources are cited, which is insufficient to support the breadth of statements made. More references are needed to substantiate the arguments.",
+        "complies": false
+    }
+]

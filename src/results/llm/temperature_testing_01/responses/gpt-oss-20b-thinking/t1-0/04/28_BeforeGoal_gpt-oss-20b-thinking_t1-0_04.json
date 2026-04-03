@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines why cookies are essential and how their misuse can threaten privacy and security, citing common attacks like session hijacking and XSS. It indicates that modern browsers have added safeguards, yet the threat landscape continues to grow, justifying the need for research. The rationale is clear, but the explanation could be more concise and focused on current trends.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lists general browser mechanisms such as Secure, HttpOnly, and SameSite, but it does not reference any specific published studies, surveys, or benchmarks. There is no citation of recent work or a discussion of how these mechanisms perform in practice, so the state‑of‑the‑art awareness is missing.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A concrete gap is not clearly identified. While the introduction mentions that new threats and bypass techniques are emerging, it does not specify what aspects of cookie security are insufficiently studied or what particular shortcomings exist in current solutions.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The main challenge is implied: to analyze and compare existing cookie security mechanisms and propose improvements. This problem statement is present, though it could benefit from a more explicit articulation of the specific research question(s).",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references or citations are provided to support claims or acknowledge prior work. Adding bibliographic entries would strengthen the introduction.",
+        "complies": false
+    }
+]

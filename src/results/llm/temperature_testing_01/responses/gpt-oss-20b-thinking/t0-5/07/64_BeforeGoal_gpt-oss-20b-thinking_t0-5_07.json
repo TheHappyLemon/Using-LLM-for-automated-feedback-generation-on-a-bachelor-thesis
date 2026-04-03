@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines why Java and garbage collection are important, noting impacts on performance and relevance to developers and administrators. However, it does not connect the topic to current industry trends (e.g., cloud-native, microservices, big data) or articulate a clear motivation for new research. Lacking specific examples of contemporary challenges weakens the case for significance.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text does not reference any published studies, benchmarks, or recent advances in GC techniques (e.g., G1, ZGC, Shenandoah). Without citations or discussion of existing state-of-the-art work, the reader cannot gauge how the proposed research builds on or differs from what is already known.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A concrete research gap is not explicitly stated. The paragraph about GC pauses and lack of developer control hints at a problem, but it does not clearly identify what remains unresolved in current knowledge or practice, nor does it frame a specific gap that the thesis will address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is vague: it mentions GC performance and pause issues but does not formulate a precise research question or objective. The reader cannot easily discern what the thesis aims to solve or evaluate.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "No references are provided to support claims about GC mechanisms, performance impacts, or existing collectors. Citations are essential for credibility and to situate the work within the scholarly literature.",
+        "complies": false
+    }
+]

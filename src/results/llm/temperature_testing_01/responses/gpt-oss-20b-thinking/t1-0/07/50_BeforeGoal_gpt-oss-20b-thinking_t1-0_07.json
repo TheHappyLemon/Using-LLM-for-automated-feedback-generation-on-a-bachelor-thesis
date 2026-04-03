@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines why microservice architecture is relevant and notes performance concerns, but it could more explicitly link these issues to current industry trends (e.g., cloud-native deployments, API economy).",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "No specific studies, benchmarks, or published works are cited. The text lists technologies (Flask, Django, FastAPI, Celery, aiohttp) but lacks academic references or recent survey results.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage states a problem to investigate, but it does not identify a concrete research gap based on existing literature or highlight what remains unresolved.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly articulated: to research and demonstrate solutions for asynchronous microservice development in Python.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The introduction contains no in-text citations or bibliography entries to support claims or acknowledge prior work.",
+        "complies": false
+    }
+]

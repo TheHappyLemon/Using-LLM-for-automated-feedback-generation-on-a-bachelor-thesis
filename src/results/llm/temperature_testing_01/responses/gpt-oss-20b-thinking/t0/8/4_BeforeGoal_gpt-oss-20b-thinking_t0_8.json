@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction highlights Java’s popularity, the importance of concurrency for both large projects and everyday applications, and the recent introduction of virtual threads in JDK 21. These points provide a basic rationale for why the topic matters. However, the explanation could be strengthened by linking the new features more explicitly to current industry challenges or by citing recent industry reports or benchmarks that demonstrate the practical impact of virtual threads.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references the java.util.concurrent package, JDK 21’s virtual threads, a 2021 study by Giebas et al., and Oracle’s release notes. While these are relevant, the discussion is brief and lacks depth. A more comprehensive state‑of‑the‑art section would summarize recent academic papers, performance evaluations, or industry case studies that compare traditional threads, fork‑join pools, and virtual threads, and would explicitly note the most recent breakthroughs or limitations identified by researchers.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "No explicit research gap is identified. The text mentions that old and new concurrency mechanisms will be evaluated, but it does not state what is missing in current knowledge—e.g., lack of comparative performance data, insufficient guidelines for migration, or unresolved correctness issues. A clear gap statement is needed to justify the study’s contribution.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The specific problem the thesis intends to solve is not articulated. The introduction hints at evaluating concurrency mechanisms, but it does not define a concrete research question, such as ‘How do virtual threads affect throughput in I/O‑bound workloads compared to traditional threads?’ or ‘What are the safety guarantees of virtual threads in concurrent data structures?’. Without a clear problem statement, the reader cannot see the focus of the research.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "Only a handful of references are cited (Giebas et al., 2021; Oracle.com; TIOBE). Many claims—such as Java’s popularity ranking, the benefits of concurrency, and the existence of weaknesses like race conditions—are made without citations. The introduction would benefit from a more robust bibliography that supports all factual statements and situates the work within the broader literature.",
+        "complies": false
+    }
+]

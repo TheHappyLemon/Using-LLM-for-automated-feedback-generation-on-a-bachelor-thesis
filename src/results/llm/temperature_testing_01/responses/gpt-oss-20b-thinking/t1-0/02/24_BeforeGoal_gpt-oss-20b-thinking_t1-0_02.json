@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction attempts to justify the relevance of improving Alpha‑beta by linking it to broader trends in game AI and graphics development. However, the argument is rather generic and does not clearly tie the research to specific current problems or tangible benefits (e.g., quantified performance gains or practical applications). The significance would be stronger if it explicitly mentioned how the proposed improvement could address concrete limitations in existing game engines or AI systems.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites a handful of sources (e.g., Sweetswer & Wiles, 2002; Luger, 2009) and mentions the historical origin of Alpha‑beta pruning. Nevertheless, it lacks a discussion of recent developments, comparative studies, or state‑of‑the‑art algorithms that address similar issues. Without references to current research or a concise overview of existing solutions, the state‑of‑the‑art is insufficiently demonstrated.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A clear research gap is not articulated. The introduction vaguely states that Alpha‑beta can fail in certain “unpromising” states but does not specify what aspects of this failure have been overlooked by prior work or why no existing modification has addressed it. Explicitly stating the unresolved problem or the limitations of current approaches would establish a concrete gap.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "While the introduction hints at improving the decision quality of Alpha‑beta in losing positions, the problem statement remains imprecise. It is not obvious whether the thesis will target theoretical proof, empirical evaluation, or algorithmic design. A more focused problem description (e.g., ‘design a pruning strategy that reduces the number of leaf evaluations when the heuristic indicates a likely loss’) would clarify the challenge.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are mentioned in the text, but they are incomplete and not properly formatted. Several claims lack citations entirely, and the bibliography is missing. Proper academic referencing (author, year, title, publication venue) is necessary to support statements, acknowledge prior work, and demonstrate how the thesis builds upon them.",
+        "complies": false
+    }
+]

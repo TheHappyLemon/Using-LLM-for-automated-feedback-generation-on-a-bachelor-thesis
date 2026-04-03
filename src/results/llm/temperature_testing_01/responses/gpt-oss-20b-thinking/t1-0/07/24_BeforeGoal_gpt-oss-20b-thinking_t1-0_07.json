@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction gives some background on AI in games but does not clearly articulate why improving alpha‑beta for non‑winning states is important in the context of current trends or practical problems. The significance statement is vague and lacks connection to concrete industry or research needs.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two citations are included, with inconsistent formatting, and they do not provide a concise overview of current cutting‑edge research on alpha‑beta pruning or related AI techniques. The state‑of‑the‑art discussion is insufficient.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text mentions that the standard algorithm fails to distinguish certain states, but it does not explicitly identify a research gap or explain what has not yet been solved by existing work. The gap is not clearly formulated.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is reasonably clear: to modify alpha‑beta so it can better choose moves in non‑losing, disadvantageous states. The challenge is stated, although the wording could be tightened.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and poorly formatted (e.g., \"Sweetswer&Wiles, 2002\"). They do not comprehensively support the claims made, and additional citations would strengthen the introduction.",
+        "complies": false
+    }
+]

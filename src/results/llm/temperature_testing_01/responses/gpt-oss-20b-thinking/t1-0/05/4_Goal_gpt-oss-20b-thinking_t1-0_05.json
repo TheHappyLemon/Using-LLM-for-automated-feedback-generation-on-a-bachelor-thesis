@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states an aim – to determine the usage perspectives of virtual threads in the context of other Java parallel features – but uses the vague term \"perspectives\" which is not easily measurable or specific. A clearer, more concrete objective (e.g., assess performance, scalability, or applicability) would satisfy the requirement for a measurable goal.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The sentence focuses on the intended outcome (to determine something) without mentioning any methods, tools, or processes. This meets the criterion for a clear intention.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single, concise sentence preceded by a simple label. It directly communicates the thesis goal and meets the structural requirement.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "While the goal references virtual threads and other Java parallel features, it does not explicitly echo the specific gaps and problems highlighted in the preceding text (e.g., race conditions, deadlocks, atomicity violations). The connection feels implicit rather than directly built upon the stated motivations, so the alignment is not fully satisfied.",
+        "complies": false
+    }
+]

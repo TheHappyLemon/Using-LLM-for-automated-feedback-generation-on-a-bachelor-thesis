@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the importance of asynchronous and parallel programming for mobile devices with limited resources, linking the trend to Kotlin’s support. It clearly states why the topic matters in the current technological context. Minor improvement could involve citing specific statistics or recent industry reports to strengthen the motivation.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references several works (Elizarovetal., 2021; Bobrov, 2024; Skeen & Greenhalgh, 2018; Subramaniam, 2019; Griffiths & Griffiths, 2019) and mentions Kotlin’s interoperability and coroutine support. However, it does not provide a detailed survey of the latest libraries, frameworks, or performance studies that are central to the field. Expanding this section to discuss concrete state‑of‑the‑art tools and results would better demonstrate awareness.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "A research gap is hinted at with the question about the effective use of tools for various tasks and their pros/cons, but it is not explicitly framed as a gap derived from the cited literature. The introduction should state a clear, concrete gap—for example, a lack of comparative studies on Kotlin coroutines versus Java threads in specific mobile scenarios.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement remains implicit; the reader must infer that the thesis will investigate efficient use of asynchronous/parallel constructs in Kotlin. A precise research question or objective (e.g., evaluating performance trade‑offs) would make the problem immediately identifiable.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included for several claims, but some statements (e.g., device size, resource constraints) lack citations. Adding appropriate sources for all factual assertions and ensuring every claim is traceable to literature would satisfy the requirement fully.",
+        "complies": true
+    }
+]

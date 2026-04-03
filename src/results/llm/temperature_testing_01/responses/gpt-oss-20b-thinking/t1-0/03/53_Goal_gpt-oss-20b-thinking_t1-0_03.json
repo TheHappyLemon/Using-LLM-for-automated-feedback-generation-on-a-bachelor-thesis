@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states the student intends to investigate factors influencing the integrity of handwritten documents and to develop and evaluate machine‑learning and heuristic solutions for integrity detection. The objective is clear, measurable, and not overly vague.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal explicitly mentions the methods to be used—machine‑learning and heuristic approaches—rather than focusing solely on the desired outcome. This description of processes conflicts with the requirement to avoid method statements.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in two separate sentences instead of a single, concise statement. This violates the single‑sentence structure requirement.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal addresses integrity of handwritten documents, yet the preceding text does not mention handwritten documents specifically. While it discusses digital document authenticity, the specific focus on handwriting is not derived from the earlier motivation, leading to a partial mismatch.",
+        "complies": false
+    }
+]

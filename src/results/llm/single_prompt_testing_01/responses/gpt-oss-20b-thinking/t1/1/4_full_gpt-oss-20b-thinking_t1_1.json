@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction highlights Java’s popularity, the introduction of virtual threads in JDK 21, and the importance of concurrency for large and everyday applications. However, it does not explicitly link these facts to current industry trends such as microservices, cloud-native development, or performance bottlenecks that virtual threads aim to solve.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a few sources are cited (e.g., Giebas et al., 2021, Oracle JDK 21 release notes). There is no discussion of recent research, benchmarks, or comparative studies of virtual threads versus other concurrency models.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text mentions the need to evaluate virtual threads but does not state a specific research gap derived from existing studies. The gap is implied rather than explicitly identified.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is vague; it is not clear whether the thesis aims to benchmark, compare, or design with virtual threads. The challenge is only loosely described.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are sparse and not systematically linked to claims. Many assertions lack citations.",
+        "complies": false
+    },
+    {
+        "question": "Purpose",
+        "feedback": "The purpose sentence is present but generic: \"noteikt virtuālo pavedienu izmantošanas perspektīvas citu Java paralēlo iespēju kontekstā.\" It does not quantify or specify measurable outcomes.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The purpose focuses on the outcome (evaluating virtual threads) without detailing methods or tools, which meets the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure_goal",
+        "feedback": "The goal is expressed in a single concise sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "Because the gap and problem are not explicitly articulated, the goal does not directly and clearly follow from the preceding context.",
+        "complies": false
+    },
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are listed in a numbered format (1–7) under \"Bakalaura darba uzdevumi\", and later a second numbered list (1–8) for the proposed solution.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "7",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "Tasks cover theory, investigation, experiment design, and analysis, but validation against existing solutions or benchmarks is not explicitly described, leaving the process incomplete.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed in a single sentence without sub‑sentences or clauses.",
+        "complies": true
+    },
+    {
+        "question": "Structure_tasks",
+        "feedback": "All task verbs are infinitive forms (Noformulēt, Izpētīt, Analizēt, Noteikt, Izstrādāt, Norādīt).",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are short, straightforward, and use concise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The ordered set of actions logically supports the stated goal of evaluating virtual threads.",
+        "complies": true
+    },
+    {
+        "question": "Chapters",
+        "feedback": "No explicit list of thesis chapters is provided.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "There is no brief description of the content of each section or chapter.",
+        "complies": false
+    },
+    {
+        "question": "Structure_after_tasks",
+        "feedback": "The overall thesis structure cannot be inferred because chapter headings and their contents are missing.",
+        "complies": false
+    }
+]

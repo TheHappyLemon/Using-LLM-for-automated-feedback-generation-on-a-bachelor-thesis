@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "Text highlights the widespread use of JSON and the performance and structural complexity issues it can cause, especially in high‑load applications. The research goal to improve efficiency and reliability in Python is presented, making the relevance clear.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single 2017 reference and a list of Python libraries are cited. No recent comparative studies, benchmarks, or cutting‑edge achievements are mentioned. The state‑of‑the‑art discussion is therefore incomplete.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction notes performance problems but does not explicitly state what is missing from current knowledge or practice, such as the lack of systematic optimization guidelines for high‑load scenarios. A clear research gap statement is absent.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue—slow deserialization/serialization and structural complexity when handling large data volumes in Python—is stated and is relevant to high‑load services. The problem is therefore clearly identifiable.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Only one reference (Bourhis et al. 2017) is provided, and it is duplicated. Claims about performance issues, library capabilities, and the need for optimization lack supporting citations. More references are needed.",
+        "complies": false
+    }
+]

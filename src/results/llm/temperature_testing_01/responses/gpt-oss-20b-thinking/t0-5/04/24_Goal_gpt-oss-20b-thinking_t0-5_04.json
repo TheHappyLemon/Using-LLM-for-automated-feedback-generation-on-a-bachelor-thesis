@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal clearly states that the student intends to develop a modification of the Alpha‑beta algorithm, integrate it into a two‑player game, and evaluate whether this leads to a higher win rate and more rational moves. These are concrete, measurable objectives. The only minor issue is the somewhat vague phrasing of \"augstāka uzvaru koeficienta\", which could be made more specific (e.g., a percentage improvement).",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal mixes the intended outcome with specific methods: it mentions developing the modification, integrating it, and concluding on its effectiveness. According to the criterion, the goal should focus only on the outcome (e.g., \"to determine whether the modification increases the computer’s win rate and improves move quality\").",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The statement is presented as a single sentence, which satisfies the structural requirement. However, it is somewhat long and could be tightened for greater conciseness without losing meaning.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly addresses the problem identified earlier: the standard Alpha‑beta algorithm’s inability to differentiate between high‑heuristic losing nodes and genuinely safe moves. By proposing a modification and an evaluation of its impact on win rate and move quality, the goal logically follows from the preceding motivation.",
+        "complies": true
+    }
+]

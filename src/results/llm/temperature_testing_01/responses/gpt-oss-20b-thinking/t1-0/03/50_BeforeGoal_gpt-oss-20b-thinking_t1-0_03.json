@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text touches on microservice architecture, resource consumption, and Python’s async capabilities, but it lacks a deep analysis of why asynchronous microservices in Python are particularly important today. It mentions general trends (cloud, high-load systems, fintech, e‑commerce) but does not explicitly link the topic to current challenges or developments, nor does it cite empirical evidence or recent industry reports. Strength: it recognizes the relevance of microservices and the potential of async Python. Weakness: insufficient justification and lack of supporting references.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "No references to published research, comparative studies, or existing state‑of‑the‑art solutions are provided. The introduction lists technologies (Flask, Django, FastAPI, Celery, aiohttp, asyncio) without situating them in the academic or industrial landscape. Consequently, the reader cannot gauge what has already been achieved or what gaps remain.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a need to 'investigate and demonstrate solutions for asynchronous microservice development in Python,' but it does not articulate a specific research gap based on prior work. There is no discussion of what is missing in current literature or practice, nor is there a clear statement of the unresolved problems that the thesis will address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The core problem is stated: to investigate and demonstrate asynchronous microservice development solutions in Python. This is understandable and provides a clear direction for the thesis. However, the problem could be refined to specify particular aspects such as performance evaluation, scalability analysis, or integration challenges.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The introduction contains no citations or reference list. All claims (e.g., resource consumption, performance issues) are presented without supporting literature, making it difficult to verify the information or locate source material. Adding relevant academic papers, industry reports, and documentation links would strengthen the text.",
+        "complies": false
+    }
+]

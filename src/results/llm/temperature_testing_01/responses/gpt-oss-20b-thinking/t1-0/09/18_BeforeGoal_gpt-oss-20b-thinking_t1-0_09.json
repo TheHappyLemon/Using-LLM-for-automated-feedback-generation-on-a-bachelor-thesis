@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "Text mentions LLMs and concept maps but does not clearly state why automating their interpretation matters, what benefits it brings, or how it addresses current challenges. The argument is obscured by grammatical errors and lacks a strong rationale.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Several references are listed, yet the discussion is superficial: the text names papers but does not describe existing methods, compare them, or show how they form the current state of the art. Citations are sometimes incomplete or poorly formatted.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The introduction explicitly points out that while concept‑map generation with LLMs has been studied, there is no work on analysing concept maps using LLMs, thus identifying a concrete research gap.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The main problem—lack of tools for LLM‑based concept‑map analysis—is mentioned but not framed as a clear research question or problem statement; it is scattered across the paragraph.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References appear, but many are formatted incorrectly (e.g., 'u.c.', missing authors), and several claims lack citations. The evidence is therefore incomplete and inconsistent.",
+        "complies": false
+    }
+]

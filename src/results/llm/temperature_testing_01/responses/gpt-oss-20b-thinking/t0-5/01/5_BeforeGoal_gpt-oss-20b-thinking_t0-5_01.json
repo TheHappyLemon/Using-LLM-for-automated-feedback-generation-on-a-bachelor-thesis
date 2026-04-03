@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines why DOCX steganalysis matters by highlighting the widespread use of DOCX, the potential for hidden malicious data, and the rapid growth of digital information. It connects these points to current security concerns, giving a clear sense of relevance. However, the explanation could be strengthened by quantifying the impact (e.g., statistics on incidents) and linking more directly to contemporary threats.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Several studies are cited (e.g., Nihad Ahmad Hassan 2016, Doaa A. Shehab 2022, Michael T. Raggo 2012, Yu Yang 2022, Dalal Mukesh 2020), indicating awareness of existing literature. Nevertheless, the discussion does not detail current steganalysis techniques, benchmark results, or recent breakthroughs. The state‑of‑the‑art section would benefit from a concise overview of leading methods and their limitations.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a gap—namely, that existing steganalysis tools are insufficient for DOCX files—but it does not explicitly state what is missing or why current solutions fail. A clear gap statement, such as \"no comprehensive DOCX steganalysis framework exists that can detect X type of hidden data,\" would make the research need more concrete.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is implied (the need for better DOCX steganalysis) but not articulated as a precise research question or objective. The reader cannot easily identify what specific challenge the thesis will tackle (e.g., detection accuracy, computational efficiency, or a particular steganographic technique). A concise problem statement is required.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are mentioned in the text, but they are not formatted consistently, and no bibliography or reference list is provided. Proper in‑text citations and a complete reference section are necessary to support claims and acknowledge prior work.",
+        "complies": false
+    }
+]

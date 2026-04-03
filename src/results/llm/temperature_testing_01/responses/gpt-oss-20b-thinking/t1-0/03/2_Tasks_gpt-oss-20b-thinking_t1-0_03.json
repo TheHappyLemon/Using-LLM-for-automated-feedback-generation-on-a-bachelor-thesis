@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are listed in a numbered format, but there is a minor formatting glitch: the number 4 appears twice and the second 4 is the actual item. Apart from this duplication, the list is clearly separated.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are six distinct tasks numbered from 1 to 6 (despite the duplicate 4). This falls within the acceptable range of 5–7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis, dataset preparation, implementation of classification methods, and comparison of results, but the validation step lacks an explicit comparison with external benchmarks or prior studies, which weakens the completeness of the research process.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed in a single sentence and does not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks begin with an infinitive verb (Izpētīt, Identificēt, Iegūt, Izmantot, Salīdzināt, Apkopot), consistently following the required structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are concise, straightforward, and use clear language appropriate for outlining research tasks.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically progress from theoretical study and data collection to applying classification methods and evaluating their performance, directly supporting the thesis goal of comparing existing approaches.",
+        "complies": true
+    }
+]

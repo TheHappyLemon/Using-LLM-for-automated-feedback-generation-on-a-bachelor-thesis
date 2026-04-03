@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing need for large text file storage and the inefficiencies of traditional methods, making a clear case for why efficient data structures are relevant today. It could strengthen the significance by explicitly stating the impact on real-world applications or providing a more concrete statistic about the scale of the problem.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites several recent studies (Sun et al., 2024; Li Chen, 2022; Sitanggang, 2022; etc.) that demonstrate awareness of current research on large‑scale text processing, Trie, and hash tables. However, a deeper discussion of the most recent comparative evaluations or advanced techniques would further solidify the state‑of‑the‑art section.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The paragraph beginning with \"Neskatoties uz to, ka Trie un heštabulas tiek plaši pētītas…\" clearly identifies the lack of a detailed comparative analysis for large text file processing. This explicit gap statement is concise and grounded in the cited literature.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is well articulated: large text files cause high memory consumption and low processing efficiency, and the thesis aims to determine which data structure (Trie or hash table) best mitigates these issues. The focus is clear and actionable.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "While inline citations are present, the introduction lacks a complete bibliography or reference list, and the citation style is inconsistent (e.g., missing publication years for some entries). Adding a properly formatted reference section would satisfy this requirement.",
+        "complies": false
+    }
+]

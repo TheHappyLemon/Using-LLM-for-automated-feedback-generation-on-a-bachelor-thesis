@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the student will develop a modification of the alpha-beta algorithm, integrate it into a two‑player game, and evaluate whether this leads to a higher win coefficient and more rational moves. This is relatively specific and measurable, although the phrase \"saprātīgākiem gājieniem\" is somewhat vague. Overall the purpose is clear.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal explicitly mentions \"integrēt to\" and \"izsecināt\", which are process descriptions. The intention criterion requires focusing on the outcome only, not on the methods. Therefore the goal does not comply with this requirement.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, concise sentence. It follows the structural guideline.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly addresses the identified limitation of the standard alpha-beta algorithm (difficulty distinguishing between high‑heuristic but losing nodes and guaranteed losing nodes) by proposing a modification and an evaluation. It logically follows the preceding motivation and therefore meets the congruence criterion.",
+        "complies": true
+    }
+]
