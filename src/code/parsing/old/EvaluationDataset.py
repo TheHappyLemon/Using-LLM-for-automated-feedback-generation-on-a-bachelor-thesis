@@ -1,5 +1,5 @@
 from __future__ import annotations
-from EvaluationRow import EvaluationRow
+from src.code.parsing.old.EvaluationRow import EvaluationRow
 import csv
 import operator
 from itertools import groupby

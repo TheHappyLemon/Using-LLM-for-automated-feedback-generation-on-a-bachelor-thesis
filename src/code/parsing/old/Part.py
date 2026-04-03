@@ -1,4 +1,4 @@
-from model_answer import QuestionAnswer
+from src.code.parsing.old.model_answer import QuestionAnswer
 import re
 import logging
 

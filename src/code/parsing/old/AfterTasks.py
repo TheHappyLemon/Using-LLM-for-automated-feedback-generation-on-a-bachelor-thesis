@@ -1,5 +1,5 @@
-from Part import *
-from Property import Property
+from src.code.parsing.old.Part import *
+from src.code.parsing.old.Property import Property
 
 class AfterTasks(Part):
 

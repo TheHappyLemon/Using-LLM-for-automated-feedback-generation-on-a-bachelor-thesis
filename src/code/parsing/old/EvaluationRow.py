@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-from AfterTasks import AfterTasks
-from BeforeGoal import BeforeGoal
-from Goal import Goal
-from Tasks import Tasks
-from Property import Property
+from src.code.parsing.old.AfterTasks import AfterTasks
+from src.code.parsing.old.BeforeGoal import BeforeGoal
+from src.code.parsing.old.Goal import Goal
+from src.code.parsing.old.Tasks import Tasks
+from src.code.parsing.old.Property import Property
 
 class EvaluationRow:
     def __init__(self, author : str):

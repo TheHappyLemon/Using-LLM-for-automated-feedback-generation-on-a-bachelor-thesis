@@ -3,17 +3,17 @@ import os
 import json
 import re
 import logging
-import logging_config 
+import src.code.parsing.old.logging_config as logging_config 
 from json.decoder import JSONDecodeError
-from AfterTasks import AfterTasks
-from BeforeGoal import BeforeGoal
-from Tasks import Tasks
-from Goal import Goal
-from model_answer import QuestionAnswer
+from src.code.parsing.old.AfterTasks import AfterTasks
+from src.code.parsing.old.BeforeGoal import BeforeGoal
+from src.code.parsing.old.Tasks import Tasks
+from src.code.parsing.old.Goal import Goal
+from src.code.parsing.old.model_answer import QuestionAnswer
 from itertools import groupby
 from operator import itemgetter
-from EvaluationRow import EvaluationRow
-from EvaluationDataset import EvaluationDataset
+from src.code.parsing.old.EvaluationRow import EvaluationRow
+from src.code.parsing.old.EvaluationDataset import EvaluationDataset
 from pydantic import ValidationError
 
 logger = logging.getLogger(__name__)

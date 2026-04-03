@@ -2,11 +2,14 @@ import os
 import re
 import itertools
 import subprocess
+import time
 from pathlib import Path
 from src.data.constants import BASE_PATH
 
+
+TIMESTR = time.strftime("%Y%m%d-%H%M%S")
 ROOT_DIR =  Path(os.path.join(BASE_PATH, "src", "results", "llm", "zero_temperature_determinism", "responses", "gpt-oss-20b-thinking", "t0"))
-REPORT_FILE = Path("./diff_report.txt")
+REPORT_FILE = Path(os.path.join(BASE_PATH), "src", "log", f"diff_report_{TIMESTR}.txt")
 TARGET_TYPES = ["BeforeGoal", "AfterTasks", "Goal", "Tasks"]
 # 10_BeforeGoal_gpt-oss-20b-thinking_t0_1.json
 FILENAME_RE = re.compile(

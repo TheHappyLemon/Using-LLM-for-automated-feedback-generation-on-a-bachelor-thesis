@@ -1,0 +1,4 @@
+# Human responses
+Here are the original responses collected from humans participating in the survey. All humans work in Applied Computer Systems institute in RTU and actively participate in research programms and academic activites, which makes them good candidates for evaluating academic texts from same institute.
+
+Files with postfix "_orig" are original responses given to questions, where 1 means True/complies and 0 means False/does not comply. However, minor miscommunication occured and human 2 gave responses for question 'Quantity' in same binary format, but human 1 and 3 answered with amout of tasks they identified. For answers to be in same binary format, minor parsing was done for human 1 and 3 responses - if amount of tasks is in range [5;7], then text complies with requirements. Parsed files have no postfix in filename.
