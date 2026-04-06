@@ -19,3 +19,7 @@ human3_data.to_bool(quantity_already_bool=False)
 human1_data.dump_to_csv(HUMAN_PATH + "human1.csv")
 human2_data.dump_to_csv(HUMAN_PATH + "human2.csv")
 human3_data.dump_to_csv(HUMAN_PATH + "human3.csv")
+
+EvaluationDataset.compute_metrics(baseline_ds=human1_data, predicted_ds=human2_data, path=os.path.join(HUMAN_PATH, f"human1_VS_human2_results.csv"))
+EvaluationDataset.compute_metrics(baseline_ds=human1_data, predicted_ds=human3_data, path=os.path.join(HUMAN_PATH, f"human1_VS_human3_results.csv"))
+EvaluationDataset.compute_metrics(baseline_ds=human2_data, predicted_ds=human3_data, path=os.path.join(HUMAN_PATH, f"human2_VS_human3_results.csv"))
