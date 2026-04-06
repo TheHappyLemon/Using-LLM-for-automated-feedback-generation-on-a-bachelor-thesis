@@ -49,7 +49,7 @@ for model in MODELS:
   for t in TEMPERATURES:
     logger.info(f"Temperature = {t}.")
     for i in range(ITERATIONS):
-      iter = str(i + 1)
+      iter = str(i + 1).zfill(2)
       logger.info(f"Iteration Nr. {iter:2}")
       for p in sorted(prompts_part_refinement):
         logger.info(f"Text Nr. {p}")

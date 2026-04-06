@@ -4,6 +4,9 @@ import json
 import re
 import logging
 import src.code.parsing.old.logging_config as logging_config 
+import argparse
+
+from src.data.constants import BASE_PATH
 from json.decoder import JSONDecodeError
 from src.code.parsing.old.AfterTasks import AfterTasks
 from src.code.parsing.old.BeforeGoal import BeforeGoal
@@ -107,7 +110,7 @@ def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
     part = globals()[f"parse_{part_type}"](answers, has_goal=has_goal, model_validation_OK=model_validation_OK)
     return is_valid_json_originally, removing_markdown_helped, extracting_JSON_with_regex_helped, model_validation_OK, part
 
-def main(path_answer : str, path_source, human_file : str, postfix : str):
+def main(path_answer : str, path_source, human_file : str = "", postfix : str = "") -> int:
 
     with open(os.path.join(path_answer, f"stats_{postfix}.csv"), 'w', encoding='utf-8', newline='') as stats_f:
 
@@ -139,7 +142,7 @@ def main(path_answer : str, path_source, human_file : str, postfix : str):
                         has_goal = (source_json.get("Goal", "") != "") # type: ignore
 
             with open(full_file, 'r', encoding='utf-8') as f:
-                logger.info(f"Processing: '{full_file}'")
+                logger.info(f"Processing: '{file}'")
                 try:
                     res = parse_llm_response(f.read(), part, has_goal)
                     writer.writerow([text_id, part, model, res[0], res[1], res[2], res[3], False])
@@ -180,18 +183,36 @@ def main(path_answer : str, path_source, human_file : str, postfix : str):
             datasets[model].append(row)
 
     for ds in datasets:
-        datasets[ds].dump_to_csv(os.path.join(path_answer, f"{ds}_as_int_{postfix}.csv"))
+        datasets[ds].dump_to_csv(os.path.join(path_answer, f"{ds}_as_int{("_" + postfix) if postfix != "" else ""}.csv"))
     
     # Now prepare a special csv with whole feedback and load human data for that
-    human_data = EvaluationDataset(author="human")
-    human_data.load_from_csv(human_file)
-    datasets['human'] = human_data
-    EvaluationDataset.dump_to_csv_feedback(os.path.join(path_answer, f"feedback_{postfix}.csv"), list(datasets.values()))
+    if human_file != "":
+        human_data = EvaluationDataset(author="human")
+        human_data.load_from_csv(human_file)
+        datasets['human'] = human_data
+        EvaluationDataset.dump_to_csv_feedback(os.path.join(path_answer, f"feedback_{postfix}.csv"), list(datasets.values()))
+
+    return 0
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("results_path", help="Path to folder with model responses")
+    parser.add_argument("data_path"   , help="Path to original divided texts")
+    parser.add_argument(
+        "--csv_path",
+        default="",
+        help="Path to human CSV file (for feedback inspection)"
+    )
+    parser.add_argument(
+        "--run_id",
+        default="",
+        help="Run identifier (e.g., 08)"
+    )
+    args = parser.parse_args()
+
     main(
-        "C:\\Univer\\work\\grading-with-AI\\data\\dati_new\\results_08",
-        "C:\\Univer\\work\\grading-with-AI\\data\\dati_new\\UTF-8-manual-divided",
-        "C:\\Univer\\work\\grading-with-AI\\data\\dati_new\\human1_as_int.csv",
-        "08"
+        path_answer=os.path.join(BASE_PATH, args.results_path),
+        path_source=os.path.join(BASE_PATH, args.data_path),
+        human_file=os.path.join(BASE_PATH, args.csv_path) if args.csv_path != "" else "",
+        postfix=args.run_id
     )

@@ -9,6 +9,20 @@ class Part:
     def __init__(self) -> None:
         self.questions_mapping: dict[str, str] = {}
 
+    # because LLM may output dash not as dash
+    def normalize_dashes(self, text: str) -> str:
+        pattern = r"[‐-‒–—−]"
+        
+        matches = re.findall(pattern, text)
+        if matches:
+            normalized = re.sub(pattern, "-", text)
+            logger.warning(
+                f"Dashes {set(matches)} replaced in '{text}' -> '{normalized}'"
+            )
+            return normalized
+        
+        return text
+
     def get_question_by_text(self, LLM_text: str) -> str | None:
         LLM_text = LLM_text.strip().lower()
         for key, value in self.questions_mapping.items():
@@ -47,17 +61,34 @@ class Part:
     
         matched_numbers = [num for pattern, num in allowed_groups if re.search(pattern, lowered)]
         if len(matched_numbers) != 1:
+            logger.info("It had several or zero integers. Falling back to 'complies' value")
             return 0
         return matched_numbers[0]
 
     def parse_answer(self, keyword : str, value : str, feedback : str):
         # some specific handlers 
         if keyword.lower() == "quantity":
+            value_int = None
             try:
-                value = int(feedback)
+                # if model responded only with number - good. Take it as response.
+                value_int = int(feedback)
+                value = value_int
             except ValueError as e:
-                value = self.__extract_quantity__(str(feedback))
-        elif keyword.lower() == "state-of-the-art":
+                # if it had other text, but only one number - take this number as response.
+                logger.warning(f"Failed to parse 'quantity' question. Field '{feedback}' is not a single integer.")
+                value_int = self.__extract_quantity__(str(feedback))
+                if value_int != 0:
+                    logger.info(f"Found a single integer - '{value_int}'. Using that value as an anwswer.")
+                    value = value_int
+                # Otherwise leave default 'complies' property
+                else:
+                    if value:
+                        logger.info(f"Complies value was {value} -> setting response to question to 5")
+                        value = 5
+                    else:
+                        logger.info(f"Complies value was '{value}' -> setting response to question to 0")
+
+        elif self.normalize_dashes(keyword.lower()) == "state-of-the-art":
             keyword = "State_of_the_art"
         elif keyword.lower() == "sequence":
             # hack for old results. At some point we removed question 'Sequence' for Tasks part
