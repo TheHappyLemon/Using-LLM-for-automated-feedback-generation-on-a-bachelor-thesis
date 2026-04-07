@@ -5,6 +5,7 @@ import operator
 from itertools import groupby
 from collections import Counter
 import logging
+import numpy as np
 
 logger = logging.getLogger(__name__)
 
@@ -138,7 +139,7 @@ class EvaluationDataset:
         Compute Precision, Recall, F1, Cohen's kappa,
         and MCC for given dataset against baseline dataset.
         """
-        logger.info(f"Comparing {baseline_ds.author} to {predicted_ds.author}")
+        logger.info(f"'compute_metrics': Comparing {baseline_ds.author} to {predicted_ds.author}")
 
         header = [
             'Question',
@@ -209,14 +210,21 @@ class EvaluationDataset:
                 'MCC': mcc
             })
 
+        # Add average value for each metric column
+        if rows:
+            average_row = {'Question': 'Average'}
+            for metric in header:
+                if metric == 'Question':
+                    continue
+                average_row[metric] = np.mean([row[metric] for row in rows])
+            rows.append(average_row)
+
         # write CSV only if path is provided
         if path:
             with open(path, mode='w', newline='', encoding='utf-8') as file:
                 writer = csv.DictWriter(file, fieldnames=header)
                 writer.writeheader()
                 writer.writerows(rows)
-
-        return rows[0]
 
     @staticmethod
     def compute_metrics_total_average(baseline_ds : EvaluationDataset, predicted_datasets : list[EvaluationDataset], path : str, base_average : str = 'macro'):
@@ -300,7 +308,7 @@ class EvaluationDataset:
                 })
             writer.writerows(rows)
 
-    @staticmethod 
+    @staticmethod
     def compute_metrics_total_average_by_iterations(
         baseline_ds: EvaluationDataset,
         predicted_datasets: list[EvaluationDataset],
@@ -308,35 +316,37 @@ class EvaluationDataset:
         base_average: str = 'macro'
     ):
         """
-        Compute Precision, Recall, F1, Cohen's kappa, and MCC
-        for predicted datasets against baseline dataset.
+        Compute mean and standard deviation of Precision, Recall, F1,
+        Cohen's kappa, and MCC across iterations for each author.
 
-        New behavior:
         - Datasets with the same author are treated as multiple iterations
         of the same predictor.
-        - All iterations for the same predictor are merged into one pooled
-        prediction vector.
-        - Metrics are computed once on the pooled vectors.
+        - Metrics are computed separately for each iteration.
+        - For each author, the mean and standard deviation of each metric
+        are written to the CSV.
         """
         with open(path, mode='w', newline='', encoding='utf-8') as file:
-
             header = [
                 'Model',
                 'Iterations',
-                'Precision_macro',
-                'Precision_weighted',
-                'Precision_positive',
-                'Precision_negative',
-                'Recall_macro',
-                'Recall_weighted',
-                'Recall_positive',
-                'Recall_negative',
-                'F1_macro',
-                'F1_weighted',
-                'F1_positive',
-                'F1_negative',
-                'CohenKappa',
-                'MCC'
+
+                'Precision_macro', 'Precision_macro_std',
+                'Precision_weighted', 'Precision_weighted_std',
+                'Precision_positive', 'Precision_positive_std',
+                'Precision_negative', 'Precision_negative_std',
+
+                'Recall_macro', 'Recall_macro_std',
+                'Recall_weighted', 'Recall_weighted_std',
+                'Recall_positive', 'Recall_positive_std',
+                'Recall_negative', 'Recall_negative_std',
+
+                'F1_macro', 'F1_macro_std',
+                'F1_weighted', 'F1_weighted_std',
+                'F1_positive', 'F1_positive_std',
+                'F1_negative', 'F1_negative_std',
+
+                'CohenKappa', 'CohenKappa_std',
+                'MCC', 'MCC_std'
             ]
 
             writer = csv.DictWriter(file, fieldnames=header)
@@ -346,15 +356,34 @@ class EvaluationDataset:
             # Group datasets by author
             grouped_datasets = {}
             for predicted_ds in predicted_datasets:
-                if grouped_datasets.get(predicted_ds.author) is None:
+                if predicted_ds.author not in grouped_datasets:
                     grouped_datasets[predicted_ds.author] = []
                 grouped_datasets[predicted_ds.author].append(predicted_ds)
 
             for author, datasets in grouped_datasets.items():
-                y_true_total = []
-                y_pred_total = []
+                # Collect per-iteration metric values
+                precision_macro_values = []
+                precision_weighted_values = []
+                precision_positive_values = []
+                precision_negative_values = []
+
+                recall_macro_values = []
+                recall_weighted_values = []
+                recall_positive_values = []
+                recall_negative_values = []
+
+                f1_macro_values = []
+                f1_weighted_values = []
+                f1_positive_values = []
+                f1_negative_values = []
+
+                kappa_values = []
+                mcc_values = []
 
                 for predicted_ds in datasets:
+                    y_true_total = []
+                    y_pred_total = []
+
                     for label, attr_path in EvaluationDataset.questions:
                         getter = operator.attrgetter(f"{attr_path}.{label}")
 
@@ -364,66 +393,80 @@ class EvaluationDataset:
                         y_true_total.extend(y_true)
                         y_pred_total.extend(y_pred)
 
-                # precision
-                precision_macro    = precision_score(y_true_total, y_pred_total, average='macro')
-                precision_weighted = precision_score(y_true_total, y_pred_total, average='weighted')
-                precision_positive = precision_score(y_true_total, y_pred_total, average='binary', pos_label=1)
-                precision_negative = precision_score(y_true_total, y_pred_total, average='binary', pos_label=0)
+                    # Compute metrics for this iteration only
+                    precision_macro_values.append(precision_score(y_true_total, y_pred_total, average='macro'))
+                    precision_weighted_values.append(precision_score(y_true_total, y_pred_total, average='weighted'))
+                    precision_positive_values.append(precision_score(y_true_total, y_pred_total, average='binary', pos_label=1))
+                    precision_negative_values.append(precision_score(y_true_total, y_pred_total, average='binary', pos_label=0))
 
-                # recall
-                recall_macro    = recall_score(y_true_total, y_pred_total, average='macro')
-                recall_weighted = recall_score(y_true_total, y_pred_total, average='weighted')
-                recall_positive = recall_score(y_true_total, y_pred_total, average='binary', pos_label=1)
-                recall_negative = recall_score(y_true_total, y_pred_total, average='binary', pos_label=0)
+                    recall_macro_values.append(recall_score(y_true_total, y_pred_total, average='macro'))
+                    recall_weighted_values.append(recall_score(y_true_total, y_pred_total, average='weighted'))
+                    recall_positive_values.append(recall_score(y_true_total, y_pred_total, average='binary', pos_label=1))
+                    recall_negative_values.append(recall_score(y_true_total, y_pred_total, average='binary', pos_label=0))
 
-                # F1
-                F1_macro    = f1_score(y_true_total, y_pred_total, average='macro')
-                F1_weighted = f1_score(y_true_total, y_pred_total, average='weighted')
-                F1_positive = f1_score(y_true_total, y_pred_total, average='binary', pos_label=1)
-                F1_negative = f1_score(y_true_total, y_pred_total, average='binary', pos_label=0)
+                    f1_macro_values.append(f1_score(y_true_total, y_pred_total, average='macro'))
+                    f1_weighted_values.append(f1_score(y_true_total, y_pred_total, average='weighted'))
+                    f1_positive_values.append(f1_score(y_true_total, y_pred_total, average='binary', pos_label=1))
+                    f1_negative_values.append(f1_score(y_true_total, y_pred_total, average='binary', pos_label=0))
 
-                # others
-                kappa = cohen_kappa_score(y_true_total, y_pred_total)
-                mcc = matthews_corrcoef(y_true_total, y_pred_total)
+                    kappa_values.append(cohen_kappa_score(y_true_total, y_pred_total))
+                    mcc_values.append(matthews_corrcoef(y_true_total, y_pred_total))
 
                 rows.append({
                     'Model': author,
                     'Iterations': len(datasets),
-                    'Precision_macro': precision_macro,
-                    'Precision_weighted': precision_weighted,
-                    'Precision_positive': precision_positive,
-                    'Precision_negative': precision_negative,
-                    'Recall_macro': recall_macro,
-                    'Recall_weighted': recall_weighted,
-                    'Recall_positive': recall_positive,
-                    'Recall_negative': recall_negative,
-                    'F1_macro': F1_macro,
-                    'F1_weighted': F1_weighted,
-                    'F1_positive': F1_positive,
-                    'F1_negative': F1_negative,
-                    'CohenKappa': kappa,
-                    'MCC': mcc
+
+                    'Precision_macro': np.mean(precision_macro_values),
+                    'Precision_macro_std': np.std(precision_macro_values),
+                    'Precision_weighted': np.mean(precision_weighted_values),
+                    'Precision_weighted_std': np.std(precision_weighted_values),
+                    'Precision_positive': np.mean(precision_positive_values),
+                    'Precision_positive_std': np.std(precision_positive_values),
+                    'Precision_negative': np.mean(precision_negative_values),
+                    'Precision_negative_std': np.std(precision_negative_values),
+
+                    'Recall_macro': np.mean(recall_macro_values),
+                    'Recall_macro_std': np.std(recall_macro_values),
+                    'Recall_weighted': np.mean(recall_weighted_values),
+                    'Recall_weighted_std': np.std(recall_weighted_values),
+                    'Recall_positive': np.mean(recall_positive_values),
+                    'Recall_positive_std': np.std(recall_positive_values),
+                    'Recall_negative': np.mean(recall_negative_values),
+                    'Recall_negative_std': np.std(recall_negative_values),
+
+                    'F1_macro': np.mean(f1_macro_values),
+                    'F1_macro_std': np.std(f1_macro_values),
+                    'F1_weighted': np.mean(f1_weighted_values),
+                    'F1_weighted_std': np.std(f1_weighted_values),
+                    'F1_positive': np.mean(f1_positive_values),
+                    'F1_positive_std': np.std(f1_positive_values),
+                    'F1_negative': np.mean(f1_negative_values),
+                    'F1_negative_std': np.std(f1_negative_values),
+
+                    'CohenKappa': np.mean(kappa_values),
+                    'CohenKappa_std': np.std(kappa_values),
+                    'MCC': np.mean(mcc_values),
+                    'MCC_std': np.std(mcc_values),
                 })
 
             writer.writerows(rows)
 
     @staticmethod
-    def compute_metrics_by_question_pooled(
+    def compute_metrics_by_question_mean_std_by_iterations(
         baseline_ds: EvaluationDataset,
         predicted_datasets: list[EvaluationDataset],
         path: str,
         base_average: str = 'macro'
     ):
         """
-        Compute Precision, Recall, F1, Cohen's kappa, and MCC
-        for predicted datasets against baseline dataset.
+        Compute mean and standard deviation of Precision, Recall, F1,
+        Cohen's kappa, and MCC per question across iterations.
 
-        Behavior:
         - Datasets with the same author are treated as multiple iterations
         of the same predictor.
-        - For each question, all iterations for the same predictor are pooled
-        into one large prediction vector.
-        - Metrics are computed once per question on the pooled vectors.
+        - For each question, metrics are computed separately for each iteration.
+        - For each author and question, the mean and standard deviation of each
+        metric across iterations are written to the CSV.
         """
         with open(path, mode='w', newline='', encoding='utf-8') as file:
 
@@ -432,20 +475,24 @@ class EvaluationDataset:
                 'Question',
                 'Section',
                 'Iterations',
-                'Precision_macro',
-                'Precision_weighted',
-                'Precision_positive',
-                'Precision_negative',
-                'Recall_macro',
-                'Recall_weighted',
-                'Recall_positive',
-                'Recall_negative',
-                'F1_macro',
-                'F1_weighted',
-                'F1_positive',
-                'F1_negative',
-                'CohenKappa',
-                'MCC'
+
+                'Precision_macro', 'Precision_macro_std',
+                'Precision_weighted', 'Precision_weighted_std',
+                'Precision_positive', 'Precision_positive_std',
+                'Precision_negative', 'Precision_negative_std',
+
+                'Recall_macro', 'Recall_macro_std',
+                'Recall_weighted', 'Recall_weighted_std',
+                'Recall_positive', 'Recall_positive_std',
+                'Recall_negative', 'Recall_negative_std',
+
+                'F1_macro', 'F1_macro_std',
+                'F1_weighted', 'F1_weighted_std',
+                'F1_positive', 'F1_positive_std',
+                'F1_negative', 'F1_negative_std',
+
+                'CohenKappa', 'CohenKappa_std',
+                'MCC', 'MCC_std'
             ]
 
             writer = csv.DictWriter(file, fieldnames=header)
@@ -455,7 +502,7 @@ class EvaluationDataset:
             # Group datasets by author
             grouped_datasets = {}
             for predicted_ds in predicted_datasets:
-                if grouped_datasets.get(predicted_ds.author) is None:
+                if predicted_ds.author not in grouped_datasets:
                     grouped_datasets[predicted_ds.author] = []
                 grouped_datasets[predicted_ds.author].append(predicted_ds)
 
@@ -464,57 +511,91 @@ class EvaluationDataset:
                     export_label = label
                     if label == "Structure":
                         export_label = "Structure_" + attr_path
+
                     getter = operator.attrgetter(f"{attr_path}.{label}")
 
-                    y_true_total = []
-                    y_pred_total = []
+                    # Collect per-iteration metric values for this question
+                    precision_macro_values = []
+                    precision_weighted_values = []
+                    precision_positive_values = []
+                    precision_negative_values = []
+
+                    recall_macro_values = []
+                    recall_weighted_values = []
+                    recall_positive_values = []
+                    recall_negative_values = []
+
+                    f1_macro_values = []
+                    f1_weighted_values = []
+                    f1_positive_values = []
+                    f1_negative_values = []
+
+                    kappa_values = []
+                    mcc_values = []
 
                     for predicted_ds in datasets:
                         y_true = [getter(row).value for row in baseline_ds.rows]
                         y_pred = [getter(row).value for row in predicted_ds.rows]
 
-                        y_true_total.extend(y_true)
-                        y_pred_total.extend(y_pred)
+                        # precision
+                        precision_macro_values.append(precision_score(y_true, y_pred, average='macro', zero_division=0))
+                        precision_weighted_values.append(precision_score(y_true, y_pred, average='weighted', zero_division=0))
+                        precision_positive_values.append(precision_score(y_true, y_pred, average='binary', pos_label=1, zero_division=0))
+                        precision_negative_values.append(precision_score(y_true, y_pred, average='binary', pos_label=0, zero_division=0))
 
-                    # precision
-                    precision_macro = precision_score(y_true_total, y_pred_total, average='macro', zero_division=0)
-                    precision_weighted = precision_score(y_true_total, y_pred_total, average='weighted', zero_division=0)
-                    precision_positive = precision_score(y_true_total, y_pred_total, average='binary', pos_label=1, zero_division=0)
-                    precision_negative = precision_score(y_true_total, y_pred_total, average='binary', pos_label=0, zero_division=0)
-                    # recall
-                    recall_macro = recall_score(y_true_total, y_pred_total, average='macro', zero_division=0)
-                    recall_weighted = recall_score(y_true_total, y_pred_total, average='weighted', zero_division=0)
-                    recall_positive = recall_score(y_true_total, y_pred_total, average='binary', pos_label=1, zero_division=0)
-                    recall_negative = recall_score(y_true_total, y_pred_total, average='binary', pos_label=0, zero_division=0)
-                    # F1
-                    F1_macro = f1_score(y_true_total, y_pred_total, average='macro', zero_division=0)
-                    F1_weighted = f1_score(y_true_total, y_pred_total, average='weighted', zero_division=0)
-                    F1_positive = f1_score(y_true_total, y_pred_total, average='binary', pos_label=1, zero_division=0)
-                    F1_negative = f1_score(y_true_total, y_pred_total, average='binary', pos_label=0, zero_division=0)
+                        # recall
+                        recall_macro_values.append(recall_score(y_true, y_pred, average='macro', zero_division=0))
+                        recall_weighted_values.append(recall_score(y_true, y_pred, average='weighted', zero_division=0))
+                        recall_positive_values.append(recall_score(y_true, y_pred, average='binary', pos_label=1, zero_division=0))
+                        recall_negative_values.append(recall_score(y_true, y_pred, average='binary', pos_label=0, zero_division=0))
 
-                    # others
-                    kappa = cohen_kappa_score(y_true_total, y_pred_total)
-                    mcc = matthews_corrcoef(y_true_total, y_pred_total)
+                        # F1
+                        f1_macro_values.append(f1_score(y_true, y_pred, average='macro', zero_division=0))
+                        f1_weighted_values.append(f1_score(y_true, y_pred, average='weighted', zero_division=0))
+                        f1_positive_values.append(f1_score(y_true, y_pred, average='binary', pos_label=1, zero_division=0))
+                        f1_negative_values.append(f1_score(y_true, y_pred, average='binary', pos_label=0, zero_division=0))
+
+                        # others
+                        kappa_values.append(cohen_kappa_score(y_true, y_pred))
+                        mcc_values.append(matthews_corrcoef(y_true, y_pred))
 
                     rows.append({
                         'Model': author,
                         'Question': export_label,
                         'Section': attr_path,
                         'Iterations': len(datasets),
-                        'Precision_macro': precision_macro,
-                        'Precision_weighted': precision_weighted,
-                        'Precision_positive': precision_positive,
-                        'Precision_negative': precision_negative,
-                        'Recall_macro': recall_macro,
-                        'Recall_weighted': recall_weighted,
-                        'Recall_positive': recall_positive,
-                        'Recall_negative': recall_negative,
-                        'F1_macro': F1_macro,
-                        'F1_weighted': F1_weighted,
-                        'F1_positive': F1_positive,
-                        'F1_negative': F1_negative,
-                        'CohenKappa': kappa,
-                        'MCC': mcc
+
+                        'Precision_macro': np.mean(precision_macro_values),
+                        'Precision_macro_std': np.std(precision_macro_values),
+                        'Precision_weighted': np.mean(precision_weighted_values),
+                        'Precision_weighted_std': np.std(precision_weighted_values),
+                        'Precision_positive': np.mean(precision_positive_values),
+                        'Precision_positive_std': np.std(precision_positive_values),
+                        'Precision_negative': np.mean(precision_negative_values),
+                        'Precision_negative_std': np.std(precision_negative_values),
+
+                        'Recall_macro': np.mean(recall_macro_values),
+                        'Recall_macro_std': np.std(recall_macro_values),
+                        'Recall_weighted': np.mean(recall_weighted_values),
+                        'Recall_weighted_std': np.std(recall_weighted_values),
+                        'Recall_positive': np.mean(recall_positive_values),
+                        'Recall_positive_std': np.std(recall_positive_values),
+                        'Recall_negative': np.mean(recall_negative_values),
+                        'Recall_negative_std': np.std(recall_negative_values),
+
+                        'F1_macro': np.mean(f1_macro_values),
+                        'F1_macro_std': np.std(f1_macro_values),
+                        'F1_weighted': np.mean(f1_weighted_values),
+                        'F1_weighted_std': np.std(f1_weighted_values),
+                        'F1_positive': np.mean(f1_positive_values),
+                        'F1_positive_std': np.std(f1_positive_values),
+                        'F1_negative': np.mean(f1_negative_values),
+                        'F1_negative_std': np.std(f1_negative_values),
+
+                        'CohenKappa': np.mean(kappa_values),
+                        'CohenKappa_std': np.std(kappa_values),
+                        'MCC': np.mean(mcc_values),
+                        'MCC_std': np.std(mcc_values),
                     })
 
             writer.writerows(rows)

@@ -16,6 +16,15 @@ TEMPERATURE_FOLDERS = ["t0", "t0-5", "t1-0"]
 def main() -> int:
 
     predicted_datasets = []
+    human1_ds = EvaluationDataset("human1")
+    human2_ds = EvaluationDataset("human2")
+    human3_ds = EvaluationDataset("human3")
+    human1_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human1_orig.csv")
+    human2_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human2_orig.csv")
+    human3_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human3_orig.csv")
+    human1_ds.to_bool()
+    human2_ds.to_bool(quantity_already_bool=True)
+    human3_ds.to_bool()
 
     for temp_folder in TEMPERATURE_FOLDERS:
         for i in range(10):
@@ -28,29 +37,24 @@ def main() -> int:
             predicted_dataset = EvaluationDataset(f"gpt-oss-20b_{temp_folder}", iteration=i)
             predicted_dataset.load_from_csv(input_dir / "gpt-oss-20b-thinking_as_int.csv")
             predicted_dataset.to_bool()
+            EvaluationDataset.compute_metrics(baseline_ds=human1_ds, predicted_ds=predicted_dataset, path=input_dir / "gpt-oss-20b-thinking_vs_human1.csv")
+            EvaluationDataset.compute_metrics(baseline_ds=human2_ds, predicted_ds=predicted_dataset, path=input_dir / "gpt-oss-20b-thinking_vs_human2.csv")
+            EvaluationDataset.compute_metrics(baseline_ds=human3_ds, predicted_ds=predicted_dataset, path=input_dir / "gpt-oss-20b-thinking_vs_human3.csv")
             predicted_datasets.append(predicted_dataset)
 
         logger.info(f"Loaded {temp_folder} datasets")
     logger.info(f"Loaded all {len(temp_folder)} datasets")
 
-    human1_ds = EvaluationDataset("human1")
-    human2_ds = EvaluationDataset("human2")
-    human3_ds = EvaluationDataset("human3")
-    human1_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human1_orig.csv")
-    human2_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human2_orig.csv")
-    human3_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human3_orig.csv")
-    human1_ds.to_bool()
-    human2_ds.to_bool(quantity_already_bool=True)
-    human3_ds.to_bool()
+
     human_datasets = {human1_ds.author : human1_ds, human2_ds.author: human2_ds, human3_ds.author: human3_ds}
     logger.info("Loaded human datasets")
-# compute_metrics_by_question_pooled
+    # compute_metrics_by_question_pooled
     for human in human_datasets:
         logger.info(f"Calculating metrics against {human}")
         EvaluationDataset.compute_metrics_total_average_by_iterations(
             human_datasets[human], predicted_datasets, os.path.join(BASE_PATH, "src", "results", "llm", "temperature_testing_01", f"results_vs_{human}_total.csv")
         )
-        EvaluationDataset.compute_metrics_by_question_pooled(
+        EvaluationDataset.compute_metrics_by_question_mean_std_by_iterations(
             human_datasets[human], predicted_datasets, os.path.join(BASE_PATH, "src", "results", "llm", "temperature_testing_01", f"results_vs_{human}_by_question.csv")
         )
 
