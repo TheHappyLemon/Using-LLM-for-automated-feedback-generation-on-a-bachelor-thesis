@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a numbered list, which is a good practice for outlining tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text lists 6 tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover a reasonable scope, including literature review (existing technologies and solutions), statistical data analysis, technology exploration (color sensors, dynamic cameras, Unity), software development, and testing. However, the validation aspect could be strengthened. While testing is mentioned, it's not explicitly stated how the developed software will be compared to existing solutions or benchmarks to demonstrate its effectiveness in reducing accidents. A more detailed validation plan is needed.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Most tasks are single sentences. Task 5 spans over two sentences, which is acceptable but ideally should be condensed into one.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The tasks consistently use infinitive verbs at the beginning of sentences or phrases (e.g., 'Izpētīt', 'Izstrādāt'). This is a good structural choice.",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are generally short and straightforward. The language is concise and precise.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are relevant to the thesis goal. They progress logically from research and exploration to development and validation. The inclusion of statistical data and exploration of existing technologies strengthens the relevance. However, as mentioned in the Completeness section, the validation aspect needs more detail to ensure the developed software demonstrably contributes to the goal.",
+        "complies": true
+    }
+]
+```

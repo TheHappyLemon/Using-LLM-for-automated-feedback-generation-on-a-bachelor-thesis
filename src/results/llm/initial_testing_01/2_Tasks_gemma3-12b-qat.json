@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is well-organized into a numbered list, which enhances readability and clarity.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text lists 6 individual tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The text covers a reasonable range of tasks, including theoretical analysis (task 1), identification and comparison of methods (task 2), data acquisition (task 3), practical research (task 4), evaluation (task 5), and result aggregation (task 5). However, it lacks explicit mention of comparing the developed solution with existing solutions or demonstrating its practical problem-solving capabilities. While task 5 mentions evaluation, it doesn't explicitly state a comparison with prior studies or benchmarks.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Each task is presented as a single sentence, adhering to the specified format.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each task description (e.g., 'Izpētīt', 'Identificēt', 'Izmantot', 'Salīdzināt', 'Apkopot').",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are generally short and straightforward, using concise language. The tasks are clearly defined and easy to understand.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are logically sequenced and directly contribute to achieving the thesis goal of comparing classification approaches for sentiment analysis in Latvian. The progression from understanding the concept to data acquisition, experimentation, and evaluation is appropriate. However, as mentioned in the 'Completeness' section, explicitly comparing the results with existing solutions or demonstrating practical problem-solving would strengthen the relevance.",
+        "complies": false
+    }
+]
+```

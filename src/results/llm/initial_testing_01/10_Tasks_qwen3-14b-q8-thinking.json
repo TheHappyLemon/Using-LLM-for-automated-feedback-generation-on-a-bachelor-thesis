@@ -1,0 +1,85 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, the user provided a list that starts with "Galvenie uzdevumi..." followed by numbers 1 through 7. Each item is on a new line, so it's a numbered list. So the answer here should be yes, it's organized properly. Compliance is true.
+
+Next, **Quantity**. The task is to count the number of individual tasks. The list has items numbered 1 to 7, so that's 7 tasks. The criteria say it's compliant if it has 5, 6, or 7. So the number is 7, which is compliant. The feedback should just be the number 7.
+
+**Completeness**. The question is whether the tasks cover a complete research process, including theoretical analysis, practical research, implementation, and validation. Let's check each task:
+
+1. Identify JSON characteristics – theoretical.
+2. Formulate problems – theoretical.
+3. Analyze existing methods – theoretical.
+4. Explore storage, structure, validation – theoretical.
+5. Develop criteria for evaluation – theoretical.
+6. Conduct experiments – practical.
+7. Provide optimization recommendations – practical.
+
+But the validation part is mentioned in task 7 as "piedāvāt ieteikumus" which is suggesting recommendations, but not comparing with existing solutions or benchmarks. The user's note says validation requires comparison with existing solutions or showing it solves a problem. The tasks don't explicitly mention comparing with prior studies or existing solutions, except maybe task 3 where they analyze existing methods. However, task 7's recommendations might not be validated against existing ones. So the completeness might be lacking in validation. Therefore, compliance is false.
+
+**Format**. Check if each task is exactly one sentence. Let's look:
+
+1. "Noteikt JSON formāta raksturīgās iezīmes." – one sentence.
+2. "Formulēt problēmas, kas saistītas ar JSON apstrādi." – one sentence.
+3. "Analizēt esošās metodes un bibliotēkas darbam ar JSON Python vidē." – one sentence.
+4. "Izpētīt JSON datu glabāšanas, struktūras un validācijas īpatnības." – one sentence.
+5. "Izstrādāt kritēriju sistēmu dažādu metožu izvērtēšanai." – one sentence.
+6. "Veikt eksperimentus dažādu JSON apstrādes pieeju veiktspējas novērtēšanai." – one sentence.
+7. "Piedāvāt ieteikumus JSON apstrādes optimizācijai Python vidē." – one sentence.
+
+All are single sentences. So compliance is true.
+
+**Structure**. Check if the tasks start with infinitive verbs. The original tasks are in Latvian, so the verbs need to be in infinitive form. Let's check:
+
+1. "Noteikt" – infinitive (to determine).
+2. "Formulēt" – infinitive (to formulate).
+3. "Analizēt" – infinitive (to analyze).
+4. "Izpētīt" – infinitive (to explore).
+5. "Izstrādāt" – infinitive (to develop).
+6. "Veikt" – infinitive (to perform).
+7. "Piedāvāt" – infinitive (to offer).
+
+Yes, each starts with an infinitive verb. Compliance is true.
+
+**Clarity**. Are the sentences short and straightforward? Each task is a single sentence, concise, and uses precise language. For example, "Analizēt esošās metodes..." is clear. So compliance is true.
+
+**Relevance**. Do the tasks contribute to the thesis goal? The goal is to study JSON processing in Python and find best practices. The tasks include researching characteristics, problems, existing methods, experiments, and recommendations. They cover research, analysis, experiments, and providing recommendations, which align with the goal. However, the validation part (task 7) might not compare with existing solutions, but the tasks do include analyzing existing methods (task 3) and experiments (task 6). So the tasks do contribute to the goal. Compliance is true.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a clearly separated numbered list with each task listed sequentially.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "7",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include theoretical analysis, practical experiments, and recommendations, but lack explicit validation by comparing results with existing solutions or benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is exactly one sentence long and does not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks consistently begin with infinitive verbs (e.g., 'Noteikt', 'Formulēt', 'Analizēt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use concise and precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks align with the thesis goal by covering research, analysis, experimentation, and recommendations for JSON processing in Python.",
+        "complies": true
+    }
+]

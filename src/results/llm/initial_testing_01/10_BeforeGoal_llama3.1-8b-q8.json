@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text clearly explains why the topic is important and relevant, but it could be more explicit about current problems or trends that make this research necessary. The mention of high-load services and large data volumes suggests a specific context where the research is needed.",
+        "complies": false
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the current state-of-the-art by citing published research (Bourhis et al., 2017) and mentioning existing solutions like json, ujson, orjson, simplejson. However, it would be beneficial to provide more specific information about these solutions and their limitations.",
+        "complies": true
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text identifies a gap in the current state of knowledge by mentioning difficulties with deserialization and serialization speed or structure creation when working with large data volumes. However, it could be more explicit about what remains unresolved or insufficiently addressed.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "It is clear that the thesis aims to address issues related to efficiency and reliability when working with JSON format in Python. The text mentions specific challenges like data structure characteristics, validation schemes, and reading/writing optimizations.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text includes references where needed to support claims and acknowledge sources. However, it would be beneficial to provide more information about the specific publications cited (e.g., title, year) for clarity.",
+        "complies": false
+    }
+]

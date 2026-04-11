@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively establishes the importance of asynchronous programming in modern software development, linking it to current trends like high-performance systems, scalability, and real-time processing. It highlights practical applications in web services, microservices, and specialized domains like energy system simulations, which strengthens the relevance of the topic. However, the significance of comparing Java and Python specifically within this context could be more explicitly justified—why is this comparison particularly valuable now? The connection between the topic and broader digital transformation trends is well made, but the unique contribution of such a comparison remains somewhat implicit.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references recent studies (2023–2025) and mentions specific technologies like CompletableFuture, Akka, coroutines, and asyncio, demonstrating awareness of current tools and frameworks. It cites real-world applications in high-load web environments and cyberattack resilience, which reflects up-to-date knowledge. However, while it mentions existing implementations, it does not explicitly reference prior comparative studies between Java and Python in asynchronous programming. This lack of citation of existing comparisons weakens the state-of-the-art section, as it fails to situate the current work within a broader scholarly conversation.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly identify a research gap. Although it implies that asynchronous programming is increasingly important and that both languages are used, it does not clearly state what is missing in existing research—such as a comprehensive comparison of Java and Python in asynchronous contexts, or a lack of empirical evaluation of their performance, developer experience, or maintainability. Without such a clear gap statement, the motivation for the thesis remains somewhat implicit rather than explicitly grounded in a recognized scholarly or practical void.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The general problem—comparing Java and Python in asynchronous programming—is implied but not clearly formulated. The text discusses the use of both languages and their respective tools, but it does not define a specific, concrete challenge, such as 'Which language offers better performance for I/O-heavy asynchronous applications?' or 'How do developer productivity and code maintainability differ in asynchronous implementations between Java and Python?' The lack of a clearly defined problem statement weakens the focus of the thesis.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes several in-text citations (e.g., Zbarcea & Tudose, 2024; Python Software Foundation, 2025), which support claims about performance, use cases, and technologies. These references are appropriately placed and relevant. However, the citation format is inconsistent (some use 'u.c.' while others use 'et al.' or 'u.c.'), and the references are not listed in a proper bibliography. Additionally, some claims (e.g., about cyberattack resilience) are supported by citations, but the actual sources are not verifiable without a reference list. The use of references is present but not fully compliant with academic standards.",
+        "complies": false
+    }
+]

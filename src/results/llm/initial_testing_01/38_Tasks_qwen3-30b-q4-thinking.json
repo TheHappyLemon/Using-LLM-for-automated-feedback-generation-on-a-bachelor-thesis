@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into clearly separated items using bullet points, but they are not numbered. The use of bullet points is acceptable, but the requirement specifies a numbered list, which is not followed.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains exactly 4 individual tasks, which is fewer than the required 5, 6, or 7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (analyzing existing approaches), experimental design (organizing an experiment), and result interpretation (drawing conclusions), but lack explicit mention of validation against prior studies, benchmarks, or established solutions. The comparison is limited to performance metrics without reference to existing research or standards, which weakens the validation aspect.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed in a single sentence, and none span over multiple sentences. The format is consistent and meets the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks begin with infinitive verbs (e.g., 'analizēt', 'definēt', 'organizēt', 'izdarīt'), which is consistent with the required structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use precise language. The meaning of each task is clear and unambiguous.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to the goal of comparing Java and Python for asynchronous programming. They include analysis, criteria definition, experimentation, and conclusion drawing, which aligns with the goal. However, the absence of validation against prior work or benchmarks slightly weakens the relevance in terms of full research rigor.",
+        "complies": false
+    }
+]

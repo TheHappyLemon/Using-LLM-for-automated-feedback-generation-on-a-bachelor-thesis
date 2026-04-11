@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a numbered list, which is a good start for outlining tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text lists 4 individual tasks.",
+        "complies": false
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover a reasonable scope, including literature review, data exploration, parameter selection, and algorithm comparison. However, it lacks a clear task related to implementing or developing a solution (even a simple one) or a task related to validating the results of the comparison with existing solutions or benchmarks. The tasks are more focused on exploration and comparison rather than a complete research process.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Each task is described in a single sentence, which is good for clarity.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The tasks consistently start with a verb phrase, which contributes to a clear and structured presentation.",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are short and straightforward, using clear language. The tasks are easy to understand.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are relevant to the thesis goal of comparing machine learning algorithms for music emotion recognition. However, as mentioned in the 'Completeness' section, the tasks are more focused on exploration and comparison and lack a task related to implementing or validating the results of the comparison.",
+        "complies": false
+    }
+]
+```

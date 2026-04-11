@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text explains the importance of the topic by highlighting the benefits of microservices architecture and the challenges with synchronous approaches. It also mentions the relevance of asynchronous programming in Python for modern applications.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly cites specific technologies like Flask, Django, asyncio, FastAPI, Celery, and aiohttp to demonstrate awareness of current tools and frameworks. However, it does not reference any published research or studies.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by pointing out that while microservices are popular, the efficient handling of communication between components using asynchronous approaches is still an area needing exploration. However, it does not explicitly state this as a research gap.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated: investigating and demonstrating solutions for developing asynchronous microservices in Python. The text effectively outlines the challenges and goals of the research.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included to support claims or acknowledge sources, which weakens the credibility and situates the work within existing literature.",
+        "complies": false
+    }
+]

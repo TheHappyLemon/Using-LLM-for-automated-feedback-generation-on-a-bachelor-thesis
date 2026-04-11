@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively highlights the importance of minimizing web disruptions by citing relevant statistics on internet usage and user behavior, such as the 5.35 billion users in 2024 and the impact of loading time on user retention. It clearly links the topic to real-world consequences like customer churn and business losses, which strengthens the relevance of the research. However, the significance could be further enhanced by explicitly connecting the chosen strategies (Blue-Green and Canary) to broader industry trends in DevOps and cloud-native deployment.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions Blue-Green and Canary deployment strategies as established solutions but lacks specific citations to published research, industry case studies, or comparative evaluations of these approaches. There is no reference to existing implementations, benchmarks, or prior academic work that demonstrates their effectiveness or limitations. This weakens the demonstration of awareness of the current state-of-the-art, especially since the thesis aims to evaluate or apply these strategies.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly identify a research gap. While it states that the strategies help reduce negative impact and improve service availability, it fails to clarify what specific aspect remains unaddressed in existing literature or practice. For instance, it does not mention whether there is a lack of comparative studies, insufficient real-world implementation data, or challenges in integrating these strategies within specific DevOps environments—key elements that would define a clear research gap.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is reasonably clear: minimizing disruptions during web application deployment in DevOps processes. The text identifies the challenge of maintaining service availability during updates and links it to user experience and business impact. However, the problem could be more precisely defined by specifying the context (e.g., in cloud environments, microservices architectures) and the specific limitations of current practices that the thesis aims to overcome.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes two in-text citations (1) and (2), but they are not properly formatted or linked to a reference list. The citations are used to support claims about user behavior and performance impact, but without a proper bibliography, it is impossible to verify the sources. This undermines the credibility of the claims and fails to meet academic standards for referencing.",
+        "complies": false
+    }
+]

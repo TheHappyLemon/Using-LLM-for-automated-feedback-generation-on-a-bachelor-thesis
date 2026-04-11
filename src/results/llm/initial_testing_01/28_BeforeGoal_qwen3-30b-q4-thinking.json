@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively explains the importance of the topic by highlighting the widespread use of cookies in modern web browsing and their dual role in enhancing user experience while introducing significant privacy and security risks. It connects the topic to current concerns such as session hijacking, XSS attacks, and user tracking, which are relevant and timely. The relevance is further strengthened by mentioning the ongoing evolution of cyber threats and the need for improved protection mechanisms. However, the significance could be further enhanced by referencing real-world incidents or statistics to underscore the urgency.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions key security mechanisms like Secure, HttpOnly, and SameSite, which are accurate and relevant to current best practices. However, it lacks specific citations to published research, academic papers, or authoritative sources (e.g., W3C standards, OWASP guidelines, or recent studies on cookie security). The reference to 'modern browsers' and 'new security improvements' is vague and does not demonstrate awareness of concrete, published advancements in the field. This limits the demonstration of state-of-the-art knowledge.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a research gap by noting that existing security mechanisms can be circumvented and that new attack methods are emerging. It also suggests that there is a need to understand these mechanisms deeply and identify potential improvements. However, the gap is not explicitly or clearly formulated. It does not reference prior studies that have already evaluated or compared these mechanisms, nor does it state whether such comparisons are missing in the literature. As a result, the gap remains implicit rather than clearly identified.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The core problem is reasonably clear: the security and privacy risks associated with cookies in web browsers, despite existing protective mechanisms. The text identifies specific threats such as session hijacking, XSS, and user tracking, which define the scope of the research challenge. However, the problem statement could be more precise by specifying whether the thesis focuses on evaluating existing mechanisms, proposing improvements, or analyzing attack vectors. The problem is present but somewhat broad and could be sharpened.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text contains no citations or references to support claims about security mechanisms, attack vectors, or the state of current research. While it mentions specific terms like Secure, HttpOnly, and SameSite, it does not reference standards (e.g., RFC 6265), security guidelines (e.g., OWASP), or prior research that has examined these mechanisms. The absence of references undermines the credibility of the claims and fails to acknowledge prior work, which is essential in academic writing.",
+        "complies": false
+    }
+]

@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, the tasks are listed as 1., 2., 3., etc., each on a new line. They are numbered and separated, so this seems to comply. The answer here should be true.
+
+Next, **Quantity**. The task is to count the number of individual tasks. Let me count them: 1. Investigate and describe concept maps, 2. Investigate and describe LVM, 3. Investigate existing solutions, 4. Compare and evaluate LVM for concept maps, 5. Develop a tool using LVM, 6. Investigate and evaluate the tool's operation. That's six tasks. The criteria say it's okay if it has 5, 6, or 7. So the number is 6, which complies. The feedback should just be the number 6.
+
+For **Completeness**, the question is whether the tasks cover a complete research process including theoretical analysis, practical implementation, and validation. Let's see: Tasks 1-3 are theoretical (investigating concept maps, LVM, existing solutions). Task 4 is comparing LVMs, which is part of the analysis. Task 5 is developing a tool (practical implementation), and task 6 is evaluating the tool. However, the validation part (comparing with existing solutions or showing it solves a problem) is mentioned in task 6, but it's not clear if they compare with existing solutions or just evaluate the tool's performance. The feedback might note that validation is somewhat addressed but could be more explicit.
+
+**Format** checks if each task is exactly one sentence. Looking at the tasks: Each starts with a number and a period, and each task is a single sentence. For example, "Izpētīt un aprakstīt kas ir konceptu kartes..." is one sentence. So this complies.
+
+**Structure** asks if the tasks consistently use infinitive verbs at the beginning. The original tasks in Latvian use verbs like "Izpētīt" (to investigate), "Aprakstīt" (to describe), "Salīdzināt" (to compare), "Izstrādāt" (to develop), "Izpētīt un novērtēt" (to investigate and evaluate). These are all infinitive forms. So the structure is correct here.
+
+**Clarity** is about short, straightforward sentences. The tasks are concise, each is a single sentence, and the language is precise. So this should comply.
+
+**Relevance** checks if the tasks are ordered to contribute to the thesis goal. The goal is to develop a solution using LVM for concept maps. The tasks start with researching the topic, existing solutions, comparing LVMs, developing the tool, and evaluating it. This order makes sense: research, compare, develop, test. So the tasks are relevant and contribute to the goal. However, the feedback might note that the validation step (task 6) could be more explicitly tied to comparing with existing solutions, but it's still relevant.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into clearly separated items in a numbered list. Each task is listed sequentially with numbers.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include theoretical analysis (tasks 1-3), practical implementation (task 5), and evaluation (task 6). However, validation of the developed tool is not explicitly compared to existing solutions or benchmarks, only its operation is evaluated.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is exactly one sentence long and does not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Aprakstīt', 'Salīdzināt', 'Izstrādāt', 'Izpētīt') at the beginning of each sentence.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text consists of short, straightforward sentences with concise and precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are ordered to contribute to the thesis goal: researching existing solutions, comparing LVMs, developing a tool, and evaluating its operation. However, the validation step could be more explicitly tied to comparing with existing solutions.",
+        "complies": true
+    }
+]

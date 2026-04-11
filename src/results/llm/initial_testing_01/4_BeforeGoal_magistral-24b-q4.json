@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text explains why the topic is important and relevant by mentioning Java's popularity and the need for concurrent programming. However, it could be clearer about why this specific research is necessary in the current context.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions some key points like TIOBE ratings and Java's concurrency features but lacks specific published research or cutting-edge achievements related to virtual threads.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at unresolved issues in concurrent programming but does not explicitly state a concrete research gap based on existing studies.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is somewhat clear: evaluating old and new Java concurrency mechanisms. However, it could be more precisely defined.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included but not always clearly integrated into the text. Some claims could benefit from more explicit citations.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a clearly numbered list with each task starting with a number followed by a period, making the structure easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are exactly 5 individual tasks listed in the text.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a complete research process: theoretical analysis (literature review), practical research (survey and usability testing), problem identification, and development of UI/UX solutions. However, the text lacks explicit mention of validating the proposed solutions against existing ones or demonstrating their real-world effectiveness, which is required for full validation. The solution development is mentioned, but not its evaluation or comparison.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed in a single sentence, and none of them span across multiple sentences, meeting the format requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Each task begins with an infinitive verb (e.g., 'Veikt', 'Analizēt', 'Izstrādāt', 'Balstoties', 'Izvirzīt'), which is consistent throughout the list.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use precise language. Each task is clearly stated without ambiguity.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to the thesis goal: starting with literature review, moving to data collection, identifying problems, and finally proposing solutions. However, the absence of a validation step for the proposed solutions weakens the relevance of the final task to the goal, as the goal includes optimizing user experience, which requires demonstrating that the solutions actually improve it.",
+        "complies": false
+    }
+]

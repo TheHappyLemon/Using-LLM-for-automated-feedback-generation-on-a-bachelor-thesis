@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against those criteria.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it starts with "Bakalaura darba uzdevumi:" followed by numbers 1 through 7, each with a period. Each task is on a new line. So yes, it's a numbered list. The answer here should be "complies" as true.
+
+Next, **Quantity**. The user wants the count of individual tasks. The tasks are numbered 1 to 7, so that's 7 tasks. The feedback should just be the number 7. Since the allowed numbers are 5,6,7, it complies.
+
+**Completeness**. The tasks need to cover a complete research process: theory, practical experiments, validation. Let's check each task. Task 1 is theoretical (apkopot teorētiskos pamatus). Task 2 is about DOCX specifics. Task 3 is existing methods. Task 4 is where info is stored. Task 5 is testing existing methods. Task 6 is experiments with different files and tools. Task 7 is analyzing results and conclusions. However, the goal is to develop solutions for data security by identifying hidden info. The tasks mention evaluating existing methods but not developing new ones. The validation part is missing because there's no mention of comparing with existing solutions or demonstrating a new solution's effectiveness. So completeness might be lacking here. The feedback should note that while there's analysis and experiments, developing and validating a new solution isn't covered.
+
+**Format**. Each task should be one sentence. Let's check each. Task 1: "Apkopot steganogrāfijas un steganalīzes teorētiskos pamatus." One sentence. Task 2: "Noteikt DOCX formāta specifiskās īpatnības..." Also one sentence. All tasks seem to be single sentences. So complies is true.
+
+**Structure**. The tasks should start with infinitive verbs. In Latvian, the infinitive form is used here. For example, "Apkopot" (to compile), "Noteikt" (to determine), "Izpētīt" (to investigate), etc. Each task starts with a verb in infinitive. So structure is correct. Complies is true.
+
+**Clarity**. The sentences are short and straightforward. The language is precise. Each task is clear and concise. So feedback would note that the sentences are clear and concise. Complies is true.
+
+**Relevance**. The tasks should contribute to the thesis goal of developing solutions for data security by identifying hidden info in DOCX. The tasks include researching existing methods, testing them, experiments, and analyzing results. However, the development of a new solution isn't mentioned. The goal mentions developing solutions, but the tasks only evaluate existing ones. So the relevance might be lacking because the development part isn't covered. The feedback should point out that while the tasks cover research and evaluation, developing a new solution isn't included, which is part of the thesis goal.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "7",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis, practical experiments, and result analysis but do not explicitly mention developing a new solution or comparing it with existing ones, which is required for validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence and does not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Each task begins with an infinitive verb (e.g., 'Apkopot', 'Noteikt', 'Izpētīt'), maintaining consistent structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use concise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks align with the goal of researching steganalysis in DOCX but lack explicit development of a new solution, which is part of the thesis goal.",
+        "complies": false
+    }
+]

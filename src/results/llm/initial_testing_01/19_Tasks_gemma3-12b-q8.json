@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a numbered list, which is a good practice for outlining tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text lists 6 tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover a reasonable scope, including problem analysis, algorithm exploration, software analysis, development, testing in a real environment, and result evaluation. However, the description of validation is somewhat weak. It mentions testing in a real environment and gathering feedback, but it doesn't explicitly state a comparison with existing solutions or established benchmarks. A stronger validation step would involve comparing the developed software's performance or features against existing solutions.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Most tasks are described in a single sentence. However, the first task, 'Izpētīt problēmu, analizēt tās raksturu, īpašības un saistītos trūkumus,' spans over multiple clauses, which slightly deviates from the single-sentence format.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each task description (e.g., 'Izpētīt', 'Analizēt', 'Izstrādāt', 'Veikt', 'Apkopot').",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are generally short and straightforward, using concise language. The wording is clear and easy to understand.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to achieving the thesis goal. The progression from problem analysis to algorithm exploration, software analysis, development, testing, and result evaluation demonstrates a clear path towards creating and validating a dynamic scheduling system.",
+        "complies": true
+    }
+]
+```

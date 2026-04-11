@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction touches on the importance of steganography and the widespread use of PE files, but it does not explicitly connect the topic to current cybersecurity trends, such as the rise of sophisticated malware or the need for covert channels in modern networks. The relevance is implied rather than clearly articulated, and the motivation for research is not strongly tied to a specific problem or development.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single reference (Grebnikov V., 2019) is cited, and the discussion of existing techniques is very general. There is no mention of recent peer‑reviewed studies, benchmark results, or cutting‑edge tools that have addressed steganography in PE files. The state‑of‑the‑art section is therefore incomplete.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text states that PE‑based steganography has not been deeply studied, but it does not clearly define what specific aspects are missing (e.g., lack of detection algorithms, limited evaluation of embedding capacity, or absence of a systematic taxonomy). The gap is mentioned in broad terms rather than as a concrete, researchable deficiency.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is implicit: to investigate how PE file properties can be exploited for hiding and detecting information. However, it is not phrased as a clear research question or objective, making it difficult for a reader to immediately grasp the exact challenge the thesis will tackle.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "Citations are sparse; many factual claims (e.g., about the prevalence of PE files, the effectiveness of steganography, or the impact on cybersecurity) are presented without sources. A more robust bibliography would strengthen the credibility of the introduction.",
+        "complies": false
+    }
+]

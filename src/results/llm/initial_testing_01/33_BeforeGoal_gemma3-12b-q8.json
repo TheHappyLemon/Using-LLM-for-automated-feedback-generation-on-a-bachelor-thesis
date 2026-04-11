@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text establishes the importance of minimizing web disruptions due to increasing internet usage and user expectations. It effectively highlights the negative consequences of disruptions, such as increased bounce rates and loss of customer trust. However, it could benefit from briefly mentioning the specific DevOps context and how Blue-Green and Canary deployments are particularly relevant within that framework.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions Blue-Green and Canary deployments as solutions, but it lacks specific citations or references to research on these strategies. It doesn't discuss existing evaluations or comparisons of these strategies, or acknowledge any limitations or challenges associated with their implementation. It would be strengthened by citing relevant academic papers or industry reports.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text doesn't explicitly state a research gap. While it implies a need for better disruption prevention, it doesn't pinpoint a specific unanswered question or area where existing research is lacking. It needs to clearly articulate what the thesis will investigate that hasn't been adequately addressed before.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is clearly identified: the need to prevent web disruptions to improve user experience and maintain company reputation. The text effectively conveys the challenge of delivering products without interruptions in the context of increasing online dependency.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text includes numerical references (1) and (2), but these are not properly formatted as citations. It lacks a bibliography or list of references at the end. The references need to be formatted consistently and include full bibliographic information.",
+        "complies": false
+    }
+]
+```

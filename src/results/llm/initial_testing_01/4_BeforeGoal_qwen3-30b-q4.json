@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text partially explains the importance of the topic by highlighting Java's popularity and the relevance of concurrency in modern software development. However, the connection between virtual threads and current challenges in parallel programming is not sufficiently developed. The significance could be strengthened by more clearly linking virtual threads to real-world performance improvements, scalability needs, or industry demands.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions key developments such as the introduction of virtual threads in Java 19 and their stable release in Java 21, which shows awareness of recent advancements. However, it lacks specific citations to published research, academic papers, or detailed technical evaluations of virtual threads compared to traditional threading models. The reference to Giebas et al. (2021) is mentioned but not properly integrated or contextualized.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies general weaknesses of traditional threading (e.g., race conditions, deadlocks) but does not clearly articulate a specific research gap. While it suggests comparing old and new concurrency mechanisms, it fails to explicitly state what is missing in existing literature—such as a comprehensive evaluation of virtual threads in real-world applications or performance benchmarks across different use cases.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The general problem—improving parallel programming efficiency in Java—is implied but not clearly defined. The thesis aims to evaluate old and new concurrency mechanisms, but the specific challenge (e.g., performance bottlenecks in high-concurrency applications, developer productivity, resource overhead) is not precisely formulated. The problem statement would benefit from a more focused and measurable research question.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes a citation (Giebas et al., 2021) and mentions Oracle.com and TIOBE.com, but these are not properly formatted or integrated into the text. The citation lacks a full reference list, and the use of web sources (e.g., Oracle.com) is not sufficient for academic rigor. More scholarly sources are needed to support claims about concurrency challenges and virtual thread performance.",
+        "complies": false
+    }
+]

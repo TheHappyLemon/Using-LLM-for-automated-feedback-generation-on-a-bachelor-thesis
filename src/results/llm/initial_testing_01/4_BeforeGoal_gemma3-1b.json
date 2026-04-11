@@ -1,0 +1,32 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text establishes Java's prominence but lacks a clear articulation of its importance in the context of current challenges. It mentions concurrency but doesn't connect it to broader problems like application development or system design. The text needs to demonstrate a stronger rationale for why this topic is crucial.",
+        "complies": "Boolean value. True if text adequately justifies the topic's importance."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly mentions Java 19's virtual paving, but doesn't showcase the evolution of the field beyond that. It should cite specific research or advancements to demonstrate awareness of the current state of the art, particularly in parallel programming.",
+        "complies": "Boolean value. True if the text demonstrates awareness of current state-of-the-art.",
+        "complies_with_context": "Boolean value. True if the text is relevant to the context of the question."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap in the research – the evaluation of virtual paving – but doesn't explicitly state *what* that gap is. It needs to formulate a specific problem or limitation of the current research landscape.",
+        "complies": "Boolean value. True if the text identifies a gap.",
+        "complies_with_context": "Boolean value. True if the gap is relevant to the thesis's focus."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text focuses on the popularity of Java but doesn't clearly define the specific problem or challenge the thesis aims to address. It needs to state the core issue being investigated.",
+        "complies": "Boolean value. True if the text clearly defines the problem.",
+        "complies_with_context": "Boolean value. True if the problem is relevant to the thesis's scope."
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references to support claims and acknowledge sources. It should include citations to relevant research or established practices to strengthen the argument.",
+        "complies": "Boolean value. True if references are present and used.",
+        "complies_with_context": "Boolean value. True if references are relevant to the context."
+    }
+]

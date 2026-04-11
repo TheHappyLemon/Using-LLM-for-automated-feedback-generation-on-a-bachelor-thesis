@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand the user's request. They provided a thesis topic, goal, tasks text, and evaluation questions. My job is to evaluate the tasks text against each question and return a JSON array with feedback and compliance status.
+
+Starting with the first question: **Outlook**. The question is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it starts with "Bakalaura darba uzdevumi:" followed by numbers 1 through 6. Each task is on a new line, separated by line breaks. So yes, it's a numbered list. The feedback should note that it's properly structured with numbered items. Compliance is true.
+
+Next, **Quantity**. The user wants the count of tasks. The tasks listed are 1 to 6, so that's 6 tasks. The feedback should just be the number 6. Since the allowed numbers are 5,6,7, it complies. So the feedback is "6" and complies is true.
+
+**Completeness** checks if the tasks cover a complete research process. The tasks include theoretical analysis (1,2,3), practical implementation (5), and validation (4,6). Task 4 is creating a criteria system for evaluation, which is part of validation. Task 6 is drawing conclusions. However, the validation part might be lacking in comparing with existing solutions. The tasks mention analyzing existing solutions (task 3) and developing a prototype (task 5), but task 4's criteria system might not explicitly compare with existing solutions. So maybe the completeness is partially met but not fully. The feedback should point out that while tasks cover research and development, validation through comparison with existing solutions isn't clearly addressed. Compliance would be false.
+
+**Format** checks if each task is one sentence. Looking at the tasks: each starts with a number and a period, and each is a single sentence. For example, "Izpētīt mikropakalpojumu arhitektūras raksturīgas īpašības." So yes, each is one sentence. Compliance is true.
+
+**Structure** looks for infinitive verbs at the start. The tasks use verbs like "Izpētīt", "Analizēt", "Izveidot", "Izstrādāt", "Noformulēt". These are in the infinitive form. So the structure is consistent. Compliance is true.
+
+**Clarity** checks for short, straightforward sentences. The tasks are concise, each is a single verb phrase. The language is precise. So compliance is true. Feedback would note the clarity and conciseness.
+
+**Relevance** ensures tasks contribute to the thesis goal. The goal is to study asynchronous microservice development in Python. The tasks include studying architectures, async programming, analyzing Python's use, creating criteria, developing a prototype, and drawing conclusions. All these steps lead towards achieving the goal. The tasks cover research, implementation, and analysis. So compliance is true. Feedback would confirm that the tasks are ordered to reach the goal.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include theoretical analysis (1, 2, 3), practical implementation (5), and validation (4, 6). However, explicit comparison with existing solutions or benchmarks is not clearly addressed in the validation phase.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently begin with infinitive verbs (e.g., 'Izpētīt', 'Analizēt', 'Izveidot').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text uses short, straightforward sentences with concise and precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are ordered to achieve the thesis goal: researching principles, analyzing Python's use, developing a prototype, and drawing conclusions.",
+        "complies": true
+    }
+]

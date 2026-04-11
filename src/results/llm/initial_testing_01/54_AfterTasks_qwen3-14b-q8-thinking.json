@@ -1,0 +1,31 @@
+<think>
+Okay, let's tackle this. The user provided a thesis topic in Latvian about optimizing automated testing methods for microservices architecture in CI/CD pipelines. The final section of the introduction is just "Sadalījums pa nodaļām:" which translates to "Division into chapters:".
+
+Now, looking at the questions:
+
+1. **Chapters**: Does the text list the main sections? The given text only mentions "Sadalījums pa nodaļām:" but doesn't actually list any chapters. So the answer here is no. The feedback should point out that the main sections aren't listed. Complies would be false.
+
+2. **Description**: Does it briefly describe each section's content? Since there are no sections listed, there's nothing to describe. The feedback should note that without listed chapters, there's no content to describe. Complies is false.
+
+3. **Structure**: Can the general structure be understood from this text? The text only mentions that there's a division into chapters but doesn't provide any structure details. So the structure isn't clear. Feedback should mention that the structure isn't explained, making it hard to understand. Complies is false.
+
+So all three answers are non-compliant. The feedback needs to be concise, pointing out the lack of information in each case.
+</think>
+
+[
+    {
+        "question": "Chapters",
+        "feedback": "Teksts neuzskaita galvenās darba nodaļas. Nav norādītas konkrētas nodaļas nosaukumi vai struktūra.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "Nav iespējams aprakstīt nodaļu saturu, jo nav uzskaitītas konkrētas nodaļas vai tās satura elementi.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "Teksts nav skaidrs par visu darba struktūru, jo nav sniegta informācija par nodaļu sadalījumu vai to secību.",
+        "complies": false
+    }
+]

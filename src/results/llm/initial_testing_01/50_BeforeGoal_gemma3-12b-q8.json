@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text adequately explains the importance of the topic by highlighting the benefits of microservices architecture (scalability, flexibility, independent development) and the limitations of synchronous approaches in high-load systems. It connects the topic to modern software development needs, particularly in finance and e-commerce.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions technologies like FLASK and DJANGO for synchronous data exchange and technologies like asyncio, FastAPI, Celery, and aiohttp for asynchronous operations. However, it lacks specific citations of published research or detailed discussion of existing evaluations or comparisons of asynchronous microservice implementations. It primarily lists technologies rather than demonstrating awareness of prior research.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text implies a gap by highlighting the limitations of synchronous approaches and the potential of asynchronous ones, it doesn't explicitly formulate a concrete research gap. It doesn't state what specific aspect of asynchronous microservice development in Python remains unresolved or insufficiently addressed.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: to investigate and demonstrate solutions for building asynchronous microservices in Python. The text effectively communicates the core challenge the thesis aims to address.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks any explicit references to support claims or acknowledge sources. While it mentions technologies, it doesn's cite any research papers, articles, or documentation related to them.",
+        "complies": false
+    }
+]
+```

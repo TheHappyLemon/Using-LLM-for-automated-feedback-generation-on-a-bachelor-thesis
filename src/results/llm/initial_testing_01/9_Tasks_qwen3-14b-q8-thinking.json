@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand the user's request. They provided a thesis topic, goal, tasks text, and evaluation questions. My job is to evaluate the tasks text against each question and provide feedback in JSON format.
+
+Starting with the first question: **Outlook**. The question is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it starts with "Bakalaura darba uzdevumi:" followed by four numbered points. Each point is on a new line and numbered 1) to 4). So yes, it's a numbered list. The answer here should be "complies" as it's properly structured.
+
+Next, **Quantity**. The user wants the count of individual tasks. The tasks listed are 1) to 4), so that's four tasks. The criteria say it should have 5, 6, or 7 tasks. Since there are only four, this doesn't comply. The feedback should mention that the number is less than required.
+
+For **Completeness**, the tasks need to cover theoretical analysis, practical research, implementation, and validation. The tasks listed include researching existing solutions (task 1 and 2), gathering info on VR hardware (task 3), developing a prototype (task 4). However, there's no mention of validating the prototype by comparing with existing solutions or benchmarks. So the completeness is lacking here. The feedback should note the missing validation step.
+
+**Format** checks if each task is one sentence. Task 1 is one sentence. Task 2 is a bit longer but still one sentence. Task 3 is one sentence. Task 4 is also one sentence. So all tasks are single sentences. Therefore, it complies.
+
+**Structure** requires using infinitive verbs at the start. The tasks use "Apkopot", "Analizēt", "Apkopot", "Izstrādāt". These are infinitive forms in Latvian. So the structure is correct. Complies.
+
+**Clarity** is about short, straightforward sentences. The tasks are concise and use precise language. Each task is clear and to the point. So this complies.
+
+**Relevance** checks if the tasks contribute to the thesis goal. The goal is to develop a prototype using computer vision and VR data. The tasks include researching existing solutions, analyzing them, gathering VR data info, and developing the prototype. However, there's no mention of testing or validating the prototype against existing solutions or benchmarks. The tasks don't fully cover validation, which is part of the goal. So the relevance is partially met but lacks the validation part. Therefore, it doesn't fully comply.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with four clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 4 tasks, but the requirement is for 5, 6, or 7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include research, analysis, and implementation but lack explicit validation of results (e.g., comparison with existing solutions or benchmarks).",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently begin with infinitive verbs (e.g., 'Apkopot', 'Analizēt', 'Izstrādāt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks align with the thesis goal (research, development of a prototype) but omit explicit validation of the prototype's performance against existing solutions.",
+        "complies": false
+    }
+]

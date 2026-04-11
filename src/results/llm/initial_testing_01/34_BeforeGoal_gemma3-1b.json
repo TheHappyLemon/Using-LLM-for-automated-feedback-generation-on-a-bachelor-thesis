@@ -1,0 +1,33 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text establishes the importance of UI/UX design in relation to the revitalization of the industry, highlighting the need to cater to older user groups. However, it lacks a clear articulation of *why* this research is crucial and how it addresses specific challenges within the current landscape. It needs to demonstrate a stronger rationale for the investigation.",
+        "complies": "Boolean value. True if text demonstrates a strong rationale for the research."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly mentions the field of UI/UX design, but it doesn't provide specific examples of current research or cutting-edge achievements.  It needs to cite relevant publications to demonstrate awareness of existing developments and showcase the thesis' contribution to the field.",
+        "complies": "Boolean value. True if the text demonstrates awareness of current state-of-the-art.",
+        "context": "Boolean value. True if the text provides examples of current state-of-the-art."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap in the understanding of how older user groups interact with digital products. However, it doesn't explicitly state *what* this gap is or *how* it differs from existing research.  The gap needs to be more clearly defined.",
+        "complies": "Boolean value. True if the text identifies a gap.",
+        "context": "Boolean value. True if the text identifies a gap."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text describes the challenges faced by older user groups – kaspīklā lietotāru prasmes darbības, kognitīvie traucējumi, un motorika. However, it doesn't specify the *specific* problem or challenge the thesis aims to address.  The problem needs to be more focused.",
+        "complies": "Boolean value. True if the text identifies a problem.",
+        "context": "Boolean value. True if the text identifies a problem."
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references to support claims and acknowledge sources.  It needs to include citations to relevant research and studies to strengthen the argument and demonstrate the thesis' foundation in existing knowledge.",
+        "complies": "Boolean value. True if references are missing.",
+        "context": "Boolean value. True if references are missing."
+    }
+]
+```

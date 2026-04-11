@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a numbered list, which is a good start for outlining tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text lists 7 individual tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover a reasonable range of activities, from literature review to algorithm implementation and evaluation. However, the description of validation could be more specific. It's not entirely clear how the results will be validated against existing solutions or benchmarks. More detail on the validation process would strengthen the completeness.",
+        "complies": true
+    },
+    {
+        "question" : "Format",
+        "feedback": "Most tasks are described in a single sentence. However, task 1 spans over multiple sentences. It would be better to rephrase it into a single, concise sentence.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text generally uses infinitive verbs at the beginning of sentences (e.g., 'Izpētīt', 'Analizēt', 'Izvēlēties'). However, some sentences start with other verb forms, which disrupts the consistency. Using infinitive verbs consistently would improve the structure.",
+        "complies": false
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are generally short and straightforward. The language is concise and precise. No significant clarity issues were identified.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to achieving the thesis goal of exploring AI solutions for fraud detection. The progression from literature review to practical implementation and evaluation is well-defined.",
+        "complies": true
+    }
+]
+```

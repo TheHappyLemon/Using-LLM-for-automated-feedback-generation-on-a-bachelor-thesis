@@ -1,0 +1,73 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it starts with "Bakalaura darba uzdevumi:" followed by numbers 1 through 6. Each task is on a new line, so it's a numbered list. So the answer here should be yes, it's organized properly. Compliance is true.
+
+Next, **Quantity**. The task is to count the number of individual tasks. The list has 6 items, numbered 1 to 6. The criteria say it's compliant if it has 5, 6, or 7 tasks. So 6 is acceptable. Feedback should just be the number 6.
+
+For **Completeness**, the question is whether the tasks cover a complete research process including theoretical analysis, practical research, implementation, and validation. Let's look at the tasks:
+
+1. Define reactive programming principles.
+2. Study React and Svelte architectures.
+3. Determine criteria for comparing the technologies.
+4. Study each framework's impact on the developer's workflow.
+5. Evaluate community support and tool ecosystem.
+6. Assess applicability in different project sizes and types.
+
+These tasks cover theoretical analysis (1,2,3), practical research (4,5,6), but there's no mention of implementing a solution or validating results by comparing with existing solutions. The tasks are more about analysis and evaluation rather than developing a solution or validating through experiments. So the completeness might be lacking here. Compliance is false.
+
+**Format** checks if each task is exactly one sentence. Let's check each:
+
+1. "Noformulēt reaktīvās programmēšanas principus." – one sentence.
+2. "Izpētīt React un Svelte arhitektūras pamatprincipus." – one sentence.
+3. "Noteikt kritēriju sistēmu pētāmo tehnoloģiju salīdzināšanai." – one sentence.
+4. "Izpētīt katra satvara ietekmi uz izstrādātāja darba procesu." – one sentence.
+5. "Novērtēt kopienas atbalstu un rīku ekosistēmu." – one sentence.
+6. "Izvērtēt katra satvara piemērojamību dažādos projekta izmēros un tipoloģijās." – one sentence.
+
+All are single sentences. Compliance is true.
+
+**Structure** asks if the tasks consistently use infinitive verbs at the beginning. The verbs here are "Noformulēt", "Izpētīt", "Noteikt", "Izpētīt", "Novērtēt", "Izvērtēt". In Latvian, these are infinitive forms (without the "to" as in English). So they start with the infinitive. Compliance is true.
+
+**Clarity** checks if the sentences are short and use concise language. Each task is a single, straightforward sentence with no unnecessary words. They are clear and to the point. Compliance is true.
+
+**Relevance** requires that the tasks contribute to the thesis goal of improving UI development using Svelte and React. The tasks involve studying both frameworks, comparing them, evaluating their ecosystems, and assessing their applicability. This directly supports the goal of comparing them to enhance UI development. However, the original goal mentions "uzlabot lietotāja saskarnes izstrādi" (improve UI development), but the tasks don't include developing a UI or implementing a solution. They focus on analysis and comparison rather than practical application. So while the tasks are relevant to the goal, they might not fully cover the development aspect. However, since the goal is to improve through analysis, maybe it's acceptable. But the user's note says that if the goal is to develop a solution, tasks should include research, development, and validation. Here, the goal is to improve UI development by using these frameworks, which could be through analysis. So maybe compliance is true. But I'm a bit unsure here. The tasks don't include developing a UI, but they do compare the frameworks, which could inform better practices. So I'll say compliance is true.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis and evaluation but lack practical implementation or validation of results (e.g., developing a solution or comparing findings with prior studies).",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Tasks consistently use infinitive verbs at the beginning of each item.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are short, straightforward, and use precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "Tasks align with the goal of comparing Svelte and React for UI development but lack direct implementation or validation of practical solutions.",
+        "complies": true
+    }
+]

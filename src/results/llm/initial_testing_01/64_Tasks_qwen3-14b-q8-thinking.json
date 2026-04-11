@@ -1,0 +1,57 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand the user's query and the provided materials. The user has given a Latvian thesis topic, goal, tasks, and a list of evaluation questions. My job is to evaluate the tasks text against each question and provide feedback in JSON format.
+
+Starting with the first question: **Outlook**. The question is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text provided, the tasks are listed with numbers (1., 2., etc.), each on a new line. So yes, it's a numbered list. The feedback here would be positive, and complies is true.
+
+Next, **Quantity**. The user wants the count of individual tasks. The tasks listed are 1 through 6, so that's 6 tasks. The criteria say it's compliant if it has 5, 6, or 7. So the number is 6, which is correct. Feedback is just the number, and complies is true.
+
+**Completeness** checks if the tasks cover a complete research process: theory, experiments, validation. Let's look at the tasks. Task 1 is theoretical analysis of GC principles. Task 2 is determining evaluation criteria. Task 3 is analyzing pros and cons of algorithms. Task 4 is conducting experiments comparing different GCs. Task 5 is developing recommendations. Task 6 is conclusions about future improvements. However, the validation part is a bit unclear. Task 4 mentions comparing with existing solutions or benchmarks? The original tasks don't explicitly mention comparing with prior studies or existing benchmarks, just experiments. So maybe the completeness is lacking in validation. The feedback would point out that while tasks 1-5 cover theory, experiments, and recommendations, task 6 is about conclusions, not validation against existing solutions. So complies might be false here.
+
+**Format** checks if each task is one sentence. Looking at the tasks: each starts with a number, then a period, and the task is a single sentence. For example, "Izpētīt Java drazu savākšanas mehānismu galvenos principus un algoritmus." That's one sentence. All tasks follow this. So complies is true.
+
+**Structure** requires that each task starts with an infinitive verb. In Latvian, the infinitive form is used here. For example, "Izpētīt" (to study), "Noteikt" (to determine), "Analizēt" (to analyze), "Veikt" (to perform), "Izstrādāt" (to develop), "Izdarīt" (to make). All tasks start with these verbs. So structure is correct, complies is true.
+
+**Clarity** checks if sentences are short and concise. The tasks are straightforward, each is a single sentence with clear verbs. No complex structures. So feedback would be positive, complies true.
+
+**Relevance** ensures tasks contribute to the thesis goal. The goal is to analyze GC mechanisms, evaluate algorithms, and provide recommendations. The tasks cover studying principles, determining criteria, analyzing pros/cons, experiments, recommendations, and conclusions. All tasks align with the goal. However, the validation part (comparing with existing solutions) isn't explicitly mentioned in the tasks. But task 4 says "salīdzināšanai" (comparison), which might imply comparing with existing solutions. So maybe it's covered. Therefore, complies is true.
+
+Now, compiling all these into JSON objects with the correct structure.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a clearly separated numbered list with six distinct tasks.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis, practical experiments, and recommendations, but lack explicit validation against prior studies or benchmarks. Task 6 focuses on conclusions rather than direct validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks consistently begin with infinitive verbs (e.g., 'Izpētīt', 'Noteikt', 'Analizēt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text uses short, straightforward sentences with precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks align with the thesis goal, covering analysis, experimentation, and recommendations. However, explicit comparison with existing solutions is not clearly emphasized in task 4.",
+        "complies": true
+    }
+]

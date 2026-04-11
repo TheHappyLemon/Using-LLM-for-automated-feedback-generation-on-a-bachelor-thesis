@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, but there's an inconsistency with item 6 being on a new line and starting with '6' instead of '3'. This might be a typo.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text describes tasks that cover theoretical analysis (task 1), practical research (tasks 3, 4, and 5), and validation of results (task 6). However, the comparison with prior studies or existing solutions is not explicitly mentioned.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Most tasks are one sentence long, but task 3 spans over two sentences. Task 1 also has a comma which might make it less clear.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each task.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are generally clear and concise, but some could be more precise. For example, task 3 mentions 'studentu zināšanu un prasmju uzlabošanos' which could be clarified.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are ordered in a logical sequence that contributes to reaching the stated thesis goal. They start with theoretical analysis, move on to practical research and implementation, and end with validation of results.",
+        "complies": true
+    }
+]
+```

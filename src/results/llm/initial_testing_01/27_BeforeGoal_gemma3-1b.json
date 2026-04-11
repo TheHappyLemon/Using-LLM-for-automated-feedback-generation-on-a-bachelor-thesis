@@ -1,0 +1,33 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text lacks a clear explanation of why this research is important. It states 'it is necessary to research it,' but doesn't justify the relevance of the topic. Consider adding a brief statement about the potential impact or benefits of this research.",
+        "complies": "Boolean value. True if the text adequately justifies the importance of the research."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions 'existing cutting-edge achievements' but doesn't provide specific examples of research or solutions.  Adding a few key references to established works would strengthen this section. Consider mentioning specific methodologies or approaches used in existing research.",
+        "complies": "Boolean value. True if the text demonstrates awareness of current research trends.",
+        "doesn't_complies": "Boolean value. False if the text lacks specific examples of state-of-the-art."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a 'gap' but doesn't explicitly state *what* the gap is.  It needs to define the specific area where current research falls short.  For example, 'No existing research exists on X methodology.'",
+        "complies": "Boolean value. True if the text identifies a gap in the current knowledge.",
+        "doesn't_complies": "Boolean value. False if the text doesn't identify a gap."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text simply states 'the challenge' without defining the specific problem being addressed.  Clarify the problem – what is the issue the thesis aims to solve or address?",
+        "complies": "Boolean value. True if the text clearly defines the problem.",
+        "doesn't_complies": "Boolean value. False if the text doesn't clearly define the problem."
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references.  Ensure all claims are supported by credible sources.  Provide a brief list of key references to demonstrate the use of prior research.",
+        "complies": "Boolean value. True if references are included and used.",
+        "doesn't_complies": "Boolean value. False if references are absent or insufficient."
+    }
+]
+```

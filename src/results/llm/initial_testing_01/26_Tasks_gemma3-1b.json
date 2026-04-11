@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Is the text organized into clearly separated items in form of a NUMBERED list?",
+        "feedback": "No",
+        "complies": "False"
+    },
+    {
+        "question": "Count the number of individual tasks in the text.",
+        "feedback": "7",
+        "complies": "True"
+    },
+    {
+        "question": "Does the text describe individual tasks that represent a complete research process, including theoretical analysis, practical research (experiments) or implementation (of solution), and validation of results — for example, by comparing findings with prior studies, existing solutions, or established benchmarks?",
+        "feedback": "No",
+        "complies": "False"
+    },
+    {
+        "question": "By validation we don't mean just something like developed software testing.",
+        "feedback": "No",
+        "complies": "False"
+    },
+    {
+        "question": "Does the text describe individual tasks that are exactly one sentence long and do not span over several sentences?",
+        "feedback": "True",
+        "complies": "True"
+    },
+    {
+        "question": "Does the text consistently use infinitive verbs (e.g., 'to analyze', 'to develop', 'to explore') at the beginning of sentences or phrases?",
+        "feedback": "True",
+        "complies": "True"
+    },
+    {
+        "question": "Does the text consist of short, straightforward sentences that use concise and precise language?",
+        "feedback": "True",
+        "complies": "True"
+    }
+]
+```

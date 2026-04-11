@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into clearly separated items using bullet points, but they are not numbered. This violates the requirement for a numbered list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains exactly 4 individual tasks, which is fewer than the required 5, 6, or 7.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (literature review) and practical comparison of algorithms, but lack explicit mention of experimental implementation, validation against benchmarks, or comparison with prior studies beyond the algorithms themselves. The task about evaluating audio parameters is partially complete, but there is no clear indication of how results will be validated or compared. The absence of a dedicated validation step weakens completeness.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is expressed in a single sentence, and none span over multiple sentences. The format is consistent and appropriate.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Each task begins with an infinitive verb in Latvian (e.g., 'Izpētīt', 'Apkopot', 'Izvērtēt', 'Salīdzināt'), which is consistent with the required structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use precise language. Each task is clearly expressed without ambiguity.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and contribute to the goal of comparing machine learning methods for music emotion recognition based on audio parameters. However, the sequence lacks explicit steps for implementation, experimentation, and validation of results against benchmarks or prior work, which are essential for a complete research process. The relevance is partially met but weakened by the missing validation and implementation phases.",
+        "complies": false
+    }
+]

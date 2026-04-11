@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, the tasks are listed as 1), 2), etc., each on a new line. They are numbered and separated, so this seems to comply. The answer here should be true.
+
+Next, **Quantity**. The task is to count the number of individual tasks. The list has 1) to 5), so that's five tasks. The criteria say it's okay if it's 5,6, or 7. So the number is 5, which is within the acceptable range. The feedback should just state the number, and complies is true.
+
+**Completeness**. The question is whether the tasks cover a complete research process: theoretical analysis, practical research, implementation, and validation. Let's check each task. Task 1 is about researching existing solutions, which is theoretical. Task 2 is about tools, which is part of the setup. Task 3 is planning scenarios and interactivity, which is part of the design. Task 4 is developing the simulator, which is implementation. Task 5 is testing it experimentally. However, the validation part (comparing with existing solutions or showing it solves a problem) isn't explicitly mentioned. The tasks mention testing but not comparing with existing solutions. So maybe the completeness is lacking here. The feedback should note that validation isn't fully addressed beyond testing.
+
+**Format**. Each task should be one sentence. Let's check each. Task 1: "Izpētīt esošos risinājumus datora komplektēšanai papildinātajā realitātē," – that's one sentence. Similarly, all others are single sentences. So complies is true.
+
+**Structure**. The tasks should start with infinitive verbs. The original text uses "Izpētīt", "Izpētīt", "Izplānot", "Izveidot", "Eksperimentāli testēt". In Latvian, the infinitive form is used here, so they start with the verb. So the structure is correct. Complies is true.
+
+**Clarity**. The sentences are short and straightforward. Each task is a single sentence with concise language. So this should comply. Feedback would note that the sentences are clear and concise.
+
+**Relevance**. The tasks should contribute to the thesis goal of developing the simulator. The tasks include researching existing solutions, planning, developing, and testing. However, the validation part (comparing with existing solutions or showing effectiveness) is only mentioned in task 5 as testing, but not explicitly comparing with prior work. The relevance is there, but maybe the validation part is missing. However, the tasks do cover the necessary steps towards the goal. So it's mostly compliant, but the feedback might mention that validation could be more explicit.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "5",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include theoretical analysis (task 1), planning (task 3), implementation (task 4), and testing (task 5). However, validation (e.g., comparison with existing solutions or demonstration of practical problem-solving) is not explicitly addressed beyond testing.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence and does not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Each task begins with an infinitive verb (e.g., 'Izpētīt', 'Izplānot', 'Izveidot').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use concise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks align with the thesis goal of developing a simulator, including research, planning, implementation, and testing. However, explicit validation (e.g., comparison with existing solutions) is missing.",
+        "complies": false
+    }
+]

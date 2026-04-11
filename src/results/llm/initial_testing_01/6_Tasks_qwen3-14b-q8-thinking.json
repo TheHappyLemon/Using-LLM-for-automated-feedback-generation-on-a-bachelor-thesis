@@ -1,0 +1,70 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, the tasks are listed with bullet points and numbers. However, the first bullet point has a number (•) but the next one starts with a number (6) which seems off. Wait, the original text shows:
+
+• Izpētīt aspektā sakņotas noskaņojuma analīzes pamatprincipus.
+6
+• Apkopot, izpētīt un salīdzināt klasiskos mašīnmācīšanās algoritmus...
+
+Wait, there's a "6" after the first bullet point. That might be a formatting error. The second bullet point is numbered as 6, but the rest are bullets again. So the list isn't consistently numbered. The first item is a bullet, then a number 6, then another bullet. That's not a clear numbered list. So the answer here would be no, the outlook isn't properly organized as a numbered list.
+
+Next, **Quantity**. The user wants the count of tasks. Let's count them. The first bullet is one task. Then there's a "6" which might be a typo, but the next bullet is the second task. Then the third, fourth, fifth, sixth, and seventh? Wait, the original text has:
+
+1. Izpētīt aspektā sakņotas noskaņojuma analīzes pamatprincipus.
+6
+2. Apkopot, izpētīt un salīdzināt klasiskos mašīnmācīšanās algoritmus...
+3. Sagatavot marķētu datu kopu eksperimentu veikšanai.
+4. Izstrādāt programmatūru eksperimentu veikšanai.
+5. Veikt eksperimentus, analizēt iegūtos rezultātus un veikt salīdzinājumu ar citu autoru rezultātiem, izvērtējot algoritmu sniegumu aspektā sakņotas noskaņojuma analīzes uzdevumos.
+
+Wait, the original text has five tasks. The first bullet is one, then the second is numbered 6 (which might be a mistake), but the rest are bullets again. However, the user's text shows five tasks. The count is five. The question says to output only the number if it's 5,6,7. So the answer is 5, which complies.
+
+**Completeness**: The tasks should cover the research process. Let's check. The tasks include theoretical analysis (studying principles), practical research (preparing data, developing software, experiments), and validation (comparing results with others). So yes, it's complete. The feedback would note that all steps are covered.
+
+**Format**: Each task should be one sentence. Let's check each. The first task is one sentence. The second is a bit long but one sentence. The third is one. Fourth is one. Fifth is a long sentence but still one. So yes, each is one sentence. So complies.
+
+**Structure**: The tasks should start with infinitive verbs. The original uses "Izpētīt", "Apkopot", "Sagatavot", "Izstrādāt", "Veikt". These are infinitives in Latvian. So yes, they start with infinitives. Complies.
+
+**Clarity**: The sentences are short and straightforward? The fifth task is a long sentence with multiple actions. It might be a bit complex. So maybe not fully clear. The feedback would mention that some sentences are long and could be split for clarity.
+
+**Relevance**: The tasks should contribute to the thesis goal. The goal is to compare large language models in aspectual root analysis. The tasks include researching principles, comparing algorithms, preparing data, developing software, experiments, and comparing results. All these steps are relevant. So complies.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is not organized into a clearly separated numbered list. The first item is a bullet point, followed by an isolated number '6', and subsequent items are bullet points again, creating inconsistency.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 5 individual tasks, which complies with the requirement of having 5, 6, or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text describes a complete research process, including theoretical analysis, practical implementation (software development), experimentation, and validation through comparison with existing solutions.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is written as a single sentence without spanning multiple sentences, complying with the format requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs (e.g., 'Izpētīt', 'Apkopot', 'Sagatavot') at the beginning of each task, complying with the structure requirement.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Most sentences are concise, but the fifth task contains a long, complex sentence that could be split for improved clarity.",
+        "complies": false
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to achieving the thesis goal of evaluating large language models for aspectual root analysis in Latvian.",
+        "complies": true
+    }
+]

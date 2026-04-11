@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is not organized into a numbered list. It's a paragraph describing the tasks.",
+        "complies": false
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text describes 6 individual tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The text covers a reasonable research process: investigation of technologies, requirements definition, prototyping, testing, and potential evaluation. However, it lacks detail on how the prototype will be validated against existing solutions or benchmarks. It mentions evaluating potential, but doesn't specify how this evaluation will be conducted.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "The text does not adhere to the requirement of each task being exactly one sentence long. Some sentences describe multiple tasks or contain multiple clauses.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text generally uses infinitive verbs at the beginning of sentences, but not consistently. Some sentences start with phrases like 'Darba ietvaros' which doesn't follow the requested structure.",
+        "complies": false
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The text uses relatively short and straightforward sentences, and the language is generally concise and precise.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks presented are relevant to the stated goal of developing a tourism guide using AR and GPS technologies. The sequence of tasks (research, requirements, prototype, testing, evaluation) logically contributes to achieving the goal.",
+        "complies": true
+    }
+]
+```

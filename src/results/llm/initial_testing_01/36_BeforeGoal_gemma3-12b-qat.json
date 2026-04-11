@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text effectively establishes the significance of the topic by highlighting the limitations of centralized cloud computing, particularly in the context of IoT and the increasing demand for fast and efficient web applications. It connects the topic to current trends like the growth of IoT and the need for low latency.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the state-of-the-art by citing two specific research papers. However, it could be strengthened by briefly mentioning existing evaluations or comparisons of edge computing versus cloud computing, if any exist. Currently, it primarily focuses on the benefits of edge computing without explicitly referencing prior evaluations.",
+        "complies": true
+    },
+    {
+        "question" : "Gap",
+        "feedback": "While the text mentions challenges in choosing and integrating technologies, it doesn't explicitly formulate a concrete research gap. It could be improved by stating what specific aspect of edge computing implementation in web applications remains insufficiently addressed or requires further investigation. For example, it could mention a lack of standardized methodologies or best practices.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is clearly identified: the need to improve the performance of web applications by addressing the limitations of centralized cloud computing and exploring the potential of edge computing. The text effectively conveys the challenge of integrating edge computing into existing web application development workflows.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text includes references to two research papers, which is a good start. However, as the thesis progresses, it will likely require more references to support claims and demonstrate a thorough understanding of the existing literature. Ensure all claims are properly supported by citations.",
+        "complies": true
+    }
+]
+```

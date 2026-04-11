@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a numbered list, which is a good start for outlining tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "7",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover a reasonable scope, from theoretical research (spiets types, formations, AI integration points) to practical application (identifying glābšanas process locations, suggesting modified processes, algorithm identification). However, the description lacks detail on how the proposed solution (modified glābšanas misijas process) will be validated. There's no mention of comparing the modified process with existing ones or demonstrating its effectiveness through simulations or case studies. The algorithm comparison is also vague - what criteria will be used for comparison?",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Most tasks are single sentences, but task 5 spans over two sentences. This should be corrected for consistency.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text generally uses infinitive verbs at the beginning of sentences (e.g., 'Izpētīt', 'Apskatīt', 'Identificēt'). However, some sentences could be rephrased to more consistently use this structure for improved clarity.",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are generally short and straightforward. However, some terms (e.g., 'spiets') might benefit from brief definitions or explanations within the context of the tasks, especially for readers unfamiliar with the specific terminology.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks appear logically ordered and contribute to the overall goal of exploring and suggesting improvements to glābšanas misijas using AI-integrated dronu spiets. The progression from research to application and algorithm identification is appropriate. However, as mentioned in the Completeness feedback, the lack of validation steps weakens the overall relevance and impact of the proposed solution.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text does a good job of explaining the importance of microservices and the potential benefits of asynchronous approaches. It connects the topic to modern software development trends, particularly in finance and e-commerce. However, it could be strengthened by providing more specific examples of problems caused by synchronous approaches in real-world applications.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions technologies like FLASK, DJANGO, asyncio, FastAPI, Celery, and aiohttp. However, it lacks specific citations to published research or existing solutions. It would be significantly improved by referencing relevant papers or articles that discuss asynchronous microservices in Python. The current mention is more of a listing of tools rather than a demonstration of awareness of the state-of-the-art.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "While the text identifies the problem of resource consumption and slow response times with synchronous approaches, it doesn't explicitly state a concrete research gap. It could be strengthened by stating something like, 'While asynchronous microservices offer potential benefits, there is a lack of comprehensive research on best practices and effective implementation strategies in Python.'",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is clearly identified: the need to investigate and demonstrate solutions for building asynchronous microservices in Python, addressing the inefficiencies of synchronous approaches. The explanation is concise and understandable.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text lacks any references. This is a significant weakness. The mention of technologies like FLASK, DJANGO, asyncio, FastAPI, Celery, and aiohttp should be accompanied by citations to their respective documentation or relevant research papers.",
+        "complies": false
+    }
+]
+```

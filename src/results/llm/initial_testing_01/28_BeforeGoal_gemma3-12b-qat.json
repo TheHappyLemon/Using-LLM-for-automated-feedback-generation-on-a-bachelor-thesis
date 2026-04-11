@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text effectively establishes the significance of the topic by highlighting the pervasive use of cookies, their role in enhancing user experience, and the associated privacy and security risks. It connects the topic to current trends like data analysis and the increasing prevalence of cybercrime. The explanation of why the research is important is well-articulated.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions Secure, HttpOnly, and SameSite as existing security mechanisms, but it lacks specific citations to published research or detailed discussion of their implementation or limitations. It would be strengthened by referencing specific papers or standards related to these mechanisms. The text also does not mention any prior evaluations or comparisons of these mechanisms.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "While the text identifies the need to understand and improve security mechanisms, it doesn't explicitly formulate a concrete research gap. It could be strengthened by stating a specific question or area where current knowledge is lacking, such as 'There is a lack of comprehensive evaluations of the effectiveness of different cookie security mechanisms against emerging attack vectors.'",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The text clearly identifies the problem: the need to protect users from the security risks associated with cookies, particularly in light of evolving cyber threats and vulnerabilities in existing security mechanisms. The problem is well-defined and relevant to the thesis topic.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text lacks any explicit references to support its claims or acknowledge prior research. This is a significant weakness, as it undermines the credibility of the arguments and makes it difficult to assess the basis for the assertions made. Adding references is crucial.",
+        "complies": false
+    }
+]
+```

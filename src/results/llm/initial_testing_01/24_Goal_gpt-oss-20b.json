@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal clearly states that the student will develop a modification of the Alpha‑Beta algorithm, integrate it into a full‑information two‑player game, and evaluate whether this leads to a higher win coefficient and more reasonable moves. The phrase \"saprātīgākiem gājieniem\" is somewhat vague; specifying a concrete metric (e.g., average evaluation score or move quality score) would make the goal more measurable.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal mixes the intended outcome with descriptions of the methods to be used (develop, integrate, determine). A proper intention statement should focus only on the desired result, e.g., \"to increase the computer’s win rate and improve move quality\".",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single, long sentence that contains several clauses. While it is technically one sentence, it is not concise and may be difficult to parse. Splitting it into two shorter sentences would improve clarity.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly addresses the problem outlined in the preceding text: the standard Alpha‑Beta algorithm’s inability to distinguish between high‑heuristic losing nodes and guaranteed‑loss nodes. It proposes a modification, its integration, and an evaluation that aligns with the motivation for improving AI performance in unfavorable positions.",
+        "complies": true
+    }
+]

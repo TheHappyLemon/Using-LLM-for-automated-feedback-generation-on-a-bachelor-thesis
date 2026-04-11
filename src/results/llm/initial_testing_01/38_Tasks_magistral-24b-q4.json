@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into clearly separated items using bullet points instead of a numbered list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text has 4 tasks, which does not meet the required range of 5 to 7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text describes individual tasks that cover theoretical analysis (analyzing existing approaches), practical research (organizing experiments), and validation of results (drawing conclusions based on experimental results). However, it lacks explicit comparison with prior studies or established benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "The tasks are not all one sentence long; some span over multiple sentences.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text does not consistently use infinitive verbs at the beginning of each task. The tasks start with verbs in their base form but not always as infinitives.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are relatively short and straightforward, using concise language. However, some sentences could be more precise.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically contribute to reaching the thesis goal by covering analysis, experimentation, and conclusion drawing based on results.",
+        "complies": true
+    }
+]
+```

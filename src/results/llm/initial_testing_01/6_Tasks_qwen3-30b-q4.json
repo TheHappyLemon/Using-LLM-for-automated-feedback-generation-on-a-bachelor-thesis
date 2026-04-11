@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a bulleted list, but the items are not numbered. The use of bullet points is acceptable, but the requirement specifically asks for a numbered list. Therefore, the structure does not comply with the specified format.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are 5 distinct tasks listed in the text, which falls within the acceptable range of 5, 6, or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover the full research process: theoretical analysis (first task), comparison of methods (second task), data preparation (third), implementation (fourth), experimentation and analysis (fifth), and comparison with prior work (fifth task). The final task explicitly includes validation by comparing results with other authors, fulfilling the completeness requirement.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "The first task spans two lines but remains a single sentence. The second task is a single sentence. The third and fourth tasks are single sentences. The fifth task is a single sentence, though it is quite long. Overall, all tasks are contained within one sentence each, even if some are complex. Therefore, the format requirement is met.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks begin with an infinitive verb in Latvian: 'Izpētīt', 'Apkopot', 'Sagatavot', 'Izstrādāt', 'Veikt'. This consistent use of infinitives at the beginning of each task satisfies the structural requirement.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are generally concise and use precise language. While some sentences are complex (e.g., the fifth task), they remain clear and unambiguous. The use of technical terms is appropriate for the context. Overall, the clarity is strong.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical sequence that directly supports the thesis goal: understanding the theory, reviewing methods, preparing data, implementing the system, conducting experiments, analyzing results, and validating against prior work. The order is coherent and contributes directly to the goal of evaluating large language models in aspect-based sentiment analysis.",
+        "complies": true
+    }
+]

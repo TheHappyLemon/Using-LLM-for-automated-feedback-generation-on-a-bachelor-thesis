@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text establishes the importance of the topic by mentioning Java's popularity and the potential for concurrency to improve program speed. However, it could be strengthened by providing more concrete examples of how virtual threads can address specific real-world problems or improve existing applications. The connection between the topic's significance and the thesis's specific research questions could be more explicit.",
+        "complies": false
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions the development of `java.util.concurrent` and the introduction of virtual threads (JDK 21). However, it lacks specific citations of research papers or publications that describe these advancements. It would be beneficial to cite relevant articles or documentation to demonstrate a deeper understanding of the current state of the field. The reference to Oracle.com is not a scholarly source.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text identifies weaknesses in traditional threading (race conditions, deadlocks, atomicity issues) but doesn't explicitly state what remains unresolved or insufficiently addressed regarding virtual threads. It needs to articulate a specific gap in the current understanding or application of virtual threads. For example, is there a lack of performance analysis, a lack of understanding of their limitations, or a lack of guidance on how to effectively use them?",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The text implicitly suggests the problem is to evaluate and understand the new Java virtual threads and their potential. However, it could be more clearly stated. A more precise problem statement would define the scope of the evaluation (e.g., comparing performance with traditional threads in specific scenarios) and the specific questions the thesis aims to answer.",
+        "complies": false
+    },
+    {
+        "question" : "References",
+        "feedback": "The text includes references to TIOBE.com and Oracle.com, but these are not academic sources. It needs to incorporate citations of research papers, technical reports, or other scholarly publications to support its claims and demonstrate a thorough understanding of the existing literature. The citation style is also missing.",
+        "complies": false
+    }
+]
+```

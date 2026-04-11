@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clear separation between items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text describes individual tasks that represent a complete research process, including theoretical analysis (task 1), practical implementation (tasks 2-3), and validation of results (tasks 4-5). Task 6 also contributes to the validation by evaluating the effectiveness of the solution.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Most tasks are described in one sentence, but some tasks span over several sentences. For example, task 2 describes multiple aspects (functional and non-functional requirements, supported protocols). Task 3 also spans over several sentences.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each task, except for task 6 which starts with a verb in imperative mood ('Novērtēt').",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text consists of short and straightforward sentences that use concise language. However, some tasks could be more precise (e.g., task 2 mentions 'functional and non-functional requirements' but does not specify them).",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The text presents a set of actions that logically contribute to reaching the stated thesis goal. The tasks cover research, implementation, validation, and evaluation.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text explains why the topic is important and relevant by highlighting the challenges faced by financial analysts due to the complexity of ML models. However, it could benefit from more specific examples or statistics to emphasize the current problems.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions specific XAI methods (LIME and SHAP) but does not cite any published research or existing achievements. It would be stronger with references to relevant studies or comparisons made by other authors.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text does not explicitly identify a concrete research gap. It mentions the challenge but does not clearly state what remains unresolved or insufficiently addressed in the current state of knowledge.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The concrete issue or challenge is clear: the difficulty in interpreting and trusting ML model predictions due to their 'black box' nature, especially in high-risk scenarios. This part is well-defined.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "There are no references included to support claims or acknowledge sources. Adding citations to relevant studies and methods would strengthen the introduction.",
+        "complies": false
+    }
+]

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text explains the importance of asynchronous programming in modern software development and its relevance in handling high data throughput, scalability, and real-time processing. However, it could benefit from a more explicit connection to current problems or trends specific to Java and Python.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions several key technologies and frameworks (CompletableFuture, Akka, asyncio) and cites relevant research. However, it does not explicitly state whether these are the latest achievements or if there are gaps in current evaluations or comparisons.",
+        "complies": true
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text does not explicitly identify a concrete research gap. It mentions various applications and benefits of asynchronous programming but does not clearly state what remains unresolved or insufficiently addressed.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The text provides a broad overview of the challenges in asynchronous programming with Java and Python, but it lacks a clear, specific problem statement that the thesis aims to address. It would be helpful to have a more focused issue or challenge.",
+        "complies": false
+    },
+    {
+        "question" : "References",
+        "feedback": "The text includes several references (Zbarcea & Tudose, 2024; Zhang u.c., 2024; Rucins u.c., 2023; Python Software Foundation, 2025; Reguera-Salgado u.c., 2024; Zhulkovskyi u.c., 2024) to support claims and acknowledge sources. However, some references seem to be hypothetical (e.g., Python Software Foundation, 2025).",
+        "complies": true
+    }
+]
+```

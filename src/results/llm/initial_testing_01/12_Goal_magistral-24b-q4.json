@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal statement is clear and specific about what the student aims to accomplish: analyzing and evaluating embedding models and text segmentation algorithms for retrieval-augmented generation in Latvian. It avoids vague phrases and provides a measurable outcome.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (analyzing and evaluating) without describing methods, tools, or processes. However, it could be more concise by removing 'novērtēt' as it implies a method rather than an outcome.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is limited to a single sentence and directly communicates the goal of the thesis. However, it could be more concise by removing 'novērtēt' as mentioned in the Intention question.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal builds logically on the preceding text, which discusses the need for retrieval-augmented generation and the role of embeddings and text segmentation. However, it could be more specific by mentioning 'retrieval-augmented generation' explicitly.",
+        "complies": true
+    }
+]
+```

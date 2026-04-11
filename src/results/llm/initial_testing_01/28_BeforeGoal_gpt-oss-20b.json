@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the importance of cookies for user experience and privacy, and highlights current security threats such as session hijacking and XSS. It explains why studying cookie security is relevant today, though the discussion is somewhat repetitive and could be more concise.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text does not reference any published studies, standards, or recent research on cookie security mechanisms. It merely lists features like Secure, HttpOnly, SameSite without citing sources or discussing recent advances.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "No explicit research gap is identified. The introduction mentions the need to understand and improve security mechanisms but does not state what is missing in current knowledge or practice.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The thesis aims to analyze and compare existing cookie security mechanisms (Secure, HttpOnly, SameSite) and propose improvements. This objective is stated, though it could be more specific.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The introduction contains no citations or references to support claims or acknowledge prior work.",
+        "complies": false
+    }
+]

@@ -1,16 +1,16 @@
 from src.code.parsing.old.EvaluationDataset import EvaluationDataset
+from src.data.constants import BASE_PATH
 import csv
 import os
 import pandas as pd
 
 PATH_BASE = "C:\\Univer\\work\\grading-with-AI\\data\\dati_new"
-PATH_RESULTS_NEW = os.path.join(PATH_BASE, "results_08")
+PATH_RESULTS_NEW = os.path.join(PATH_BASE, "src", "results", "llm", "initial_testing_01")
 PATH_RESULTS_OLD = os.path.join(PATH_BASE, "results_04")
 postfix_new = "08"
 postfix_old = "04"
 evaluators = [
 	"gemma2-9b-q8",
-	"gemma3-1b",
 	"gemma3-12b-qat",
 	"gemma3-12b-q8",
 	"gemma3-27b-qat",
@@ -77,7 +77,7 @@ def compare_humans():
     EvaluationDataset.compute_metrics(baseline_ds=human1_data, predicted_ds=human2_data, path=os.path.join(PATH_BASE, f"human1_VS_human2_results.csv"))
     EvaluationDataset.compute_metrics_total_average(human1_data, h_datasets, path=os.path.join(PATH_BASE, f"human1_VS_human2_results_total.csv"))
 
-compare_humans()
+#compare_humans()
 #calculate_new_results()
 #compare_results(evaluators, ["gemma3-27b-it", "mistral-small-24b-it"])
 

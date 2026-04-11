@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text states the importance of microservices architecture and its benefits but doesn't clearly connect it to current problems or trends. It mentions financial technology and e-commerce but doesn't elaborate on how these fields are specifically impacted by the limitations of synchronous communication in microservices.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly mentions popular technologies like FLASK, DJANGO, asyncio, FastAPI, Celery, and aiohttp but doesn't cite any specific published research or cutting-edge achievements related to asynchronous microservices in Python.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies the problem of resource consumption and slow response times in synchronous microservice communication but doesn't explicitly state a concrete research gap. It mentions asynchronous approaches as solutions but doesn't pinpoint what remains unresolved or insufficiently addressed in existing research.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text clearly states the problem of inefficient communication in microservices and the need for asynchronous solutions. However, it could benefit from a more concise and focused statement of the specific challenge the thesis aims to address.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references to support claims about technologies or research in the field.",
+        "complies": false
+    }
+]

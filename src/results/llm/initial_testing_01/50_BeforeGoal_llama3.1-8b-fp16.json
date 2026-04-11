@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text clearly explains why the topic is important and relevant, mentioning benefits of microservices architecture such as flexibility, scalability, and high maintainability. However, it could be more explicit about how these benefits are currently not fully utilized in Python-based systems.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the current state-of-the-art by mentioning popular technologies such as asyncio, FastAPI, Celery, and aiohttp. However, it could be more specific about how these technologies are currently used in Python-based systems and what their limitations are.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text does not explicitly identify a concrete research gap. It mentions that synchronous approaches can lead to high resource usage and slow response times, but it could be more specific about how this is currently addressed in Python-based systems and what remains unresolved.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The text clearly identifies the problem of inefficient microservices communication in Python-based systems, which can lead to high resource usage and slow response times. However, it could be more specific about how this problem is currently addressed and what are its consequences.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text does not include any references to support claims or acknowledge sources. It would be beneficial to include citations for the mentioned technologies and their limitations.",
+        "complies": false
+    }
+]

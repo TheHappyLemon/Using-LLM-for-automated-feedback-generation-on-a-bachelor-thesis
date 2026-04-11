@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a clearly separated numbered list.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text contains 4 individual tasks.",
+        "complies": false
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The text describes a research process that includes theoretical analysis (task 1 & 2), and implementation (task 4). However, it lacks explicit mention of validation or comparison of results with prior studies or established benchmarks. While task 4 implies some level of validation through stabilization, it's not explicitly stated.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "All tasks are described in single sentences.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each sentence (e.g., 'Apkopot', 'Analizēt', 'Izstrādāt').",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The text consists of short, straightforward sentences using concise language.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks generally contribute to reaching the thesis goal. The text includes research of existing solutions (tasks 1 & 2), implementation of a new solution (task 4), and utilization of VR data for improvement. However, the lack of explicit validation weakens the overall relevance.",
+        "complies": true
+    }
+]
+```end_of_turn>

@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is well-organized into a numbered list, which enhances readability and clarity.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text contains 5 tasks.",
+        "complies": false
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The text outlines a reasonable research process, including literature review, practical research (user testing), problem definition, and solution proposal. However, it lacks explicit mention of validating the proposed solutions against existing solutions or benchmarks. While user testing is mentioned, the comparison of the developed solutions with existing ones is missing.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Most tasks are described in a single sentence. However, task 1 spans over multiple sentences.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text generally uses infinitive verbs at the beginning of sentences (e.g., 'Veikt', 'Analizēt', 'Izstrādāt', 'Definēt', 'Izvirzīt').",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are generally short and straightforward, using concise language. The meaning is clear.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are relevant to the thesis goal of investigating challenges and proposing UI/UX solutions for older users. The progression from literature review to problem definition and solution proposal is logical. However, the lack of explicit validation steps weakens the overall relevance.",
+        "complies": false
+    }
+]
+```

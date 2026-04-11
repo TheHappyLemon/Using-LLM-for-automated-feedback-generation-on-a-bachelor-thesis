@@ -1,0 +1,33 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text establishes the importance of data collection through a comparative analysis of different methods. However, it lacks a clear articulation of *why* this research is crucial in the current landscape – specifically, what problems or trends does it address?",
+        "complies": "Boolean value. True if text highlights the importance of the topic."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the use of various data collection methods, but it doesn't demonstrate a deep understanding of the current state-of-the-art. It needs to cite specific, recent research advancements and comparisons.",
+        "complies": "Boolean value. True if text demonstrates awareness of current research.",
+        "complies": "Boolean value. True if text cites recent advancements."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap in the current understanding of data collection methods, but it doesn't specify *what* that gap is or *how* it differs from existing approaches.  It needs to clearly state the unresolved issue.",
+        "complies": "Boolean value. True if text identifies a gap.",
+        "complies": "Boolean value. True if text states a gap."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text describes the purpose of the research but doesn't clearly define the specific problem or challenge it aims to address. It needs to state the core issue being investigated.",
+        "complies": "Boolean value. True if text clearly states the problem.",
+        "complies": "Boolean value. True if text states a problem."
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references to support its claims.  It should include citations to relevant research papers or sources to strengthen the argument and demonstrate the basis of the analysis.",
+        "complies": "Boolean value. True if references are missing.",
+        "complies": "Boolean value. True if references are present."
+    }
+]
+```

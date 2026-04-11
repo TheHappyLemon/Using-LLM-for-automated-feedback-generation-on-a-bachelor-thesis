@@ -1,0 +1,33 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text establishes the importance of personalized education systems through the context of computer science advancements. However, it lacks a clear articulation of the specific problem this system addresses or its potential impact on education. It needs to demonstrate why this research is crucial and what benefits it could bring.",
+        "complies": "Boolean value. True if text adequately explains the significance."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the use of crossley & McNamara's work, but doesn't provide a detailed comparison or evaluation of existing approaches. It should cite specific research and highlight the limitations of current methods.",
+        "complies": "Boolean value. True if the text demonstrates awareness of current state-of-the-art.",
+        "complies": "Boolean value. True if the text cites relevant research."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap in the personalization algorithm's implementation, but doesn't specify the nature of the gap – e.g., lack of a specific metric, difficulty in adapting to diverse student profiles.  It needs to clearly state what remains unresolved.",
+        "complies": "Boolean value. True if the text explicitly identifies a gap.",
+        "complies": "Boolean value. True if the text highlights a gap in the implementation."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text describes the problem as adapting to individual student needs, but doesn't clearly define the specific challenges or constraints of this adaptation process. It needs to focus on the practical difficulties of implementation.",
+        "complies": "Boolean value. True if the text focuses on the problem.",
+        "complies": "Boolean value. True if the text defines the problem."
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references to support claims about the relevance of the research.  It should include citations to relevant literature to strengthen the argument.",
+        "complies": "Boolean value. True if references are present.",
+        "complies": "Boolean value. True if references are included."
+    }
+]
+```

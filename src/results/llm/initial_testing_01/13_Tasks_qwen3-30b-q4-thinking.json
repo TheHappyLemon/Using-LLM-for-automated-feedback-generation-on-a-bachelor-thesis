@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, with each task clearly separated by a number. However, there is a numbering error: after task 5, the next task is labeled as 7, skipping 6. This disrupts the logical sequence and reduces clarity.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 6 individual tasks, but due to the missing task 6 (labeled as 7), the total count is inconsistent. The correct number of tasks is 6, which falls within the acceptable range of 5–7.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a complete research process: theoretical analysis (tasks 1–2), practical research (task 3–4), and validation (task 5–6). Task 3 includes developing test scenarios and criteria, which enables valid comparison. Task 5 involves comparing models and analyzing results, and task 6 includes summarizing findings, strengths, weaknesses, and recommendations. The process is comprehensive and includes validation through comparison and analysis.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Most tasks are one sentence long, but task 3 spans multiple sentences: 'Atrast vai izstrādāt metodoloģiju (testa scenārijus un kritērijus), kā salīdzināt dažādu multimodālo valodas modeļu funkcionalitāti un veiktspēju multimodāla satura (piemēram, diagrammu, blokshēmu) aprakstīšanai.' This sentence is long and contains multiple clauses, making it less concise and harder to parse.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks generally begin with infinitive verbs (e.g., 'Izpētīt', 'Atrast', 'Izvēlēties', 'Salīdzināt', 'Apkopot'), which is consistent with academic task formulation. However, task 3 starts with 'Atrast vai izstrādāt', which is a compound infinitive, and the sentence structure is slightly less uniform than ideal. Overall, the structure is mostly consistent.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text uses clear and precise language, with most sentences being straightforward. However, task 3 is overly complex and contains multiple ideas in one sentence, reducing clarity. The use of parentheses and examples (e.g., 'piemēram, diagrammu, blokshēmu') helps, but the sentence is still too long and could be split for better readability.",
+        "complies": false
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to the thesis goal. They start with literature review, proceed to analysis of existing models, develop a methodology, conduct experiments, compare results, and conclude with analysis and recommendations. This sequence supports the goal of exploring, analyzing, and comparing multimodal language models for describing multimodal content.",
+        "complies": true
+    }
+]

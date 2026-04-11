@@ -1,0 +1,57 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against those criteria.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, the tasks are listed with numbers 1 through 8, each starting on a new line. However, in the given text, tasks 4 and 5 are indented. But the numbering is consistent, so even though there's indentation, the items are numbered. So the answer here is yes, it's a numbered list. So "complies" would be true.
+
+Next, **Quantity**. The user wants the count of individual tasks. The tasks are numbered 1 to 8, so that's 8 tasks. The criteria say it should have 5, 6, or 7. Since there are 8, this doesn't comply. So the feedback should mention that there are 8 tasks, which is outside the acceptable range.
+
+For **Completeness**, the question is whether the tasks cover a complete research process including theoretical analysis, practical implementation, and validation. Let's check each task. Task 1 is about existing methods and their pros/cons (theoretical). Task 2 is about language specifics (theoretical). Task 3 is choosing libraries (practical). Task 4 is selecting tools for UI (practical). Task 5 is designing the app architecture (practical). Task 6 is developing the method (practical). Task 7 is testing (validation). Task 8 is comparing with existing solutions (validation). So yes, it includes all aspects. However, the validation part in task 8 is comparing with existing solutions, which meets the criteria. So complies is true.
+
+**Format** checks if each task is exactly one sentence. Let's look at each task. Task 1: one sentence. Task 2: one. Task 3: one. Task 4: "Izvēlēties rīkus..." is one sentence. Task 5: one. Task 6: one. Task 7: one. Task 8: one. All are single sentences. So complies is true.
+
+**Structure** asks if the tasks start with infinitive verbs. The original tasks are in Latvian, so I need to check the verbs. For example, "Izpētīt", "Izvēlēties", "Projektēt", "Izveidot", "Veikt", "Salīdzināt". These are all infinitive forms. So yes, each task starts with an infinitive. Complies is true.
+
+**Clarity** is about short, straightforward sentences. The tasks are concise, each is a single sentence without unnecessary words. They are clear and precise. So complies is true.
+
+**Relevance** checks if the tasks contribute to the thesis goal. The goal is to develop an app for Arabic text recognition. The tasks include researching existing methods, understanding the language, choosing tools, designing the app, developing the method, testing, and comparing with existing solutions. All these steps are necessary for developing and validating the app. So complies is true.
+
+Now, compiling all these into the JSON format as specified.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clear separation of items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 8 tasks, which exceeds the acceptable range of 5–7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (tasks 1–2), practical implementation (tasks 3–6), and validation (tasks 7–8), forming a complete research process.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks consistently begin with infinitive verbs (e.g., 'Izpētīt', 'Izvēlēties', 'Projektēt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text uses short, straightforward sentences with precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically align with the thesis goal, covering research, development, testing, and comparison of solutions.",
+        "complies": true
+    }
+]

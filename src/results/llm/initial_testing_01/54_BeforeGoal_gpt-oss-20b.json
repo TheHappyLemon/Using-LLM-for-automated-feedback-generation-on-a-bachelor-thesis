@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the growing prevalence of microservices and the associated testing challenges, linking them to current DevOps practices. It provides a clear rationale for why optimizing automated tests is relevant. However, the discussion could benefit from deeper context on industry trends and quantitative impact of test inefficiencies.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites only a single research article (Mingxuan Hui et al., 2025) and a survey statistic. It lacks a broader survey of existing solutions, frameworks, or comparative studies on test optimization in CI/CD pipelines. Therefore, the awareness of the current state-of-the-art is limited.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the introduction mentions 'nepilnības' (shortcomings) in DevOps test optimization, it does not explicitly state what specific gap exists in the literature or practice. A clear gap statement (e.g., lack of scalable test selection strategies for microservices) is missing.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: improving the efficiency of automated testing within CI/CD pipelines for microservices without compromising quality.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Only two references are provided, and several claims (e.g., prevalence of microservices, cost of test execution) are not cited. The reference list is incomplete for supporting the statements made.",
+        "complies": false
+    }
+]

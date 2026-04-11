@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text explains why steganography is important and relevant, but it could better connect this importance to the specific context of PE files. It mentions that PE format is widely used in Windows OS, which is a good start.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly mentions some aspects of steganography and its application to PE files, but it lacks specific published research or cutting-edge achievements related to the topic. It could benefit from more concrete examples or references.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies that PE format is widely used but not deeply explored in terms of steganography, which serves as a research gap. However, it could be more explicit about what exactly remains unresolved or insufficiently addressed.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text clearly states that the problem is to understand how PE file properties allow steganography methods and how to hide/reveal information in a PE file. This is well-defined.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes references (Grebnikov V., 2019) to support claims, which is good. However, it could benefit from more varied and recent sources to strengthen the argument.",
+        "complies": true
+    }
+]
+```

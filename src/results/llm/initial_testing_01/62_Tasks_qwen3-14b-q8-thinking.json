@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it's numbered 1 through 5, each starting with a hyphen. So yes, it's a numbered list. The feedback here would be positive, and complies is true.
+
+Next, **Quantity**. The task is to count the number of individual tasks. The list has 5 items. The criteria say it's okay if it has 5, 6, or 7. So 5 is acceptable. The feedback would just state the number, and complies is true.
+
+**Completeness** checks if the tasks cover a complete research process. The tasks include researching existing methods (theoretical), collecting data (practical), developing a model (implementation), testing scenarios (experiments), and providing recommendations (validation). However, the validation here is just giving recommendations without comparing to existing solutions. The user mentioned that validation should involve comparison with prior studies or benchmarks. So the feedback would note that validation is missing a comparison, hence complies is false.
+
+**Format** asks if each task is exactly one sentence. Looking at the tasks, each is a single sentence. For example, "Izpētīt esošās evakuācijas modelēšanas metodes." So yes, each is one sentence. Complies is true.
+
+**Structure** checks for consistent use of infinitive verbs at the start. The tasks start with verbs like "Izpētīt", "Savākt", "Izstrādāt", "Testēt", "Sniegt". These are infinitive forms in Latvian. So the structure is consistent. Complies is true.
+
+**Clarity** is about short, straightforward sentences. The tasks are concise and use precise language. Each task is a single action without unnecessary words. So the feedback would be positive, complies is true.
+
+**Relevance** checks if the tasks contribute to the thesis goal. The goal is to develop a simulation project to identify problems and improve safety. The tasks include researching methods, collecting data, developing the model, testing scenarios, and providing recommendations. All these steps lead to achieving the goal. However, the validation part (task 5) only gives recommendations without comparing to existing solutions, which might be a minor issue. But overall, the tasks are relevant. So complies is true, but the feedback might mention that the validation could be more thorough.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 5 individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis, data collection, model development, scenario testing, and recommendations. However, validation lacks explicit comparison with existing solutions or benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs at the beginning of each item.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text uses short, straightforward sentences with precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks align with the thesis goal of developing a simulation project and identifying safety improvements, though validation could be more explicitly tied to existing solutions.",
+        "complies": true
+    }
+]

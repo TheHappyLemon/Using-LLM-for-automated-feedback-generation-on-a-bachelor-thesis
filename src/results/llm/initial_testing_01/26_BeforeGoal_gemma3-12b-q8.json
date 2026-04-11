@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text establishes the general importance of steganography due to increasing reliance on digital technologies and networks. However, it could strengthen the significance by explicitly connecting the PE format focus to specific, current cybersecurity threats or vulnerabilities. For example, mentioning the rise of malware hidden within executables would enhance the perceived urgency and relevance.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites Grebnikov (2019), which is a good start. However, it could benefit from citing more specific research on steganography within PE files. Mentioning existing techniques for hiding data in PE headers, sections, or resources would demonstrate a deeper understanding of the current state of the field. It also lacks discussion of methods for detecting steganography in PE files.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text states that the use of steganography in PE files is 'not deeply researched,' which identifies a gap. However, it could be more specific. Instead of a general statement, it should pinpoint a particular aspect of PE steganography that remains unexplored, such as the effectiveness of different hiding techniques against specific detection methods, or the impact of PE file versioning on steganographic resilience.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The thesis aims to understand which PE file properties allow for steganographic methods and how to hide/detect information. This is a reasonably clear problem statement. It could be strengthened by adding a more specific, measurable objective, such as 'to evaluate the feasibility of hiding a specific payload size within a PE file using a particular steganographic technique.'",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes one reference (Grebnikov, 2019). While this is a start, it needs significantly more references to support the claims made about the state-of-the-art and the identified gap. Each assertion about existing techniques or vulnerabilities should be backed by a citation.",
+        "complies": false
+    }
+]
+```

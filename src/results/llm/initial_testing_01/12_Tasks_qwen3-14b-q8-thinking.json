@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, the tasks are listed with numbers 1) through 7). Each task is on a new line, so it's a numbered list. So the answer here should be yes, it's organized properly.
+
+Next, **Quantity**. The user wants the count of individual tasks. The tasks are numbered 1 to 7, so that's 7 tasks. The feedback should just be the number 7. Since the allowed numbers are 5,6,7, it complies.
+
+**Completeness**. The tasks need to cover a complete research process: theory, practical research, implementation, validation. Let's check each task. Task 1 is about studying large language models, which is theoretical. Task 2 is about exploring augmented text generation, also theoretical. Task 3 is about concept space models for vectors, theoretical. Task 4 is about text segmentation algorithms, theoretical. Task 5 is developing software and preparing data, which is implementation. Task 6 is conducting experiments to evaluate models and algorithms, which is practical research. Task 7 is compiling and analyzing results, drawing conclusions. However, the validation part is mentioned in task 6 as evaluating the models and algorithms, but the note says validation should compare with existing solutions or show it solves a problem. The tasks don't explicitly mention comparing with existing solutions, just evaluating. So maybe this is a problem. The feedback should point out that validation isn't fully covered as per the criteria.
+
+**Format**. Each task should be one sentence. Let's check each. Task 1: "Izpētīt lielo valodas modeļu darbības pamatprincipus un to pielietojumus;" – one sentence. Task 2: "Izpētīt ar izguvi paplašinātu teksta ģenerēšanu;" – one sentence. Similarly, all tasks are single sentences. So complies.
+
+**Structure**. The tasks should start with infinitive verbs. The original tasks use "Izpētīt" (to study) and "Izstrādāt" (to develop), "Veikt" (to perform), "Apkopot" (to compile). These are infinitive forms. So the structure is consistent. Complies.
+
+**Clarity**. The sentences are short and straightforward. Each task is a single verb phrase. The language is concise. So complies.
+
+**Relevance**. The tasks should contribute to the thesis goal of analyzing and evaluating concept space models and text segmentation algorithms for augmented text generation. The tasks include researching existing models (1,2,3,4), developing software (5), experiments (6), and analyzing results (7). This covers the research process. However, the validation part (task 6) might not compare with existing solutions, but the goal is to evaluate, so experiments and analysis should suffice. So it's relevant. Complies.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "7",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis, practical implementation (software development), experiments, and result analysis. However, validation of results (e.g., comparison with existing solutions) is not explicitly mentioned in the tasks.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence and does not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks consistently start with infinitive verbs (e.g., 'Izpētīt', 'Izstrādāt', 'Veikt', 'Apkopot').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use concise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks align with the thesis goal, covering research, implementation, experimentation, and analysis. However, explicit validation against existing solutions is not clearly addressed.",
+        "complies": true
+    }
+]

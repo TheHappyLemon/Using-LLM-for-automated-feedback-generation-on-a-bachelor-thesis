@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into clearly separated items in a numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include theoretical analysis (tasks 1, 2, 3), practical research (task 4), implementation (task 5), and validation of results (task 6). However, the validation is limited to software testing. There's no comparison with prior studies or established benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Most tasks are one sentence long, but task 4 spans over two sentences.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each task.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are short and straightforward, using concise language. However, some tasks could be more precise.",
+        "complies": false
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks contribute to reaching the stated thesis goal by including research of existing solutions (tasks 1-4), development of a new solution (task 5), and validation through testing (task 6). However, there's no comparison with other authors' results or established benchmarks.",
+        "complies": false
+    }
+]
+```

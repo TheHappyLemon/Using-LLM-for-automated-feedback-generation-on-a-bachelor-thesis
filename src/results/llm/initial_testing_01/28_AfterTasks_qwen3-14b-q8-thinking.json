@@ -1,0 +1,31 @@
+<think>
+Okay, let's tackle this step by step. The user provided a thesis topic in Latvian about "Sīkfailu drošības izpēte interneta pārlūkos," which translates to something like "Investigation of Cookie Security in Web Browsers." The final section of the thesis introduction given is a table outlining the work plan with activities and deadlines.
+
+The evaluation questions are about whether the text lists the main sections (Chapters), describes each section's content (Description), and if the structure is clear (Structure). 
+
+First, looking at the "Chapters" question. The text provided is a table with activities like collecting information sources, analyzing them, writing a theoretical summary, etc. However, these activities don't correspond to the main sections of a thesis. Typically, a thesis would have sections like Introduction, Literature Review, Methodology, Results, Discussion, Conclusion. The given text is more of a project timeline rather than outlining chapters. So the answer here is no, it doesn't list the main sections.
+
+Next, the "Description" question. Since the text doesn't list the chapters, it's impossible to describe their contents. The activities mentioned are tasks for completing the thesis, not sections. So the feedback here would be that there's no description of sections because they aren't listed.
+
+For the "Structure" question, the text provides a timeline of tasks but doesn't explain the overall structure of the thesis. The structure of a thesis refers to how the content is organized into parts, not the schedule of tasks. Therefore, the structure isn't clear from this text. The user might have confused a work plan with the thesis structure.
+
+So, all three answers would be non-compliant. The feedback should point out that the text is a timeline, not a chapter outline or structural description. The student needs to differentiate between the project plan and the thesis structure.
+</think>
+
+[
+    {
+        "question": "Chapters",
+        "feedback": "Teksts neuzskaita bakalaura darba galvenās sadaļas. Tā vietā tiek sniegts darba izstrādes plāns ar aktivitātēm un termiņiem, nevis sadaļu nosaukumi.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "Teksts neapraksta neviena sadaļas saturu, jo galvenās sadaļas nav uzskaitītas. Tiek sniegta tikai darba izpildes kārtība, nevis satura pārskats.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "Struktūra nav skaidri saprotama no teksta, jo tiek sniegts darba plāns, nevis sadaļu organizācija. Lietotājs nevar saprast, kā tiek strukturēts darba saturs.",
+        "complies": false
+    }
+]

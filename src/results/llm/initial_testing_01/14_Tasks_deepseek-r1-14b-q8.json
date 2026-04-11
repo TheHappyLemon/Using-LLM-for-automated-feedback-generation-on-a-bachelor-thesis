@@ -1,0 +1,59 @@
+<think>
+Alright, I need to evaluate the tasks text provided by the user based on seven specific questions. Let me go through each question one by one and analyze the text accordingly.
+
+1. **Outlook**: The tasks are numbered from 1 to 6, so they're clearly separated in a numbered list. This makes it easy to read and understand each task individually.
+
+2. **Quantity**: There are exactly six tasks listed. The requirement is that there should be 5, 6, or 7 tasks, so this meets the criteria.
+
+3. **Completeness**: Each task seems to cover different aspects of the research process. For example, task 1 is about formulating principles, task 2 explores architectures, and so on. However, I don't see a task that explicitly involves validation by comparing results with prior studies or established benchmarks. This might be an oversight in ensuring the tasks cover all stages of a complete research process.
+
+4. **Format**: Each task is concise and fits into one sentence. They are clear and to the point without spanning multiple sentences, which makes them easy to understand.
+
+5. **Structure**: The tasks start with infinitive verbs like "to Noformulēt" (to formulate), "Izpētīt" (to explore), etc. This structure is consistent across all tasks, making it uniform and professional.
+
+6. **Clarity**: The sentences are short and straightforward, using precise language. Each task is clear without any ambiguity, which helps in understanding what each entails.
+
+7. **Relevance**: The order of tasks starts with theoretical aspects (formulating principles, exploring architectures) and moves towards practical research (comparing technologies, evaluating impact, assessing applicability). This sequence logically contributes to achieving the thesis goal of improving user interface development using Svelte and React. However, there's no explicit task about validating results against existing studies or benchmarks, which might be necessary for a comprehensive evaluation.
+
+Overall, the tasks are well-structured and meet most criteria, but they could benefit from including a validation step to ensure all aspects of the research process are covered.
+</think>
+
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into clearly separated items in form of a NUMBERED list. Each task is distinctly numbered and separated, making it easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include theoretical analysis (formulating principles, exploring architectures) and practical research (comparing technologies, evaluating impact). However, there is no explicit task that involves validation of results through comparison with prior studies or established benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each individual task is described in exactly one sentence. The tasks are concise and to the point without spanning over several sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each task, such as 'Noformulēt', 'Izpētīt', 'Noteikt', etc. This provides a uniform structure to the tasks.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text consists of short, straightforward sentences that use concise and precise language. Each task is clear and easy to understand.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are ordered in a logical sequence that contributes to reaching the stated thesis goal. The tasks cover theoretical analysis, practical research, implementation aspects, and evaluation of applicability. However, there is no explicit task related to validation through comparison with prior studies or benchmarks.",
+        "complies": true
+    }
+]
+```

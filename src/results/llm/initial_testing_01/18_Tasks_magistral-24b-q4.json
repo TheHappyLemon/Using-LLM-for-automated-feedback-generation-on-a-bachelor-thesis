@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clear separation between items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (tasks 1, 2, and 3), practical research (task 4), implementation (task 5), and validation of results (task 6). However, the validation in task 6 is not explicitly clear if it involves comparison with existing solutions or solving a practical problem.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Most tasks are one sentence long. Task 3 spans over two sentences.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each task, except for task 6 which starts with 'Izpētīt un novērtēt' (Investigate and evaluate). However, this is still in infinitive form.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are short and straightforward. The language used is concise and precise.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The order of tasks logically contributes to reaching the thesis goal. It starts with theoretical analysis, then explores existing solutions, compares them, develops a new solution, and finally validates it.",
+        "complies": true
+    }
+]
+```

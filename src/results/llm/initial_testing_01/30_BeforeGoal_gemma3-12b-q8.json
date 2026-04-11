@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text establishes the relevance of the topic by highlighting the changing needs of industries and the increasing complexity of information systems. It connects the need for research to the demand for handling complex, hierarchical data. However, it could be strengthened by providing more specific examples of current problems or trends that necessitate this comparison. Mentioning specific industries or applications would add weight.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text lacks specific citations of published research. While it mentions that object-relational databases have been 'pētītas un dokumentētas,' it doesn't provide any concrete examples of existing research, evaluations, or comparisons. This is a significant weakness. It needs to cite specific papers or studies that have explored the topic previously.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text identifies a gap by stating that there's a lack of data on the performance improvements and design choices in object-relational databases compared to relational databases. It also mentions the absence of data on when it's beneficial to use a simpler or more complex structure. This is a good start, but could be more precise by specifying the *type* of data that is missing (e.g., empirical data, comparative studies, benchmarks).",
+        "complies": true
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is clearly stated: the lack of data and a lack of clear guidelines for designing object-relational databases, particularly regarding performance and complexity trade-offs. The thesis aims to address this by comparing the two types of databases. The problem is well-defined and understandable.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text does not include any references. This is a major deficiency, especially given the lack of a state-of-the-art section. All claims, especially those regarding existing research and documentation, need to be supported by citations.",
+        "complies": false
+    }
+]
+```

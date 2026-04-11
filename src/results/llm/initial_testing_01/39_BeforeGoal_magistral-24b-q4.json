@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text explains why the topic is important and relevant by highlighting the need for explainability in ML models used for financial credit risk prediction. However, it could be more explicit about current problems or trends that necessitate this research.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions specific XAI methods (LIME and SHAP) but lacks citations to published research or cutting-edge achievements related to the topic. It would benefit from including references to relevant studies.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implicitly identifies a gap by stating that ML models are becoming more complex and less interpretable, but it does not explicitly formulate this as a concrete research gap based on existing studies.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the lack of interpretability in ML models used for financial credit risk prediction, which affects trust and compliance. The text effectively communicates this challenge.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included to support claims or acknowledge sources. Including relevant citations would strengthen the argument and demonstrate awareness of existing research.",
+        "complies": false
+    }
+]
+```

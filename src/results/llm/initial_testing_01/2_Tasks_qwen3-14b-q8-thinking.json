@@ -1,0 +1,57 @@
+<think>
+Okay, let's tackle this step by step. The user provided a Latvian thesis topic, goal, tasks text, and evaluation questions. I need to answer each of the seven questions and provide feedback in JSON format.
+
+First, the Outlook question checks if the tasks are in a numbered list. Looking at the tasks text, they are numbered 1 to 6, but there's a typo with "4" repeated. However, the list is still clearly separated. So the answer here is yes, complies.
+
+Next, Quantity: count the tasks. The numbers go up to 6, but there's a duplicate 4. So there are 6 tasks. The criteria say 5,6,7 are okay, so complies.
+
+Completeness: The tasks include theoretical analysis (task 1, 2), data collection (task 3), practical application (task 4), comparison (task 5), and result evaluation (task 6). This covers the research process, so complies.
+
+Format: Each task is a single sentence? Let me check. Task 1 is one sentence. Task 2 is one. Task 3 is one. Task 4 is "Izmantot dažādas klasifikācijas pieejas..." which is one sentence. Task 5 is one. Task 6 is one. So yes, all are single sentences. Complies.
+
+Structure: Do they use infinitive verbs? The Latvian verbs here are in the infinitive form, like "Izpētīt", "Identificēt", "Iegūt", "Izmantot", "Salīdzināt", "Apkopot". So yes, starts with infinitives. Complies.
+
+Clarity: Are the sentences short and concise? The sentences are straightforward, but some might be a bit long. For example, task 2 has a long sentence. However, overall, they are clear. Maybe complies, but need to check if they are "short and straightforward". The user's criteria says "short, straightforward sentences". The tasks are concise but not overly short. Maybe complies.
+
+Relevance: Do the tasks contribute to the thesis goal? The goal is to compare existing classification approaches for sentiment analysis in Latvian. The tasks include researching existing methods, comparing them, collecting data, applying different approaches, evaluating their accuracy. This aligns with the goal. So complies.
+
+Wait, but in the tasks, task 4 says "Izmantot dažādas klasifikācijas pieejas, lai noteiktu noskaņojumu..." which is using different approaches to determine sentiment. Task 5 compares their accuracy. That's relevant. So yes, all tasks contribute to the goal. Complies.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items, though there is a duplicate entry for task 4.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 6 tasks, which complies with the requirement of having 5, 6, or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (tasks 1, 2), practical implementation (tasks 3, 4), comparison (task 5), and result evaluation (task 6), forming a complete research process.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence, though task 4 is repeated and may cause confusion.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently begin with infinitive verbs (e.g., 'Izpētīt', 'Identificēt', 'Iegūt'), adhering to the structural requirement.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are concise and straightforward, though some may be slightly long but remain clear and precise.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to achieving the thesis goal of comparing classification approaches for sentiment analysis in Latvian.",
+        "complies": true
+    }
+]

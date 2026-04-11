@@ -149,7 +149,6 @@ def main(path_answer : str, path_source, human_file : str = "", postfix : str = 
                     entries.append((text_id, model, part, res[4])) # type: ignore
                 except Exception as e:
                     logger.error(f"UNKNOWN EXCEPTION: {str(e)}")
-                    input("Wait...")
                     writer.writerow([text_id, part, model, False, False, False, False])
                     continue
 

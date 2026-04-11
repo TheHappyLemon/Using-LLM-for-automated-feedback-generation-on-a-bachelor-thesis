@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a clearly numbered list from 1 to 8, with each task on a separate line and properly numbered. This structure enhances readability and clarity.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 8 individual tasks, which exceeds the acceptable range of 5 to 7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a complete research process: theoretical analysis (tasks 1, 2), practical implementation (tasks 3–6), and validation (tasks 7–8). Task 8 explicitly requires comparison with existing solutions, which satisfies the validation requirement. However, the inclusion of 8 tasks instead of 5–7 slightly overextends the scope.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Most tasks are single-sentence items, but task 4 spans multiple sentences due to the inclusion of a parenthetical example. This violates the requirement for exactly one sentence per task.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently begin with infinitive verbs (e.g., 'Izpētīt', 'Izvēlēties', 'Projektēt', 'Izveidot', 'Veikt', 'Salīdzināt'), which aligns with the standard academic structure for task descriptions.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are generally short and use precise language. However, some tasks (e.g., task 4) are slightly complex due to embedded examples, which reduces clarity. Overall, the language remains clear and accessible.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to the goal of developing an Arabic text recognition app using computer vision in Android Studio. The sequence progresses from literature review to implementation and validation, ensuring relevance and coherence with the stated goal.",
+        "complies": true
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "Mērķis ir skaidri formulēts un konkrēts — analizēt un salīdzināt sīkfailu drošības funkciju implementācijas populāros interneta pārlūkos. Tas ir mērāms, jo rezultātā var parādīt atšķirības un līdzības starp pārlūkiem. Tomēr vārds 'populāru' var būt neprecīzs — būtu labāk norādīt konkrētus pārlūkus (piemēram, Chrome, Firefox, Edge), lai padarītu mērķi vēl precīzāku.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "Mērķis fokusējas uz rezultātu — analīzi un salīdzinājumu — un nepiemin konkrētus metodes, rīkus vai procesus. Tas atbilst prasībai, ka mērķis nedrīkst saturēt izpildes veidu, tāpēc mērķis ir pareizi formulēts no šī viedokļa.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Mērķis ir izteikts vienā, skaidrā un koncīzā teikā, kas tieši paziņo pētījuma mērķi. Tas atbilst struktūras prasībai — nav pārāk garš, nav atkārtojumu, nav nepieciešamības izdalīt vairākās daļās.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "Mērķis labi atbilst iepriekšējā teksta saturam. Iepriekš minēti riski (sesiju nolaupīšana, XSS, izsekošana), aizsardzības mehānismi (Secure, HttpOnly, SameSite), kā arī nepieciešamība izpētīt drošības funkcijas — visi šie aspekti tiek atspoguļoti mērķī. Tomēr mērķis var būt vēl precīzāks, ja būtu norādīti konkrēti pārlūki, kas tiks analizēti.",
+        "complies": false
+    }
+]

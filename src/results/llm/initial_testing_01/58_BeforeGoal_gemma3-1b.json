@@ -1,0 +1,33 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text lacks a clear explanation of the topic's importance and relevance. It states the topic is important but doesn't demonstrate why it's crucial or how it contributes to current problems, trends, or developments. It needs a stronger justification for the research's value.",
+        "complies": "Boolean value. True if text does not adequately justify the topic's importance."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly mentions existing research but doesn't provide specific examples of cutting-edge achievements or evaluations. It needs to cite more detailed and impactful research to demonstrate awareness of the current state-of-the-art.",
+        "complies": "Boolean value. True if the text lacks sufficient detail on the state-of-the-art.",
+        "details": "Provide specific examples of research and evaluations."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap but doesn't clearly articulate what remains unresolved or insufficiently addressed. It needs to explicitly state the gap and its potential implications.",
+        "complies": "Boolean value. True if the text doesn't clearly define a gap.",
+        "details": "Expand on the gap and its potential impact."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text simply states the topic is challenging; it needs to define the specific problem or challenge the thesis aims to address more concretely. A clear problem statement is crucial for understanding the thesis's focus.",
+        "complies": "Boolean value. True if the text doesn't clearly define the problem.",
+        "details": "Provide a concise and specific problem statement."
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references to support claims and acknowledge sources. It needs to include relevant citations to bolster the arguments and demonstrate thorough research.",
+        "complies": "Boolean value. True if references are absent or insufficient.",
+        "details": "Ensure all claims are supported by credible sources."
+    }
+]
+```

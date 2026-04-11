@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text establishes the importance of fast text processing due to the increasing volume and diversity of text data and the need for real-time systems. It also mentions the challenge of identifying copyright in AI-generated text. However, it could be strengthened by more explicitly connecting these points to the specific relevance of comparing Trie and Hash Tables. Why is *this* comparison important for addressing these challenges?",
+        "complies": false
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions several relevant advancements, such as fuzzy hashing and optimized algorithms, and references several publications ([2, 3, 3, 4, 6, 7, 10, 12, 17, 18]). However, it lacks a focused discussion on *previous comparisons* of Trie and Hash Tables. It needs to explicitly state what has been done before in comparing these structures for text processing, or clearly state that such comparisons are lacking.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text hints at a gap by mentioning the lack of a unified methodology for comparing Trie and Hash Table usage, especially in the context of real-time systems and recent discoveries. However, it could be more explicit. It needs to clearly state what specific aspect of the comparison is missing or insufficiently addressed.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is reasonably clear: the thesis aims to compare Trie and Hash Tables for fast text processing, particularly in the context of real-time systems and the challenges posed by AI-generated text. The need for a unified methodology for comparison is also identified.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "References are included and appear relevant. The number of references is adequate for an introduction. However, it would be beneficial to ensure that all claims are properly supported by citations.",
+        "complies": true
+    }
+]
+```

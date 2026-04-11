@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text establishes the relevance of the topic by connecting it to the ongoing development of AI in games and the need to improve AI player behavior. It highlights the slowdown in graphical advancements and suggests AI as a potential driver of player interest. However, it could benefit from more specific examples of how improved AI could enhance the gaming experience for players.",
+        "complies": false
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions the history of the Alpha-beta algorithm and cites Luger (2009). It also briefly mentions Sweetswer & Wiles (2002). While this demonstrates awareness of the field, it could be strengthened by providing more detail about recent advancements or alternative approaches to addressing the problem of 'unpromising' positions in game AI. It lacks a deeper dive into current research on AI game playing techniques.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text explicitly identifies the gap: the standard Alpha-beta algorithm fails to distinguish between 'unpromising' positions that might still offer a chance of victory due to opponent errors. This is a clear and well-defined gap. However, it could be strengthened by briefly discussing why existing solutions haven't fully addressed this issue.",
+        "complies": true
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is clearly stated: the thesis aims to improve the Alpha-beta algorithm to allow AI players to make better decisions in 'unpromising' positions, potentially leading to more challenging and engaging gameplay. The problem is well-defined and understandable.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text includes references to Luger (2009) and Sweetswer & Wiles (2002). This is a good start, but the thesis would benefit from a more comprehensive list of references to support the claims made and demonstrate a thorough understanding of the existing literature. More recent publications should be included.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text establishes the importance of the topic by highlighting the challenges faced by IT companies in tracking requirements from email communication with clients. It could be strengthened by quantifying the impact of these challenges (e.g., time wasted, project delays, increased costs) to further emphasize the need for a solution.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text lacks any mention of existing research or technologies related to natural language processing (NLP) or email content analysis for task management. It needs to cite relevant studies or tools that have been used for similar purposes, even if they are not directly applicable. This section is currently missing.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "While the text identifies a problem (difficulty in tracking requirements from emails), it doesn't explicitly formulate a research gap. It needs to clearly state what specific aspect of email content analysis for task management remains unaddressed or insufficiently explored in existing research. For example, is there a lack of tools that can accurately extract specific types of requirements, or a lack of methods for prioritizing tasks based on email content?",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is clearly stated: difficulty in tracking and managing requirements communicated via email, leading to potential delays and inefficiencies in software development. The repetition of this problem in the text reinforces its clarity.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text contains no references to any prior research or existing tools. This is a significant omission, especially given the reliance on NLP techniques. References are essential to support claims and demonstrate awareness of the existing body of knowledge.",
+        "complies": false
+    }
+]
+```

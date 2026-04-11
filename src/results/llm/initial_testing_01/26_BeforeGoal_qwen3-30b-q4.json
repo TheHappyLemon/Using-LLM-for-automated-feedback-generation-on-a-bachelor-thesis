@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text introduces the relevance of steganography in modern digital environments and highlights the importance of PE format due to its widespread use in Windows systems. It connects the topic to practical cybersecurity concerns, such as hiding malware and protecting intellectual property. However, the significance could be strengthened by more explicitly linking the research to current cybersecurity threats or real-world incidents involving PE files, making the necessity of the study more compelling.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references Grebnikov V. (2019) to support claims about steganography applications, but this citation is used only once and does not demonstrate a thorough engagement with the current state of research on steganography in PE files. There is no mention of specific studies, tools, or methodologies related to steganalysis of PE files, nor any discussion of existing techniques for embedding or detecting hidden data in PE format. This limits the demonstration of awareness of the field's current advancements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a research gap by stating that the PE format is widely used but not deeply studied in the context of steganography. However, the gap is not clearly or explicitly formulated. It lacks a direct comparison with prior work or a clear statement of what specific aspect remains unexplored—such as which PE sections are most suitable for steganography, or what detection methods are currently insufficient. The gap remains implicit rather than explicitly identified.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The general problem—understanding how steganography can be applied to PE files—is identifiable, but it is not clearly defined as a specific research challenge. The text mentions both hiding and detecting information, but does not specify whether the thesis focuses on developing new embedding techniques, detection methods, or both. The problem statement would benefit from being more precise and structured around a concrete research question.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes one citation (Grebnikov V., 2019) in parentheses, but it is used only to support general claims about steganography applications, not specific technical or empirical findings related to PE files. The citation is not properly integrated into the text (e.g., no author name in the narrative), and there is no reference list provided. This undermines the credibility of the claims and fails to meet academic standards for source attribution.",
+        "complies": false
+    }
+]

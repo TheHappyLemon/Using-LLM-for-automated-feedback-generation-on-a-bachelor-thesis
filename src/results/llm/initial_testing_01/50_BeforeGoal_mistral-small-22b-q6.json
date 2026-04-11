@@ -1,0 +1,27 @@
+ [
+    {
+        "question": "Significance",
+        "feedback": "The text explains why the topic is important and relevant by highlighting the advantages of microservice architecture over traditional monolithic architecture. It also mentions the challenges with synchronous data access in high-load systems, emphasizing the need for asynchronous solutions.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly mentions popular frameworks like Flask and Django but does not cite specific research or published achievements related to asynchronous microservice development in Python. It would benefit from referencing existing studies or solutions.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies the gap by stating that while Python offers asynchronous programming capabilities, their application in microservice architecture requires detailed research. However, it could be more explicit about what remains unresolved or insufficiently addressed.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the need to research and demonstrate solutions for asynchronous microservice development in Python. The text effectively communicates the challenge being addressed.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included in the provided text. Adding relevant citations to support claims about the advantages of asynchronous programming and the challenges with synchronous data access would strengthen the introduction.",
+        "complies": false
+    }
+]

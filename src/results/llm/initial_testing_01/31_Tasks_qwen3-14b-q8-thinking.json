@@ -1,0 +1,48 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided text against those criteria.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it starts with "Tāpēc tiek izvirzīti vairāki darba uzdevumi :" followed by five numbered points. Each point is on a new line and starts with a number. So yes, it's a numbered list. The answer here should be "complies" as true.
+
+Next, **Quantity**. The task is to count the number of individual tasks. The list has five items: 1 to 5. The criteria say it's okay if it has 5, 6, or 7. Since there are exactly 5, the feedback should just be the number 5. Complies is true.
+
+For **Completeness**, the question is whether the tasks cover a complete research process. The tasks listed are: literature analysis, defining criteria, compiling existing results, practical tests, and making recommendations. These cover theoretical analysis (literature), practical research (experiments), and validation through comparison with prior studies. However, the text doesn't explicitly mention comparing findings with existing solutions or benchmarks. The fifth task mentions "Ieteikumu izstrāde un secinājumu formulēšana" which is developing recommendations and conclusions, but not necessarily validating results against existing solutions. So maybe it's missing the validation part. Therefore, the feedback would point out that validation isn't clearly addressed, and complies is false.
+
+**Format** checks if each task is one sentence. Looking at the tasks, each is a single sentence. For example, "Veikt profesionālās un zinātniskās literatūras analīzi" is one sentence. So complies is true.
+
+**Structure** asks if the tasks start with infinitive verbs. The original text uses verbs like "Veikt", "Definēšana", "Apkopšana", "Veikšana", "Izstrāde". In Latvian, the infinitive form is the base form, so "Veikt" is the infinitive. However, "Definēšana" is a noun (the act of defining), not an infinitive verb. Similarly, "Apkopšana" is a noun. So the structure isn't consistently using infinitive verbs. Therefore, complies is false, and the feedback should mention that some tasks use nouns instead of verbs.
+
+**Clarity** checks if sentences are short and use concise language. The tasks are all short and straightforward. Each is a single verb or noun phrase. The language is precise. So complies is true.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "5",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis, practical experiments, and recommendations, but validation of results (e.g., comparison with existing solutions) is not explicitly mentioned.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Tasks use infinitive verbs for the first item but subsequent items use noun forms (e.g., 'Definēšana', 'Apkopšana') instead of consistent infinitive verbs.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text uses short, straightforward sentences with concise language.",
+        "complies": true
+    }
+]

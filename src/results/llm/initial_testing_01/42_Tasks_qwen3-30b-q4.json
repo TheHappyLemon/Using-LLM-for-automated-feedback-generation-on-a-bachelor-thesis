@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a clearly separated numbered list, with each task starting with a number and a period, making the structure easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains exactly 4 individual tasks, which is fewer than the required 5, 6, or 7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (task 1), data selection (task 2), implementation and comparison of LLM with other methods (task 3), and practical evaluation (task 4). However, the tasks lack explicit mention of validation against established benchmarks or prior studies beyond comparison, and there is no clear indication of how results will be analyzed or validated in a rigorous way. The comparison in task 3 is mentioned, but not how it will be evaluated or validated.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "The tasks are mostly single sentences, but task 3 spans two sentences, violating the requirement of being exactly one sentence long.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks begin with infinitive verbs in Latvian (e.g., 'Veikt', 'Atlasīt', 'Izvēlēties', 'Izvērtēt'), which is consistent with the required structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are generally short and use precise language, though some could be more concise. For example, 'pētījumus noskaņojuma analīzē ar tradicionāli izmantotajām metodēm salīdzinājuma veikšanai' is slightly wordy and could be clearer.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical sequence: literature review, data selection, model implementation and comparison, and practical evaluation. This progression supports the goal of evaluating LLMs in sentiment analysis. However, the lack of explicit validation steps (e.g., using benchmarks or comparing with published results) weakens the relevance to the goal of rigorous evaluation.",
+        "complies": false
+    }
+]

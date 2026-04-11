@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text explains the importance of parallelism in modern software development and how TBB can enhance performance and efficiency. It highlights the relevance of researching TBB's impact on C++ applications, especially in high-performance computing areas.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions Intel TBB as a key library for parallel programming but does not cite specific research or existing achievements. It lacks references to published studies or comparisons with other solutions.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text identifies the need for optimization using TBB, it doesn't explicitly state what remains unresolved or insufficient in current knowledge. The gap is implied but not clearly articulated.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clear: C++ initially lacked built-in parallelism support, limiting performance. TBB addresses this by providing a robust library for efficient resource utilization and reducing parallel programming errors.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included to support claims or acknowledge sources. This weakens the argument and doesn't show how prior research is used or extended.",
+        "complies": false
+    }
+]

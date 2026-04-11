@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction outlines the importance of asynchronous and parallel programming for resource‑constrained mobile devices and notes the growing support for Kotlin, which helps justify the relevance of the topic. However, it could strengthen the argument by explicitly linking the research to current industry challenges or performance bottlenecks.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text cites several recent works (Elizarov et al., 2021; Bobrov, 2024; Skeen & Greenhalgh, 2018; Subramaniam, 2019; Griffiths & Griffiths, 2019) and mentions key developments such as Kotlin’s official Android support and its interoperability with Java. The coverage is adequate but could be expanded with more detailed discussion of existing asynchronous frameworks and performance studies.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The passage raises a question about the effective use of Kotlin’s concurrency tools but does not explicitly state a concrete research gap. A clear gap statement (e.g., lack of comparative performance data or guidelines for task‑specific coroutine usage) is missing.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem the thesis intends to solve is not clearly articulated. While the text hints at evaluating Kotlin’s concurrency mechanisms, it does not define a specific issue, objective, or research question that the work will address.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included to support claims, but the formatting is inconsistent (e.g., repeated author names, missing publication details). Ensuring proper citation style and completeness would improve the scholarly rigor.",
+        "complies": true
+    }
+]

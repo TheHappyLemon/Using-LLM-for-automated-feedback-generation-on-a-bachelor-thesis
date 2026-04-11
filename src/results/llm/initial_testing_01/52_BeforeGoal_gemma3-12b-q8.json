@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text establishes the importance of the topic by highlighting the limitations of Layer-1 blockchain systems and the resulting high transaction costs and scalability issues. It connects this to the broader context of the digital economy. However, it could be strengthened by mentioning specific real-world examples or consequences of these limitations (e.g., impact on specific industries, user adoption).",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions Layer-2 solutions as a response to the problems, but it doesn't cite any specific research or existing Layer-2 solutions. It lacks concrete examples of Layer-2 technologies (e.g., Lightning Network, rollups, sidechains) and their current implementations or performance. It needs to demonstrate awareness of the existing landscape of Layer-2 solutions.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "While the text identifies the problem of high transaction costs and limited scalability, it doesn't explicitly state a specific research gap. It implies a gap by suggesting the need for new solutions, but it doesn't articulate what remains unresolved or insufficiently addressed in the current research or practice regarding Layer-2 solutions. For example, is there a gap in understanding the trade-offs between different Layer-2 approaches, or in optimizing their performance under specific conditions?",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The concrete issue or challenge is clearly identified: high transaction costs and limited scalability in blockchain networks, specifically within Layer-1 systems. The text effectively frames the thesis as an exploration of Layer-2 solutions to address this problem.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text lacks any references to support its claims or acknowledge prior research. It mentions Layer-2 solutions generally but doesn't cite any specific papers, articles, or reports. This is a significant omission and needs to be addressed.",
+        "complies": false
+    }
+]
+```

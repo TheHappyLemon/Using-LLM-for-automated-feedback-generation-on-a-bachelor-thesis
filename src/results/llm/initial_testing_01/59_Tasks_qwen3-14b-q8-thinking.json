@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against those criteria.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it starts with "Bakalaura darba uzdevumi:" followed by numbers 1) through 7). Each task is on a new line, so yes, it's a numbered list. So the answer here should be "complies" with the feedback mentioning the numbered list structure.
+
+Next, **Quantity**. The user wants the count of individual tasks. The tasks are numbered 1 to 7, so that's 7 tasks. The feedback should just be the number 7. Since the allowed numbers are 5,6,7, it complies.
+
+**Completeness** checks if the tasks cover a complete research process. The tasks include researching existing solutions (1,2,3), identifying application areas (4), proposing a modified process (5), identifying algorithms (6), and evaluating pros/cons (7). However, there's no mention of practical experiments, implementation, or validation beyond comparing with prior studies. So the feedback should note that while theoretical aspects are covered, practical validation isn't included. Therefore, it doesn't fully comply.
+
+**Format** asks if each task is exactly one sentence. Looking at the tasks, each is a single sentence. For example, "Izpētīt un salīdzināt dronu spieta veidus..." is one sentence. So this complies.
+
+**Structure** checks for consistent use of infinitive verbs. The tasks start with verbs like "Izpētīt", "Apskatīt", "Identificēt", etc. These are infinitive forms in Latvian. So the structure is consistent, hence complies.
+
+**Clarity** is about short, straightforward sentences. The tasks are concise and use precise language. Each task is a clear, direct statement. So this complies.
+
+**Relevance** ensures tasks contribute to the thesis goal. The goal is to study drone swarm management with AI for search tasks. The tasks cover researching swarm types, formations, AI integration points, identifying use cases, proposing modified processes, algorithms, and evaluating pros/cons. All these steps logically lead to achieving the goal. So it complies.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "7",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text outlines theoretical analysis and identification of application areas but lacks explicit mention of practical implementation, experimentation, or validation of results against benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Tasks consistently begin with infinitive verbs (e.g., 'Izpētīt', 'Apskatīt', 'Identificēt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are short, straightforward, and use precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "Tasks logically align with the thesis goal, covering research, analysis, and proposal of AI-integrated drone swarm solutions for rescue missions.",
+        "complies": true
+    }
+]

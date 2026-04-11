@@ -1,0 +1,19 @@
+```json
+[
+    {
+        "question" : "Chapters",
+        "feedback": "The text lists the main sections of the thesis: history and current usage, data compression algorithms, practical tests, comparisons and conclusions, references, appendices, and code.",
+        "complies": true
+    },
+    {
+        "question" : "Description",
+        "feedback": "The text does not briefly describe the contents of each section. It only names the sections without providing any details about what will be discussed within each.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The general structure is somewhat understandable, as the order of the sections is logical (history, theory, practice, analysis, conclusion). However, the lack of descriptions makes it less clear.",
+        "complies": true
+    }
+]
+```

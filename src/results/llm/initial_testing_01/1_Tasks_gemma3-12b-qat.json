@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a numbered list, which is a good start for outlining tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text lists 6 tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover a reasonable research process: analysis of requirements, literature review, tool selection, experimentation, result evaluation, and demonstration. However, the 'demonstration' task is somewhat vague. It would be stronger if it explicitly mentioned comparing the results with existing solutions or benchmarks.",
+        "complies": true
+    },
+    {
+        "question" : "Format",
+        "feedback": "Most tasks are described in a single sentence. Task 1 spans over two sentences, which is not ideal. It should be rephrased into a single, concise sentence.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of sentences, which is good for clarity and structure.",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are generally short and straightforward. The language is concise and precise.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are highly relevant to the stated thesis goal. They logically progress from understanding the problem to exploring solutions and demonstrating their effectiveness. The inclusion of experimentation and result evaluation is crucial.",
+        "complies": true
+    }
+]
+```

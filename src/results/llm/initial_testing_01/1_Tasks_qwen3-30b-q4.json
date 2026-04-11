@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, but the numbering is inconsistent (it starts with '1.', then jumps to '7' before continuing with '2.', '3.', etc.). This disrupts the clarity and structure of the list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 6 clearly defined tasks, which falls within the acceptable range of 5 to 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a complete research process: theoretical analysis (tasks 1 and 2), selection of tools (task 3), practical experimentation (task 4), evaluation of results (task 5), and demonstration of applicability (task 6). The inclusion of validation through demonstration and comparison with existing solutions (implied in task 5 and 6) meets the completeness requirement.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "The tasks are mostly single-sentence items, but task 4 spans two sentences ('Ieplānot un veikt eksperimentus...'), which violates the requirement of being exactly one sentence long.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks generally start with infinitive verbs (e.g., 'Analizēt', 'Izpētīt', 'Izvēlēties', 'Ieplānot', 'Novērtēt', 'Demonstrēt'), which is consistent with the required structure. However, the first task begins with 'Analizēt un noteikt', which is a compound infinitive, but still acceptable.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are generally short and use precise language. However, task 4 is slightly complex due to its length and contains two actions ('plānot' and 'veikt'), which reduces clarity. The rest of the tasks are clear and concise.",
+        "complies": false
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to the thesis goal: analyzing requirements, reviewing literature, selecting tools, conducting experiments, evaluating results, and demonstrating applicability. The sequence supports the goal of evaluating AI/ML-based tools for continuous testing maintenance, including both theoretical and practical validation.",
+        "complies": true
+    }
+]

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text effectively establishes the significance of the topic by highlighting the increasing reliance on the internet and the negative consequences of web interruptions, such as user frustration and financial losses for companies. The statistics provided (number of internet users, average time spent online, bounce rate increase) strengthen the argument.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions Blue-Green and Canary deployment strategies as solutions, but it lacks specific citations of research papers or publications that describe these strategies in detail or compare their effectiveness. It would be beneficial to cite relevant academic works or industry reports to demonstrate a deeper understanding of the state-of-the-art.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text does not explicitly identify a research gap. While it implies that improving stability and availability is a challenge, it doesn't pinpoint a specific unanswered question or area where further research is needed. It could benefit from stating what aspect of Blue-Green or Canary deployments is still lacking or requires further investigation.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The problem is clearly identified: preventing web interruptions to improve user experience and maintain company reputation. The negative consequences of interruptions are well-articulated, making the problem easily understandable.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text includes references (1) and (2), but it would be more robust with more citations throughout the introduction. The current references are limited and do not fully support the claims made about user behavior and the impact of website performance.",
+        "complies": false
+    }
+]
+```

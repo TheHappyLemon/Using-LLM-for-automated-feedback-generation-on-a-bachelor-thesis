@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a clearly separated numbered list.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text contains 7 individual tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks outline a research process that includes theoretical analysis (tasks 1, 2, 3), identification of application areas (task 4), solution proposal (task 5), algorithm selection (task 6), and evaluation of benefits and drawbacks (task 7). However, the text lacks explicit mention of practical research, experiments, or validation through comparison with existing solutions or benchmarks. It's unclear if the proposed solution will be implemented and tested, or if the algorithm selection will be based on empirical data.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "All tasks are described in single sentences.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each task description (e.g., 'Izpētīt', 'Apskatīt', 'Identificēt', 'Ieteikt').",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The text consists of short, straightforward sentences using concise and precise language.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are logically ordered and contribute to reaching the thesis goal of exploring drone fleet management with AI for search operations. The tasks cover necessary aspects from theoretical analysis to solution proposal and evaluation. However, the text could benefit from explicitly mentioning the validation of the proposed solution against existing methods or benchmarks.",
+        "complies": true
+    }
+]
+```</end_of_turn>

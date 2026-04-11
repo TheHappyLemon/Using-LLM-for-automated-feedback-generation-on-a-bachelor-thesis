@@ -1,0 +1,19 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction mentions AI importance but does not clearly link to current industry trends or justify the need for research. It relies on outdated references and lacks discussion of recent developments in game AI or alpha‑beta enhancements.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only two old references are cited; no mention of recent advances, alternative pruning techniques, or empirical evaluations. The state‑of‑the‑art section is therefore incomplete.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text points out that standard alpha‑beta cannot distinguish between high‑heuristic nodes that may still lead to loss and nodes that guarantee loss, implying a gap. However, the description is somewhat vague and could be more explicit.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is to modify the alpha‑

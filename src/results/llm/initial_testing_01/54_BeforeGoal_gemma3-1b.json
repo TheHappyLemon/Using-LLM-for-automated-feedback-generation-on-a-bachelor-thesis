@@ -1,0 +1,31 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text establishes the importance of micro-pocalization through decentralization of services, highlighting its impact on developer productivity. However, it lacks a deeper exploration of the current challenges faced by organizations adopting this architecture, such as maintaining code consistency and managing complexity. The text could benefit from a more explicit statement of the benefits and potential risks associated with this approach.",
+        "complies": "Boolean value. True if text adequately addresses the significance of the topic."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly mentions CI/CD and automation, but doesn't provide specific examples of existing CI/CD practices or automation techniques that are relevant to micro-pocalization.  It could strengthen the argument by referencing specific tools or methodologies used in the field.",
+        "complies": "Boolean value. True if text demonstrates awareness of current state-of-the-art."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap in the understanding of automated testing optimization for CI/CD pipelines, but it doesn't clearly articulate the specific limitations or challenges that this gap presents.  The text should explicitly state the limitations of current practices and suggest areas for further research.",
+        "complies": "Boolean value. True if text identifies a gap.",
+        "missing": "Boolean value. True if the text does not identify a gap."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text focuses on the challenges of CI/CD automation, but it doesn't clearly define the core problem the thesis aims to solve. The text should explicitly state the problem being addressed – for example, the difficulty of balancing cost-effectiveness and automation fidelity.",
+        "complies": "Boolean value. True if the text clearly defines the problem.",
+        "missing": "Boolean value. True if the text doesn't clearly define the problem."
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references to relevant literature or previous research.  Adding citations to existing studies on micro-pocalization, CI/CD, and automated testing would strengthen the thesis's foundation and demonstrate a thorough understanding of the field.",
+        "complies": "Boolean value. True if references are missing.",
+        "missing": "Boolean value. True if references are missing."
+    }
+]

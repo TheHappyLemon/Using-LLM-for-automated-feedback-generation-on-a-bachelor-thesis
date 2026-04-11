@@ -1,0 +1,32 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text focuses on the challenges of e-pastu – a large portion of IT companies rely on e-pastu for client communication. However, it lacks a clear articulation of *why* this is a significant problem, beyond simply mentioning it’s a common practice. It needs to demonstrate the broader impact of this practice on the IT industry.",
+        "complies": "Boolean value. True if text adequately addresses the significance of the topic."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly mentions the use of e-pastu for client communication, but doesn’t cite specific research or advancements in this area. It needs to demonstrate awareness of existing evaluation methods or comparison studies related to e-pastu.",
+        "complies": "Boolean value. True if text demonstrates awareness of the state-of-the-art.",
+        "complies": "Boolean value. True if text cites existing evaluations or comparisons."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap in the current state of knowledge regarding the analysis of e-pastu content. It needs to explicitly state the specific problem the thesis aims to address – for example, the lack of a standardized method for semantic analysis of e-pastu content.",
+        "complies": "Boolean value. True if text identifies a gap.",
+        "complies": "Boolean value. True if text states the gap's nature."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text describes the challenges of the project's evaluation – communication with clients, potential for misinterpretation of the program's analysis. It needs to clearly define the specific problem the thesis is trying to solve – for instance, the need for a robust method to ensure the program's functionality.",
+        "complies": "Boolean value. True if text clearly defines the problem.",
+        "complies": "Boolean value. True if text highlights the problem's nature."
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references to relevant literature or previous research. It needs to acknowledge the importance of existing studies and evaluations related to e-pastu and related areas.",
+        "complies": "Boolean value. True if text includes references.",
+        "complies": "Boolean value. True if text mentions references."
+    }
+]

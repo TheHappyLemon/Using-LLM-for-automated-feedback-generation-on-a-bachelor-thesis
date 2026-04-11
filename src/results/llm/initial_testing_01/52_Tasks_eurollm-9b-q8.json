@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into clearly separated items in form of a numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "Count the number of individual tasks in the text. Output only the number in 'feedback' field of JSON. Text complies if it has 5, 6 or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text describes individual tasks that represent a complete research process, including theoretical analysis, practical research (experiments) or implementation (of solution), and validation of results — for example, by comparing findings with prior studies, existing solutions, or established benchmarks. If some kind of solution is developed, validation means that it must be compared to existing solutions or, at the very minimum, it must be demonstrated that is actually solves a practical problem.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "The text describes individual tasks that are exactly one sentence long and do not span over several sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs (e.g., \"to analyze\", \"to develop\", \"to explore\") at the beginning of sentences or phrases.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text consists of short, straightforward sentences that use concise and precise language.",
+        "complies": true
+    }
+]

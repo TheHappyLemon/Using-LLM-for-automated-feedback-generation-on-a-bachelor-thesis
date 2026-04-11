@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is presented as a paragraph, not a numbered list. This makes it harder to quickly grasp the individual tasks.",
+        "complies": false
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The text covers a reasonable range of activities, from research to prototyping and testing. However, the validation aspect could be strengthened. It mentions testing the app's functionality, but doesn't explicitly state a comparison with existing tourism apps or benchmarks. A more detailed explanation of how the prototype's effectiveness will be evaluated against established criteria would improve completeness.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Most tasks are described in a single sentence. However, some sentences are a bit long and could be split for better clarity.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text generally uses infinitive verbs at the beginning of sentences (e.g., 'izpētīšu', 'izstrādāšu', 'izveidošu', 'testēšu', 'izvērtēšu'). However, consistency could be improved by ensuring every task starts with an infinitive.",
+        "complies": false
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are generally short and straightforward. The language is concise and precise.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are logically ordered and contribute to the stated goal of developing a tourism guide using AR and GPS. The progression from research to prototyping, testing, and evaluation is appropriate. However, as mentioned in 'Completeness', explicitly including research and comparison with existing solutions would strengthen the relevance.",
+        "complies": false
+    }
+]
+```

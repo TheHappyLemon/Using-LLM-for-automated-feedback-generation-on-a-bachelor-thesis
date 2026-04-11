@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is well-organized into a numbered list, which enhances readability and clarity.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text lists 5 individual tasks.",
+        "complies": false
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover a reasonable research process, including literature review (task 1), data collection (task 2), model development (task 3), scenario testing (task 3), and providing recommendations (task 5). However, the text lacks a clear validation step where the developed model is compared to existing solutions or benchmarks. It would be beneficial to explicitly include a task dedicated to validating the model's accuracy and effectiveness.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Each task is presented as a single sentence, adhering to the requirement of one-sentence-per-task.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each sentence, which contributes to a clear and structured presentation of the tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are short and straightforward, using concise language. The tasks are easily understandable.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are relevant to the stated thesis goal of developing a simulation project for evacuation processes. The sequence of tasks logically progresses from research to model development, testing, and recommendations. However, as mentioned in the Completeness section, the lack of a validation task slightly diminishes the overall relevance.",
+        "complies": false
+    }
+]
+```

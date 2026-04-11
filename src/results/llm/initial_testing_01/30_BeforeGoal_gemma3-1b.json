@@ -1,0 +1,33 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text states the importance of the topic but lacks specific context or justification for its relevance. It doesn't clearly articulate the problem it aims to solve or the benefits of addressing it.",
+        "complies": "Boolean value. True if text does not adequately explain significance."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing research but doesn't provide specific examples of cutting-edge achievements or evaluations. It lacks a clear comparison to current state-of-the-art, making it difficult to assess the thesis's contribution.",
+        "complies": "Boolean value. True if text lacks specific examples of state-of-the-art.",
+        "details": "Provide specific examples of research or evaluations."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap but doesn't clearly state *what* the gap is. It's vague and doesn't offer a specific problem to be addressed.",
+        "complies": "Boolean value. True if the gap is not clearly defined.",
+        "details": "Expand the gap by stating the specific problem or limitation."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text focuses on the *process* of development rather than the *problem* itself. It doesn't clearly articulate the challenge the thesis is trying to overcome.",
+        "complies": "Boolean value. True if the text doesn't clearly state the problem.",
+        "details": "Reframe the problem to be more focused on the challenge."
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references, making it difficult to verify claims and demonstrate the use of prior research.  It needs to explicitly cite sources.",
+        "complies": "Boolean value. True if references are absent.",
+        "details": "Add relevant references to support claims."
+    }
+]
+```

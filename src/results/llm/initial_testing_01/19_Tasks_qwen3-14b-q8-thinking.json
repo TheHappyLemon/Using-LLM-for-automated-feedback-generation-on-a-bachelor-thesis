@@ -1,0 +1,64 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against those criteria.
+
+Starting with the first question: **Outlook**. The question is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it does have bullet points with numbers (•) and each task is on a new line. So yes, it's a numbered list. The answer here should be "complies" as true.
+
+Next, **Quantity**. The user wants the count of individual tasks. Let me count them. The tasks listed are:
+
+1. Izpētīt problēmu...
+2. Analizēt dažāda veida...
+3. Izpētīt un analizēt...
+4. Balstoties uz analītiskās daļas...
+5. Veikt izstrādātā risinājuma testēšanu...
+6. Apkopot testēšanas rezultātus...
+
+That's six tasks. The criteria says 5,6,7 are acceptable. So the number is 6, which complies. The feedback should just be the number 6.
+
+**Completeness**: The tasks need to cover a complete research process. Let's see. The tasks include problem analysis, algorithm analysis, software analysis, developing a solution, testing in a real environment, and compiling results and conclusions. That seems to cover theoretical analysis (tasks 1,2,3), practical implementation (task 4), validation through testing (task 5), and analysis of results (task 6). However, the validation part in the question mentions comparing with existing solutions or benchmarks. The tasks mention testing in a real environment but don't explicitly state comparing with existing solutions. So maybe this is a problem. The feedback should note that while the tasks cover development and testing, they don't mention comparison with existing solutions, which is part of validation.
+
+**Format**: Each task should be one sentence. Let me check each bullet. The first task is one sentence. The second is also one. Third is one. Fourth is a bit longer but still one sentence. Fifth is one. Sixth is one. So all are single sentences. Complies.
+
+**Structure**: The tasks should start with infinitive verbs. The original tasks are in Latvian, so I need to check the verbs. The first task starts with "Izpētīt" (to investigate), which is an infinitive. The second starts with "Analizēt" (to analyze), third "Izpētīt un analizēt" (to investigate and analyze), fourth "Balstoties" (based on), which is a prepositional phrase, not an infinitive. The fifth starts with "Veikt" (to perform), and sixth "Apkopot" (to compile). The fourth task doesn't start with an infinitive verb. So this is a problem. The feedback should mention that the fourth task doesn't start with an infinitive.
+
+**Clarity**: The sentences should be short and straightforward. The tasks are concise, using precise language. Each task is a clear action. So this complies. The feedback can note that the sentences are clear and concise.
+
+**Relevance**: The tasks should contribute to the thesis goal. The goal is to develop a software solution for time tracking. The tasks include researching existing solutions, analyzing algorithms, developing the software, testing it, and compiling results. This aligns with the goal. However, the validation part (testing) is done in a real environment, but the question mentions that validation should compare with existing solutions or show it solves a problem. The tasks do mention testing in a real environment, which demonstrates solving a practical problem. So it's relevant. The feedback can say that the tasks are in order and contribute to the goal.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis, solution development, testing, and result compilation. However, they do not explicitly mention comparing the developed solution with existing solutions or established benchmarks, which is part of validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence and does not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Most tasks start with infinitive verbs, but the fourth task begins with a prepositional phrase ('Balstoties uz analītiskās daļas rezultātiem') instead of an infinitive.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use concise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are ordered to align with the thesis goal, covering research, development, testing, and validation of a solution.",
+        "complies": true
+    }
+]

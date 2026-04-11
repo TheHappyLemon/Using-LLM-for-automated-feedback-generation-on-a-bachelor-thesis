@@ -1,0 +1,27 @@
+ [
+    {
+        "question": "Significance",
+        "feedback": "The text explains the importance of the topic by discussing the evolution and current state of computer games, highlighting the need for efficient algorithms. It also mentions the potential impact on player experience.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly mentions the Alfa-beta algorithm and its history, but it does not cite specific published research or mention existing achievements related to the topic. It would benefit from more detailed references.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by explaining that the standard Alfa-beta algorithm cannot distinguish between moves with high heuristic value but low probability of winning. However, it could be more explicit in stating this as a research gap.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the need to improve the Alfa-beta algorithm in situations where it leads to suboptimal moves. The text explains how this can affect game outcomes.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes references to support claims, such as the mention of Sweetswer & Wiles (2002) and Luger (2009). However, it could benefit from more detailed citations.",
+        "complies": true
+    }
+]

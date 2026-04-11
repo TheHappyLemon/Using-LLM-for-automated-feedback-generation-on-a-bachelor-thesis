@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively establishes the significance of asynchronous programming by linking it to current trends like digital transformation, high data throughput, and real-time processing demands. It also highlights its importance in various applications like web servers, databases, and simulations. The connection to resilience against cyberattacks further strengthens the argument.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the state-of-the-art by citing several research papers (Zbarcea & Tudose, 2024; Zhang u.c., 2024; Rucins u.c., 2023; Python Software Foundation, 2025; Reguera-Salgado u.c., 2024; Zhulkovskyi u.c., 2024). It mentions specific technologies like CompletableFuture, Akka, asyncio, and discusses their applications in different contexts. However, it doesn's explicitly state whether comparative evaluations of Java and Python in this context have been done before.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text doesn't explicitly identify a concrete research gap. While it mentions the increasing importance and widespread application of asynchronous programming, it doesn't state what specific aspect remains unresolved or insufficiently addressed in the current research. It would benefit from explicitly stating what the thesis aims to contribute that hasn't been done before.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is implicitly stated as the need to understand and develop asynchronous programming approaches in Java and Python. However, it's not clearly articulated as a specific, focused research question. The thesis could benefit from a more precise statement of the problem it intends to solve.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included and appear relevant to the claims made in the text. The citation style is consistent. However, it would be beneficial to ensure that all cited works are properly formatted according to the university's guidelines.",
+        "complies": true
+    }
+]
+```

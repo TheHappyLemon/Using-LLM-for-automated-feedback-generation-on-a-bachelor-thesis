@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text adequately explains the importance of the topic by highlighting the challenges of manual testing and the increasing complexity of software systems. It connects the research to current trends like continuous testing and the need for timely and accurate testing. However, it could be strengthened by providing more specific examples of the problems caused by inadequate testing or by quantifying the benefits of AI-powered solutions.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions the potential of AI tools for test generation and maintenance but lacks specific citations of published research or existing cutting-edge achievements. It doesn't discuss any specific AI techniques or tools currently used in continuous testing. This is a significant weakness. It needs to cite relevant papers or projects to demonstrate awareness of the current state of the field.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text implicitly suggests a gap by mentioning the need for solutions to automate test generation and maintenance, but it doesn't explicitly formulate a concrete research gap. It doesn't clearly state what remains unresolved or insufficiently addressed in the current state of knowledge or practice. A more explicit statement of the gap would strengthen the introduction.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The concrete issue or challenge is clearly identified: the need to automate test generation, maintenance, and ensure comprehensive testing (end-to-end) within a continuous testing environment. The text effectively communicates the problem that the thesis aims to address.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text lacks any references to support its claims or acknowledge prior research. This is a major deficiency. All claims about the potential of AI, the challenges of manual testing, and the importance of continuous testing should be supported by citations.",
+        "complies": false
+    }
+]
+```

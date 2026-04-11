@@ -1,0 +1,63 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, the tasks are listed with bullet points using "•" and each task is on a new line. However, the numbering isn't explicit; it's just bullet points. The original tasks text uses "•" instead of numbers. So the answer here would be that it's not a numbered list but a bulleted one. The question specifically asks for a numbered list, so this might be a problem.
+
+Next, **Quantity**. The user wants the count of individual tasks. Let me count them. The tasks listed are:
+
+1. Izanalizēt esošās interaktīvo aptauju izglītības platformas...
+2. Balstoties uz literatūras avotu analīzi...
+3. Definēt konceptuālās prasības...
+4. Izstrādāt interaktīvo aptauju platformas prototipu...
+5. Balstoties uz iegūtiem rezultātiem...
+
+That's five tasks. The user says it complies if it has 5,6, or 7. So the answer here is 5, which is acceptable.
+
+**Completeness**. The question is whether the tasks cover a complete research process: theoretical analysis, practical research, implementation, and validation. Let's check each task. The first task is analyzing existing platforms and literature, which is theoretical. The second task is about understanding student engagement through literature, which is part of theoretical analysis. The third is defining requirements, which is part of the design phase. The fourth is developing a prototype and conducting an experiment, which is practical. The fifth is developing recommendations based on results. However, the validation part is a bit unclear. The fourth task mentions an experiment to check the prototype's usefulness, which is a form of validation. But the question mentions comparing with existing solutions or established benchmarks. The first task does compare existing platforms, but the fifth task is about recommendations, not necessarily a comparison with prior studies. So maybe the completeness is partially met but lacks explicit comparison with existing solutions in the validation phase.
+
+**Format**. The tasks should be exactly one sentence each. Let me check each bullet. The first task is one sentence. The second is also one sentence. The third is one. The fourth is two sentences: "Izstrādāt interaktīvo aptauju platformas prototipu, kā arī organizēt eksperimentu lai pārbaudītu prototipa lietojuma lietderību lekciju procesā." Wait, that's one sentence, but the structure might be a bit long. The fifth task is one sentence. So all are single sentences. So the format complies.
+
+**Structure**. The tasks should start with infinitive verbs. Let's check each. The first starts with "Izanalizēt" (to analyze), which is an infinitive. The second starts with "Balstoties" (Based on), which is a prepositional phrase, not an infinitive. The third starts with "Definēt" (to define), which is an infinitive. The fourth starts with "Izstrādāt" (to develop), infinitive. The fifth starts with "Balstoties" again, which is not an infinitive. So two tasks don't start with infinitives. Therefore, the structure doesn't comply.
+
+**Clarity**. The sentences should be short and concise. The tasks are mostly concise, but some might be a bit long. For example, the fourth task has a long sentence with two parts. However, it's still a single sentence. The language is precise, so clarity is mostly good. So the feedback would be that the sentences are clear and concise, but maybe the fourth task's sentence is a bit long.
+
+**Relevance**. The tasks should contribute to the thesis goal. The goal is to analyze existing platforms, define requirements for a new one, develop a prototype, and provide recommendations. The tasks cover analyzing existing platforms, theoretical analysis, defining requirements, developing a prototype with an experiment, and recommendations. This aligns with the goal. However, the validation part (experiment) is included, which is part of the process. So the tasks are relevant and in order. The feedback would be that the tasks are well-ordered and contribute to the goal.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text uses bullet points (•) instead of a numbered list. A numbered list would better emphasize the sequence of tasks.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 5 individual tasks, which complies with the requirement of having 5, 6, or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis, practical implementation (prototype development), and validation (experiment). However, explicit comparison with existing solutions or benchmarks in the validation phase is missing.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence, complying with the format requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Most tasks start with infinitive verbs, but two tasks begin with prepositional phrases (e.g., 'Balstoties uz literatūras avotu analīzi', 'Balstoties uz iegūtiem rezultātiem'), which deviate from the structure.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are concise and precise, though the fourth task contains a slightly long sentence. Overall, clarity is maintained.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to the thesis goal, including analysis of existing solutions, prototype development, and recommendations.",
+        "complies": true
+    }
+]

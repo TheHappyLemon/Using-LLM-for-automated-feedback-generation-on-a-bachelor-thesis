@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively establishes the significance of the topic by highlighting the pervasive use of cookies, their impact on user experience, and the associated privacy and security risks. It connects the topic to current trends like cybercrime and data breaches, making a strong case for the need for research. The explanation of how the research can inform users and developers is also a positive aspect.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions Secure, HttpOnly, and SameSite as existing security mechanisms, but it lacks specific citations to published research or detailed discussion of their effectiveness or limitations. It would be significantly strengthened by referencing specific papers or reports that analyze these mechanisms or compare their performance. The statement that there are ways to bypass these mechanisms is good, but needs supporting evidence.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text implies a gap by stating that existing mechanisms can be bypassed and that new attacks are emerging, it doesn't explicitly formulate a concrete research gap. It needs to clearly state what specific aspect of cookie security remains unresolved or insufficiently addressed. For example, is it a specific type of attack, a weakness in a particular mechanism, or a lack of comprehensive evaluation?",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text clearly identifies the core problem: the need to protect users from the security risks associated with cookies, including session hijacking, XSS, and data breaches. It also highlights the need to understand and improve existing security mechanisms. The problem is well-defined and provides a clear focus for the thesis.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks any explicit references to support its claims or acknowledge prior research. While it mentions security mechanisms, it doesn's cite any sources to back up these claims. Adding references is crucial to demonstrate a thorough understanding of the field and to strengthen the credibility of the thesis.",
+        "complies": false
+    }
+]
+```

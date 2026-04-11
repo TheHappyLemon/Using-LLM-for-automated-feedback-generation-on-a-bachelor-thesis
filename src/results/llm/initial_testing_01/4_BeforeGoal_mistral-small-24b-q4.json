@@ -1,0 +1,27 @@
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text mentions the importance of concurrency and the relevance of Java's popularity but does not clearly explain why researching virtual threads specifically is necessary. It could benefit from a more explicit connection between the current problems in parallel programming and how virtual threads address these issues.",
+        "complies": false
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions specific developments like the introduction of virtual threads in JDK 21 and the java.util.concurrent package. However, it lacks citations to published research or existing evaluations/comparisons related to these developments.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text does not explicitly identify a concrete research gap. It mentions issues like race conditions and deadlocks but does not clearly state what remains unresolved or insufficiently addressed in the current state of knowledge regarding virtual threads.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The text hints at the problem by mentioning issues with traditional concurrency mechanisms, but it does not clearly identify the specific issue or challenge that the thesis aims to address. For example, it could specify whether the thesis will evaluate virtual threads' performance, compare them to existing solutions, or develop new methodologies.",
+        "complies": false
+    },
+    {
+        "question" : "References",
+        "feedback": "The text includes some references (e.g., TIOBE index, Oracle.com) but lacks specific citations for claims about concurrency issues and the development of virtual threads. Including more detailed references would strengthen the argument.",
+        "complies": false
+    }
+]

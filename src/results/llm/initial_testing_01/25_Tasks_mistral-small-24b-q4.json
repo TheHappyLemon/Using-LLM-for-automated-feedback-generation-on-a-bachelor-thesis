@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a numbered list, which makes it easy to follow.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": 6,
+        "complies": true
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The text describes a complete research process, including theoretical analysis (tasks 1-3), practical implementation (task 5), and validation of results (task 6). However, it does not explicitly mention comparing findings with prior studies or existing solutions.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "The tasks are described in a single sentence each. Task 4 is an exception as it spans over two sentences.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of sentences or phrases, which makes it clear and structured.",
+        "complies": true
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The text consists of short, straightforward sentences that use concise and precise language. However, task 4 is not a single sentence.",
+        "complies": false
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are ordered in a way that contributes to reaching the stated thesis goal, including research of existing solutions (tasks 1-3), development of the new solution (task 5), and its validation (task 6). However, it does not explicitly mention comparing findings with prior studies or existing solutions.",
+        "complies": false
+    }
+]
+```

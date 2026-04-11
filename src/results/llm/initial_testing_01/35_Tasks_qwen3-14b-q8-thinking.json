@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against those criteria.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, the tasks are listed as 1., 2., 3., etc., each on a new line. They are numbered and separated, so this seems to comply. The answer here should be true.
+
+Next, **Quantity**. The task is to count the number of individual tasks. Let me count them: 1. Iepētēt... 2. Veikt... 3. Iepētēt... 4. Izstrādāt... 5. Analizēt... 6. Izstrādāt... Wait, that's six tasks. The original text lists six items. The user said to output only the number if it's 5,6,7. So the feedback should be 6, and complies is true.
+
+**Completeness**: The question is whether the tasks cover a complete research process. The tasks include theoretical analysis (task 1 and 2), practical implementation (task 4), validation through comparison (task 5), and recommendations (task 6). However, the validation part in task 5 mentions comparing with traditional web apps, which is a form of validation. But the user's note says that validation shouldn't just be software testing but comparing with existing solutions. Task 5 does compare with existing solutions, so this might be okay. However, the tasks don't explicitly mention a literature review beyond task 2. But task 2 is a literature review. So maybe it's complete. However, the user's note says that if a solution is developed, it must be compared to existing ones. Task 5 does that. So completeness is met. But I need to check if all steps are there: theory, research, implementation, validation. Yes, seems so. So complies is true.
+
+**Format**: The tasks should be exactly one sentence each. Let's check each task. Task 1: "Izpētīt teorētiskās pieejas un tehnoloģijas..." – one sentence. Task 2: "Veikt literatūras pārskatu..." – one sentence. Task 3: "Izpētīt bezsaistes režīma tehnoloģiju pielietojumu..." – one sentence. Task 4: "Izstrādāt prototipu..." – one sentence. Task 5: "Analizēt izstrādāto prototipu veiktspēju..." – one sentence. Task 6: "Izstrādāt ieteikumus..." – one sentence. All are single sentences. So complies is true.
+
+**Structure**: The tasks should start with infinitive verbs. In Latvian, the infinitive form is used. Let's check each task. Task 1: "Izpētīt" (to study) – correct. Task 2: "Veikt" (to perform) – correct. Task 3: "Izpētīt" – correct. Task 4: "Izstrādāt" – correct. Task 5: "Analizēt" – correct. Task 6: "Izstrādāt" – correct. All start with infinitive verbs. So complies is true.
+
+**Clarity**: The sentences should be short and straightforward. Each task is a single sentence, concise, and uses precise language. For example, "Izpētīt teorētiskās pieejas un tehnoloģijas..." is clear. No complex structures. So complies is true.
+
+**Relevance**: The tasks should contribute to the thesis goal. The goal is to find the best solution for web apps working offline. The tasks include researching existing solutions (tasks 1,2,3), developing a prototype (task 4), analyzing it (task 5), and making recommendations (task 6). This aligns with the goal. So complies is true.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into clearly separated items in a numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include theoretical analysis, practical implementation, validation through comparison with existing solutions, and recommendations, forming a complete research process.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is exactly one sentence long and does not span over several sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs at the beginning of each task.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text consists of short, straightforward sentences with concise and precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are ordered to contribute to the thesis goal, including research of existing solutions, development of a new solution, and its validation.",
+        "complies": true
+    }
+]

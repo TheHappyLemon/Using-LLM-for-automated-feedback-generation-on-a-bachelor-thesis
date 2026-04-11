@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text explains why the topic is important and relevant by highlighting the benefits of microservices architecture and the need for asynchronous programming. However, it could be more explicit about current problems or trends that necessitate this research.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions specific technologies like Flask, Django, asyncio, FastAPI, Celery, and aiohttp, which demonstrates awareness of the current state-of-the-art. However, it lacks citations to published research or existing cutting-edge achievements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies that synchronous approaches can cause problems in high-load systems and that asynchronous approaches offer better solutions. However, it does not explicitly state a concrete research gap based on existing studies.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified as the inefficiency of synchronous approaches in microservices architecture and the need for asynchronous programming to optimize resource usage.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included to support claims or acknowledge sources. This is crucial for academic writing to ensure credibility and to show how prior research is used, interpreted, or extended.",
+        "complies": false
+    }
+]
+```

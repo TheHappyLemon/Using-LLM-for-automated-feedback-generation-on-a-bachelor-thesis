@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a clearly numbered list of tasks, with each task starting with a number followed by a description. The structure is consistent and easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains exactly 4 individual tasks, which is fewer than the required 5, 6, or 7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (tasks 1 and 2), data collection (task 3), and implementation (task 4), but lack explicit validation steps. While task 4 mentions improving accuracy and stability, it does not specify how the prototype's performance will be validated—e.g., by comparing it to existing solutions or benchmarking against established metrics. Without such validation, the research process is incomplete.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Task 4 spans multiple sentences and is not a single sentence. The other tasks are single sentences, but task 4 violates the format requirement by being longer and containing multiple clauses.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks use infinitive verbs (e.g., 'Apkopot', 'Analizēt', 'Izstrādāt') at the beginning, which is consistent with the required structure. However, the infinitive form is not used in the standard English infinitive form (e.g., 'to analyze'), but rather in Latvian verb forms, which is acceptable given the language of the text.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are generally short and use precise language. However, task 4 is somewhat complex and could be clearer—e.g., 'uzlabotu un stabilizētu, pilna ķermeņa lokāciju trīsdimensiju telpā' is awkwardly phrased and could be simplified for better clarity.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are relevant to the goal, as they cover literature review, analysis of existing solutions, data collection from VR hardware, and prototype development. However, the absence of a validation step (e.g., comparing the prototype's performance to existing systems or demonstrating real-world effectiveness) weakens the relevance of the task sequence to the goal, which includes improving accuracy and stability. Without validation, the contribution of the solution cannot be demonstrated.",
+        "complies": false
+    }
+]

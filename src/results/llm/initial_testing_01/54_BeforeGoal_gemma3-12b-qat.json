@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text establishes the growing popularity of microservice architectures and highlights the need for rapid and efficient testing due to frequent code changes. It connects this to the prevalence of microservices in industry (85% of surveyed companies).",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions a study by Statista (2021) regarding the adoption of microservice architectures and a study by Mingxuan Hui et al. (2025) concerning the challenges of balancing cost-effectiveness and test coverage. However, it could benefit from more specific details about existing test automation techniques or frameworks used in microservice architectures. It lacks discussion of specific approaches to test optimization.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text identifies a gap related to the lack of sufficient optimization techniques for automated testing in DevOps environments, particularly within CI/CD pipelines. It acknowledges the need to improve test execution efficiency and CI flow speed without compromising quality. However, it could be strengthened by more precisely defining what aspects of test optimization are lacking.",
+        "complies": true
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The thesis clearly addresses the problem of optimizing automated tests within CI/CD pipelines to achieve faster, more efficient testing cycles without sacrificing quality. The challenge of balancing cost-effectiveness and test coverage is also clearly stated.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text includes references to Statista (2021) and Mingxuan Hui et al. (2025). However, it could benefit from a more comprehensive list of references to support claims and demonstrate a thorough understanding of the existing literature on microservice testing and DevOps practices. The references are used to support claims, but more could be added.",
+        "complies": false
+    }
+]
+```

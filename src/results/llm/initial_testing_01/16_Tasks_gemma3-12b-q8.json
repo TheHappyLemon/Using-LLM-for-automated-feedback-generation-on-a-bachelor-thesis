@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a numbered list, which is a good start for outlining tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "There are 10 individual tasks listed.",
+        "complies": false
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover a reasonable range of activities, from literature review to implementation and testing. However, the validation aspect could be strengthened. While testing is mentioned, explicitly comparing the developed system's performance against existing solutions or benchmarks would enhance the completeness. The text doesn't mention comparing the results with other authors.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Most tasks are single sentences, but some span over multiple sentences (e.g., task 10). This inconsistency in format should be addressed.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text generally uses infinitive verbs at the beginning of sentences, but there are a few exceptions. Consistency in using infinitive verbs would improve the structure.",
+        "complies": false
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are generally short and straightforward, using concise language. However, some sentences could be slightly more precise (e.g., specifying what kind of 'user-defined content' is being referred to).",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks appear to be logically ordered and contribute to the overall goal of developing and evaluating a system for real-time advertising filtering and personalization in AR environments. The progression from research to implementation to testing is evident.",
+        "complies": true
+    }
+]
+```

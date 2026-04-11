@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text establishes the significance of steganography in general and then connects it to PE files due to their widespread use. It highlights the potential for misuse (malware hiding) and the need for understanding PE file properties for cybersecurity. The motivation for researching PE file steganography is clearly stated.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions Grebnikov (2019) as a source, which provides some grounding in the current state of the field. However, it could benefit from more specific citations related to steganography within PE files. It lacks details about existing techniques or research specifically targeting PE file steganography.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text explicitly states that the use of steganography in PE files is an under-researched area, which clearly identifies a research gap. It mentions the need to understand which properties of PE files can be exploited for steganography.",
+        "complies": true
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The thesis aims to investigate how PE file properties can be used for steganography and how to detect hidden information. This is a clearly defined problem.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "The text includes one reference (Grebnikov, 2019). While this is a start, the introduction would benefit from more references, especially those related to PE file structure and existing steganography techniques applied to file formats. More references would strengthen the claims and demonstrate a thorough understanding of the existing literature.",
+        "complies": false
+    }
+]
+```

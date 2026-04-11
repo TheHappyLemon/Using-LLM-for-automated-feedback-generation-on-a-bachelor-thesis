@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text establishes the importance of research into mikropakalpojumu izstrādes due to the reliance on microservices in modern software development. However, it lacks a specific context – the *why* behind this importance. It mentions trends but doesn't connect it to a broader problem or a specific need.",
+        "complies": "Boolean value. True if text highlights the importance, false otherwise."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly mentions FLASK and Django as popular technologies for sinhronas piešas, but it doesn't demonstrate a deep understanding of the challenges associated with their use in this context. It lacks specific examples of existing research or comparisons.",
+        "complies": "Boolean value. True if text demonstrates awareness of the state-of-the-art, false otherwise."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap in the research – the lack of comprehensive research on the practical application of Python for asinhrono mikropakalpojumu. It doesn't specify *what* is missing.",
+        "complies": "Boolean value. True if text explicitly identifies a gap, false otherwise."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text focuses on the benefits of Python but doesn't clearly define the specific problem being addressed – the challenges of implementing asinhrono mikropakalpojumu with Python. It's a high-level overview, not a focused challenge.",
+        "complies": "Boolean value. True if text identifies a concrete problem, false otherwise."
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks references to existing research or solutions. It's a theoretical discussion without supporting evidence.",
+        "complies": "Boolean value. True if references are missing, false otherwise."
+    }
+]
+```

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The introduction clearly states that JSON is widely used and that performance and structural complexity become problematic with large data and high-load applications. It explains why researching efficient JSON handling in Python is relevant.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Only a single reference (Bourhis et al., 2017) is cited, and the discussion of state‑of‑the‑art is limited to mentioning the built‑in json module and a few third‑party libraries. More recent studies, benchmarks, or specific achievements should be referenced to demonstrate a comprehensive awareness of current advances.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly state a research gap. It mentions that the study will systematize information but does not identify what is missing or insufficient in existing knowledge or practice.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: performance bottlenecks in serialization/deserialization and structure creation when handling large JSON datasets in high‑load Python services.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Only one reference is provided (repeated twice). Claims about performance issues, library features, and the importance of JSON schema lack supporting citations. Additional references are needed to substantiate these statements.",
+        "complies": false
+    }
+]

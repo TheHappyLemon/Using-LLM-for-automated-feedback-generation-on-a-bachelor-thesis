@@ -1,0 +1,57 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand the user's query and the provided materials. The user has given a thesis topic, goal, tasks, and a list of evaluation questions. My job is to evaluate the tasks text against each question and provide feedback in JSON format.
+
+Starting with the first question: **Outlook**. The question is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it's numbered 1) to 6). Each task is on a new line, so yes, it's a numbered list. So the answer here should be "complies" with a feedback mentioning the numbered list.
+
+Next, **Quantity**. The user wants the count of tasks. The tasks listed are 1 to 6, so that's 6 tasks. The criteria say it's okay if it has 5,6,7. So the number is 6, which complies. Feedback should just state the number.
+
+**Completeness**. The tasks need to represent a complete research process. Let's check each task. Task 1: study the concept. Task 2: identify security risks. Task 3: create a risk assessment system. Task 4: study browser security features. Task 5: compare and analyze weaknesses. Task 6: formulate recommendations. This covers theoretical analysis (tasks 1,2,3), practical research (task 4,5), and validation through comparison (task 5) and recommendations (task 6). So it's complete. Feedback should note that all steps are covered.
+
+**Format**. Each task should be one sentence. Let's check each. Task 1: "Izpētīt sīkfailu koncepciju." – one sentence. Task 2: "Noteikt ar sīkfailu saistītus drošības riskus." – one sentence. Task 3: "Izveidot kritēriju sistēmu risku vērtēšanai." – one sentence. Task 4: "Izpētīt sīkfailu drošības funkcijas, kuras piedāvā populārie interneta pārlūki." – one sentence. Task 5: "Salīdzināt ieviestās funkcijas un analizēt potenciālās vājības tajās." – one sentence. Task 6: "Noformulēt rekomendācijas tīmekļa programmatūras izstrādātājiem un lietotājiemlai paaugstinātu drošību." – the last part "lai paaugstinātu drošību" seems like a typo, but it's still one sentence. So all are single sentences. Complies.
+
+**Structure**. The tasks should start with infinitive verbs. In Latvian, the verbs here are in the infinitive form: "Izpētīt", "Noteikt", "Izveidot", "Izpētīt", "Salīdzināt", "Noformulēt". So yes, each starts with an infinitive. Complies.
+
+**Clarity**. The sentences are short and straightforward. Each task is a single verb phrase without unnecessary words. The language is precise. So feedback should note that the sentences are clear and concise.
+
+**Relevance**. The tasks should contribute to the thesis goal of analyzing and comparing browsers' cookie security features. Let's see: Tasks 1-3 set up the theoretical foundation. Tasks 4-5 involve practical research and comparison. Task 6 provides recommendations. This aligns with the goal. So complies.
+
+Now, I need to structure each of these into JSON objects as specified, ensuring each has the question, feedback, and complies boolean. Make sure the feedback is concise and addresses the specific criteria for each question.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (tasks 1-3), practical research (tasks 4-5), and validation through comparison and recommendations (task 6).",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks begin with infinitive verbs (e.g., 'Izpētīt', 'Noteikt', 'Izveidot').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically align with the goal of analyzing and comparing cookie security features in browsers.",
+        "complies": true
+    }
+]

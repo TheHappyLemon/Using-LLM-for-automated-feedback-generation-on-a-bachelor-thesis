@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with bullet points (·) instead of numbers.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "There are 10 individual tasks in the text.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text describes a complete research process, including theoretical analysis (e.g., analyzing existing methods and technologies), practical research (e.g., developing and optimizing models), implementation (e.g., creating modules for replacement or removal of ads), and validation (e.g., testing the system in various scenarios).",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Most tasks are one sentence long, but some span over several sentences.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text does not consistently use infinitive verbs at the beginning of each task. Some tasks start with infinitives (e.g., 'to analyze'), while others do not (e.g., 'izveidot' which is an imperative verb in Latvian).",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text uses concise and precise language, but some sentences are longer and could be broken down into shorter, more straightforward sentences.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are ordered in a logical sequence that contributes to reaching the stated thesis goal. They cover research of existing solutions, development of new models and modules, optimization, testing, and validation.",
+        "complies": true
+    }
+]
+```

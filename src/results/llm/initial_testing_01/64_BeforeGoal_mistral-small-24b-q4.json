@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text explains why Java is important and mentions the significance of garbage collection (GC) in Java. However, it does not clearly connect these points to current problems or trends.",
+        "complies": false
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text does not cite any specific published research or mention existing cutting-edge achievements related to GC in Java. It lacks references to prior work, evaluations, or comparisons.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text mentions various GC algorithms and their potential issues but does not explicitly identify a concrete research gap based on existing studies. It does not clearly show what remains unresolved or insufficiently addressed.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The text identifies the problem of effective memory management in Java and the impact of GC on performance, but it could be more specific about the concrete issue or challenge the thesis aims to address.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "There are no references included to support claims or acknowledge sources. The text would benefit from citations of relevant research and existing solutions.",
+        "complies": false
+    }
+]
+```

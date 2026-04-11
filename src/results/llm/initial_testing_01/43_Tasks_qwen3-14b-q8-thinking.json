@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand the user's query and the provided materials. The user has given a Latvian thesis topic, goal, tasks text, and a list of evaluation questions. My job is to evaluate the tasks text against each question and provide feedback in JSON format.
+
+Starting with the first question: **Outlook**. The question is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text provided, the tasks are listed as 1), 2), 3), etc., each on a new line. So yes, it's a numbered list. The feedback here would be positive, and complies is true.
+
+Next, **Quantity**. The user wants the count of tasks. The tasks listed are 1 to 5, so that's 5 tasks. The criteria say it's okay if it has 5, 6, or 7. So the number is 5, which is acceptable. Feedback is just the number, and complies is true.
+
+**Completeness** checks if the tasks cover a complete research process. The tasks include exploring concept maps, existing tools, analyzing their suitability, developing a solution, and testing it. That covers theoretical analysis (tasks 1, 2, 3), practical implementation (task 4), and validation (task 5). However, the validation in task 5 is just testing the solution, not comparing it to existing solutions or benchmarks. The feedback should note that while the tasks are complete, the validation part might be insufficient as per the criteria. So complies is false.
+
+**Format** asks if each task is exactly one sentence. Looking at the tasks, each is a single sentence. For example, "Izpētīt konceptu kartes un tās raksturojošās iezīmes." So yes, each is one sentence. Complies is true.
+
+**Structure** checks for consistent use of infinitive verbs at the start. The tasks start with verbs like "Izpētīt", "Veikt", "Izstrādāt", "Pārbaudīt". In Latvian, these are infinitives. So the structure is consistent. Complies is true.
+
+**Clarity** evaluates if the sentences are short and use concise language. The tasks are straightforward, each a single sentence with clear verbs. No complex structures. So complies is true.
+
+**Relevance** checks if the tasks are ordered to reach the thesis goal. The goal is to develop a solution for similarity in concept maps. The tasks start with research, analysis, development, and testing. This order makes sense. However, the validation in task 5 is just testing, not comparing with existing solutions. But the tasks do include researching existing solutions (task 2) and analyzing their suitability (task 3), then developing and testing. So the order contributes to the goal. However, the feedback might note that the validation could be more thorough. But since the tasks do include the necessary steps, complies is true.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "5",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include theoretical analysis (tasks 1-3), solution development (task 4), and validation (task 5). However, task 5's validation lacks explicit comparison with existing solutions or benchmarks, which weakens completeness.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Tasks consistently begin with infinitive verbs (e.g., 'Izpētīt', 'Veikt', 'Izstrādāt', 'Pārbaudīt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are short, straightforward, and use precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "Tasks follow a logical sequence: research, analysis, solution development, and testing, which aligns with the goal of creating and validating a similarity-detection solution for concept maps.",
+        "complies": true
+    }
+]

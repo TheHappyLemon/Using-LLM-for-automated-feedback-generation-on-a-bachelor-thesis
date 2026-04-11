@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Is the text organized into clearly separated items in form of a NUMBERED list?",
+        "feedback": "No. The text lacks a numbered list, making it difficult to follow the steps of the thesis.",
+        "complies": "False"
+    },
+    {
+        "question": "Count the number of individual tasks in the text.",
+        "feedback": "10. The text contains 10 individual tasks.",
+        "complies": "True"
+    },
+    {
+        "question": "Does the text describe individual tasks that represent a complete research process, including theoretical analysis, practical research (experiments) or implementation (of solution), and validation of results — for example, by comparing findings with prior studies, existing solutions, or established benchmarks?",
+        "feedback": "No. The text focuses primarily on the technical aspects of the project without explicitly outlining the research process or validation steps.",
+        "complies": "False"
+    },
+    {
+        "question": "Does the text describe individual tasks that are exactly one sentence long and do not span over several sentences?",
+        "feedback": "Yes. The text consists of short, straightforward sentences, avoiding excessive sentence length.",
+        "complies": "True"
+    },
+    {
+        "question": "Does the text consistently use infinitive verbs (e.g., 'to analyze', 'to develop', 'to explore') at the beginning of sentences or phrases?",
+        "feedback": "No. The text uses a mix of action verbs and nouns, with a lack of consistent use of infinitive verbs.",
+        "complies": "False"
+    },
+    {
+        "question": "Does the text consist of short, straightforward sentences that use concise and precise language?",
+        "feedback": "No. The text contains longer, more complex sentences, which could be improved for clarity and conciseness.",
+        "complies": "False"
+    },
+    {
+        "question": "Does the text present a set of actions or objectives in an order that demonstrably contributes to reaching the stated thesis goal?",
+        "feedback": "No. The text lacks a clear progression of tasks towards the thesis goal, focusing solely on technical implementation.",
+        "complies": "False"
+    }
+]
+```

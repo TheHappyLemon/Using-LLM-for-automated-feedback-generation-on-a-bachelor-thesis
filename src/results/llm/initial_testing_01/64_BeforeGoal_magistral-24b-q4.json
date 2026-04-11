@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text explains why Java is important and mentions that garbage collection affects performance and memory management. However, it could better explain why this specific topic needs research now.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions different garbage collectors but lacks specific references to published research or cutting-edge achievements in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a gap by mentioning that GC can affect performance and there are various algorithms, but it's not explicitly clear what remains unresolved.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identified as the impact of GC on performance and the lack of control over the process. However, it could be more concrete about the specific issue or challenge.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included to support claims or acknowledge sources.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a numbered list, which is a good practice for outlining tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "3",
+        "complies": false
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The tasks cover research of existing solutions, development of a new algorithm, and comparison with existing solutions. This aligns well with the thesis goal of developing and validating a scheduling algorithm. The tasks represent a complete research process.",
+        "complies": true
+    },
+    {
+        "question" : "Format",
+        "feedback": "Each task is presented as a single sentence, adhering to the requirement of one-sentence-long tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The tasks consistently begin with a bullet point, but do not consistently use infinitive verbs. For example, 'Apkopot un izpētīt...' uses infinitive verbs, but the other tasks do not.",
+        "complies": false
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are short and straightforward, using concise language. The tasks are easy to understand.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks directly contribute to the thesis goal. Researching existing solutions, developing a new algorithm, and comparing it to existing ones are essential steps in achieving the goal of automating work schedule planning.",
+        "complies": true
+    }
+]
+```

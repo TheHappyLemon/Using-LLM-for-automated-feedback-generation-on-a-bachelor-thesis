@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question" : "Outlook",
+        "feedback": "The text is organized into a numbered list, which is a good start for outlining tasks.",
+        "complies": true
+    },
+    {
+        "question" : "Quantity",
+        "feedback": "The text lists 10 individual tasks.",
+        "complies": false
+    },
+    {
+        "question" : "Completeness",
+        "feedback": "The text covers a reasonable range of tasks, from literature review to implementation and testing. However, the validation aspect could be strengthened. It mentions testing, but doesn't explicitly state comparison with existing solutions or benchmarks. It would be beneficial to include a task specifically addressing comparison with existing methods or demonstrating the solution's advantage.",
+        "complies": false
+    },
+    {
+        "question" : "Format",
+        "feedback": "Most tasks are described in a single sentence. However, some tasks span over several sentences, which makes the list less clear and harder to scan.",
+        "complies": false
+    },
+    {
+        "question" : "Structure",
+        "feedback": "The text generally uses infinitive verbs at the beginning of sentences, but there are some instances where this is not the case. Consistency in using infinitive verbs would improve readability.",
+        "complies": false
+    },
+    {
+        "question" : "Clarity",
+        "feedback": "The sentences are generally short and straightforward. However, some sentences could be more concise and precise. For example, the sentence about adapting VR software could be more specific about what aspects of the software need to be adapted.",
+        "complies": true
+    },
+    {
+        "question" : "Relevance",
+        "feedback": "The tasks are generally relevant to the thesis goal. The progression from research to implementation to testing makes logical sense. However, as mentioned in the Completeness section, the validation aspect could be more explicit and include comparison with existing solutions.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it starts with "Bakalaura darba uzdevumi:" followed by numbers 1 through 6. Each task is on a new line and numbered. So yes, it's a numbered list. The answer here should be "complies" as true.
+
+Next, **Quantity**. The user wants the count of individual tasks. The tasks listed are 1 to 6, so that's 6 tasks. The feedback should just be the number 6. Since the allowed numbers are 5,6,7, 6 is acceptable, so complies is true.
+
+**Completeness**. The tasks need to cover a complete research process: analysis, implementation, validation. Let's check each task. Task 1 is analyzing existing solutions. Task 2 is analyzing NLP tech use. Task 3 is defining requirements. Task 4 is developing the prototype. Task 5 is evaluating the prototype. Task 6 is concluding future development. So they have analysis, development, evaluation. But the validation part (comparing with existing solutions or benchmarks) isn't explicitly mentioned. Task 5 says to evaluate the prototype's ability, but it's not clear if it's compared to existing solutions. So maybe incomplete here. The feedback should note that validation lacks comparison with existing solutions.
+
+**Format**. Each task should be one sentence. Let's check each. Task 1: "Analīzēt esošos risinājumus e-pasta satura apstrādei un noteikt to stiprās puses un nepilnības." That's one sentence. Similarly, others are single sentences. So complies is true.
+
+**Structure**. The tasks should start with infinitive verbs. In Latvian, the infinitive form is used here. For example, "Analīzēt", "Analizēt", "Izvirzīt", "Izstrādāt", "Novērtēt", "Secināt". These are all infinitives. So structure is correct. Complies is true.
+
+**Clarity**. The sentences are short and straightforward. Each task is a single sentence with concise language. No complex structures. So complies is true.
+
+**Relevance**. The tasks should contribute to the thesis goal of developing a prototype. The tasks include analyzing existing solutions, defining requirements, developing the prototype, evaluating it, and concluding future steps. This aligns with the goal. However, the evaluation (task 5) might not be thorough enough as it doesn't mention comparison with existing solutions. But overall, the order makes sense. So complies is true, but the feedback might note that the evaluation could be more detailed.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include analysis, development, and evaluation, but validation lacks explicit comparison with existing solutions or benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Tasks consistently use infinitive verbs at the beginning of each item.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are short, straightforward, and use concise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "Tasks align with the thesis goal, covering research, development, and evaluation, though validation could be more detailed.",
+        "complies": true
+    }
+]

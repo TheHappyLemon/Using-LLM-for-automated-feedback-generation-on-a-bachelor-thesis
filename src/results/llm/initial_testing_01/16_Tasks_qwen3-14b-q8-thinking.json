@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it's presented with bullet points using '·' symbols. However, the question specifies a numbered list. The current format uses bullets, not numbers. So the answer here would be that it's not a numbered list, hence it doesn't comply.
+
+Next, **Quantity**. The task is to count the number of individual tasks. Let me count them. The list has 9 items. The user says it complies if it has 5,6, or 7. Since there are 9, this doesn't comply. So the feedback would mention the count and that it's over the allowed number.
+
+For **Completeness**, the question is whether the tasks cover a complete research process including theoretical analysis, practical implementation, and validation. Looking at the tasks: they include researching existing methods, analyzing VR/AR tech, selecting neural network models, developing/modifying models, creating modules for replacing ads, optimizing the model, testing in scenarios, checking if it works, and adapting VR software. There's a mention of testing and validation through scenarios, but the feedback mentions that validation should compare with existing solutions or benchmarks. The tasks don't explicitly state comparing with existing solutions, just testing in scenarios. So maybe it's incomplete in that aspect.
+
+**Format** checks if each task is exactly one sentence. Let me check each bullet. The first one is one sentence. The second is also one. Third, same. Fourth, fifth, sixth, seventh: "Optimizēt neironu tīkla modeli, lai nodrošinātu zemu latentumu un augstu precizitāti. 7" – wait, there's a "7" here, which might be a typo. Then the eighth task is one sentence. The ninth is also one. However, the seventh task has a period and a number "7" which might be an error. So some tasks might be split or have issues. So the format isn't strictly one sentence each, hence doesn't comply.
+
+**Structure** asks if the tasks consistently use infinitive verbs at the beginning. The tasks start with verbs like "Izpētīt", "Analizēt", "Izvēlēties", etc. These are infinitive forms in Latvian. So yes, they do start with infinitives. So this complies.
+
+**Clarity** checks if sentences are short and use concise language. The tasks are concise, each is a single action. However, some might be a bit long, but overall they are straightforward. So it complies.
+
+**Relevance** checks if the tasks are ordered to contribute to the thesis goal. The goal is to develop and evaluate a system using neural networks for real-time ad filtering in AR. The tasks start with researching existing methods, analyzing tech, selecting models, developing the model, creating modules, optimizing, testing, validating, and adapting software. This sequence makes sense: research, development, implementation, testing, validation. So it's relevant and contributes to the goal. Hence, complies.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text uses bullet points (·) instead of a numbered list. A numbered list would better emphasize the sequence of tasks.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 9 tasks, but the requirement is to have 5, 6, or 7 tasks. The number exceeds the acceptable range.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks include research, development, implementation, and testing, but validation is limited to system testing in scenarios without explicit comparison to existing solutions or benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Most tasks are single-sentence, but the seventh task includes an extraneous number ('7') and a period, disrupting the format consistency.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks consistently begin with infinitive verbs (e.g., 'Izpētīt', 'Analizēt'), aligning with the required structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are concise, straightforward, and use precise language, ensuring clarity in describing each objective.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered to achieve the thesis goal, covering research, development, optimization, and validation of the proposed system.",
+        "complies": true
+    }
+]

@@ -1,0 +1,63 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against those criteria.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it starts with "Bakalaura darba uzdevumi:" followed by bullet points using "•". Each bullet is a separate task. The numbering isn't in a numbered list (like 1., 2., etc.), but they are using bullets. However, the question specifies a "numbered list," so maybe the use of bullets instead of numbers is an issue. But in the original text, the tasks are listed with bullets, not numbers. So the answer here might be that it's not a numbered list but a bulleted one. However, the user's question is about whether it's organized into clearly separated items in a numbered list. Since it's using bullets, it's not a numbered list. So the answer would be no, but the tasks are separated. But the question is about the format being a numbered list. So the feedback would point out that it's a bulleted list, not numbered.
+
+Next, **Quantity**. The user wants the count of individual tasks. Let's count them. The tasks listed are:
+
+1. Izpētīt lāzera un optisko sensoru darbības principus un to pielietojumu 3D skenēšanā.
+2. Analizēt esošo tehnoloģiju iespējas un ierobežojumus dažādu sarežģītu virsmu 3D skenēšanā.
+3. Eksperimentāli pārbaudīt ToF un LiDAR sensoru precizitāti un spējas skenēt dažādu veidu caurumus.
+4. Salīdzināt eksperimentālos rezultātus ar teorētiskajām avotiem, un izvērtēt sensoru iespējas dažādu virsmu noteikšanā.
+5. Izdarīt secinājumus un sniegt analīzi par piemērotāko tehnoloģiju izmantošanu sarežģītu virsmu 3D skenēšanai.
+
+That's five tasks. The user says the text complies if it has 5, 6, or 7. So the answer here is 5, which is acceptable. The feedback would just state the number.
+
+For **Completeness**, the question is whether the tasks cover a complete research process: theoretical analysis, practical experiments, validation. Let's check each task. The first task is about studying the principles and applications (theoretical). The second is analyzing existing technologies (theoretical). The third is experimental testing. The fourth is comparing results with theoretical sources and evaluating (validation). The fifth is making conclusions and analysis. So yes, it includes theory, experiments, and validation by comparing with existing sources. So this complies.
+
+**Format** asks if each task is exactly one sentence. Let's check each bullet. The first task is one sentence. The second is one. The third is one. The fourth is two sentences: "Salīdzināt eksperimentālos rezultātus ar teorētiskajām avotiem, un izvērtēt sensoru iespējas dažādu virsmu noteikšanā." Wait, that's one sentence with a comma and "un" (and). But in Latvian, that's still one sentence. The fifth task is one sentence. So all are single sentences. So the answer is yes.
+
+**Structure** checks if the tasks start with infinitive verbs. The tasks start with "Izpētīt", "Analizēt", "Eksperimentāli pārbaudīt", "Salīdzināt", "Izdarīt". In Latvian, the infinitive form is used here, so yes, each task starts with an infinitive. So this complies.
+
+**Clarity** is about short, straightforward sentences. The sentences are concise. For example, "Eksperimentāli pārbaudīt ToF un LiDAR sensoru precizitāti un spējas skenēt dažādu veidu caurumus." That's clear. The fourth task has a comma but is still clear. So the answer is yes.
+
+**Relevance** checks if the tasks contribute to the thesis goal. The goal is to evaluate ToF and LiDAR for 3D relief mapping, especially holes. The tasks include studying the sensors, analyzing existing tech, experimenting, comparing results, and concluding. All these steps are directly related to evaluating the sensors' applicability and precision. So yes, the tasks are relevant and contribute to the goal.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text uses bullet points (•) instead of a numbered list. While the tasks are clearly separated, the format does not match the requirement for a numbered list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 5 individual tasks, which complies with the requirement of having 5, 6, or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (studying principles, analyzing existing technologies), practical experiments (testing sensors), and validation (comparing results with theoretical sources). This represents a complete research process.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence, even though some include compound structures (e.g., 'Salīdzināt... un izvērtēt...'). The format complies with the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks begin with infinitive verbs (e.g., 'Izpētīt', 'Analizēt', 'Eksperimentāli pārbaudīt'), which consistently follows the required structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are concise, straightforward, and use precise language. The tasks are clearly defined without unnecessary complexity.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks directly align with the thesis goal of evaluating ToF and LiDAR sensors for 3D relief mapping, including theoretical research, experimentation, and result validation.",
+        "complies": true
+    }
+]

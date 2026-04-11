@@ -1,0 +1,55 @@
+<think>
+Okay, let's tackle each of these questions one by one. First, I need to understand what each question is asking and then check the provided tasks text against them.
+
+Starting with the first question: **Outlook**. The user is asking if the text is organized into clearly separated items in a numbered list. Looking at the tasks text, it starts with "Bakalaura darba uzdevumi:" followed by numbers 1 through 5. Each task is on a new line and numbered. So yes, it's a numbered list. The answer here should be "complies" as true.
+
+Next, **Quantity**. The user wants the count of individual tasks. The tasks listed are 1 to 5, so that's 5 tasks. The allowed numbers are 5,6,7. Since it's exactly 5, the feedback should be 5 and complies is true.
+
+**Completeness** checks if the tasks cover a complete research process: theory, practical research, implementation, validation. Let's see. Task 1 is about exploring existing AR solutions. Task 2 compares traditional methods with AR. Task 3 develops an experimental AR solution. Task 4 tests the solution against traditional methods. Task 5 analyzes results and gives recommendations. This covers research, development, experimentation, and validation. So it's complete. Complies is true.
+
+**Format** asks if each task is exactly one sentence. Looking at the tasks: Each starts with a number, but some tasks have multiple sentences. For example, task 1 has "Identificēt pieejamos rīkus..." which is a separate sentence. Similarly, task 2 has two sentences. So the format doesn't comply. Feedback should note that some tasks have multiple sentences.
+
+**Structure** checks for consistent use of infinitive verbs at the start. The tasks start with verbs like "Izpētīt", "Izpētīt", "Izstrādāt", "Pārbaudīt", "Analizēt". These are infinitives in Latvian. So the structure is consistent. Complies is true.
+
+**Clarity** is about short, straightforward sentences. The tasks are concise, but some might be a bit long. For example, task 1 has a long sentence with multiple clauses. However, they are still clear. The feedback might note that some sentences are long but still clear. So complies is true.
+
+**Relevance** checks if the tasks contribute to the thesis goal. The goal is to compare AR and traditional methods, develop a solution, and evaluate its effectiveness. The tasks cover researching existing solutions, comparing methods, developing a solution, testing it, and analyzing results. All align with the goal. So complies is true.
+</think>
+
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list with clearly separated items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "5",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (existing AR solutions and traditional methods), practical implementation (developing an AR solution), experimentation (comparing AR and traditional methods), and validation (analyzing results).",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Some tasks contain multiple sentences (e.g., task 1 and task 2), violating the one-sentence-per-task requirement.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently begin with infinitive verbs (e.g., 'Izpētīt', 'Izstrādāt', 'Pārbaudīt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are concise and precise, though some are slightly long but remain clear.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks align with the thesis goal by addressing research, development, comparison, and validation of AR solutions in construction.",
+        "complies": true
+    }
+]

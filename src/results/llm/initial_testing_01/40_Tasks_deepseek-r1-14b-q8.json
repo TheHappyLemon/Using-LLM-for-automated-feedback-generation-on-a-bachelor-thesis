@@ -1,0 +1,57 @@
+<think>
+Alright, I need to evaluate the tasks text provided by the user based on seven specific questions. Let me go through each question one by one and analyze the text accordingly.
+
+1. **Outlook**: The tasks are numbered from 1 to 6, so they're clearly separated in a numbered list. This makes it easy to read and understand each task individually.
+
+2. **Quantity**: There are six individual tasks listed. Since the requirement is 5-7, this meets the criteria.
+
+3. **Completeness**: Each task covers different aspects like research, practical experiments, implementation, and validation. For example, task 1 involves theoretical analysis, task 2 looks for existing solutions, task 5 is about developing software, and task 6 tests it. This seems comprehensive.
+
+4. **Format**: Each task is a single sentence. They are concise and to the point without spanning multiple sentences.
+
+5. **Structure**: The tasks start with infinitive verbs like "Izpētīt" (to explore) or "Izstrādāt" (to develop). This structure is consistent throughout.
+
+6. **Clarity**: The sentences are straightforward and use precise language, making each task clear without ambiguity.
+
+7. **Relevance**: The tasks logically build towards the thesis goal of developing AR software to reduce accidents. They start with research, move to development, and end with validation, which aligns well with the stated objective.
+</think>
+
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into clearly separated items in a numbered list format.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6 tasks are listed, which meets the requirement of 5-7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis, practical research, implementation, and validation. Each task contributes to a complete research process.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is described in exactly one sentence, making the text concise and easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs at the beginning of each item, providing a clear structure.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text consists of short, straightforward sentences with precise language, ensuring clarity.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are ordered logically to contribute to the thesis goal, covering research, development, and validation steps.",
+        "complies": true
+    }
+]
+```

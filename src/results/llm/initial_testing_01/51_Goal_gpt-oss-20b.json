@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal states that the thesis will investigate possibilities to improve parallelism in C++ using TBB. While it identifies the general area, it is somewhat vague: \"izpētīt iespējas\" does not specify what will be examined, how success will be measured, or what concrete outcomes are expected. A more precise goal would mention specific deliverables such as performance benchmarks, design patterns, or case studies.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal mentions the tool \"bibliotēkas TBB\" explicitly, which introduces a method or process. The intention criterion prefers a focus on the desired outcome without naming the tool or method. Therefore the goal slightly violates this requirement.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single, concise sentence that directly communicates the thesis aim. It meets the structure requirement.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically follows from the preceding motivation: the need to improve parallelism in C++ and the role of TBB. All elements mentioned in the goal are present in the earlier text, so it aligns well with the stated gaps and problems.",
+        "complies": true
+    }
+]

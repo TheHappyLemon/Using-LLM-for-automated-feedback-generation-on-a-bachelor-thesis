@@ -10,12 +10,10 @@ import numpy as np
 logger = logging.getLogger(__name__)
 
 from sklearn.metrics import (
-    accuracy_score,
     precision_score,
     recall_score,
     f1_score,
     cohen_kappa_score,
-    balanced_accuracy_score,
     matthews_corrcoef
 )
 

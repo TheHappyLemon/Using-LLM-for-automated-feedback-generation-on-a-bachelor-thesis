@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively establishes the relevance of blockchain technology in modern digital environments, citing specific domains such as finance, healthcare, and public administration. It highlights key properties like immutability and security, which are crucial for real-world applications. The discussion on scalability challenges due to data growth strengthens the argument for the necessity of research. However, the significance of *segmented blockchain inter-segment proof aggregation* could be more explicitly tied to current limitations in blockchain scalability and efficiency, making the connection slightly underdeveloped.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references several sources ([9]–[17]) to indicate that segmentation is a known approach in blockchain scaling, which shows awareness of existing research. However, it lacks specific details about what these studies achieved, how they differ, or what their limitations are. The mention of 'popular' segmentation approaches is vague and does not demonstrate a deep understanding of the current state-of-the-art. Without concrete examples or comparisons, the state-of-the-art section remains superficial.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a research gap by stating that segmentation introduces 'new problems' that need to be solved, but it fails to explicitly identify or define these problems. The claim that 'new problems' arise is not substantiated with specific examples or prior work that shows where current solutions fall short. As a result, the gap is implied rather than clearly articulated, making it difficult to assess the novelty or contribution of the proposed thesis.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The general problem of blockchain scalability due to unbounded data growth is clearly stated, especially through the example of Bitcoin's growth. However, the specific problem related to *inter-segment proof aggregation* in segmented blockchains is not clearly defined. The text does not explain what the core technical challenge is—e.g., how proofs are verified across segments, what inefficiencies exist, or why current aggregation methods are insufficient. The problem remains too abstract and under-specified.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are cited in the text (e.g., [1], [2], [8], [9]–[17]), which is a positive sign. However, the citations are not properly integrated or contextualized—there is no indication of what each reference contributes. Moreover, the reference list is not provided, making it impossible to verify the sources. The use of citations appears superficial, lacking depth in how prior work informs the current research direction.",
+        "complies": false
+    }
+]

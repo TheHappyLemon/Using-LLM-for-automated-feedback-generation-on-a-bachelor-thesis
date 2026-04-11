@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list using bullet points (·) rather than numbered items. This does not meet the requirement of a clearly separated numbered list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 10 individual tasks listed with bullet points.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a complete research process: theoretical analysis (e.g., studying existing methods, analyzing VR/AR technologies), practical implementation (developing models, modules, optimizing the system), and validation (testing, evaluating performance, verifying real-time functionality). The inclusion of comparison with existing solutions is implied through testing and evaluation against performance benchmarks, which satisfies the validation requirement.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Several tasks span multiple sentences, particularly the last few (e.g., the 7th and 8th tasks). For example, task 7 combines optimization and performance evaluation in one sentence. This violates the requirement of being exactly one sentence per task.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "Most tasks begin with infinitive verbs (e.g., 'Izpētīt', 'Analizēt', 'Izvēlēties', 'Izveidot'), but some deviate from this pattern. For example, task 6 starts with 'Izstrādāt moduļus, kas ļauj...' — a clause rather than a pure infinitive. This inconsistency reduces structural uniformity.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text uses clear and concise language overall, with most sentences being straightforward. However, some tasks are slightly complex or ambiguous, such as task 6 ('Izstrādāt moduļus, kas ļauj aizstāt nevēlamas reklāmas saturu ar lietotāja definētu saturu vai to pilnībā noņemt'), which combines two actions in one sentence and could be clearer if split. Overall, clarity is good but not perfect.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and directly contribute to the goal of developing and evaluating a real-time AR system for ad detection and replacement using neural networks. The sequence progresses from literature review and analysis to model development, implementation, optimization, testing, and validation — all essential steps for achieving the stated goal. The inclusion of both technical implementation and real-world validation ensures relevance.",
+        "complies": true
+    }
+]

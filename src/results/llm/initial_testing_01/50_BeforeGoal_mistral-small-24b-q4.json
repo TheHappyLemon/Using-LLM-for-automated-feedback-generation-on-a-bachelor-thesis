@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question" : "Significance",
+        "feedback": "The text explains why the topic is important and relevant by discussing the benefits of microservices architecture and the need for efficient communication mechanisms. However, it could benefit from more specific examples or statistics to emphasize the current problems and trends.",
+        "complies": true
+    },
+    {
+        "question" : "State-of-the-art",
+        "feedback": "The text mentions specific technologies like Flask, Django, asyncio, FastAPI, Celery, and aiohttp but does not cite any published research or existing cutting-edge achievements. It would be stronger with references to relevant studies or comparisons.",
+        "complies": false
+    },
+    {
+        "question" : "Gap",
+        "feedback": "The text identifies the need for detailed investigation into asynchronous microservices in Python, but it does not explicitly state what remains unresolved or insufficiently addressed in current knowledge. It should clearly define a research gap based on existing studies.",
+        "complies": false
+    },
+    {
+        "question" : "Problem",
+        "feedback": "The text clearly identifies the concrete issue of inefficient communication mechanisms in microservices and the need for asynchronous solutions to improve performance and resource utilization.",
+        "complies": true
+    },
+    {
+        "question" : "References",
+        "feedback": "There are no references included to support claims or acknowledge sources. The text would be stronger with citations to relevant research, especially when mentioning specific technologies and their limitations.",
+        "complies": false
+    }
+]
+```

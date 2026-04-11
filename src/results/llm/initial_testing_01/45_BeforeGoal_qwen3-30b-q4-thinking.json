@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively explains the importance of asynchronous and parallel programming in the context of mobile devices with limited resources. It highlights the relevance of the topic in modern software development, especially for performance optimization on constrained hardware. The connection to current trends in mobile app development is well made, and the necessity of researching the topic is justified by the increasing demand for efficient, high-performance applications.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text references recent works (e.g., Elizarov et al., 2021; Bobrov, 2024; Skeen & Greenhalgh, 2018; Subramaniam, 2019; Griffiths & Griffiths, 2019), which demonstrates awareness of current developments. It mentions Kotlin’s official support for Android and its advantages over other languages, indicating familiarity with the state-of-the-art in mobile development. However, the references are not integrated deeply enough to show a thorough understanding of existing implementations or comparative studies of Kotlin’s concurrency features.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly identify a research gap. While it raises the question of efficient use of Kotlin’s concurrency tools and their pros and cons, it fails to clearly articulate what specific aspect remains unresolved in existing literature or practice. A concrete gap—such as lack of comparative analysis of coroutines vs. threads in Kotlin, or insufficient empirical evaluation of performance—should be stated to justify the thesis’s contribution.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The general problem—efficient use of asynchronous and parallel programming in Kotlin for mobile applications—is implied but not clearly defined. The text hints at challenges in resource management and performance, but the specific issue the thesis aims to solve (e.g., optimizing task scheduling, comparing coroutine performance, identifying best practices) is not explicitly stated. This makes the research problem somewhat vague.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included and appear to be relevant, citing recent and credible sources. However, the citation format is inconsistent (e.g., 'Elizarovetal.' instead of 'Elizarov et al.'), and some references lack proper formatting (e.g., missing commas, incorrect spacing). Additionally, the in-text citations are not fully integrated into the narrative, reducing their effectiveness in supporting claims.",
+        "complies": false
+    }
+]

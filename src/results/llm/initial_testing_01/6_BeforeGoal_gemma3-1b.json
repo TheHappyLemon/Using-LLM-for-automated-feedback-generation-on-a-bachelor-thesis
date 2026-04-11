@@ -1,0 +1,33 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text states the importance of the topic but lacks specific context or justification for its relevance. It doesn't clearly explain *why* this research is needed or what problems it aims to solve.",
+        "complies": "Boolean value. True if text lacks sufficient context."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions Naivā Baijesa method but doesn't provide specific details about its application or compare it to other methods. It doesn't cite specific research or achievements.",
+        "complies": "Boolean value. True if the text lacks specific examples of current state-of-the-art.",
+        "details": "Briefly state what is missing in the state-of-the-art section."
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap but doesn't clearly state *what* the gap is. It's vague about the unresolved issue.",
+        "complies": "Boolean value. True if the gap is not clearly defined.",
+        "details": "Provide a concise description of the gap."
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text focuses on the analysis of the topic but doesn't explicitly state the specific problem or challenge the thesis is addressing. It's too general.",
+        "complies": "Boolean value. True if the problem isn't clearly defined.",
+        "details": "Describe the core issue the thesis tackles."
+    },
+    {
+        "question": "References",
+        "feedback": "The text doesn't provide any references, acknowledging sources or demonstrating how prior research is used. It's missing crucial supporting evidence.",
+        "complies": "Boolean value. True if references are absent.",
+        "details": "Suggest what references are missing."
+    }
+]
+```
