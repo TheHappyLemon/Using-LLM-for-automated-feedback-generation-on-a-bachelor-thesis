@@ -75,12 +75,12 @@ def compare_humans():
     h_datasets = [human1_ds, human2_ds, human3_ds]
 
     EvaluationDataset.compute_metrics_total_average(human1_ds, h_datasets, path=os.path.join(HUMAN_RESPONSES_DIR, f"human1_VS_humans_results_total.csv"))
-    EvaluationDataset.compute_metrics_total_average(human1_ds, h_datasets, path=os.path.join(HUMAN_RESPONSES_DIR, f"human2_VS_humans_results_total.csv"))
-    EvaluationDataset.compute_metrics_total_average(human1_ds, h_datasets, path=os.path.join(HUMAN_RESPONSES_DIR, f"human3_VS_humans_results_total.csv"))
+    EvaluationDataset.compute_metrics_total_average(human2_ds, h_datasets, path=os.path.join(HUMAN_RESPONSES_DIR, f"human2_VS_humans_results_total.csv"))
+    EvaluationDataset.compute_metrics_total_average(human3_ds, h_datasets, path=os.path.join(HUMAN_RESPONSES_DIR, f"human3_VS_humans_results_total.csv"))
 
 if __name__ == "__main__":
-    calculate_new_results()
-    #compare_humans()
+    #calculate_new_results()
+    compare_humans()
     #compare_results(evaluators, ["gemma3-27b-it", "mistral-small-24b-it"])
 
 
