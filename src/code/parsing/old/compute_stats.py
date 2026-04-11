@@ -3,10 +3,10 @@ from src.data.constants import BASE_PATH
 import csv
 import os
 import pandas as pd
+from pathlib import Path
 
-PATH_BASE = "C:\\Univer\\work\\grading-with-AI\\data\\dati_new"
-PATH_RESULTS_NEW = os.path.join(PATH_BASE, "src", "results", "llm", "initial_testing_01")
-PATH_RESULTS_OLD = os.path.join(PATH_BASE, "results_04")
+PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01")
+PATH_RESULTS_OLD = os.path.join(BASE_PATH, "results_04")
 postfix_new = "08"
 postfix_old = "04"
 evaluators = [
@@ -27,10 +27,16 @@ evaluators = [
     "magistral-24b-q4"
 ]
 
-human_data = EvaluationDataset(author="human2")
-human_data.load_from_csv(os.path.join(PATH_BASE, f"{human_data.author}_as_int.csv"))
-human_data.to_bool(quantity_already_bool= (True if human_data.author == "human2" else False))
-human_data.dump_to_csv(os.path.join(PATH_BASE, f"{human_data.author}_as_bool.csv"))
+HUMAN_RESPONSES_DIR = Path("src/results/human")
+human1_ds = EvaluationDataset("human1")
+human2_ds = EvaluationDataset("human2")
+human3_ds = EvaluationDataset("human3")
+human1_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human1_orig.csv")
+human2_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human2_orig.csv")
+human3_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human3_orig.csv")
+human1_ds.to_bool()
+human2_ds.to_bool(quantity_already_bool=True)
+human3_ds.to_bool()
 datasets : list[EvaluationDataset] = []
 
 def calculate_new_results():
@@ -40,8 +46,12 @@ def calculate_new_results():
         dataset.to_bool()
         dataset.dump_to_csv(os.path.join(PATH_RESULTS_NEW, f"{evaluator}_as_bool_{postfix_new}.csv"))
         datasets.append(dataset)
-        EvaluationDataset.compute_metrics(baseline_ds=human_data, predicted_ds=dataset, path=os.path.join(PATH_RESULTS_NEW, f"{evaluator}_VS_{human_data.author}_results_{postfix_new}.csv"))
-    EvaluationDataset.compute_metrics_total_average(human_data, datasets, path=os.path.join(PATH_RESULTS_NEW, f"results_VS_{human_data.author}_total_{postfix_new}.csv"))
+        EvaluationDataset.compute_metrics(baseline_ds=human1_ds, predicted_ds=dataset, path=os.path.join(PATH_RESULTS_NEW, f"{evaluator}_VS_{human1_ds.author}_results_{postfix_new}.csv"))
+        EvaluationDataset.compute_metrics(baseline_ds=human2_ds, predicted_ds=dataset, path=os.path.join(PATH_RESULTS_NEW, f"{evaluator}_VS_{human2_ds.author}_results_{postfix_new}.csv"))
+        EvaluationDataset.compute_metrics(baseline_ds=human3_ds, predicted_ds=dataset, path=os.path.join(PATH_RESULTS_NEW, f"{evaluator}_VS_{human3_ds.author}_results_{postfix_new}.csv"))
+    EvaluationDataset.compute_metrics_total_average(human1_ds, datasets, path=os.path.join(PATH_RESULTS_NEW, f"results_VS_{human1_ds.author}_total_{postfix_new}.csv"))
+    EvaluationDataset.compute_metrics_total_average(human2_ds, datasets, path=os.path.join(PATH_RESULTS_NEW, f"results_VS_{human2_ds.author}_total_{postfix_new}.csv"))
+    EvaluationDataset.compute_metrics_total_average(human3_ds, datasets, path=os.path.join(PATH_RESULTS_NEW, f"results_VS_{human3_ds.author}_total_{postfix_new}.csv"))
 
 def compare_results(new_evaluators : list[str], old_evaluators : list[str]):
 
@@ -62,23 +72,15 @@ def compare_results(new_evaluators : list[str], old_evaluators : list[str]):
             diff.to_csv(os.path.join(PATH_RESULTS_NEW, f"DIFF_{new_evaluator}_VS_{old_evaluator}_v{postfix_new}_VS_v{postfix_old}.csv"), index=False)
 
 def compare_humans():
-    human1_data = EvaluationDataset(author="human1")
-    human1_data.load_from_csv(os.path.join(PATH_BASE, f"human1_as_int.csv"))
-    human1_data.to_bool()
-    human1_data.dump_to_csv(os.path.join(PATH_BASE, f"{human1_data.author}_as_bool.csv"))
+    h_datasets = [human1_ds, human2_ds, human3_ds]
 
-    human2_data = EvaluationDataset(author="human2")
-    human2_data.load_from_csv(os.path.join(PATH_BASE, "human2_as_int.csv"))
-    human2_data.to_bool(quantity_already_bool=True)
-    human2_data.dump_to_csv(os.path.join(PATH_BASE, f"{human2_data.author}_as_bool.csv"))
+    EvaluationDataset.compute_metrics_total_average(human1_ds, h_datasets, path=os.path.join(HUMAN_RESPONSES_DIR, f"human1_VS_humans_results_total.csv"))
+    EvaluationDataset.compute_metrics_total_average(human1_ds, h_datasets, path=os.path.join(HUMAN_RESPONSES_DIR, f"human2_VS_humans_results_total.csv"))
+    EvaluationDataset.compute_metrics_total_average(human1_ds, h_datasets, path=os.path.join(HUMAN_RESPONSES_DIR, f"human3_VS_humans_results_total.csv"))
 
-    h_datasets = [human2_data]
-
-    EvaluationDataset.compute_metrics(baseline_ds=human1_data, predicted_ds=human2_data, path=os.path.join(PATH_BASE, f"human1_VS_human2_results.csv"))
-    EvaluationDataset.compute_metrics_total_average(human1_data, h_datasets, path=os.path.join(PATH_BASE, f"human1_VS_human2_results_total.csv"))
-
-#compare_humans()
-#calculate_new_results()
-#compare_results(evaluators, ["gemma3-27b-it", "mistral-small-24b-it"])
+if __name__ == "__main__":
+    calculate_new_results()
+    #compare_humans()
+    #compare_results(evaluators, ["gemma3-27b-it", "mistral-small-24b-it"])
 
 
