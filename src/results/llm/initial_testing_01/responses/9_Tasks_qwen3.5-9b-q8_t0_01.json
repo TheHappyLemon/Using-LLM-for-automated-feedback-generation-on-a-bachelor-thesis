@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is organized into a numbered list with 4 items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "Text contains 4 tasks. The requirement specifies that the text must have 5, 6, or 7 tasks to comply.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover literature review, analysis, and prototype development. However, the final task mentions improving stability but lacks an explicit step for validating the developed prototype against existing solutions or benchmarks, which is required for a complete research process.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence and does not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs (Apkopot, Analizēt, Izstrādāt) at the beginning of each task.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically lead to the goal of developing a prototype. However, the sequence is slightly incomplete for a full research cycle as it misses a dedicated validation step comparing the new solution to existing ones before concluding.",
+        "complies": false
+    }
+]

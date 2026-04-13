@@ -1,0 +1,47 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a clearly numbered list, which improves readability and logical flow. Each task is visually distinct, making it easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **8** individual tasks, which exceeds the required range of 5–7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text covers a **complete research process**:
+        - Theoretical analysis (tasks 1–2: existing methods, Arabic script specifics),
+        - Practical implementation (tasks 3–6: library selection, architecture design, method development),
+        - Validation (tasks 7–8: testing, comparison with existing solutions).
+        The inclusion of **comparison with prior studies/solutions** (task 8) strengthens validation. Minor improvement: Explicitly mention benchmarking or quantitative metrics (e.g., precision/recall) for clearer validation criteria.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "All tasks are **one sentence long** and do not span multiple sentences. The phrasing is concise and avoids redundancy.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Tasks **do not consistently use infinitive verbs** at the start. Some use gerunds (e.g., 'Izvēlēties piemērotas bibliotēkas' → 'To select suitable libraries') or imperative forms (e.g., 'Veikt lietotnes testēšanu' → 'To conduct application testing'). This slightly weakens parallelism.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are **short and straightforward**, with precise language. Technical terms (e.g., 'Tesseract OCR', 'Android Studio') are appropriately included. Minor note: 'Novērst atrastās kļūdas' could be clearer as 'To identify and address errors' for active voice.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically progress toward the thesis goal**:
+        1–2: Research foundational knowledge,
+        3–6: Implement the solution,
+        7–8: Validate via testing/comparison.
+        The order is **optimal** for a development-focused thesis. Task 8’s comparison with existing solutions directly supports the goal of demonstrating superiority or practicality.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "Mērķis skaidri norāda, ko students vēlas sasniegt (analizēt mehānismus, novērtēt efektivitāti), un tas ir mērāms. Frāzes kā 'analizēt darbību' un 'novērtēt efektivitāti' ir konkrētas un dod skaidru virzienu darbam.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "Mērķis pareizi fokusējas uz gaidāmo rezultātu (analīze un novērtējums), nevis uz to, kā šis rezultāts tiks sasniegts. Tekstā nav minēti konkrēti rīki (piemēram, JVisualVM), metodes (piemēram, mikrobenchmarking) vai procesi, kas ir atbilstīgi prasībām.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Teksts neatbilst prasībai būt vienkāršā, vienkāršā teikumā. Mērķa formulējums ir pārāk garš un sastāv no vairākiem daudzkārtējiem teikumiem, kas saistīti ar komatu un 'kā arī'. Ideālā gadījumā tas būtu vienkāršots, lai būtu vienkāršāks un skaidrāks.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "Mērķis labi atbilst iepriekšējai daļai, jo tas tieši risina minēto problēmu par GC ietekmi uz veiktspēju un dažādo algoritmu izvēli. Tomēr ir neliela neatbilstība: iepriekšējā daļā tiek minēts 'programmatūras' izpēte un 'algoritmu' izpēte, bet mērķī tiek runāts par 'mehānismu' un 'lietojumprogrammām'. Lai gan tas ir loģiski, būtu vēlams precizēt, lai visi mērķa aspekti būtu tieši atspoguļoti iepriekšējā kontekstā.",
+        "complies": true
+    }
+]

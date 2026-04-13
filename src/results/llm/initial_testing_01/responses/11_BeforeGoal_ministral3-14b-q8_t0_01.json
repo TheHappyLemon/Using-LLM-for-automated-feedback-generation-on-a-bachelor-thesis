@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text briefly touches on the importance of the topic by highlighting common issues in engineering and construction projects (e.g., precision, errors, communication gaps). However, it lacks deeper justification for why **AR specifically** is a critical or timely solution. To improve, explicitly link AR’s potential to broader industry trends (e.g., digital transformation, Industry 4.0, or sustainability demands) or cite statistics/data on current project failures/costs due to miscommunication or design flaws. This would strengthen the relevance and urgency of the research.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text does not reference any existing research, tools, or case studies related to AR in engineering/construction. To comply, include **specific examples** of current AR applications (e.g., Microsoft HoloLens in infrastructure projects, AR for clash detection in BIM, or studies comparing AR vs. traditional methods). If no direct comparisons/evaluations exist, state this as a gap (e.g., ‘While AR is used, no comprehensive evaluations of its long-term cost/benefit in Latvian/European projects have been published’).",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implies a gap (‘effectivitāte un ierobežojumi vēl nav pilnībā izpētīti’) but does not **concretely define** what remains unresolved. For example:
+        - Is the gap **technical** (e.g., lack of AR tools optimized for Latvian construction standards)?
+        - **Methodological** (e.g., no validated frameworks to measure AR’s impact on project outcomes)?
+        - **Adoption-related** (e.g., barriers like cost, training, or resistance to change)?
+        Clarify the gap by linking it to unanswered questions in prior research (e.g., ‘No studies compare AR’s accuracy vs. VR in large-scale infrastructure’).",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The **core problem** (e.g., ‘precizitātes kļūdas’ or ‘komunikācijas grūtības’) is mentioned, but the **specific focus of the thesis** is unclear. For example:
+        - Will you evaluate AR’s effectiveness in **one subfield** (e.g., bridge design)?
+        - Develop a **new AR workflow** for a specific task (e.g., on-site quality control)?
+        - Compare AR to **alternatives** (e.g., VR, 3D models)?
+        Narrow the problem to a **testable research question** (e.g., ‘How does AR improve error detection rates in reinforcement detailing?’).",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included to support claims (e.g., ‘tradicionālās metodes nesniedz pietiekamu izpratni’ or ‘AR var nodrošināt uzlabotu vizualizāciju’). Even general statements should cite **1–2 authoritative sources** (e.g., industry reports, academic papers on AR in AEC). For example:
+        - ‘Studijas rāda, ka 30% būvprojektos notiek kļūdas saziņā starp projektētājiem un būvniecībām (Smith et al., 2022).’
+        - ‘AR lietojums būvniecībā ir pieejams, taču tās efektivitāti novērtējušas tikai dažas vietējās pētījums (e.g., [Latvian Construction Tech Report, 2023]).’",
+        "complies": false
+    }
+]
+```

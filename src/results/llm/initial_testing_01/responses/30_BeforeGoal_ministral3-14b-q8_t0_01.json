@@ -1,0 +1,40 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text mentions the relevance of object-relational databases (ORDBMS) in modern industry due to complex data requirements, but it lacks a clear, structured argument about why this topic is *currently* important or urgent. The explanation is somewhat vague—it states that systems are becoming more complex and that ORDBMS could be useful, but it does not explicitly tie this to real-world trends (e.g., AI, big data, or specific industry needs like healthcare or finance). The motivation could be strengthened by referencing concrete examples of where ORDBMS are critical today (e.g., legacy system modernization, hybrid data models) or emerging challenges (e.g., performance bottlenecks in relational databases for unstructured data).",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text does not demonstrate awareness of the current state-of-the-art in the field. It mentions that ORDBMS were invented in the 1980s and that they are documented, but it fails to cite specific research, frameworks (e.g., PostgreSQL, Oracle), or recent advancements (e.g., NoSQL vs. ORDBMS debates, hybrid architectures, or benchmarks like TPC-C/H). The claim that 'no empirical data exists on effectiveness' is unsupported—there are likely studies comparing ORDBMS and RDBMS (e.g., academic papers, vendor whitepapers, or industry reports). Including even 1–2 references to prior evaluations or comparisons would strengthen this section.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text *attempts* to identify a gap by stating that ORDBMS design lacks empirical data on performance improvements, simplicity, and when to use complex vs. simple structures. However, this is framed as a general observation rather than a *specific, researchable gap*. For example:
+        - **Weak**: 'No data exists on effectiveness' → Too broad.
+        - **Strong**: 'While [Author X, 2020] compared ORDBMS and RDBMS for [specific use case], they did not evaluate [concrete metric, e.g., query optimization overhead in hierarchical data]. This thesis will fill this gap by [method].'
+        The gap should be tied to a measurable research question (e.g., 'Is ORDBMS more efficient than RDBMS for X workloads?') and justified by citing what prior work *missed*.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem statement is partially clear but could be more precise. The text identifies that ORDBMS design is 'not unambiguous' compared to RDBMS and that performance improvements are unclear. However, it does not specify:
+        1. **What concrete problem** the thesis will solve (e.g., 'How to choose between ORDBMS and RDBMS for a given system?' or 'What are the trade-offs in ORDBMS query performance?').
+        2. **Who cares?** (e.g., database administrators, software architects, or researchers).
+        3. **Why is this hard?** (e.g., lack of standardized benchmarks, vendor-specific implementations, or theoretical vs. practical trade-offs).
+        The problem should be framed as a *specific challenge* with stakes (e.g., 'Companies struggle to migrate from RDBMS to ORDBMS due to uncertainty about performance costs').",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text makes claims (e.g., 'ORDBMS are documented,' 'no empirical data exists') but includes **zero citations**. Even if no direct references exist for the gap, the student should:
+        - Acknowledge foundational works (e.g., Stonebraker’s 1980s papers on ORDBMS).
+        - Cite industry tools (e.g., PostgreSQL’s ORM extensions) or academic surveys (e.g., 'A Survey of Object-Relational Database Systems' by [Author]).
+        - Use phrases like 'As noted by [Author], X is a challenge; however, Y remains unexplored.'
+        Without references, claims about the state-of-the-art or gaps lack credibility. Even informal sources (e.g., vendor documentation or GitHub projects) could be cited as preliminary evidence.",
+        "complies": false
+    }
+]
+```

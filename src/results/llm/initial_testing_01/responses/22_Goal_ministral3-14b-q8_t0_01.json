@@ -1,0 +1,25 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear but contains some vague phrasing, such as *'veikt analīzi par šo tehnoloģiju ietekmi uz cilvēka privātumu un datu aizsardzību'* and *'izstrādātu rekomendācijas šo sistēmu korektai un sabiedrībai pieņemamai izmantošanai'*. These phrases lack measurable criteria, making it difficult to assess whether the goal has been fully achieved. For example, 'analīze' and 'rekomendācijas' are broad terms that do not specify concrete outcomes or metrics (e.g., 'identify 3 key privacy risks' or 'develop a checklist for ethical implementation'). The goal also mixes multiple objectives (effectiveness, privacy impact, and recommendations) without clear prioritization or separation.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses primarily on the intended outcomes (e.g., *'izpētīt un izvērtēt efektivitāti un precizitāti'*, *'veikt analīzi par ietekmi'*, *'izstrādātu rekomendācijas'*), which aligns well with the question’s requirement. However, the text inadvertently includes method-related details (*'veikt eksperimentus'*, *'iegūto datu analīzi'*, *'savstarpējo salīdzināšanu'*), which belong to the *methods* section rather than the *goal*. These phrases weaken the focus on outcomes and introduce ambiguity about whether the goal is about *what* will be achieved or *how* it will be achieved.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is not limited to a single, concise sentence. It spans two sentences and includes additional explanatory details (e.g., *'Šis būs 1.tipa bakalaura darbs...'*), which are unnecessary for the goal statement. The core goal could be condensed into one clear sentence, such as: *'Bakalaura darba mērķis ir izvērtēt sejas atpazīšanas sistēmu efektivitāti publiskajās vietās drošības nolūkos, analizēt tās ietekmi uz privātumu un datu aizsardzību, un izstrādāt rekomendācijas etiskai un efektīvai izmantošanai.'* This would improve clarity and conciseness.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically builds on the preceding text, addressing all key gaps and problems mentioned: **1) drošības uzlabošana publiskajās vietās** (e.g., *'palīdzēt identificēt iespējamos draudus'*); **2) privātuma un datu aizsardzības jautājumi** (e.g., *'bažas par pārmērīgu uzraudzību'*); and **3) sistēmu precizitātes ierobežojumi** (e.g., *'nepieciešams atbilstošs aprīkojums'* or *'vāja apgaismojuma apstākļos'*).
+        The goal explicitly ties these themes together by proposing an analysis of **effectiveness**, **privacy/ethical impact**, and **recommendations**, which directly respond to the identified challenges. However, the mention of *'1.tipa bakalaura darbs'* (research type) is tangential and does not logically connect to the preceding text’s problems or motivations.",
+        "complies": true
+    }
+]
+```

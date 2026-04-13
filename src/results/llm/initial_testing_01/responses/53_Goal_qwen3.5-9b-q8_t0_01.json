@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal clearly states the aim to investigate factors affecting integrity and to create/evaluate solutions. However, the phrasing 'Izpētīt, kādi faktori ietekmē...' (Investigate what factors affect...) is slightly vague regarding the specific scope of 'factors'. It would be stronger if it specified which factors (e.g., digitalization artifacts, specific handwriting characteristics) to ensure the goal is measurable.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal mixes the intended outcome with the methodology. The phrase 'Izveidot un novērtēt gan mašīnmācīšanās, gan heiristikā bāzētus risinājumus' (Create and evaluate both machine learning and heuristic-based solutions) explicitly describes the methods and tools to be used. A proper thesis goal should focus on the result (e.g., 'Develop a system for...') rather than specifying the algorithms (ML vs heuristic) in the goal statement itself.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not a single, concise sentence. It is a compound sentence containing two distinct actions separated by a comma and the conjunction 'un' (and), making it a list of objectives rather than a single unified goal statement. It should be split or rephrased to focus on one primary objective or structured as a list if multiple goals are intended.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal partially aligns with the preceding text but introduces new concepts not mentioned in the introduction. The introduction discusses the need to verify integrity of digitized handwritten documents and mentions general data security levels, but it does not mention 'machine learning' or 'heuristic-based solutions'. Additionally, the introduction focuses on the problem of digitalization, while the goal shifts focus to 'factors affecting integrity' in a way that isn't explicitly framed as a gap in the provided text. The specific methodologies (ML/heuristics) are absent from the problem statement.",
+        "complies": false
+    }
+]

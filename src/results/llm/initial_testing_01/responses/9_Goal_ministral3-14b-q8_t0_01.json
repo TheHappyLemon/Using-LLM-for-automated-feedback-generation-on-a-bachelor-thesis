@@ -1,0 +1,19 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear in stating the aim of developing a prototype for full-body tracking. However, the phrasing 'aptuvena ķermeņu daļu pozīcija' (approximate body part position) is vague and lacks measurable criteria. The goal should specify *how* precision and stability will be quantified (e.g., error margins, frame rates, or comparison to existing methods) to ensure it is testable. The mention of 'uzlabotu' (improve) is subjective without concrete benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal primarily focuses on the intended outcome (a functional prototype with improved tracking accuracy/stability) rather than describing methods or tools. However, it *does* briefly mention tools (datorredze, virtuālās realitātes briļļu datus), which slightly detracts from a purely outcome-oriented phrasing. A stronger version would avoid naming tools entirely and instead emphasize the *result* (e.g., 'precizitātes un stabilitātes uzlabojums noteiktos parametros').",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single sentence, which is concise. However, the sentence is overly long and complex, making it harder to parse the core goal. The goal could be split into two sentences for clarity: one for the prototype’s primary function (single-camera tracking) and another for the VR integration’s role in improvement. This would align better with academic conciseness.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is concise but somewhat vague. It states the intention to *‘izpētīt’* (investigate) principles of asynchronous microservice development in Python, but it does not specify **what exactly** will be measured, demonstrated, or achieved (e.g., performance improvements, architectural patterns, or comparative analysis). A stronger goal would include a clear outcome, such as *‘demonstrēt efektivitātes uzlabojumus vai izstrādāt praktisko risinājumu’*.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the **outcome** (investigation of principles) rather than methods/tools, which is correct. However, the phrasing is too broad—it does not specify whether the focus is on *theoretical analysis*, *practical implementation*, or *comparative evaluation*. Clarifying the intended result (e.g., *‘izstrādāt un demonstrēt asinhrono mikropakalpojumu arhitektūru’*) would strengthen alignment with the stated problem.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is a single, concise sentence, which is structurally sound. However, the phrasing (*‘principus’*) is slightly ambiguous—it could imply a theoretical overview rather than a hands-on or measurable investigation. For better clarity, rephrase to explicitly mention **application** (e.g., *‘izpētīt un demonstrēt asinhrono mikropakalpojumu izstrādes risinājumus’*).",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically connects to the preceding text, as it addresses the **gap** (lack of detailed Python-based async microservice research) and **motivation** (inefficiency of synchronous approaches). However, the preceding text emphasizes **performance/resource optimization** and **practical implementation** (e.g., *‘demonstrēt risinājumus’*), while the goal only mentions *‘izpētīt principus’*. To fully align, the goal should reflect the **practical demonstration** implied earlier (e.g., *‘izpētīt un demonstrēt asinhrono mikropakalpojumu veidošanu’*).",
+        "complies": false
+    }
+]
+```

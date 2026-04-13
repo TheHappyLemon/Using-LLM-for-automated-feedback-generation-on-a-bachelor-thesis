@@ -1,0 +1,45 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, which is clear and visually distinct. This format aids readability and ensures each task is easily identifiable.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **6** individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **mostly complete** research process:
+        - Theoretical analysis (Task 1: literature review, Task 2: identifying factors).
+        - Practical research (Task 3: data collection, Task 5: simulation/analysis of samples).
+        - Implementation (Task 4: developing a solution).
+        - Validation is **partially addressed** (Task 6: analysis and conclusions), but **lacks explicit comparison** with prior studies, existing solutions, or benchmarks. For full compliance, Task 6 should explicitly contrast findings with established literature or solutions (e.g., 'Compare results with prior studies on handwritten document integrity' or 'Benchmark the developed solution against existing tools').",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "All tasks are **exactly one sentence long** and do not span multiple sentences. This ensures clarity and conciseness.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **do not consistently use infinitive verbs** at the beginning. While some tasks start with infinitives (e.g., 'Izstrādāt risinājumu'), others use finite verbs (e.g., 'Noskaidrot, kādi faktori ietekmē...'). For consistency, all tasks should start with infinitives (e.g., 'Noskaidrot → Noskaidrot faktorus, kas ietekmē...').",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, using precise language. However, some phrasing could be slightly more explicit for non-native speakers (e.g., 'Analizēt iespējas atdarināt' could be clearer as 'Analizēt iespējas simulēt vai atdarināt tekstu paraugus digitālā vidē'). Overall, the language is clear and concise.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically contribute to the thesis goal** of investigating factors affecting handwritten document integrity and developing/validating solutions. The sequence is appropriate:
+        1. Literature review → 2. Factor identification → 3. Data collection → 4. Solution development → 5. Simulation/analysis → 6. Result validation.
+        However, **Task 6 could be strengthened** by explicitly linking conclusions to the thesis goal (e.g., 'Secinājumus salīdzināt ar literatūras datiem par dokumentu integritāti'). The current phrasing is relevant but lacks this explicit connection.",
+        "complies": true
+    }
+]
+```

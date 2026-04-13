@@ -1,0 +1,57 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, which is clear and visually distinct. This format aids readability and ensures each task is easily identifiable.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **6** individual tasks, which falls within the acceptable range (5–7).",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **complete research process**:
+        - Theoretical analysis (Tasks 1–2: DevOps principles, Blue-Green/Canary strategies).
+        - Practical research (Task 3: comparative analysis, Task 4: identifying gaps).
+        - Implementation (Task 5: developing improvements).
+        - Validation (Task 6: testing the solution).
+        However, **validation lacks explicit comparison to prior studies or benchmarks**—it only mentions testing the solution. To strengthen this, the student could clarify whether the solution is benchmarked against existing methods or industry standards.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **one sentence long** and does not span multiple sentences, adhering to the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **do not consistently use infinitive verbs** at the start. For example:
+        - Task 1: 'Analizēt' (infinitive) ✅
+        - Task 2: 'Izpētīt' (infinitive) ✅
+        - Task 3: 'Veikt salīdzinošu analīzi' (gerund phrase, not infinitive) ❌
+        - Task 4: 'Identificēt' (infinitive) ✅
+        - Task 5: 'Izstrādāt uzlabojumus' (gerund phrase, not infinitive) ❌
+        - Task 6: 'Pārbaudīt' (infinitive) ✅
+        **Suggestion**: Rewrite Tasks 3 and 5 to start with infinitives (e.g., 'Salīdzināt Blue-Green un Canary stratēģijas', 'Izstrādāt uzlabojumus...').",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, using **concise language**. The tasks are easy to understand and directly relate to the thesis goal. No ambiguity or redundancy is present.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically progress toward the thesis goal** ('Izstrādāt pārtraukumu novēršanas risinājumu'):
+        1. **Research** (DevOps/strategies).
+        2. **Comparison** (Blue-Green vs. Canary).
+        3. **Gap analysis** (identifying flaws).
+        4. **Improvement development** (Task 5).
+        5. **Validation** (Task 6).
+        The sequence is **sound**, but as noted in *Completeness*, **explicit validation criteria (e.g., benchmarks, prior studies) would strengthen relevance**.",
+        "complies": true
+    }
+]
+```

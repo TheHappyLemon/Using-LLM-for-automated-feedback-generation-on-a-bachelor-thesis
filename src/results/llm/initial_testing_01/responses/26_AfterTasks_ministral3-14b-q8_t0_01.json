@@ -1,0 +1,23 @@
+```json
+[
+    {
+        "question": "Chapters",
+        "feedback": "The text does **not** explicitly list the main sections (chapters) of the thesis. It mentions general themes (e.g., PE file analysis, steganography methods, practical implementation) but does not name or structure them as formal chapters (e.g., 'Teorētiskā daļa,' 'Praktiskā daļa,' 'Secinājumi'). This makes it unclear how the thesis will be organized in the final document.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "The text provides a **brief but functional** description of the contents for each implied section:
+        - **PE file analysis** (theoretical foundation),
+        - **steganography methods** (Slack Space, string replacement, DLL injection),
+        - **practical implementation** (testing methods, effectiveness, and impact on functionality).
+        However, the descriptions are **too concise**—some methods (e.g., 'dll injekcijas') lack clarity on their role in steganography, and the practical section’s scope (e.g., what 'effectiveness' metrics will be used) is vague. A slightly expanded explanation would improve precision.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The **general structure is understandable** from the text: a **theoretical-practical flow** (analysis → methods → implementation → evaluation). The progression from studying PE files to applying steganography tools and assessing outcomes is logical. However, the **lack of explicit chapter titles** and **minimal detail on transitions** (e.g., how theory links to practice) slightly weakens clarity. For better flow, consider hinting at sub-sections (e.g., 'Teorētiskā daļa: PE failu analīze un metožu apraksts; Praktiskā daļa: eksperimentālās implementācijas rezultāti').",
+        "complies": true
+    }
+]
+```

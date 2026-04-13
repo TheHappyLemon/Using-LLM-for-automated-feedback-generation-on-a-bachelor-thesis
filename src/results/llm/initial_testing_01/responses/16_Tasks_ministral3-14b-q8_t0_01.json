@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text uses bullet points (·) instead of a numbered list, which is not as formal or structured as required for clarity and professionalism in academic writing.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **10** individual tasks, which exceeds the acceptable range of 5–7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text covers a **mostly complete** research process, including theoretical analysis (e.g., existing methods, VR/AR challenges), practical implementation (model development, module creation), and validation (testing, performance evaluation). However, it lacks explicit comparison with prior studies or established benchmarks, which would strengthen validation. The practical problem-solving aspect (e.g., reklāmas filtrēšana) is clearly addressed.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Most tasks are **one sentence long**, but some (e.g., the last two) are **compound sentences** (e.g., 'Veikt sistēmas testēšanu dažādos scenārijos, novērtējot veiktspēju. Pārbaudīt, vai sistēma pareizi atpazīst...'). These should be split into separate sentences for clarity.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text **does not consistently use infinitive verbs** at the start of tasks. Many begin with imperative forms (e.g., 'Izvēlēties', 'Izveidot') or gerunds (e.g., 'Veikt sistēmas testēšanu'), which weakens parallelism. For example, 'Izstrādāt moduļus...' could be 'To develop modules...' for consistency.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, but some phrasing is **verbose or redundant** (e.g., 'lai nodrošinātu zemu latentumu un augstu precizitāti' could be 'to ensure low latency and high accuracy'). Technical terms (e.g., 'reāllaikā', 'neironu tīklu arhitektūras modeļi') are precise but may require brief definitions for non-specialist readers.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically progress toward the thesis goal**, starting with research (existing methods, VR/AR analysis), moving to implementation (model development, module creation), and ending with validation (testing, performance evaluation). However, the **order could be refined**: e.g., 'Optimizēt neironu tīkla modeli' might logically follow 'Izveidot vai pielāgot modeli' rather than precede testing. The goal of personalization (aizstāšana ar lietotāja saturu) is well-addressed but could be emphasized earlier in the task list.",
+        "complies": true
+    }
+]
+```

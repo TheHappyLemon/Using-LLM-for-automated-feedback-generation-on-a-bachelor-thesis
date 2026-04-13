@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is not organized into a numbered list. It is a single paragraph, which makes it harder to distinguish individual tasks clearly.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **4** individual tasks, which is fewer than the required range of 5–7.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text outlines a **basic** research process but lacks **theoretical analysis** (e.g., reviewing prior studies on AR/GPS in tourism) and **validation** beyond prototyping/testing. The validation step is vague—it does not specify comparison with existing solutions or benchmarking. The practical problem-solving aspect is implied but not explicitly demonstrated.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "The tasks are **not** each confined to a single sentence; they are combined into a single paragraph with multiple ideas. For example, 'izstrādāšu lietotnes funkcionalitātes prasības, kā arī izveidošu AR un GPS balstītu prototipu' spans two distinct actions.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text does **not** consistently use infinitive verbs at the start of sentences/phrases. Instead, it uses finite verbs (e.g., 'izpētīšu', 'izveidošu'). This weakens clarity and conciseness.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **concise** but lack precision in some areas (e.g., 'izvērtēšu lietotnes un idejas potenciālu' is vague). The text could benefit from more explicit phrasing (e.g., 'evaluate the prototype’s usability in tourism scenarios').",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **partially** align with the goal (developing an AR/GPS tourism guide) but miss critical steps: **no research of existing solutions** (e.g., comparing with other AR tourism apps) and **no explicit validation methodology** (e.g., user testing vs. benchmarks). The order is logical but incomplete for a full research cycle.",
+        "complies": false
+    }
+]
+```

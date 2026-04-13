@@ -1,0 +1,27 @@
+```json
+[
+    {
+        "question": "Chapters",
+        "feedback": "The text clearly lists the two main sections of the thesis (1. nodaļa and 2. nodaļa), which aligns well with the topic. However, the numbering of subsections (e.g., 1.1. tabula) is mentioned but not fully integrated into the main structure description. The table itself is a helpful addition but could be better referenced in the text (e.g., '1. nodaļa ietver teorētisko apkopojumu, kā arī 1.1. tabulu ar darba plānu').",
+        "complies": true
+    },
+    {
+        "question": "Description",
+        "feedback": "The text provides a **brief but clear** overview of each section’s content, explaining the theoretical foundation (1. nodaļa) and practical application (2. nodaļa). However, some details could be expanded for better clarity:
+        - **1. nodaļa**: Mentioning '9 no visām uzskaitītājam steganogrāfijas metodēm' is vague—specify which methods (e.g., LSB, whitespace, XML metadata) or clarify if this refers to a predefined list.
+        - **2. nodaļa**: The description of 'matemātiskie aprēķini' is abstract. Specify what exactly will be calculated (e.g., 'statistiskie parametri, kā failu entropija, bitu korelācija, vai statistiskie testi').
+        - The **table** (1.1. tabula) is listed but not described in terms of its relevance to the thesis structure—explain how it ties into the methodology or timeline.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The general structure is **logical and easy to follow**, with a clear division between theory and practice. Strengths:
+        - Sequential flow from background (steganography/steganalysis) to DOCX-specific methods, then to empirical testing.
+        - Practical steps (data collection, passive/active analysis) are well-outlined.
+        Weaknesses:
+        - The **timeline table** disrupts the narrative flow. It would be more effective to integrate it into the methodology section (e.g., '2. nodaļa ietver eksperimentu, kas tiek veikts no 01.01.2024. līdz 27.05.2025.') or move it to an appendix.
+        - **Lack of visual hierarchy**: The text jumps between sections without clear transitions (e.g., no explicit link between the theoretical methods in 1. nodaļa and their application in 2. nodaļa). Add a sentence like: *'1. nodaļas izklāstītās metodes tiks praktiski izmantotas 2. nodaļā...'*.",
+        "complies": true
+    }
+]
+```

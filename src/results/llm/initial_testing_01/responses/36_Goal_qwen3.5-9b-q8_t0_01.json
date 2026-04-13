@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal clearly states the aim to investigate usage possibilities and evaluate performance. However, the phrasing 'izpētīt... iespējas' (investigate possibilities) is slightly vague as 'possibilities' are hard to measure directly. It would be stronger to specify what aspect of the possibilities is being investigated (e.g., architectural patterns or specific use cases) to make the success criteria more measurable.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (investigating possibilities and evaluating performance) without describing specific methods (like 'using Python' or 'conducting surveys') or tools. It correctly avoids detailing the process of how the evaluation will be done, adhering to the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not limited to a single sentence. It contains a grammatical error ('veikts pētījums ar mērķiizpētīt' is missing a space) and consists of two clauses joined by 'un' (and), making it a compound sentence rather than a concise single sentence. It should be split or rephrased to be strictly one sentence.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text. The introduction identifies the problem of high latency in cloud computing and the need for edge computing in web applications. The goal directly responds by proposing to investigate these possibilities and evaluate performance, which addresses the identified gap. All key concepts (edge computing, web applications, performance comparison with cloud) mentioned in the goal are present in the preceding text.",
+        "complies": true
+    }
+]

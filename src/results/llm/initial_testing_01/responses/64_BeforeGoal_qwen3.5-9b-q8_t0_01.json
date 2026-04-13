@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively explains the general importance of Java and Garbage Collection (GC) for performance and memory management. It correctly identifies the relevance for developers and system administrators. However, it could be strengthened by connecting the significance more explicitly to current industry trends (e.g., cloud-native applications, microservices) to make the 'why now' argument more compelling.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions specific GC algorithms (Serial, Parallel, Concurrent Mark Sweep) but fails to cite any published research, academic papers, or specific studies regarding their performance characteristics or recent advancements. It lists names without referencing the literature that defines the current state of the art, which is a critical omission for a thesis introduction.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a problem (GC causing pauses and performance issues) and mentions that there are different algorithms, but it does not explicitly formulate a research gap. It does not state what specific aspect of GC research is missing, insufficiently addressed, or what specific unresolved question this thesis will answer based on existing literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue is somewhat identifiable: the trade-off between automatic memory management and application performance (specifically 'Stop-The-World' pauses). However, the problem statement is vague regarding the specific scope of the thesis. It mentions 'investigating this software' without defining what exactly will be investigated (e.g., comparing specific GCs, analyzing a specific case study, or optimizing a specific algorithm).",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "There are no references included in the text. Claims about GC algorithms, their impact on performance, and the existence of specific mechanisms are made without citing sources. For a graduation thesis, every technical claim and mention of specific algorithms or concepts should be supported by citations to textbooks, papers, or official documentation.",
+        "complies": false
+    }
+]

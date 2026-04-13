@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat clear but still too broad and vague. The phrase *'pētīt un izvērtēt atvērto datu izmantošanas potenciālu'* does not specify measurable outcomes or concrete deliverables (e.g., 'izstrādāt prognozēšanas modeli', 'aprēķināt precizitātes rādītājus', 'piedāvāt konkrētu algoritmu'). The goal lacks specificity in what 'precīzāku' means (e.g., procentuāli uzlabojumi, datu avotu integrācija, vai konkrēti prognozēšanas rādītāji). Without clear metrics or benchmarks, it is difficult to evaluate whether the goal has been achieved.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome ('prognozēt tūrisma plūsmu' and 'padarītu prognozēšanu precīzāku'), which is appropriate. However, it does not avoid all method/tool descriptions entirely—phrases like *'atvērto datu izmantošanas potenciālu'* imply a focus on data usage as a method rather than just the outcome. A stronger phrasing would explicitly separate the *what* (outcome) from the *how* (methods/tools).",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is concise and limited to a single sentence, which is a strength. However, the sentence is grammatically complex and could be streamlined for clarity. For example, *'Bakalaura darba mērķis ir prognozēt Liepājas tūrisma plūsmu, izmantojot atvērto datu analīzi, un piedāvāt risinājumus, kas uzlabos prognozēšanas precizitāti'* would improve readability while maintaining conciseness.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically builds on the preceding text, addressing the identified gaps: the lack of real-time data integration (interneta vietnes apmeklētības dati, meklēšanas rezultāti, tūrisma plūsmas vēsture) and the need for more accurate forecasts. However, the goal does not explicitly mention all key aspects from the preceding text, such as *'pašvaldības mājaslapas apmeklētības dati'* or *'apvienojot to ar interneta meklētāju analīzes rezultātiem'*. To improve congruence, the goal should reflect these specific data sources or integration strategies (e.g., *'izmantojot atvērto datu avotus, ieskaitot interneta meklētāju analīzes un pašvaldības mājaslapas apmeklētības datus'*).",
+        "complies": false
+    }
+]
+```

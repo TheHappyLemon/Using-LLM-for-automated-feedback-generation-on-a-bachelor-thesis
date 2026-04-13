@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat clear but still too broad and vague. The phrase *'izpētīt potenciālus paņēmienus'* (to investigate potential approaches) does not specify what exactly will be measured or achieved. Additionally, *'izstrādāt grafika plānošanas algoritmu'* (to develop a scheduling algorithm) lacks precision—what criteria will define its success (e.g., efficiency, accuracy, adaptability)? The goal should explicitly state measurable outcomes or benchmarks (e.g., 'optimize scheduling by X% in time/accuracy' or 'implement a functional prototype').",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (*'automatizēt darba grafiku plānošanu'* and *'izstrādāt algoritmu'*), avoiding excessive detail about methods/tools. However, the phrasing *'izpētīt potenciālus paņēmienus'* slightly blurs the line between outcome and process. A stronger version would directly emphasize the final deliverable (e.g., *'izstrādāt un validēt algoritmu'*) without mentioning exploratory steps.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single sentence, which is concise and directly communicates the thesis aim. However, the sentence is slightly complex and could be streamlined for clarity. For example, merging *'izpētīt paņēmienus'* and *'izstrādāt algoritmu'* into one action (e.g., *'izstrādāt algoritmu, kas automatizē darba grafiku plānošanu'*) would improve flow. The current structure is functional but not optimally tight.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically aligns with the preceding text, addressing the core problems: manual scheduling inefficiencies, complex constraints in healthcare (e.g., nurse rostering), and the need for automation. Key themes from the introduction—such as *'darbinieku pieejamība'*, *'ierobežojumi'*, and *'automatizēti risinājumi'*—are reflected. However, the goal could explicitly tie to the **specific challenges** mentioned earlier (e.g., *'maiņu ilgumi'*, *'taisnīguma princips'*, or *'pacientu aprūpes kvalitāte'*) to strengthen the connection. The current phrasing is congruent but could be more precise.",
+        "complies": true
+    }
+]
+```

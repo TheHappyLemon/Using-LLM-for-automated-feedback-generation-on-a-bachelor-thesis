@@ -1,0 +1,40 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively highlights the importance of the topic by emphasizing the challenges of manual work schedule planning, particularly in healthcare, where it impacts employee well-being and patient care quality. It also connects the topic to broader trends like process optimization and the demand for flexible work arrangements in modern workplaces. However, the text could further strengthen its argument by explicitly linking the topic to **current global or industry-specific trends** (e.g., post-pandemic workforce shortages, AI-driven automation in healthcare, or regulatory changes in labor laws). Additionally, quantifying the impact (e.g., 'X% of hospitals still rely on manual scheduling') would add weight.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text does **not** demonstrate awareness of the current state-of-the-art in the field. While it mentions 'automatizēti algoritmi' and 'mūsdienu tehnoloģiju laikmetu,' there are **no citations of specific research, frameworks, or tools** (e.g., constraint programming, metaheuristics like genetic algorithms, or existing software like OR-Tools, Optimo, or commercial solutions like Kronos). The absence of references to prior work (e.g., studies on nurse rostering problems, benchmark datasets like NRP or NRPLib, or comparative evaluations of algorithms) weakens the context. This is critical for a thesis on algorithm development.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text **implicitly** suggests a gap by focusing on the 'darba grafiku plānošanas izaicinājumi' and the complexity of the nurse rostering problem, but it does **not explicitly formulate a concrete research gap**. For example:
+        - It could state whether **no Latvian-specific solutions** exist for healthcare scheduling.
+        - It could highlight whether **existing algorithms lack adaptability** to dynamic constraints (e.g., last-minute staff absences or fluctuating patient loads).
+        - It could mention whether **no comparative studies** exist for Latvian healthcare settings.
+        A clear gap should tie to the **lack of a specific solution, tool, or validated methodology** in the current literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text **clearly identifies the concrete problem**: the inefficiency and subjectivity of manual work schedule planning in healthcare, particularly for medmāsu (nurse) rostering. It specifies challenges like balancing **pieejamība (availability), darba stundu ierobežojumi (hour constraints), and individuālās vēlmes (preferences)**. However, the problem statement could be **sharper** by:
+        - Defining **one primary objective** (e.g., 'minimizing nurse overtime while maximizing patient coverage').
+        - Specifying whether the focus is on **static vs. dynamic scheduling** (e.g., real-time adjustments).
+        - Clarifying if the problem is **solver-based (algorithm development) or system-based (software implementation)**.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text **lacks any references** to support claims about:
+        - The prevalence of manual scheduling in healthcare (e.g., studies on its inefficiencies).
+        - Existing algorithms or tools (e.g., 'automatizēti algoritmi' are mentioned but not sourced).
+        - The nurse rostering problem's specific constraints (e.g., no citation of classic NRP literature like Burke et al. or Cheang et al.).
+        Even general statements (e.g., 'mūsdienu tehnoloģiju laikmetā') require attribution. **All claims about prior work, trends, or gaps must be cited** to avoid plagiarism and strengthen credibility. Use tools like Google Scholar, IEEE Xplore, or ScienceDirect to find foundational papers.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,32 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively highlights the importance of the topic by emphasizing the negative psychological and emotional impacts of excessive advertising on individuals. It also connects the topic to broader societal trends, such as the rise of AR technology (e.g., Apple Vision Pro) and the growing demand for personalized, user-controlled digital experiences. The relevance to modern challenges like attention economy and digital privacy is well-articulated. However, the connection to **real-time reklāmas filtrēšana** could be slightly clearer—explicitly linking AR’s potential to mitigate these issues would strengthen the argument.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions key advancements (e.g., YOLO models for real-time object detection, Apple’s AR investments) and references specific research areas (e.g., reklāma’s psychological effects). However, it lacks **specific citations** of recent studies or benchmarks (e.g., YOLOv8/v9 performance, AR hardware limitations, or prior work on reklāmas filtrēšana in AR). The claim about ‘no effective real-time solutions’ is unsupported—acknowledging existing attempts (e.g., Google’s ARCore ads filtering, academic prototypes) would improve credibility.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implies a gap by stating that ‘effective real-time solutions’ are lacking, but it does not **explicitly define** what ‘effective’ means (e.g., latency thresholds, accuracy benchmarks, or user study validation). The gap should contrast with prior work: e.g., ‘While YOLO models achieve X% accuracy in controlled settings, real-world AR applications (e.g., mobile devices) struggle with Y latency due to Z constraints.’ This would make the gap more concrete.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The **core problem**—‘real-time reklāmas filtrēšana in AR with low latency’—is clear, but the text could sharpen it further. For example:
+        - *Technical*: ‘How to balance YOLO’s precision with AR hardware constraints (e.g., 60fps processing)?’
+        - *User-centric*: ‘How to ensure the system respects privacy while dynamically filtering ads?’
+        The current phrasing blends technical and ethical challenges; separating them would improve focus.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text cites two studies ([1], [2]) but **fails to provide full reference details** (authors, years, journals) or explain how they directly support claims (e.g., ‘[2] shows reklāma’s link to body dissatisfaction, justifying AR’s role in reducing exposure’). For technical claims (e.g., YOLO’s capabilities), no sources are given. **All claims**—especially those about psychological impacts or AR limitations—need citations to avoid vagueness.",
+        "complies": false
+    }
+]
+```

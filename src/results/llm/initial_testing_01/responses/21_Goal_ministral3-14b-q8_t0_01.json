@@ -1,0 +1,19 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat clear but could be more specific. The phrase *'arābu teksta atpazīšanai'* is broad—it does not specify whether the focus is on handwritten text, printed text, or a mix. Additionally, *'izmantojot datorredzes tehnoloģijas'* introduces a method (computer vision) rather than a measurable outcome. The goal should emphasize the **specific result** (e.g., accuracy, usability, or a functional prototype) rather than the approach.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal partially complies with focusing on the outcome, but it **incorrectly includes tools/processes** (*'datorredzes tehnoloģijas'* and *'Android Studio vidē'*). These are implementation details, not the intended objective. The core outcome (*'lietotni izstrādāt'*) is acceptable, but the phrasing should exclude technical methods to maintain clarity on the **end result** (e.g., *'izstrādāt funkcionalu lietotni arābu valodas atpazīšanai attēlu datos'* would be better).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single sentence, which is structurally correct. However, it is **too long and convoluted** for optimal clarity. A more concise version (e.g., *'Izstrādāt Android lietotni, kas atpazīst arābu tekstu attēlos, izmantojot datorredzes tehnoloģijas'*) would improve readability. The goal should be **direct and unambiguous**—avoid embedding technical jargon or tools in the core statement.",
+        "complies": false
+    }
+]
+```

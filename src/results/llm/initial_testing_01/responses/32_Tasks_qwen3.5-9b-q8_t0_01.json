@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is organized into a numbered list with 5 distinct items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "Text contains exactly 5 tasks, which falls within the required range of 5, 6, or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical analysis (1), definition of criteria (2), practical comparison/experiments (3), result analysis (4), and methodology development (5). However, explicit validation of results against benchmarks or existing studies is implied in task 3 but not explicitly stated as a separate validation step, which is a minor gap for a complete research process.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is described in exactly one sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks consistently start with infinitive verbs in Latvian (Analizēt, Definēt, Veikt, Izstrādāt).",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are short, straightforward, and use precise academic language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically follow the goal of comparing Trie and Hash structures: analyzing existing options, defining criteria, performing the comparison, analyzing results, and creating a methodology. The order contributes effectively to reaching the thesis goal.",
+        "complies": true
+    }
+]

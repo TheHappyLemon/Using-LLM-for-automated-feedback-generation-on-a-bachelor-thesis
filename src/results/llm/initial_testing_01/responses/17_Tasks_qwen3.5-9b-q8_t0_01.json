@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is organized into a numbered list with 6 distinct items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "Text contains exactly 6 tasks, which falls within the acceptable range of 5, 6, or 7.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "Text covers theoretical analysis (task 1), analysis of possibilities (task 2), criteria formulation (task 3), evaluation of existing libraries (task 4), practical implementation (task 5), and conclusions (task 6). However, the 'validation' aspect is weak; task 4 mentions evaluating efficiency but does not explicitly state a comparison with benchmarks or other authors' results to validate the findings, which is required for a complete research process.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence and does not span multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks consistently start with infinitive verbs in Latvian (Noteikt, Analizēt, Noformulēt, Novērtēt, Izpētīt, Izdarīti - though 'Izdarīti' is a participle/adjective form, the intent is clear, but strictly speaking 'Izdarīt' would be the infinitive). The first five are perfect infinitives. The last one 'Izdarīti' is grammatically slightly off as an infinitive (should be 'Izdarīt'), but the structure of starting with a verb is maintained.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are short, straightforward, and use precise language suitable for a thesis outline.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically progress from defining the topic to analyzing, implementing, and concluding, which directly supports the goal of evaluating YAML processing efficiency in various languages.",
+        "complies": true
+    }
+]

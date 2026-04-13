@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is organized into a numbered list from 1 to 8, which clearly separates individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 8 tasks. The requirement specifies that the text must have 5, 6, or 7 tasks to comply.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text covers theoretical analysis (researching methods, Arabic script), practical implementation (choosing libraries, designing architecture, creating the recognition method), and validation (testing with images, comparing with existing solutions). It represents a complete research process.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Most tasks are single sentences, but task 4 includes a parenthetical example ('piemēram, Tesseract OCR') which slightly extends the sentence structure, though it remains one grammatical sentence. Overall, it mostly complies.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs in Latvian (e.g., 'Izpētīt', 'Izvēlēties', 'Projektēt', 'Izveidot') at the beginning of each task description.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use precise language to describe specific actions required for the thesis.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically follow the goal of developing an app: they start with research, move to tool selection and design, implementation of the core logic, and end with testing and comparison. The order demonstrably contributes to reaching the goal.",
+        "complies": true
+    }
+]

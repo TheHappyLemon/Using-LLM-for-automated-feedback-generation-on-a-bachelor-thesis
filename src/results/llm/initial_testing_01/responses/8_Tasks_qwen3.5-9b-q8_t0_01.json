@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text does not use a numbered list; it uses bullet points (•).",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "Text contains exactly 4 tasks. The requirement specifies that the text must have 5, 6, or 7 tasks to comply.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover literature review, data collection, feature selection, and algorithm comparison. However, for a thesis with a goal of comparing methods, there is a missing explicit task for conducting the actual experiments (running the models) and validating the results against benchmarks or existing studies before the final comparison. The current list jumps from feature selection to comparison without explicitly stating the execution of the comparative experiments.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence and does not span multiple sentences. This criterion is met.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks begin with an infinitive verb (Izpētīt, Apkopot, Izvērtēt, Salīdzināt). This criterion is met.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use precise academic language. This criterion is met.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks are logically ordered and directly support the goal of comparing machine learning methods based on audio parameters. They cover the necessary steps from theory to comparison. However, due to the missing explicit experimental execution step mentioned in the Completeness analysis, the flow is slightly incomplete for a full research cycle, though the direction is correct.",
+        "complies": true
+    }
+]

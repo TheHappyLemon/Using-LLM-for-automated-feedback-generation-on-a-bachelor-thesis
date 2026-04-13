@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "Mērķis skaidri norāda uz izpēti un esošo risinājumu izvērtēšanu, kas ir mērāms. Tomēr formulējums 'tiks apskatīts' un 'tiks izvērtēti' ir nedaudz vispārīgs; varētu būt precīzāk norādīt konkrētu izpētes rezultātu vai secinājumu, ko gūst, lai mērķis būtu vēl vairāk mērāms.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "Mērķis galvenokārt fokusējas uz gaidāmo rezultātu (izpēte, izvērtēšana), taču tajā ir iekļauti paši procesi ('tiks nodrošināta', 'tiks apskatīts'). Lai pilnībā atbilstu kritērijiem, vajadzētu izvairīties no darbības vārdiem, kas apraksta, *kā* tiks veikts darbs, un koncentrēties tikai uz to, *ko* tiks sasniegts.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "Teksts nav ierakstīts vienā teikumā. Tas sastāv no diviem teikumiem, kas savienoti ar 'kā arī'. Lai atbilstu struktūras kritērijiem, abas daļas vajadzētu apvienot vienā sintaktiski pilnīgā un koncīzā teikumā.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "Mērķis labi atbilst iepriekšējam tekstam, risinot minētās problēmas ar manuālo testēšanu un prasot AI risinājumus. Tomēr mērķī tiek minēts 'mašīnmācīšanās modeļos balstītu rīku', kas iepriekšējā tekstā netika tieši pieminēts (tur tika runāts tikai par mākslīgo intelektu vispār). Lai nodrošinātu pilnīgu saskaņotību, vajadzētu vai nu noņemt 'mašīnmācīšanās' daļu, vai arī iepriekšējā tekstā pievienot atsaucienu uz ML.",
+        "complies": false
+    }
+]

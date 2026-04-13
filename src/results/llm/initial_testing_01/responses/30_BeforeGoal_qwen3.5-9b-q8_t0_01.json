@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively explains the relevance of the topic by contrasting the simplicity of past systems with the complexity of modern industrial needs. It correctly identifies that while object-relational databases are known, their practical utility in complex, high-performance scenarios is not fully understood, making the research necessary.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text fails to cite specific published research, authors, or existing studies. It makes general statements like 'object-relational databases are studied and documented' without referencing the literature. Since the thesis involves a comparison/evaluation, it should explicitly mention previous comparative studies or clearly state that such empirical comparisons are missing, rather than vaguely claiming a lack of data.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a general lack of empirical data regarding performance and design choices. However, the gap is not explicitly formulated as a specific research problem derived from the state-of-the-art. It states that data is missing but does not clearly define the specific unresolved question that this thesis will answer based on the literature review.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue is identifiable: the lack of data to determine when to choose a simple relational structure versus a complex object-relational one for optimal performance. The 'Problem statement' paragraph attempts to summarize this, but it is slightly repetitive and could be more precise about the specific challenge (e.g., 'determining the optimal architectural trade-off').",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included in the text. Claims about the history of databases, the existence of tools, and the current state of research are made without citations. Academic theses require references to support such claims and to acknowledge the existing body of work.",
+        "complies": false
+    }
+]

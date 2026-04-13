@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat clear but could be more specific and measurable. The phrase *'izpētīt, kādi faktori ietekmē'* (investigate which factors influence) is broad and lacks concrete criteria for evaluation. Additionally, *'novērtēt risinājumus'* (evaluate solutions) is vague—what metrics or benchmarks will be used to assess their effectiveness? The goal should explicitly state how success will be determined (e.g., accuracy rates, user testing results, or comparative analysis).",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (investigating factors and evaluating solutions) rather than describing methods or tools, which is appropriate. However, the phrasing *'izveidot risinājumus'* (develop solutions) could be interpreted as a method rather than an outcome. Clarify whether the goal is to *identify* or *evaluate* solutions, not necessarily to *create* them, unless prototyping is explicitly part of the thesis scope.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single sentence, which is concise and directly communicates the thesis objective. However, the sentence is long and could be split into two for clarity: one for the investigation of factors and another for the evaluation of solutions. This would improve readability and precision.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically builds on the preceding text, addressing the core issue of *digitālo dokumentu integritātes noteikšana* (digital document integrity verification) and the risks of tampering or forgery in digitized handwritten content. The mention of *mašīnmācīšanās* (machine learning) and *heuristic* solutions aligns with the need for technological approaches to ensure authenticity, as highlighted in the introduction. However, the preceding text does not explicitly mention *faktori* (factors) influencing integrity, so this aspect should be briefly justified in the introduction (e.g., by referencing potential threats like scanning quality, stylometric analysis, or metadata corruption).",
+        "complies": true
+    }
+]
+```

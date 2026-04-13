@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text explains the general benefits of microservices and the limitations of synchronous approaches well. However, it lacks a strong connection to specific current trends or developments that make this research urgent *right now*, beyond general statements about scalability. It could be stronger by mentioning specific industry shifts or performance bottlenecks in modern high-load systems.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions specific technologies (Flask, Django, asyncio, FastAPI, Celery) but does not cite any published research, academic papers, or specific studies regarding the state of asynchronous microservices. It lists tools rather than summarizing existing scientific knowledge or evaluations of these tools in the context of microservices, which is required to establish the state-of-the-art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implies a gap by stating that asynchronous approaches 'require detailed research' and that synchronous methods have problems. However, it does not explicitly formulate a concrete research gap based on the lack of existing studies or the insufficiency of current practices. It states a need for research but does not define what specific knowledge is missing from the current literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue is somewhat identifiable: the inefficiency of synchronous communication in microservices and the need to explore asynchronous solutions in Python. However, the problem statement is vague; it says the thesis will 'investigate and demonstrate solutions' without specifying the exact challenge (e.g., performance comparison, specific implementation patterns, or handling backpressure). The problem is too broad.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "There are no references included in the text. Claims about the popularity of Python, the limitations of Flask/Django, or the capabilities of asyncio/FastAPI are made without citing sources, which is necessary to support claims and acknowledge prior work.",
+        "complies": false
+    }
+]

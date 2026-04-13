@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat general and lacks specificity. While it mentions evaluating different asynchronous and parallel programming tools in Kotlin, it does not clarify *how* the evaluation will be conducted (e.g., benchmarks, code analysis, performance metrics) or *what criteria* will be used (e.g., efficiency, readability, scalability). This makes it difficult to measure whether the goal has been achieved. A stronger goal would specify measurable outcomes, such as comparing performance metrics or identifying best practices.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (evaluating tools) rather than describing methods or processes, which is appropriate. However, the phrasing is still too broad—it does not distinguish between *asynchronous* and *parallel* programming tools, which are distinct concepts with different evaluation criteria. Clarifying the scope (e.g., 'evaluate asynchronous coroutines vs. parallel threading') would strengthen the focus on the outcome.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is concise and limited to a single sentence, which is a strength. However, the phrasing ('novērtēt dažādus rīkus') is vague and could be more precise. For example, explicitly stating 'analyze and compare' or 'assess the efficiency of' would improve clarity and directness. The sentence effectively communicates the goal but could be sharper.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically builds on the preceding text, which discusses Kotlin's relevance for Android development, resource constraints in mobile devices, and the need for asynchronous/parallel programming. However, the connection to the *specific problems* (e.g., limited processor power, resource efficiency) is not explicitly tied to the evaluation criteria. For stronger congruence, the goal should reflect how the evaluation addresses these challenges (e.g., 'to determine which Kotlin tools optimize resource usage in mobile environments').",
+        "complies": false
+    }
+]
+```

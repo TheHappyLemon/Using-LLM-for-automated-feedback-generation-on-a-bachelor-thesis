@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal clearly states the aim to research existing solutions, develop a method, and evaluate it. However, the phrasing 'izpētīt esošus risinājumus... iespējas' (research existing solutions... possibilities) is slightly vague regarding the specific output of the research. It would be stronger to specify what exactly will be analyzed or synthesized from the research (e.g., 'analyze and compare existing solutions').",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcomes (researching solutions, developing a method, evaluating efficiency/accuracy). It avoids describing specific tools (like Jenkins or Docker) or detailed processes, which is correct. However, the first sentence mixes the intention to research with the intention to develop in a way that makes the sentence structure slightly cluttered, though the focus remains on the outcome.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text does not comply with the requirement of being a single, concise sentence. The goal is presented as three separate sentences (or a fragmented list) separated by periods. A thesis goal should ideally be one coherent statement or a clearly structured list, but the current format breaks the flow and violates the 'single sentence' constraint explicitly mentioned in the criteria.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text. The introduction mentions the problem of long test times and resource consumption in CI/CD, and the goal directly addresses optimizing these aspects. However, there is a minor inconsistency: the introduction mentions 'DevOps environment' and 'CI/CD', but the goal text has a typo ('mikropakalpju' instead of 'mikropakalpojumu') and slightly shifts focus to 'existing solutions' which were not explicitly detailed as a gap in the intro (the intro focused more on the lack of optimization strategies). Despite this, the core logic holds.",
+        "complies": true
+    }
+]

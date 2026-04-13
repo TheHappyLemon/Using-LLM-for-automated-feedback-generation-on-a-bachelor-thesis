@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively explains the importance of the topic by highlighting the dual nature of cookies (convenience vs. security risks) and listing specific threats like session hijacking and XSS. It clearly justifies the research necessity by noting that while defenses exist, new bypass methods are emerging, making the study of these mechanisms timely and relevant.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing security mechanisms (Secure, HttpOnly, SameSite) but fails to cite specific published research, academic papers, or concrete studies regarding the current state of the art. It describes general concepts rather than referencing the specific body of work or cutting-edge achievements in the field of web security research.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implies a gap by stating that attackers find ways to bypass existing mechanisms and that the landscape is constantly changing. However, it does not explicitly formulate a concrete research gap based on a review of existing literature. It lacks a clear statement on what specific unresolved problem or insufficiency in current knowledge this thesis aims to fill.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue is identifiable: the need to analyze and compare security mechanisms (Secure, HttpOnly, SameSite) to understand how to protect users from specific threats like session hijacking and XSS. The problem statement is clear, though the scope could be slightly more precise regarding which specific browsers or versions are analyzed.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "No references are included in the text. Claims about security mechanisms, specific threats (XSS, session hijacking), and the existence of bypass methods are made without citing sources, authors, or publications, which is required for an academic thesis introduction.",
+        "complies": false
+    }
+]

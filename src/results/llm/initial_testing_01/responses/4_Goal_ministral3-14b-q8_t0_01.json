@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat clear but still too broad. The phrase *'noteikt virtuālo pavedienu izmantošanas perspektīvas'* (determine the usage perspectives of virtual threads) is vague—it does not specify *how* these perspectives will be measured, evaluated, or compared. For example, will the student assess performance, scalability, ease of implementation, or other metrics? The goal lacks concrete criteria for success, making it difficult to verify whether it has been achieved.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (*perspektīvas*—perspectives) rather than methods or tools, which is a strength. However, the phrasing could be more precise to emphasize the *comparative* or *analytical* nature of the goal (e.g., 'analyze' or 'evaluate' instead of 'noteikt'). The current wording leans slightly toward description rather than a clear objective.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is concise and fits into a single sentence, which is appropriate. However, the phrasing could be slightly more direct. For example, replacing *'izmantošanas perspektīvas'* with *'praktiskās iespējas vai ietekmi paralēlajā programmēšanā'* (practical opportunities or impact in parallel programming) would make the focus clearer. As it stands, the sentence is grammatically correct but could be more impactful.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically connects to the preceding text, particularly the discussion of Java's concurrency challenges (e.g., *sacensības apstākļi*, *strupceļš*) and the introduction of virtual threads as a solution. However, the goal does not explicitly reference the *specific gaps* (e.g., *atomiskuma pārkāpums*, *secības pārkāpums*) or the *comparison* with older Java concurrency mechanisms (e.g., *java.util.concurrent*). To strengthen congruence, the goal could acknowledge these gaps more directly, such as *'novērtēt virtuālo pavedienu potenciālu risināt eksistējošos paralēlās programmēšanas trūkumus Java kontekstā'* (evaluate virtual threads' potential to address existing parallel programming shortcomings in Java).",
+        "complies": false
+    }
+]
+```

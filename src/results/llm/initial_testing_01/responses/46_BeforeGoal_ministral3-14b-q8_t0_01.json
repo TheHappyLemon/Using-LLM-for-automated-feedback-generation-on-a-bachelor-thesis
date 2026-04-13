@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively highlights the importance of the topic by emphasizing the growing prevalence of digital transactions and fraud, particularly in the post-pandemic era. It clearly explains why the topic is relevant by linking it to broader economic and societal impacts, such as threats to individual finances, businesses, and global economic stability. The mention of emerging fraud methods (e.g., cryptocurrency scams, insurance fraud) and the risks of money laundering further strengthens the argument. The connection to real-world consequences (e.g., physical harm from illicit activities) is well-made.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text briefly acknowledges existing research and trends (e.g., references [1], [2], [3], [4], [5], [6], [7]) but lacks depth in describing the *current state-of-the-art* in AI-driven fraud detection. While it mentions that traditional methods struggle with large datasets and that AI can improve detection, it does not cite specific cutting-edge AI techniques (e.g., machine learning models like deep learning, NLP for fraudulent text analysis, or blockchain-based fraud detection). The references are generic and do not demonstrate a nuanced understanding of recent advancements or comparative studies in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implies a gap by stating that traditional methods are insufficient for modern fraud detection (e.g., 'Tradicionālās pieejas bieži vien vairs nespēj identificēt aizdomīgus darījumus lielos datu apjomos'). However, it does not explicitly formulate a *concrete research gap* based on prior studies. For example, it could highlight whether existing AI solutions lack scalability, interpretability, or effectiveness in specific fraud types (e.g., cryptocurrency scams). The gap should be tied to a specific limitation in current research or practice, not just a general observation.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text clearly identifies the *concrete issue* the thesis aims to address: the inefficiency of traditional fraud detection methods in handling the volume and complexity of modern digital transactions. It specifies that AI could offer a solution by enabling faster and more precise anomaly detection. The problem is well-defined, with clear examples (e.g., cryptocurrency fraud, money laundering) and a focus on improving financial security. The connection between the problem and the proposed solution (AI) is logical and explicit.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes references ([1]–[7]) to support claims about the prevalence of fraud, digital transactions, and the limitations of traditional methods. However, the references are not detailed enough to verify their relevance or quality. For example, the student should specify whether [1]–[7] are peer-reviewed articles, reports, or other sources, and how they directly relate to the claims made. Additionally, some claims (e.g., about cryptocurrency fraud or AI solutions) would benefit from more targeted references to establish credibility. The references are present but lack precision.",
+        "complies": false
+    }
+]
+```

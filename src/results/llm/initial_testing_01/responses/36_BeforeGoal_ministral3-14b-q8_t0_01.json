@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively highlights the importance of the topic by explaining the limitations of cloud computing (e.g., latency, network congestion) and the growing demand for faster, more efficient web applications. It connects the topic to real-world trends like IoT, real-time services, and e-commerce, emphasizing the relevance of edge computing as a solution. The argumentation is clear and well-grounded in current technological challenges.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the field by citing two specific studies (*Edge Computing: Vision and Challenges*, 2016; *Fog computing: Platform and applications*, 2015). However, it lacks deeper engagement with recent advancements (e.g., post-2016) or comparative evaluations of edge vs. cloud computing in web applications. A brief mention of cutting-edge achievements (e.g., 5G integration, hybrid architectures) would strengthen this section.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by noting that edge computing’s integration into web applications remains challenging (e.g., technology selection, hybrid systems). However, the gap is framed broadly; a more concrete formulation (e.g., ‘lack of standardized evaluation frameworks for edge-cloud hybrid web apps’) would sharpen the research focus. The gap is implied but not explicitly tied to the thesis’s comparative evaluation goal.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue is clear: the thesis aims to evaluate edge computing’s potential and feasibility in web applications compared to cloud computing. The text outlines challenges (latency, scalability, integration) and use cases (IoT, real-time services), but the problem statement could be more precise (e.g., ‘How to quantify edge computing’s advantages in web apps under X conditions?’). The problem is well-aligned with the topic but could be more sharply defined.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes two relevant references to support claims about edge computing’s advantages and limitations. However, the citations lack in-text attribution (e.g., no author-year references in the body text). For claims like ‘traditional cloud computing fails to meet demands,’ a reference would strengthen credibility. The references are appropriate but underutilized.",
+        "complies": false
+    }
+]
+```

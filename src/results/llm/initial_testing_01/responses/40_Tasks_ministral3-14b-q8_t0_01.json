@@ -1,0 +1,47 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, which is clear and visually distinct. Each task is separated by a line break, making it easy to read and follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **6** individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **mostly complete** research process:
+        - Theoretical analysis (tasks 1, 2, 3, 4),
+        - Implementation (task 5),
+        - Validation (task 6).
+        However, **validation is limited to software testing** without explicit comparison to existing solutions or benchmarking. A stronger validation approach (e.g., comparing the developed solution with prior AR safety tools or demonstrating its effectiveness in reducing accidents) would improve rigor.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **one sentence long** and does not span multiple sentences. The phrasing is concise and avoids unnecessary complexity.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **do not consistently use infinitive verbs** at the beginning. Some start with verbs (e.g., 'Iespētīt'), while others use noun phrases (e.g., 'Izpētīt eksistējošās krāsu sensoru...'). For consistency, all tasks should begin with an infinitive (e.g., 'To investigate existing color sensor technologies...').",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, using precise language. However, some tasks could be slightly more explicit (e.g., task 3 mentions 'statistikas datus,' but it’s unclear whether this includes **primary data collection** or just secondary analysis). Clarifying whether original data will be gathered would strengthen this.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically contribute to the thesis goal** of developing AR safety software:
+        1–4 lay the groundwork (researching risks, solutions, tech, and data),
+        5 implements the solution,
+        6 validates it.
+        The sequence is **appropriate**, though validation could be more robust (as noted in Completeness).",
+        "complies": true
+    }
+]
+```

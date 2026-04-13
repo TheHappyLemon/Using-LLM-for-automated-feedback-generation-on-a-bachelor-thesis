@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text explains the popularity of Java and the general importance of concurrency. However, it lacks a strong connection between the specific new feature (Virtual Threads) and the specific problems it solves in the current landscape, making the 'why now' argument slightly weak.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions TIOBE rankings and Oracle release notes, but these are industry statistics, not academic research or state-of-the-art evaluations. It fails to cite specific published research, papers, or technical evaluations of existing concurrency mechanisms as required for a thesis introduction.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text lists general weaknesses of thread-based programming (race conditions, deadlocks) but does not explicitly identify a specific research gap regarding Virtual Threads. It does not state what is missing in current knowledge or practice that this specific thesis will address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is somewhat obscured. While it mentions evaluating old and new mechanisms, it does not clearly define the specific challenge or research question the thesis aims to solve (e.g., performance comparison, migration strategy, or architectural analysis).",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes citations for TIOBE and Oracle, but it is missing citations for the academic source regarding concurrency weaknesses (Giebas et. al., 2021) which appears to be a typo or incomplete citation format. Furthermore, the lack of academic references for the state-of-the-art significantly weakens the support for claims.",
+        "complies": false
+    }
+]

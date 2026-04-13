@@ -1,0 +1,27 @@
+```json
+[
+    {
+        "question": "Chapters",
+        "feedback": "The text does **not** explicitly list the main sections (chapters) of the thesis. It only mentions the **introduction** (with subsections like *1. DARBA BŪTĪBA UN AKTUALITĀTE*) and a **planning table** (1.1. tabula) for the thesis process, but no clear structure of the full thesis chapters (e.g., *Literatūra*, *Metodoloģija*, *Rezultāti*, *Secinājumi*). This makes it unclear how many chapters the thesis will have or what their titles will be.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "The text **briefly describes** the content of the **introduction** (purpose, relevance, and comparison of Svelte/React) and the **planning table** (timeline for thesis milestones). However, it lacks a **detailed breakdown** of what each **main chapter** (e.g., methodology, analysis, conclusions) would cover. The description is **too focused on the introduction** and does not preview the broader thesis structure. For example, it does not mention how the comparison will be structured (e.g., technical analysis, performance benchmarks, case studies).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The **general structure is somewhat clear** from the introduction and planning table, but it is **incomplete**. The text effectively outlines:
+        - **Problem statement** (importance of UI, Svelte vs. React differences).
+        - **Relevance** (why compare them, trends like SPAs/mobile).
+        - **Planning** (timeline for research and milestones).
+        However, the **lack of chapter titles** and **no mention of methodology/results/conclusions** leaves gaps. A reader cannot easily infer:
+        - How the **comparison will be conducted** (e.g., code examples, surveys, benchmarks).
+        - Whether there will be a **practical implementation** (e.g., building a prototype).
+        - How **conclusions** will tie back to the problem statement.
+        The structure is **logical for the introduction** but **unclear for the full thesis**.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively highlights the importance of asynchronous and parallel programming in modern contexts, particularly for resource-constrained mobile devices like smartphones. It clearly explains why these topics are relevant (e.g., limited hardware resources, demand for high-performance apps) and connects them to broader trends (e.g., Kotlin’s rise in Android development). The reasoning is logical and well-supported by the context of mobile app development.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions key developments (e.g., Kotlin’s adoption for Android in 2017, its compatibility with Java) and cites relevant sources (e.g., Elizarov et al., 2021; Subramaniam, 2019). However, it lacks deeper engagement with *specific* state-of-the-art research or comparisons of Kotlin’s asynchronous/parallel features (e.g., coroutines vs. Java threads, benchmarks, or academic evaluations). The citations are general and do not critically assess existing solutions or gaps in prior work.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly identify a *concrete* research gap. While it hints at the need to evaluate Kotlin’s tools (e.g., coroutines vs. Threads) and their trade-offs, it does not contrast these with prior studies or highlight unresolved questions (e.g., ‘No comparative analysis exists for Kotlin’s coroutines in real-world mobile apps’). A gap should be framed as a specific unanswered question or missing evaluation.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text outlines a broad challenge: *how to effectively use Kotlin’s asynchronous/parallel tools* and their advantages/disadvantages. However, the problem is too vague. A clearer, research-focused issue could be: ‘How do Kotlin’s coroutines compare to Java threads in performance and resource usage for mobile apps?’ or ‘What are the practical limitations of Kotlin’s concurrency model?’. The current phrasing leans toward a general overview rather than a targeted research question.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included for key claims (e.g., Kotlin’s adoption, its compatibility with Java), but some citations are incomplete (e.g., ‘bet šobrīdKotlinir atzīstamā par labāku priekš Android lietotņu izstrādei(Subramaniam, 2019)’ has a formatting error). Additionally, citations lack depth—most are used to support background facts rather than to critique, compare, or build on prior work. For example, no references directly address Kotlin’s concurrency performance or tool comparisons.",
+        "complies": false
+    }
+]
+```

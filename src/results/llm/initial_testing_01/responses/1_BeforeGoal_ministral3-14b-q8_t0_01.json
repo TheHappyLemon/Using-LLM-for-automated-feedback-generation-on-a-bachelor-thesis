@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively highlights the importance of the topic by explaining the inefficiency of manual testing in modern software development, where requirements change frequently. It also emphasizes the relevance of continuous testing as a solution to this problem. However, the connection between AI and the urgency of the topic could be strengthened by briefly mentioning broader industry trends (e.g., DevOps, Agile, or the increasing complexity of software systems) to underscore why AI-driven solutions are *now* critical. The current explanation is logical but could be more compelling with a stronger link to real-world challenges.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text does not cite any specific research, tools, or cutting-edge achievements in AI for continuous testing (e.g., tools like Testim, Applitools, or academic papers on AI-generated test cases). While it mentions AI as a potential solution, it lacks references to existing work, such as studies on AI-driven test automation, reinforcement learning for test case generation, or comparisons of AI tools in continuous testing. This omission weakens the argument for why the topic is *current* or *advanced*.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implies a gap by stating that manual test scenario creation is slow and that AI could automate this process, but it does not explicitly formulate a *research gap* (e.g., 'While AI tools exist for test automation, no study has systematically evaluated their effectiveness in *dynamic* continuous testing environments with evolving requirements'). The gap should be framed as a missing link between existing AI solutions and the *specific* challenges of continuous testing (e.g., adaptability, scalability, or integration with CI/CD pipelines).",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue is clearly identified: the inefficiency of manual test scenario creation, maintenance, and execution in continuous testing, which slows down development. The text also highlights the need for 'end-to-end' testing to ensure system reliability. However, the *specific technical or practical challenge* the thesis will address (e.g., 'How to generate and maintain test cases autonomously in real-time for microservices?' or 'What AI techniques best reduce false positives in continuous testing?') is not explicitly stated. Clarifying this would strengthen the problem statement.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text lacks any citations or references to support claims about AI's role in test automation, continuous testing trends, or the inefficiency of manual methods. For example, claims like 'AI can automate test generation' or 'continuous testing is popular' should be backed by sources (e.g., industry reports, academic papers, or tool documentation). Without references, the introduction relies on general knowledge rather than established evidence.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is organized into a numbered list with 6 distinct items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "Text contains exactly 6 tasks, which falls within the acceptable range of 5, 6, or 7.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text covers literature review, factor analysis, data collection, solution development, and result analysis. However, the validation of the developed solution is weak; Task 5 focuses on 'imitating' samples rather than validating the integrity detection solution against benchmarks or existing methods as required for a complete research process.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single, concise sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "All tasks consistently begin with infinitive verbs in Latvian (e.g., 'Izpētīt', 'Noskaidrot', 'Ievākt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are short, straightforward, and use precise academic language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks generally follow a logical order towards the goal. However, Task 5 ('Analyze possibilities to imitate these text samples') is less relevant to the specific goal of 'determining integrity' compared to a task focused on validating the developed solution's effectiveness. The link between imitating samples and validating the integrity detector is not explicit.",
+        "complies": false
+    }
+]

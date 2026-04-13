@@ -1,0 +1,46 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text uses bullet points instead of a numbered list, which is not as formal or structured for academic writing. Numbered lists are preferred for clarity and professionalism in thesis documents.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **3** individual tasks, which does not meet the requirement of having 5, 6, or 7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text outlines a **partial** research process but lacks key components:
+        - **Theoretical analysis** is implied but not explicitly detailed (e.g., no mention of literature review or theoretical framework).
+        - **Practical research/implementation** is addressed (algorithmic development), but **validation** is weak—comparison with existing solutions is mentioned, but no explicit plan for **contrasting results with prior studies** or demonstrating practical problem-solving is included.
+        - No mention of **experimental setup** (e.g., data collection, testing methodology) or **benchmarking** against established standards.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **one sentence long** and does not span multiple sentences, meeting the format requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks use **infinitive verbs** (e.g., 'Apkopot', 'Izstrādāt', 'Salīdzināt'), which is correct. However, the phrasing is slightly awkward in Latvian (e.g., 'Apkopot' could be more precise as 'Izpētīt un apkopot').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, but some phrasing could be more precise (e.g., 'grafiku daudzveidību' is vague—specify what 'variability' means in this context). The language is concise but lacks technical clarity in places.",
+        "complies": false
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **partially align** with the thesis goal but are **incomplete**:
+        - **Research of existing solutions** is covered.
+        - **Development of a new algorithm** is addressed.
+        - **Validation via comparison** is mentioned but lacks depth (e.g., no plan for quantitative/qualitative evaluation or contrast with prior work).
+        - Missing: **Problem-solving demonstration** (e.g., how the algorithm improves efficiency in a real-world scenario) or **experimental design** (e.g., testing with real hospital data).",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does not address the **actual significance or relevance** of the topic. It only describes the **formal structure** of the introduction (e.g., 1–2 pages, stylistic guidelines) rather than explaining why large language models (LLMs) for competence assessment are important, timely, or necessary to research. A strong introduction should justify the topic’s urgency (e.g., rising demand for AI-driven assessment tools, gaps in traditional evaluation methods, or societal/educational implications).",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text **completely omits** any discussion of existing research, trends, or advancements in the field. A state-of-the-art section should briefly mention:
+        - Key studies on LLMs for competence assessment (e.g., ChatGPT, BERT, or domain-specific models like those in education).
+        - Existing evaluations/comparisons of LLM performance in assessment tasks (e.g., accuracy, bias, or alignment with educational standards).
+        - Cutting-edge achievements (e.g., multimodal models, adaptive testing frameworks).
+        Without this, the reader cannot contextualize the thesis’s contribution.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "No **research gap** is identified. A gap should logically follow the state-of-the-art by highlighting:
+        - Limitations of current methods (e.g., lack of standardized benchmarks for LLM-based assessment, ethical concerns, or technical constraints like hallucinations).
+        - Underexplored areas (e.g., cross-linguistic competence evaluation, dynamic adaptation to learner needs, or integration with traditional assessment tools).
+        The absence of this weakens the thesis’s justification for existence.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The **concrete problem** is not clearly articulated. While the topic suggests exploring LLMs for competence assessment, the introduction should explicitly define:
+        - What specific competence(s) are being assessed (e.g., language proficiency, critical thinking, technical skills)?
+        - What challenges arise in using LLMs for this purpose (e.g., reliability, fairness, or scalability)?
+        - Whether the thesis aims to **evaluate existing tools**, **develop a new method**, or **compare approaches**—this ambiguity must be resolved early.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text **includes no references** to support claims or cite prior work. Even if the state-of-the-art/gap sections are added later, they must be **backed by citations** (e.g., papers on LLM limitations in assessment, educational technology standards, or comparative studies). The current structure only lists **formatting styles**, which is unrelated to academic rigor.",
+        "complies": false
+    }
+]
+```

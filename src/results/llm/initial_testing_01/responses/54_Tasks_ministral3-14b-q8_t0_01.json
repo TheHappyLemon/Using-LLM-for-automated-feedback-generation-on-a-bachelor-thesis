@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, which is clear and visually distinct. This improves readability and helps separate individual tasks effectively.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **6** individual tasks, which complies with the requirement of having 5, 6, or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **mostly complete** research process: theoretical analysis (task 1), practical implementation (tasks 2–4), and validation (tasks 5–6). However, **validation lacks depth**—it does not explicitly compare the proposed optimization method with existing solutions or demonstrate its practical problem-solving capability beyond basic effectiveness evaluation. A stronger validation step (e.g., benchmarking against prior studies or industry standards) would improve rigor.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **not strictly one sentence long**—some (e.g., task 5) combine multiple ideas (e.g., 'Novērtēt optimizācijas metodes efektivitāti' and 'Analizēt...'). This slightly reduces clarity. Tasks should be concise and self-contained.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **do not consistently use infinitive verbs** at the start. For example, task 1 starts with 'Iespētīt' (infinitive), but task 5 starts with 'Novērtēt' (also infinitive, but phrasing varies). A uniform structure (e.g., all infinitives or all imperative forms) would enhance consistency.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, but some phrasing could be more precise. For example, 'Ieviest un kategorizēt automatizētos testus' (task 3) is clear but could specify *how* tests are categorized (e.g., 'by type, priority, or scope'). Minor refinements would improve precision.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically progress toward the thesis goal**, covering research, implementation, and evaluation. However, the **order could be slightly refined**: Task 2 (developing a simple architecture) might logically precede Task 3 (introducing tests) to ensure a foundation exists. Additionally, Task 6’s analysis could explicitly link findings to the goal (e.g., 'Compare results with CI/CD benchmarks').",
+        "complies": true
+    }
+]
+```

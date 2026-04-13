@@ -1,0 +1,19 @@
+```json
+[
+    {
+        "question": "Chapters",
+        "feedback": "The text clearly lists the main sections of the thesis: *ievads* (introduction), *trīs nodaļas* (three chapters), and *secinājumi* (conclusions). This fulfills the requirement of naming the thesis structure.",
+        "complies": true
+    },
+    {
+        "question": "Description",
+        "feedback": "The text provides a **very brief** overview of each section’s content, but it lacks depth. For example, the first chapter mentions 'pamatprincipi un pielietojumi' (principles and applications), but does not specify *which* principles or *how* they are applied. The second chapter’s description is similarly vague ('atlasīto mašīnmācīšanās un citu algoritmu apraksts'), and the third chapter only states 'tiek realizēti atlasītie algoritmi' without explaining *how* or *what* is being realized. A stronger description would clarify key focus areas (e.g., specific models, evaluation methods, or expected outcomes).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The general structure is **easily understandable** from the text. The logical flow—*theory → methodology → implementation → conclusions*—is clear and aligns with typical thesis formats. However, the lack of detail in descriptions (as noted above) slightly weakens the clarity of *what* each section will cover, though the *order* is unambiguous.",
+        "complies": true
+    }
+]
+```

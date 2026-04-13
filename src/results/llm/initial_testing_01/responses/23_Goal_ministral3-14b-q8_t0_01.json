@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat clear but still contains vague phrasing, such as *'veiktesošo interaktīvo aptauju izglītības platformu analīzi'* (analysis of existing interactive educational platforms), which is too broad. The goal should specify **what exactly** is being analyzed (e.g., effectiveness, usability, pedagogical impact) and **how** the results will be measured. Additionally, *'definēt konceptuālās prasības jaunai platformai'* (defining conceptual requirements for a new platform) lacks specificity—what criteria will be used to define these requirements? The goal should be measurable and avoid overly abstract terms like *'optimizēt'* (optimize) without clear benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (analyzing platforms, defining requirements, and providing recommendations) rather than describing methods or tools, which is a strength. However, the phrasing *'balstīta uz studentu un mācībspēku aptaujas rezultātiem'* (based on student and educator survey results) implies a method (surveys) rather than just the outcome. The goal should avoid mentioning tools or processes (e.g., surveys, development steps) and instead emphasize the **end result** (e.g., 'to derive actionable requirements for a new platform').",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single sentence, which is concise and directly communicates the thesis objective. However, the sentence is overly long and complex, making it harder to parse. A more structured approach would be to split it into **two clear, parallel sentences** (e.g., one for analysis, one for recommendations) or use bullet points if allowed. The current phrasing also mixes multiple actions (analysis, definition, recommendations) without clear separation.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically builds on the preceding text, as it addresses the gaps mentioned: the need for **interactive platforms** that improve engagement, the **limitations of existing tools** (e.g., Kahoot!’s lack of depth, Mentimeter’s focus on presentations), and the call for **adaptive, user-centered solutions**. However, the preceding text emphasizes **comparative analysis** and **pedagogical/technical needs**, while the goal only briefly mentions *'lietotāju vajadzībām'* (user needs). To fully align, the goal should explicitly reference the **identified shortcomings** (e.g., 'addressing the gaps in adaptability and real-time feedback highlighted in the analysis of Kahoot!, Quizizz, and Mentimeter').",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,56 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a clearly numbered list, which improves readability and structure. The separation between tasks is visually distinct and easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **6** individual tasks, which falls within the acceptable range (5–7).",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **complete research process**:
+        - Theoretical analysis (Tasks 1–2: architecture and async principles),
+        - Practical implementation (Task 5: prototype development),
+        - Validation (Task 4: evaluation criteria + Task 6: conclusions).
+        However, **explicit comparison with prior studies or benchmarks is missing**—e.g., Task 3 (Python tech analysis) and Task 5 (prototype) lack a clear mention of contrasting findings with existing solutions or demonstrating practical problem-solving beyond the prototype itself. Task 6’s conclusions should ideally reference external validation (e.g., industry standards, academic work).",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "All tasks are **exactly one sentence long**, with no multi-sentence entries. This ensures clarity and conciseness.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Tasks **do not consistently use infinitive verbs at the start**. Examples:
+        - Task 1: 'Izvērtēt' (infinitive) ✅
+        - Task 2: 'Izvērtēt' (infinitive) ✅
+        - Task 3: 'Analizēt' (infinitive) ✅
+        - Task 4: 'Izveidot' (infinitive) ✅
+        - Task 5: 'Izstrādāt' (infinitive) ✅
+        - Task 6: 'Noformulēt' (infinitive) ✅
+        **All tasks comply with this rule.**",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are **short and precise**, using straightforward language. The terminology aligns with the thesis topic (e.g., 'asinhrono mikropakalpojumu izstrāde'). No ambiguity in phrasing.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically progress toward the thesis goal** ('izpētīt asinhrono mikropakalpojumu izstrādes principus Python valodā'):
+        1–2: **Theoretical foundation** (architecture + async principles).
+        3: **Technical analysis** (Python tools for microservices).
+        4: **Evaluation framework** (critical for validation).
+        5: **Practical implementation** (prototype).
+        6: **Synthesis** (conclusions).
+        **Minor improvement needed**: Task 3 could explicitly mention **comparison with existing Python async frameworks** (e.g., FastAPI, aiohttp) to strengthen relevance to the goal. Task 5’s prototype should ideally link to Task 4’s criteria for validation.",
+        "complies": true
+    }
+]
+```

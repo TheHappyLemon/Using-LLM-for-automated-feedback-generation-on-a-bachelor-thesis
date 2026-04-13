@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is organized into a numbered list, but item 6 is duplicated (appears twice as '6'), and item 5 is missing its number (should be 5, then 6, then 7). This breaks the clear separation and sequential logic of the list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains 6 distinct tasks (despite the numbering error where '6' appears twice). This falls within the acceptable range of 5, 6, or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text covers theoretical analysis, tool development, and validation through data collection and evaluation. However, the validation step (task 6) relies on internal metrics defined in task 4 rather than comparing the tool against existing solutions or benchmarks, which is a recommended standard for robust validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "All tasks are single sentences. However, the numbering format is inconsistent due to the duplication of '6' and the missing number for the penultimate task, which affects the visual format of the list.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs (Analizēt, Veikt, Izstrādāt, Noteikt, Iegūt, Novērtēt) at the beginning of each task, adhering to the structural requirement.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are generally short and straightforward. The language is precise, though the numbering errors slightly reduce the overall clarity of the sequence.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically follow the goal: analyzing LLMs, comparing them, developing a tool, defining metrics, collecting data, and evaluating the tool. The sequence effectively contributes to reaching the thesis goal of creating a personalized support tool for integrals.",
+        "complies": true
+    }
+]

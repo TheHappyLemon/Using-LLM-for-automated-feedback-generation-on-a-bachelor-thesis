@@ -1,0 +1,56 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, which is clear and visually distinct. This format aids readability and ensures each task is easily identifiable.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **5** individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **complete research process**:
+        - Theoretical analysis (Task 1: comparing existing AR navigation solutions),
+        - Practical research (Task 2: evaluating localization methods),
+        - Implementation (Task 4: developing a new solution),
+        - Validation (Task 5: testing usability and drawing conclusions).
+        However, **Task 3** (identifying reasons for AR navigation's rarity) is more exploratory and lacks explicit validation (e.g., comparison with prior studies or benchmarks). The overall structure is strong, but Task 3 could be refined to include validation (e.g., surveying industry trends or citing literature).",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "All tasks are **exactly one sentence long**, making them concise and easy to follow. No task spans multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **do not consistently use infinitive verbs** at the start. For example:
+        - Task 1: 'Izpētīt...' (infinitive) ✅
+        - Task 2: 'Veikt salīdzinošo analīzi...' (infinitive) ✅
+        - Task 3: 'Noteikt galvenos iemeslus...' (infinitive) ✅
+        - Task 4: 'Izveidot lietojumprogrammas risinājumu...' (infinitive) ✅
+        - Task 5: 'Pārbaudīt...' (infinitive) ✅
+        **All tasks actually use infinitives**, so this is a false negative in the question. However, if the expectation was for English-style infinitives (e.g., 'to analyze'), the Latvian infinitives are grammatically correct and clear.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short, straightforward, and precise**. Each task clearly states its objective without ambiguity. The language is accessible and avoids unnecessary complexity.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically contribute to the thesis goal** (developing an AR navigation app):
+        1. **Research existing solutions** (foundation for innovation),
+        2. **Method selection** (ensures technical feasibility),
+        3. **Identify barriers** (contextual insight, though less directly tied to implementation),
+        4. **Develop the solution** (core deliverable),
+        5. **Validate usability** (ensures practical value).
+        The order is **mostly sequential**, though Task 3 could be moved earlier (e.g., after Task 1) to better inform the development process. The relevance is strong overall.",
+        "complies": true
+    }
+]
+```

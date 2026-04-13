@@ -1,0 +1,17 @@
+[
+    {
+        "question": "Chapters",
+        "feedback": "The text lists the main sections of the thesis clearly by numbering them (pirmā, otrā, trešā nodaļa). This makes it easy to identify the thesis structure at a glance.",
+        "complies": true
+    },
+    {
+        "question": "Description",
+        "feedback": "The text provides a **brief** but **sufficiently clear** description of each section’s content. However, the description of the second section is slightly vague—it mentions 'problēmas, ar kurām izstrādātāji var saskarties,' but does not specify what these problems are (e.g., parsing errors, performance issues, or compatibility). The third section’s description is also broad ('salīdzinošā analīze starp dažādiem risinājumiem'), which could be more precise (e.g., 'salīdzinājums starp bibliotēkām *json*, *orjson*, un *ujson* efektivitātes ziņā').",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The general structure is **logical and easy to follow**: introduction to JSON → practical challenges in Python → comparative analysis of solutions. The flow is intuitive, and the progression from theory to application to optimization is well-defined. The text effectively conveys the thesis’s **problem-solution-evaluation** framework.",
+        "complies": true
+    }
+]

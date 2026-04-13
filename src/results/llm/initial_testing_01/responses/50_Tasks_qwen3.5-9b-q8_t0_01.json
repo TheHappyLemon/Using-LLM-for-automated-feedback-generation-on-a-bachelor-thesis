@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is organized into a numbered list with 6 items, which clearly separates individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "Text contains exactly 6 tasks, which complies with the requirement of having 5, 6, or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "Text covers theoretical analysis (items 1, 2), practical implementation (item 5), and formulation of conclusions (item 6). However, item 4 (creating a criteria system) and item 5 (prototype analysis) lack explicit validation against existing solutions or benchmarks as required for a complete research process involving developed solutions.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is described in exactly one sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Text consistently uses infinitive verbs (Izpētīt, Analizēt, Izveidot, Izstrādāt, Noformulēt) at the beginning of each task.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Text consists of short, straightforward sentences using concise and precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "Tasks logically progress from theory to implementation and conclusions, contributing to the goal. However, the validation step for the developed prototype is weak; it should explicitly include comparison with existing solutions or demonstration of solving a specific practical problem to fully align with the goal of developing a solution.",
+        "complies": false
+    }
+]

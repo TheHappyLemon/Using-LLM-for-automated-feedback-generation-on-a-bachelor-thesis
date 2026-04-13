@@ -1,0 +1,49 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are clearly separated and presented in a numbered list, which improves readability and organization. This structure is effective for guiding the reader through the thesis objectives.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **7 tasks**, which complies with the requirement of having 5, 6, or 7 tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **complete research process**:
+        - Theoretical analysis (tasks 1, 2, 3),
+        - Practical research/experiments (tasks 4, 5, 6),
+        - Validation of results (task 7).
+        However, **validation lacks explicit comparison with prior studies or established benchmarks** (e.g., contrasting findings with other authors' results). The goal mentions *developing solutions*, but the tasks do not explicitly include **comparison with existing solutions** or **demonstration of practical problem-solving** beyond general analysis.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **one sentence long** and does not span multiple sentences, adhering to the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **do not consistently use infinitive verbs at the beginning**. Some start with verbs (e.g., *Noteikt*, *Izpētīt*), but others use noun phrases (e.g., *Apkopot steganogrāfijas un steganalīzes teorētiskos pamatus*). For consistency, infinitive verbs (e.g., *To analyze*, *To investigate*) would strengthen clarity and parallelism.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, but some phrasing could be more precise. For example:
+        - Task 4 (*'Pārbaudīt, kāda veida slēptā informācija var tikt izvietota DOCX formātā'*) could clarify **how** this will be tested (e.g., *'Investigate methods for embedding hidden data in DOCX files'*).
+        - Task 7 (*'Analizēt iegūtos rezultātus'*) lacks specificity about **how** results will be validated (e.g., *'Compare findings with existing steganalysis tools or benchmarks'*).
+        Overall, the language is concise but could be more action-oriented.",
+        "complies": false
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically contribute to the thesis goal** of investigating steganalysis for DOCX and developing security solutions. The sequence progresses from **theory → method exploration → experimentation → analysis**, which aligns with the goal. However, **task 7’s validation is vague**—it does not explicitly link to **comparing with existing solutions** or **solving a practical problem**, as required. For full compliance, tasks should explicitly include:
+        - A step to **compare with prior work** (e.g., *'Evaluate existing steganalysis tools for DOCX and benchmark against novel methods'*),
+        - A step to **demonstrate practical utility** (e.g., *'Test developed methods on real-world DOCX files to validate effectiveness'*).
+        ",
+        "complies": false
+    }
+]
+```

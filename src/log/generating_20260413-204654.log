@@ -1,0 +1,984 @@
+2026-04-13 20:46:54,969 - __main__ - INFO - STARTED
+2026-04-13 20:46:54,969 - src.code.functions - INFO - Imported prompt: REFINE_BEFORE_GOAL
+2026-04-13 20:46:54,969 - src.code.functions - INFO - Imported prompt: REFINE_GOAL_WITH_PRECEDING_TEXT
+2026-04-13 20:46:54,969 - src.code.functions - INFO - Imported prompt: REFINE_GOAL_WITHOUT_PRECEDING_TEXT
+2026-04-13 20:46:54,970 - src.code.functions - INFO - Imported prompt: REFINE_TASKS_WITH_GOAL
+2026-04-13 20:46:54,970 - src.code.functions - INFO - Imported prompt: REFINE_TASKS_WITHOUT_GOAL
+2026-04-13 20:46:54,970 - src.code.functions - INFO - Imported prompt: REFINE_AFTER_TASKS
+2026-04-13 20:46:54,975 - src.code.functions - INFO - get_texts executed
+2026-04-13 20:46:54,980 - src.code.functions - INFO - get_topics executed
+2026-04-13 20:46:54,982 - src.code.functions - INFO - prepare_prompts executed
+2026-04-13 20:46:55,011 - src.code.functions - INFO - used prompts saved to D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\initial_testing_01\prompts\
+2026-04-13 20:46:55,012 - __main__ - INFO - START PROMPTING 
+2026-04-13 20:46:55,012 - __main__ - INFO - Working on model 'qwen3.5-9b-q8'.
+2026-04-13 20:46:55,012 - __main__ - INFO - Thinking is: False. (Relevant only for ['qwen3.5-9b-q8', 'gemma4-26b-q4', 'ministral3-14b-q8'])
+2026-04-13 20:46:55,012 - __main__ - INFO - Temperature = 0.
+2026-04-13 20:46:55,012 - __main__ - INFO - Iteration Nr. 01
+2026-04-13 20:46:55,012 - __main__ - INFO - Text Nr. 1
+2026-04-13 20:46:55,012 - __main__ - INFO - BeforeGoal
+2026-04-13 20:47:37,995 - __main__ - INFO - Goal
+2026-04-13 20:47:52,504 - __main__ - INFO - Tasks
+2026-04-13 20:48:01,104 - __main__ - INFO - AfterTasks
+2026-04-13 20:48:05,369 - __main__ - INFO - Text Nr. 2
+2026-04-13 20:48:05,370 - __main__ - INFO - BeforeGoal
+2026-04-13 20:48:14,531 - __main__ - INFO - Goal
+2026-04-13 20:48:20,536 - __main__ - INFO - Tasks
+2026-04-13 20:48:32,914 - __main__ - INFO - AfterTasks
+2026-04-13 20:48:32,914 - __main__ - INFO - Text Nr. 3
+2026-04-13 20:48:32,915 - __main__ - INFO - BeforeGoal
+2026-04-13 20:48:40,453 - __main__ - INFO - Goal
+2026-04-13 20:48:47,598 - __main__ - INFO - Tasks
+2026-04-13 20:48:55,858 - __main__ - INFO - AfterTasks
+2026-04-13 20:49:01,878 - __main__ - INFO - Text Nr. 4
+2026-04-13 20:49:01,879 - __main__ - INFO - BeforeGoal
+2026-04-13 20:49:10,191 - __main__ - INFO - Goal
+2026-04-13 20:49:16,156 - __main__ - INFO - Tasks
+2026-04-13 20:49:24,027 - __main__ - INFO - AfterTasks
+2026-04-13 20:49:29,534 - __main__ - INFO - Text Nr. 5
+2026-04-13 20:49:29,534 - __main__ - INFO - BeforeGoal
+2026-04-13 20:49:40,085 - __main__ - INFO - Goal
+2026-04-13 20:49:51,327 - __main__ - INFO - Tasks
+2026-04-13 20:50:00,170 - __main__ - INFO - AfterTasks
+2026-04-13 20:50:05,485 - __main__ - INFO - Text Nr. 6
+2026-04-13 20:50:05,485 - __main__ - INFO - BeforeGoal
+2026-04-13 20:50:15,838 - __main__ - INFO - Goal
+2026-04-13 20:50:27,200 - __main__ - INFO - Tasks
+2026-04-13 20:50:35,561 - __main__ - INFO - AfterTasks
+2026-04-13 20:50:39,164 - __main__ - INFO - Text Nr. 7
+2026-04-13 20:50:39,164 - __main__ - INFO - BeforeGoal
+2026-04-13 20:50:48,675 - __main__ - INFO - Goal
+2026-04-13 20:50:54,891 - __main__ - INFO - Tasks
+2026-04-13 20:51:01,605 - __main__ - INFO - AfterTasks
+2026-04-13 20:51:06,633 - __main__ - INFO - Text Nr. 8
+2026-04-13 20:51:06,634 - __main__ - INFO - BeforeGoal
+2026-04-13 20:51:14,803 - __main__ - INFO - Goal
+2026-04-13 20:51:25,916 - __main__ - INFO - Tasks
+2026-04-13 20:51:41,253 - __main__ - INFO - AfterTasks
+2026-04-13 20:51:41,254 - __main__ - INFO - Text Nr. 9
+2026-04-13 20:51:41,254 - __main__ - INFO - BeforeGoal
+2026-04-13 20:51:41,254 - __main__ - INFO - Goal
+2026-04-13 20:51:46,819 - __main__ - INFO - Tasks
+2026-04-13 20:51:54,546 - __main__ - INFO - AfterTasks
+2026-04-13 20:51:59,452 - __main__ - INFO - Text Nr. 10
+2026-04-13 20:51:59,452 - __main__ - INFO - BeforeGoal
+2026-04-13 20:52:08,881 - __main__ - INFO - Goal
+2026-04-13 20:52:17,292 - __main__ - INFO - Tasks
+2026-04-13 20:52:25,368 - __main__ - INFO - AfterTasks
+2026-04-13 20:52:29,407 - __main__ - INFO - Text Nr. 11
+2026-04-13 20:52:29,408 - __main__ - INFO - BeforeGoal
+2026-04-13 20:52:36,718 - __main__ - INFO - Goal
+2026-04-13 20:52:44,154 - __main__ - INFO - Tasks
+2026-04-13 20:52:52,750 - __main__ - INFO - AfterTasks
+2026-04-13 20:52:52,751 - __main__ - INFO - Text Nr. 12
+2026-04-13 20:52:52,751 - __main__ - INFO - BeforeGoal
+2026-04-13 20:53:04,770 - __main__ - INFO - Goal
+2026-04-13 20:53:16,634 - __main__ - INFO - Tasks
+2026-04-13 20:53:25,040 - __main__ - INFO - AfterTasks
+2026-04-13 20:53:25,041 - __main__ - INFO - Text Nr. 13
+2026-04-13 20:53:25,041 - __main__ - INFO - BeforeGoal
+2026-04-13 20:53:33,721 - __main__ - INFO - Goal
+2026-04-13 20:53:43,802 - __main__ - INFO - Tasks
+2026-04-13 20:53:53,217 - __main__ - INFO - AfterTasks
+2026-04-13 20:53:56,760 - __main__ - INFO - Text Nr. 14
+2026-04-13 20:53:56,761 - __main__ - INFO - BeforeGoal
+2026-04-13 20:53:56,761 - __main__ - INFO - Goal
+2026-04-13 20:54:01,632 - __main__ - INFO - Tasks
+2026-04-13 20:54:10,068 - __main__ - INFO - AfterTasks
+2026-04-13 20:54:15,225 - __main__ - INFO - Text Nr. 15
+2026-04-13 20:54:15,226 - __main__ - INFO - BeforeGoal
+2026-04-13 20:54:24,787 - __main__ - INFO - Goal
+2026-04-13 20:54:32,057 - __main__ - INFO - Tasks
+2026-04-13 20:54:42,111 - __main__ - INFO - AfterTasks
+2026-04-13 20:54:46,137 - __main__ - INFO - Text Nr. 16
+2026-04-13 20:54:46,137 - __main__ - INFO - BeforeGoal
+2026-04-13 20:54:56,837 - __main__ - INFO - Goal
+2026-04-13 20:55:09,570 - __main__ - INFO - Tasks
+2026-04-13 20:55:18,044 - __main__ - INFO - AfterTasks
+2026-04-13 20:55:18,047 - __main__ - INFO - Text Nr. 17
+2026-04-13 20:55:18,047 - __main__ - INFO - BeforeGoal
+2026-04-13 20:55:27,609 - __main__ - INFO - Goal
+2026-04-13 20:55:33,988 - __main__ - INFO - Tasks
+2026-04-13 20:55:43,976 - __main__ - INFO - AfterTasks
+2026-04-13 20:55:49,676 - __main__ - INFO - Text Nr. 18
+2026-04-13 20:55:49,677 - __main__ - INFO - BeforeGoal
+2026-04-13 20:56:01,283 - __main__ - INFO - Goal
+2026-04-13 20:56:11,623 - __main__ - INFO - Tasks
+2026-04-13 20:56:19,879 - __main__ - INFO - AfterTasks
+2026-04-13 20:56:19,880 - __main__ - INFO - Text Nr. 19
+2026-04-13 20:56:19,880 - __main__ - INFO - BeforeGoal
+2026-04-13 20:56:30,040 - __main__ - INFO - Goal
+2026-04-13 20:56:38,803 - __main__ - INFO - Tasks
+2026-04-13 20:56:46,907 - __main__ - INFO - AfterTasks
+2026-04-13 20:56:51,008 - __main__ - INFO - Text Nr. 20
+2026-04-13 20:56:51,008 - __main__ - INFO - BeforeGoal
+2026-04-13 20:57:00,214 - __main__ - INFO - Goal
+2026-04-13 20:57:07,129 - __main__ - INFO - Tasks
+2026-04-13 20:57:14,854 - __main__ - INFO - AfterTasks
+2026-04-13 20:57:19,552 - __main__ - INFO - Text Nr. 21
+2026-04-13 20:57:19,553 - __main__ - INFO - BeforeGoal
+2026-04-13 20:57:19,553 - __main__ - INFO - Goal
+2026-04-13 20:57:23,214 - __main__ - INFO - Tasks
+2026-04-13 20:57:32,306 - __main__ - INFO - AfterTasks
+2026-04-13 20:57:38,809 - __main__ - INFO - Text Nr. 22
+2026-04-13 20:57:38,809 - __main__ - INFO - BeforeGoal
+2026-04-13 20:57:46,582 - __main__ - INFO - Goal
+2026-04-13 20:57:55,073 - __main__ - INFO - Tasks
+2026-04-13 20:58:03,876 - __main__ - INFO - AfterTasks
+2026-04-13 20:58:07,822 - __main__ - INFO - Text Nr. 23
+2026-04-13 20:58:07,823 - __main__ - INFO - BeforeGoal
+2026-04-13 20:58:19,495 - __main__ - INFO - Goal
+2026-04-13 20:58:27,764 - __main__ - INFO - Tasks
+2026-04-13 20:58:35,939 - __main__ - INFO - AfterTasks
+2026-04-13 20:58:35,941 - __main__ - INFO - Text Nr. 24
+2026-04-13 20:58:35,941 - __main__ - INFO - BeforeGoal
+2026-04-13 20:58:45,629 - __main__ - INFO - Goal
+2026-04-13 20:58:52,576 - __main__ - INFO - Tasks
+2026-04-13 20:59:00,884 - __main__ - INFO - AfterTasks
+2026-04-13 20:59:04,620 - __main__ - INFO - Text Nr. 25
+2026-04-13 20:59:04,622 - __main__ - INFO - BeforeGoal
+2026-04-13 20:59:15,359 - __main__ - INFO - Goal
+2026-04-13 20:59:23,613 - __main__ - INFO - Tasks
+2026-04-13 20:59:32,311 - __main__ - INFO - AfterTasks
+2026-04-13 20:59:38,409 - __main__ - INFO - Text Nr. 26
+2026-04-13 20:59:38,410 - __main__ - INFO - BeforeGoal
+2026-04-13 20:59:50,321 - __main__ - INFO - Goal
+2026-04-13 21:00:00,036 - __main__ - INFO - Tasks
+2026-04-13 21:00:08,941 - __main__ - INFO - AfterTasks
+2026-04-13 21:00:14,304 - __main__ - INFO - Text Nr. 27
+2026-04-13 21:00:14,305 - __main__ - INFO - BeforeGoal
+2026-04-13 21:00:20,326 - __main__ - INFO - Goal
+2026-04-13 21:00:20,326 - __main__ - INFO - Tasks
+2026-04-13 21:00:20,327 - __main__ - INFO - AfterTasks
+2026-04-13 21:00:20,327 - __main__ - INFO - Text Nr. 28
+2026-04-13 21:00:20,327 - __main__ - INFO - BeforeGoal
+2026-04-13 21:00:29,767 - __main__ - INFO - Goal
+2026-04-13 21:00:37,056 - __main__ - INFO - Tasks
+2026-04-13 21:00:45,591 - __main__ - INFO - AfterTasks
+2026-04-13 21:00:50,150 - __main__ - INFO - Text Nr. 29
+2026-04-13 21:00:50,152 - __main__ - INFO - BeforeGoal
+2026-04-13 21:01:00,569 - __main__ - INFO - Goal
+2026-04-13 21:01:00,570 - __main__ - INFO - Tasks
+2026-04-13 21:01:00,570 - __main__ - INFO - AfterTasks
+2026-04-13 21:01:00,571 - __main__ - INFO - Text Nr. 30
+2026-04-13 21:01:00,572 - __main__ - INFO - BeforeGoal
+2026-04-13 21:01:09,833 - __main__ - INFO - Goal
+2026-04-13 21:01:16,881 - __main__ - INFO - Tasks
+2026-04-13 21:01:25,277 - __main__ - INFO - AfterTasks
+2026-04-13 21:01:25,277 - __main__ - INFO - Text Nr. 31
+2026-04-13 21:01:25,277 - __main__ - INFO - BeforeGoal
+2026-04-13 21:01:33,645 - __main__ - INFO - Goal
+2026-04-13 21:01:33,646 - __main__ - INFO - Tasks
+2026-04-13 21:01:39,943 - __main__ - INFO - AfterTasks
+2026-04-13 21:01:44,412 - __main__ - INFO - Text Nr. 32
+2026-04-13 21:01:44,412 - __main__ - INFO - BeforeGoal
+2026-04-13 21:01:52,392 - __main__ - INFO - Goal
+2026-04-13 21:02:04,237 - __main__ - INFO - Tasks
+2026-04-13 21:02:12,382 - __main__ - INFO - AfterTasks
+2026-04-13 21:02:16,266 - __main__ - INFO - Text Nr. 33
+2026-04-13 21:02:16,266 - __main__ - INFO - BeforeGoal
+2026-04-13 21:02:25,458 - __main__ - INFO - Goal
+2026-04-13 21:02:34,999 - __main__ - INFO - Tasks
+2026-04-13 21:02:43,242 - __main__ - INFO - AfterTasks
+2026-04-13 21:02:47,703 - __main__ - INFO - Text Nr. 34
+2026-04-13 21:02:47,704 - __main__ - INFO - BeforeGoal
+2026-04-13 21:02:57,309 - __main__ - INFO - Goal
+2026-04-13 21:03:05,394 - __main__ - INFO - Tasks
+2026-04-13 21:03:13,584 - __main__ - INFO - AfterTasks
+2026-04-13 21:03:13,584 - __main__ - INFO - Text Nr. 35
+2026-04-13 21:03:13,585 - __main__ - INFO - BeforeGoal
+2026-04-13 21:03:23,363 - __main__ - INFO - Goal
+2026-04-13 21:03:31,705 - __main__ - INFO - Tasks
+2026-04-13 21:03:39,429 - __main__ - INFO - AfterTasks
+2026-04-13 21:03:44,711 - __main__ - INFO - Text Nr. 36
+2026-04-13 21:03:44,711 - __main__ - INFO - BeforeGoal
+2026-04-13 21:03:53,760 - __main__ - INFO - Goal
+2026-04-13 21:04:02,215 - __main__ - INFO - Tasks
+2026-04-13 21:04:10,529 - __main__ - INFO - AfterTasks
+2026-04-13 21:04:15,395 - __main__ - INFO - Text Nr. 37
+2026-04-13 21:04:15,395 - __main__ - INFO - BeforeGoal
+2026-04-13 21:04:27,820 - __main__ - INFO - Goal
+2026-04-13 21:04:38,928 - __main__ - INFO - Tasks
+2026-04-13 21:04:47,521 - __main__ - INFO - AfterTasks
+2026-04-13 21:04:47,522 - __main__ - INFO - Text Nr. 38
+2026-04-13 21:04:47,522 - __main__ - INFO - BeforeGoal
+2026-04-13 21:04:56,411 - __main__ - INFO - Goal
+2026-04-13 21:05:07,856 - __main__ - INFO - Tasks
+2026-04-13 21:05:15,344 - __main__ - INFO - AfterTasks
+2026-04-13 21:05:15,345 - __main__ - INFO - Text Nr. 39
+2026-04-13 21:05:15,345 - __main__ - INFO - BeforeGoal
+2026-04-13 21:05:24,407 - __main__ - INFO - Goal
+2026-04-13 21:05:30,907 - __main__ - INFO - Tasks
+2026-04-13 21:05:38,909 - __main__ - INFO - AfterTasks
+2026-04-13 21:05:42,623 - __main__ - INFO - Text Nr. 40
+2026-04-13 21:05:42,623 - __main__ - INFO - BeforeGoal
+2026-04-13 21:05:42,624 - __main__ - INFO - Goal
+2026-04-13 21:05:48,532 - __main__ - INFO - Tasks
+2026-04-13 21:05:57,410 - __main__ - INFO - AfterTasks
+2026-04-13 21:06:02,963 - __main__ - INFO - Text Nr. 41
+2026-04-13 21:06:02,964 - __main__ - INFO - BeforeGoal
+2026-04-13 21:06:10,992 - __main__ - INFO - Goal
+2026-04-13 21:06:18,659 - __main__ - INFO - Tasks
+2026-04-13 21:06:26,123 - __main__ - INFO - AfterTasks
+2026-04-13 21:06:30,141 - __main__ - INFO - Text Nr. 42
+2026-04-13 21:06:30,141 - __main__ - INFO - BeforeGoal
+2026-04-13 21:06:38,889 - __main__ - INFO - Goal
+2026-04-13 21:06:46,468 - __main__ - INFO - Tasks
+2026-04-13 21:06:55,454 - __main__ - INFO - AfterTasks
+2026-04-13 21:06:59,927 - __main__ - INFO - Text Nr. 43
+2026-04-13 21:06:59,928 - __main__ - INFO - BeforeGoal
+2026-04-13 21:07:10,399 - __main__ - INFO - Goal
+2026-04-13 21:07:17,075 - __main__ - INFO - Tasks
+2026-04-13 21:07:24,870 - __main__ - INFO - AfterTasks
+2026-04-13 21:07:29,747 - __main__ - INFO - Text Nr. 44
+2026-04-13 21:07:29,747 - __main__ - INFO - BeforeGoal
+2026-04-13 21:07:38,769 - __main__ - INFO - Goal
+2026-04-13 21:07:50,031 - __main__ - INFO - Tasks
+2026-04-13 21:07:58,791 - __main__ - INFO - AfterTasks
+2026-04-13 21:07:58,791 - __main__ - INFO - Text Nr. 45
+2026-04-13 21:07:58,792 - __main__ - INFO - BeforeGoal
+2026-04-13 21:08:08,532 - __main__ - INFO - Goal
+2026-04-13 21:08:15,610 - __main__ - INFO - Tasks
+2026-04-13 21:08:24,477 - __main__ - INFO - AfterTasks
+2026-04-13 21:08:24,477 - __main__ - INFO - Text Nr. 46
+2026-04-13 21:08:24,479 - __main__ - INFO - BeforeGoal
+2026-04-13 21:08:33,381 - __main__ - INFO - Goal
+2026-04-13 21:08:39,447 - __main__ - INFO - Tasks
+2026-04-13 21:08:47,566 - __main__ - INFO - AfterTasks
+2026-04-13 21:08:47,566 - __main__ - INFO - Text Nr. 47
+2026-04-13 21:08:47,566 - __main__ - INFO - BeforeGoal
+2026-04-13 21:08:47,566 - __main__ - INFO - Goal
+2026-04-13 21:08:52,781 - __main__ - INFO - Tasks
+2026-04-13 21:09:01,116 - __main__ - INFO - AfterTasks
+2026-04-13 21:09:05,344 - __main__ - INFO - Text Nr. 48
+2026-04-13 21:09:05,345 - __main__ - INFO - BeforeGoal
+2026-04-13 21:09:14,009 - __main__ - INFO - Goal
+2026-04-13 21:09:21,724 - __main__ - INFO - Tasks
+2026-04-13 21:09:29,711 - __main__ - INFO - AfterTasks
+2026-04-13 21:09:34,625 - __main__ - INFO - Text Nr. 49
+2026-04-13 21:09:34,626 - __main__ - INFO - BeforeGoal
+2026-04-13 21:09:34,626 - __main__ - INFO - Goal
+2026-04-13 21:09:41,607 - __main__ - INFO - Tasks
+2026-04-13 21:09:49,385 - __main__ - INFO - AfterTasks
+2026-04-13 21:09:54,189 - __main__ - INFO - Text Nr. 50
+2026-04-13 21:09:54,189 - __main__ - INFO - BeforeGoal
+2026-04-13 21:10:03,666 - __main__ - INFO - Goal
+2026-04-13 21:10:10,618 - __main__ - INFO - Tasks
+2026-04-13 21:10:19,071 - __main__ - INFO - AfterTasks
+2026-04-13 21:10:23,528 - __main__ - INFO - Text Nr. 51
+2026-04-13 21:10:23,529 - __main__ - INFO - BeforeGoal
+2026-04-13 21:10:31,920 - __main__ - INFO - Goal
+2026-04-13 21:10:38,298 - __main__ - INFO - Tasks
+2026-04-13 21:10:46,789 - __main__ - INFO - AfterTasks
+2026-04-13 21:10:46,790 - __main__ - INFO - Text Nr. 52
+2026-04-13 21:10:46,790 - __main__ - INFO - BeforeGoal
+2026-04-13 21:10:54,357 - __main__ - INFO - Goal
+2026-04-13 21:10:54,363 - __main__ - INFO - Tasks
+2026-04-13 21:11:01,998 - __main__ - INFO - AfterTasks
+2026-04-13 21:11:05,896 - __main__ - INFO - Text Nr. 53
+2026-04-13 21:11:05,896 - __main__ - INFO - BeforeGoal
+2026-04-13 21:11:15,510 - __main__ - INFO - Goal
+2026-04-13 21:11:25,249 - __main__ - INFO - Tasks
+2026-04-13 21:11:33,652 - __main__ - INFO - AfterTasks
+2026-04-13 21:11:33,652 - __main__ - INFO - Text Nr. 54
+2026-04-13 21:11:33,652 - __main__ - INFO - BeforeGoal
+2026-04-13 21:11:41,730 - __main__ - INFO - Goal
+2026-04-13 21:11:51,145 - __main__ - INFO - Tasks
+2026-04-13 21:11:59,992 - __main__ - INFO - AfterTasks
+2026-04-13 21:12:03,990 - __main__ - INFO - Text Nr. 55
+2026-04-13 21:12:03,990 - __main__ - INFO - BeforeGoal
+2026-04-13 21:12:12,494 - __main__ - INFO - Goal
+2026-04-13 21:12:23,641 - __main__ - INFO - Tasks
+2026-04-13 21:12:31,598 - __main__ - INFO - AfterTasks
+2026-04-13 21:12:31,598 - __main__ - INFO - Text Nr. 56
+2026-04-13 21:12:31,599 - __main__ - INFO - BeforeGoal
+2026-04-13 21:12:39,519 - __main__ - INFO - Goal
+2026-04-13 21:12:39,521 - __main__ - INFO - Tasks
+2026-04-13 21:12:39,521 - __main__ - INFO - AfterTasks
+2026-04-13 21:12:39,521 - __main__ - INFO - Text Nr. 57
+2026-04-13 21:12:39,521 - __main__ - INFO - BeforeGoal
+2026-04-13 21:12:45,951 - __main__ - INFO - Goal
+2026-04-13 21:12:55,547 - __main__ - INFO - Tasks
+2026-04-13 21:13:03,129 - __main__ - INFO - AfterTasks
+2026-04-13 21:13:03,129 - __main__ - INFO - Text Nr. 58
+2026-04-13 21:13:03,129 - __main__ - INFO - BeforeGoal
+2026-04-13 21:13:10,458 - __main__ - INFO - Goal
+2026-04-13 21:13:10,459 - __main__ - INFO - Tasks
+2026-04-13 21:13:10,459 - __main__ - INFO - AfterTasks
+2026-04-13 21:13:10,459 - __main__ - INFO - Text Nr. 59
+2026-04-13 21:13:10,459 - __main__ - INFO - BeforeGoal
+2026-04-13 21:13:21,585 - __main__ - INFO - Goal
+2026-04-13 21:13:29,476 - __main__ - INFO - Tasks
+2026-04-13 21:13:37,724 - __main__ - INFO - AfterTasks
+2026-04-13 21:13:42,202 - __main__ - INFO - Text Nr. 60
+2026-04-13 21:13:42,202 - __main__ - INFO - BeforeGoal
+2026-04-13 21:13:51,222 - __main__ - INFO - Goal
+2026-04-13 21:14:01,519 - __main__ - INFO - Tasks
+2026-04-13 21:14:09,530 - __main__ - INFO - AfterTasks
+2026-04-13 21:14:13,657 - __main__ - INFO - Text Nr. 61
+2026-04-13 21:14:13,658 - __main__ - INFO - BeforeGoal
+2026-04-13 21:14:22,427 - __main__ - INFO - Goal
+2026-04-13 21:14:28,321 - __main__ - INFO - Tasks
+2026-04-13 21:14:36,198 - __main__ - INFO - AfterTasks
+2026-04-13 21:14:36,207 - __main__ - INFO - Text Nr. 62
+2026-04-13 21:14:36,207 - __main__ - INFO - BeforeGoal
+2026-04-13 21:14:46,315 - __main__ - INFO - Goal
+2026-04-13 21:14:54,142 - __main__ - INFO - Tasks
+2026-04-13 21:15:02,920 - __main__ - INFO - AfterTasks
+2026-04-13 21:15:07,477 - __main__ - INFO - Text Nr. 63
+2026-04-13 21:15:07,477 - __main__ - INFO - BeforeGoal
+2026-04-13 21:15:15,163 - __main__ - INFO - Goal
+2026-04-13 21:15:20,507 - __main__ - INFO - Tasks
+2026-04-13 21:15:28,396 - __main__ - INFO - AfterTasks
+2026-04-13 21:15:34,070 - __main__ - INFO - Text Nr. 64
+2026-04-13 21:15:34,071 - __main__ - INFO - BeforeGoal
+2026-04-13 21:15:43,611 - __main__ - INFO - Goal
+2026-04-13 21:15:54,463 - __main__ - INFO - Tasks
+2026-04-13 21:16:02,701 - __main__ - INFO - AfterTasks
+2026-04-13 21:16:02,701 - __main__ - INFO - Working on model 'gemma4-26b-q4'.
+2026-04-13 21:16:02,701 - __main__ - INFO - Thinking is: False. (Relevant only for ['qwen3.5-9b-q8', 'gemma4-26b-q4', 'ministral3-14b-q8'])
+2026-04-13 21:16:02,701 - __main__ - INFO - Temperature = 0.
+2026-04-13 21:16:02,701 - __main__ - INFO - Iteration Nr. 01
+2026-04-13 21:16:02,701 - __main__ - INFO - Text Nr. 1
+2026-04-13 21:16:02,701 - __main__ - INFO - BeforeGoal
+2026-04-13 21:16:53,862 - __main__ - INFO - Goal
+2026-04-13 21:16:58,916 - __main__ - INFO - Tasks
+2026-04-13 21:17:04,323 - __main__ - INFO - AfterTasks
+2026-04-13 21:17:07,015 - __main__ - INFO - Text Nr. 2
+2026-04-13 21:17:07,015 - __main__ - INFO - BeforeGoal
+2026-04-13 21:17:12,936 - __main__ - INFO - Goal
+2026-04-13 21:17:17,357 - __main__ - INFO - Tasks
+2026-04-13 21:17:22,626 - __main__ - INFO - AfterTasks
+2026-04-13 21:17:22,627 - __main__ - INFO - Text Nr. 3
+2026-04-13 21:17:22,627 - __main__ - INFO - BeforeGoal
+2026-04-13 21:17:28,120 - __main__ - INFO - Goal
+2026-04-13 21:17:31,923 - __main__ - INFO - Tasks
+2026-04-13 21:17:37,104 - __main__ - INFO - AfterTasks
+2026-04-13 21:17:40,130 - __main__ - INFO - Text Nr. 4
+2026-04-13 21:17:40,140 - __main__ - INFO - BeforeGoal
+2026-04-13 21:17:46,526 - __main__ - INFO - Goal
+2026-04-13 21:17:51,142 - __main__ - INFO - Tasks
+2026-04-13 21:17:56,149 - __main__ - INFO - AfterTasks
+2026-04-13 21:18:00,276 - __main__ - INFO - Text Nr. 5
+2026-04-13 21:18:00,288 - __main__ - INFO - BeforeGoal
+2026-04-13 21:18:06,755 - __main__ - INFO - Goal
+2026-04-13 21:18:11,833 - __main__ - INFO - Tasks
+2026-04-13 21:18:16,909 - __main__ - INFO - AfterTasks
+2026-04-13 21:18:20,060 - __main__ - INFO - Text Nr. 6
+2026-04-13 21:18:20,061 - __main__ - INFO - BeforeGoal
+2026-04-13 21:18:25,808 - __main__ - INFO - Goal
+2026-04-13 21:18:30,305 - __main__ - INFO - Tasks
+2026-04-13 21:18:35,594 - __main__ - INFO - AfterTasks
+2026-04-13 21:18:38,212 - __main__ - INFO - Text Nr. 7
+2026-04-13 21:18:38,212 - __main__ - INFO - BeforeGoal
+2026-04-13 21:18:44,707 - __main__ - INFO - Goal
+2026-04-13 21:18:49,356 - __main__ - INFO - Tasks
+2026-04-13 21:18:54,204 - __main__ - INFO - AfterTasks
+2026-04-13 21:18:57,675 - __main__ - INFO - Text Nr. 8
+2026-04-13 21:18:57,676 - __main__ - INFO - BeforeGoal
+2026-04-13 21:19:03,131 - __main__ - INFO - Goal
+2026-04-13 21:19:07,459 - __main__ - INFO - Tasks
+2026-04-13 21:19:12,756 - __main__ - INFO - AfterTasks
+2026-04-13 21:19:12,757 - __main__ - INFO - Text Nr. 9
+2026-04-13 21:19:12,757 - __main__ - INFO - BeforeGoal
+2026-04-13 21:19:12,757 - __main__ - INFO - Goal
+2026-04-13 21:19:15,633 - __main__ - INFO - Tasks
+2026-04-13 21:19:21,165 - __main__ - INFO - AfterTasks
+2026-04-13 21:19:24,382 - __main__ - INFO - Text Nr. 10
+2026-04-13 21:19:24,382 - __main__ - INFO - BeforeGoal
+2026-04-13 21:19:29,797 - __main__ - INFO - Goal
+2026-04-13 21:19:35,020 - __main__ - INFO - Tasks
+2026-04-13 21:19:40,733 - __main__ - INFO - AfterTasks
+2026-04-13 21:19:44,104 - __main__ - INFO - Text Nr. 11
+2026-04-13 21:19:44,104 - __main__ - INFO - BeforeGoal
+2026-04-13 21:19:49,459 - __main__ - INFO - Goal
+2026-04-13 21:19:53,974 - __main__ - INFO - Tasks
+2026-04-13 21:20:00,655 - __main__ - INFO - AfterTasks
+2026-04-13 21:20:00,656 - __main__ - INFO - Text Nr. 12
+2026-04-13 21:20:00,656 - __main__ - INFO - BeforeGoal
+2026-04-13 21:20:07,647 - __main__ - INFO - Goal
+2026-04-13 21:20:12,739 - __main__ - INFO - Tasks
+2026-04-13 21:20:17,924 - __main__ - INFO - AfterTasks
+2026-04-13 21:20:17,925 - __main__ - INFO - Text Nr. 13
+2026-04-13 21:20:17,925 - __main__ - INFO - BeforeGoal
+2026-04-13 21:20:23,973 - __main__ - INFO - Goal
+2026-04-13 21:20:28,509 - __main__ - INFO - Tasks
+2026-04-13 21:20:34,230 - __main__ - INFO - AfterTasks
+2026-04-13 21:20:36,851 - __main__ - INFO - Text Nr. 14
+2026-04-13 21:20:36,851 - __main__ - INFO - BeforeGoal
+2026-04-13 21:20:36,851 - __main__ - INFO - Goal
+2026-04-13 21:20:40,214 - __main__ - INFO - Tasks
+2026-04-13 21:20:45,668 - __main__ - INFO - AfterTasks
+2026-04-13 21:20:49,846 - __main__ - INFO - Text Nr. 15
+2026-04-13 21:20:49,846 - __main__ - INFO - BeforeGoal
+2026-04-13 21:20:56,073 - __main__ - INFO - Goal
+2026-04-13 21:21:00,893 - __main__ - INFO - Tasks
+2026-04-13 21:21:06,265 - __main__ - INFO - AfterTasks
+2026-04-13 21:21:09,237 - __main__ - INFO - Text Nr. 16
+2026-04-13 21:21:09,237 - __main__ - INFO - BeforeGoal
+2026-04-13 21:21:15,685 - __main__ - INFO - Goal
+2026-04-13 21:21:20,433 - __main__ - INFO - Tasks
+2026-04-13 21:21:26,088 - __main__ - INFO - AfterTasks
+2026-04-13 21:21:26,089 - __main__ - INFO - Text Nr. 17
+2026-04-13 21:21:26,089 - __main__ - INFO - BeforeGoal
+2026-04-13 21:21:31,713 - __main__ - INFO - Goal
+2026-04-13 21:21:35,898 - __main__ - INFO - Tasks
+2026-04-13 21:21:40,904 - __main__ - INFO - AfterTasks
+2026-04-13 21:21:44,207 - __main__ - INFO - Text Nr. 18
+2026-04-13 21:21:44,207 - __main__ - INFO - BeforeGoal
+2026-04-13 21:21:51,464 - __main__ - INFO - Goal
+2026-04-13 21:21:57,980 - __main__ - INFO - Tasks
+2026-04-13 21:22:03,233 - __main__ - INFO - AfterTasks
+2026-04-13 21:22:03,233 - __main__ - INFO - Text Nr. 19
+2026-04-13 21:22:03,234 - __main__ - INFO - BeforeGoal
+2026-04-13 21:22:08,182 - __main__ - INFO - Goal
+2026-04-13 21:22:13,579 - __main__ - INFO - Tasks
+2026-04-13 21:22:18,966 - __main__ - INFO - AfterTasks
+2026-04-13 21:22:21,333 - __main__ - INFO - Text Nr. 20
+2026-04-13 21:22:21,334 - __main__ - INFO - BeforeGoal
+2026-04-13 21:22:26,322 - __main__ - INFO - Goal
+2026-04-13 21:22:30,459 - __main__ - INFO - Tasks
+2026-04-13 21:22:35,656 - __main__ - INFO - AfterTasks
+2026-04-13 21:22:38,199 - __main__ - INFO - Text Nr. 21
+2026-04-13 21:22:38,201 - __main__ - INFO - BeforeGoal
+2026-04-13 21:22:38,201 - __main__ - INFO - Goal
+2026-04-13 21:22:41,255 - __main__ - INFO - Tasks
+2026-04-13 21:22:46,703 - __main__ - INFO - AfterTasks
+2026-04-13 21:22:51,211 - __main__ - INFO - Text Nr. 22
+2026-04-13 21:22:51,211 - __main__ - INFO - BeforeGoal
+2026-04-13 21:22:57,018 - __main__ - INFO - Goal
+2026-04-13 21:23:02,235 - __main__ - INFO - Tasks
+2026-04-13 21:23:07,571 - __main__ - INFO - AfterTasks
+2026-04-13 21:23:10,640 - __main__ - INFO - Text Nr. 23
+2026-04-13 21:23:10,640 - __main__ - INFO - BeforeGoal
+2026-04-13 21:23:17,326 - __main__ - INFO - Goal
+2026-04-13 21:23:22,761 - __main__ - INFO - Tasks
+2026-04-13 21:23:28,225 - __main__ - INFO - AfterTasks
+2026-04-13 21:23:28,225 - __main__ - INFO - Text Nr. 24
+2026-04-13 21:23:28,226 - __main__ - INFO - BeforeGoal
+2026-04-13 21:23:34,381 - __main__ - INFO - Goal
+2026-04-13 21:23:39,266 - __main__ - INFO - Tasks
+2026-04-13 21:23:44,410 - __main__ - INFO - AfterTasks
+2026-04-13 21:23:47,020 - __main__ - INFO - Text Nr. 25
+2026-04-13 21:23:47,021 - __main__ - INFO - BeforeGoal
+2026-04-13 21:23:52,808 - __main__ - INFO - Goal
+2026-04-13 21:23:57,069 - __main__ - INFO - Tasks
+2026-04-13 21:24:02,770 - __main__ - INFO - AfterTasks
+2026-04-13 21:24:06,051 - __main__ - INFO - Text Nr. 26
+2026-04-13 21:24:06,052 - __main__ - INFO - BeforeGoal
+2026-04-13 21:24:13,044 - __main__ - INFO - Goal
+2026-04-13 21:24:17,774 - __main__ - INFO - Tasks
+2026-04-13 21:24:22,791 - __main__ - INFO - AfterTasks
+2026-04-13 21:24:25,983 - __main__ - INFO - Text Nr. 27
+2026-04-13 21:24:25,984 - __main__ - INFO - BeforeGoal
+2026-04-13 21:24:29,890 - __main__ - INFO - Goal
+2026-04-13 21:24:29,890 - __main__ - INFO - Tasks
+2026-04-13 21:24:29,890 - __main__ - INFO - AfterTasks
+2026-04-13 21:24:29,891 - __main__ - INFO - Text Nr. 28
+2026-04-13 21:24:29,891 - __main__ - INFO - BeforeGoal
+2026-04-13 21:24:35,886 - __main__ - INFO - Goal
+2026-04-13 21:24:40,402 - __main__ - INFO - Tasks
+2026-04-13 21:24:45,488 - __main__ - INFO - AfterTasks
+2026-04-13 21:24:48,448 - __main__ - INFO - Text Nr. 29
+2026-04-13 21:24:48,449 - __main__ - INFO - BeforeGoal
+2026-04-13 21:24:55,481 - __main__ - INFO - Goal
+2026-04-13 21:24:55,482 - __main__ - INFO - Tasks
+2026-04-13 21:24:55,482 - __main__ - INFO - AfterTasks
+2026-04-13 21:24:55,482 - __main__ - INFO - Text Nr. 30
+2026-04-13 21:24:55,482 - __main__ - INFO - BeforeGoal
+2026-04-13 21:25:01,805 - __main__ - INFO - Goal
+2026-04-13 21:25:06,628 - __main__ - INFO - Tasks
+2026-04-13 21:25:12,097 - __main__ - INFO - AfterTasks
+2026-04-13 21:25:12,097 - __main__ - INFO - Text Nr. 31
+2026-04-13 21:25:12,097 - __main__ - INFO - BeforeGoal
+2026-04-13 21:25:17,760 - __main__ - INFO - Goal
+2026-04-13 21:25:17,761 - __main__ - INFO - Tasks
+2026-04-13 21:25:22,881 - __main__ - INFO - AfterTasks
+2026-04-13 21:25:25,719 - __main__ - INFO - Text Nr. 32
+2026-04-13 21:25:25,720 - __main__ - INFO - BeforeGoal
+2026-04-13 21:25:31,265 - __main__ - INFO - Goal
+2026-04-13 21:25:35,578 - __main__ - INFO - Tasks
+2026-04-13 21:25:40,709 - __main__ - INFO - AfterTasks
+2026-04-13 21:25:43,545 - __main__ - INFO - Text Nr. 33
+2026-04-13 21:25:43,545 - __main__ - INFO - BeforeGoal
+2026-04-13 21:25:49,423 - __main__ - INFO - Goal
+2026-04-13 21:25:53,623 - __main__ - INFO - Tasks
+2026-04-13 21:25:58,815 - __main__ - INFO - AfterTasks
+2026-04-13 21:26:01,853 - __main__ - INFO - Text Nr. 34
+2026-04-13 21:26:01,854 - __main__ - INFO - BeforeGoal
+2026-04-13 21:26:07,256 - __main__ - INFO - Goal
+2026-04-13 21:26:11,696 - __main__ - INFO - Tasks
+2026-04-13 21:26:17,175 - __main__ - INFO - AfterTasks
+2026-04-13 21:26:17,175 - __main__ - INFO - Text Nr. 35
+2026-04-13 21:26:17,175 - __main__ - INFO - BeforeGoal
+2026-04-13 21:26:23,386 - __main__ - INFO - Goal
+2026-04-13 21:26:28,300 - __main__ - INFO - Tasks
+2026-04-13 21:26:33,421 - __main__ - INFO - AfterTasks
+2026-04-13 21:26:36,274 - __main__ - INFO - Text Nr. 36
+2026-04-13 21:26:36,279 - __main__ - INFO - BeforeGoal
+2026-04-13 21:26:42,126 - __main__ - INFO - Goal
+2026-04-13 21:26:46,694 - __main__ - INFO - Tasks
+2026-04-13 21:26:51,739 - __main__ - INFO - AfterTasks
+2026-04-13 21:26:54,954 - __main__ - INFO - Text Nr. 37
+2026-04-13 21:26:54,954 - __main__ - INFO - BeforeGoal
+2026-04-13 21:27:00,844 - __main__ - INFO - Goal
+2026-04-13 21:27:06,165 - __main__ - INFO - Tasks
+2026-04-13 21:27:11,579 - __main__ - INFO - AfterTasks
+2026-04-13 21:27:11,580 - __main__ - INFO - Text Nr. 38
+2026-04-13 21:27:11,580 - __main__ - INFO - BeforeGoal
+2026-04-13 21:27:18,277 - __main__ - INFO - Goal
+2026-04-13 21:27:23,136 - __main__ - INFO - Tasks
+2026-04-13 21:27:28,168 - __main__ - INFO - AfterTasks
+2026-04-13 21:27:28,173 - __main__ - INFO - Text Nr. 39
+2026-04-13 21:27:28,173 - __main__ - INFO - BeforeGoal
+2026-04-13 21:27:33,666 - __main__ - INFO - Goal
+2026-04-13 21:27:37,652 - __main__ - INFO - Tasks
+2026-04-13 21:27:43,157 - __main__ - INFO - AfterTasks
+2026-04-13 21:27:45,646 - __main__ - INFO - Text Nr. 40
+2026-04-13 21:27:45,648 - __main__ - INFO - BeforeGoal
+2026-04-13 21:27:45,648 - __main__ - INFO - Goal
+2026-04-13 21:27:48,936 - __main__ - INFO - Tasks
+2026-04-13 21:27:54,380 - __main__ - INFO - AfterTasks
+2026-04-13 21:27:57,694 - __main__ - INFO - Text Nr. 41
+2026-04-13 21:27:57,695 - __main__ - INFO - BeforeGoal
+2026-04-13 21:28:02,838 - __main__ - INFO - Goal
+2026-04-13 21:28:07,855 - __main__ - INFO - Tasks
+2026-04-13 21:28:12,991 - __main__ - INFO - AfterTasks
+2026-04-13 21:28:15,418 - __main__ - INFO - Text Nr. 42
+2026-04-13 21:28:15,418 - __main__ - INFO - BeforeGoal
+2026-04-13 21:28:21,474 - __main__ - INFO - Goal
+2026-04-13 21:28:26,156 - __main__ - INFO - Tasks
+2026-04-13 21:28:31,634 - __main__ - INFO - AfterTasks
+2026-04-13 21:28:34,712 - __main__ - INFO - Text Nr. 43
+2026-04-13 21:28:34,713 - __main__ - INFO - BeforeGoal
+2026-04-13 21:28:40,885 - __main__ - INFO - Goal
+2026-04-13 21:28:45,661 - __main__ - INFO - Tasks
+2026-04-13 21:28:50,886 - __main__ - INFO - AfterTasks
+2026-04-13 21:28:53,762 - __main__ - INFO - Text Nr. 44
+2026-04-13 21:28:53,763 - __main__ - INFO - BeforeGoal
+2026-04-13 21:28:59,348 - __main__ - INFO - Goal
+2026-04-13 21:29:03,692 - __main__ - INFO - Tasks
+2026-04-13 21:29:09,117 - __main__ - INFO - AfterTasks
+2026-04-13 21:29:09,117 - __main__ - INFO - Text Nr. 45
+2026-04-13 21:29:09,117 - __main__ - INFO - BeforeGoal
+2026-04-13 21:29:14,973 - __main__ - INFO - Goal
+2026-04-13 21:29:19,110 - __main__ - INFO - Tasks
+2026-04-13 21:29:24,081 - __main__ - INFO - AfterTasks
+2026-04-13 21:29:24,082 - __main__ - INFO - Text Nr. 46
+2026-04-13 21:29:24,082 - __main__ - INFO - BeforeGoal
+2026-04-13 21:29:30,383 - __main__ - INFO - Goal
+2026-04-13 21:29:34,860 - __main__ - INFO - Tasks
+2026-04-13 21:29:40,095 - __main__ - INFO - AfterTasks
+2026-04-13 21:29:40,098 - __main__ - INFO - Text Nr. 47
+2026-04-13 21:29:40,098 - __main__ - INFO - BeforeGoal
+2026-04-13 21:29:40,098 - __main__ - INFO - Goal
+2026-04-13 21:29:43,077 - __main__ - INFO - Tasks
+2026-04-13 21:29:48,023 - __main__ - INFO - AfterTasks
+2026-04-13 21:29:51,085 - __main__ - INFO - Text Nr. 48
+2026-04-13 21:29:51,086 - __main__ - INFO - BeforeGoal
+2026-04-13 21:29:57,055 - __main__ - INFO - Goal
+2026-04-13 21:30:01,643 - __main__ - INFO - Tasks
+2026-04-13 21:30:06,489 - __main__ - INFO - AfterTasks
+2026-04-13 21:30:09,169 - __main__ - INFO - Text Nr. 49
+2026-04-13 21:30:09,170 - __main__ - INFO - BeforeGoal
+2026-04-13 21:30:09,170 - __main__ - INFO - Goal
+2026-04-13 21:30:12,820 - __main__ - INFO - Tasks
+2026-04-13 21:30:17,823 - __main__ - INFO - AfterTasks
+2026-04-13 21:30:21,685 - __main__ - INFO - Text Nr. 50
+2026-04-13 21:30:21,694 - __main__ - INFO - BeforeGoal
+2026-04-13 21:30:27,389 - __main__ - INFO - Goal
+2026-04-13 21:30:32,022 - __main__ - INFO - Tasks
+2026-04-13 21:30:37,237 - __main__ - INFO - AfterTasks
+2026-04-13 21:30:40,060 - __main__ - INFO - Text Nr. 51
+2026-04-13 21:30:40,063 - __main__ - INFO - BeforeGoal
+2026-04-13 21:30:46,018 - __main__ - INFO - Goal
+2026-04-13 21:30:50,641 - __main__ - INFO - Tasks
+2026-04-13 21:30:55,705 - __main__ - INFO - AfterTasks
+2026-04-13 21:30:55,706 - __main__ - INFO - Text Nr. 52
+2026-04-13 21:30:55,706 - __main__ - INFO - BeforeGoal
+2026-04-13 21:31:00,828 - __main__ - INFO - Goal
+2026-04-13 21:31:00,829 - __main__ - INFO - Tasks
+2026-04-13 21:31:05,871 - __main__ - INFO - AfterTasks
+2026-04-13 21:31:09,139 - __main__ - INFO - Text Nr. 53
+2026-04-13 21:31:09,140 - __main__ - INFO - BeforeGoal
+2026-04-13 21:31:15,188 - __main__ - INFO - Goal
+2026-04-13 21:31:20,698 - __main__ - INFO - Tasks
+2026-04-13 21:31:26,358 - __main__ - INFO - AfterTasks
+2026-04-13 21:31:26,359 - __main__ - INFO - Text Nr. 54
+2026-04-13 21:31:26,359 - __main__ - INFO - BeforeGoal
+2026-04-13 21:31:32,304 - __main__ - INFO - Goal
+2026-04-13 21:31:37,419 - __main__ - INFO - Tasks
+2026-04-13 21:31:42,640 - __main__ - INFO - AfterTasks
+2026-04-13 21:31:44,987 - __main__ - INFO - Text Nr. 55
+2026-04-13 21:31:44,988 - __main__ - INFO - BeforeGoal
+2026-04-13 21:31:50,786 - __main__ - INFO - Goal
+2026-04-13 21:31:55,094 - __main__ - INFO - Tasks
+2026-04-13 21:32:00,541 - __main__ - INFO - AfterTasks
+2026-04-13 21:32:00,541 - __main__ - INFO - Text Nr. 56
+2026-04-13 21:32:00,542 - __main__ - INFO - BeforeGoal
+2026-04-13 21:32:06,631 - __main__ - INFO - Goal
+2026-04-13 21:32:06,632 - __main__ - INFO - Tasks
+2026-04-13 21:32:06,632 - __main__ - INFO - AfterTasks
+2026-04-13 21:32:06,632 - __main__ - INFO - Text Nr. 57
+2026-04-13 21:32:06,632 - __main__ - INFO - BeforeGoal
+2026-04-13 21:32:11,212 - __main__ - INFO - Goal
+2026-04-13 21:32:16,142 - __main__ - INFO - Tasks
+2026-04-13 21:32:22,061 - __main__ - INFO - AfterTasks
+2026-04-13 21:32:22,061 - __main__ - INFO - Text Nr. 58
+2026-04-13 21:32:22,061 - __main__ - INFO - BeforeGoal
+2026-04-13 21:32:26,598 - __main__ - INFO - Goal
+2026-04-13 21:32:26,599 - __main__ - INFO - Tasks
+2026-04-13 21:32:26,599 - __main__ - INFO - AfterTasks
+2026-04-13 21:32:26,599 - __main__ - INFO - Text Nr. 59
+2026-04-13 21:32:26,599 - __main__ - INFO - BeforeGoal
+2026-04-13 21:32:33,116 - __main__ - INFO - Goal
+2026-04-13 21:32:38,096 - __main__ - INFO - Tasks
+2026-04-13 21:32:43,624 - __main__ - INFO - AfterTasks
+2026-04-13 21:32:46,827 - __main__ - INFO - Text Nr. 60
+2026-04-13 21:32:46,828 - __main__ - INFO - BeforeGoal
+2026-04-13 21:32:52,962 - __main__ - INFO - Goal
+2026-04-13 21:32:58,061 - __main__ - INFO - Tasks
+2026-04-13 21:33:03,504 - __main__ - INFO - AfterTasks
+2026-04-13 21:33:06,658 - __main__ - INFO - Text Nr. 61
+2026-04-13 21:33:06,659 - __main__ - INFO - BeforeGoal
+2026-04-13 21:33:12,660 - __main__ - INFO - Goal
+2026-04-13 21:33:16,874 - __main__ - INFO - Tasks
+2026-04-13 21:33:21,906 - __main__ - INFO - AfterTasks
+2026-04-13 21:33:21,919 - __main__ - INFO - Text Nr. 62
+2026-04-13 21:33:21,919 - __main__ - INFO - BeforeGoal
+2026-04-13 21:33:27,171 - __main__ - INFO - Goal
+2026-04-13 21:33:31,498 - __main__ - INFO - Tasks
+2026-04-13 21:33:36,636 - __main__ - INFO - AfterTasks
+2026-04-13 21:33:39,434 - __main__ - INFO - Text Nr. 63
+2026-04-13 21:33:39,434 - __main__ - INFO - BeforeGoal
+2026-04-13 21:33:45,358 - __main__ - INFO - Goal
+2026-04-13 21:33:49,173 - __main__ - INFO - Tasks
+2026-04-13 21:33:54,797 - __main__ - INFO - AfterTasks
+2026-04-13 21:33:58,288 - __main__ - INFO - Text Nr. 64
+2026-04-13 21:33:58,288 - __main__ - INFO - BeforeGoal
+2026-04-13 21:34:03,882 - __main__ - INFO - Goal
+2026-04-13 21:34:08,280 - __main__ - INFO - Tasks
+2026-04-13 21:34:13,401 - __main__ - INFO - AfterTasks
+2026-04-13 21:34:13,402 - __main__ - INFO - Working on model 'ministral3-14b-q8'.
+2026-04-13 21:34:13,402 - __main__ - INFO - Thinking is: False. (Relevant only for ['qwen3.5-9b-q8', 'gemma4-26b-q4', 'ministral3-14b-q8'])
+2026-04-13 21:34:13,402 - __main__ - INFO - Temperature = 0.
+2026-04-13 21:34:13,402 - __main__ - INFO - Iteration Nr. 01
+2026-04-13 21:34:13,402 - __main__ - INFO - Text Nr. 1
+2026-04-13 21:34:13,403 - __main__ - INFO - BeforeGoal
+2026-04-13 21:34:58,619 - __main__ - INFO - Goal
+2026-04-13 21:35:12,240 - __main__ - INFO - Tasks
+2026-04-13 21:35:32,355 - __main__ - INFO - AfterTasks
+2026-04-13 21:35:38,652 - __main__ - INFO - Text Nr. 2
+2026-04-13 21:35:38,653 - __main__ - INFO - BeforeGoal
+2026-04-13 21:35:56,928 - __main__ - INFO - Goal
+2026-04-13 21:36:07,264 - __main__ - INFO - Tasks
+2026-04-13 21:36:25,904 - __main__ - INFO - AfterTasks
+2026-04-13 21:36:25,909 - __main__ - INFO - Text Nr. 3
+2026-04-13 21:36:25,909 - __main__ - INFO - BeforeGoal
+2026-04-13 21:36:43,905 - __main__ - INFO - Goal
+2026-04-13 21:36:58,852 - __main__ - INFO - Tasks
+2026-04-13 21:37:19,763 - __main__ - INFO - AfterTasks
+2026-04-13 21:37:28,669 - __main__ - INFO - Text Nr. 4
+2026-04-13 21:37:28,670 - __main__ - INFO - BeforeGoal
+2026-04-13 21:37:48,618 - __main__ - INFO - Goal
+2026-04-13 21:38:02,733 - __main__ - INFO - Tasks
+2026-04-13 21:38:20,435 - __main__ - INFO - AfterTasks
+2026-04-13 21:38:29,223 - __main__ - INFO - Text Nr. 5
+2026-04-13 21:38:29,227 - __main__ - INFO - BeforeGoal
+2026-04-13 21:38:45,492 - __main__ - INFO - Goal
+2026-04-13 21:38:54,331 - __main__ - INFO - Tasks
+2026-04-13 21:39:12,989 - __main__ - INFO - AfterTasks
+2026-04-13 21:39:28,894 - __main__ - INFO - Text Nr. 6
+2026-04-13 21:39:28,894 - __main__ - INFO - BeforeGoal
+2026-04-13 21:39:56,022 - __main__ - INFO - Goal
+2026-04-13 21:40:07,750 - __main__ - INFO - Tasks
+2026-04-13 21:43:26,206 - __main__ - INFO - AfterTasks
+2026-04-13 21:43:34,878 - __main__ - INFO - Text Nr. 7
+2026-04-13 21:43:34,893 - __main__ - INFO - BeforeGoal
+2026-04-13 21:43:56,315 - __main__ - INFO - Goal
+2026-04-13 21:44:11,106 - __main__ - INFO - Tasks
+2026-04-13 21:44:26,446 - __main__ - INFO - AfterTasks
+2026-04-13 21:44:38,174 - __main__ - INFO - Text Nr. 8
+2026-04-13 21:44:38,179 - __main__ - INFO - BeforeGoal
+2026-04-13 21:44:51,583 - __main__ - INFO - Goal
+2026-04-13 21:45:02,016 - __main__ - INFO - Tasks
+2026-04-13 21:45:19,257 - __main__ - INFO - AfterTasks
+2026-04-13 21:45:19,258 - __main__ - INFO - Text Nr. 9
+2026-04-13 21:45:19,258 - __main__ - INFO - BeforeGoal
+2026-04-13 21:45:19,258 - __main__ - INFO - Goal
+2026-04-13 21:45:28,521 - __main__ - INFO - Tasks
+2026-04-13 21:45:41,015 - __main__ - INFO - AfterTasks
+2026-04-13 21:45:49,490 - __main__ - INFO - Text Nr. 10
+2026-04-13 21:45:49,491 - __main__ - INFO - BeforeGoal
+2026-04-13 21:46:05,979 - __main__ - INFO - Goal
+2026-04-13 21:46:18,365 - __main__ - INFO - Tasks
+2026-04-13 21:46:31,527 - __main__ - INFO - AfterTasks
+2026-04-13 21:46:39,567 - __main__ - INFO - Text Nr. 11
+2026-04-13 21:46:39,572 - __main__ - INFO - BeforeGoal
+2026-04-13 21:46:59,749 - __main__ - INFO - Goal
+2026-04-13 21:47:12,550 - __main__ - INFO - Tasks
+2026-04-13 21:47:32,241 - __main__ - INFO - AfterTasks
+2026-04-13 21:47:32,241 - __main__ - INFO - Text Nr. 12
+2026-04-13 21:47:32,242 - __main__ - INFO - BeforeGoal
+2026-04-13 21:47:50,577 - __main__ - INFO - Goal
+2026-04-13 21:48:05,336 - __main__ - INFO - Tasks
+2026-04-13 21:48:20,168 - __main__ - INFO - AfterTasks
+2026-04-13 21:48:20,169 - __main__ - INFO - Text Nr. 13
+2026-04-13 21:48:20,169 - __main__ - INFO - BeforeGoal
+2026-04-13 21:48:38,194 - __main__ - INFO - Goal
+2026-04-13 21:48:53,802 - __main__ - INFO - Tasks
+2026-04-13 21:49:09,533 - __main__ - INFO - AfterTasks
+2026-04-13 21:49:17,188 - __main__ - INFO - Text Nr. 14
+2026-04-13 21:49:17,188 - __main__ - INFO - BeforeGoal
+2026-04-13 21:49:17,188 - __main__ - INFO - Goal
+2026-04-13 21:49:26,615 - __main__ - INFO - Tasks
+2026-04-13 21:49:40,637 - __main__ - INFO - AfterTasks
+2026-04-13 21:49:53,874 - __main__ - INFO - Text Nr. 15
+2026-04-13 21:49:53,875 - __main__ - INFO - BeforeGoal
+2026-04-13 21:50:12,726 - __main__ - INFO - Goal
+2026-04-13 21:50:30,155 - __main__ - INFO - Tasks
+2026-04-13 21:50:45,921 - __main__ - INFO - AfterTasks
+2026-04-13 21:50:53,986 - __main__ - INFO - Text Nr. 16
+2026-04-13 21:50:53,987 - __main__ - INFO - BeforeGoal
+2026-04-13 21:51:10,853 - __main__ - INFO - Goal
+2026-04-13 21:51:22,800 - __main__ - INFO - Tasks
+2026-04-13 21:51:39,919 - __main__ - INFO - AfterTasks
+2026-04-13 21:51:39,919 - __main__ - INFO - Text Nr. 17
+2026-04-13 21:51:39,920 - __main__ - INFO - BeforeGoal
+2026-04-13 21:51:58,619 - __main__ - INFO - Goal
+2026-04-13 21:52:08,317 - __main__ - INFO - Tasks
+2026-04-13 21:52:23,448 - __main__ - INFO - AfterTasks
+2026-04-13 21:52:33,074 - __main__ - INFO - Text Nr. 18
+2026-04-13 21:52:33,074 - __main__ - INFO - BeforeGoal
+2026-04-13 21:52:51,518 - __main__ - INFO - Goal
+2026-04-13 21:53:10,258 - __main__ - INFO - Tasks
+2026-04-13 21:53:25,925 - __main__ - INFO - AfterTasks
+2026-04-13 21:53:25,926 - __main__ - INFO - Text Nr. 19
+2026-04-13 21:53:25,926 - __main__ - INFO - BeforeGoal
+2026-04-13 21:53:40,691 - __main__ - INFO - Goal
+2026-04-13 21:53:53,313 - __main__ - INFO - Tasks
+2026-04-13 21:54:09,995 - __main__ - INFO - AfterTasks
+2026-04-13 21:54:16,504 - __main__ - INFO - Text Nr. 20
+2026-04-13 21:54:16,505 - __main__ - INFO - BeforeGoal
+2026-04-13 21:54:33,608 - __main__ - INFO - Goal
+2026-04-13 21:54:47,268 - __main__ - INFO - Tasks
+2026-04-13 21:54:57,266 - __main__ - INFO - AfterTasks
+2026-04-13 21:55:07,854 - __main__ - INFO - Text Nr. 21
+2026-04-13 21:55:07,855 - __main__ - INFO - BeforeGoal
+2026-04-13 21:55:07,855 - __main__ - INFO - Goal
+2026-04-13 21:55:17,714 - __main__ - INFO - Tasks
+2026-04-13 21:55:32,247 - __main__ - INFO - AfterTasks
+2026-04-13 21:55:45,288 - __main__ - INFO - Text Nr. 22
+2026-04-13 21:55:45,294 - __main__ - INFO - BeforeGoal
+2026-04-13 21:56:00,769 - __main__ - INFO - Goal
+2026-04-13 21:56:20,649 - __main__ - INFO - Tasks
+2026-04-13 21:56:36,466 - __main__ - INFO - AfterTasks
+2026-04-13 21:56:45,338 - __main__ - INFO - Text Nr. 23
+2026-04-13 21:56:45,349 - __main__ - INFO - BeforeGoal
+2026-04-13 21:57:11,480 - __main__ - INFO - Goal
+2026-04-13 21:57:28,248 - __main__ - INFO - Tasks
+2026-04-13 21:57:45,810 - __main__ - INFO - AfterTasks
+2026-04-13 21:57:45,810 - __main__ - INFO - Text Nr. 24
+2026-04-13 21:57:45,811 - __main__ - INFO - BeforeGoal
+2026-04-13 21:58:04,909 - __main__ - INFO - Goal
+2026-04-13 21:58:17,242 - __main__ - INFO - Tasks
+2026-04-13 21:58:34,638 - __main__ - INFO - AfterTasks
+2026-04-13 21:58:42,460 - __main__ - INFO - Text Nr. 25
+2026-04-13 21:58:42,461 - __main__ - INFO - BeforeGoal
+2026-04-13 21:59:06,127 - __main__ - INFO - Goal
+2026-04-13 21:59:16,473 - __main__ - INFO - Tasks
+2026-04-13 21:59:32,072 - __main__ - INFO - AfterTasks
+2026-04-13 21:59:39,595 - __main__ - INFO - Text Nr. 26
+2026-04-13 21:59:39,596 - __main__ - INFO - BeforeGoal
+2026-04-13 22:00:05,939 - __main__ - INFO - Goal
+2026-04-13 22:00:21,248 - __main__ - INFO - Tasks
+2026-04-13 22:00:38,471 - __main__ - INFO - AfterTasks
+2026-04-13 22:00:49,325 - __main__ - INFO - Text Nr. 27
+2026-04-13 22:00:49,326 - __main__ - INFO - BeforeGoal
+2026-04-13 22:01:00,591 - __main__ - INFO - Goal
+2026-04-13 22:01:00,591 - __main__ - INFO - Tasks
+2026-04-13 22:01:00,591 - __main__ - INFO - AfterTasks
+2026-04-13 22:01:00,591 - __main__ - INFO - Text Nr. 28
+2026-04-13 22:01:00,592 - __main__ - INFO - BeforeGoal
+2026-04-13 22:01:16,206 - __main__ - INFO - Goal
+2026-04-13 22:01:27,480 - __main__ - INFO - Tasks
+2026-04-13 22:01:50,119 - __main__ - INFO - AfterTasks
+2026-04-13 22:01:57,744 - __main__ - INFO - Text Nr. 29
+2026-04-13 22:01:57,748 - __main__ - INFO - BeforeGoal
+2026-04-13 22:02:23,856 - __main__ - INFO - Goal
+2026-04-13 22:02:23,857 - __main__ - INFO - Tasks
+2026-04-13 22:02:23,857 - __main__ - INFO - AfterTasks
+2026-04-13 22:02:23,857 - __main__ - INFO - Text Nr. 30
+2026-04-13 22:02:23,857 - __main__ - INFO - BeforeGoal
+2026-04-13 22:02:47,034 - __main__ - INFO - Goal
+2026-04-13 22:03:01,313 - __main__ - INFO - Tasks
+2026-04-13 22:03:20,096 - __main__ - INFO - AfterTasks
+2026-04-13 22:03:20,096 - __main__ - INFO - Text Nr. 31
+2026-04-13 22:03:20,096 - __main__ - INFO - BeforeGoal
+2026-04-13 22:03:39,079 - __main__ - INFO - Goal
+2026-04-13 22:03:39,080 - __main__ - INFO - Tasks
+2026-04-13 22:03:53,134 - __main__ - INFO - AfterTasks
+2026-04-13 22:04:01,717 - __main__ - INFO - Text Nr. 32
+2026-04-13 22:04:01,718 - __main__ - INFO - BeforeGoal
+2026-04-13 22:04:18,070 - __main__ - INFO - Goal
+2026-04-13 22:04:28,421 - __main__ - INFO - Tasks
+2026-04-13 22:04:39,676 - __main__ - INFO - AfterTasks
+2026-04-13 22:04:46,759 - __main__ - INFO - Text Nr. 33
+2026-04-13 22:04:46,760 - __main__ - INFO - BeforeGoal
+2026-04-13 22:05:04,156 - __main__ - INFO - Goal
+2026-04-13 22:05:13,827 - __main__ - INFO - Tasks
+2026-04-13 22:05:32,198 - __main__ - INFO - AfterTasks
+2026-04-13 22:05:41,297 - __main__ - INFO - Text Nr. 34
+2026-04-13 22:05:41,297 - __main__ - INFO - BeforeGoal
+2026-04-13 22:05:58,421 - __main__ - INFO - Goal
+2026-04-13 22:06:10,434 - __main__ - INFO - Tasks
+2026-04-13 22:06:28,073 - __main__ - INFO - AfterTasks
+2026-04-13 22:06:28,073 - __main__ - INFO - Text Nr. 35
+2026-04-13 22:06:28,073 - __main__ - INFO - BeforeGoal
+2026-04-13 22:06:42,154 - __main__ - INFO - Goal
+2026-04-13 22:06:53,526 - __main__ - INFO - Tasks
+2026-04-13 22:07:06,983 - __main__ - INFO - AfterTasks
+2026-04-13 22:07:13,511 - __main__ - INFO - Text Nr. 36
+2026-04-13 22:07:13,516 - __main__ - INFO - BeforeGoal
+2026-04-13 22:07:27,131 - __main__ - INFO - Goal
+2026-04-13 22:07:38,145 - __main__ - INFO - Tasks
+2026-04-13 22:07:51,231 - __main__ - INFO - AfterTasks
+2026-04-13 22:08:03,251 - __main__ - INFO - Text Nr. 37
+2026-04-13 22:08:03,251 - __main__ - INFO - BeforeGoal
+2026-04-13 22:08:25,956 - __main__ - INFO - Goal
+2026-04-13 22:08:39,509 - __main__ - INFO - Tasks
+2026-04-13 22:08:56,978 - __main__ - INFO - AfterTasks
+2026-04-13 22:08:56,978 - __main__ - INFO - Text Nr. 38
+2026-04-13 22:08:56,978 - __main__ - INFO - BeforeGoal
+2026-04-13 22:09:15,861 - __main__ - INFO - Goal
+2026-04-13 22:09:32,776 - __main__ - INFO - Tasks
+2026-04-13 22:09:47,008 - __main__ - INFO - AfterTasks
+2026-04-13 22:09:47,008 - __main__ - INFO - Text Nr. 39
+2026-04-13 22:09:47,008 - __main__ - INFO - BeforeGoal
+2026-04-13 22:10:01,928 - __main__ - INFO - Goal
+2026-04-13 22:10:17,529 - __main__ - INFO - Tasks
+2026-04-13 22:10:33,061 - __main__ - INFO - AfterTasks
+2026-04-13 22:10:40,198 - __main__ - INFO - Text Nr. 40
+2026-04-13 22:10:40,204 - __main__ - INFO - BeforeGoal
+2026-04-13 22:10:40,204 - __main__ - INFO - Goal
+2026-04-13 22:10:50,299 - __main__ - INFO - Tasks
+2026-04-13 22:11:04,115 - __main__ - INFO - AfterTasks
+2026-04-13 22:11:16,348 - __main__ - INFO - Text Nr. 41
+2026-04-13 22:11:16,349 - __main__ - INFO - BeforeGoal
+2026-04-13 22:11:30,059 - __main__ - INFO - Goal
+2026-04-13 22:11:46,531 - __main__ - INFO - Tasks
+2026-04-13 22:12:02,912 - __main__ - INFO - AfterTasks
+2026-04-13 22:12:14,307 - __main__ - INFO - Text Nr. 42
+2026-04-13 22:12:14,308 - __main__ - INFO - BeforeGoal
+2026-04-13 22:12:46,390 - __main__ - INFO - Goal
+2026-04-13 22:13:01,618 - __main__ - INFO - Tasks
+2026-04-13 22:13:22,042 - __main__ - INFO - AfterTasks
+2026-04-13 22:13:28,206 - __main__ - INFO - Text Nr. 43
+2026-04-13 22:13:28,207 - __main__ - INFO - BeforeGoal
+2026-04-13 22:13:44,849 - __main__ - INFO - Goal
+2026-04-13 22:13:56,531 - __main__ - INFO - Tasks
+2026-04-13 22:14:07,853 - __main__ - INFO - AfterTasks
+2026-04-13 22:14:18,439 - __main__ - INFO - Text Nr. 44
+2026-04-13 22:14:18,439 - __main__ - INFO - BeforeGoal
+2026-04-13 22:14:32,156 - __main__ - INFO - Goal
+2026-04-13 22:14:40,656 - __main__ - INFO - Tasks
+2026-04-13 22:14:55,244 - __main__ - INFO - AfterTasks
+2026-04-13 22:14:55,248 - __main__ - INFO - Text Nr. 45
+2026-04-13 22:14:55,248 - __main__ - INFO - BeforeGoal
+2026-04-13 22:15:10,736 - __main__ - INFO - Goal
+2026-04-13 22:15:22,287 - __main__ - INFO - Tasks
+2026-04-13 22:15:33,226 - __main__ - INFO - AfterTasks
+2026-04-13 22:15:33,227 - __main__ - INFO - Text Nr. 46
+2026-04-13 22:15:33,227 - __main__ - INFO - BeforeGoal
+2026-04-13 22:15:50,679 - __main__ - INFO - Goal
+2026-04-13 22:16:01,184 - __main__ - INFO - Tasks
+2026-04-13 22:16:16,075 - __main__ - INFO - AfterTasks
+2026-04-13 22:16:16,076 - __main__ - INFO - Text Nr. 47
+2026-04-13 22:16:16,076 - __main__ - INFO - BeforeGoal
+2026-04-13 22:16:16,076 - __main__ - INFO - Goal
+2026-04-13 22:16:24,547 - __main__ - INFO - Tasks
+2026-04-13 22:16:39,163 - __main__ - INFO - AfterTasks
+2026-04-13 22:16:48,321 - __main__ - INFO - Text Nr. 48
+2026-04-13 22:16:48,322 - __main__ - INFO - BeforeGoal
+2026-04-13 22:17:06,652 - __main__ - INFO - Goal
+2026-04-13 22:17:18,541 - __main__ - INFO - Tasks
+2026-04-13 22:17:31,616 - __main__ - INFO - AfterTasks
+2026-04-13 22:17:39,646 - __main__ - INFO - Text Nr. 49
+2026-04-13 22:17:39,647 - __main__ - INFO - BeforeGoal
+2026-04-13 22:17:39,647 - __main__ - INFO - Goal
+2026-04-13 22:17:51,113 - __main__ - INFO - Tasks
+2026-04-13 22:18:06,277 - __main__ - INFO - AfterTasks
+2026-04-13 22:18:13,907 - __main__ - INFO - Text Nr. 50
+2026-04-13 22:18:13,907 - __main__ - INFO - BeforeGoal
+2026-04-13 22:18:31,945 - __main__ - INFO - Goal
+2026-04-13 22:18:45,760 - __main__ - INFO - Tasks
+2026-04-13 22:19:03,699 - __main__ - INFO - AfterTasks
+2026-04-13 22:19:11,341 - __main__ - INFO - Text Nr. 51
+2026-04-13 22:19:11,343 - __main__ - INFO - BeforeGoal
+2026-04-13 22:19:29,332 - __main__ - INFO - Goal
+2026-04-13 22:19:40,289 - __main__ - INFO - Tasks
+2026-04-13 22:19:58,737 - __main__ - INFO - AfterTasks
+2026-04-13 22:19:58,738 - __main__ - INFO - Text Nr. 52
+2026-04-13 22:19:58,738 - __main__ - INFO - BeforeGoal
+2026-04-13 22:20:14,741 - __main__ - INFO - Goal
+2026-04-13 22:20:14,741 - __main__ - INFO - Tasks
+2026-04-13 22:20:26,802 - __main__ - INFO - AfterTasks
+2026-04-13 22:20:33,266 - __main__ - INFO - Text Nr. 53
+2026-04-13 22:20:33,266 - __main__ - INFO - BeforeGoal
+2026-04-13 22:20:49,799 - __main__ - INFO - Goal
+2026-04-13 22:21:02,538 - __main__ - INFO - Tasks
+2026-04-13 22:21:19,188 - __main__ - INFO - AfterTasks
+2026-04-13 22:21:19,189 - __main__ - INFO - Text Nr. 54
+2026-04-13 22:21:19,189 - __main__ - INFO - BeforeGoal
+2026-04-13 22:21:40,934 - __main__ - INFO - Goal
+2026-04-13 22:21:54,241 - __main__ - INFO - Tasks
+2026-04-13 22:22:09,569 - __main__ - INFO - AfterTasks
+2026-04-13 22:22:14,728 - __main__ - INFO - Text Nr. 55
+2026-04-13 22:22:14,729 - __main__ - INFO - BeforeGoal
+2026-04-13 22:22:28,357 - __main__ - INFO - Goal
+2026-04-13 22:22:37,621 - __main__ - INFO - Tasks
+2026-04-13 22:22:55,231 - __main__ - INFO - AfterTasks
+2026-04-13 22:22:55,234 - __main__ - INFO - Text Nr. 56
+2026-04-13 22:22:55,234 - __main__ - INFO - BeforeGoal
+2026-04-13 22:23:16,385 - __main__ - INFO - Goal
+2026-04-13 22:23:16,385 - __main__ - INFO - Tasks
+2026-04-13 22:23:16,385 - __main__ - INFO - AfterTasks
+2026-04-13 22:23:16,386 - __main__ - INFO - Text Nr. 57
+2026-04-13 22:23:16,386 - __main__ - INFO - BeforeGoal
+2026-04-13 22:23:27,999 - __main__ - INFO - Goal
+2026-04-13 22:23:42,125 - __main__ - INFO - Tasks
+2026-04-13 22:23:55,674 - __main__ - INFO - AfterTasks
+2026-04-13 22:23:55,674 - __main__ - INFO - Text Nr. 58
+2026-04-13 22:23:55,674 - __main__ - INFO - BeforeGoal
+2026-04-13 22:24:11,515 - __main__ - INFO - Goal
+2026-04-13 22:24:11,515 - __main__ - INFO - Tasks
+2026-04-13 22:24:11,515 - __main__ - INFO - AfterTasks
+2026-04-13 22:24:11,516 - __main__ - INFO - Text Nr. 59
+2026-04-13 22:24:11,516 - __main__ - INFO - BeforeGoal
+2026-04-13 22:24:36,179 - __main__ - INFO - Goal
+2026-04-13 22:24:50,544 - __main__ - INFO - Tasks
+2026-04-13 22:25:06,330 - __main__ - INFO - AfterTasks
+2026-04-13 22:25:18,608 - __main__ - INFO - Text Nr. 60
+2026-04-13 22:25:18,609 - __main__ - INFO - BeforeGoal
+2026-04-13 22:25:36,162 - __main__ - INFO - Goal
+2026-04-13 22:25:50,576 - __main__ - INFO - Tasks
+2026-04-13 22:26:07,626 - __main__ - INFO - AfterTasks
+2026-04-13 22:26:15,648 - __main__ - INFO - Text Nr. 61
+2026-04-13 22:26:15,648 - __main__ - INFO - BeforeGoal
+2026-04-13 22:26:38,010 - __main__ - INFO - Goal
+2026-04-13 22:26:47,327 - __main__ - INFO - Tasks
+2026-04-13 22:27:00,150 - __main__ - INFO - AfterTasks
+2026-04-13 22:27:00,150 - __main__ - INFO - Text Nr. 62
+2026-04-13 22:27:00,151 - __main__ - INFO - BeforeGoal
+2026-04-13 22:27:22,019 - __main__ - INFO - Goal
+2026-04-13 22:27:31,321 - __main__ - INFO - Tasks
+2026-04-13 22:27:44,012 - __main__ - INFO - AfterTasks
+2026-04-13 22:27:51,928 - __main__ - INFO - Text Nr. 63
+2026-04-13 22:27:51,933 - __main__ - INFO - BeforeGoal
+2026-04-13 22:28:08,865 - __main__ - INFO - Goal
+2026-04-13 22:28:21,125 - __main__ - INFO - Tasks
+2026-04-13 22:28:34,987 - __main__ - INFO - AfterTasks
+2026-04-13 22:28:44,686 - __main__ - INFO - Text Nr. 64
+2026-04-13 22:28:44,686 - __main__ - INFO - BeforeGoal
+2026-04-13 22:29:01,259 - __main__ - INFO - Goal
+2026-04-13 22:29:10,345 - __main__ - INFO - Tasks
+2026-04-13 22:29:24,825 - __main__ - INFO - AfterTasks

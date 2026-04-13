@@ -1,0 +1,54 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, which is clear and visually distinct. This improves readability and helps separate individual tasks effectively.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **5** individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **mostly complete** research process:
+        - Theoretical analysis (literature review, Task 1),
+        - Practical implementation (Tasks 2–3),
+        - Experimental validation (Task 4),
+        - Comparative analysis (Task 5).
+        However, **validation lacks explicit comparison with prior studies or established benchmarks** (e.g., contrasting results with other authors' findings on Alfa-beta modifications). The focus is on internal statistical comparison rather than external validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **one sentence long**, which aligns with the requirement. The phrasing is concise and avoids multi-sentence descriptions.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **do not consistently use infinitive verbs** at the start. For example:
+        - Task 1: 'izpētīt' (infinitive) ✅
+        - Task 2: 'izstrādāt spēli, kurā...' (subject-verb-object structure, not infinitive) ❌
+        - Task 3: 'izstrādāt un implementēt' (infinitive) ✅
+        Recommended: Rewrite Task 2 as *'izstrādāt spēli, kurā labākā gājiena izvēle nav acīmredzama, palielinot cilvēka kļūdu iespējamību'* (infinitive + gerund).",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, with precise language. Task phrasing is clear, though Task 2 could be slightly ambiguous ('palielinot iespējamību cilvēkam kļūdīties' could be rephrased for sharper focus, e.g., *'palielinot iespēju cilvēkam kļūdīties'*).
+        Overall, the text is **easy to understand** and avoids jargon.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically contribute to the thesis goal**:
+        1. Literature review (foundation),
+        2–3. Development of modified solution (core innovation),
+        4. Experimental validation (practical testing),
+        5. Comparative analysis (result interpretation).
+        The sequence is **appropriate**, though **Task 5 could explicitly state the comparison basis** (e.g., 'salīdzināt modificēto algoritmu ar standarta Alfa-beta variantu un citiem literatūrā minētajiem risinājumiem').",
+        "complies": true
+    }
+]
+```

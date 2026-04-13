@@ -1,0 +1,51 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, which is clear and visually distinct. This format enhances readability and separates tasks effectively.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains exactly **5** tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **complete research process**:
+        - Theoretical analysis (Task 1),
+        - Practical relevance evaluation (Task 2),
+        - Development of evaluation criteria (Task 3),
+        - Implementation of a solution (Task 4),
+        - **Experimental validation** (Task 5).
+        The inclusion of experiments and validation (comparison with prior studies or benchmarks) is implied by Task 5, though explicit mention of contrasting results with other authors would strengthen it further.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **exactly one sentence long**, ensuring clarity and conciseness. No task spans multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **consistently use infinitive verbs** at the beginning (e.g., *Analizēt*, *Izvērtēt*, *Izstrādāt*, *Izveidot*, *Veikt*), which aligns with the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short, straightforward, and precise**, using clear language. The tasks are easy to understand and directly relate to the thesis goal.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically progress toward the thesis goal**:
+        1. Theoretical foundation (Task 1),
+        2. Contextual relevance (Task 2),
+        3. Evaluation framework (Task 3),
+        4. Solution development (Task 4),
+        5. **Validation via experiments** (Task 5).
+        The sequence ensures a **research → implementation → validation** workflow, which is ideal for achieving the stated goal.",
+        "complies": true
+    }
+]
+```

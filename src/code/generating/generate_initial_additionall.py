@@ -36,7 +36,8 @@ MODELS = {
   "ministral-3:14b-instruct-2512-q8_0": "ministral3-14b-q8"
 }
 TEMPERATURES = [0]
-ITERATIONS = 10
+ITERATIONS = 1
+DISABLED_THINKING = ['qwen3.5-9b-q8', 'gemma4-26b-q4', 'ministral3-14b-q8']
 
 os.makedirs(PROMPTS_PATH, exist_ok=True)
 os.makedirs(RAW_RESPONSES_PATH, exist_ok=True)
@@ -48,6 +49,13 @@ logger.info("START PROMPTING ")
 
 for model in MODELS:
   logger.info(f"Working on model '{MODELS[model]}'.")
+  
+  to_think = None
+  if MODELS[model] in DISABLED_THINKING:
+    to_think = False
+
+  logger.info(f"Thinking is: {to_think}. (Relevant only for {str(DISABLED_THINKING)})")
+
   for t in TEMPERATURES:
     logger.info(f"Temperature = {t}.")
     for i in range(ITERATIONS):
@@ -68,7 +76,8 @@ for model in MODELS:
           temperature=t,
           raw_response_model_path=raw_responses_dir,
           response_model_path=responses_dir,
-          fname=f"{p}_BeforeGoal_{MODELS[model]}_{t_string}_{iter}.json"
+          fname=f"{p}_BeforeGoal_{MODELS[model]}_{t_string}_{iter}.json",
+          to_think=to_think
         )
         logger.info("Goal")
         make_prompt(
@@ -78,7 +87,8 @@ for model in MODELS:
           temperature=t,
           raw_response_model_path=raw_responses_dir,
           response_model_path=responses_dir,
-          fname=f"{p}_Goal_{MODELS[model]}_{t_string}_{iter}.json"
+          fname=f"{p}_Goal_{MODELS[model]}_{t_string}_{iter}.json",
+          to_think=to_think
         )
         logger.info("Tasks")
         make_prompt(
@@ -88,7 +98,8 @@ for model in MODELS:
           temperature=t,
           raw_response_model_path=raw_responses_dir,
           response_model_path=responses_dir,
-          fname=f"{p}_Tasks_{MODELS[model]}_{t_string}_{iter}.json"
+          fname=f"{p}_Tasks_{MODELS[model]}_{t_string}_{iter}.json",
+          to_think=to_think
         )
         logger.info("AfterTasks")
         make_prompt(
@@ -98,9 +109,6 @@ for model in MODELS:
           temperature=t,
           raw_response_model_path=raw_responses_dir,
           response_model_path=responses_dir,
-          fname=f"{p}_AfterTasks_{MODELS[model]}_{t_string}_{iter}.json"
+          fname=f"{p}_AfterTasks_{MODELS[model]}_{t_string}_{iter}.json",
+          to_think=to_think
         )
-
-# JUST a workaround to start not from zero if session ends abnormally
-#if (iter == 9 and t == 0.5) and p < 59 or (t == 0.5 and iter < 9):
-#  continue

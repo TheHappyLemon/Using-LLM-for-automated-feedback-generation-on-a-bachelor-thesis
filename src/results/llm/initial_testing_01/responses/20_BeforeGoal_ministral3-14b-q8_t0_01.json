@@ -1,0 +1,35 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text mentions the broad applications of distance measurement technologies (cartography, construction, medicine, robotics, security) and highlights the need for precise 3D surface analysis, which is relevant. However, it lacks **specificity** about *why* this topic is urgent or trending *now* (e.g., recent advancements in automation, AI-driven 3D modeling, or industry demands). The connection to current problems (e.g., COVID-era remote inspections, autonomous vehicle navigation) is missing. Strength: The general relevance is acknowledged.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text does **not** cite any specific research, technologies, or cutting-edge achievements (e.g., recent ToF/LiDAR advancements like Intel RealSense, Velodyne LiDAR, or academic papers on 3D reconstruction accuracy). It vaguely mentions 'sensoru tehnoloģijas' without naming examples or trends (e.g., hybrid ToF-LiDAR systems, deep learning for point cloud processing). No comparison to prior evaluations/comparisons is provided.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implies a gap by stating that each sensor type has 'priekšrocības un trūkumi' and that their 'pielietojuma specifiku' needs evaluation—but this is **too vague**. A concrete gap should specify:
+        - *What* is unresolved (e.g., 'No direct comparison of ToF vs. LiDAR for dynamic surface scanning exists in [specific context]'),
+        - *Why* it matters (e.g., 'Current studies focus on static objects, but real-world applications require adaptive sensors'),
+        - *How* your thesis fills it (e.g., 'This work evaluates both sensors for [specific use case] under [conditions]').",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The **core issue** is implied ('noteikt katras tehnoloģijas pielietojuma specifiku'), but it’s buried in generalities. A clearer problem statement should:
+        - Define the **specific challenge** (e.g., 'Lack of standardized methods to select between ToF and LiDAR for 3D scanning of [e.g., industrial pipes/medical implants]'),
+        - Specify **constraints** (e.g., 'under low-light conditions' or 'with sub-millimeter precision requirements'),
+        - Align with the thesis goal (e.g., 'This thesis compares ToF and LiDAR performance to identify optimal use cases').",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text **contains no references** to support claims (e.g., 'ToF kameras' or 'LiDAR sensori' are undefined terms without citations). Even general statements like 'arvien plašāku pielietojumu' should link to sources (e.g., market reports, academic surveys). Strength: The structure is logical, but credibility requires citations for all non-trivial assertions.",
+        "complies": false
+    }
+]
+```

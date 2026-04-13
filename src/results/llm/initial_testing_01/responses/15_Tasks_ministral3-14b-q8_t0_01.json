@@ -1,0 +1,46 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, which is clear and visually distinct. Each task is separated by a number and a period, making it easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **6** individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **mostly complete** research process:
+        - Theoretical analysis (Task 1: LVM principles),
+        - Practical comparison (Task 2: LVM analysis),
+        - Solution development (Task 3: tool design),
+        - Parameter definition (Task 4: evaluation metrics),
+        - Data collection (Task 5: pre/post-testing),
+        - Validation (Task 6: tool quality assessment).
+        However, **validation lacks explicit comparison to existing solutions or benchmarks**—it only assesses the tool’s quality via self-defined parameters. A stronger validation step (e.g., contrasting with prior studies or alternative tools) would improve rigor.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Tasks **3 and 6** span multiple sentences (e.g., Task 3 includes 'izstrādāt... un veicinātu...'). The others are concise. All should be **single-sentence** for consistency.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "Tasks **1, 2, and 4** use infinitive verbs effectively (e.g., 'Analizēt', 'Noteikt'). However, **Tasks 3, 5, and 6** use finite verbs (e.g., 'Izstrādāt rīku, kas veicinātu...'). For uniformity, all should start with infinitives (e.g., 'Izstrādāt rīku, lai veicinātu...').",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Sentences are **short and precise**, but **Task 3 and 6** are wordy. For example, Task 3 could be simplified to: *'Izstrādāt LVM balstītu rīku integrāļu risināšanai.'* The language is clear overall but could be more concise.",
+        "complies": false
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The sequence logically progresses from **theory → comparison → development → evaluation → validation**, aligning well with the goal. However, **Task 2’s 'salīdzinošā analīze' lacks specificity**—what criteria? How does it tie to the tool’s design? Clarifying this would strengthen relevance. The validation (Task 6) is present but could be more explicit about comparisons.",
+        "complies": true
+    }
+]
+```

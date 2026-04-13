@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are clearly separated and presented in a numbered list, which improves readability and organization. This structure is effective for guiding the reader through the thesis process.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **5** tasks, which falls within the acceptable range (5–7).",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **theoretical foundation** (literature review, analysis of prior studies), **practical research** (survey and usability testing), and **problem identification**. However, the **solution development** (Task 5) lacks explicit **validation**—no mention of comparing proposed UI/UX solutions to existing ones or demonstrating their effectiveness. The thesis goal emphasizes *practical problem-solving*, so validation (e.g., benchmarking, expert review, or user feedback on prototypes) should be included to ensure the proposed solutions are justified.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **one sentence long** and clearly separated, adhering to the required format. This ensures conciseness and avoids ambiguity.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks use **infinitive verbs** (e.g., *veikt*, *izstrādāt*, *izvirzīt*), but some phrasing (e.g., *analizēt citu pētījumus par šo problēmu*) could be more direct by starting with a stronger action verb (e.g., *apkopot un salīdzināt šo problēmu ar citiem pētījumiem*). Overall, the structure is logical but could be slightly refined for clarity.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language is **concise and precise**, with no overly complex phrasing. Each task is easy to understand, though Task 3 (*izstrādāt un veikt anketēšanu...*) could be split for clarity (e.g., *izstrādāt anketu* and *veikt anketēšanu*). Minor improvement: Replace *veikt lietotņu testēšanu* with *veikt lietotāju testējumus* to avoid ambiguity about whether the focus is on testing the app or the users.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically progress** toward the thesis goal: starting with **research** (Tasks 1–2), moving to **data collection** (Tasks 3–4), and ending with **solution proposals** (Task 5). However, the **lack of validation** (e.g., comparing solutions to benchmarks or prior work) weakens the relevance to the goal of *optimizing user experience*. A task like *salīdzināt izvirzītos risinājumus ar eksistējošajiem standartiem vai citiem pētījumiem* would strengthen the connection to the goal.",
+        "complies": false
+    }
+]
+```

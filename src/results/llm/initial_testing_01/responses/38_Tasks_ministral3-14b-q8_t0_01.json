@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text uses bullet points (▪) instead of a numbered list, which is not as formal or structured as required for clarity in academic writing. Numbered lists are preferred for sequential or enumerated tasks.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **4** individual tasks, which does not meet the requirement of having 5, 6, or 7 tasks.",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text covers **theoretical analysis** (analyzing existing approaches) and **practical research** (organizing experiments). However, it lacks explicit **validation** of results by comparing findings with prior studies, existing solutions, or established benchmarks. The final task mentions 'secinājumus' (conclusions), but it does not explicitly state how these will be validated against external sources or benchmarks.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **one sentence long** and does not span multiple sentences, meeting the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks use **infinitive verbs** (e.g., 'analizēt', 'definēt', 'organizēt', 'izdarīt'), which is correct. However, the first task ('izvirzītā mērķa sasniegšanai ir nepieciešams risināt šādus uzdevumus') is a preamble and not a task itself, so the infinitive structure is not consistently applied to all listed items.",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, but some phrasing could be more precise. For example, 'I/O operāciju veiktspēja' could be clarified (e.g., 'I/O operāciju efektivitāte' or 'I/O operāciju atbilstība'). The language is concise but occasionally vague in technical terms.",
+        "complies": false
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks logically contribute to the thesis goal: **theoretical analysis → defining criteria → experimentation → conclusions**. However, the **validation step is missing**, which is critical for comparing findings with prior work or benchmarks. The order is logical but incomplete for a rigorous comparison.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,19 @@
+```json
+[
+    {
+        "question": "Chapters",
+        "feedback": "The text clearly lists the five main sections (nodaļas) of the thesis, which aligns well with the topic. Each section is numbered and distinct, making it easy to identify the thesis structure.",
+        "complies": true
+    },
+    {
+        "question": "Description",
+        "feedback": "The descriptions of each section are concise but somewhat vague. For example, the **2nd section** mentions a comparison between Blue-Green and Canary deployment but does not specify *how* the comparison will be conducted (e.g., metrics, case studies, or theoretical analysis). Similarly, the **4th section** states that improvements will be made but lacks clarity on *which specific DevOps tools/methodologies* will be used (e.g., Jenkins, Kubernetes, feature flags) or *how* the improvements will be measured. The **5th section** mentions testing the solution but does not clarify whether this involves simulations, real-world experiments, or validation criteria. More detail on methodology or expected outcomes would strengthen the descriptions.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The general structure is logical and follows a clear progression: **historical context → theoretical comparison → practical implementation → optimization → validation**. This aligns well with the thesis topic, as it starts with foundational knowledge, moves to strategic analysis, and ends with applied improvements and results. The flow is intuitive for a DevOps-focused thesis, though minor refinements in description (as noted above) would enhance clarity.",
+        "complies": true
+    }
+]
+```

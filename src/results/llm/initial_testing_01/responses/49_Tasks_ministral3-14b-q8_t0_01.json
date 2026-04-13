@@ -1,0 +1,50 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a numbered list, which is clear and visually distinct. This format aids readability and ensures each task is easily identifiable.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **6** individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **mostly complete** research process:
+        - Theoretical analysis (Tasks 1, 2, 4),
+        - Practical implementation (Tasks 3, 5),
+        - Validation (Task 4: comparison, Task 6: analysis and conclusions).
+        However, **validation is somewhat weak**—while Task 4 mentions comparison, it lacks explicit mention of contrasting results with prior studies or established benchmarks. Task 6’s analysis could be strengthened by explicitly referencing external sources or industry standards for validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **exactly one sentence long**, making the list concise and easy to follow. No sentences span multiple lines.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **do not consistently use infinitive verbs at the beginning**. Some start with verbs (e.g., *‘Izpētīt’*), while others use noun phrases (e.g., *‘Izstrādāt salīdzināšanas kritēriju’*). For consistency, all tasks should begin with an infinitive (e.g., *‘Salīdzināt kritērijus’*).",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, using precise language. The tasks are clearly defined, though some (e.g., Task 4) could benefit from slightly more specificity (e.g., *‘veikt salīdzinājumu, balstoties uz noteiktiem kritērijiem’*).",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically contribute to the thesis goal** by:
+        1) Researching frameworks (Task 1),
+        2) Defining requirements (Task 2),
+        3) Implementing solutions (Task 3),
+        4) Comparing them (Task 4),
+        5) Evaluating maintenance/security (Task 5),
+        6) Analyzing results (Task 6).
+        The sequence is **appropriate**, though Task 6 could explicitly link conclusions to the goal (e.g., *‘izstrādāt ieteikumus par piemērotāko ietvaru’*).",
+        "complies": true
+    }
+]
+```

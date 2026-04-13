@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat clear but contains vague phrasing (e.g., *'izpētīt un analizēt'* without specifying measurable outcomes, *'uzlabotu darba efektivitāti'* lacks concrete metrics, and *'apvienojumu'* is ambiguous). The goal should explicitly state what will be *measured* (e.g., 'reduce planning time by X%') or *delivered* (e.g., 'a functional prototype with Y features') to ensure evaluability.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (e.g., *'izstrādāt programmatūras risinājumu'* and *'nodrošinātu efektīvu apvienojumu'*), but it *implicitly* mentions methods (e.g., *'izpētīt un analizēt'* suggests research steps) and tools (e.g., *'programmatūras risinājums'* implies development). While the primary focus is on outcomes, the phrasing risks blending intentions with implementation details.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single sentence, which is concise. However, it combines multiple sub-goals (research, analysis, development) without clear separation, making it harder to parse. A more structured approach (e.g., two sentences: one for research/analysis, one for development) would improve clarity.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically responds to the preceding text’s gaps (e.g., *'automatizācija'* → *'programmatūras risinājums'*, *'labākus risinājumus'* → *'efektīvu apvienojumu'*). However, the introduction mentions *specific* issues (e.g., *'juridiskās prasības'*, *'pārpalikumu samazināšana'*), which are not explicitly tied to the goal’s outcomes. For stronger congruence, the goal should reference these aspects (e.g., *'optimizēt maiņu ģenerēšanu juridiskajām prasībām atbilstoši'*).",
+        "complies": false
+    }
+]
+```

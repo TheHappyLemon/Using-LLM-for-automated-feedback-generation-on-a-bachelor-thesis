@@ -1,0 +1,49 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a clearly numbered list, which improves readability and structure. Each task is visually distinct and easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains exactly **5** tasks, which is within the acceptable range (5–7).",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **complete research process**:
+        - Theoretical analysis (Task 1),
+        - Practical research (Tasks 2–3, including functional analysis and expert interviews),
+        - Implementation (Task 5, i.e., developing recommendations).
+        However, **validation** is missing. While Task 4 (interviews) provides qualitative insights, there is no explicit comparison with prior studies, existing solutions, or benchmarks to validate findings. The recommendations (Task 5) lack a clear link to how they address practical problems or improve upon existing practices.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **one sentence long** and does not span multiple sentences, adhering to the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **do not consistently use infinitive verbs** at the beginning. For example:
+        - Task 1: 'Apkopot' (infinitive) ✅
+        - Task 2: 'Izpētīt un analizēt' (infinitive) ✅
+        - Task 3: 'Veikt novērtējumu' (infinitive) ✅
+        - Task 4: 'Veikt intervijas' (infinitive) ✅
+        - Task 5: 'Izstrādāt ieteikumus' (infinitive) ✅
+        **All tasks technically start with infinitives**, but phrasing could be more direct (e.g., 'Analizēt datu analīzes tehnoloģiju funkcionalitāti' instead of 'Izpētīt un analizēt...').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, using **concise language**. The tasks are easy to understand and directly relate to the thesis goal. Minor improvement: Some terms like 'funkcionalitāti' and 'praktiskajā kontekstā' could be slightly more explicit (e.g., 'praktiskos scenārijos').",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically contribute to the thesis goal** of evaluating data analysis technologies in the music industry. The sequence progresses from **theory → analysis → expert input → recommendations**, which aligns well with the goal. However, as noted in **Completeness**, the **lack of validation** (e.g., comparing recommendations to industry standards or prior research) weakens the practical impact. The order is otherwise sound: theoretical grounding → empirical input → actionable output.",
+        "complies": true
+    }
+]
+```

@@ -14,7 +14,22 @@ def read_file(path : str) -> str:
     return f.read().strip("\n").strip()
 
 # call LLM provider API
-def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : float = 0):
+def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : float = 0, to_think : bool = None):
+
+    payload = {
+        'model': model,
+        'messages': [
+            {'role': 'system', 'content': system},
+            {'role': 'user', 'content': user}
+        ],
+        'options': {
+            'temperature': temperature,
+            'num_predict': 8192
+        }
+    }
+    if not to_think is None:
+       payload['think'] = to_think
+
     response = requests.post(
         PROXY_URL,
         headers = {
@@ -22,17 +37,7 @@ def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : fl
             'Content-Type': 'application/json; charset=utf-8',
             'User-Agent': 'RTU'
         },
-        json = {
-            'model': model,
-            'messages': [
-                {'role': 'system', 'content': system},
-                {'role': 'user', 'content': user}
-            ],
-            'options': {
-                'temperature': temperature,
-                'num_predict': 8192
-            }
-        }
+        json = payload
     )
     if response.status_code != 200:
       if save_to != "":
@@ -44,7 +49,7 @@ def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : fl
       with open(save_to, 'w', encoding='utf-8') as f:
         f.write(response.text)
     return response.json()['message']['content']
-
+    
 def get_prompt(prompt_name: str):
   logger.info(f"Imported prompt: {prompt_name}")
   return read_file(path=os.path.join(BASE_PATH, "src", "data", "prompts", f"{prompt_name}.txt"))
@@ -150,7 +155,7 @@ def save_used_prompts_not_divided(PROMPTS_PATH: str, prompt_not_divided: dict):
             f.write(prompt_not_divided[p])
     logger.info(f"used prompts saved to {PROMPTS_PATH}")
 
-def make_prompt(text: str, model : str, model_role: str, temperature: float, raw_response_model_path: str, response_model_path: str, fname: str):
+def make_prompt(text: str, model : str, model_role: str, temperature: float, raw_response_model_path: str, response_model_path: str, fname: str, to_think: bool = None):
 
   if text == "":
     return
@@ -164,7 +169,8 @@ def make_prompt(text: str, model : str, model_role: str, temperature: float, raw
       user = text,
       model = model,
       save_to=f"{raw_response_model_path}{fname}",
-      temperature=temperature
+      temperature=temperature,
+      to_think=to_think
     )
     with open(f'{response_model_path}{fname}', 'w', encoding='utf-8') as f:
       f.write(response)

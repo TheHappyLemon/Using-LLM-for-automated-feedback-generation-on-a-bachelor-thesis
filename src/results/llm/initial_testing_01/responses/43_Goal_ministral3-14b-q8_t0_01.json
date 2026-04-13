@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clear and specific, stating the aim to develop a solution for determining similarities in concept maps. However, the phrasing 'risinājumu izstrādāt' (develop a solution) is slightly vague—it does not explicitly define measurable outcomes (e.g., a tool, algorithm, or methodology). The goal should ideally specify what form the solution will take (e.g., a software prototype, analytical framework) to ensure it can be evaluated.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal correctly focuses on the intended outcome ('risinājumu izstrādāt') without delving into methods or tools. It emphasizes the objective (similarity detection) rather than the process. However, the mention of 'ņemot vērā to divējādo dabu' (considering its dual nature) could be seen as hinting at methodology. The phrasing is still outcome-oriented overall.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is concise and limited to a single sentence, which is appropriate. However, the sentence is slightly long and could be streamlined for clarity. For example, 'izstrādāt risinājumu konceptu karšu līdzības noteikšanai, ņemot vērā tekstu un diagrammu līdzību' would be more direct. The current phrasing is grammatically correct but less punchy.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal logically builds on the preceding text, addressing the identified gap: the lack of tools for detecting similarity in concept maps beyond textual analysis. It directly responds to the dual nature of concept maps (textual and diagrammatic) mentioned in the introduction. All key aspects (similarity detection, dual nature) are aligned with the earlier discussion, ensuring consistency.",
+        "complies": true
+    }
+]
+```

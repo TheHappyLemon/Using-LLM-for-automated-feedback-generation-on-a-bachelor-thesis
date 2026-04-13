@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively explains the general importance of internet availability and the negative impact of downtime on user experience and company revenue. However, it lacks specific context regarding the current DevOps landscape or the specific pressures driving the need for these strategies in modern software delivery pipelines, making the relevance to the specific field slightly generic.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions Blue-Green and Canary deployments as current solutions but fails to cite specific published research, industry reports, or academic studies that define the current state-of-the-art. It presents these strategies as facts without referencing the literature or benchmarks that establish them as the cutting edge.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly identify a research gap. It states that Blue-Green and Canary are solutions and that integrating them with DevOps improves quality, but it does not specify what is missing in current knowledge or practice that this thesis intends to fill (e.g., a specific comparison, a new implementation method, or an analysis of a specific failure mode).",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue is somewhat obscured by the broad introduction. While the text mentions 'downtime' and 'slow loading times' generally, it does not clearly define the specific technical challenge or research problem the thesis will solve (e.g., 'evaluating the efficiency of Blue-Green vs. Canary in specific microservice architectures').",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes placeholders for citations (e.g., '(1)', '(2)'), which is good practice. However, the content surrounding these citations is generic statistics rather than specific references to academic works or authoritative sources that would support the claims about the state-of-the-art or the proposed solutions.",
+        "complies": true
+    }
+]

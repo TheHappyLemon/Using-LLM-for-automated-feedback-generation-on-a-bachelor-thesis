@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal clearly states the aim to compare implementation variants, investigate pros/cons, and analyze the impact of design choices on performance. It is specific enough to be measurable.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (comparison, investigation of pros/cons, impact analysis) without detailing specific methods, tools, or processes to be used.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not limited to a single sentence; it contains a label ('Bakalaura darba mērķis:') followed by a colon and a sentence with multiple clauses separated by commas. Ideally, it should be a single, concise sentence without the label prefix.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text's problem statement regarding the lack of data on performance improvements and the non-uniqueness of O/RDBMS design compared to RDBMS. However, the goal introduces 'investigating pros and cons' (priekšrocības un trūkumus) which is not explicitly mentioned as a gap or motivation in the preceding text, which focuses more on the lack of empirical data and design complexity.",
+        "complies": false
+    }
+]

@@ -1,0 +1,28 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is concise and specifies the development of a particular type of software (AR simulator) for a specific purpose (datoru komplektēšanas apmācība). However, it could be slightly more explicit about the **measurable outcomes** (e.g., 'to create a functional AR simulator that improves learning efficiency in hardware assembly' or 'to design a simulator validated by user testing'). As written, it lacks concrete criteria for evaluating success (e.g., usability metrics, learning improvement, or technical feasibility).",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal correctly focuses on the **outcome** ('izstrādāt programmatūru') rather than methods or tools. It avoids mentioning specific technologies (e.g., Unity, ARKit) or processes (e.g., 'using Unity to build the simulator'), which is appropriate. The phrasing aligns well with the intended result of the thesis.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is **concise and direct**, consisting of a single sentence that clearly communicates the thesis objective. The structure is clean and avoids unnecessary details, adhering to academic writing standards for goal statements.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal **logically responds** to the preceding text’s gaps and motivations:
+        - **Problem**: Trūkst dziļas izpratnes par datora komponentiem (lack of deep understanding of hardware).
+        - **Solution**: AR simulator for apmācība (training via AR).
+        - **Motivation**: Papildinātā realitāte piedāvā dzīvotspējīgu alternatīvu (AR offers a viable alternative to traditional methods).
+        However, the preceding text emphasizes **cost-effectiveness and accessibility** for izglītības iestādēm (educational institutions), while the goal does not explicitly tie the AR simulator to these constraints. Adding a phrase like *'to address resource limitations in educational settings'* would strengthen the link.",
+        "complies": true
+    }
+]
+```

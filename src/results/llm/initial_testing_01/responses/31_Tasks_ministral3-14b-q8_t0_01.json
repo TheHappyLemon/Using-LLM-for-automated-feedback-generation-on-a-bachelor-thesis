@@ -1,0 +1,37 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is organized into a clearly numbered list, which improves readability and structure. The separation between tasks is visually distinct and easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains exactly 5 tasks, which is within the acceptable range (5–7).",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover a **mostly** complete research process: theoretical analysis (literature review), practical research (experiments/tests), and validation (comparison with prior studies). However, the **validation** aspect is implied rather than explicitly stated—e.g., the 4th task mentions 'practical tests,' but it lacks clarity on whether results will be **compared to existing solutions** or benchmarks. The 5th task ('iteikumu izstrāde') suggests recommendations but does not explicitly confirm **contrast with other authors' findings** or problem-solving demonstration.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **one sentence long** and does not span multiple sentences, meeting the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks use **infinitive verbs** (e.g., 'Veikt analīzi,' 'Salīdzināšanas kritēriju definēšana'), but they are **not consistently placed at the beginning** of each phrase. For example, 'Veikt profesionālās un zinātniskās literatūras analīzi' starts with a verb, but 'Salīdzināšanas kritēriju definēšana' is a noun phrase. For consistency, all tasks should start with an infinitive verb (e.g., 'Definēt salīdzināšanas kritērijus').",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, but some phrasing could be more precise. For example:
+        - 'Ieteikumu izstrāde' is vague—specify whether recommendations are for **practical implementation, theoretical improvements, or comparative benchmarks**.
+        - 'Praktisko testu un eksperimentu veikšana' could clarify **what will be tested** (e.g., 'Eksperimentālu datu saspiešanas algoritmu efektivitātes novērtēšana').
+        Overall, the language is concise but lacks **technical specificity** for a thesis.",
+        "complies": false
+    }
+]
+```

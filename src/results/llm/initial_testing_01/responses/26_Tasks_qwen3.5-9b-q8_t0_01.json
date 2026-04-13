@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Outlook",
+        "feedback": "Text is organized into a clearly separated numbered list with 6 items.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "Text contains exactly 6 tasks, which falls within the acceptable range of 5, 6, or 7.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "Text covers theoretical analysis (task 1), method compilation (task 2), practical experiments (task 3), analysis (task 4), evaluation (task 5), and recommendations (task 6). However, task 6 (recommendations) acts as a conclusion rather than a validation step where results are compared to existing solutions or benchmarks to prove effectiveness, which is a key requirement for a complete research process validation.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is described in exactly one sentence without spanning multiple sentences.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Text consistently uses infinitive verbs (e.g., 'Teorētiski izpētīt', 'Analizēt', 'Konstruēt') at the beginning of each task.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Text consists of short, straightforward sentences using concise and precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "Tasks are logically ordered to reach the goal: from theory to methods, then experiments, analysis, evaluation, and finally recommendations. The sequence demonstrably contributes to the thesis goal of researching, analyzing, and improving PE steganography.",
+        "complies": true
+    }
+]

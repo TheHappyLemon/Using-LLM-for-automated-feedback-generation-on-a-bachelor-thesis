@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively explains the significance of the topic by linking asynchronous and parallel programming to the specific constraints of mobile devices (limited resources, smaller processors) and the industry demand for high-performance applications. It successfully establishes the context of why this research is necessary.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions Kotlin's official support in 2017 and its current status as a preferred language for Android, citing specific sources (Google announcement, Griffiths & Griffiths, Subramaniam). However, it lacks citations regarding the specific state-of-the-art in asynchronous/parallel programming techniques within Kotlin (e.g., specific coroutine libraries, recent performance benchmarks, or comparative studies between coroutines and Threads), which is central to the thesis topic.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text ends by posing a general question about the efficient use of tools and their pros/cons but fails to explicitly identify a concrete research gap. It does not state what specific unresolved problem, inefficiency, or lack of comparative analysis exists in current literature or practice that this thesis will address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue or challenge is not clearly identified. While the text mentions the need to choose between Kotlin coroutines and Java Threads, it does not formulate a specific problem statement (e.g., 'There is a lack of empirical data comparing the overhead of coroutines vs. Threads in low-memory environments' or 'Existing guides do not cover X scenario'). The problem remains too vague.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included to support claims about the importance of the topic, Kotlin's history, and its compatibility with Java. However, the citations are somewhat generic (e.g., general statements about Kotlin being better) and do not sufficiently support the technical claims regarding the state-of-the-art in parallel programming or the specific gap the thesis intends to fill.",
+        "complies": false
+    }
+]

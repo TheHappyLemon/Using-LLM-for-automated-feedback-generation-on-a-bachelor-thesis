@@ -1,0 +1,50 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text uses a bulleted list instead of a numbered list, which is less formal and may not align with academic writing standards. Numbered lists are preferred for clarity and structure in thesis documents.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "The text contains **5** individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text covers a **complete research process**:
+        - Theoretical analysis (literature review of existing platforms and prior studies),
+        - Practical research (experimentation with a prototype),
+        - Implementation (prototyping the platform),
+        - Validation (comparing results with existing solutions and user needs).
+        The inclusion of **user feedback (aptaujas rezultāti)** and **comparison with other platforms** strengthens the validation aspect. However, explicit mention of **benchmarking against established metrics** (e.g., usability scores, engagement rates) would further enhance rigor.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is **one sentence long** and does not span multiple sentences, adhering to the required format.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks **do not consistently use infinitive verbs** at the beginning. Some start with verbs in the infinitive (e.g., *Izanalizēt*, *Izpētīt*), while others use finite verbs (e.g., *Definēt*, *Izstrādāt*). For consistency, all should start with infinitives (e.g., *Definēt → Definēt konceptuālās prasības*).",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The sentences are **short and straightforward**, using **concise language**. The tasks are clearly defined and easy to follow. Minor improvement: Replace some passive phrasing (e.g., *aptaujas rezultātiem un lietotāju vajadzībām* → *balstoties uz studentu un mācībspēku aptauju rezultātiem un lietotāju atpazīstamajām vajadzībām*) for precision.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks **logically progress toward the thesis goal**:
+        1. **Analysis of existing solutions** (aligns with goal: *analīze esošo platformu*),
+        2. **Theoretical exploration** of interactivity (supports *konceptuālās prasības*),
+        3. **Prototype development** (directly tied to *jaunai platformai*),
+        4. **Experimentation** (validates *lietderību lekciju procesā*),
+        5. **Recommendations** (fulfills *rekomendācijas tālākai attīstībai*).
+        The order is **highly relevant** and ensures a **cohesive workflow** from research to implementation.",
+        "complies": true
+    }
+]
+```
