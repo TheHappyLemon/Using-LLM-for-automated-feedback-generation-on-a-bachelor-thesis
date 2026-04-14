@@ -65,6 +65,14 @@ def get_json(json_str : str) -> list:
     except JSONDecodeError as e:
         return []
 
+# ministral3-14b-q8 forgets to escape newlines
+def fix_json_newlines(bad_json: str) -> str:
+    def replacer(match):
+        s = match.group(0)
+        return s.replace('\n', '\\n')
+
+    return re.sub(r'"(\\.|[^"\\])*"', replacer, bad_json, flags=re.DOTALL)
+
 def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
     # returns object of one of four types: Goal, Tasks, BeforeGoal, AfterTasks
     
@@ -92,11 +100,17 @@ def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
                     is_valid_json_originally = False
                     removing_markdown_helped = False
                     extracting_JSON_with_regex_helped = True
+                else:
+                    llm_response = fix_json_newlines(llm_response)
+                    json_arr = get_json(llm_response)
+                    if json_arr != []:
+                        is_valid_json_originally = False
+                        removing_markdown_helped = False
+                        extracting_JSON_with_regex_helped = True
+                    else:
+                        return False, False, False, False, None
             else:
                 return False, False, False, False, None
-
-    # IF NEEDED at this step we may introduce better parsing of each element
-    # For example LLM may name 'complies' as 'answer' or 'feedback' ar 'remark' etc.
 
     model_validation_OK = True
     answers : list[QuestionAnswer] = []
