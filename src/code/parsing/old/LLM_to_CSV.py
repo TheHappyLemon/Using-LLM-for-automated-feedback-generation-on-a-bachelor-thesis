@@ -193,6 +193,7 @@ def main(path_answer : str, path_source, human_file : str = "", postfix : str = 
 
     return 0
 
+#python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/initial_testing_01/responses" "src/data/texts/divided" --run_id="08"
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("results_path", help="Path to folder with model responses")
