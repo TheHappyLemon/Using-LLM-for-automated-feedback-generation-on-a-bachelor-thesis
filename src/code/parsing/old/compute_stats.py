@@ -5,7 +5,7 @@ import os
 import pandas as pd
 from pathlib import Path
 
-PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01")
+PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "responses")
 PATH_RESULTS_OLD = os.path.join(BASE_PATH, "results_04")
 postfix_new = "08"
 postfix_old = "04"
@@ -24,7 +24,10 @@ evaluators = [
 	"deepseek-r1-14b-q8",
 	"gpt-oss-20b-thinking",
 	"eurollm-9b-q8",
-    "magistral-24b-q4"
+    "magistral-24b-q4",
+    "qwen3.5-9b-q8",
+    "gemma4-26b-q4",
+    "ministral3-14b-q8"
 ]
 
 HUMAN_RESPONSES_DIR = Path("src/results/human")
@@ -78,9 +81,10 @@ def compare_humans():
     EvaluationDataset.compute_metrics_total_average(human2_ds, h_datasets, path=os.path.join(HUMAN_RESPONSES_DIR, f"human2_VS_humans_results_total.csv"))
     EvaluationDataset.compute_metrics_total_average(human3_ds, h_datasets, path=os.path.join(HUMAN_RESPONSES_DIR, f"human3_VS_humans_results_total.csv"))
 
+# python -m src.code.parsing.old.compute_stats
 if __name__ == "__main__":
-    #calculate_new_results()
-    compare_humans()
+    calculate_new_results()
+    #compare_humans()
     #compare_results(evaluators, ["gemma3-27b-it", "mistral-small-24b-it"])
 
 
