@@ -18,6 +18,7 @@ from operator import itemgetter
 from src.code.parsing.old.EvaluationRow import EvaluationRow
 from src.code.parsing.old.EvaluationDataset import EvaluationDataset
 from pydantic import ValidationError
+from pathlib import Path
 
 logger = logging.getLogger(__name__)
 logger.info("STARTED")
@@ -124,7 +125,7 @@ def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
     part = globals()[f"parse_{part_type}"](answers, has_goal=has_goal, model_validation_OK=model_validation_OK)
     return is_valid_json_originally, removing_markdown_helped, extracting_JSON_with_regex_helped, model_validation_OK, part
 
-def main(path_answer : str, path_source, human_file : str = "", postfix : str = "") -> int:
+def main(path_answer : str, path_source, dump_feedback : bool = False, postfix : str = "") -> int:
 
     with open(os.path.join(path_answer, f"stats_{postfix}.csv"), 'w', encoding='utf-8', newline='') as stats_f:
 
@@ -198,24 +199,29 @@ def main(path_answer : str, path_source, human_file : str = "", postfix : str = 
     for ds in datasets:
         datasets[ds].dump_to_csv(os.path.join(path_answer, f"{ds}_as_int{("_" + postfix) if postfix != "" else ""}.csv"))
     
-    # Now prepare a special csv with whole feedback and load human data for that
-    if human_file != "":
-        human_data = EvaluationDataset(author="human")
-        human_data.load_from_csv(human_file)
-        datasets['human'] = human_data
-        EvaluationDataset.dump_to_csv_feedback(os.path.join(path_answer, f"feedback_{postfix}.csv"), list(datasets.values()))
+    # Now prepare a special csv where for each model each answer corresponding feedback is shown
+    if dump_feedback:
+        HUMAN_RESPONSES_DIR = Path("src/results/human")
+        human1_ds = EvaluationDataset("human1")
+        human2_ds = EvaluationDataset("human2")
+        human3_ds = EvaluationDataset("human3")
+        human1_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human1_orig.csv")
+        human2_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human2_orig.csv")
+        human3_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human3_orig.csv")
+        human_datasets = [human1_ds, human2_ds, human3_ds]
+        EvaluationDataset.dump_to_csv_feedback(os.path.join(path_answer, f"feedback_{postfix}.csv"), human_datasets, list(datasets.values()))
 
     return 0
 
-#python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/initial_testing_01/responses" "src/data/texts/divided" --run_id="08"
+#python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/initial_testing_01/responses" "src/data/texts/divided" --feedback --run_id="08"
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("results_path", help="Path to folder with model responses")
     parser.add_argument("data_path"   , help="Path to original divided texts")
     parser.add_argument(
-        "--csv_path",
-        default="",
-        help="Path to human CSV file (for feedback inspection)"
+        "--feedback",
+        action="store_true",
+        help="dump models feedback to CSV"
     )
     parser.add_argument(
         "--run_id",
@@ -227,6 +233,6 @@ if __name__ == "__main__":
     main(
         path_answer=os.path.join(BASE_PATH, args.results_path),
         path_source=os.path.join(BASE_PATH, args.data_path),
-        human_file=os.path.join(BASE_PATH, args.csv_path) if args.csv_path != "" else "",
+        dump_feedback=args.feedback,
         postfix=args.run_id
     )

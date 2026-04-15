@@ -599,24 +599,33 @@ class EvaluationDataset:
             writer.writerows(rows)
 
     @staticmethod
-    def dump_to_csv_feedback(path : str, datasets : list[EvaluationDataset]):
+    def dump_to_csv_feedback(path : str, human_datasets: list[EvaluationDataset], model_datasets : list[EvaluationDataset]):
 
         with open(path, mode='w', newline='', encoding='utf-8') as file:
             header = EvaluationDataset.HEADER_feedback.copy()
-            for ds in datasets:
-                header.append(ds.author)
-                if ds.author != "human":
-                    header.append(f"{ds.author}_feedback")
+            for h_ds in human_datasets:
+                header.append(h_ds.author)
+            for m_ds in model_datasets:
+                header.append(m_ds.author)
+                header.append(f"{m_ds.author}_feedback")
             writer = csv.DictWriter(file, fieldnames=header)
             writer.writeheader()
 
             # Here we have a loop for 64 entries (64 texts)
-            for i in range(len(datasets[0].rows)):
-                Nr = datasets[0].rows[i].Nr
+            for i in range(len(model_datasets[0].rows)):
+                Nr = model_datasets[0].rows[i].Nr
                 # Here we have a loop for 20 questions.
                 for question, path in EvaluationDataset.questions:
                     row = {} # entry to write to CSV
-                    for ds in datasets:
+                    for h_ds in human_datasets:
+                        evaluation_row = None
+                        for r in h_ds.rows:
+                            if r.Nr == Nr:
+                                evaluation_row = r
+                                break 
+                        row[h_ds.author] = getattr(getattr(getattr(evaluation_row, path), question), "value")
+
+                    for ds in model_datasets:
                         row['Nr'] = Nr
                         row['Question'] = question
                         
@@ -627,7 +636,6 @@ class EvaluationDataset:
                                 break 
                        
                         row[ds.author] =  getattr(getattr(getattr(evaluation_row, path), question), "value")
-                        if ds.author != "human":
-                            row[f"{ds.author}_feedback"] = getattr(getattr(getattr(evaluation_row, path), question), "feedback")
+                        row[f"{ds.author}_feedback"] = getattr(getattr(getattr(evaluation_row, path), question), "feedback")
                     writer.writerow(row)
     

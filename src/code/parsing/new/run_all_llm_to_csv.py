@@ -7,9 +7,9 @@ from src.code.parsing.old import LLM_to_CSV
 logger = logging.getLogger(__name__)
 logger.info("STARTED TRANSFORMING EACH RESPONSE FROM TEMPERATURE TESTING TO CSV")
 
-BASE_RESPONSES_DIR = Path("src/results/llm/temperature_testing_01/responses/gpt-oss-20b-thinking")
+BASE_RESPONSES_DIR = Path("src/results/llm/temperature_testing_01/responses/gemma4-26b-q4")
 TEXTS_DIR = Path("src/data/texts/divided")
-TEMPERATURE_FOLDERS = ["t0", "t0-5", "t1-0"]
+TEMPERATURE_FOLDERS = ["t0", "t0-5", "t1"]
 
 def main() -> int:
     for temp_folder in TEMPERATURE_FOLDERS:
@@ -21,7 +21,7 @@ def main() -> int:
                 continue
 
             logger.info(f"Callin LLM_to_CSV for folder: {input_dir}")
-            result = LLM_to_CSV.main(str(input_dir), str(TEXTS_DIR))
+            result = LLM_to_CSV.main(str(input_dir), str(TEXTS_DIR), dump_feedback=True)
 
     logger.info("All folders processed.")
     return 0
