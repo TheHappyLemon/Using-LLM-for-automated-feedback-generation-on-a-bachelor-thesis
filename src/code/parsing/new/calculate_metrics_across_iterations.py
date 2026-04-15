@@ -9,7 +9,7 @@ import os
 logger = logging.getLogger(__name__)
 logger.info("STARTED CALCULATING METRICS BASED ON TEMPERATURE TESTS")
 
-MODEL = "gpt-oss-20b-thinking" #gpt-oss-20b-thinking gemma4-26b-q4
+MODEL = "gemma4-26b-q4" #gpt-oss-20b-thinking gemma4-26b-q4
 BASE_RESPONSES_DIR = Path(f"src/results/llm/temperature_testing_01/responses/{MODEL}")
 HUMAN_RESPONSES_DIR = Path("src/results/human")
 TEMPERATURE_FOLDERS = ["t0", "t0-5", "t1"]
@@ -44,7 +44,7 @@ def main() -> int:
             predicted_datasets.append(predicted_dataset)
 
         logger.info(f"Loaded {temp_folder} datasets")
-    logger.info(f"Loaded all {len(temp_folder)} datasets")
+    logger.info(f"Loaded all {len(temp_folder) + 1} datasets")
 
 
     human_datasets = {human1_ds.author : human1_ds, human2_ds.author: human2_ds, human3_ds.author: human3_ds}
