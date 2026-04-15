@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the relevance of parallelism in modern software development and the importance of utilizing multi-core processors. It successfully connects the topic to current trends like AI and data analysis.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks specific citations to published research or specific modern benchmarks/achievements. While it mentions TBB as a tool, it does not reference existing scientific literature or specific recent studies that define the current state of the art in parallel computing research.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a gap by suggesting it would be useful to explain how speed can be improved and to compare solutions, but it does not explicitly identify a scientific or technical gap based on existing literature. It fails to state what is specifically 'unresolved' in current TBB research.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is relatively easy to identify: the need to evaluate/explain the performance improvements and efficiency of TBB compared to other solutions in C++.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text to support the claims made about TBB's capabilities or the current state of C++ development.",
+        "complies": false
+    }
+]
+```

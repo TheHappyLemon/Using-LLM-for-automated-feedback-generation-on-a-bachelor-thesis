@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of the topic by mentioning the increasing complexity of modern information systems and the need for advanced data modeling. It correctly identifies that while technology has evolved, the need to understand the potential and limitations of object-relational databases remains important.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text is very weak in this area. It mentions that object-relational databases are 'studied and documented' but fails to cite any specific authors, specific technologies, or recent research papers. To improve, you should mention specific modern database management systems (e.g., PostgreSQL) or cite specific studies that have attempted performance comparisons in the past.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by stating that empirical data regarding efficiency, performance, and the trade-off between simplicity and complexity is lacking. However, this gap is presented as a general observation rather than being derived from a review of existing literature. The gap would be much stronger if you linked it to the lack of recent comparative studies.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated in the 'Problēmas nostādne' section: the lack of empirical data and the difficulty in making informed design choices due to the complexity of object-relational modeling compared to relational modeling.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text. Even when making broad claims about the history of databases or the existence of documentation, you must use academic citations (e.g., [1], [2]) to support your statements and avoid plagiarism.",
+        "complies": false
+    }
+]
+```

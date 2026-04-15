@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but it contains a slight mismatch between 'investigating problems' and the final 'development of a solution'. While the outcome (a software solution) is measurable, the scope includes both research and development, which is appropriate for a bachelor's thesis, but the phrase 'to improve efficiency' is somewhat vague and hard to measure quantitatively.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (developing a software solution to balance needs). However, it starts by describing the process/method (investigating and analyzing problems and existing solutions), which borders on describing the research steps rather than just the final objective.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, long, complex sentence. While it is one sentence, it is quite dense and tries to cover the research phase, the development phase, and the ultimate benefit all at once, which makes it less concise.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a significant logical gap regarding 'darba laika uzskaites' (working time accounting). The preceding text focuses on 'laika sadale' (time allocation), 'maiņu plānošana' (shift planning), and 'grafiku ģenerēšana' (schedule generation). The goal introduces 'uzskate' (accounting/tracking) as a primary objective, which was not established as a problem or necessity in the introduction. The goal should focus on planning/generation to match the topic and intro.",
+        "complies": false
+    }
+]
+```

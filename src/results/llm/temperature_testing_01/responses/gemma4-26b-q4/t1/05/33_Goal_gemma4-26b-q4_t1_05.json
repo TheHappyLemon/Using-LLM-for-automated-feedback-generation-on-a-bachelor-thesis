@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clear and measurable. It specifies the creation of a solution (pārtraukumu novēršanas risinājums) which can be demonstrated and evaluated through the implementation of the mentioned strategies.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly includes the methods/tools (Blue-Green and Canary strategies) within the goal statement itself. The goal should focus on the outcome (preventing downtime) rather than describing the technical means used to achieve it.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is excellent in terms of structure; it is a single, concise, and direct sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns perfectly with the preceding text. The introduction establishes the problem of downtime and the importance of user experience, and the goal directly proposes addressing this via the mentioned DevOps strategies.",
+        "complies": true
+    }
+]
+```

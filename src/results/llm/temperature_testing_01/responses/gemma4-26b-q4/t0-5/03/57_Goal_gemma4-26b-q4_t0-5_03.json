@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear and measurable, as the development of a specific application (a tourism guide) can be verified. However, the phrasing 'izstrādāšu šo darbu' (I will develop this work) is redundant and slightly vague; the focus should be on the product itself.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly mentions the tools/methods used ('izmantojot papildināto realitāti un GPS tehnoloģijas'). The goal should focus on the outcome (the guide), while the methods belong in the objectives or methodology section.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single sentence, but it is not concise. It contains unnecessary filler phrases like 'Tādēļ arī es izstrādāšu šo darbu, kur mans mērķis ir...' which should be removed to create a direct statement of purpose.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal builds logically on the preceding text regarding tourism. However, there is a lack of congruence regarding 'GPS'. While the topic and goal mention GPS, the preceding text only mentions AR and tourism, failing to establish the necessity or context for GPS technology.",
+        "complies": false
+    }
+]
+```

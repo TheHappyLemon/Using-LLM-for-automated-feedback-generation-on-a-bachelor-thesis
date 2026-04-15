@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes significance by connecting the popularity of Java (TIOBE index) with the technical necessity of concurrency in modern software. It effectively links the recent introduction of virtual threads (JDK 21) to the need for investigating new development opportunities.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions recent technological milestones (JDK 21, Java 19 preview) and cites a specific source (Giebas et. al., 2021) regarding concurrency issues. However, it lacks a deeper review of existing comparative studies or performance evaluations of the 'old vs new' mechanisms, which is the core of the proposed research.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implies a gap by stating the need to evaluate old and new mechanisms, but it does not explicitly state that a comprehensive comparative analysis or a specific performance benchmark is currently missing from the scientific literature. It identifies a technical problem (race conditions, etc.), but not necessarily a research gap.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identifiable: the researcher intends to evaluate the transition from classical threading to virtual threads to understand their application perspectives and performance benefits in the context of existing vulnerabilities like deadlocks and race conditions.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present (TIOBE, Oracle, Giebas et. al.), which supports the claims regarding popularity and technical issues. However, there are minor typos in the text (e.g., 'to stabila versija' repeated) and the formatting of the citation could be more consistent.",
+        "complies": true
+    }
+]
+```

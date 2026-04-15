@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but it contains a slight contradiction in scope. The topic focuses on a 'dynamic scheduling system for generating shifts', whereas the goal mentions 'work time accounting' (darba laika uzskaites). While the goal is measurable (by the creation of the software), the shift from 'scheduling/generation' to 'accounting' makes the specific aim of the research slightly ambiguous.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal stays focused on the intended outcome (improving efficiency, reducing management time, and creating a solution) rather than detailing specific programming languages or implementation algorithms.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single, comprehensive sentence. While long, it remains a single sentence that communicates the objective.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a logical gap between the preceding text and the goal. The preceding text focuses on the problems of 'scheduling/generation' (plānošana/ģenerēšana) and the benefits of automation. However, the goal introduces 'work time accounting' (darba laika uzskaites) as the primary subject, which was not discussed as a problem in the introduction. To achieve congruence, the introduction should mention the inefficiencies or limitations of current accounting/tracking methods if that is what the software aims to solve.",
+        "complies": false
+    }
+]
+```

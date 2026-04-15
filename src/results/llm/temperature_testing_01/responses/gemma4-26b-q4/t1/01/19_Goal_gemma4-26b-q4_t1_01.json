@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly defined and includes measurable outcomes, such as investigating existing solutions and developing a software solution. It avoids being overly vague by specifying what is being improved (efficiency and management time).",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal stays focused on the objective (improving efficiency and creating a solution) rather than getting bogged down in the specific algorithmic methods or technical implementation details.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is expressed in a single, complex, but cohesive sentence. However, it is quite long and contains multiple sub-clauses, which slightly impacts its conciseness.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a slight mismatch in terminology. The preceding text focuses on 'maiņu plānošanu' (shift planning) and 'grafiku ģenerēšanu' (schedule generation), whereas the goal introduces 'darba laika uzskaiti' (time tracking/accounting). While related, the goal should explicitly bridge the gap between planning and tracking to ensure total consistency. Additionally, the goal mentions 'individual needs', which is mentioned in the intro, but the 'accounting' aspect is a new concept introduced only in the goal.",
+        "complies": false
+    }
+]
+```

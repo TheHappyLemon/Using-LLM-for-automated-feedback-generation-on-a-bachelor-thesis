@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text uses bullet points (dots) instead of a numbered list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "10",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover research, implementation, and testing, but they lack a clear validation step where the new system's performance is compared against existing methods or established benchmarks to prove its superiority or effectiveness.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is contained within a single sentence, which meets the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs in Latvian (e.g., 'Izpētīt', 'Analizēt', 'Izvēlēties', 'Izveidot') at the beginning of each point.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language is precise, technical, and the tasks are described using straightforward terminology.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression from research and model selection to development, optimization, and testing, directly supporting the goal of developing and evaluating the AR system.",
+        "complies": true
+    }
+]
+```

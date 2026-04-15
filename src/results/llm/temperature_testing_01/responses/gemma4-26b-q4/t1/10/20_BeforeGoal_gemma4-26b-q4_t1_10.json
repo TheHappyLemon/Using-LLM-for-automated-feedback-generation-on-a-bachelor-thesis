@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of the topic by mentioning the growing application of distance measurement technologies in various industries (cartography, construction, etc.). It provides a good context for why 3D scanning is important.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text fails to demonstrate the state-of-the-art. While it mentions the types of sensors being studied (ToF and LiDAR), it does not cite any specific research, recent technological advancements, or previous comparative studies in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly identify a research gap. It states the need to evaluate capabilities and limitations, but it does not explain why existing comparisons or evaluations are insufficient or what specific unresolved problem this thesis intends to address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: the need to compare the effectiveness and limitations of ToF and LiDAR sensors for 3D surface relief detection. However, the problem statement would be stronger if it focused on a specific difficulty in current sensing methods.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no references provided in the text. To support claims regarding the use of these technologies in specific industries and to define the state-of-the-art, academic citations are required.",
+        "complies": false
+    }
+]
+```

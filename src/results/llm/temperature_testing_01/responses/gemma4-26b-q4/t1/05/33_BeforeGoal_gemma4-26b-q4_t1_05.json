@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of establishing the significance of the topic by using statistical data about internet usage and the economic impact of slow loading times/downtime. It clearly connects the need for availability to user experience and business stability.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions specific deployment strategies (Blue-Green and Canary) and DevOps principles (CI/CD), which shows awareness of modern practices. However, it lacks a deeper review of the current state-of-the-art in terms of specific research, recent studies, or a comparison of existing methodologies/tools used in the industry.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text fails to explicitly identify a research gap. While it describes a general problem (preventing downtime), it does not state what is currently missing in the implementation or evaluation of Blue-Green and Canary strategies that this thesis intends to address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem—preventing downtime and minimizing the impact of updates in web development—is clearly identified and easy to understand.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The student has included numerical citations (1) and (2) to support statistical claims, which is a strong start. However, the bibliography/reference list is not provided here to verify the sources, and more academic sources should be used to support the technical claims regarding deployment strategies.",
+        "complies": true
+    }
+]
+```

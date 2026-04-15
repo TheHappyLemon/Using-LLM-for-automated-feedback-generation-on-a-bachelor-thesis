@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. The student clearly states the aim to investigate factors and to develop/evaluate solutions, which allows for a clear assessment of whether the research objectives were met.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly describes the methods to be used (machine learning and heuristic-based approaches). The goal should focus on the 'what' (determining integrity) rather than the 'how' (using specific algorithms).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is composed of two separate sentences rather than a single, concise sentence. While the content is clear, the structure does not meet the requirement of being a single sentence.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the problem of ensuring integrity after digitalization. However, the preceding text focuses heavily on the risks of AI and digital manipulation, but does not explicitly mention 'machine learning' or 'heuristics' as the context for the solution, nor does it explicitly discuss the 'factors' affecting integrity, which are introduced for the first time in the goal.",
+        "complies": false
+    }
+]
+```

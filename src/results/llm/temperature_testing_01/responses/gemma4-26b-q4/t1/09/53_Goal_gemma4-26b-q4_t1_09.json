@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clear and measurable. It specifies two distinct objectives: investigating influential factors and developing/evaluating solutions. The use of 'examine' and 'create and evaluate' allows for a clear assessment of whether the research objectives were met.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly describes the methods and tools to be used (machine learning and heuristic-based approaches). The goal should focus on the 'what' (achieving integrity detection) rather than the 'how' (using specific algorithmic types).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not limited to a single sentence; it consists of two separate sentences. While the content is concise, the structure deviates from the requirement of a single-sentence formulation.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the problem of verifying integrity after digitalization. However, there is a slight logical gap: while the preceding text discusses the risks of digital manipulation and the need for verification, it does not explicitly mention 'machine learning' or 'heuristics', which appear suddenly in the goal. The goal introduces new technical elements not foreshadowed in the introduction.",
+        "complies": false
+    }
+]
+```

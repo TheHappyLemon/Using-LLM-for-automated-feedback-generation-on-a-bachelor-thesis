@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of parallelism in modern software development and why TBB is a relevant tool in this context (scientific computing, AI, etc.). The motivation is clear.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks a formal literature review. While it mentions TBB as a solution, it does not cite specific published research, recent academic studies, or benchmarks that define the current state-of-the-art in parallel computing or TBB usage.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The gap is somewhat implied (the need to explain 'what and how' can be improved), but it is not explicitly formulated as a scientific gap based on existing literature. The student suggests a comparison is needed, but hasn't identified what is missing from current comparative studies.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: the need to evaluate the performance improvements and efficiency gains provided by TBB compared to other methods. However, the phrasing 'C++ could not provide parallel programming' is technically imprecise and should be refined.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text to support the claims made about the benefits of TBB or the current trends in software development.",
+        "complies": false
+    }
+]

@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but it contains a slight mismatch in scope. While the topic is about 'generating schedules', the goal focuses heavily on 'time accounting' (laika uzskate). Additionally, phrases like 'to improve efficiency' are somewhat vague and difficult to measure objectively without specific KPIs.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal partially violates this principle because it describes the process (researching, analyzing, and developing) rather than just the final outcome. A stronger goal would focus on the creation of the system itself as the ultimate objective.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consists of a single, complex sentence. While it is grammatically a single sentence, it is quite long and dense, which makes it harder to parse. However, it does meet the requirement of being a single sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a significant logical gap: the preceding text discusses the problems of 'scheduling' and 'shift generation', but the goal introduces 'time accounting' (laika uzskate) as the main subject. The preceding text does not establish why time accounting needs to be developed; it only establishes the need for automated scheduling.",
+        "complies": false
+    }
+]
+```

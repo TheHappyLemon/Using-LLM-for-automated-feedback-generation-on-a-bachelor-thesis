@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the importance of the topic by linking blockchain technology to the digital economy and highlighting the critical issues of rising costs and scalability as current trends/problems.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text is too general. While it mentions Layer-1 and Layer-2 systems, it fails to cite specific, published research, particular protocols (e.g., Arbitrum, Optimism, ZK-Rollups), or recent technical achievements in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a general problem (limitations of Layer-1), but it does not identify a specific research gap. It does not state what is missing in current Layer-2 research or what specific aspect of Layer-2 scalability remains unresolved.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue is clearly identifiable: the increasing transaction costs and scalability limitations of Layer-1 blockchains.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no references or citations provided in the text to support the claims made regarding the limitations of Layer-1 or the functionality of Layer-2 solutions.",
+        "complies": false
+    }
+]
+```

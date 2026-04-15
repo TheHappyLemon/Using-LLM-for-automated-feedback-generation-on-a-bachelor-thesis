@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but it contains a slight mismatch in scope. The topic focuses on 'generating schedules', while the goal introduces 'time accounting' (laika uzskaites). Additionally, the goal is somewhat broad, making it difficult to measure 'improving efficiency' without specific metrics.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (improving efficiency and developing a solution), but it also describes the process/methods (researching and analyzing existing solutions), which should ideally be part of the objectives rather than the main goal.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, long, complex sentence. While it is one sentence, it is quite dense and tries to cover too many different aspects (analysis, development, and optimization) at once.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a logical disconnect regarding the core subject. The preceding text discusses 'scheduling' (plānošana) and 'generating shifts' (maiņu ģenerēšana), but the goal introduces 'time accounting' (laika uzskate) as the primary subject. The goal should focus on the automation of scheduling to align with the introduction.",
+        "complies": false
+    }
+]
+```

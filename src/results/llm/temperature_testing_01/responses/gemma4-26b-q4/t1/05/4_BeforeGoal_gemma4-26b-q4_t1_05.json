@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes significance by linking Java's popularity (TIOBE index) to the practical need for efficient concurrency. It correctly identifies that modern software requires handling multiple operations simultaneously and introduces the recent technological shift (JDK 21) as a reason for research.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing mechanisms (java.util.concurrent) and the recent introduction of virtual threads in JDK 21. However, it lacks a deeper review of recent published research or comparative studies that have been performed regarding these new features. It mentions a citation (Giebas et. al., 2021) which helps, but a more robust overview of the current state of research in virtual threads would strengthen this section.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text implies a gap by suggesting the need to 'evaluate old and new Java parallelism mechanisms' in light of the new JDK 21 features. However, it doesn't explicitly state if a comprehensive comparison of performance or stability between platform threads and virtual threads is currently missing from the literature; it mostly focuses on the 'vulnerabilities' of classical threading.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the inherent risks of classical threading (race conditions, deadlocks, etc.) and the need to understand the practical implications and advantages of the newly introduced virtual threads to address these challenges.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The student uses references (TIOBE, Oracle, Giebas et. al.) to support claims about popularity and technical risks. However, there are minor issues, such as the repetitive 'to stabila versija' typo, and the references are somewhat generic (e.g., TIOBE.com). The integration of Giebas et. al. is a good attempt at academic grounding.",
+        "complies": true
+    }
+]

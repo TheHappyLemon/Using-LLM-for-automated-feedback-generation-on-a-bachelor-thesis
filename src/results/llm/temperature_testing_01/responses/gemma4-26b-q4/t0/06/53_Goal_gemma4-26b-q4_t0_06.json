@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It specifies two clear objectives: investigating factors affecting integrity and developing/evaluating solutions. The use of 'izpētīt' (to investigate) and 'izveidot un novērtēt' (to create and evaluate) provides clear benchmarks for success.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly describes the methods and tools to be used ('mašīnmācīšanās, gan heiristikā bāzētus risinājumus'). A goal should focus on the 'what' (achieving integrity detection) rather than the 'how' (using machine learning).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is composed of two distinct sentences rather than a single, concise sentence. While the information is clear, it does not follow the structural constraint of being a single sentence.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the problem of verifying integrity after digitalization mentioned in the preceding text. However, the goal introduces 'machine learning' and 'heuristics' as specific approaches, which were not mentioned or motivated in the introduction. The introduction focuses on the need for security, but not specifically on these computational methods.",
+        "complies": false
+    }
+]
+```

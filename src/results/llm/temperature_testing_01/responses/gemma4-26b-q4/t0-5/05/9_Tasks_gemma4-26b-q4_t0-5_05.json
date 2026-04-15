@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are clearly organized into a numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "4",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover literature review, analysis of existing solutions, and development. However, the tasks lack a specific step for validation (e.g., comparing the prototype's performance against the analyzed existing solutions or benchmarks) to demonstrate that the developed solution actually improves precision/stability as claimed in the goal.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is exactly one sentence long.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs (Apkopot, Analizēt, Apkopot, Izstrādāt) at the beginning.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language is concise, professional, and the sentences are straightforward.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression toward the goal (researching components, analyzing existing methods, and then developing the prototype). However, to fully meet the goal of 'improving precision and stability', a task involving the evaluation/validation of the prototype's performance is missing.",
+        "complies": false
+    }
+]
+```

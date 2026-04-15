@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of establishing the context of the gaming industry and explaining why AI development is a relevant trend as graphical improvements hit diminishing returns. It successfully links the importance of AI algorithms to the overall player experience.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the origin of the Alpha-beta pruning technique and cites Luger (2009) and Sweetswer&Wiles (2002). However, these are somewhat dated references. To truly demonstrate 'state-of-the-art', the student should attempt to reference more recent developments in game AI or modern variations of pruning techniques to show they are aware of the current cutting edge.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text explicitly identifies a specific gap: the inability of the standard Alpha-beta algorithm to distinguish between high-heuristic nodes that lead to loss and nodes that guarantee a negative result. This provides a clear logical bridge to the proposed solution.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is very clearly defined. The author describes the specific failure mode of the algorithm (choosing moves that decrease winning probability instead of exploiting opponent mistakes) and the goal of the modification.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included to support claims regarding the history of AI and the origins of the algorithm. However, there is a minor typo in the citation '(Sweetswer&Wiles, 2002)'—the student should ensure names are spelled correctly and use consistent formatting.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It clearly outlines specific objectives: evaluating efficiency/accuracy, analyzing impact on privacy, and developing recommendations. The student can clearly demonstrate if these objectives were met through the results of the analysis and the proposed recommendations.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal contains unnecessary descriptions of the methodology and the type of work. Phrases such as 'Šis būs 1.tipa bakalaura darbs', 'tiks veikta pašreizējo risinājumu izpēte', and 'Praktiskajā daļā es plānoju veikt eksperimentus' describe the process and research design rather than the intended outcome. The goal should focus solely on the 'what', not the 'how'.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not limited to a single, concise sentence. It consists of three separate sentences, the latter two of which describe the nature of the thesis and the planned practical work, which should be moved to the methodology or research design section.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is highly congruent with the preceding text. The preceding text identifies three main problems: privacy/data protection, surveillance concerns, and technical limitations (accuracy/lighting). The goal directly addresses all of these by proposing to evaluate efficiency/accuracy, analyze privacy impact, and create recommendations for acceptable use.",
+        "complies": true
+    }
+]
+```

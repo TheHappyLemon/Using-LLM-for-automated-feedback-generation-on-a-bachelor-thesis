@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the relevance of the topic. It clearly connects the increasing complexity of software development and the need for efficiency to the importance of researching AI solutions in continuous testing.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks specific references to current state-of-the-art technologies, specific AI models, or published research. While it mentions that AI tools exist, it does not cite any specific existing achievements or recent academic/industrial developments to demonstrate a deep awareness of the current field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical gap (the slowdown caused by manual test maintenance), but it does not identify a research gap based on existing studies. It fails to state what is missing in current AI-driven testing research or why existing AI solutions are insufficient for the continuous testing context.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identifiable: the manual creation, updating, and maintenance of test scenarios are too time-consuming and slow down the development process in a continuous testing environment.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no citations or references provided in the text to support the claims made regarding the benefits of continuous testing or the capabilities of AI tools.",
+        "complies": false
+    }
+]
+```

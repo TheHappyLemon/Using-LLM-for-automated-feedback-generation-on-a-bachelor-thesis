@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully explains the importance of credit risk forecasting for financial institutions and correctly identifies the growing trend of model complexity vs. transparency (the 'black box' problem).",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text mentions specific XAI methods (LIME, SHAP), it fails to cite any published research, academic studies, or previous evaluations performed by other authors. It describes the tools used but does not demonstrate awareness of the current scientific literature.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical gap (the lack of transparency and trust in complex models), but it does not identify a scientific or research gap based on existing studies. It does not state what is missing in current academic research or comparisons.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly and easily identifiable: the 'black box' nature of advanced ML models makes them difficult to trust and interpret in high-risk financial scenarios.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no academic references or citations included in the text to support the claims made regarding the complexity of models or the utility of XAI methods.",
+        "complies": false
+    }
+]
+```

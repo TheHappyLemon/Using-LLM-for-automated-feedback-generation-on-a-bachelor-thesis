@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but 'izstrādāt ģeneratīva mākslīgā intelekta risinājumu' is a bit broad. However, the specific function (answering user questions based on concept maps) provides a measurable outcome that can be evaluated during testing.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the outcome (answering questions), but it explicitly mentions the 'method/tool' by stating the development of a 'generative AI solution'. To strictly follow the principle of focusing on the objective, one might focus more on the capability of the system rather than the act of developing the AI tool itself.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single, concise sentence that directly communicates the primary objective of the research.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a strong logical link between the identified problem (the lack of tools for analyzing concept maps via LLM) and the proposed goal (developing a solution to answer questions based on concept maps). The goal directly addresses the gap mentioned in the introduction.",
+        "complies": true
+    }
+]
+```

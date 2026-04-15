@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat vague due to the phrase 'noteikt perspektīvas' (determine perspectives). It is difficult to measure how one 'determines perspectives' scientifically. The goal would be stronger if it specified whether the student aims to compare performance, evaluate resource usage, or analyze implementation differences.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (determining perspectives) rather than the specific methodology or tools used, which is good. It avoids describing the step-by-step process of the research.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single, concise, and direct sentence that clearly communicates the main objective without unnecessary filler.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text, as the introduction establishes the context of Java's evolution, the introduction of virtual threads (JDK 21), and the need to evaluate new mechanisms against old ones. However, the 'perspectives' mentioned in the goal should ideally be more explicitly linked to the 'vājās vietas' (weaknesses) mentioned in the problem statement.",
+        "complies": true
+    }
+]
+```

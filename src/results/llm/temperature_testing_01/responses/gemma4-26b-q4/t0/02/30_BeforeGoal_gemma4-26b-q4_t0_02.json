@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of the topic by discussing the increasing complexity of modern information systems and the need for more advanced data modeling capabilities. It correctly identifies that the shift from simple to complex systems necessitates a deeper understanding of these technologies.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text is quite weak in this area. While it mentions that object-relational databases are 'studied and documented,' it fails to cite any specific authors, specific recent studies, or particular technological advancements. To improve, you should mention specific types of modern workloads or specific research findings that highlight the current landscape of database technology.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The student identifies a gap regarding the lack of empirical data comparing performance, efficiency, and implementation complexity between the two systems. However, this gap is not clearly 'formulated on the basis of existing studies' because no prior studies were cited. The gap feels more like a personal observation than a scientific identification of a void in literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified in the 'Problēmas nostādne' section: the difficulty in designing object-relational databases due to a lack of comparative performance data and the uncertainty of how design choices impact efficiency.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text. Even when making broad claims about the history of databases or the state of documentation, academic sources should be cited to support these assertions.",
+        "complies": false
+    }
+]
+```

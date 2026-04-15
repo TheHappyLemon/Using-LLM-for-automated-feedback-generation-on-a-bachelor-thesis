@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear and measurable, as it includes investigation, development, and evaluation. However, the phrase 'izpētīt esošus risinājumus' (investigate existing solutions) is slightly broad, though the subsequent steps of development and evaluation provide a concrete path to measuring success.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal partially fails this criterion because it starts describing the specific actions/methods to be taken (developing and evaluating a specific method) rather than focusing solely on the high-level objective. It shifts from 'what' is to be achieved to 'how' it will be achieved.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not limited to a single sentence; it consists of three separate sentences. A strong thesis goal should ideally be a single, cohesive statement of intent.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text. The problem of efficiency and speed in CI/CD pipelines mentioned in the introduction is directly addressed by the goal of investigating optimization possibilities and evaluating effectiveness. The logical flow from problem to proposed solution is consistent.",
+        "complies": true
+    }
+]
+```

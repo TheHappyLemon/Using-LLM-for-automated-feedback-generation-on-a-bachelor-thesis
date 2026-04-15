@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear and measurable, as it includes investigating existing solutions, developing a method, and evaluating its effectiveness. However, the phrase 'izpētīt esošus risinājumus... iespējas' is slightly redundant and could be more precise.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal begins to drift into describing the process/methodology (developing and evaluating) rather than just stating the ultimate objective. While common in engineering theses, a pure focus on the outcome (achieving optimization) would be more aligned with the 'intention' criterion.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is composed of three separate sentences. To meet the requirement of a single, concise sentence, these should be integrated into one cohesive statement (e.g., 'The aim of this thesis is to investigate... by developing and evaluating...').",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is strong logical flow between the problem (long testing time/resource consumption) and the goal (optimization). However, the goal introduces 'precision' (precizitāti) as an evaluation metric, which was not explicitly mentioned as a specific problem or gap in the preceding text.",
+        "complies": true
+    }
+]
+```

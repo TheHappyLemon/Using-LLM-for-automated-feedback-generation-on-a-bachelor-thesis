@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It clearly outlines the three main pillars of the research: evaluating technical efficiency/accuracy, analyzing privacy/data protection impact, and developing recommendations. The objectives are concrete enough to be evaluated at the end of the thesis.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The text fails this criterion because it includes descriptions of the research type (1.tipa darbs), the methodology (research of existing solutions), and the planned activities (experiments and data analysis). The goal should focus on the 'what', not the 'how'.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not limited to a single sentence. It consists of three separate sentences, including meta-information about the thesis type and personal plans for the practical part, which should be moved to the methodology or introduction sections.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is highly congruent with the preceding text. The preceding text identifies three specific problems: data protection/privacy, surveillance concerns, and technical limitations (lighting/equipment). The goal directly addresses all three by proposing to evaluate efficiency, analyze privacy impact, and create recommendations.",
+        "complies": true
+    }
+]
+```

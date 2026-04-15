@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of establishing significance by using statistics (Internet users and bounce rates) to demonstrate the economic and user-experience consequences of downtime. It clearly links the topic to modern digital trends.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing deployment strategies (Blue-Green and Canary) and DevOps principles (CI/CD), but it lacks citations to specific, published research or technical studies that demonstrate the current state of the art in these methodologies. It describes what these methods are rather than citing recent scientific achievements or advancements in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text fails to identify a specific research gap. While it mentions that these strategies are solutions to downtime, it does not explain what is missing in current implementations, what specific difficulties still exist when using these strategies, or what unresolved problem the thesis intends to solve.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identifiable: the need to prevent downtime and service interruptions during the software deployment process to maintain user trust and minimize financial loss.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The author uses numerical citations (1 and 2) to support statistical claims, which is good practice. However, the full bibliographic details are missing from the provided snippet, and the text would benefit from more academic citations regarding the DevOps methodologies mentioned.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. The student specifies both an analytical component (investigating factors) and a practical component (creating and evaluating solutions), which allows for clear assessment of whether the objectives were met.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly describes the methods and tools to be used (machine learning and heuristic-based approaches) rather than focusing solely on the intended outcome.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not limited to a single sentence; it consists of two distinct sentences that separate the research objective from the technical implementation goal.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the problem of verifying integrity after digitalization mentioned in the introduction. However, the introduction does not explicitly mention 'machine learning' or 'heuristics', so the goal introduces new technical elements that were not previously established as part of the problem context.",
+        "complies": false
+    }
+]
+```

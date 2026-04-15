@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear as it specifies the creation of a 'tourism guide', which is a measurable outcome. However, it could be more specific regarding the scope or functionality of the application to avoid being slightly too general.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly mentions the tools and technologies used ('izmantojot papildināto realitāti un GPS tehnoloģijas') rather than focusing solely on the intended outcome/objective.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single sentence, but it contains unnecessary introductory filler ('Tādēļ arī es izstrādāšu šo darbu, kur mans mērķis ir...'). The goal should be a direct statement of the objective without self-referential phrases.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a logical connection as the preceding text mentions tourism and AR, and the goal incorporates these. However, the preceding text does not mention GPS technologies, which appear suddenly in the goal statement.",
+        "complies": false
+    }
+]
+```

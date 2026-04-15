@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does an excellent job of establishing significance. It uses global statistics (World Bank) to demonstrate the growing scale of the waste problem and clearly explains the environmental and economic consequences of inefficient waste management.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the use of machine learning, computer vision, and neural networks as current approaches. However, it relies heavily on a single recent citation (2023) to represent the state-of-the-art. To improve, the student should briefly describe specific recent breakthroughs or different architectural approaches (e.g., CNNs vs. Transformers) to show a broader awareness of the field.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies the limitations of manual sorting (speed, cost, human error) as a motivation, but it does not explicitly identify a specific scientific or technical gap in current machine learning algorithms. It states that automated systems are needed, but it doesn't clearly state what is missing in current automated solutions (e.g., difficulty with occlusions, real-time processing constraints, or lack of diverse datasets) that this thesis intends to address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the need for faster, more accurate, and automated waste classification to replace inefficient manual processes.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present and used to support statistical claims and technical statements. However, the formatting is inconsistent; some references use names/years (worldbank, 2018), while others use DOI-style strings (10.3390/mi14112047, 2023). The student should follow a consistent citation style (e.g., APA or IEEE) throughout the text.",
+        "complies": false
+    }
+]
+```

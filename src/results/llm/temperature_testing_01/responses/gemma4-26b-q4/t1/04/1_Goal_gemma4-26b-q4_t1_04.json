@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and specific. It avoids vague language by explicitly stating what will be investigated (generation, improvement, and maintenance of tests) and under what conditions (changing requirements in user stories). The objectives are measurable through the evaluation of existing tools.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The text partially fails this criterion because it begins to describe the 'how' (the process of assessing how to ensure timely development) and focuses heavily on the specific scope of the investigation rather than just the ultimate objective. However, the core intention remains clear.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is composed of two separate, complex sentences. To meet the requirement of a single, concise sentence, the text should be condensed into one unified statement that captures both the investigation of AI capabilities and the evaluation of existing solutions.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal shows strong logical continuity with the preceding text. It directly addresses the problems mentioned (manual effort, slow processes, changing requirements) by proposing the investigation of AI/ML as a solution. All key elements in the goal (AI, user stories, automation, maintenance) are introduced in the introduction.",
+        "complies": true
+    }
+]
+```

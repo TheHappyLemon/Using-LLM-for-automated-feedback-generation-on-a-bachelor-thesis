@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does an excellent job of establishing significance. It clearly connects asynchronous programming to modern digital transformation, scalability needs, and real-time processing requirements, making the topic feel highly relevant to current industry trends.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates a good awareness of the current state-of-the-art by mentioning specific technologies (CompletableFuture, Akka, asyncio) and citing very recent literature (2023, 2024, 2025). It provides context on how these technologies are applied in different domains.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "This is the weakest part of the introduction. While the text explains why the topic is important, it fails to explicitly identify a research gap. It does not state what is missing in current comparative studies or why a new comparison between Java and Python is necessary. You need to state that while both languages are used, a comprehensive comparative analysis of their performance or efficiency in specific asynchronous contexts is lacking.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is somewhat implicit but not explicitly stated as a research objective. The reader understands that asynchronous programming is vital, but the specific 'challenge' or 'problem' that this thesis aims to solve (e.g., the difficulty in choosing the right language for specific high-load tasks due to lack of comparative data) is not clearly formulated.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The use of references is a strong point. The student uses recent, relevant citations to support technical claims and architectural descriptions, which lends academic credibility to the introduction.",
+        "complies": true
+    }
+]
+```

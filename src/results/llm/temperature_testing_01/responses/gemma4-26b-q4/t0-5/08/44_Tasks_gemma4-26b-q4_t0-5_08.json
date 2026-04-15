@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are well-organized into a clearly separated numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover research, development, and testing. However, while task 4 covers testing and task 6 covers evaluation, there is no explicit mention of validating the new solution against existing solutions or benchmarks to prove it solves the identified compatibility problems.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is exactly one sentence long.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Definēt', 'Izstrādāt', 'Pārbaudīt', 'Izveidot', 'Novērtēt') at the beginning of each point.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language is concise, professional, and uses precise technical terminology.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression: researching existing systems, defining requirements, developing the environment, testing functionality, creating documentation, and evaluating effectiveness, all of which directly support the goal of creating a virtual lab for sensor management.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of the topic. It clearly links the increasing complexity of software development and the need for speed/accuracy to the relevance of AI in continuous testing.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text fails to demonstrate the state-of-the-art. While it mentions that AI tools can help automate tasks, it does not cite any specific existing technologies, frameworks, or published research that represents the current cutting edge of the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical gap (the slowness of manual test maintenance), but it does not identify a research gap based on existing studies. It lacks the scientific depth required to show what is missing in current academic or industrial literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identifiable: the manual creation, maintenance, and updating of test scenarios are too slow and labor-intensive for the dynamic nature of continuous testing environments.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no references or citations included in the text. Every claim regarding the benefits of continuous testing or the capabilities of AI should be supported by academic or industry sources to establish credibility.",
+        "complies": false
+    }
+]
+```

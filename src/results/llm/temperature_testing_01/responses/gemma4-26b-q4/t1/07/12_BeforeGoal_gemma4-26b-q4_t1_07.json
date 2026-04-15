@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the significance of the topic by connecting it to the rapid development of generative AI and the widespread interest in its tools. It places the research within the context of current technological trends.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates a good awareness of the current state-of-the-art by citing recent and relevant works (e.g., Naveed et al. 2024, Alammar & Grootendorst 2024, Gao et al. 2024) and explaining the mechanics of LLMs and RAG.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text identifies a limitation of standard language models (inability to answer questions outside training data), it fails to explicitly identify a research gap regarding the specific methods mentioned in the title (embeddings and segmentation). The text explains how RAG works but does not state what is currently unresolved or insufficiently researched regarding segmentation or embedding methods in the context of the Latvian language.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text identifies the problem of 'hallucinations' or lack of knowledge in LLMs and introduces RAG as a solution. However, the specific technical problem that the thesis aims to solve (e.g., how segmentation affects retrieval quality in Latvian) is not yet explicitly stated as the central research challenge.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text uses references appropriately and frequently to support technical claims, definitions, and the description of the RAG process.",
+        "complies": true
+    }
+]

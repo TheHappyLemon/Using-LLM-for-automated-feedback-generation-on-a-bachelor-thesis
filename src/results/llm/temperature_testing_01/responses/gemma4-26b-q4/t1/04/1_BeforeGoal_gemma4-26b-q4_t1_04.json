@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the significance. It clearly links the increasing complexity of software and the need for rapid development to the necessity of continuous testing and AI-driven solutions.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks specific references to existing research, specific AI tools, or recent academic studies. It mentions 'AI-powered tools' in a general sense but does not demonstrate an awareness of the current state-of-the-art by citing specific existing methodologies or published works.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text identifies a practical problem (the slow nature of manual test maintenance), it does not explicitly identify a research gap based on a lack of existing studies or a failure in current AI implementations. It describes a practical need rather than a scientific gap in knowledge.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is clearly identified: the manual creation, updating, and maintenance of test scenarios slow down the development process and are incompatible with the dynamic nature of continuous testing.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no citations or references provided in the text to support the claims made regarding the trends in continuous testing or the capabilities of AI.",
+        "complies": false
+    }
+]
+```

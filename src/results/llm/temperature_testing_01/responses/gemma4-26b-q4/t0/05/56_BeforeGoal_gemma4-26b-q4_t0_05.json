@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the importance of blockchain technology by linking it to digitalization trends and critical sectors like finance, medicine, and governance. It effectively explains the necessity of addressing scalability due to the exponential growth of data.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the field by citing a wide range of sources ([1]-[17]) and mentioning the specific approach of 'sharding' (segmentēšana) as a known method for scalability. It provides concrete data regarding the growth of the Bitcoin blockchain to support the context.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text mentions that sharding 'introduces new problems that need to be solved,' it is too vague. To clearly identify a research gap, the author should specify which particular problems in sharding (e.g., cross-shard communication, security, or atomicity) remain unresolved or insufficiently addressed.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The fundamental problem (scalability) is clearly identified. However, the specific problem the thesis aims to solve (which seems to be 'aggregation of proofs' based on the title) is not yet explicitly stated as the central challenge of this specific research.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text uses a high number of references to support claims regarding the application of blockchain and existing sharding research, which is a strong point of the introduction.",
+        "complies": true
+    }
+]
+```

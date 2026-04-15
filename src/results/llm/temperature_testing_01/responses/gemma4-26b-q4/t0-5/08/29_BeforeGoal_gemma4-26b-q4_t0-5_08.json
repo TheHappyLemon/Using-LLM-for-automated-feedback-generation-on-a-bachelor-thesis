@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does an excellent job of establishing significance. It uses global statistics (World Bank) to demonstrate the growing problem of waste and clearly explains why improving sorting efficiency is crucial for environmental protection.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the field by mentioning the use of neural networks, computer vision, and machine learning algorithms. It also cites recent literature (2023) to support the current technological trends.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text identifies the limitations of manual sorting (slow, expensive, error-prone), it does not explicitly identify a specific research gap in the current machine learning approaches. It mentions what is being used, but it doesn't clearly state what is missing, inefficient, or unresolved in existing automated systems that this thesis intends to address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the need for fast, accurate, and automated waste classification to replace inefficient manual processes and handle the increasing volume of waste.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present and used to support statistical claims and technological statements. However, the formatting is inconsistent; some citations use names/years (worldbank, 2018), while others use DOI-style strings (10.3390/mi14112047, 2023), which should be standardized according to academic standards.",
+        "complies": false
+    }
+]
+```

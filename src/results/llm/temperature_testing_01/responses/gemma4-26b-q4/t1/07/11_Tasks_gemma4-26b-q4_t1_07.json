@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are clearly organized into a numbered list, making the structure easy to follow.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "5",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks represent a complete research cycle: theoretical research (tasks 1-2), implementation of a solution (task 3), experimental validation against a benchmark/traditional method (task 4), and analysis of results (task 5).",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "The text does not comply because several tasks (1, 2, 4, and 5) consist of multiple sentences rather than being exactly one sentence long.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs (Izpētīt, Izstrādāt, Pārbaudīt, Analizēt) to start the tasks, which is appropriate for research objectives.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language is precise and technical, though some tasks are quite dense due to the inclusion of multiple sub-objectives within a single point.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks directly follow the logic required to reach the goal: they cover the investigation of AR vs traditional methods, the development of an AR solution, and the comparative evaluation of precision and efficiency.",
+        "complies": true
+    }
+]
+```

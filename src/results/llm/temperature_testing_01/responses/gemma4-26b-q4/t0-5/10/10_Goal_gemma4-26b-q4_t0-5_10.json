@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat vague. Phrases like 'izpētīt' (to investigate) and 'atrast labāko praksi' (to find best practice) are difficult to measure objectively. To improve, specify what 'best practice' entails (e.g., performance comparison or efficiency metrics) so the achievement of the goal can be clearly verified.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the objective (investigating processes and finding practices) without prematurely listing specific tools like 'orjson' or 'ujson', which is appropriate for a goal statement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is well-structured, consisting of a single, concise, and direct sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text. The introduction highlights problems with performance and complexity, and the goal proposes to investigate processes and find best practices to address these issues. However, the goal could be even stronger if it explicitly mentioned 'performance optimization' to mirror the 'veiktspējas' problem mentioned in the intro.",
+        "complies": true
+    }
+]
+```

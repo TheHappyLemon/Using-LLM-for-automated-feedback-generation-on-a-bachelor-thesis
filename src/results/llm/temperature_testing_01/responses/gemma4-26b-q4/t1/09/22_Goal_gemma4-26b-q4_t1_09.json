@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It clearly specifies the three main pillars of the research: evaluating technical efficiency/accuracy, analyzing privacy impact, and developing recommendations. The objectives are concrete enough to determine success at the end of the work.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The text fails this criterion because it includes descriptions of the methodology (stating it is a Type 1 work, mentioning research of existing solutions, and describing the plan for experiments and data analysis). The goal should focus on the 'what', not the 'how'.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is not limited to a single sentence; it consists of three separate sentences. The second and third sentences describe the type of work and the planned methodology rather than just the goal.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is highly congruent with the preceding text. The introduction highlights the technical risks (lighting, equipment), privacy concerns (data protection, surveillance), and the need for security, all of which are directly addressed by the objectives stated in the goal.",
+        "complies": true
+    }
+]
+```

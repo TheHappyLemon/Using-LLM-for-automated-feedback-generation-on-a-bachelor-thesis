@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is quite general. While it states what is to be investigated, 'exploring principles' is difficult to measure. To improve, specify what a successful outcome looks like (e.g., comparing performance, evaluating specific frameworks, or developing a prototype).",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses correctly on the objective (exploring principles) rather than listing specific tools like FastAPI or Celery, which are appropriately kept in the introductory context.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is well-structured, consisting of a single, concise, and direct sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is congruent with the preceding text. The introduction identifies the problem of efficiency in synchronous approaches and the potential of Python's asynchronous tools, making the goal of investigating these principles a logical next step.",
+        "complies": true
+    }
+]
+```

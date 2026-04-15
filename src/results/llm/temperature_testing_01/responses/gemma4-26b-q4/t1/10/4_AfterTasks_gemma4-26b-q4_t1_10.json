@@ -1,0 +1,19 @@
+```json
+[
+    {
+        "question": "Chapters",
+        "feedback": "The text does not list traditional thesis chapters (e.g., Introduction, Literature Review, Methodology, Results, Conclusion). Instead, it lists research tasks or objectives. While these tasks dictate the content, they do not represent the formal structural chapters of a thesis.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "The text provides a very detailed description of the research steps, including the implementation of the benchmark, the choice of languages (Java vs Kotlin), and the metrics to be used. It clearly explains what will be done in each planned stage.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The general workflow of the research is easy to follow, moving from setup and implementation to experimentation and final recommendations. However, the numbering is inconsistent (skipping number 9, and having 9 before 8), which disrupts the perceived structural logic.",
+        "complies": false
+    }
+]
+```

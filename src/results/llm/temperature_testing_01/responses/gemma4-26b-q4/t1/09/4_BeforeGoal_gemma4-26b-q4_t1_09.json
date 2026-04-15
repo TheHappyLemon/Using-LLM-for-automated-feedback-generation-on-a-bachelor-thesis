@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text clearly establishes relevance by connecting the popularity of Java (via TIOBE index) to the necessity of efficient concurrency mechanisms and the recent introduction of virtual threads in JDK 21.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the evolution from `java.util.concurrent` to JDK 21 virtual threads and cites a specific source (Giebas et. al., 2021) regarding concurrency issues, which demonstrates awareness of the field's current state.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text mentions the existence of 'vulnerabilities' (race conditions, deadlocks) in classical threading, it does not explicitly state if there is a lack of comparative research between old and new mechanisms, or if the gap lies in the unstudied performance implications of virtual threads in specific scenarios.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: the need to evaluate the transition from traditional threading to virtual threads and understand their application perspectives in light of existing concurrency challenges.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes several references (TIOBE, Oracle, Giebas et. al.), which support the claims regarding popularity and technical challenges. However, there is a minor typo/repetition in the text ('to stabila to stabila versija') that should be cleaned up.",
+        "complies": true
+    }
+]

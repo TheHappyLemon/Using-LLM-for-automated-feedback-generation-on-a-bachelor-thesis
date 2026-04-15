@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear and measurable, as it outlines specific actions: researching existing solutions, developing/evaluating a method, and assessing effectiveness. However, the phrase 'izpētīt esošus risinājumus' (research existing solutions) is slightly broad, though the subsequent tasks provide the necessary concrete steps.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal partially fails this criterion because it describes the specific processes/steps to be taken (developing and evaluating a method) rather than focusing solely on the ultimate objective or intended outcome. It shifts from 'what' is to be achieved to 'how' it will be achieved.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text does not comply with the requirement of being a single, concise sentence. It consists of three separate sentences, which makes the goal statement fragmented rather than a unified declaration of purpose.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text. The problems identified (long testing time, resource consumption, and the need for efficiency) are directly addressed by the goal's focus on 'optimizāciju' (optimization) and 'efektivitāti' (effectiveness). The logical flow from the problem of CI/CD bottlenecks to the research of optimization methods is strong.",
+        "complies": true
+    }
+]
+```

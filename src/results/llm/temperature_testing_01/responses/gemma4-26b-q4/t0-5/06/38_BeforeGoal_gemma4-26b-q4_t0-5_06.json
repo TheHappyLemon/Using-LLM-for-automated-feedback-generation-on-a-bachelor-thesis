@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does an excellent job of establishing the significance of the topic. It clearly links asynchronous programming to modern digital transformation, scalability, and real-time processing needs, making the relevance of the research undeniable.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates a good awareness of the current state-of-the-art by mentioning specific technologies (CompletableFuture, Akka, asyncio) and citing recent academic sources (2023-2025). It successfully places the topic within the context of current industrial and academic trends.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "This is the weakest part of the introduction. While the text explains why asynchronous programming is important, it fails to explicitly state what is missing in current comparative research. It does not mention if there is a lack of direct performance comparisons between Java and Python or if existing studies are outdated/incomplete.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The specific problem is somewhat vague. While the text discusses the importance of the technologies, it doesn't explicitly state the 'problem' the thesis aims to solve (e.g., 'the lack of empirical data to guide developers in choosing between Java and Python for high-load asynchronous tasks').",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The use of references is a strong point. The student uses up-to-date citations (including 2024 and 2025) to support technical claims and specific architectural examples, which lends high credibility to the text.",
+        "complies": true
+    }
+]
+```

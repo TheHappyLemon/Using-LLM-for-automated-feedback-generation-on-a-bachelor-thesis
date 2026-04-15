@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear and measurable as it focuses on the development of a specific product (a tourism guide). However, the phrase 'Tādēļ arī es izstrādāšu šo darbu' (Therefore I will also develop this work) is redundant and does not contribute to the definition of the purpose.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly mentions the tools and technologies used ('izmantojot papildināto realitāti un GPS tehnoloģijas') instead of focusing solely on the intended outcome/objective.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is contained within a single sentence, but it is not concise. It includes unnecessary introductory filler ('Tādēļ arī es izstrādāšu šo darbu, kur mans mērķis ir...'), which should be removed to make the statement direct.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a logical link regarding the topic of tourism and AR, but there is a mismatch in scope: the goal introduces 'GPS tehnoloģijas', which were not mentioned in the preceding text. For better congruence, the preceding text should mention the need for location-based services or navigation.",
+        "complies": false
+    }
+]
+```

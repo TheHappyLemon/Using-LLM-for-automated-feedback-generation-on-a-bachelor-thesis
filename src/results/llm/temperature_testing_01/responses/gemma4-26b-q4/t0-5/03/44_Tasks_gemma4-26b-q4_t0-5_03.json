@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are clearly organized into a numbered list, making them easy to distinguish.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover the full research cycle: theoretical research (Task 1), requirements definition (Task 2), implementation (Task 3), and testing (Task 4). However, while Task 6 evaluates efficiency, the text lacks an explicit task for validating the new solution against existing benchmarks or demonstrating how it specifically solves the identified compatibility problems mentioned in Task 1.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task consists of exactly one sentence, which adheres to the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently start with infinitive verbs in Latvian (e.g., 'Izpētīt', 'Definēt', 'Izstrādāt', 'Pārbaudīt', 'Izveidot', 'Novērtēt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language used is professional, concise, and avoids unnecessary complexity.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression that directly supports the goal of creating a virtual lab: researching existing sensors, defining requirements, developing the environment, and providing training materials.",
+        "complies": true
+    }
+]
+```

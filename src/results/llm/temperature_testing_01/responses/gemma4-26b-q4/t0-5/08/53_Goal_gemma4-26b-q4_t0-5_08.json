@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly defined and measurable. The student specifies both an investigative component (identifying factors) and a practical component (creating and evaluating solutions), which allows for a clear assessment of whether the objective has been met.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly describes the methods and tools to be used (machine learning and heuristic-based solutions). A goal should focus on the 'what' (determining integrity) rather than the 'how' (using specific algorithms).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not limited to a single sentence; it consists of two distinct sentences. While the information is clear, the structure deviates from the requirement of a single, concise sentence.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the problem of digital integrity and authenticity described in the introduction. However, the introduction focuses heavily on the risks of digital manipulation and the need for verification, but it does not explicitly mention 'machine learning' or 'heuristics', making the sudden introduction of these specific approaches in the goal feel slightly disconnected from the preceding context.",
+        "complies": false
+    }
+]
+```

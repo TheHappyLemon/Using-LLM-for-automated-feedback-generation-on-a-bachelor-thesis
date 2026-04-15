@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully explains the significance by linking the popularity of Java (TIOBE index) with the need for efficient concurrency. It correctly identifies that the introduction of virtual threads (JDK 21) represents a major development that warrants investigation.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text touches upon the current state of the field by mentioning the evolution from 'java.util.concurrent' to JDK 21 virtual threads. However, it lacks a deeper review of specific published research or a detailed comparison of how others have evaluated these mechanisms previously.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The student identifies a gap related to the risks of classical threading (race conditions, deadlocks, etc.) and the need to evaluate the new virtual threads against old mechanisms. However, it doesn't explicitly state if there is a lack of existing comparative studies or if the student is filling a specific void in published literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identifiable: the challenge of managing concurrency risks (race conditions, deadlocks, etc.) and the need to understand the performance/applicability perspectives of the new virtual threads compared to traditional ones.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes some references (TIOBE, Giebas et. al., Oracle.com), which is a strong point. However, the citation of 'Giebas et. al., 2021' for fundamental concurrency issues is a bit isolated, and more academic sources should be used to support the claims regarding the 'gap'.",
+        "complies": true
+    }
+]
+```

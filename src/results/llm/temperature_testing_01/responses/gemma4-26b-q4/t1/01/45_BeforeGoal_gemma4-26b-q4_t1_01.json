@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the importance of the topic by linking asynchronous/parallel programming to the hardware limitations of mobile devices and the increasing demand for high-performance applications.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the transition to Kotlin and its relationship with Java/JVM, supported by citations. However, it does not deeply discuss the current state-of-the-art in terms of specific recent advancements or comparative studies in asynchronous patterns themselves; it focuses more on the language context.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text introduces a 'question' regarding the effective use and pros/cons of tools, but it does not explicitly define a research gap (e.g., stating that a comparative analysis of coroutines vs. threads in specific high-load scenarios is lacking in current literature). It feels more like a research motivation than a defined gap.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: the need to determine how to effectively use available tools (coroutines and threads) to maximize performance on resource-constrained devices.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text uses several citations to support claims regarding mobile hardware, the adoption of Kotlin, and the characteristics of the language. However, there are minor typographical errors in the citation formatting (e.g., missing spaces like 'Elizarovetal.' and 'Android(Skeen').",
+        "complies": true
+    }
+]

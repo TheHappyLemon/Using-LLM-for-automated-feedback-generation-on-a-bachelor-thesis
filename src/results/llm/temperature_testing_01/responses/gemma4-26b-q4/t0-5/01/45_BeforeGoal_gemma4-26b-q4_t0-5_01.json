@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the relevance of asynchronous and parallel programming, specifically linking it to the hardware limitations of mobile devices and the increasing demand for high-performance applications.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the transition to Kotlin and its compatibility with Java, citing relevant authors. However, it focuses more on the history of the language rather than discussing the current state of research regarding the performance or efficiency of specific asynchronous/parallel implementation techniques.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text ends with a question about the effective use and pros/cons of tools, it does not explicitly state a research gap. It does not clearly articulate what is currently unknown or what specific limitation in existing knowledge/practice this thesis intends to fill.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is somewhat identifiable (the need to determine the most effective way to use Kotlin's tools for different tasks), but it is currently phrased as a general question rather than a concrete, researchable problem statement.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes several citations to support claims regarding mobile hardware, the adoption of Kotlin, and the language's features, which is a strong point.",
+        "complies": true
+    }
+]
+```

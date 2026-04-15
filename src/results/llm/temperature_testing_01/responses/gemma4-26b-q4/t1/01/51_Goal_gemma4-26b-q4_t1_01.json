@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat vague. The phrase 'izpētīt iespējas uzlabot' (explore opportunities to improve) is difficult to measure. To make it more measurable, the student should specify what exactly is being investigated (e.g., performance comparison, efficiency of specific algorithms, or scalability) so that the results can be quantified.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the objective (improving parallelism) and correctly avoids listing specific methods or the step-by-step process of the research.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is written as a single, concise, and direct sentence, which follows the standard academic format for a thesis goal.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text. The problem statement identifies the need to explain how TBB can improve performance and suggests comparing it with other solutions, which the goal directly addresses by focusing on the possibilities of improving parallelism with TBB.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is well-organized into a clear, numbered list of tasks.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "4",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover literature review, analysis of existing solutions, and implementation. However, the tasks lack a specific step for validation/evaluation of the developed prototype (e.g., comparing its accuracy/stability against existing methods or benchmarks) to prove it actually improves the process as claimed in the goal.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is presented as a single, concise sentence.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs (Apkopot, Analizēt, Izstrādāt) to start each point.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language used is precise, professional, and easy to understand.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression from research to development, directly addressing the components mentioned in the goal (computer vision, VR hardware data, and prototype development). To be fully relevant to the goal of 'improving' accuracy, a task regarding the evaluation/validation of this improvement should be explicitly stated.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but the phrase 'izstrādāt ģeneratīva mākslīgā intelekta risinājumu' (to develop a generative AI solution) is somewhat broad. To make it more measurable, the student should specify what 'answering user questions' entails (e.g., accuracy, capability to interpret structure) to ensure the goal's success can be objectively evaluated.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal partially violates this criterion because it mentions the method/tool ('ģeneratīva mākslīgā intelekta risinājumu') as part of the objective. The focus should ideally be on the capability of the resulting system (the automated interpretation) rather than the technology used to build it.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single, concise sentence that directly communicates the objective without unnecessary fluff.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the identified gap (the lack of tools for analyzing concept maps via LLMs). However, there is a slight logical leap: the preceding text emphasizes the need for 'analysis' and 'interpretation' of the maps, while the goal focuses specifically on 'answering user questions'. The student should ensure the connection between 'analysis' and 'answering questions' is explicitly bridged.",
+        "complies": true
+    }
+]
+```

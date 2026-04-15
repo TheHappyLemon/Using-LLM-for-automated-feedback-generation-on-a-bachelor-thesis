@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are written as a continuous paragraph rather than a numbered list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "4",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text includes research, development, and testing, but lacks a rigorous validation step. Testing the software's functionality is not sufficient; the tasks should include comparing the prototype to existing solutions or demonstrating how it solves a specific practical problem through comparative analysis.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "The text is a single paragraph containing multiple tasks within a single sentence structure, rather than individual tasks being exactly one sentence long.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text uses first-person conjugated verbs (e.g., 'izpētīšu', 'izstrādāšu') instead of the required infinitive form (e.g., 'izpētīt', 'izstrādāt').",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language is relatively clear and direct, though the lack of separation makes it harder to parse individual objectives.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression toward the goal of developing a navigation app, but they miss the critical 'validation' component (comparing the new solution to existing ones) required to fully satisfy the research process.",
+        "complies": false
+    }
+]
+```

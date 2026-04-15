@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat vague. 'Izpētīt principus' (to explore principles) is difficult to measure scientifically. To improve, specify what the outcome of this exploration will be, for example, by evaluating specific frameworks or comparing performance metrics, making the achievement of the goal verifiable.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal successfully focuses on the objective (exploring principles) without prematurely listing the specific tools (like FastAPI or Celery) or the specific methodology used to achieve it.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is written as a single, concise, and clear sentence, which is ideal for a thesis introduction.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is logically connected to the preceding text. The introduction establishes the problem of synchronous bottlenecks in Python and the potential of asynchronous tools, which leads directly to the need to explore these asynchronous principles.",
+        "complies": true
+    }
+]
+```

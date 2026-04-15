@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clear and measurable. It specifies two distinct outcomes: investigating influential factors and creating/evaluating solutions. These are concrete objectives that can be verified upon completion of the thesis.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly describes the methods and tools to be used ('mašīnmācīšanās, gan heiristikā bāzētus risinājumus'). The goal should focus on the 'what' (determining integrity) rather than the 'how' (using machine learning).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is composed of two separate sentences rather than a single, concise sentence. This breaks the rule of a single-sentence structure for the goal statement.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a logical connection regarding the problem of digital integrity; however, the preceding text does not mention 'machine learning' or 'heuristics,' nor does it explicitly discuss the 'factors' affecting integrity. The transition from the need for verification to the specific technical implementation (ML/heuristics) is missing context in the introduction.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does an excellent job of establishing significance. It uses global statistics (World Bank) to demonstrate the growing scale of the waste problem and clearly links the environmental impact to the necessity of improving waste sorting efficiency.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the field by mentioning the use of machine learning, computer vision, and neural networks. However, it relies heavily on a single citation (10.3390/mi14112047) to represent the state-of-the-art, which is quite narrow. It would be stronger if it discussed specific types of existing architectures or comparative approaches found in various recent studies.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical gap (the inefficiency, cost, and error-proneness of manual sorting) and a technological need (the need for algorithms that handle diversity in shape, size, and color). However, it does not explicitly identify a 'research gap' in the scientific sense—for example, it doesn't state that current algorithms are too slow, inaccurate for certain materials, or computationally expensive.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: manual waste sorting is insufficient for the growing volume of waste due to speed, cost, and human error, necessitating the development of automated intelligent systems.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present and used to support claims regarding waste statistics and technological trends. However, the formatting is inconsistent; using a DOI (10.3390/mi14112047) directly in the text instead of author names/years is unconventional and disrupts the flow of reading. Ensure all citations follow a consistent academic style (e.g., APA).",
+        "complies": true
+    }
+]
+```

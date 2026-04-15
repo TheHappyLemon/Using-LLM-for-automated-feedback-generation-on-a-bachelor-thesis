@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are clearly organized into a numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover research, development, and testing, but lack a robust validation step. Testing the quality of software is present, but there is no explicit task to compare the results with existing solutions or benchmarks to prove the effectiveness of the developed software in reducing accidents.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task consists of exactly one sentence.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Izstrādāt', 'Pārbaudīt') at the beginning of each item.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language used is concise, professional, and easy to understand.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression from researching existing technologies and problems to developing a solution and testing it, directly supporting the goal of creating software to reduce accident risks.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the significance of the topic by discussing the shift from monolithic to microservices architecture and highlighting the importance of scalability and efficiency in modern industries like fintech and e-commerce.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text mentions specific modern technologies (FastAPI, asyncio, Celery, etc.), it lacks citations of published academic research or comparative studies conducted by other authors. It describes tools rather than the current state of scientific knowledge/research in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical gap (the performance issues caused by synchronous communication), but it does not explicitly identify a research gap in terms of existing literature or a lack of previous scientific investigations into Python's asynchronous capabilities for microservices.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the inefficiency and resource consumption caused by synchronous communication in microservices, and the need to explore/demonstrate asynchronous solutions in Python.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided to support the claims made regarding the advantages of certain architectures or the limitations of specific frameworks like Flask or Django.",
+        "complies": false
+    }
+]
+```

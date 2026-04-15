@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. The student specifies both an analytical component (identifying factors) and a practical component (creating and evaluating solutions), which allows for clear assessment of whether the objectives were met.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal partially fails this criterion because it explicitly mentions the methods to be used ('mašīnmācīšanās, gan heiristikā bāzētus risinājumus'). The goal should focus on the 'what' (determining integrity) rather than the 'how' (machine learning and heuristics).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is composed of two distinct sentences rather than a single, concise sentence. While the information is clear, it violates the structural requirement of being a single sentence.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the problem of ensuring integrity after digitalization mentioned in the preceding text. However, the goal introduces 'machine learning' and 'heuristics' as specific focus areas which were not previously established as the necessary response to the identified problem.",
+        "complies": true
+    }
+]
+```

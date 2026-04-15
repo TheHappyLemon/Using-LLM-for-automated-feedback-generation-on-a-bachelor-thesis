@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and specific. It avoids vague language by explicitly stating what will be investigated (generation, improvement, and maintenance of tests) and the context (user stories). The objectives are measurable through the evaluation of existing tools.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The text partially fails this criterion because it begins to describe the 'how' (the scope of the work) by mentioning the evaluation of existing solutions and technologies, which leans towards describing the process/method rather than just the ultimate objective.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is not limited to a single sentence; it consists of two distinct sentences. The first sentence defines the research objective, while the second sentence describes the scope and tasks within the work.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is highly congruent with the preceding text. It directly addresses the problems mentioned (manual effort, changing requirements, need for automation) and proposes AI/ML as the solution, maintaining a logical flow from the identified gap to the research aim.",
+        "complies": true
+    }
+]
+```

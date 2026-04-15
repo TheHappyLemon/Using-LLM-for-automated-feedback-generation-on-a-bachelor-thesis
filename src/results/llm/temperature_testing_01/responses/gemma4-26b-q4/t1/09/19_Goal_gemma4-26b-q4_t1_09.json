@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It specifies clear outcomes: analyzing existing solutions and developing a new software solution to achieve specific improvements (efficiency and time reduction).",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcomes (improving efficiency, reducing time, and balancing needs). However, it starts to drift into describing the process ('izpētīt un analizēt... lai... izstrādāt'), which borders on describing the methodology/steps rather than just the final objective.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is contained within a single, complex sentence. While it is grammatically a single sentence, it is quite long and contains multiple clauses, which slightly compromises conciseness.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a slight mismatch in scope. The preceding text focuses heavily on 'dynamic scheduling' and 'shift generation' (maiņu ģenerēšana), but the goal introduces 'time tracking' (laika uzskate) as the primary focus. The text discusses the problem of scheduling, but the goal proposes a solution for accounting/tracking, which creates a logical gap between the problem described and the solution proposed.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat vague due to the word 'perspektīvas' (perspectives). It is difficult to measure exactly what 'determining perspectives' means in a scientific sense. To improve, the student should specify what exactly will be evaluated (e.g., performance, resource usage, or ease of implementation) to make the goal measurable.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the objective (determining perspectives) rather than the process or tools used, which is a strength. It avoids describing the methodology, focusing instead on the intended outcome.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single, concise sentence that directly communicates the aim of the thesis without unnecessary filler.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text, as the introduction highlights the transition from old concurrency mechanisms to new virtual threads. However, the goal mentions 'other Java parallel capabilities', while the preceding text specifically mentions 'java.util.concurrent' and 'old vs new mechanisms'. The connection is logical, but the goal could more explicitly reference the comparison between traditional and virtual threads to mirror the 'gap' mentioned in the introduction.",
+        "complies": true
+    }
+]
+```

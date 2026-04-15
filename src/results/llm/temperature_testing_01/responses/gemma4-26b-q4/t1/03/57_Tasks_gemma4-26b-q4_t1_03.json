@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are presented as a continuous paragraph rather than a numbered list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "4",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "While the text includes research, development, and testing, it lacks a rigorous validation step. Testing the functionality is not sufficient; the work needs to compare the prototype against existing solutions or demonstrate how it specifically solves a practical problem through comparative analysis.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task within the text is presented as a clause within a single long sentence, rather than being individual, single-sentence tasks.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text uses conjugated verbs in the first person (e.g., 'es izpētīšu', 'izstrādāšu') instead of using the infinitive form (e.g., 'izpētīt', 'izstrādāt').",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The text is relatively clear, but the sentence is long and contains multiple overlapping actions, which reduces precision.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression towards the goal of developing a tourist guide, covering research, development, and testing. However, it lacks the necessary validation against existing solutions to fully fulfill the research requirement.",
+        "complies": false
+    }
+]
+```

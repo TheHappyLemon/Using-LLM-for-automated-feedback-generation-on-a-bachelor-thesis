@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of steganography in the context of modern digital technologies and the need for information security. It connects the topic to practical applications such as protecting intellectual property and preventing unauthorized access.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text is quite weak in this area. While it mentions general approaches (images, audio, text) and cites a source (Grebnikov V., 2019), it does not discuss the current state-of-the-art specifically regarding steganography in PE files. It lacks a discussion of recent advanced techniques or existing sophisticated methods used in executable steganography.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by stating that while the PE format is widely used, it has not been deeply researched from a steganographic perspective. However, the gap is somewhat generic; it would be stronger if it specified exactly what aspects of PE steganography (e.g., detection evasion, capacity, or specific section manipulation) remain unresolved.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the potential for using the PE format to hide information (including malicious code) and the need to understand these properties to ensure cybersecurity. The research motivation (understanding how to hide and detect) is explicit.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included to support claims (Grebnikov V., 2019), which is good. However, the text repeats the same citation multiple times for different points, and the text contains a significant error: a paragraph is repeated almost verbatim, which should be corrected.",
+        "complies": true
+    }
+]
+```

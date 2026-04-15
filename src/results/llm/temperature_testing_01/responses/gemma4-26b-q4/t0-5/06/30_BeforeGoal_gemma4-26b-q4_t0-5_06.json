@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of the topic by noting the increasing complexity of modern information systems and the need to understand the potential and limitations of object-relational databases compared to traditional ones.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks specific citations of existing research, published studies, or specific modern technologies. While it mentions that object-relational databases are 'studied and documented', it does not provide concrete examples of previous evaluations or comparisons to establish the current state of the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The student correctly identifies a gap: the lack of empirical data regarding performance, efficiency, and the trade-off between implementation simplicity and structural complexity. However, this gap should be more clearly linked to the lack of existing comparative studies mentioned in the state-of-the-art section.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated in the 'Problēmas nostādne' section: the difficulty in designing object-relational databases due to the absence of data regarding performance improvements and the impact of design choices.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text to support the claims made about the evolution of database technology or the current state of documentation.",
+        "complies": false
+    }
+]
+```

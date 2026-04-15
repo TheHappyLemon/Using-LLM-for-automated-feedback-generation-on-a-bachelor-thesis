@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of the topic by situating it within the rapid development of generative AI and explaining the practical necessity of RAG to overcome the limitations of static training data.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates a good awareness of the current state-of-the-art by citing recent and relevant literature (e.g., Naveed et al. 2024, Lewis et al. 2021, Gao et al. 2024) and explaining the mechanics of LLMs and RAG.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text identifies a limitation in LLMs (lack of training data for new info), it does not explicitly identify a research gap regarding the specific methods of 'chunking' (segmentation) or 'embeddings' in the context of the Latvian language, which is the core of the thesis topic.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text clearly identifies the problem of LLMs being unable to answer questions outside their training data, but it does not yet explicitly state the specific technical problem or research question regarding the optimization of segmentation and embeddings for Latvian.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text uses references appropriately and frequently to support technical claims and definitions, following academic standards for citing foundational and recent works.",
+        "complies": true
+    }
+]

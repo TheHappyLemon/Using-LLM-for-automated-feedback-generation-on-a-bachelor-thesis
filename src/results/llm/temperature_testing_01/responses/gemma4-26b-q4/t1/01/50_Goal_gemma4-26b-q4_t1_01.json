@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is quite general. While it states the intent to 'investigate principles', it lacks specific measurable outcomes or a concrete final product (e.g., a comparison, a prototype, or a performance analysis). It is difficult to determine if the goal is 'reached' without more specific criteria.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the objective (investigating principles) rather than the process. It avoids listing specific tools like FastAPI or Celery within the goal statement itself, which is good.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single, concise, and direct sentence, which is the ideal structure for a thesis goal.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text. The introduction establishes the problem of synchronous inefficiencies in Python and the potential of asynchronous tools; the goal to investigate these principles directly addresses the need for research mentioned in the 'Problem statement' section.",
+        "complies": true
+    }
+]
+```

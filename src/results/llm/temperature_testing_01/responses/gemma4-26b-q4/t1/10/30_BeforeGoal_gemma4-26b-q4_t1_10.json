@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully identifies the growing complexity of modern information systems and the need for more advanced data structures, justifying why the topic is relevant today compared to previous decades.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions that object-relational databases are studied and documented, but it fails to cite any specific researchers, studies, or specific modern technological benchmarks/achievements. It lacks a formal review of existing literature.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap regarding the lack of empirical data comparing performance, efficiency, and the trade-off between simplicity and complexity in implementation. However, this gap should ideally be framed by referencing the lack of existing comparative studies.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated in the 'Problēmas nostādne' section: the difficulty in designing object-relational databases due to a lack of performance comparison data and the uncertainty of implementation choices.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text to support the claims made about the evolution of databases or the current state of documentation.",
+        "complies": false
+    }
+]
+```

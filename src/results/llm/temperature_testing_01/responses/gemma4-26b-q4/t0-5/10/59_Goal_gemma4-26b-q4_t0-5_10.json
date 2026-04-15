@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but the term 'izpētīt' (to investigate) can be considered slightly vague in a technical thesis. To make it more measurable, it would be better to specify if the goal is to develop a prototype, simulate a scenario, or evaluate an existing algorithm. However, it does define a clear scope (search and rescue tasks).",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal slightly violates this criterion because it mentions 'using swarm integration with AI agents' (izmantojot spieta integrāciju ar mākslīgā intelekta aģentiem), which describes the method/tool rather than just the objective. A stronger focus would be on the improvement of the search process itself.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is well-structured as a single, concise, and direct sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text. The introduction establishes the potential of AI-integrated drone swarms (MIiDS) and specifically mentions their utility in search and rescue operations. The transition from the problem (need for efficiency in rescue) to the goal (investigating swarm management for search tasks) is logical.",
+        "complies": true
+    }
+]
+```

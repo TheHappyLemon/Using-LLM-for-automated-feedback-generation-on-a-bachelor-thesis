@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively demonstrates the significance of the topic. It clearly links the need for offline support to modern usage patterns (remote work, travel) and the instability of internet connections, making a strong case for why this research is relevant to current user needs.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text mentions that technological advancements have opened new possibilities and briefly cites Orozco (2024), it lacks a detailed overview of the current state-of-the-art. It does not mention specific existing technologies (e.g., Service Workers, IndexedDB, PWA standards) or compare specific existing solutions/frameworks that are currently used to solve this problem.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a general problem area (the need for functionality during interruptions), but it does not explicitly identify a specific research gap. It does not state what is missing in current technological implementations or what specific unresolved challenge in the existing literature/practice this thesis intends to bridge.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified. The text explicitly points out the challenges associated with offline operation, such as data synchronization, resource access, and user interaction during connectivity loss.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes at least one relevant citation (Orozco, 2024) to support the claim regarding the increasing demand for offline solutions, which is a good start for academic grounding.",
+        "complies": true
+    }
+]
+```

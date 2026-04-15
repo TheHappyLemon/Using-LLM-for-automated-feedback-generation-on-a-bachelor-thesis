@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively establishes the importance of the topic by highlighting the widespread use of JSON and the critical challenges of performance and complexity in high-load applications.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing tools (ujson, orjson, simplejson) and cites academic literature, which demonstrates awareness of the current technical landscape and available solutions.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text mentions difficulties with large datasets, it does not explicitly identify a research gap in terms of what is missing in current academic literature or a specific lack of comparative studies that this thesis intends to fill.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the decrease in serialization/deserialization speed and structural complexity when handling large volumes of data in Python.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text uses formal academic citations (Bourhis et al., 2017) to support claims regarding the popularity of the JSON format.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively explains the importance of credit risk forecasting for financial institutions and correctly identifies the growing trend of complex, non-transparent ML models as a key motivation for the research.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text mentions specific XAI methods (LIME and SHAP), it fails to cite any specific published research, studies, or authors that have previously applied these methods in the context of credit risk. It describes the technology but lacks a literature-based review of current academic achievements.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical gap (the 'black box' nature of models causing lack of trust), but it does not formulate a scientific research gap based on existing studies. It does not state what is missing from previous academic evaluations or where current XAI applications in credit risk fall short.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly and easily identified: the lack of transparency and interpretability in complex ML models used for credit risk forecasting, which hinders trust and regulatory compliance.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text to support the claims regarding the complexity of ML models or the utility of XAI methods. Every technical claim should be backed by academic sources.",
+        "complies": false
+    }
+]

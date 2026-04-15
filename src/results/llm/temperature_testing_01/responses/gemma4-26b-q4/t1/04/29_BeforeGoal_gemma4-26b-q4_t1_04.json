@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does an excellent job of establishing significance. It uses global statistics (World Bank data) to demonstrate the growing scale of the waste problem and clearly links the need for improved sorting to the environmental impact and the limitations of manual labor.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates awareness of current trends by mentioning the use of neural networks and computer vision methods. However, it relies on a single citation for recent research achievements, which makes the literature review feel somewhat thin. It would be stronger if it briefly mentioned specific types of successful architectures or specific recent breakthroughs.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical gap (the inefficiency and inaccuracy of manual sorting), but it does not explicitly identify a research gap in the context of machine learning algorithms themselves. While it mentions that AI is being used, it doesn't clearly state what is currently lacking in existing algorithms (e.g., speed, accuracy in complex environments, or computational cost) which justifies the 'investigation and analysis' mentioned in the topic.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is clearly identified: the need for a faster, more accurate, and automated way to classify diverse waste types to replace inefficient manual processes.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present and used to support statistical claims and technical statements. However, the formatting is inconsistent; some references use author names/years (worldbank, 2018), while others use DOI strings (10.3390/mi14112047, 2023). The student should standardize these according to the required citation style (e.g., APA or IEEE).",
+        "complies": false
+    }
+]

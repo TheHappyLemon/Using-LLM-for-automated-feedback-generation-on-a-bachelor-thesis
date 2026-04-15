@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It clearly states the intent to investigate factors and to develop/evaluate specific types of solutions (machine learning and heuristic-based), which allows for clear assessment of the thesis results.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal partially fails this criterion because it explicitly mentions the methods to be used ('mašīnmācīšanās, gan heiristikā bāzētus risinājumus'). A goal should focus on the 'what' (detecting integrity) rather than the 'how' (using ML or heuristics).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is composed of two concise sentences. While the content is direct, it is not limited to a single sentence as requested by the structural criterion.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the problem of verifying the integrity of digitized handwritten documents. However, the goal introduces 'heuristic-based solutions', whereas the preceding text only discusses the need for integrity/authenticity and does not mention heuristics or the specific need for comparing ML vs heuristic approaches.",
+        "complies": false
+    }
+]
+```

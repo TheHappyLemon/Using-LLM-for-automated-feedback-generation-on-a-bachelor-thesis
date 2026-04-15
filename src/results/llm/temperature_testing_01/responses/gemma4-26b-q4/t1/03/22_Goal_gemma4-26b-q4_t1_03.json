@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It clearly specifies three main components: evaluating efficiency/accuracy, analyzing privacy impact, and developing recommendations. The objectives are concrete enough to determine whether the research objectives have been met.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The text fails this criterion because it drifts into describing the methodology. Phrases such as 'Šis būs 1.tipa bakalaura darbs...', 'praktiskajā daļā es plānoju veikt eksperimentus...' and 'savstarpējo salīdzināšanu' describe the type of work and the research process/tools rather than focusing solely on the objective/outcome.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not limited to a single, concise sentence. It consists of three separate sentences, including meta-commentary about the thesis type and future plans, which should be moved to the methodology or introduction sections.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal shows strong logical continuity with the preceding text. The preceding text identifies three gaps: privacy/data protection, surveillance/human rights, and technical limitations (accuracy/lighting). The goal directly addresses all of these by proposing to evaluate accuracy, analyze privacy impact, and provide recommendations for correct use.",
+        "complies": true
+    }
+]
+```

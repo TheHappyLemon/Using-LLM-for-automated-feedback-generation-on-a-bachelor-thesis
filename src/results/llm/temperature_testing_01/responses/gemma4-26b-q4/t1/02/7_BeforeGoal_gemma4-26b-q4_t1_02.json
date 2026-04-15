@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a very good job of explaining the significance of the topic. It clearly outlines the impact of manual scheduling on operational efficiency, employee well-being, and patient care, and connects it to modern trends like automation and the need for flexibility.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text fails to demonstrate the state-of-the-art. While it mentions the general concept of automated algorithms, it does not cite any specific existing solutions, published research, or current technological achievements in the field of rostering algorithms.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical problem (the inefficiency of manual scheduling), but it does not identify a scientific or research gap. It does not explain what is missing in current automated solutions or why existing algorithms are insufficient for the specific complexities mentioned.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is clearly identified: the complexity of scheduling in healthcare (specifically nurse rostering) due to various constraints and the inefficiency of manual processes.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text to support the claims made regarding the impact of scheduling or the effectiveness of automation.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear as it aims to develop a software solution based on research. However, terms like 'improve efficiency' and 'reduce management time' are somewhat vague and difficult to measure quantitatively without predefined metrics.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal slightly violates this criterion because it describes the process/method (researching, analyzing, and developing) rather than just the final outcome. A stronger focus would be on the final state of the system/solution itself.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, long, and complex sentence. While it is one sentence, it is quite dense and could be streamlined for better readability.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a logical disconnect regarding the core subject. The topic and preceding text focus on 'shift scheduling/generation' (maiņu ģenerēšana), but the goal shifts the focus to 'time tracking' (darba laika uzskaites). The goal should address the optimization of scheduling, as described in the introduction, rather than introducing 'tracking' as a new primary objective.",
+        "complies": false
+    }
+]
+```

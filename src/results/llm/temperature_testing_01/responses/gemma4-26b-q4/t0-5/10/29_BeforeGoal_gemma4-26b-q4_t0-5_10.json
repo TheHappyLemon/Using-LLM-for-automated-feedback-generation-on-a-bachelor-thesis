@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does an excellent job of establishing significance. It uses global statistics (World Bank) to demonstrate the growing problem of waste and clearly explains why improving sorting efficiency is crucial for environmental protection.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions that neural networks and computer vision methods are increasingly used and cites a specific recent publication (2023). However, it could be strengthened by briefly describing *what* these specific recent achievements are, rather than just stating they exist.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The gap is implied (the need for automation due to the limitations of manual sorting), but it is not explicitly formulated as a research gap in the scientific sense. The text does not clearly state what is missing in current machine learning approaches that this thesis intends to address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: manual waste sorting is slow, expensive, and prone to error, necessitating the development of automated intelligent systems.",
+        "complies": true
+    },
+    {
+        "can_be_improved": "References",
+        "feedback": "References are present and support the claims; however, the formatting is inconsistent. Some citations use names/years (worldbank, 2018), while others use DOI/journal identifiers (10.3390/mi14112047, 2023), which is not standard academic practice. You should use a consistent citation style (e.g., APA or IEEE).",
+        "complies": false
+    }
+]
+```

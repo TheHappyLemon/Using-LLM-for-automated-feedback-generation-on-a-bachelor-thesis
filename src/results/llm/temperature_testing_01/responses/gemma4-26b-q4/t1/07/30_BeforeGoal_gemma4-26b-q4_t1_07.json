@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully identifies the relevance of the topic by mentioning the increasing complexity of modern information systems and the changing industry needs. It provides a good motivation for comparing the two technologies based on complexity and performance requirements.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text is very weak here. It mentions that object-relational databases are 'studied and documented' but fails to cite any specific authors, recent studies, or specific technological advancements. To meet the criteria, you must mention specific existing research or benchmarks that have attempted this comparison previously.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text attempts to identify a gap by stating that empirical data regarding efficiency, performance, and the trade-off between simplicity and complexity is not sufficiently available. However, this gap is not formally linked to a critique of existing literature; it feels more like a personal observation than a research gap derived from the state-of-the-art.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified in the 'Problēmas nostādne' section: the difficulty of designing object-relational databases due to a lack of comparative data regarding performance improvements and design choices.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations included in the text. To support claims about the evolution of databases since the 80s or the existence of documentation, you must cite specific academic sources or technical documentation.",
+        "complies": false
+    }
+]
+```

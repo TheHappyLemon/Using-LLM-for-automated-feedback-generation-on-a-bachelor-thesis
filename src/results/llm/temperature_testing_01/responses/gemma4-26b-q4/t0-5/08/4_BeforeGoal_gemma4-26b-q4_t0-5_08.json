@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the significance of the topic by linking Java's popularity (TIOBE index) with the technological evolution of concurrency (from java.util.concurrent to Virtual Threads). It clearly explains why studying this is relevant for modern software development.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions specific technological milestones (JDK 21, Java 19 preview) and references the TIOBE index and Oracle documentation. However, it lacks a deeper review of existing comparative studies or benchmarks regarding the performance of platform threads vs. virtual threads, which is crucial for a thesis focused on 'investigation'.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap in terms of 'understanding the application perspectives' and the need to evaluate old vs. new mechanisms, but it doesn't explicitly state that a lack of comparative research exists. It focuses more on the existence of technical problems (race conditions, etc.) rather than a gap in scientific literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identifiable: the need to evaluate and compare the efficiency and application perspectives of traditional threading mechanisms versus the newly introduced virtual threads in Java.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present (Giebas et. al., 2021; TIOBE.com; Oracle.com) and used to support claims about popularity and technical updates. However, there is a typo/repetition error ('to stabila to stabila versija') and some grammatical inconsistencies that should be polished.",
+        "complies": true
+    }
+]
+```

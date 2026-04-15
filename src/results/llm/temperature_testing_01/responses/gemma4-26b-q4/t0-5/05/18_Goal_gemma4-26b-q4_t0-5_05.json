@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but the phrase 'izstrādāt ģeneratīva mākslīgā intelekta risinājumu' (to develop a generative AI solution) is somewhat broad. To make it more measurable, the student should specify what constitutes a successful 'solution' (e.g., an automated system or an algorithm) and how the accuracy of answering questions will be evaluated.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the outcome (answering user questions based on concept maps), but it also mentions the means ('izmantojot informāciju, kas atspoguļota konceptu karšu formā'). While the focus is on the objective, there is a slight overlap with the method of data usage.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, concise sentence, which adheres well to the structural requirement.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a slight logical gap. The preceding text emphasizes the need for 'interpretation' and 'analysis' (analīze, interpretācija) of concept maps to identify problems and improve understanding. However, the goal shifts the focus specifically to 'answering user questions' (atbildēt uz lietotāja jautājumiem). While related, the goal should more explicitly bridge the gap between the identified problem (lack of analysis tools) and the proposed solution (a Q&A system).",
+        "complies": false
+    }
+]
+```

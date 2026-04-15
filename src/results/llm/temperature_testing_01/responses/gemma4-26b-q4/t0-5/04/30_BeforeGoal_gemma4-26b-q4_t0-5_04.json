@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of the topic by explaining how the increasing complexity of modern information systems creates a need for more advanced data modeling approaches. It correctly identifies the shift from simple to complex data structures as a driver for this research.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text is quite weak in this area. While it mentions that object-relational databases are studied and documented, it fails to cite any specific authors, specific technologies, or existing comparative studies. To improve, you should mention specific existing research or benchmarks that have attempted to compare these two paradigms.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by stating that empirical data regarding performance, efficiency, and the trade-off between complexity and implementation simplicity is lacking. However, this gap is presented as a general observation rather than being explicitly derived from a review of existing literature.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated in the 'Problēmas nostādne' section: the lack of available data regarding performance improvements and the complexity of designing object-relational databases compared to relational ones.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text. Even when making broad claims about the history of databases or the state of current documentation, you must cite specific sources to support your arguments and avoid making unsupported assertions.",
+        "complies": false
+    }
+]
+```

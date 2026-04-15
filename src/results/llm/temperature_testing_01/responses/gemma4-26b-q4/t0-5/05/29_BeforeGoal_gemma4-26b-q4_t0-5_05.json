@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does an excellent job of establishing significance. It uses global statistics (World Bank) to illustrate the growing waste problem and clearly connects the need for improved sorting to environmental protection and the limitations of manual labor.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text successfully mentions the use of machine learning, computer vision, and neural networks as current cutting-edge methods. However, the citation format for the 2023 study is unconventional (using a DOI/journal identifier instead of author names), which should be corrected to standard academic style.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies the limitations of manual sorting (speed, cost, human error) as a motivation, but it does not explicitly identify a specific research gap in the current machine learning literature. It mentions what is being used, but doesn't clearly state what is missing or what specific problem in existing algorithms the thesis aims to solve.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identifiable: the need for an automated, fast, and precise system for waste classification to replace inefficient manual processes.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are present to support claims, which is good. However, there are significant formatting issues. Some citations use raw URLs or DOI strings (e.g., 10.3390/mi14112047) instead of author-year format, and 'worldbank' and 'wastedive' are not properly formatted as academic citations. These must be standardized.",
+        "complies": false
+    }
+]

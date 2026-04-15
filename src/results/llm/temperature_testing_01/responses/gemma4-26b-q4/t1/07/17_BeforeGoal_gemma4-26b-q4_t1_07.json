@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of YAML in modern development and the risks associated with incorrect syntax. The relevance of the topic is clearly stated.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks a review of existing research, academic studies, or formal benchmarks that have previously compared YAML parsing performance. It only mentions specific libraries (PyYAML, js-yaml) but does not cite any scientific literature or previous comparative studies.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text fails to explicitly identify a research gap based on existing studies. While it implies a need for more data, it does not state that previous comparisons are missing, outdated, or insufficient in a specific way.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is identifiable: developers lack sufficient comparative data regarding the speed and efficiency of different programming language libraries when handling YAML, which can lead to suboptimal tool selection.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal academic references or citations provided to support the claims made about YAML's popularity, its risks, or the existing libraries mentioned.",
+        "complies": false
+    }
+]

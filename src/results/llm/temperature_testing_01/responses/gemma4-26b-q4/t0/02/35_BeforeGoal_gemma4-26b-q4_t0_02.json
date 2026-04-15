@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of the topic. It clearly links the need for offline support to real-world scenarios like remote work, travel, and unstable connections, demonstrating why this research is relevant to current user needs.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text is quite weak in this area. While it mentions that technological advancements have opened new possibilities, it fails to name specific modern technologies (e.g., Service Workers, IndexedDB, PWA standards) or cite specific recent studies beyond a single general reference. It describes the field broadly rather than demonstrating an awareness of the current technical state-of-the-art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a general problem (the need for better functionality), but it does not explicitly identify a specific research gap. It does not clearly state what is currently missing in existing solutions or what specific part of the 'offline' problem remains unsolved in current literature/practice.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the challenges of data synchronization, resource access, and user interaction when internet connectivity is lost or unstable.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The student includes a citation (Orozco, 2024) to support the claim regarding increasing demand, which is good. However, more references are needed when discussing technological advancements and existing solutions to provide a stronger academic foundation.",
+        "complies": true
+    }
+]
+```

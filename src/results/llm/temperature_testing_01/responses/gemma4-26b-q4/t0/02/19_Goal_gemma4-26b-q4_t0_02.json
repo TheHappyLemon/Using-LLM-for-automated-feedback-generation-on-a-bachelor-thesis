@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but it contains a slight mismatch in scope. While the topic focuses on 'generating schedules and shifts', the goal introduces 'time tracking' (darba laika uzskaites) as a primary objective. Additionally, 'improving efficiency' is a bit broad, though the development of a software solution provides a measurable outcome.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal includes the process/method of 'researching and analyzing' (izpētīt un analizēt) before reaching the outcome. While research is part of a thesis, the goal should ideally focus on the final objective: the development of the system itself.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, complex sentence. While it is one sentence, it is quite long and contains multiple clauses, which slightly reduces its conciseness.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a significant logical gap regarding 'time tracking' (darba laika uzskate). The preceding text discusses the problems of 'scheduling and shift generation' (laika sadale, maiņu plānošana), but it never mentions 'time tracking' as a problem to be solved. The goal introduces a new concept (tracking) that was not established in the introduction.",
+        "complies": false
+    }
+]
+```

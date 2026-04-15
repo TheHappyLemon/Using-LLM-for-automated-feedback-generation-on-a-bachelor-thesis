@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are clearly organized into a numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "5",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover research, data collection, development, and testing, but they lack an explicit validation step where the results are compared to existing solutions or benchmarks to prove the model's effectiveness.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is exactly one sentence long.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs (izpētīt, savākt, izstrādāt, testēt, sniegt) at the beginning of each point.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language is concise, straightforward, and precise.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression that directly supports the goal of developing a simulation to identify problems and provide recommendations.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of steganography in the context of modern digital technologies and the need for information security. It connects the topic to real-world applications like protecting intellectual property and masking software.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text is quite weak in this area. While it mentions general methods (images, music, text) and cites one author (Grebnikov V.), it does not discuss specific recent advancements, modern detection techniques, or a detailed overview of current research specifically related to PE-based steganography. It lacks a deep dive into what is currently being done in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by stating that PE format steganography is 'not deeply researched from the perspective of steganography fields.' However, this is a somewhat generic claim. To improve, the author should specify what exactly is missing—for example, a lack of automated detection tools, lack of studies on specific PE sections, or the difficulty of hiding data without altering file hashes.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The core problem is clearly identifiable: the need to understand how the properties of the PE format can be exploited to both hide and detect information, especially regarding the potential for hiding malicious code.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included (Grebnikov V., 2019) to support claims about steganography definitions and use cases. However, the text contains a significant error: a large paragraph is repeated verbatim in the second half of the introduction, which undermines the professional quality of the work.",
+        "complies": true
+    }
+]
+```

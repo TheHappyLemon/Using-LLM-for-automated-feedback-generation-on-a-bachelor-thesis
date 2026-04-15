@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It specifies two clear outcomes: investigating influencing factors and developing/evaluating solutions. It avoids vague language and sets a clear benchmark for success.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly describes the methods and tools to be used ('mašīnmācīšanās, gan heiristikā bāzētus risinājumus'). The goal should focus on the 'what' (determining integrity) rather than the 'how' (machine learning/heuristics).",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is composed of two distinct sentences rather than a single, concise sentence. While the content is clear, the structure does not meet the requirement of being limited to one sentence.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the problem of verifying integrity after digitalization mentioned in the preceding text. However, the preceding text does not explicitly mention 'machine learning' or 'heuristics', so the introduction of these specific technical approaches in the goal feels slightly disconnected from the established context.",
+        "complies": false
+    }
+]
+```

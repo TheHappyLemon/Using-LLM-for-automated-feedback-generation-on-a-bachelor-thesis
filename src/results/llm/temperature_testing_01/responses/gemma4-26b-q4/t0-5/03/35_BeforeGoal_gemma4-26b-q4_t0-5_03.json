@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of the topic. It clearly links the need for offline support to real-world scenarios like remote work, travel, and unstable connections, demonstrating why this is a relevant issue for modern users.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions a specific source (Orozco, 2024) to support the increasing demand for these solutions, which is a good start. However, it lacks a deeper discussion of specific modern technologies (e.g., Service Workers, IndexedDB, PWA standards) or a comparison of existing architectural approaches that represent the current state-of-the-art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a general need but fails to pinpoint a specific research gap. It mentions that the study will 'analyze existing solutions,' but it does not explicitly state what is missing in current technologies or what specific unresolved problem in synchronization or data consistency the thesis intends to tackle.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the difficulty of maintaining functionality, data synchronization, and user interaction when internet connectivity is lost or unstable.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The student uses at least one formal citation (Orozco, 2024) to support a claim regarding industry demand, which is a strong element. However, more references would be needed to support the technical claims regarding synchronization and local resource access.",
+        "complies": true
+    }
+]
+```

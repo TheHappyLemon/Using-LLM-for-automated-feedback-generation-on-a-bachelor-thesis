@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of steganography in the context of modern digital technologies and the need for information security. It effectively links the topic to current trends like cybersecurity and the widespread use of the PE format.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text is quite weak in this area. While it mentions general methods (images, audio, text) and cites Grebnikov (2019), it does not discuss specific modern advancements or recent research specifically related to steganography in executable files. It lacks a review of existing techniques or tools used for PE-based steganography.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by stating that while the PE format is widely used, it has not been 'deeply researched from the perspective of steganography.' However, this gap is stated somewhat generically; it would be stronger if it pointed to a specific limitation in current detection or embedding methods.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The core problem is clearly identifiable: the need to understand how the properties of the PE format can be exploited to both hide and detect information, especially regarding the potential for hiding malicious code.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included (Grebnikov V., 2019) to support claims about the definition and use cases of steganography. However, more diverse sources should be used to support the claims regarding the PE format and the state of modern steganographic research.",
+        "complies": true
+    }
+]
+```

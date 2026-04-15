@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the significance of the topic, highlighting the importance of risk forecasting for financial institutions and the growing issue of model opacity in the context of modern ML developments.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text mentions specific XAI methods (LIME, SHAP), it lacks citations to published research or specific recent studies that demonstrate the current state of the art in the field. It describes the technology but does not reference the academic landscape.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical gap (the 'black box' nature of models and the resulting lack of trust/interpretability), but it does not explicitly identify a scientific or research gap based on a lack of previous studies or unresolved academic problems.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the increasing complexity and lack of transparency ('black box' nature) of ML models make it difficult for financial analysts to trust and interpret predictions.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal academic references or citations provided in the text to support the claims made regarding the importance of risk management or the functionality of XAI methods.",
+        "complies": false
+    }
+]

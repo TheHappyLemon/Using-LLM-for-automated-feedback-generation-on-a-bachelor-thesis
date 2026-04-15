@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat vague because 'determining perspectives' (noteikt perspektīvas) is difficult to measure objectively. To improve, the student should specify what 'determining' entails—for example, comparing performance, analyzing resource usage, or evaluating ease of implementation.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses correctly on the objective (determining perspectives) rather than listing the specific methods or tools (like benchmarking or code analysis) that will be used to reach that goal.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is well-structured, consisting of a single, concise sentence that directly communicates the main objective.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text. The introduction establishes the context of Java's popularity, the recent introduction of virtual threads (JDK 21), and the existing challenges in concurrency, which directly justifies the need to evaluate the 'perspectives' of these new threads in relation to older mechanisms.",
+        "complies": true
+    }
+]
+```

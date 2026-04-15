@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly stated, but it remains somewhat vague. While it identifies 'principles' as the subject, it does not specify what 'investigating' entails (e.g., a comparative analysis, implementation, or performance evaluation). To make it more measurable, consider specifying if the aim is to compare certain frameworks or to demonstrate a specific implementation.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the objective (investigating principles) and successfully avoids listing specific tools like 'FastAPI' or 'Celery' within the goal statement itself, keeping the focus on the research outcome.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is written as a single, concise, and direct sentence, which is ideal for a thesis introduction.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text. The introduction discusses the problems of synchronous approaches and the potential of Python's asynchronous tools, and the goal proposes to investigate the principles of this development. There is a logical flow from the identified problem to the research objective.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are clearly organized into a numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "5",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover theoretical research, development, and testing. However, 'testing' (pārbaudīt) is not explicitly defined as a validation against benchmarks or existing solutions, which is required for completeness.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is exactly one sentence long.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs (Izpētīt, Veikt, Izstrādāt, Pārbaudīt) to start the tasks.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language is concise, straightforward, and precise.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression: researching features, reviewing existing tools, analyzing applicability, developing the solution, and testing it, which directly supports the goal of developing a solution.",
+        "complies": true
+    }
+]
+```

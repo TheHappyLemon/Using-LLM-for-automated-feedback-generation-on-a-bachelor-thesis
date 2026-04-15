@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear and measurable as it includes investigation, development, and evaluation. However, the phrase 'izpētīt esošus risinājumus... iespējas' is slightly redundant and could be more precise.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal starts to drift into describing the process/methods (developing and evaluating a specific method) rather than just stating the ultimate objective. It focuses on the 'how' (developing/evaluating) as much as the 'what'.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is not a single sentence; it consists of three separate sentences. A thesis goal should ideally be a single, cohesive statement.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is good alignment between the problem (slow CI/CD, resource consumption) and the goal (optimization). However, the goal introduces 'developing a method', whereas the preceding text focuses more on 'investigating strategies and techniques'. The leap from investigation to development should be more clearly bridged in the introduction.",
+        "complies": true
+    }
+]
+```

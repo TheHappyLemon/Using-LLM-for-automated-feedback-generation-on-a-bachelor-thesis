@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clear and measurable, as the creation of a specific product (a tourism guide) can be verified. It avoids overly vague language regarding the final output.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly mentions the methods/tools used to achieve the outcome ('izmantojot papildināto realitāti un GPS tehnoloģijas'). The goal should focus on the 'what', not the 'how'.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not a single, concise sentence. It starts with a filler phrase ('Tādēļ arī es izstrādāšu šo darbu, kur...') which should be removed to make the goal direct and professional.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal introduces 'GPS tehnoloģijas', which were not mentioned in the preceding text. To ensure logical flow, the preceding text should establish the importance or context of GPS data/navigation before the goal is stated.",
+        "complies": false
+    }
+]
+```
