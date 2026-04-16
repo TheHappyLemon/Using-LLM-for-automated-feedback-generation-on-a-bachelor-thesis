@@ -5,6 +5,7 @@ from src.code.parsing.old.BeforeGoal import BeforeGoal
 from src.code.parsing.old.Goal import Goal
 from src.code.parsing.old.Tasks import Tasks
 from src.code.parsing.old.Property import Property
+from src.code.parsing.old.Full import Full
 
 class EvaluationRow:
     def __init__(self, author : str):
@@ -70,6 +71,17 @@ class EvaluationRow:
         self.goal = goal
         self.tasks = tasks
         self.afterTasks = afterTasks
+
+    def load_3(self, Nr: int, full : Full | None = None):
+        if full == None:
+            full = Full()
+        
+        beforeGoal = BeforeGoal(full.Significance, full.State_of_the_art, full.Gap, full.Problem, full.References)
+        goal = Goal(full.Purpose, full.Intention, full.Structure_goal, full.Congruence)
+        tasks = Tasks(full.Outlook, full.Quantity, full.Completeness, full.Format, full.Structure_tasks, full.Clarity, full.Relevance)
+        afterTasks = AfterTasks(full.Chapters, full.Description, full.Structure_aftertasks)
+
+        self.load_2(Nr, beforeGoal=beforeGoal, goal=goal, tasks=tasks, afterTasks=afterTasks)
 
     def to_bool(self, quantity_already_bool : bool = False):
         self.beforeGoal.to_bool()

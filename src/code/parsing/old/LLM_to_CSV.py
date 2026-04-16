@@ -12,6 +12,7 @@ from src.code.parsing.old.AfterTasks import AfterTasks
 from src.code.parsing.old.BeforeGoal import BeforeGoal
 from src.code.parsing.old.Tasks import Tasks
 from src.code.parsing.old.Goal import Goal
+from src.code.parsing.old.Full import Full
 from src.code.parsing.old.model_answer import QuestionAnswer
 from itertools import groupby
 from operator import itemgetter
@@ -59,6 +60,14 @@ def parse_AfterTasks(json_arr : list[QuestionAnswer], model_validation_OK : bool
         return part
     part.load(json_arr)
     return part  
+
+def parse_full(json_arr : list[QuestionAnswer], model_validation_OK : bool, **kwargs) -> Full:
+    logger.info("Parsing FULL entry")
+    part = Full()
+    if not model_validation_OK:
+        return part
+    part.load(json_arr)
+    return part
 
 def get_json(json_str : str) -> list:
     try:
@@ -122,7 +131,10 @@ def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
         model_validation_OK = False
         logger.error(f"Pydantic model 'QuestionAnswer' failed validation: {e.errors()}")
 
-    part = globals()[f"parse_{part_type}"](answers, has_goal=has_goal, model_validation_OK=model_validation_OK)
+    if part_type != "full":
+        part = globals()[f"parse_{part_type}"](answers, has_goal=has_goal, model_validation_OK=model_validation_OK)
+    else:
+        part = parse_full(answers, model_validation_OK=model_validation_OK)
     return is_valid_json_originally, removing_markdown_helped, extracting_JSON_with_regex_helped, model_validation_OK, part
 
 def main(path_answer : str, path_source, dump_feedback : bool = False, postfix : str = "") -> int:
@@ -148,29 +160,25 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
             model = params[2]
             has_goal = False
 
-            if part != "full":
+            if part.lower() == "tasks":
+                with open(os.path.join(path_source, text_id + ".json"), 'r', encoding='utf-8') as source_f:
+                    source_json = get_json(source_f.read())
+                    if source_json is None:
+                        has_goal = False
+                    else:
+                        has_goal = (source_json.get("Goal", "") != "") # type: ignore
 
-                if part.lower() == "tasks":
-                    with open(os.path.join(path_source, text_id + ".json"), 'r', encoding='utf-8') as source_f:
-                        source_json = get_json(source_f.read())
-                        if source_json is None:
-                            has_goal = False
-                        else:
-                            has_goal = (source_json.get("Goal", "") != "") # type: ignore
+            with open(full_file, 'r', encoding='utf-8') as f:
+                logger.info(f"Processing: '{file}'")
+                try:
+                    res = parse_llm_response(f.read(), part, has_goal)
+                    writer.writerow([text_id, part, model, res[0], res[1], res[2], res[3], False])
+                    entries.append((text_id, model, part, res[4])) # type: ignore
+                except Exception as e:
+                    logger.error(f"UNKNOWN EXCEPTION: {str(e)}")
+                    writer.writerow([text_id, part, model, False, False, False, False])
+                    continue
 
-                with open(full_file, 'r', encoding='utf-8') as f:
-                    logger.info(f"Processing: '{file}'")
-                    try:
-                        res = parse_llm_response(f.read(), part, has_goal)
-                        writer.writerow([text_id, part, model, res[0], res[1], res[2], res[3], False])
-                        entries.append((text_id, model, part, res[4])) # type: ignore
-                    except Exception as e:
-                        logger.error(f"UNKNOWN EXCEPTION: {str(e)}")
-                        writer.writerow([text_id, part, model, False, False, False, False])
-                        continue
-
-            else:
-                pass
 
     entries.sort(key=lambda x: (int(x[0]), x[1]))
     datasets: dict[str, EvaluationDataset] = {}
@@ -183,6 +191,8 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
             goal = None
             tasks = None
             after_tasks = None
+            # individual case
+            full = None
 
             for entry in model_group:
                 if entry[2] == "BeforeGoal":
@@ -193,9 +203,15 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
                     tasks = entry[3]
                 elif entry[2] == "AfterTasks":
                     after_tasks = entry[3]
+                elif entry[2] == "full":
+                    full = entry[3]
 
             row = EvaluationRow(model)
-            row.load_2(id_, before_goal, goal, tasks, after_tasks)
+            if full == None:
+                row.load_2(id_, before_goal, goal, tasks, after_tasks)
+            else:
+                logger.info("load 3 called")
+                row.load_3(id_, full)
             row.to_int()
             if datasets.get(model, None) is None:
                 datasets[model] = EvaluationDataset(model)
@@ -218,7 +234,8 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
 
     return 0
 
-#python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/initial_testing_01/responses" "src/data/texts/divided" --feedback --run_id="08"
+# python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/initial_testing_01/responses" "src/data/texts/divided" --feedback --run_id="08"
+# python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/single_prompt_testing_01/responses/gemma4-26b-q4/t0/01" "src/data/texts/divided" --feedback
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("results_path", help="Path to folder with model responses")

@@ -1,0 +1,193 @@
+2026-04-16 16:22:55,999 - __main__ - INFO - STARTED
+2026-04-16 16:22:56,000 - __main__ - INFO - Processing: '10_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,001 - __main__ - INFO - Processing: '11_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,002 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Structure_aftertasks', 'research': 'It is not possible to understand the general structure of the thesis from this text as the chapter descriptions are missing.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,002 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,002 - __main__ - INFO - Processing: '12_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,002 - __main__ - INFO - Processing: '13_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,003 - __main__ - INFO - Processing: '14_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,003 - src.code.parsing.old.model_answer - WARNING - Question 'State-of-the-art' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,003 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Structure_tasks', 'feedback': "The tasks use infinitive verbs (e.g., 'Noformulēt', 'Izpētīt', 'Noteikt', 'Izvērtēt'), which is consistent and correct.", 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,003 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,003 - __main__ - INFO - Processing: '15_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,004 - __main__ - INFO - Processing: '16_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,004 - __main__ - INFO - Processing: '17_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,005 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'format': 'Quantity', 'feedback': '6', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,005 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,005 - __main__ - INFO - Processing: '18_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,005 - __main__ - INFO - Processing: '19_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,005 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Outlook', 'text': 'The tasks are presented in a bulleted list rather than a numbered list.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,006 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,006 - __main__ - INFO - Processing: '1_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,006 - src.code.parsing.old.model_answer - WARNING - Question 'State-of-the-art' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,006 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Structure_goal', 'congruence': 'The goal is presented in a single, relatively concise paragraph, though it is somewhat long and contains multiple clauses.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,006 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,006 - __main__ - INFO - Processing: '20_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,007 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Gap', 'text': 'The text does not explicitly identify a research gap based on existing studies; it only states the need to evaluate the technologies, without mentioning what is currently unknown or unresolved in the literature.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,007 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,007 - __main__ - INFO - Processing: '21_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,007 - src.code.parsing.old.model_answer - WARNING - Question 'State-of-the-art' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,008 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'cut_off': 'Completeness', 'feedback': 'The tasks cover the full research cycle: investigation of existing methods, technical implementation, and validation through comparison with existing apps.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,008 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,008 - __main__ - INFO - Processing: '22_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,008 - __main__ - INFO - Processing: '23_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,009 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,009 - __main__ - INFO - Processing: '24_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,009 - __main__ - INFO - Processing: '25_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,010 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_tasks' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,010 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,010 - __main__ - INFO - Processing: '26_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,010 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_aftertasks' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,010 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,011 - __main__ - INFO - Processing: '27_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,012 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'intension': 'Completeness', 'feedback': 'Uzdevumi nav definēti, tāpēc pilnība nav pārbaudāma.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,012 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,013 - __main__ - INFO - Processing: '28_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,013 - src.code.parsing.old.model_answer - WARNING - Question 'Intention' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,013 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Structure_aftertasks', 'explanation': 'Because the chapters and their descriptions are missing, the general structure of the thesis cannot be understood from this text.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,013 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,014 - __main__ - INFO - Processing: '29_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,014 - __main__ - INFO - Processing: '2_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,015 - __main__ - INFO - Processing: '30_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,016 - __main__ - INFO - Processing: '31_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,016 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,017 - __main__ - INFO - Processing: '32_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,017 - __main__ - INFO - Processing: '33_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,018 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'undetermined': 'Quantity', 'feedback': '6', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,018 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,018 - __main__ - INFO - Processing: '34_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,018 - src.code.parsing.old.model_answer - WARNING - Question 'State-of-the-art' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,018 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Structure_aftertasks', 'research_gap': 'It is not possible to understand the general structure of the thesis from this introduction as the structural overview is missing.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,018 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,019 - __main__ - INFO - Processing: '35_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,019 - __main__ - INFO - Processing: '36_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,019 - src.code.parsing.old.model_answer - WARNING - Question 'State-of-the-art' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,019 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,020 - __main__ - INFO - Processing: '37_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,020 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Quantity', 'feedback': '6', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,020 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,021 - __main__ - INFO - Processing: '38_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,021 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Structure_aftertasks', 'research_gap': 'It is impossible to understand the general structure of the thesis from this introduction as no structural overview is provided.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,022 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,022 - __main__ - INFO - Processing: '39_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,023 - __main__ - INFO - Processing: '3_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,023 - src.code.parsing.old.model_answer - WARNING - Question 'State-of-the-art' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,024 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,025 - __main__ - INFO - Processing: '40_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,025 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,025 - __main__ - INFO - Processing: '41_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,025 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Structure_tasks', 'feedback': 'The tasks consistently use infinitive verbs (Izpētīt, Apskatīt, Iegūt, Veikt, Izstrādāt, Novērtēt) at the beginning.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,025 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,026 - __main__ - INFO - Processing: '42_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,026 - __main__ - INFO - Processing: '43_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,027 - __main__ - INFO - Processing: '44_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,027 - src.code.parsing.old.model_answer - WARNING - Question 'State-of-the-art' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,028 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Structure_tasks', 'feedback': 'The tasks consistently use infinitive verbs (Izpētīt, Definēt, Izstrādāt, Pārbaudīt, Izveidot, Novērtēt) at the beginning.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,028 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,028 - __main__ - INFO - Processing: '45_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,029 - src.code.parsing.old.model_answer - WARNING - Question 'Congruence' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,029 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,029 - __main__ - INFO - Processing: '46_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,029 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'The general structure of the thesis cannot be easily understood from this text as the chapter descriptions are missing.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,029 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,029 - __main__ - INFO - Processing: '47_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,030 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'action': 'Intention', 'feedback': 'The goal focuses on the intended outcome (developing a prototype) and includes the method (using NLP), which slightly violates the instruction to avoid describing methods.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,030 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,030 - __main__ - INFO - Processing: '48_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,030 - src.code.parsing.old.model_answer - WARNING - Question 'Congruence' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,030 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,031 - __main__ - INFO - Processing: '49_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,031 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,031 - __main__ - INFO - Processing: '4_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,031 - __main__ - INFO - Processing: '50_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,031 - src.code.parsing.old.model_answer - WARNING - Question 'State-of-the-art' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,032 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,032 - __main__ - INFO - Processing: '51_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,032 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Outlook', 'text': 'The tasks are organized into a clearly separated numbered list.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,032 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,032 - __main__ - INFO - Processing: '52_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,032 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Structure_goal', 'text': 'The goal is not presented as a single, concise sentence; it is embedded within a narrative description of the research plan.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,033 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,033 - __main__ - INFO - Processing: '53_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,035 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,035 - __main__ - INFO - Processing: '54_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,036 - __main__ - INFO - Processing: '55_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,036 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Structure_aftertasks', 'research': 'It is not possible to understand the general structure of the thesis from this text as the structural overview is missing.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,036 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,036 - __main__ - INFO - Processing: '56_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,037 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Congruence', 'feedback': 'Because there is no stated goal, it cannot be evaluated if it builds logically on the identified gaps and problems.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,037 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,037 - __main__ - INFO - Processing: '57_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,037 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Structure_aftertasks', 'research': 'It is not possible to understand the general structure of the thesis from this text as there is no outline provided.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,037 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,037 - __main__ - INFO - Processing: '58_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,038 - __main__ - INFO - Processing: '59_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,038 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,039 - __main__ - INFO - Processing: '5_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,039 - src.code.parsing.old.model_answer - WARNING - Question 'Intention' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,039 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Outlook', 'tasks': 'The tasks are organized into a clearly separated, numbered list.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,039 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,039 - __main__ - INFO - Processing: '60_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,040 - src.code.parsing.old.model_answer - WARNING - Question 'State-of-the-art' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,040 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'format': 'Outlook', 'feedback': 'The tasks are organized into a clearly separated, numbered list.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,040 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,040 - __main__ - INFO - Processing: '61_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,041 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Structure_aftertasks', 'research': 'Because the chapters and their descriptions are missing, the general structure of the thesis cannot be understood from this text.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,041 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,041 - __main__ - INFO - Processing: '62_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,042 - __main__ - INFO - Processing: '63_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,042 - __main__ - INFO - Processing: '64_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,043 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_tasks' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,043 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('feedback',), 'msg': 'Field required', 'input': {'question': 'Structure_aftertasks', 'research': 'It is not possible to understand the general structure of the thesis from this introduction as the structural overview is missing.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 16:22:56,043 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,043 - __main__ - INFO - Processing: '6_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,044 - __main__ - INFO - Processing: '7_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,044 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,044 - __main__ - INFO - Processing: '8_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,044 - src.code.parsing.old.model_answer - WARNING - Question 'State-of-the-art' is missing 'complies'. Default value of False will be used
+2026-04-16 16:22:56,045 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,045 - __main__ - INFO - Processing: '9_full_gemma4-26b-q4_t0_01.json'
+2026-04-16 16:22:56,045 - __main__ - INFO - Parsing FULL entry
+2026-04-16 16:22:56,046 - __main__ - INFO - Start creatting datasets
+2026-04-16 16:22:56,046 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,046 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,046 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,046 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,046 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,046 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,046 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,046 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,046 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,047 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,048 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,049 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,049 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,049 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,049 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,049 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,049 - __main__ - INFO - load 3 called
+2026-04-16 16:22:56,049 - __main__ - INFO - load 3 called

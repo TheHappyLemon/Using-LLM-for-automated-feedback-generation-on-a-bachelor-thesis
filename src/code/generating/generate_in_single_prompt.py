@@ -7,7 +7,7 @@ from src.code.functions import get_prompt, get_texts_not_divided, get_topics, sa
 logger = logging.getLogger(__name__)
 logger.info("STARTED GENERATING RESULTS FOR REFINING IN A SINGLE PROMPT")
 
-single_prompt = get_prompt("REFINE_IN_A_SINGLE_PROMPT")
+single_prompt = get_prompt("REFINE_IN_A_SINGLE_PROMPT_v2") # REFINE_IN_A_SINGLE_PROMPT REFINE_IN_A_SINGLE_PROMPT_v2
 texts = get_texts_not_divided()
 topics = get_topics()
 prompts = {}
@@ -40,7 +40,7 @@ for model in MODELS:
   for t in TEMPERATURES:
     logger.info(f"Temperature = {t}.")
     for i in range(ITERATIONS):
-      iter = str(i + 1).zfill(2)
+      iter = str(i + 2).zfill(2) # + 2 IS TEMPORARILY TO STORE RESPONSES WITH NEW PROMPT in another folder
       logger.info(f"Iteration Nr. {iter:2}")
       for p in sorted(prompts):
         logger.info(f"Text Nr. {p}")

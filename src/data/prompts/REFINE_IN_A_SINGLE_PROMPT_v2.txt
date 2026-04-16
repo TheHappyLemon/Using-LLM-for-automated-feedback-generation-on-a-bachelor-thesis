@@ -1,0 +1,134 @@
+You are given:
+- A topic of a graduation thesis (in Latvian)
+- A thesis introduction written by a university student (in Latvian)
+- A list of questions for evaluating that text
+
+# Topic given in triple quotes
+"""{THESIS_TOPIC}"""
+
+# Introduction text given in triple quotes
+"""{TEXT}"""
+
+# Questions
+1. **Significance**. Does the text clearly explain why the topic is important and relevant, and why it is necessary to research it in the context of current problems, trends, or developments? It should be written only at the beginning of introduction.
+2. **State-of-the-art**. Does the text demonstrate awareness of the current state-of-the-art of the field by briefly citing specific, published research and mentioning existing cutting-edge achievements related to the topic? If the challenge the thesis is trying to address is evaluation or comparison of something then the state-of-the-art part should cite evaluations or comparisons that have been done before by other authors or state that no such results have yet been published (which then can be viewed as gap). If the challenge is development of new a solution, then the state-of-the-art part should cite existing solutions or state that no such solutions exist (which then can be viewed as gap). It should be written only at the beginning of introduction.
+3. **Gap**. Does the text explicitly identify a concrete research gap, formulated on the basis of existing studies, by showing what remains unresolved or insufficiently addressed in the current state of knowledge or practice? It should be written only at the beginning of introduction.
+4. **Problem**. Can it be easily identified what concrete issue or challenge the thesis is trying to address? It should be written only at the beginning of introduction.
+5. **References**. Are references included where needed to support claims, acknowledge sources, or show how prior research is used, interpreted, or extended? It should be written only at the beginning of introduction.
+6. **Purpose**. Does text have a defined goal? If yes, does the goal states what the student aims to accomplish in the thesis? Its wording should not be too general and avoid vague phrases. It should be possible to measure whether the goal has been reached.
+7. **Intention**. Does text have a defined goal? If yes, does the goal focus on the intended outcome or objective, without describing methods, tools, or processes?
+8. **Structure_goal**. Does text have a defined goal? If yes, is it limited to a single, concise sentence that directly communicates the goal of the thesis?
+9. **Congruence** Does text have a defined goal? If yes does the goal build logically and consistently on the previously stated gaps, problems, or motivations in the preceding text, ensuring that the proposed goal directly respond to them? All aspects mentioned in the goal should be also mentioned in the preceding text if there is any.
+10. **Outlook**. Does text define a set of tasks? If yes, then are they organized into clearly separated items in form of a NUMBERED list?
+11. **Quantity**  Does text define a set of tasks? If yes, then count the number of individual tasks in the text. Output only the number in 'feedback' field of JSON. Text complies if it has 5, 6 or 7 tasks.
+12. **Completeness** Does text define a set of tasks? If yes, then does it describe individual tasks that represent a complete research process, including theoretical analysis, practical research (experiments) or implementation (of solution), and validation of results — for example, by comparing findings with prior studies, existing solutions, or established benchmarks? By validation we don't mean just something like developed software testing. If some kind of solution is developed, validation means that it must be compared to existing solutions or, at the very minimum, it must be demonstrated that is actually solves a practical problem. If some existing solutions are compared, validation means that the results of the comparison must be contrasted with results from other authors.
+13. **Format**. Does text define a set of tasks? If yes, then are they exactly one sentence long and do not span over several sentences?
+14. **Structure_tasks**. Does text define a set of tasks? If yes, then do they consistently use infinitive verbs (e.g., "to analyze", "to develop", "to explore") at the beginning of sentences or phrases?
+15. **Clarity**. Does text define a set of tasks? If yes, then do they consist of short, straightforward sentences that use concise and precise language?
+16. **Relevance**. Does text define a set of tasks? If yes, then do they present a set of actions or objectives in an order that demonstrably contributes to reaching the stated thesis goal? If the goal is to develop a solution, the tasks should include research of existing solutions and development of the new solution as well as its validation. If the goal is about evaluating or comparing existing solutions, the tasks should include preparations for experiments, doing the experiments, analysis of the obtained results as well as their validation.
+17. **Chapters**. Does the text list the main sections of the thesis? It should be written only at the end of introduction.
+18. **Description**. Does the text briefly describe contents of each section of the thesis. It should be written only at the end of introduction.
+19. **Structure_aftertasks**. Can it be easily understood what is the general structure of the thesis just from this text? It should be written only at the end of introduction.
+
+# Your task
+Your task is to answer each of the evaluation questions and provide feedback. The feedback will help a student improve their thesis. Evaluate only what is explicitly present in the provided introduction text. If a required element is missing, state that clearly in the feedback.
+
+You should answer with a JSON array and nothing else. The array must contain exactly 19 JSON objects, one per question, in the same order as the questions above. Do not include any additional explanations, formatting, or commentary. The answer must look like this, with 'feedback' field being information that highlights problems with the text regarding the question, i.e., why the text does not meet criteria of the question. If there are no problems, then 'feedback' should briefly highlight strong parts. 'complies' field must be true if text complies with the given requirements in the question and false otherwise.
+
+[
+    {
+        "question": "Significance",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Gap",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Problem",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "References",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Purpose",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Intention",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Structure_goal",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Congruence",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Outlook",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Quantity",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Completeness",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Format",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Structure_tasks",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Relevance",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Chapters",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Description",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    },
+    {
+        "question": "Structure_aftertasks",
+        "feedback": "Text.",
+        "complies": "Boolean value."
+    }
+]

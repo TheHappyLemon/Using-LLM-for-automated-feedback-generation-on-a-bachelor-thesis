@@ -5,30 +5,35 @@ import os
 import pandas as pd
 from pathlib import Path
 
-PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "responses")
+#PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "responses")
+PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "single_prompt_testing_01", "responses", "gemma4-26b-q4", "t0", "01")
 PATH_RESULTS_OLD = os.path.join(BASE_PATH, "results_04")
-postfix_new = "08"
+postfix_new = ""
+#postfix_new = "08"
 postfix_old = "04"
 evaluators = [
-	"gemma2-9b-q8",
-	"gemma3-12b-qat",
-	"gemma3-12b-q8",
-	"gemma3-27b-qat",
-	"llama3.1-8b-q8",
-	"llama3.1-8b-fp16",
-	"mistral-nemo-12b-q8",
-	"mistral-small-22b-q6",
-	"mistral-small-24b-q4",
-	"qwen3-14b-q8-thinking",
-	"qwen3-30b-q4-thinking",
-	"deepseek-r1-14b-q8",
-	"gpt-oss-20b-thinking",
-	"eurollm-9b-q8",
-    "magistral-24b-q4",
-    "qwen3.5-9b-q8",
-    "gemma4-26b-q4",
-    "ministral3-14b-q8"
+    "gemma4-26b-q4"
 ]
+#evaluators = [
+#	"gemma2-9b-q8",
+#	"gemma3-12b-qat",
+#	"gemma3-12b-q8",
+#	"gemma3-27b-qat",
+#	"llama3.1-8b-q8",
+#	"llama3.1-8b-fp16",
+#	"mistral-nemo-12b-q8",
+#	"mistral-small-22b-q6",
+#	"mistral-small-24b-q4",
+#	"qwen3-14b-q8-thinking",
+#	"qwen3-30b-q4-thinking",
+#	"deepseek-r1-14b-q8",
+#	"gpt-oss-20b-thinking",
+#	"eurollm-9b-q8",
+#    "magistral-24b-q4",
+#    "qwen3.5-9b-q8",
+#    "gemma4-26b-q4",
+#    "ministral3-14b-q8"
+#]
 
 HUMAN_RESPONSES_DIR = Path("src/results/human")
 human1_ds = EvaluationDataset("human1")
@@ -45,7 +50,10 @@ datasets : list[EvaluationDataset] = []
 def calculate_new_results():
     for evaluator in evaluators:
         dataset = EvaluationDataset(author=evaluator)
-        dataset.load_from_csv(os.path.join(PATH_RESULTS_NEW, f"{evaluator}_as_int_{postfix_new}.csv"))
+        if postfix_new != "":
+            dataset.load_from_csv(os.path.join(PATH_RESULTS_NEW, f"{evaluator}_as_int_{postfix_new}.csv"))
+        else:
+            dataset.load_from_csv(os.path.join(PATH_RESULTS_NEW, f"{evaluator}_as_int.csv"))
         dataset.to_bool()
         dataset.dump_to_csv(os.path.join(PATH_RESULTS_NEW, f"{evaluator}_as_bool_{postfix_new}.csv"))
         datasets.append(dataset)
