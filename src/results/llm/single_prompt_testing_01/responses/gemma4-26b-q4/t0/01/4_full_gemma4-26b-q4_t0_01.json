@@ -1,0 +1,98 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text clearly explains the importance of Java's popularity and the relevance of concurrency in modern software development, specifically mentioning the impact of new features like virtual threads.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the current state by mentioning the TIOBE index, the introduction of virtual threads in JDK 21, and the existence of the java.util.concurrent package.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by pointing out the existing vulnerabilities (race conditions, deadlocks, etc.) in classical threading and the need to evaluate the new virtual thread capabilities.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the need to evaluate the perspectives and effectiveness of virtual threads in the context of existing Java concurrency mechanisms and their inherent risks.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included to support claims, such as citing TIOBE for popularity and Giebas et. al. (2021) for concurrency issues.",
+        "complies": true
+    },
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly defined: 'to determine the perspectives of using virtual threads in the context of other Java parallel capabilities'. It is specific and measurable through the described experiments.",
+        "complates": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcome (determining perspectives) without prematurely detailing the specific experimental methods or tools in the goal statement itself.",
+        "complies": true
+    },
+    {
+        "question": "Structure_goal",
+        "feedback": "The goal is presented as a single, concise sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is logically consistent with the previously mentioned problems (vulnerabilities in old mechanisms) and the motivation (new JDK 21 features).",
+        "complies": true
+    },
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are organized into a clearly separated, numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks represent a complete process: theoretical analysis (tasks 1-3), practical implementation/experimentation (tasks 5-6), and validation/evaluation (task 4 and the detailed 'content' section).",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task in the numbered list is a single sentence.",
+        "complies": true
+    },
+    "question": "Structure_tasks",
+        "feedback": "The tasks consistently use infinitive verbs (e.g., 'Noformulēt', 'Izpētīt', 'Analizēt', 'Noteikt', 'Izstrādāt', 'Norādīt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are written in short, straightforward, and precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression from defining properties and exploring existing tech to performing experiments and identifying strengths/weaknesses, which directly serves the goal.",
+        "complies": true
+    },
+    {
+        "question": "Chapters",
+        "feedback": "The text does not list the main chapters of the thesis; instead, it lists the 'planned content of the solution part'.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "While it describes the content of the 'solution part', it does not describe the contents of the thesis chapters.",
+        "complies": false
+    },
+    {
+        "question": "Structure_aftertasks",
+        "question": "The general structure of the thesis cannot be easily understood as the text focuses on the content of the research implementation rather than the thesis structure.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,99 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively explains the importance of the topic by describing the challenges IT companies face when managing requirements via email.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks a review of specific, published research or existing cutting-edge achievements in the field of NLP or automated task creation.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical difficulty (difficulty in tracking requirements), but it does not explicitly formulate a research gap based on existing studies or scientific literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the difficulty of tracking new software requirements when communication occurs via email.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no academic references or citations included in the introduction to support the claims made.",
+        "complies": false
+    },
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly defined: to develop a prototype that uses NLP to identify and update tasks based on email content. It is measurable through the evaluation of the prototype.",
+        "complies": true
+    },
+    {
+        "action": "Intention",
+        "feedback": "The goal focuses on the intended outcome (developing a prototype) and includes the method (using NLP), which slightly violates the instruction to avoid describing methods.",
+        "complies": false
+    },
+    {
+        "question": "Structure_goal",
+        "feedback": "The goal is presented as a single, clear sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly responds to the identified problem of managing tasks from email content.",
+        "complies": true
+    },
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are organized into a clearly separated, numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover analysis, requirements, development, and evaluation, which represents a complete research process.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is contained within a single sentence.",
+        "complies": true
+    },
+    {
+        "question": "Structure_tasks",
+        "feedback": "The tasks consistently use infinitive verbs (Analīzēt, Analizēt, Izvirzīt, Izstrādāt, Novērtēt, Secināt) at the beginning.",
+        "complates": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are written in short, straightforward, and precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression from analysis to development and finally to evaluation, directly contributing to the goal.",
+        "complies": true
+    },
+    {
+        "question": "Chapters",
+        "feedback": "The text does not list the main sections or chapters of the thesis.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "The text does not provide a description of the contents of the thesis sections.",
+        "complies": false
+    },
+    {
+        "question": "Structure_aftertasks",
+        "feedback": "Because the chapters and their descriptions are missing, the general structure of the thesis cannot be understood from this text.",
+        "complies": false
+    }
+]
+```

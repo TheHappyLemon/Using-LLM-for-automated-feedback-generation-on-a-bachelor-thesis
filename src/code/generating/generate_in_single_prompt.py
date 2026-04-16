@@ -57,8 +57,11 @@ for model in MODELS:
           raw_response_model_path=raw_responses_dir,
           response_model_path=responses_dir,
           fname=f"{p}_full_{MODELS[model]}_{t_string}_{iter}.json",
-          to_think=False # disable for gemma4:26b-a4b-it-q4_K_M
+          to_think=False, # disable for gemma4:26b-a4b-it-q4_K_M
+          num_ctx=8196
         )
+
+# python -m src.code.generating.generate_in_single_prompt
 
 # JUST a workaround to start not from zero if session ends abnormally
 #if (iter == 9 and t == 0.5) and p < 59 or (t == 0.5 and iter < 9):

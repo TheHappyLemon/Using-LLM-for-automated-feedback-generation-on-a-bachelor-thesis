@@ -1,0 +1,99 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text clearly explains the importance of microservices architecture and the relevance of Python in the context of modern software development (e.g., fintech, e-commerce).",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions specific existing technologies (Flask, Django, asyncio, FastAPI, Celery, aiohttp), which demonstrates awareness of the current landscape, but it lacks citations of specific published research or comparative studies by other authors.",
+        "complys": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by stating that while Python offers asynchronous capabilities, their application in microservices requires detailed investigation to understand solutions and applications.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the inefficiency and high resource consumption of synchronous communication in microservices.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal academic references or citations provided in the introduction to support the claims made.",
+        "complies": false
+    },
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly defined: 'to explore the principles of asynchronous microservices development in the Python programming language'. It is specific and measurable through the tasks.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the research objective (exploring principles) without prematurely detailing the specific tools or the step-by-step process in the goal statement itself.",
+        "complies": true
+    },
+    {
+        "question": "Structure_goal",
+        "feedback": "The goal is presented as a single, concise sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly responds to the identified problem of efficiency in microservices by proposing an investigation into asynchronous development.",
+        "complies": true
+    },
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are organized into a clearly separated, numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover the full research cycle: theoretical investigation (tasks 1, 2, 3), development of a metric system (task 4), implementation/prototyping (task 5), and analysis/conclusions (task 6).",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is a single sentence.",
+        "complies": true
+    },
+    {
+        "question": "Structure_tasks",
+        "feedback": "The tasks consistently use infinitive verbs in Latvian (Izpētīt, Analizēt, Izveidot, Izstrādāt, Noformulēt).",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are written in short, straightforward, and precise language.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression from theory to implementation and finally to evaluation and conclusion, which is necessary to reach the stated goal.",
+        "complies": true
+    },
+    {
+        "question": "Chapters",
+        "feedback": "The text does not list the main sections or chapters of the thesis.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "The text does not provide a description of the contents of the thesis sections.",
+        "complies": false
+    },
+    {
+        "question": "Structure_aftertasks",
+        "feedback": "Because the chapters and their descriptions are missing, the general structure of the thesis cannot be understood from this text.",
+        "complies": false
+    }
+]
+```

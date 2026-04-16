@@ -612,8 +612,8 @@ class EvaluationDataset:
             writer.writeheader()
 
             # Here we have a loop for 64 entries (64 texts)
-            for i in range(len(model_datasets[0].rows)):
-                Nr = model_datasets[0].rows[i].Nr
+            for i in range(len(human_datasets[0].rows)):
+                Nr = human_datasets[0].rows[i].Nr
                 # Here we have a loop for 20 questions.
                 for question, path in EvaluationDataset.questions:
                     row = {} # entry to write to CSV
