@@ -616,7 +616,11 @@ class EvaluationDataset:
                 Nr = human_datasets[0].rows[i].Nr
                 # Here we have a loop for 20 questions.
                 for question, path in EvaluationDataset.questions:
+                    
                     row = {} # entry to write to CSV
+                    row['Nr'] = Nr
+                    row['Question'] = question
+
                     for h_ds in human_datasets:
                         evaluation_row = None
                         for r in h_ds.rows:
@@ -626,8 +630,7 @@ class EvaluationDataset:
                         row[h_ds.author] = getattr(getattr(getattr(evaluation_row, path), question), "value")
 
                     for ds in model_datasets:
-                        row['Nr'] = Nr
-                        row['Question'] = question
+
                         
                         evaluation_row = None
                         for r in ds.rows:

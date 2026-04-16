@@ -148,24 +148,29 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
             model = params[2]
             has_goal = False
 
-            if part.lower() == "tasks":
-                with open(os.path.join(path_source, text_id + ".json"), 'r', encoding='utf-8') as source_f:
-                    source_json = get_json(source_f.read())
-                    if source_json is None:
-                        has_goal = False
-                    else:
-                        has_goal = (source_json.get("Goal", "") != "") # type: ignore
+            if part != "full":
 
-            with open(full_file, 'r', encoding='utf-8') as f:
-                logger.info(f"Processing: '{file}'")
-                try:
-                    res = parse_llm_response(f.read(), part, has_goal)
-                    writer.writerow([text_id, part, model, res[0], res[1], res[2], res[3], False])
-                    entries.append((text_id, model, part, res[4])) # type: ignore
-                except Exception as e:
-                    logger.error(f"UNKNOWN EXCEPTION: {str(e)}")
-                    writer.writerow([text_id, part, model, False, False, False, False])
-                    continue
+                if part.lower() == "tasks":
+                    with open(os.path.join(path_source, text_id + ".json"), 'r', encoding='utf-8') as source_f:
+                        source_json = get_json(source_f.read())
+                        if source_json is None:
+                            has_goal = False
+                        else:
+                            has_goal = (source_json.get("Goal", "") != "") # type: ignore
+
+                with open(full_file, 'r', encoding='utf-8') as f:
+                    logger.info(f"Processing: '{file}'")
+                    try:
+                        res = parse_llm_response(f.read(), part, has_goal)
+                        writer.writerow([text_id, part, model, res[0], res[1], res[2], res[3], False])
+                        entries.append((text_id, model, part, res[4])) # type: ignore
+                    except Exception as e:
+                        logger.error(f"UNKNOWN EXCEPTION: {str(e)}")
+                        writer.writerow([text_id, part, model, False, False, False, False])
+                        continue
+
+            else:
+                pass
 
     entries.sort(key=lambda x: (int(x[0]), x[1]))
     datasets: dict[str, EvaluationDataset] = {}
