@@ -54,9 +54,12 @@ def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : fl
         f.write(response.text)
     return response.json()['message']['content']
     
-def get_prompt(prompt_name: str):
+def get_prompt(prompt_name: str, path : str = None):
   logger.info(f"Imported prompt: {prompt_name}")
-  return read_file(path=os.path.join(BASE_PATH, "src", "data", "prompts", f"{prompt_name}.txt"))
+  if path ==None:
+    return read_file(path=os.path.join(BASE_PATH, "src", "data", "prompts", f"{prompt_name}.txt"))
+  else:
+    return read_file(path=os.path.join(path, f"{prompt_name}.txt"))
 
 def get_texts() -> dict:
     introduction_texts_divided = {}
