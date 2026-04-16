@@ -1,0 +1,99 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text explains the importance of full-body tracking in VR and the need for cost-effective solutions, but this information is placed in the 'Aktualitātes pamatojums' section, which is after the goal and tasks, rather than at the very beginning.",
+        "complies": false
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions that solutions exist and uses computer vision, but it fails to cite specific, published research or specific cutting-edge achievements/authors.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap: single-camera solutions are imprecise in 3D space and existing multi-sensor solutions are too expensive/complex.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the lack of precision in single-camera 3D positioning and the high cost/complexity of multi-sensor alternatives.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal academic references or citations included in the text to support the claims made.",
+        "complies": false
+    },
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly defined: to develop a prototype for full-body tracking using a single camera and VR headset data to improve precision and stability.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal includes the methods/tools (using single camera data, computer vision, and VR headset data), which violates the requirement to focus only on the outcome.",
+        "complies": false
+    },
+    {
+        "question": "Structure_goal",
+        "feedback": "The goal is presented as a single, relatively concise sentence, though it is quite dense with technical details.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal directly addresses the identified problem of single-camera imprecision by proposing the use of additional data from the VR headset.",
+        "complies": true
+    },
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are organized into a numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "4",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover literature review, analysis, and development, but they lack a clear task for the validation of the results (e.g., comparing the prototype's performance against existing benchmarks or methods).",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is contained within a single sentence.",
+        "complies": true
+    },
+    {
+        "question": "Structure_tasks",
+        "feedback": "The tasks use infinitive verbs (Apkopot, Analizēt, Izstrādāt) at the beginning of the phrases.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are written in a straightforward and clear manner.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression from research and analysis to the development of the prototype, which is necessary to reach the goal.",
+        "complies": true
+    },
+    {
+        "question": "Chapters",
+        "feedback": "The text does not list the main sections or chapters of the thesis.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "The text does not provide a description of the contents of the thesis sections.",
+        "complies": false
+    },
+    {
+        "question": "Structure_aftertasks",
+        "feedback": "Because the chapters and their descriptions are missing, the general structure of the thesis cannot be understood from this text.",
+        "complies": false
+    }
+]
+```

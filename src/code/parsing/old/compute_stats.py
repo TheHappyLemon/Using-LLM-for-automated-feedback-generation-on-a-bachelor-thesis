@@ -6,9 +6,9 @@ import pandas as pd
 from pathlib import Path
 
 #PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "responses")
-PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "single_prompt_testing_01", "responses", "gemma4-26b-q4", "t0", "01")
+PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "single_prompt_testing_01", "responses", "gemma4-26b-q4", "t0", "02")
 PATH_RESULTS_OLD = os.path.join(BASE_PATH, "results_04")
-postfix_new = ""
+postfix_new = "feedback_optional"
 #postfix_new = "08"
 postfix_old = "04"
 evaluators = [

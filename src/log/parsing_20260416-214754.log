@@ -1,0 +1,201 @@
+2026-04-16 21:47:55,589 - __main__ - INFO - STARTED
+2026-04-16 21:47:55,591 - __main__ - INFO - Processing: '10_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,592 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'State-of-the-art', 'feedback': 'The text demonstrates awareness of the field by citing specific research (Bourhis et al., 2017) and mentioning existing libraries like ujson and orjson.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 21:47:55,592 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,592 - __main__ - INFO - Processing: '11_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,595 - src.code.parsing.old.model_answer - WARNING - Question 'Description' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,596 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,596 - __main__ - INFO - Processing: '12_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,597 - __main__ - INFO - Processing: '13_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,597 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,598 - __main__ - INFO - Processing: '14_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,598 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_goal' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,598 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,598 - __main__ - INFO - Processing: '15_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,598 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,599 - __main__ - INFO - Processing: '16_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,599 - src.code.parsing.old.model_answer - WARNING - Question 'Outlook' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,599 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,599 - __main__ - INFO - Processing: '17_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,599 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_goal' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,599 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Completeness', 'feedback': 'The tasks cover theoretical analysis, practical implementation, and evaluation, which represents a complete research process.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 21:47:55,599 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,600 - __main__ - INFO - Processing: '18_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,600 - __main__ - INFO - Processing: '19_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,601 - __main__ - INFO - Processing: '1_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,601 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_tasks' is missing 'complies'. Default value of False will be used
+2026-04-16 21:47:55,601 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,602 - __main__ - INFO - Processing: '20_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,602 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,602 - __main__ - INFO - Processing: '21_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,603 - __main__ - INFO - Processing: '22_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,603 - src.code.parsing.old.model_answer - WARNING - Question 'Problem' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,603 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_goal' is missing 'complies'. Default value of False will be used
+2026-04-16 21:47:55,603 - src.code.parsing.old.model_answer - WARNING - Question 'None' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,603 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'can_be_reached': 'The tasks follow a logical progression from theory and law to experimentation and finally to conclusions and recommendations, supporting the goal.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 21:47:55,603 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,604 - __main__ - INFO - Processing: '23_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,604 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,604 - __main__ - INFO - Processing: '24_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,604 - __main__ - INFO - Processing: '25_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,605 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,605 - __main__ - INFO - Processing: '26_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,605 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,605 - __main__ - INFO - Processing: '27_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,605 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Clarity', 'feedback': 'No tasks are provided to evaluate.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 21:47:55,606 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,606 - __main__ - INFO - Processing: '28_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,606 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Congruence', 'feedback': 'The goal aligns well with the previously discussed problems regarding security risks and the need to evaluate existing mechanisms.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 21:47:55,606 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,606 - __main__ - INFO - Processing: '29_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,606 - src.code.parsing.old.model_answer - WARNING - Question 'Outlook' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,607 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,607 - __main__ - INFO - Processing: '2_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,608 - __main__ - INFO - Processing: '30_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,609 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,610 - __main__ - INFO - Processing: '31_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,610 - __main__ - INFO - Processing: '32_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,611 - __main__ - INFO - Processing: '33_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,612 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,612 - __main__ - INFO - Processing: '34_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,612 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,612 - __main__ - INFO - Processing: '35_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,613 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Congruence', 'feedback': 'The goal directly responds to the stated problem of finding effective solutions for offline web app functionality.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 21:47:55,613 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,613 - __main__ - INFO - Processing: '36_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,613 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,613 - __main__ - INFO - Processing: '37_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,614 - __main__ - INFO - Processing: '38_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,614 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_aftertasks' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,615 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,615 - __main__ - INFO - Processing: '39_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,615 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_aftertasks' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,616 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,616 - __main__ - INFO - Processing: '3_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,616 - src.code.parsing.old.model_answer - WARNING - Question 'Outlook' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,616 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_tasks' is missing 'complies'. Default value of False will be used
+2026-04-16 21:47:55,617 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,617 - __main__ - INFO - Processing: '40_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,618 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_goal' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,618 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,619 - __main__ - INFO - Processing: '41_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,619 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,619 - __main__ - INFO - Processing: '42_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,619 - src.code.parsing.old.model_answer - WARNING - Question 'Outlook' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,620 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,620 - __main__ - INFO - Processing: '43_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,620 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,620 - __main__ - INFO - Processing: '44_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,621 - src.code.parsing.old.model_answer - WARNING - Question 'Outlook' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,621 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,621 - __main__ - INFO - Processing: '45_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,621 - src.code.parsing.old.model_answer - WARNING - Question 'Outlook' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,621 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,622 - __main__ - INFO - Processing: '46_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,622 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,623 - __main__ - INFO - Processing: '47_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,623 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,623 - __main__ - INFO - Processing: '48_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,624 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,624 - __main__ - INFO - Processing: '49_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,624 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_aftertasks' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,625 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,625 - __main__ - INFO - Processing: '4_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,625 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,625 - __main__ - INFO - Processing: '50_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,626 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Congruence', 'feedback': 'The goal aligns well with the previously discussed problems regarding the need for exploring asynchronous solutions in Python.', 'complies': True}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 21:47:55,626 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,626 - __main__ - INFO - Processing: '51_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,626 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,627 - __main__ - INFO - Processing: '52_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,627 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,627 - __main__ - INFO - Processing: '53_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,628 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,628 - __main__ - INFO - Processing: '54_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,628 - __main__ - ERROR - Pydantic model 'QuestionAnswer' failed validation: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Structure_goal', 'feedback': 'The goal is presented across a few sentences in the second paragraph rather than being limited to a single, concise sentence.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}]
+2026-04-16 21:47:55,628 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,629 - __main__ - INFO - Processing: '55_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,629 - src.code.parsing.old.model_answer - WARNING - Question 'Outlook' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,629 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,629 - __main__ - INFO - Processing: '56_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,630 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_goal' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,630 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,630 - __main__ - INFO - Processing: '57_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,631 - __main__ - INFO - Processing: '58_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,631 - src.code.parsing.old.model_answer - WARNING - Question 'Structure_goal' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,631 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,631 - __main__ - INFO - Processing: '59_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,631 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,632 - __main__ - INFO - Processing: '5_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,632 - __main__ - INFO - Processing: '60_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,633 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,633 - __main__ - INFO - Processing: '61_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,633 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,634 - __main__ - INFO - Processing: '62_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,635 - __main__ - INFO - Processing: '63_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,635 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,635 - __main__ - INFO - Processing: '64_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,636 - src.code.parsing.old.model_answer - WARNING - Question 'Problem' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,636 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,636 - __main__ - INFO - Processing: '6_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,636 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,637 - __main__ - INFO - Processing: '7_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,637 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,637 - __main__ - INFO - Processing: '8_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,637 - src.code.parsing.old.model_answer - WARNING - Question 'Outlook' is missing 'feedback'. Default value of None will be used
+2026-04-16 21:47:55,637 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,637 - __main__ - INFO - Processing: '9_full_gemma4-26b-q4_t0_02.json'
+2026-04-16 21:47:55,638 - __main__ - INFO - Parsing FULL entry
+2026-04-16 21:47:55,638 - __main__ - INFO - Start creatting datasets
+2026-04-16 21:47:55,638 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,638 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,639 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,639 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,639 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,639 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,640 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,640 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,640 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,640 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,640 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,641 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,641 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,641 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,641 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,641 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,641 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,641 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,641 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,641 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,641 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,642 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,642 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,642 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,642 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,642 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,642 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,642 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,642 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,643 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,644 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,644 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,644 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,644 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,644 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,644 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,644 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,644 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,644 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,644 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,645 - __main__ - INFO - load 3 called
+2026-04-16 21:47:55,645 - __main__ - INFO - load 3 called
