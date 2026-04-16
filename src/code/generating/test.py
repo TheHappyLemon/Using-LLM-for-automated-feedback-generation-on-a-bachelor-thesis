@@ -1,7 +1,27 @@
-from src.code.functions import prompt
+from src.code.functions import prompt, get_prompt, get_texts_not_divided, get_topics
+from src.data.constants import BASE_PATH
 from . import generating_logging
 import logging
+import os
 
 logging.info("TEST LOG MESSAGE DONT MIND ME")
-r = prompt(system='You are pirate', user='hi', model='gpt-oss:20b', temperature=0)
-print(r)
+
+single_prompt = get_prompt("REFINE_IN_A_SINGLE_PROMPT")
+texts = get_texts_not_divided()
+topics = get_topics()
+prompts = {}
+
+# LONGEST INTRODUCTION IS WITH ID 21
+for text_id in texts:
+    prompts[text_id] = single_prompt.replace("{THESIS_TOPIC}", topics[text_id]).replace("{TEXT}", texts[text_id])
+my_prompt = prompts[34]
+
+with open(os.path.join(BASE_PATH, "src", "code", "generating", "prompt.txt"), 'w', encoding='utf-8') as f:
+    f.write(my_prompt)
+
+resp = prompt(system='You are a helpful tutor', user=my_prompt, model='gemma4:26b-a4b-it-q4_K_M', temperature=0, num_ctx=8196, to_think=False, save_to=os.path.join(BASE_PATH, "src", "code", "generating", "response_raw.json"))
+
+with open(os.path.join(BASE_PATH, "src", "code", "generating", "response.json"), 'w', encoding='utf-8') as f:
+    f.write(resp)
+
+# python -m src.code.generating.test

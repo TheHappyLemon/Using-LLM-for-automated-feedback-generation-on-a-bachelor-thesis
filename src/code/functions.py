@@ -14,7 +14,7 @@ def read_file(path : str) -> str:
     return f.read().strip("\n").strip()
 
 # call LLM provider API
-def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : float = 0, to_think : bool = None):
+def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : float = 0, to_think : bool = None, num_ctx : int = None):
 
     payload = {
         'model': model,
@@ -28,7 +28,11 @@ def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : fl
         }
     }
     if not to_think is None:
+       logger.info(f"Set thinking to {to_think}")
        payload['think'] = to_think
+    if not num_ctx is None:
+       logger.info(f'using num_ctx as {num_ctx}')
+       payload['options']['num_ctx'] = num_ctx
 
     response = requests.post(
         PROXY_URL,
@@ -155,7 +159,7 @@ def save_used_prompts_not_divided(PROMPTS_PATH: str, prompt_not_divided: dict):
             f.write(prompt_not_divided[p])
     logger.info(f"used prompts saved to {PROMPTS_PATH}")
 
-def make_prompt(text: str, model : str, model_role: str, temperature: float, raw_response_model_path: str, response_model_path: str, fname: str, to_think: bool = None):
+def make_prompt(text: str, model : str, model_role: str, temperature: float, raw_response_model_path: str, response_model_path: str, fname: str, to_think: bool = None, num_ctx: int = None):
 
   if text == "":
     return
@@ -170,7 +174,8 @@ def make_prompt(text: str, model : str, model_role: str, temperature: float, raw
       model = model,
       save_to=f"{raw_response_model_path}{fname}",
       temperature=temperature,
-      to_think=to_think
+      to_think=to_think,
+      num_ctx=num_ctx
     )
     with open(f'{response_model_path}{fname}', 'w', encoding='utf-8') as f:
       f.write(response)
