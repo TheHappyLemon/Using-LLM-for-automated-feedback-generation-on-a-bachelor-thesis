@@ -5,7 +5,7 @@ import logging
 from src.code.functions import get_prompt, get_texts, get_topics, save_used_prompts_not_divided, make_prompt, prepare_prompts, save_used_prompts
 
 logger = logging.getLogger(__name__)
-logger.info("STARTED GENERATING RESULTS FOR REFINING IN FEW-SHOT")
+logger.info("STARTED GENERATING RESULTS FOR REFINING IN ONE-SHOT")
 
 one_shot_path = os.path.join(BASE_PATH, "src", "data", "prompts", "few-shot", "1-shot")
 
@@ -18,6 +18,12 @@ REFINE_AFTER_TASKS            = get_prompt("REFINE_AFTER_TASKS", path=one_shot_p
 
 introduction_texts_divided = get_texts()
 topics = get_topics()
+
+# delete 'shots' from evaluation set
+del introduction_texts_divided[1] # used for Tasks example
+del introduction_texts_divided[5] # used for Goal,AfterTasks example
+del introduction_texts_divided[43] # used for BeforeGoal example
+
 prompts_part_refinement = prepare_prompts(
     introduction_texts_divided, topics,
     REFINE_BEFORE_GOAL, REFINE_GOAL_WITH_PRECEDING,
@@ -59,7 +65,8 @@ for model in MODELS:
         t_string = f't{str(t).replace('.', '-')}'
         raw_responses_dir = os.path.join(RAW_RESPONSES_PATH) + os.path.sep
         responses_dir     = os.path.join(RESPONSES_PATH    ) + os.path.sep
-        '''
+
+
         logger.info("BeforeGoal")
         make_prompt(
           text=prompts_part_refinement[p]["BeforeGoal"],
@@ -108,7 +115,7 @@ for model in MODELS:
           to_think=to_think,
           num_ctx=8196
         )
-        '''
+
 # python -m src.code.generating.generate_one_shot
 
 # JUST a workaround to start not from zero if session ends abnormally

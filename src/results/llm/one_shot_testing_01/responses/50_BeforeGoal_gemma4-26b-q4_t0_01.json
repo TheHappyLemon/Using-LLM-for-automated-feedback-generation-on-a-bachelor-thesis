@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully explains the importance of microservices architecture and the relevance of the topic by highlighting the efficiency issues caused by synchronous communication in modern high-load systems.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing technologies and frameworks (Flask, Django, asyncio, FastAPI, Celery, aiohttp), which shows awareness of the current tools available. However, it lacks citations of specific research, studies, or comparative evaluations performed by other authors to establish a scientific state-of-the-art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text identifies a technical problem (inefficiency of synchronous approaches), it does not explicitly formulate a research gap based on existing literature. It states that application requires 'detailed research' to understand solutions, but it doesn't point to a specific lack of existing knowledge or unresolved scientific/technical findings in current studies.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the need to explore and demonstrate solutions for creating asynchronous microservices in Python to overcome the performance and resource consumption issues of synchronous methods.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no academic references or citations provided to support the claims made about the efficiency of certain architectures or the limitations of specific frameworks. The text relies solely on general technical assertions.",
+        "complies": false
+    }
+]
+```

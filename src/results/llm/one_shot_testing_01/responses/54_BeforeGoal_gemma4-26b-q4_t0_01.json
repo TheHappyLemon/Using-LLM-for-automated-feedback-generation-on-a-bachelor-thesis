@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of microservices and the necessity of efficient testing due to frequent code changes. It uses statistical data (Statista, 2021) to demonstrate the growing trend and relevance of the topic.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions a very recent source (Mingxuan Hui et al., 2025) regarding the challenges of balancing cost-efficiency and test completeness, which demonstrates awareness of current research. However, it could be strengthened by mentioning specific existing optimization techniques or tools currently used in CI/CD pipelines.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap related to the 'imperfections' (nepilnības) in testing optimization methods within DevOps environments. While it points to the problem of long testing times and resource consumption, the gap could be more explicitly linked to a lack of specific research or a failure of current existing methods to solve these issues.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the tension between the need for frequent updates and the challenges of long testing times and excessive resource consumption in CI/CD pipelines.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are appropriately used to support claims regarding market trends (Statista) and the current state of research challenges (Mingxuan Hui et al.).",
+        "complies": true
+    }
+]
+```

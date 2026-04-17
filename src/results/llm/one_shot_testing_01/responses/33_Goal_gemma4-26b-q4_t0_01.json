@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly stated and provides a measurable outcome (developing a solution). It avoids vague language and specifies what is being achieved.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly includes the methods/strategies ('izmantojot Blue-Green un Canary izvietošanas stratēģijas') used to achieve the objective, rather than focusing solely on the outcome.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single, concise, and direct sentence that clearly communicates the goal.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is highly congruent with the preceding text. The problem of downtime/interruptions and the specific strategies (Blue-Green and Canary) are all introduced and motivated in the introduction.",
+        "complies": true
+    }
+]
+```

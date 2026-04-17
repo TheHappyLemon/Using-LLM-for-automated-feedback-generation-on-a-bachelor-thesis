@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of blockchain technology in various sectors (finance, medicine, public administration) and highlights the critical issue of scalability due to the exponential growth of data.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions that segmentation approaches are a known method for scaling blockchain and provides numerous citations ([9]-[17]) to support this, demonstrating awareness of existing research.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text mentions that segmentation 'introduces new problems that need to be solved,' it does not explicitly define what those specific unresolved problems or gaps are in the current literature. It needs to be more precise about what is missing in existing segmentation methods.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The core problem (scalability and the increasing storage burden on users) is clearly identified and supported by a concrete example regarding the Bitcoin blockchain size.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are used appropriately throughout the text to support claims regarding the use of blockchain, the growth of data, and existing segmentation methods.",
+        "complies": true
+    }
+]
+```

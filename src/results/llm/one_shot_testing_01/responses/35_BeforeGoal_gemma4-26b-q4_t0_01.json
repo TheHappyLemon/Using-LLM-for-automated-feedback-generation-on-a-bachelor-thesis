@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of the topic, highlighting how internet instability affects user experience and productivity in various modern contexts.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text mentions that technological advancements have opened new possibilities, it fails to cite specific existing technologies, frameworks, or specific recent research achievements (other than a general mention of a demand increase). It lacks a concrete overview of the current technical landscape.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a general need for better solutions but does not explicitly identify a specific research gap (e.g., a specific technical limitation in current PWA/offline sync methods) based on a review of existing literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the challenges of data synchronization, resource access, and user interaction when internet connectivity is lost or unstable.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes a reference to Orozco (2024) to support the claim regarding increasing demand, which is a good start, but more references are needed to support the technical claims made in the text.",
+        "complies": true
+    }
+]
+```
