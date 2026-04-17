@@ -88,7 +88,6 @@ for model in MODELS:
         raw_responses_dir = os.path.join(RAW_RESPONSES_PATH, MODELS[model], iter) + os.path.sep
         responses_dir     = os.path.join(RESPONSES_PATH    , MODELS[model], iter) + os.path.sep
 
-'''
         logger.info("BeforeGoal")
         make_prompt(
           text=prompts_part_refinement[p]["BeforeGoal"],
@@ -137,7 +136,6 @@ for model in MODELS:
           to_think=to_think,
           num_ctx=8196
         )
-'''
 # python -m src.code.generating.generate_one_shot
 
 # JUST a workaround to start not from zero if session ends abnormally

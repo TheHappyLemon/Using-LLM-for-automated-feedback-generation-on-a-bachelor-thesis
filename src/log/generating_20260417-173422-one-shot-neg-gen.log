@@ -1,0 +1,743 @@
+2026-04-17 17:34:23,311 - __main__ - INFO - STARTED GENERATING RESULTS FOR REFINING IN ONE-SHOT
+2026-04-17 17:34:23,312 - src.code.functions - INFO - Imported prompt: REFINE_BEFORE_GOAL
+2026-04-17 17:34:23,312 - src.code.functions - INFO - Imported prompt: REFINE_GOAL_WITH_PRECEDING_TEXT
+2026-04-17 17:34:23,312 - src.code.functions - INFO - Imported prompt: REFINE_GOAL_WITHOUT_PRECEDING_TEXT
+2026-04-17 17:34:23,312 - src.code.functions - INFO - Imported prompt: REFINE_TASKS_WITH_GOAL
+2026-04-17 17:34:23,313 - src.code.functions - INFO - Imported prompt: REFINE_TASKS_WITHOUT_GOAL
+2026-04-17 17:34:23,313 - src.code.functions - INFO - Imported prompt: REFINE_AFTER_TASKS
+2026-04-17 17:34:23,320 - src.code.functions - INFO - get_texts executed
+2026-04-17 17:34:23,321 - src.code.functions - INFO - get_topics executed
+2026-04-17 17:34:23,323 - src.code.functions - INFO - prepare_prompts executed
+2026-04-17 17:34:23,358 - src.code.functions - INFO - used prompts saved to D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\one_shot_testing_01\negative\prompts\
+2026-04-17 17:34:23,358 - __main__ - INFO - START PROMPTING 
+2026-04-17 17:34:23,358 - __main__ - INFO - Working on model 'gemma4-26b-q4'.
+2026-04-17 17:34:23,358 - __main__ - INFO - Temperature = 0.
+2026-04-17 17:34:23,359 - __main__ - INFO - Iteration Nr. 01
+2026-04-17 17:34:23,359 - __main__ - INFO - Text Nr. 1
+2026-04-17 17:34:23,359 - __main__ - INFO - BeforeGoal
+2026-04-17 17:34:23,359 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:34:23,359 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:34:58,750 - __main__ - INFO - Goal
+2026-04-17 17:34:58,750 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:34:58,750 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:05,172 - __main__ - INFO - Tasks
+2026-04-17 17:35:05,173 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:05,173 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:10,414 - __main__ - INFO - AfterTasks
+2026-04-17 17:35:10,415 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:10,415 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:13,765 - __main__ - INFO - Text Nr. 2
+2026-04-17 17:35:13,765 - __main__ - INFO - BeforeGoal
+2026-04-17 17:35:13,766 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:13,766 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:19,186 - __main__ - INFO - Goal
+2026-04-17 17:35:19,186 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:19,186 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:23,549 - __main__ - INFO - Tasks
+2026-04-17 17:35:23,550 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:23,550 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:28,836 - __main__ - INFO - AfterTasks
+2026-04-17 17:35:28,836 - __main__ - INFO - Text Nr. 3
+2026-04-17 17:35:28,837 - __main__ - INFO - BeforeGoal
+2026-04-17 17:35:28,837 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:28,837 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:33,967 - __main__ - INFO - Goal
+2026-04-17 17:35:33,968 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:33,968 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:37,736 - __main__ - INFO - Tasks
+2026-04-17 17:35:37,737 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:37,738 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:43,242 - __main__ - INFO - AfterTasks
+2026-04-17 17:35:43,242 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:43,243 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:46,358 - __main__ - INFO - Text Nr. 4
+2026-04-17 17:35:46,358 - __main__ - INFO - BeforeGoal
+2026-04-17 17:35:46,359 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:46,359 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:52,172 - __main__ - INFO - Goal
+2026-04-17 17:35:52,173 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:52,173 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:35:56,412 - __main__ - INFO - Tasks
+2026-04-17 17:35:56,413 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:35:56,413 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:02,165 - __main__ - INFO - AfterTasks
+2026-04-17 17:36:02,166 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:02,166 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:05,791 - __main__ - INFO - Text Nr. 5
+2026-04-17 17:36:05,791 - __main__ - INFO - BeforeGoal
+2026-04-17 17:36:05,792 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:05,792 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:12,774 - __main__ - INFO - Goal
+2026-04-17 17:36:12,775 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:12,775 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:16,906 - __main__ - INFO - Tasks
+2026-04-17 17:36:16,906 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:16,906 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:22,063 - __main__ - INFO - AfterTasks
+2026-04-17 17:36:22,064 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:22,064 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:25,343 - __main__ - INFO - Text Nr. 6
+2026-04-17 17:36:25,343 - __main__ - INFO - BeforeGoal
+2026-04-17 17:36:25,344 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:25,344 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:31,056 - __main__ - INFO - Goal
+2026-04-17 17:36:31,057 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:31,057 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:35,506 - __main__ - INFO - Tasks
+2026-04-17 17:36:35,506 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:35,507 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:40,760 - __main__ - INFO - AfterTasks
+2026-04-17 17:36:40,760 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:40,760 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:43,608 - __main__ - INFO - Text Nr. 8
+2026-04-17 17:36:43,609 - __main__ - INFO - BeforeGoal
+2026-04-17 17:36:43,609 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:43,609 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:48,867 - __main__ - INFO - Goal
+2026-04-17 17:36:48,868 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:48,868 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:52,939 - __main__ - INFO - Tasks
+2026-04-17 17:36:52,940 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:52,940 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:36:58,201 - __main__ - INFO - AfterTasks
+2026-04-17 17:36:58,201 - __main__ - INFO - Text Nr. 9
+2026-04-17 17:36:58,202 - __main__ - INFO - BeforeGoal
+2026-04-17 17:36:58,202 - __main__ - INFO - Goal
+2026-04-17 17:36:58,202 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:36:58,202 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:01,362 - __main__ - INFO - Tasks
+2026-04-17 17:37:01,362 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:01,362 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:06,983 - __main__ - INFO - AfterTasks
+2026-04-17 17:37:06,983 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:06,984 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:10,686 - __main__ - INFO - Text Nr. 10
+2026-04-17 17:37:10,686 - __main__ - INFO - BeforeGoal
+2026-04-17 17:37:10,687 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:10,687 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:15,468 - __main__ - INFO - Goal
+2026-04-17 17:37:15,469 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:15,469 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:19,603 - __main__ - INFO - Tasks
+2026-04-17 17:37:19,604 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:19,604 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:24,923 - __main__ - INFO - AfterTasks
+2026-04-17 17:37:24,924 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:24,924 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:27,593 - __main__ - INFO - Text Nr. 11
+2026-04-17 17:37:27,593 - __main__ - INFO - BeforeGoal
+2026-04-17 17:37:27,593 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:27,594 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:32,394 - __main__ - INFO - Goal
+2026-04-17 17:37:32,395 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:32,395 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:36,332 - __main__ - INFO - Tasks
+2026-04-17 17:37:36,332 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:36,333 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:42,377 - __main__ - INFO - AfterTasks
+2026-04-17 17:37:42,378 - __main__ - INFO - Text Nr. 12
+2026-04-17 17:37:42,378 - __main__ - INFO - BeforeGoal
+2026-04-17 17:37:42,378 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:42,378 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:48,773 - __main__ - INFO - Goal
+2026-04-17 17:37:48,774 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:48,774 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:53,308 - __main__ - INFO - Tasks
+2026-04-17 17:37:53,309 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:53,309 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:37:58,374 - __main__ - INFO - AfterTasks
+2026-04-17 17:37:58,374 - __main__ - INFO - Text Nr. 13
+2026-04-17 17:37:58,374 - __main__ - INFO - BeforeGoal
+2026-04-17 17:37:58,375 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:37:58,375 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:03,682 - __main__ - INFO - Goal
+2026-04-17 17:38:03,683 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:03,683 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:07,601 - __main__ - INFO - Tasks
+2026-04-17 17:38:07,601 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:07,602 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:12,620 - __main__ - INFO - AfterTasks
+2026-04-17 17:38:12,621 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:12,621 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:15,353 - __main__ - INFO - Text Nr. 14
+2026-04-17 17:38:15,353 - __main__ - INFO - BeforeGoal
+2026-04-17 17:38:15,355 - __main__ - INFO - Goal
+2026-04-17 17:38:15,355 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:15,356 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:18,572 - __main__ - INFO - Tasks
+2026-04-17 17:38:18,573 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:18,573 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:23,594 - __main__ - INFO - AfterTasks
+2026-04-17 17:38:23,595 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:23,595 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:27,750 - __main__ - INFO - Text Nr. 15
+2026-04-17 17:38:27,751 - __main__ - INFO - BeforeGoal
+2026-04-17 17:38:27,751 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:27,751 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:33,051 - __main__ - INFO - Goal
+2026-04-17 17:38:33,051 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:33,051 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:37,626 - __main__ - INFO - Tasks
+2026-04-17 17:38:37,627 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:37,627 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:42,850 - __main__ - INFO - AfterTasks
+2026-04-17 17:38:42,850 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:42,850 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:45,978 - __main__ - INFO - Text Nr. 16
+2026-04-17 17:38:45,979 - __main__ - INFO - BeforeGoal
+2026-04-17 17:38:45,979 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:45,979 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:51,719 - __main__ - INFO - Goal
+2026-04-17 17:38:51,719 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:51,720 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:38:56,761 - __main__ - INFO - Tasks
+2026-04-17 17:38:56,762 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:38:56,762 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:04,492 - __main__ - INFO - AfterTasks
+2026-04-17 17:39:04,492 - __main__ - INFO - Text Nr. 17
+2026-04-17 17:39:04,492 - __main__ - INFO - BeforeGoal
+2026-04-17 17:39:04,492 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:04,493 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:09,750 - __main__ - INFO - Goal
+2026-04-17 17:39:09,751 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:09,751 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:13,588 - __main__ - INFO - Tasks
+2026-04-17 17:39:13,588 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:13,588 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:18,916 - __main__ - INFO - AfterTasks
+2026-04-17 17:39:18,917 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:18,917 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:22,292 - __main__ - INFO - Text Nr. 18
+2026-04-17 17:39:22,292 - __main__ - INFO - BeforeGoal
+2026-04-17 17:39:22,292 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:22,292 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:28,410 - __main__ - INFO - Goal
+2026-04-17 17:39:28,411 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:28,411 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:33,262 - __main__ - INFO - Tasks
+2026-04-17 17:39:33,262 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:33,263 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:38,544 - __main__ - INFO - AfterTasks
+2026-04-17 17:39:38,544 - __main__ - INFO - Text Nr. 19
+2026-04-17 17:39:38,545 - __main__ - INFO - BeforeGoal
+2026-04-17 17:39:38,545 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:38,545 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:43,750 - __main__ - INFO - Goal
+2026-04-17 17:39:43,750 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:43,750 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:48,427 - __main__ - INFO - Tasks
+2026-04-17 17:39:48,428 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:48,428 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:53,865 - __main__ - INFO - AfterTasks
+2026-04-17 17:39:53,866 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:53,866 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:39:56,776 - __main__ - INFO - Text Nr. 20
+2026-04-17 17:39:56,777 - __main__ - INFO - BeforeGoal
+2026-04-17 17:39:56,777 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:39:56,777 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:01,925 - __main__ - INFO - Goal
+2026-04-17 17:40:01,925 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:01,925 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:05,997 - __main__ - INFO - Tasks
+2026-04-17 17:40:05,998 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:05,998 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:11,239 - __main__ - INFO - AfterTasks
+2026-04-17 17:40:11,239 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:11,240 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:14,126 - __main__ - INFO - Text Nr. 21
+2026-04-17 17:40:14,127 - __main__ - INFO - BeforeGoal
+2026-04-17 17:40:14,127 - __main__ - INFO - Goal
+2026-04-17 17:40:14,127 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:14,127 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:16,998 - __main__ - INFO - Tasks
+2026-04-17 17:40:16,999 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:16,999 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:22,148 - __main__ - INFO - AfterTasks
+2026-04-17 17:40:22,149 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:22,149 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:26,966 - __main__ - INFO - Text Nr. 22
+2026-04-17 17:40:26,966 - __main__ - INFO - BeforeGoal
+2026-04-17 17:40:26,967 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:26,967 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:32,114 - __main__ - INFO - Goal
+2026-04-17 17:40:32,115 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:32,115 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:36,849 - __main__ - INFO - Tasks
+2026-04-17 17:40:36,849 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:36,849 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:42,240 - __main__ - INFO - AfterTasks
+2026-04-17 17:40:42,241 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:42,241 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:45,324 - __main__ - INFO - Text Nr. 23
+2026-04-17 17:40:45,324 - __main__ - INFO - BeforeGoal
+2026-04-17 17:40:45,324 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:45,325 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:51,620 - __main__ - INFO - Goal
+2026-04-17 17:40:51,620 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:51,620 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:40:56,854 - __main__ - INFO - Tasks
+2026-04-17 17:40:56,855 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:40:56,855 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:02,317 - __main__ - INFO - AfterTasks
+2026-04-17 17:41:02,318 - __main__ - INFO - Text Nr. 24
+2026-04-17 17:41:02,318 - __main__ - INFO - BeforeGoal
+2026-04-17 17:41:02,319 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:02,319 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:08,326 - __main__ - INFO - Goal
+2026-04-17 17:41:08,327 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:08,327 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:13,218 - __main__ - INFO - Tasks
+2026-04-17 17:41:13,219 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:13,219 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:18,381 - __main__ - INFO - AfterTasks
+2026-04-17 17:41:18,381 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:18,381 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:21,268 - __main__ - INFO - Text Nr. 25
+2026-04-17 17:41:21,269 - __main__ - INFO - BeforeGoal
+2026-04-17 17:41:21,269 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:21,269 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:26,366 - __main__ - INFO - Goal
+2026-04-17 17:41:26,367 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:26,367 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:30,470 - __main__ - INFO - Tasks
+2026-04-17 17:41:30,471 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:30,471 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:35,966 - __main__ - INFO - AfterTasks
+2026-04-17 17:41:35,966 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:35,967 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:39,234 - __main__ - INFO - Text Nr. 26
+2026-04-17 17:41:39,235 - __main__ - INFO - BeforeGoal
+2026-04-17 17:41:39,235 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:39,236 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:45,644 - __main__ - INFO - Goal
+2026-04-17 17:41:45,645 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:45,645 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:50,450 - __main__ - INFO - Tasks
+2026-04-17 17:41:50,451 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:50,451 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:41:55,499 - __main__ - INFO - AfterTasks
+2026-04-17 17:41:55,499 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:41:55,500 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:00,373 - __main__ - INFO - Text Nr. 27
+2026-04-17 17:42:00,374 - __main__ - INFO - BeforeGoal
+2026-04-17 17:42:00,374 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:00,374 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:05,373 - __main__ - INFO - Goal
+2026-04-17 17:42:05,373 - __main__ - INFO - Tasks
+2026-04-17 17:42:05,374 - __main__ - INFO - AfterTasks
+2026-04-17 17:42:05,374 - __main__ - INFO - Text Nr. 28
+2026-04-17 17:42:05,374 - __main__ - INFO - BeforeGoal
+2026-04-17 17:42:05,374 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:05,375 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:11,045 - __main__ - INFO - Goal
+2026-04-17 17:42:11,046 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:11,046 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:15,735 - __main__ - INFO - Tasks
+2026-04-17 17:42:15,735 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:15,735 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:20,874 - __main__ - INFO - AfterTasks
+2026-04-17 17:42:20,875 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:20,875 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:24,742 - __main__ - INFO - Text Nr. 29
+2026-04-17 17:42:24,742 - __main__ - INFO - BeforeGoal
+2026-04-17 17:42:24,743 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:24,743 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:30,563 - __main__ - INFO - Goal
+2026-04-17 17:42:30,563 - __main__ - INFO - Tasks
+2026-04-17 17:42:30,563 - __main__ - INFO - AfterTasks
+2026-04-17 17:42:30,563 - __main__ - INFO - Text Nr. 30
+2026-04-17 17:42:30,563 - __main__ - INFO - BeforeGoal
+2026-04-17 17:42:30,564 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:30,564 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:36,223 - __main__ - INFO - Goal
+2026-04-17 17:42:36,224 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:36,224 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:40,556 - __main__ - INFO - Tasks
+2026-04-17 17:42:40,557 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:40,557 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:45,910 - __main__ - INFO - AfterTasks
+2026-04-17 17:42:45,910 - __main__ - INFO - Text Nr. 31
+2026-04-17 17:42:45,910 - __main__ - INFO - BeforeGoal
+2026-04-17 17:42:45,910 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:45,911 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:51,321 - __main__ - INFO - Goal
+2026-04-17 17:42:51,322 - __main__ - INFO - Tasks
+2026-04-17 17:42:51,322 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:51,322 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:56,118 - __main__ - INFO - AfterTasks
+2026-04-17 17:42:56,118 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:56,118 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:42:59,287 - __main__ - INFO - Text Nr. 32
+2026-04-17 17:42:59,288 - __main__ - INFO - BeforeGoal
+2026-04-17 17:42:59,288 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:42:59,288 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:04,578 - __main__ - INFO - Goal
+2026-04-17 17:43:04,578 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:04,579 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:08,879 - __main__ - INFO - Tasks
+2026-04-17 17:43:08,880 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:08,880 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:14,142 - __main__ - INFO - AfterTasks
+2026-04-17 17:43:14,143 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:14,143 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:17,166 - __main__ - INFO - Text Nr. 33
+2026-04-17 17:43:17,167 - __main__ - INFO - BeforeGoal
+2026-04-17 17:43:17,167 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:17,167 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:22,359 - __main__ - INFO - Goal
+2026-04-17 17:43:22,360 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:22,360 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:26,499 - __main__ - INFO - Tasks
+2026-04-17 17:43:26,500 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:26,500 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:31,697 - __main__ - INFO - AfterTasks
+2026-04-17 17:43:31,697 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:31,697 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:34,440 - __main__ - INFO - Text Nr. 34
+2026-04-17 17:43:34,440 - __main__ - INFO - BeforeGoal
+2026-04-17 17:43:34,440 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:34,441 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:39,353 - __main__ - INFO - Goal
+2026-04-17 17:43:39,354 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:39,354 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:43,404 - __main__ - INFO - Tasks
+2026-04-17 17:43:43,404 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:43,404 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:48,729 - __main__ - INFO - AfterTasks
+2026-04-17 17:43:48,729 - __main__ - INFO - Text Nr. 35
+2026-04-17 17:43:48,730 - __main__ - INFO - BeforeGoal
+2026-04-17 17:43:48,730 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:48,730 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:53,854 - __main__ - INFO - Goal
+2026-04-17 17:43:53,855 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:53,855 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:43:57,999 - __main__ - INFO - Tasks
+2026-04-17 17:43:57,999 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:43:57,999 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:03,485 - __main__ - INFO - AfterTasks
+2026-04-17 17:44:03,485 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:03,486 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:06,542 - __main__ - INFO - Text Nr. 36
+2026-04-17 17:44:06,542 - __main__ - INFO - BeforeGoal
+2026-04-17 17:44:06,542 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:06,543 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:11,950 - __main__ - INFO - Goal
+2026-04-17 17:44:11,951 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:11,951 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:16,221 - __main__ - INFO - Tasks
+2026-04-17 17:44:16,221 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:16,222 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:21,623 - __main__ - INFO - AfterTasks
+2026-04-17 17:44:21,623 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:21,623 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:25,071 - __main__ - INFO - Text Nr. 37
+2026-04-17 17:44:25,071 - __main__ - INFO - BeforeGoal
+2026-04-17 17:44:25,071 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:25,071 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:30,509 - __main__ - INFO - Goal
+2026-04-17 17:44:30,510 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:30,510 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:35,176 - __main__ - INFO - Tasks
+2026-04-17 17:44:35,176 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:35,176 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:40,641 - __main__ - INFO - AfterTasks
+2026-04-17 17:44:40,642 - __main__ - INFO - Text Nr. 38
+2026-04-17 17:44:40,642 - __main__ - INFO - BeforeGoal
+2026-04-17 17:44:40,642 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:40,642 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:46,216 - __main__ - INFO - Goal
+2026-04-17 17:44:46,217 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:46,217 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:50,774 - __main__ - INFO - Tasks
+2026-04-17 17:44:50,775 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:50,775 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:44:55,918 - __main__ - INFO - AfterTasks
+2026-04-17 17:44:55,918 - __main__ - INFO - Text Nr. 39
+2026-04-17 17:44:55,918 - __main__ - INFO - BeforeGoal
+2026-04-17 17:44:55,918 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:44:55,918 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:01,025 - __main__ - INFO - Goal
+2026-04-17 17:45:01,026 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:01,026 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:05,234 - __main__ - INFO - Tasks
+2026-04-17 17:45:05,234 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:05,234 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:10,534 - __main__ - INFO - AfterTasks
+2026-04-17 17:45:10,534 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:10,535 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:13,322 - __main__ - INFO - Text Nr. 40
+2026-04-17 17:45:13,322 - __main__ - INFO - BeforeGoal
+2026-04-17 17:45:13,323 - __main__ - INFO - Goal
+2026-04-17 17:45:13,323 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:13,323 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:16,055 - __main__ - INFO - Tasks
+2026-04-17 17:45:16,055 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:16,056 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:21,578 - __main__ - INFO - AfterTasks
+2026-04-17 17:45:21,578 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:21,578 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:26,239 - __main__ - INFO - Text Nr. 41
+2026-04-17 17:45:26,240 - __main__ - INFO - BeforeGoal
+2026-04-17 17:45:26,240 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:26,241 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:31,500 - __main__ - INFO - Goal
+2026-04-17 17:45:31,500 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:31,500 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:35,343 - __main__ - INFO - Tasks
+2026-04-17 17:45:35,344 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:35,344 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:40,765 - __main__ - INFO - AfterTasks
+2026-04-17 17:45:40,766 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:40,766 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:43,452 - __main__ - INFO - Text Nr. 42
+2026-04-17 17:45:43,453 - __main__ - INFO - BeforeGoal
+2026-04-17 17:45:43,453 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:43,453 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:49,297 - __main__ - INFO - Goal
+2026-04-17 17:45:49,297 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:49,298 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:45:54,696 - __main__ - INFO - Tasks
+2026-04-17 17:45:54,697 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:45:54,697 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:00,478 - __main__ - INFO - AfterTasks
+2026-04-17 17:46:00,479 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:00,479 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:03,603 - __main__ - INFO - Text Nr. 43
+2026-04-17 17:46:03,603 - __main__ - INFO - BeforeGoal
+2026-04-17 17:46:03,604 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:03,604 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:09,554 - __main__ - INFO - Goal
+2026-04-17 17:46:09,554 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:09,555 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:13,993 - __main__ - INFO - Tasks
+2026-04-17 17:46:13,994 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:13,994 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:19,299 - __main__ - INFO - AfterTasks
+2026-04-17 17:46:19,299 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:19,299 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:22,897 - __main__ - INFO - Text Nr. 44
+2026-04-17 17:46:22,898 - __main__ - INFO - BeforeGoal
+2026-04-17 17:46:22,898 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:22,898 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:28,272 - __main__ - INFO - Goal
+2026-04-17 17:46:28,272 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:28,272 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:32,543 - __main__ - INFO - Tasks
+2026-04-17 17:46:32,544 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:32,544 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:37,820 - __main__ - INFO - AfterTasks
+2026-04-17 17:46:37,821 - __main__ - INFO - Text Nr. 45
+2026-04-17 17:46:37,821 - __main__ - INFO - BeforeGoal
+2026-04-17 17:46:37,821 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:37,822 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:43,668 - __main__ - INFO - Goal
+2026-04-17 17:46:43,669 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:43,669 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:47,723 - __main__ - INFO - Tasks
+2026-04-17 17:46:47,724 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:47,724 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:53,062 - __main__ - INFO - AfterTasks
+2026-04-17 17:46:53,062 - __main__ - INFO - Text Nr. 46
+2026-04-17 17:46:53,062 - __main__ - INFO - BeforeGoal
+2026-04-17 17:46:53,063 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:53,063 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:46:58,644 - __main__ - INFO - Goal
+2026-04-17 17:46:58,644 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:46:58,644 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:02,934 - __main__ - INFO - Tasks
+2026-04-17 17:47:02,935 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:02,935 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:08,284 - __main__ - INFO - AfterTasks
+2026-04-17 17:47:08,284 - __main__ - INFO - Text Nr. 47
+2026-04-17 17:47:08,284 - __main__ - INFO - BeforeGoal
+2026-04-17 17:47:08,285 - __main__ - INFO - Goal
+2026-04-17 17:47:08,286 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:08,286 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:11,421 - __main__ - INFO - Tasks
+2026-04-17 17:47:11,422 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:11,422 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:16,790 - __main__ - INFO - AfterTasks
+2026-04-17 17:47:16,791 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:16,791 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:20,361 - __main__ - INFO - Text Nr. 48
+2026-04-17 17:47:20,361 - __main__ - INFO - BeforeGoal
+2026-04-17 17:47:20,361 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:20,362 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:25,709 - __main__ - INFO - Goal
+2026-04-17 17:47:25,710 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:25,710 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:29,892 - __main__ - INFO - Tasks
+2026-04-17 17:47:29,892 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:29,893 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:35,115 - __main__ - INFO - AfterTasks
+2026-04-17 17:47:35,116 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:35,116 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:37,805 - __main__ - INFO - Text Nr. 49
+2026-04-17 17:47:37,805 - __main__ - INFO - BeforeGoal
+2026-04-17 17:47:37,805 - __main__ - INFO - Goal
+2026-04-17 17:47:37,806 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:37,806 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:40,871 - __main__ - INFO - Tasks
+2026-04-17 17:47:40,872 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:40,872 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:46,151 - __main__ - INFO - AfterTasks
+2026-04-17 17:47:46,151 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:46,151 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:49,451 - __main__ - INFO - Text Nr. 50
+2026-04-17 17:47:49,451 - __main__ - INFO - BeforeGoal
+2026-04-17 17:47:49,452 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:49,452 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:54,837 - __main__ - INFO - Goal
+2026-04-17 17:47:54,838 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:54,838 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:47:58,995 - __main__ - INFO - Tasks
+2026-04-17 17:47:58,996 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:47:58,996 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:04,069 - __main__ - INFO - AfterTasks
+2026-04-17 17:48:04,069 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:04,069 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:07,866 - __main__ - INFO - Text Nr. 51
+2026-04-17 17:48:07,866 - __main__ - INFO - BeforeGoal
+2026-04-17 17:48:07,867 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:07,867 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:13,428 - __main__ - INFO - Goal
+2026-04-17 17:48:13,429 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:13,429 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:17,686 - __main__ - INFO - Tasks
+2026-04-17 17:48:17,687 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:17,687 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:22,851 - __main__ - INFO - AfterTasks
+2026-04-17 17:48:22,852 - __main__ - INFO - Text Nr. 52
+2026-04-17 17:48:22,852 - __main__ - INFO - BeforeGoal
+2026-04-17 17:48:22,852 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:22,853 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:27,930 - __main__ - INFO - Goal
+2026-04-17 17:48:27,930 - __main__ - INFO - Tasks
+2026-04-17 17:48:27,931 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:27,931 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:33,091 - __main__ - INFO - AfterTasks
+2026-04-17 17:48:33,092 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:33,092 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:36,450 - __main__ - INFO - Text Nr. 53
+2026-04-17 17:48:36,450 - __main__ - INFO - BeforeGoal
+2026-04-17 17:48:36,451 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:36,451 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:42,005 - __main__ - INFO - Goal
+2026-04-17 17:48:42,005 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:42,005 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:46,499 - __main__ - INFO - Tasks
+2026-04-17 17:48:46,499 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:46,500 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:51,661 - __main__ - INFO - AfterTasks
+2026-04-17 17:48:51,662 - __main__ - INFO - Text Nr. 54
+2026-04-17 17:48:51,662 - __main__ - INFO - BeforeGoal
+2026-04-17 17:48:51,662 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:51,662 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:48:57,158 - __main__ - INFO - Goal
+2026-04-17 17:48:57,159 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:48:57,159 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:01,664 - __main__ - INFO - Tasks
+2026-04-17 17:49:01,664 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:01,665 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:06,961 - __main__ - INFO - AfterTasks
+2026-04-17 17:49:06,964 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:06,964 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:09,830 - __main__ - INFO - Text Nr. 55
+2026-04-17 17:49:09,830 - __main__ - INFO - BeforeGoal
+2026-04-17 17:49:09,831 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:09,831 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:15,152 - __main__ - INFO - Goal
+2026-04-17 17:49:15,153 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:15,153 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:19,569 - __main__ - INFO - Tasks
+2026-04-17 17:49:19,569 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:19,569 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:24,658 - __main__ - INFO - AfterTasks
+2026-04-17 17:49:24,658 - __main__ - INFO - Text Nr. 56
+2026-04-17 17:49:24,659 - __main__ - INFO - BeforeGoal
+2026-04-17 17:49:24,659 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:24,659 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:30,161 - __main__ - INFO - Goal
+2026-04-17 17:49:30,162 - __main__ - INFO - Tasks
+2026-04-17 17:49:30,162 - __main__ - INFO - AfterTasks
+2026-04-17 17:49:30,162 - __main__ - INFO - Text Nr. 58
+2026-04-17 17:49:30,162 - __main__ - INFO - BeforeGoal
+2026-04-17 17:49:30,163 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:30,163 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:34,802 - __main__ - INFO - Goal
+2026-04-17 17:49:34,802 - __main__ - INFO - Tasks
+2026-04-17 17:49:34,802 - __main__ - INFO - AfterTasks
+2026-04-17 17:49:34,802 - __main__ - INFO - Text Nr. 59
+2026-04-17 17:49:34,802 - __main__ - INFO - BeforeGoal
+2026-04-17 17:49:34,803 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:34,803 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:41,410 - __main__ - INFO - Goal
+2026-04-17 17:49:41,411 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:41,411 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:45,841 - __main__ - INFO - Tasks
+2026-04-17 17:49:45,841 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:45,842 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:51,238 - __main__ - INFO - AfterTasks
+2026-04-17 17:49:51,239 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:51,239 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:54,303 - __main__ - INFO - Text Nr. 60
+2026-04-17 17:49:54,307 - __main__ - INFO - BeforeGoal
+2026-04-17 17:49:54,307 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:54,307 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:49:59,674 - __main__ - INFO - Goal
+2026-04-17 17:49:59,675 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:49:59,675 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:03,915 - __main__ - INFO - Tasks
+2026-04-17 17:50:03,916 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:03,916 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:08,989 - __main__ - INFO - AfterTasks
+2026-04-17 17:50:08,990 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:08,990 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:12,092 - __main__ - INFO - Text Nr. 61
+2026-04-17 17:50:12,092 - __main__ - INFO - BeforeGoal
+2026-04-17 17:50:12,093 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:12,093 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:18,109 - __main__ - INFO - Goal
+2026-04-17 17:50:18,110 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:18,110 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:22,513 - __main__ - INFO - Tasks
+2026-04-17 17:50:22,513 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:22,513 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:27,910 - __main__ - INFO - AfterTasks
+2026-04-17 17:50:27,910 - __main__ - INFO - Text Nr. 62
+2026-04-17 17:50:27,911 - __main__ - INFO - BeforeGoal
+2026-04-17 17:50:27,911 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:27,911 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:33,508 - __main__ - INFO - Goal
+2026-04-17 17:50:33,509 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:33,509 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:37,720 - __main__ - INFO - Tasks
+2026-04-17 17:50:37,720 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:37,720 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:43,142 - __main__ - INFO - AfterTasks
+2026-04-17 17:50:43,143 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:43,143 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:46,256 - __main__ - INFO - Text Nr. 63
+2026-04-17 17:50:46,257 - __main__ - INFO - BeforeGoal
+2026-04-17 17:50:46,257 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:46,257 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:51,478 - __main__ - INFO - Goal
+2026-04-17 17:50:51,478 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:51,478 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:50:55,654 - __main__ - INFO - Tasks
+2026-04-17 17:50:55,655 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:50:55,655 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:51:01,072 - __main__ - INFO - AfterTasks
+2026-04-17 17:51:01,072 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:51:01,073 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:51:04,784 - __main__ - INFO - Text Nr. 64
+2026-04-17 17:51:04,784 - __main__ - INFO - BeforeGoal
+2026-04-17 17:51:04,785 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:51:04,785 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:51:10,366 - __main__ - INFO - Goal
+2026-04-17 17:51:10,367 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:51:10,367 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:51:14,448 - __main__ - INFO - Tasks
+2026-04-17 17:51:14,449 - src.code.functions - INFO - Set thinking to False
+2026-04-17 17:51:14,449 - src.code.functions - INFO - using num_ctx as 8196
+2026-04-17 17:51:19,558 - __main__ - INFO - AfterTasks

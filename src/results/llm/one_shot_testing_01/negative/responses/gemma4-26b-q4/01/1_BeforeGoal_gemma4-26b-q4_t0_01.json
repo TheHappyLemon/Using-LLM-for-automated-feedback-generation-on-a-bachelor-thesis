@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the importance of the topic by highlighting the increasing complexity of computer systems and the need for efficiency in modern software development processes.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the general existence of AI tools and the concept of continuous testing, but it fails to cite specific, published research, existing cutting-edge achievements, or specific existing solutions/tools that represent the current state-of-the-art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text identifies a practical problem (the slowness of manual test creation), it does not explicitly identify a research gap based on existing studies or literature. It describes a practical need rather than a scientific gap in current knowledge.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is clearly identified: the manual creation, updating, and maintenance of test scenarios slow down the development process in a continuous testing environment.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no academic references or citations included in the text to support the claims made regarding the benefits of AI or the current state of continuous testing.",
+        "complies": false
+    }
+]
+```
