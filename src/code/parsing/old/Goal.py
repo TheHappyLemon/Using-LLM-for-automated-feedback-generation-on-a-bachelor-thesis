@@ -25,3 +25,9 @@ class Goal(Part):
             "Structure" : "Is the text limited to a single, concise sentence that directly communicates the goal of the thesis?",
             "Congruence" : "Does the goal build logically and consistently on the previously stated gaps, problems, or motivations in the preceding text, ensuring that the proposed goal directly respond to them? All aspects mentioned in the goal should be also mentioned in the preceding text."
         }
+
+    def fully_complies(self):
+        return self.Purpose.value == 1 and self.Intention.value == 1 and self.Structure.value == 1 and self.Congruence.value == 1
+
+    def fully_not_complies(self):
+        return self.Purpose.value == 0 and self.Intention.value == 0 and self.Structure.value == 0 and self.Congruence.value == 0

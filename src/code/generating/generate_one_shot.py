@@ -6,8 +6,20 @@ from src.code.functions import get_prompt, get_texts, get_topics, save_used_prom
 
 logger = logging.getLogger(__name__)
 logger.info("STARTED GENERATING RESULTS FOR REFINING IN ONE-SHOT")
+CONTEXT = "NEGATIVE"
 
-one_shot_path = os.path.join(BASE_PATH, "src", "data", "prompts", "few-shot", "1-shot")
+def is_positive_context():
+  return CONTEXT == "POSITIVE"
+
+def is_negative_context():
+  return CONTEXT == "NEGATIVE"
+
+if is_negative_context():
+  one_shot_path = os.path.join(BASE_PATH, "src", "data", "prompts", "few-shot", "1-shot", "negative")
+elif is_positive_context():
+  one_shot_path = os.path.join(BASE_PATH, "src", "data", "prompts", "few-shot", "1-shot", "positive")
+else:
+  logger.error(f"UNKNOWN CONTEXT {CONTEXT}")
 
 REFINE_BEFORE_GOAL            = get_prompt("REFINE_BEFORE_GOAL", path=one_shot_path)
 REFINE_GOAL_WITH_PRECEDING    = get_prompt("REFINE_GOAL_WITH_PRECEDING_TEXT", path=one_shot_path)
@@ -20,9 +32,13 @@ introduction_texts_divided = get_texts()
 topics = get_topics()
 
 # delete 'shots' from evaluation set
-del introduction_texts_divided[1] # used for Tasks example
-del introduction_texts_divided[5] # used for Goal,AfterTasks example
-del introduction_texts_divided[43] # used for BeforeGoal example
+if is_positive_context():
+  del introduction_texts_divided[1] # used for Tasks example
+  del introduction_texts_divided[5] # used for Goal,AfterTasks example
+  del introduction_texts_divided[43] # used for BeforeGoal example
+elif is_negative_context():
+  del introduction_texts_divided[57]
+  del introduction_texts_divided[7]
 
 prompts_part_refinement = prepare_prompts(
     introduction_texts_divided, topics,
@@ -33,10 +49,16 @@ prompts_part_refinement = prepare_prompts(
 
 # -----------------  DEFINE CONSTANTS  -----------------
 
-PROMPTS_PATH       = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "prompts")       + os.path.sep
-RESPONSES_PATH     = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "responses")     + os.path.sep
-RAW_RESPONSES_PATH = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "raw_responses") + os.path.sep
-MODEL_ROLE         = "a very helpful tutor"
+if is_positive_context():
+  PROMPTS_PATH       = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "positive", "prompts")       + os.path.sep
+  RESPONSES_PATH     = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "positive", "responses")     + os.path.sep
+  RAW_RESPONSES_PATH = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "positive", "raw_responses") + os.path.sep
+elif is_negative_context():
+  PROMPTS_PATH       = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "negative", "prompts")       + os.path.sep
+  RESPONSES_PATH     = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "negative", "responses")     + os.path.sep
+  RAW_RESPONSES_PATH = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "negative", "raw_responses") + os.path.sep
+
+MODEL_ROLE = "a very helpful tutor"
 MODELS = {
 	"gemma4:26b-a4b-it-q4_K_M": "gemma4-26b-q4"
 }
@@ -63,10 +85,10 @@ for model in MODELS:
         logger.info(f"Text Nr. {p}")
 
         t_string = f't{str(t).replace('.', '-')}'
-        raw_responses_dir = os.path.join(RAW_RESPONSES_PATH) + os.path.sep
-        responses_dir     = os.path.join(RESPONSES_PATH    ) + os.path.sep
+        raw_responses_dir = os.path.join(RAW_RESPONSES_PATH, MODELS[model], iter) + os.path.sep
+        responses_dir     = os.path.join(RESPONSES_PATH    , MODELS[model], iter) + os.path.sep
 
-
+'''
         logger.info("BeforeGoal")
         make_prompt(
           text=prompts_part_refinement[p]["BeforeGoal"],
@@ -115,7 +137,7 @@ for model in MODELS:
           to_think=to_think,
           num_ctx=8196
         )
-
+'''
 # python -m src.code.generating.generate_one_shot
 
 # JUST a workaround to start not from zero if session ends abnormally

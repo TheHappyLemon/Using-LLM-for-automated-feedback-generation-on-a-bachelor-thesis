@@ -20,3 +20,9 @@ class AfterTasks(Part):
             "Description" : " Does the text briefly describe contents of each section?",
             "Structure" : "Can it be easily understood what is the general structure of the thesis just from this text?"
         }
+
+    def fully_complies(self):
+        return self.Chapters.value == 1 and self.Description.value == 1 and self.Structure.value == 1
+
+    def fully_not_complies(self):
+        return self.Chapters.value == 0 and self.Description.value == 0 and self.Structure.value == 0

@@ -29,3 +29,9 @@ class BeforeGoal(Part):
             "Problem" : "Can it be easily identified what concrete issue or challenge the thesis is trying to address?",
             "References" : "Are references included where needed to support claims, acknowledge sources, or show how prior research is used, interpreted, or extended?"
         }
+
+    def fully_complies(self):
+        return self.Significance.value == 1 and self.State_of_the_art.value == 1 and self.Gap.value == 1 and self.Problem.value == 1 and self.References.value == 1
+
+    def fully_not_complies(self):
+        return self.Significance.value == 0 and self.State_of_the_art.value == 0 and self.Gap.value == 0 and self.Problem.value == 0 and self.References.value == 0

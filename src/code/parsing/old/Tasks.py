@@ -53,3 +53,11 @@ class Tasks(Part):
             super().load(json_arr)
         else:
             super().load(json_arr, mandatory_questions=["Outlook", "Quantity", "Completeness", "Format", "Structure", "Clarity"])
+
+    # ASSUMES THAT OBJECT IS CASTED TO BOOL WITH TO_BOOL!!!
+
+    def fully_complies(self):
+        return self.Outlook.value == 1 and self.Completeness.value == 1 and self.Format.value == 1 and self.Structure.value == 1 and self.Clarity.value == 1 and self.Relevance.value == 1 and self.Quantity.value == 1
+    
+    def fully_not_complies(self):
+        return self.Outlook.value == 0 and self.Completeness.value == 0 and self.Format.value == 0 and self.Structure.value == 0 and self.Clarity.value == 0 and self.Relevance.value == 0 and self.Quantity.value == 0
