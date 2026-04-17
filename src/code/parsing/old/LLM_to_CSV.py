@@ -118,8 +118,10 @@ def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
                         removing_markdown_helped = False
                         extracting_JSON_with_regex_helped = True
                     else:
+                        logger.error("Failed to parse JSON (1)")
                         return False, False, False, False, None
             else:
+                logger.error("Failed to parse JSON (2)")
                 return False, False, False, False, None
 
     model_validation_OK = True
@@ -137,7 +139,7 @@ def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
         part = parse_full(answers, model_validation_OK=model_validation_OK)
     return is_valid_json_originally, removing_markdown_helped, extracting_JSON_with_regex_helped, model_validation_OK, part
 
-def main(path_answer : str, path_source, dump_feedback : bool = False, postfix : str = "") -> int:
+def main(path_answer : str, path_source, dump_feedback : bool = False, postfix : str = "", skipped_rows : list = None) -> int:
 
     with open(os.path.join(path_answer, f"stats_{postfix}.csv"), 'w', encoding='utf-8', newline='') as stats_f:
 
@@ -230,12 +232,13 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
         human2_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human2_orig.csv")
         human3_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human3_orig.csv")
         human_datasets = [human1_ds, human2_ds, human3_ds]
-        EvaluationDataset.dump_to_csv_feedback(os.path.join(path_answer, f"feedback_{postfix}.csv"), human_datasets, list(datasets.values()))
+        EvaluationDataset.dump_to_csv_feedback(os.path.join(path_answer, f"feedback_{postfix}.csv"), human_datasets, list(datasets.values()), skipped_rows=skipped_rows)
 
     return 0
 
 # python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/initial_testing_01/responses" "src/data/texts/divided" --feedback --run_id="08"
 # python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/single_prompt_testing_01/responses/gemma4-26b-q4/t0/01" "src/data/texts/divided" --feedback
+# python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/one_shot_testing_01/responses" "src/data/texts/divided" --feedback --skip_rows 1 5 43
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("results_path", help="Path to folder with model responses")
@@ -250,11 +253,18 @@ if __name__ == "__main__":
         default="",
         help="Run identifier (e.g., 08)"
     )
+    parser.add_argument(
+        "--skip_rows",
+        type=int,
+        nargs="+",   # one or more integers
+        help="Texts ids to be skipped"
+    )
     args = parser.parse_args()
 
     main(
         path_answer=os.path.join(BASE_PATH, args.results_path),
         path_source=os.path.join(BASE_PATH, args.data_path),
         dump_feedback=args.feedback,
-        postfix=args.run_id
+        postfix=args.run_id,
+        skipped_rows=args.skip_rows
     )

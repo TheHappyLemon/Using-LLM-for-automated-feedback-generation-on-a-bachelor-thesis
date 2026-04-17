@@ -1,0 +1,1160 @@
+Nr,Question,human1,human2,human3,gemma4-26b-q4,gemma4-26b-q4_feedback
+2,Significance,1,1,1,1,"The text does a great job of explaining the significance of the topic, linking the rise of social media and the massive volume of data to the necessity of automated sentiment analysis for businesses, governments, and researchers."
+2,State_of_the_art,0,1,1,1,"The text demonstrates awareness of the current state of the field by citing specific researchers (e.g., Al-Shabi, 2020; Birjali et al., 2021) and noting that most research focuses on English-language texts."
+2,Gap,1,1,1,1,"The research gap is clearly identified: there is a lack of sufficient training data and research specifically adapted for low-resource languages like Latvian, and existing classification approaches have not been sufficiently evaluated for this language."
+2,Problem,1,1,1,1,The problem is clearly stated: the need to evaluate and determine which existing classification approaches are most accurate and suitable for sentiment analysis in Latvian texts.
+2,References,1,1,1,1,"References are used appropriately throughout the text to support claims regarding the definition of sentiment analysis, its applications, and the current limitations in multilingual research."
+2,Purpose,1,1,1,1,The goal is clearly stated and measurable. The verbs 'izpētīt un salīdzināt' (to investigate and compare) provide a clear direction for what needs to be achieved.
+2,Intention,1,1,1,1,The goal focuses on the objective (investigating and comparing approaches) without getting bogged down in the specific technical methods or tools used to achieve it.
+2,Structure,1,1,0,1,"The goal is presented as a single, concise, and direct sentence."
+2,Congruence,1,1,0,1,"The goal perfectly aligns with the preceding text. The introduction highlights the lack of research on classification approaches for the Latvian language, and the goal directly proposes to investigate and compare these approaches."
+2,Outlook,1,1,0,1,"The tasks are organized into a numbered list, although there is a formatting error (a stray '4' between tasks 3 and 4)."
+2,Quantity,6,1,6,6,6
+2,Completeness,1,1,1,1,"The tasks cover the full research cycle: theoretical research, data acquisition, implementation/experimentation, and evaluation/comparison of results."
+2,Format,1,1,1,1,Each task is contained within a single sentence.
+2,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (Izpētīt, Identificēt, Iegūt, Izmantot, Salīdzināt, Apkopot)."
+2,Clarity,1,1,1,1,"The language is professional, concise, and the objectives are clearly stated."
+2,Relevance,1,1,1,1,"The tasks directly follow the logic required to achieve the goal of comparing existing classification approaches, moving from research to experimentation and final evaluation."
+2,Chapters,0,0,0,0,
+2,Description,0,0,0,0,
+2,Structure,0,0,0,0,
+3,Significance,1,0,0,1,The text successfully establishes the importance of the topic by linking it to the rapid development of technologies and the need for efficiency and precision in the IT industry.
+3,State_of_the_art,0,0,0,0,"The text fails to demonstrate awareness of the current state-of-the-art. It mentions that AI integration offers opportunities, but it does not cite any specific existing research, published studies, or specific cutting-edge achievements in AI-driven functional testing."
+3,Gap,0,0,0,0,"The text does not explicitly identify a research gap. While it mentions the goal of providing recommendations, it does not state what is currently missing, unresolved, or insufficient in existing AI-based testing methods or tools."
+3,Problem,1,0,1,1,The problem is identifiable: the need to improve the efficiency and precision of the testing process and to find ways to effectively integrate AI into automated testing workflows.
+3,References,0,0,0,0,There are no references or citations included in the text to support the claims made regarding the importance of AI or the current state of testing tools.
+3,Purpose,1,0,1,1,The goal is clearly stated and provides a measurable outcome (providing recommendations). It avoids vague language and defines the scope of the work effectively.
+3,Intention,1,1,1,1,"The goal focuses on the final objective (providing recommendations) rather than detailing the specific steps like literature review or experimental setup, which are correctly placed in the preceding text."
+3,Structure,1,1,1,1,"The goal is presented as a single, concise, and direct sentence."
+3,Congruence,1,1,1,1,"The goal is perfectly aligned with the preceding text. The introduction establishes the need for efficiency and precision in AI-based testing, and the goal directly addresses this by proposing recommendations for implementation and automation."
+3,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+3,Quantity,6,1,6,6,6
+3,Completeness,1,0,1,1,"The tasks cover the full research cycle: requirement analysis, method investigation, comparative analysis, experimental evaluation, and development of recommendations with a demonstration of usability."
+3,Format,1,1,1,1,Each task is exactly one sentence long.
+3,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Izpētīt, Analizēt, Eksperimentāli novērtēt, Izstrādāt, Demonstrēt) at the beginning of each task."
+3,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+3,Relevance,1,1,1,1,"The tasks directly lead to the goal of providing recommendations for practical use and automation by first researching requirements and methods, then evaluating tools, and finally developing and demonstrating the recommendations."
+3,Chapters,1,0,1,1,The text successfully identifies the three main chapters of the thesis.
+3,Description,1,1,1,0,"While the content of each chapter is mentioned, the descriptions contain several grammatical errors and awkward phrasing (e.g., 'kas vispār ir', 'tiek saktā', 'pēc nelielas skalas') which makes the description of the contents less professional. The description of the second chapter is also somewhat vague regarding the specific tools being analyzed."
+3,Structure,1,0,1,1,"The general structure of the thesis is clear and easy to follow, moving from theory to tools/methods and finally to the experimental part."
+4,Significance,1,1,1,1,The text successfully establishes the importance of the topic by linking Java's popularity (TIOBE index) to the necessity of efficient concurrency mechanisms and the recent introduction of virtual threads in JDK 21.
+4,State_of_the_art,1,1,0,0,"The text mentions the evolution of Java concurrency (java.util.concurrent) and the recent introduction of virtual threads (JDK 21). However, it lacks a deeper review of specific published research or comparative studies that evaluate these mechanisms, which is necessary for a state-of-the-art section."
+4,Gap,0,0,1,0,"The text identifies that traditional threading has 'weaknesses' (race conditions, deadlocks, etc.), but it does not explicitly state a research gap in terms of existing literature. It implies a need for evaluation but doesn't clearly state that such an evaluation is missing from current scientific discourse."
+4,Problem,0,0,1,1,The problem is clearly identifiable: the need to evaluate and compare old and new Java concurrency mechanisms (virtual threads vs. platform threads) in light of the new JDK 21 features.
+4,References,1,0,0,1,"References are included to support claims regarding the TIOBE index, specific concurrency issues (Giebas et. al., 2021), and the release of JDK versions (Oracle.com)."
+4,Purpose,0,0,0,0,"The goal is somewhat vague because 'determining perspectives' (noteikt perspektīvas) is difficult to measure objectively. It would be stronger if the goal specified what exactly is being evaluated or compared (e.g., performance, resource usage, or stability)."
+4,Intention,1,1,1,1,"The goal focuses on the objective (determining perspectives) without explicitly listing the methodology or tools used, which is correct."
+4,Structure,1,1,1,1,"The goal is presented as a single, concise, and direct sentence."
+4,Congruence,0,1,1,1,"The goal is well-aligned with the preceding text. The introduction establishes the context of Java's popularity, the transition from traditional threads to virtual threads (JDK 21), and the need to evaluate these mechanisms, which directly leads to the goal of determining usage perspectives."
+4,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+4,Quantity,6,1,6,6,6
+4,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical definition, literature review, analysis, criteria development, experimentation, and evaluation of results."
+4,Format,1,1,1,1,Each task is exactly one sentence long.
+4,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Noformulēt', 'Izpētīt', 'Analizēt') at the beginning."
+4,Clarity,1,1,1,1,"The language is concise, direct, and easy to understand."
+4,Relevance,1,0,1,1,"The tasks directly support the goal of determining the perspectives of virtual threads by researching existing Java capabilities, establishing evaluation criteria, and conducting experiments to identify strengths and weaknesses."
+4,Chapters,0,0,0,0,"The text does not list thesis chapters (e.g., Introduction, Theory, Methodology, Results, Conclusion), but instead lists specific research tasks or steps of the planned solution. This is a list of objectives rather than a structural outline of the thesis document."
+4,Description,0,0,0,0,"While the text provides a detailed description of the research activities and technical tasks to be performed, it fails to describe the content of the actual thesis sections/chapters."
+4,Structure,0,0,0,0,"The text describes the research process/workflow, but it does not allow the reader to understand the structural organization of the final thesis document itself."
+6,Significance,1,1,1,1,"The text does a good job of explaining the importance of sentiment analysis for businesses and governments, linking it to the rise of social media and the need to understand public opinion."
+6,State_of_the_art,1,1,1,1,"The text demonstrates a strong awareness of the current state-of-the-art by mentioning specific machine learning architectures (RNN, CNN, LSTM) and modern large language models (GPT-3.5-turbo, PaLM)."
+6,Gap,1,1,1,1,"The research gap is clearly identified: while sentiment analysis exists for Latvian, there is a lack of research specifically addressing aspect-based sentiment analysis (ABSA) for the Latvian language."
+6,Problem,1,0,1,1,The problem is clearly identifiable: the need to move beyond general sentiment analysis to aspect-based analysis in the Latvian language using modern LLM approaches.
+6,References,1,1,1,1,"References are appropriately used throughout the text to support claims regarding the utility of sentiment analysis, existing methodologies, and previous Latvian-specific studies."
+6,Purpose,1,1,1,1,The goal is clearly stated and measurable through the comparison of efficiency between different LLMs in the specific task of aspect-based sentiment analysis.
+6,Intention,1,1,1,1,The goal focuses on the objective (investigating and comparing efficiency) rather than detailing the specific technical implementation or datasets used.
+6,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the research objective."
+6,Congruence,1,1,1,1,"The goal perfectly addresses the gap identified in the preceding text, which states that there is a lack of research regarding aspect-based sentiment analysis in the Latvian language using modern models."
+6,Outlook,0,0,0,0,The tasks are presented in a bulleted list rather than a numbered list.
+6,Quantity,5,1,5,5,5
+6,Completeness,1,0,1,1,"The tasks cover the entire research cycle: theoretical analysis, data preparation, implementation, experimentation, and validation through comparison with other authors' results."
+6,Format,1,1,1,1,Each task is contained within a single sentence.
+6,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Apkopot', 'Sagatavot', 'Izstrādāt', 'Veikt') at the beginning of each point."
+6,Clarity,1,1,1,1,"The language is professional, concise, and the objectives are clearly stated."
+6,Relevance,1,0,1,1,"The tasks directly support the goal of comparing LLM effectiveness by including research of algorithms, data preparation, experimentation, and comparative analysis of results."
+6,Chapters,1,1,1,1,"The text clearly lists all the main sections of the thesis, including the introduction, chapters, and conclusions."
+6,Description,1,1,1,1,"Each chapter is briefly described, providing a good overview of the topics covered (theory, algorithms, and implementation)."
+6,Structure,1,0,1,1,The general structure of the thesis is very easy to understand and follows a logical progression.
+7,Significance,1,1,1,1,"The text does an excellent job of explaining the importance of the topic. It clearly connects the complexity of scheduling to operational efficiency, employee well-being, and patient care quality, specifically within the healthcare sector."
+7,State_of_the_art,0,0,0,0,"The text mentions the general trend towards automated solutions and their benefits, but it fails to cite any specific existing algorithms, software, or published research that represents the current state-of-the-art in nurse rostering or scheduling algorithms."
+7,Gap,0,0,1,0,"While the text identifies the 'problem' (manual scheduling is inefficient), it does not explicitly identify a research gap in terms of existing literature or technology. It does not state what is missing in current automated solutions that this thesis intends to address."
+7,Problem,1,0,1,1,"The concrete challenge is very clearly identified: the difficulty of managing complex constraints (availability, shifts, labor laws) in healthcare scheduling and the need for an automated algorithm to optimize this process."
+7,References,0,0,0,0,"There are no formal academic references or citations provided in the text to support the claims made about the healthcare industry, the impact of scheduling, or the effectiveness of automation."
+7,Purpose,1,1,1,1,"The goal is clearly stated and measurable. The student specifies the intent to explore approaches and develop an algorithm, which provides a clear endpoint for the thesis."
+7,Intention,1,0,1,1,The goal focuses on the outcome (developing an algorithm) rather than detailing the specific programming languages or mathematical methods used to achieve it.
+7,Structure,1,0,1,1,"The goal is presented as a single, concise, and direct sentence."
+7,Congruence,1,1,1,1,"The goal aligns perfectly with the preceding text. The text establishes the complexity of nurse rostering and the need for automation, and the goal directly proposes an algorithm to solve this specific problem."
+7,Outlook,0,0,0,0,The tasks are presented in a bulleted list rather than a numbered list.
+7,Quantity,3,0,3,3,3
+7,Completeness,1,1,1,1,"The tasks cover the full research cycle: literature review (analysis), development (implementation), and comparison (validation)."
+7,Format,1,0,1,1,Each task is contained within a single sentence.
+7,Structure,1,1,1,1,"The tasks do not use infinitive verbs; instead, they use verbs in the indicative mood (e.g., 'Apkopot' is an infinitive, but 'Izstrādāt' and 'Salīdzināt' are also infinitives, however, the introductory phrase 'tiks veikti' sets a different tone, though the bullet points themselves start with infinitives). Actually, the tasks start with 'Apkopot', 'Izstrādāt', and 'Salīdzināt', which are infinitives."
+7,Clarity,1,0,1,1,"The language is concise, professional, and easy to understand."
+7,Relevance,1,1,1,1,"The tasks directly follow the goal of researching, developing, and validating an algorithm for hospital scheduling."
+7,Chapters,0,0,0,0,"The text does not explicitly list the numbered chapters of the thesis (e.g., 1. nodaļa, 2. nodaļa). It only describes the research process and mentions the components of the introduction itself."
+7,Description,0,0,0,0,"While the text describes the research activities (analyzing algorithms, developing, and evaluating), it fails to provide a brief description of the content for each specific chapter of the thesis."
+7,Structure,0,0,0,0,"The general flow of the research is understandable, but the structural outline of the final document (the thesis chapters) is missing, making the overall thesis structure unclear."
+8,Significance,1,1,1,1,"The text does a good job of explaining the relevance of the topic, linking music emotion recognition to the growing demand for personalized streaming services and smart devices."
+8,State_of_the_art,0,0,0,0,"The text fails to demonstrate awareness of the current state-of-the-art. It mentions that different methods and parameters exist, but it does not cite any specific existing research, published studies, or specific cutting-edge achievements in the field."
+8,Gap,0,0,1,0,"While the text suggests that a comparison is needed to find the most appropriate method, it does not explicitly identify a research gap based on existing studies (e.g., it doesn't state that previous comparisons are outdated, incomplete, or failed to consider specific parameters)."
+8,Problem,1,0,1,1,The problem is clearly identifiable: the need to determine which machine learning methods and audio parameters are most effective and appropriate for accurate music emotion recognition.
+8,References,0,0,0,0,There are no references included in the text to support the claims made about the importance of the field or the existence of various machine learning methods.
+8,Purpose,1,1,1,1,The goal is clearly stated and measurable. The terms 'izpētīt' (to investigate) and 'salīdzināt' (to compare) provide a clear direction for the research activities that can be evaluated upon completion.
+8,Intention,1,1,1,1,"The goal focuses on the objective (investigating and comparing algorithms) rather than detailing the specific software, programming languages, or step-by-step experimental procedures."
+8,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the primary objective of the thesis."
+8,Congruence,0,1,1,1,"The goal is perfectly aligned with the preceding text. The introduction highlights the need to compare methods and the importance of audio parameters, which the goal directly addresses."
+8,Outlook,0,0,0,0,The tasks are presented in a bulleted list rather than a numbered list.
+8,Quantity,4,0,4,4,4
+8,Completeness,0,0,1,1,"The tasks cover literature review, data collection, feature selection, and comparison, which represents a complete research process."
+8,Format,1,1,1,1,Each task is exactly one sentence long.
+8,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Izpētīt, Apkopot, Izvērtēt, Salīdzināt) at the beginning."
+8,Clarity,1,0,0,1,"The language is concise, professional, and easy to understand."
+8,Relevance,0,0,1,1,The tasks directly follow the logical steps required to achieve the goal of comparing algorithms based on audio parameters.
+8,Chapters,0,0,0,0,
+8,Description,0,0,0,0,
+8,Structure,0,0,0,0,
+9,Significance,0,0,0,0,
+9,State_of_the_art,0,0,0,0,
+9,Gap,0,0,0,0,
+9,Problem,0,0,0,0,
+9,References,0,0,0,0,
+9,Purpose,1,0,1,1,"The goal is clearly defined and measurable, as the development of a prototype with specific performance criteria (accuracy and stability) can be evaluated."
+9,Intention,1,0,0,0,"The goal fails this criterion because it describes the specific methods and tools to be used (single camera, computer vision, VR headset, and wristband data) rather than focusing solely on the intended outcome."
+9,Structure,1,0,0,1,"The text is a single, well-structured sentence that directly communicates the objective."
+9,Congruence,0,0,1,0,
+9,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+9,Quantity,4,0,4,4,4
+9,Completeness,0,0,0,0,"The tasks cover research, analysis, and development, but they lack a clear validation step where the developed prototype's results are compared against existing solutions or benchmarks to demonstrate success."
+9,Format,1,0,1,1,Each task is exactly one sentence long.
+9,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Apkopot, Analizēt, Izstrādāt) at the beginning."
+9,Clarity,1,0,0,1,"The language is concise, professional, and straightforward."
+9,Relevance,1,0,1,0,"The tasks follow a logical progression toward the goal, covering the necessary research and implementation components, though the final validation/comparison step is missing."
+9,Chapters,0,0,0,0,"Tekstā nav minētas darba nodaļas vai galvenie sadaļi. Ievads koncentrējas tikai uz problēmas definēšanu un mērķiem, bet neuzskaitā darba struktūras sastāvdaļas."
+9,Description,0,0,0,0,"Tekstā nav sniegts apraksts par to, ko tieši tiek veikts katrā darba nodaļā. Teksts apraksta tikai koncepciju un tehniskos nosacījumus, bet ne saturu nodaļām."
+9,Structure,0,0,0,0,"Tā kā nodaļas un to saturs nav minēti, lasītājs nevar saprast darba loģisko secību vai kopējo struktūru."
+10,Significance,1,1,1,1,The text clearly explains the importance of the topic by highlighting the challenges of working with large JSON datasets in high-load applications and the need for efficiency.
+10,State_of_the_art,0,0,0,1,"The text mentions existing tools and libraries (ujson, orjson, simplejson) and cites a relevant source to establish the current context of JSON usage."
+10,Gap,0,0,1,0,"While the text mentions problems like performance degradation and complexity, it does not explicitly state a research gap (e.g., a lack of comparative studies or a specific unsolved optimization problem) based on existing literature."
+10,Problem,1,0,1,1,The concrete issue is well-identified: the difficulty of maintaining performance and handling structural complexity when processing large JSON volumes in Python.
+10,References,1,0,0,1,"References are correctly included to support the definition of JSON and its widespread use, following a standard academic format."
+10,Purpose,0,0,1,1,"The goal is clearly stated and provides a measurable objective (finding best practices). It avoids being overly vague, although 'finding best practices' is a broad target, it is appropriate for a bachelor's thesis."
+10,Intention,1,0,1,1,The goal focuses on the outcome (exploring processes and finding best practices) rather than detailing the specific experimental steps or tools used.
+10,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the thesis goal."
+10,Congruence,0,0,1,1,"The goal aligns well with the preceding text. The introduction highlights problems with performance and complexity in Python, and the goal directly addresses exploring processes and finding best practices to mitigate these issues."
+10,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+10,Quantity,7,1,7,7,7
+10,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical analysis (features, problems), methodology (libraries, criteria), practical experimentation (performance evaluation), and final recommendations."
+10,Format,1,1,1,1,"Each task is presented as a single, concise sentence."
+10,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Noteikt, Formulēt, Analizēt, Izpētīt, Izstrādāt, Veikt, Piedāvāt) to start each point."
+10,Clarity,1,1,1,1,"The language is precise, professional, and easy to understand."
+10,Relevance,1,0,1,1,"The tasks follow a logical progression that directly supports the goal of finding the best practice for JSON processing by researching, evaluating, and optimizing methods."
+10,Chapters,1,1,1,1,The text clearly identifies and lists the three main chapters of the thesis.
+10,Description,1,1,1,1,"Each chapter is well-described, outlining the specific topics and objectives covered within them."
+10,Structure,1,0,1,1,The logical progression from theoretical overview to problem analysis and finally to comparative analysis is very clear.
+11,Significance,1,0,1,1,"The text successfully establishes the importance of the topic by highlighting real-world issues such as precision errors, design mistakes, and communication difficulties in the construction industry."
+11,State_of_the_art,0,0,0,0,"The text lacks a demonstration of the current state-of-the-art. It mentions traditional 2D methods and the potential of AR, but it does not cite specific recent research, existing software, or recent technological achievements in the field."
+11,Gap,1,0,1,1,"The text identifies a gap by stating that the effectiveness and limitations of AR applications are not yet fully researched or evaluated, which serves as a valid starting point for a thesis."
+11,Problem,1,0,1,1,The problem is clearly identified: the inefficiency of traditional 2D methods in providing adequate understanding of project execution in real-world environments and the resulting communication/precision issues.
+11,References,0,0,0,0,There are no references included in the text to support the claims regarding the limitations of 2D methods or the current state of AR technology.
+11,Purpose,1,0,1,1,"The goal is well-defined and measurable. It clearly states the intent to investigate and compare the impact of AR technologies versus traditional methods on specific metrics (precision, error reduction, efficiency)."
+11,Intention,1,0,1,1,The goal focuses on the research objective (investigating and comparing impact) rather than detailing the specific software or hardware tools to be used.
+11,Structure,1,0,0,1,"The text is a single, concise, and direct sentence that clearly communicates the thesis goal."
+11,Congruence,0,0,1,1,"The goal aligns perfectly with the preceding text. The problems mentioned (precision, errors, communication/efficiency) are directly addressed by the proposed research objectives."
+11,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+11,Quantity,5,1,5,5,5
+11,Completeness,1,0,1,1,"The text describes a complete research process: theoretical analysis of existing solutions, development of a new solution, experimental validation through comparison with traditional methods, and analysis of results."
+11,Format,0,0,0,0,"Several tasks (1, 2, and 4) consist of multiple sentences rather than being exactly one sentence long."
+11,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Izstrādāt', 'Pārbaudīt', 'Analizēt') at the beginning of the descriptions."
+11,Clarity,0,0,0,1,"The language is precise and professional, though some tasks are quite long due to the inclusion of multiple sub-objectives."
+11,Relevance,1,0,1,1,"The tasks directly follow the logic of the goal, moving from researching existing AR and traditional methods to developing a solution and validating its impact on precision and efficiency."
+11,Chapters,0,0,0,0,
+11,Description,0,0,0,0,
+11,Structure,0,0,0,0,
+12,Significance,1,1,0,1,"The text successfully establishes the significance of the topic by highlighting the rapid development of generative AI and its widespread impact on various media types (text, audio, image, video)."
+12,State_of_the_art,0,1,1,1,"The text demonstrates a good awareness of the current state-of-the-art by citing recent research (e.g., Naveed et al. 2024, Alammar and Grootendorst 2024) and explaining the fundamental mechanisms of language models and RAG."
+12,Gap,0,0,1,0,"While the text identifies a limitation of standard language models (lack of training data for specific queries), it does not explicitly state a research gap regarding the specific methods mentioned in the topic (chunking and embedding methods). The text explains how RAG works, but it doesn't yet argue why the investigation of specific segmentation and embedding methods is necessary or what is currently missing in their optimization for the Latvian language."
+12,Problem,0,0,0,1,"The problem is clearly identified: the inability of language models to answer questions outside their training data, and the subsequent need for effective context retrieval via RAG."
+12,References,1,1,0,1,"The text is well-supported with relevant, recent citations (2021-2024) that support the technical claims made about AI and RAG."
+12,Purpose,1,1,1,1,The goal is clearly stated and measurable through the analysis and evaluation of specific models and algorithms. It avoids vague language.
+12,Intention,1,1,1,1,The goal focuses on the objective (analyzing and evaluating) rather than detailing the step-by-step research process or specific software tools used.
+12,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the thesis goal."
+12,Congruence,0,0,0,1,"The goal is perfectly aligned with the preceding text. The introduction establishes the importance of RAG, the need for text segmentation and embeddings, and the specific context of the Latvian language, all of which are directly addressed in the goal."
+12,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+12,Quantity,7,1,7,7,7
+12,Completeness,1,1,1,1,"The tasks cover the full research cycle: theoretical research, implementation/development, experimentation, and analysis of results."
+12,Format,1,1,1,1,Each task is contained within a single sentence.
+12,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (e.g., 'Izpētīt', 'Izstrādāt', 'Veikt', 'Apkopot')."
+12,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+12,Relevance,1,1,1,1,The tasks directly follow the logic required to achieve the goal of analyzing and evaluating models and algorithms.
+12,Chapters,0,0,0,0,
+12,Description,0,0,0,0,
+12,Structure,0,0,0,0,
+13,Significance,1,1,1,1,The text effectively explains the importance of Multimodal Language Models (MLMs) by highlighting their ability to integrate various data types and their utility in critical fields like medicine and education.
+13,State_of_the_art,0,0,1,0,"While the text mentions the existence of various models and their different training focuses, it lacks specific citations of recent, cutting-edge models or specific comparative studies that have been performed. It mentions the challenge of comparison but does not detail the current state of existing comparative research."
+13,Gap,1,1,1,0,"The text identifies a general challenge (the difficulty of performance comparison), but it does not explicitly formulate a research gap based on a lack of specific existing studies or a failure in current evaluation methodologies."
+13,Problem,1,1,1,1,The problem is clearly identified: the difficulty in comparing the performance of different MLMs due to their varying strengths and weaknesses across different multimodal tasks.
+13,References,1,1,1,1,"The text correctly uses numerical citations [1, 2, 3, 4] to support claims regarding the importance of the field and the challenges in performance comparison."
+13,Purpose,1,1,1,1,"The goal is clearly stated and measurable through the processes of investigation, analysis, and comparison. It avoids vague language and specifies the scope of the work."
+13,Intention,1,0,1,1,"The goal focuses on the research objectives (investigate, analyze, compare) rather than detailing specific software, datasets, or step-by-step methodologies."
+13,Structure,1,0,1,1,"The goal is presented as a single, concise, and direct sentence."
+13,Congruence,1,1,1,1,"The goal aligns well with the preceding text. The text identifies the challenge of performance comparison and the need for analyzing complex visualizations, which the goal directly addresses by proposing the investigation and comparison of models capable of describing such content."
+13,Outlook,1,1,1,1,"The tasks are organized into a numbered list, although there is a formatting error with a stray number '7' between tasks 5 and 6."
+13,Quantity,6,1,6,6,6
+13,Completeness,0,0,1,1,"The tasks cover the full research cycle: literature review, methodology development, experimentation, and analysis of results."
+13,Format,1,1,1,1,Each task is contained within a single sentence.
+13,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Atrast', 'Izvēlēties', 'Salīdzināt') to start the phrases."
+13,Clarity,1,0,1,1,"The language is precise, professional, and the tasks are clearly articulated."
+13,Relevance,1,1,1,1,"The tasks directly follow the logic required to achieve the goal of comparing multimodal models, moving from research to methodology, testing, and final evaluation."
+13,Chapters,0,0,0,0,Teksts satur tikai placeholderi ('TODO') un neuzskaitā galvenās darba nodaļas.
+13,Description,0,0,0,0,"Tekstā nav sniegts nekāds apraksts satura, jo ir norādīts tikai uz darbu, kas vēl jāveic."
+13,Structure,0,0,0,0,Datorprogrammas norāde 'TODO' neļauj saprast darba kopējo struktūru.
+14,Significance,0,0,0,0,
+14,State_of_the_art,0,0,0,0,
+14,Gap,0,0,0,0,
+14,Problem,0,0,0,0,
+14,References,0,0,0,0,
+14,Purpose,0,0,1,0,The goal is too vague. 'Improving UI development' is a subjective outcome that is difficult to measure scientifically. A better goal would focus on the comparison or evaluation of the frameworks themselves.
+14,Intention,1,0,1,0,"The goal fails this criterion because it explicitly mentions the tools (Svelte and React) as the means to achieve the outcome, rather than focusing solely on the objective."
+14,Structure,1,1,1,1,"The text is a single, concise sentence, which meets the structural requirement."
+14,Congruence,0,0,0,0,
+14,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+14,Quantity,6,1,6,6,6
+14,Completeness,0,0,1,1,"The tasks cover theoretical research, criteria definition, and evaluation, which represents a complete research process for a comparative analysis."
+14,Format,1,1,1,1,Each task is exactly one sentence long.
+14,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Noformulēt', 'Izpētīt', 'Noteikt', 'Izvērtēt') at the beginning."
+14,Clarity,0,1,1,1,"The language is concise, precise, and easy to understand."
+14,Relevance,0,0,1,1,"The tasks follow a logical progression from theory to criteria setting, investigation, and final evaluation, directly supporting the goal of comparing the two frameworks."
+14,Chapters,0,0,0,0,"The text does not list the actual chapters or sections of the thesis (e.g., Chapter 1, Chapter 2). It only provides the 'Problem Statement' and 'Justification of Relevance' within the introduction and a development plan, but lacks a roadmap of the thesis content itself."
+14,Description,0,0,0,0,"Since the chapters themselves are not listed, there is no description of what each section of the thesis will contain. The text describes the topic's relevance and the research goals, but not the structural contents of the work."
+14,Structure,0,0,0,0,"The text provides a development plan (timeline) and the importance of the topic, but it does not outline the logical structure or the sequence of the thesis chapters. A reader cannot understand the internal organization of the final document from this text."
+15,Significance,1,1,1,1,The text effectively establishes the importance of the topic by linking technological advancements in LLMs to the need for personalized support in higher mathematics education. It successfully connects the trend of AI adoption to the practical problem of student difficulties in specific areas like integrals.
+15,State_of_the_art,0,0,0,1,"The text mentions the current trend of using AI tools and cites a specific recent study (Korhonen, 2024) regarding usage statistics. However, it lacks a deeper discussion of existing technical solutions or specific methodologies currently used to solve math problems with LLMs, which would strengthen the 'state-of-the-art' section."
+15,Gap,1,1,1,1,"The text clearly identifies a research gap: the lack of detailed studies analyzing the capabilities and effectiveness of LLMs specifically within the context of mastering higher mathematics, particularly integrals."
+15,Problem,1,0,1,1,"The problem is clearly identifiable: students face significant difficulties in higher mathematics (specifically integrals), and there is a lack of research-backed evidence on how LLMs can effectively address these specific learning gaps."
+15,References,0,0,0,1,"References are used appropriately to support claims regarding AI usage trends (Korhonen, 2024). The student correctly attributes statistical data to a source."
+15,Purpose,1,1,1,1,The goal is clearly stated and measurable. Analyzing the capabilities of LLMs and developing a tool for integral learning are concrete objectives that can be evaluated upon completion.
+15,Intention,1,0,1,0,"The goal includes the phrase 'izstrādāt rīku' (to develop a tool), which describes a process/method rather than just the final outcome or objective. To improve, focus on the intended impact of the tool."
+15,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the thesis goal."
+15,Congruence,1,1,1,1,The goal is highly congruent with the preceding text. It directly addresses the identified gap (lack of research on LLM efficiency in integrals) and the identified problem (difficulty in learning integrals) by proposing analysis and a personalized support tool.
+15,Outlook,1,1,1,1,The tasks are organized into a clearly separated numbered list.
+15,Quantity,6,1,6,6,6
+15,Completeness,1,0,1,1,"The text describes a complete research process: theoretical analysis, development of a tool, data collection (experimentation), and evaluation of the results."
+15,Format,1,1,1,1,Each task is exactly one sentence long.
+15,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Analizēt', 'Veikt', 'Izstrādāt') at the beginning of each point."
+15,Clarity,1,1,1,1,"The language used is concise, precise, and easy to understand."
+15,Relevance,1,0,1,1,The tasks directly follow the logical steps required to achieve the goal of analyzing LLM capabilities and developing a tool for integrals.
+15,Chapters,1,1,1,1,"The text clearly identifies the main sections of the thesis, including the first, second, and third chapters, as well as the appendices."
+15,Description,1,1,1,1,"Each chapter is well-described, covering the theoretical background, the development of the tool, and the practical evaluation of its effectiveness."
+15,Structure,1,1,1,1,"The logical flow of the thesis is very clear, moving from theory to development and finally to practical application and results."
+16,Significance,1,1,1,1,"The text does an excellent job of explaining the significance. It connects the topic to real-world psychological impacts (attention, emotional well-being) and industry trends (Apple's investments and Vision Pro), making the research feel timely and necessary."
+16,State_of_the_art,0,1,0,1,The text demonstrates good awareness of the state-of-the-art by mentioning specific technologies like YOLO models and industry developments like Apple Vision Pro. It also cites specific psychological studies to ground the problem in existing literature.
+16,Gap,1,0,1,1,"The research gap is identified (the lack of effective solutions for real-time object modification in AR with low latency), but it could be strengthened by more explicitly stating whether existing neural network implementations currently fail specifically in the context of AR filtering or if the gap lies in the integration of these two specific domains."
+16,Problem,1,0,1,1,The problem is clearly identified: the difficulty of processing and modifying objects in real-time within an AR environment while maintaining high performance and low latency to filter unwanted advertising content.
+16,References,1,0,0,1,"References are included to support claims regarding the psychological effects of advertising. However, there are minor formatting issues (e.g., a stray '6' after a citation and some inconsistent spacing), and the citation style for the journals could be more standardized."
+16,Purpose,1,1,1,1,"The goal is clearly defined and measurable. The student specifies both the development ('izstrādāt') and the evaluation ('novērtēt') of the system, which provides a clear metric for success."
+16,Intention,0,0,0,1,"The goal focuses on the outcome (improving user experience and reducing unwanted influence). However, it slightly violates the 'no methods' rule by mentioning the use of neural networks, though in this context, it serves to define the scope of the system."
+16,Structure,1,1,0,1,"The goal is presented as a single, concise, and direct sentence."
+16,Congruence,1,0,1,1,"The goal is highly congruent with the preceding text. It directly addresses the problem of unwanted advertising and the potential of neural networks mentioned in the introduction, and it proposes a solution that aligns with the 'digital filter' concept discussed."
+16,Outlook,0,0,0,0,The tasks are presented as a bulleted list rather than a numbered list.
+16,Quantity,10,0,10,10,10
+16,Completeness,1,0,1,0,"The tasks cover research, implementation, and testing, but they lack a clear validation step where the results are compared against existing solutions or established benchmarks to prove the effectiveness of the new system."
+16,Format,1,1,1,1,"Each task is a single sentence, which meets the requirement."
+16,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Analizēt', 'Izvēlēties') at the beginning of each point."
+16,Clarity,1,1,1,1,"The language used is precise, professional, and the tasks are clearly stated."
+16,Relevance,1,0,1,1,"The tasks follow a logical progression from research and model selection to implementation and testing, directly supporting the goal of developing and evaluating the AR system."
+16,Chapters,0,0,0,0,
+16,Description,0,0,0,0,
+16,Structure,0,0,0,0,
+17,Significance,1,1,1,1,"The text does a good job of explaining why YAML is important (popularity, readability) and the potential risks of misuse (configuration errors leading to service outages)."
+17,State_of_the_art,0,0,0,0,"The text mentions existing libraries (PyYAML, js-yaml, Ruby), but it fails to cite any specific research, published studies, or comparative evaluations previously conducted by other authors. It lacks a scholarly review of the current state of the field."
+17,Gap,0,0,1,0,"The text identifies a need for comparison to help developers choose the best tool, but it does not explicitly state that a gap exists in existing literature or that previous comparative studies are missing or insufficient."
+17,Problem,1,0,1,1,The problem is clearly identifiable: the need to compare the performance (speed) and capabilities of different programming language libraries for YAML processing to ensure maximum efficiency.
+17,References,0,0,0,0,There are no formal academic references or citations provided to support the claims made about the libraries or the importance of the topic. The mention of libraries is descriptive rather than cited.
+17,Purpose,1,0,1,1,The goal is clearly stated and measurable. 'Evaluating efficiency' is a concrete objective that can be quantified through performance metrics like speed.
+17,Intention,1,1,1,1,"The goal focuses on the outcome (evaluating efficiency) rather than detailing the specific programming languages or libraries used, which is appropriate."
+17,Structure,1,1,1,1,"The text is a single, concise, and direct sentence."
+17,Congruence,1,1,1,1,"The goal aligns perfectly with the preceding text. The introduction identifies the need for comparison (speed/efficiency) due to the variety of languages and libraries, and the goal directly addresses this by proposing an evaluation of efficiency."
+17,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+17,Quantity,6,1,6,6,6
+17,Completeness,0,0,0,1,"The tasks cover the full research cycle: theoretical analysis (properties), research (capabilities), methodology (criteria), experimentation (practical examples), and evaluation (efficiency/conclusions)."
+17,Format,1,1,1,1,"Each task is a single, concise sentence."
+17,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Noteikt, Analizēt, Noformulēt, Novērtēt, Izpētīt, Izdarīt) at the beginning."
+17,Clarity,1,1,1,1,"The language is precise, professional, and easy to understand."
+17,Relevance,0,0,1,1,"The tasks directly support the goal of evaluating efficiency by first defining properties and criteria, then performing the evaluation through practical examples and library analysis."
+17,Chapters,0,0,1,1,The text clearly identifies the two main components of the thesis: the analytical part (Analītiskā daļa) and the practical part (Praktiskā daļa).
+17,Description,0,1,1,1,"The text provides a very detailed breakdown of the contents within both the analytical and practical sections, covering everything from history to specific testing methods and results."
+17,Structure,0,0,1,1,"The logical flow from theoretical analysis to practical implementation and final conclusions is clearly presented, making the overall thesis structure easy to understand."
+18,Significance,1,1,1,1,The text successfully establishes the importance of the topic by linking LLMs to changing user experiences and highlighting the potential for efficiency gains in research and education. It clearly explains why automating the analysis of concept maps is beneficial (saving time and reducing ambiguity).
+18,State_of_the_art,1,1,1,1,The text demonstrates a good awareness of the current field by citing recent studies (2020-2024) regarding LLM integration in various sectors and existing research on generating concept maps with LLMs. It effectively uses these citations to set the stage for the research.
+18,Gap,1,0,1,1,"The research gap is explicitly identified: while studies exist for the *generation* of concept maps using LLMs, there is a lack of research on using LLMs for the *analysis* of existing concept maps. The author also points out the specific technical limitation regarding contextual information analysis."
+18,Problem,1,1,1,1,The problem is clearly identifiable: the lack of tools for analyzing concept maps using LLMs and the difficulty of processing non-textual contextual information within these maps.
+18,References,1,0,1,1,"References are well-integrated throughout the text to support claims about LLM trends, the utility of concept maps, and the current state of research. However, there are several typographical errors in the citations (e.g., 'LVM' instead of 'LLM', 'LARGELANGUAGEMODEL' missing spaces, and 'Tai, Bentleyu.c' instead of 'Tai, Bentley et al.') that should be corrected."
+18,Purpose,1,0,1,1,The goal is clearly stated and measurable: developing a generative AI solution that answers user questions based on concept map information. It avoids vague language and defines a clear endpoint.
+18,Intention,1,0,1,1,The goal focuses on the outcome (a solution to answer questions) rather than detailing the specific technical implementation or step-by-step process.
+18,Structure,1,1,0,1,"The goal is presented as a single, concise sentence that directly communicates the objective."
+18,Congruence,1,1,1,1,"The goal aligns well with the preceding text, which identifies the gap in using LLMs for analyzing concept maps. However, the goal introduces 'answering user questions,' while the preceding text focuses more broadly on 'analysis' and 'processing information.' While logically connected, the specific functional aspect of 'answering questions' could be more explicitly linked to the 'analysis' problem mentioned earlier."
+18,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+18,Quantity,6,1,6,6,6
+18,Completeness,1,0,1,1,"The tasks cover the full research cycle: theoretical research, comparison of existing solutions, development of a tool, and evaluation of the developed tool."
+18,Format,1,1,1,1,"Each task is presented as a single, concise sentence."
+18,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Salīdzināt', 'Izstrādāt') at the beginning of each point."
+18,Clarity,1,1,1,1,"The language is precise, professional, and easy to understand."
+18,Relevance,1,1,1,1,"The tasks directly support the goal of developing an AI solution for interpreting concept maps by including research, development, and evaluation steps."
+18,Chapters,0,0,0,0,
+18,Description,0,0,0,0,
+18,Structure,0,0,0,0,
+19,Significance,1,0,1,1,The text effectively explains the importance of the topic by highlighting the challenges of time allocation in modern business and the limitations of manual planning based on intuition.
+19,State_of_the_art,0,0,1,1,"The text mentions the benefits of automation and cites existing research (Rai & Chandak, 2015) regarding the advantages of algorithmic approaches, which provides a good foundation for the current state of the field."
+19,Gap,0,0,1,0,"While the text implies a need for better solutions, it does not explicitly state a specific research gap (e.g., a lack of dynamic systems for small enterprises or a failure of current algorithms in specific unpredictable conditions). It focuses more on the benefits of the proposed approach rather than what is missing in current literature."
+19,Problem,1,0,1,1,"The problem is clearly identifiable: the inefficiency, lack of precision, and inability to account for unpredictable operational conditions in manual scheduling processes."
+19,References,1,1,1,1,References are used appropriately to support claims regarding the limitations of manual planning and the benefits of automation.
+19,Purpose,1,0,1,1,The goal is clearly stated and measurable. It defines the research (investigating problems and existing solutions) and the final output (developing a software solution) with specific intended outcomes (improving efficiency and balancing needs).
+19,Intention,1,0,1,0,"The goal includes a description of the process/method ('izpētīt un analizēt... lai... izstrādāt'), which borders on describing the research steps rather than just the final objective. However, the ultimate intention (developing a solution) is clear."
+19,Structure,0,0,0,1,"The goal is presented as a single, continuous, and relatively concise sentence."
+19,Congruence,1,0,1,0,"There is a slight mismatch in focus. The preceding text discusses 'maiņu plānošanu' (shift planning) and 'darba grafiku' (work schedules), but the goal introduces 'darba laika uzskaiti' (working time accounting/tracking). While related, the goal should focus on the generation/planning aspect mentioned in the topic and introduction to ensure perfect logical flow."
+19,Outlook,0,0,0,0,The tasks are presented in a bulleted list rather than a numbered list.
+19,Quantity,6,1,6,6,6
+19,Completeness,1,0,1,1,"The tasks cover the full research cycle: analysis of problems and algorithms, development of the software solution, and testing in a real environment to validate the solution's effectiveness."
+19,Format,1,1,1,1,Each task is contained within a single sentence.
+19,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Analizēt', 'Izstrādāt', 'Veikt', 'Apkopot') to start each point."
+19,Clarity,0,0,0,1,"The language is professional, concise, and the objectives are clearly stated."
+19,Relevance,1,0,1,1,"The tasks directly support the goal of developing a software solution for time tracking and scheduling by including research, development, and practical testing."
+19,Chapters,0,0,0,0,"Teksts satur tikai virsrakstu 'Noslēguma darba nodaļas apraksts:', bet tajā nav uzskaitītas konkrētas darba nodaļas vai sadaļas."
+19,Description,0,0,0,0,"Tekstā nav sniegts nekāds apraksts par to, ko katra nodaļa satur, jo pati nodaļas apraksta sadaļa ir tukša."
+19,Structure,0,0,0,0,"Tā kā nodaļas un to saturs nav minēts, par darba kopējo struktūru nav iespējams kaut kādas priekšstatiņas izveidot."
+20,Significance,1,0,1,1,"The text successfully establishes the relevance of the topic by mentioning the growing use of distance measurement technologies in various industries like cartography, construction, and robotics."
+20,State_of_the_art,0,0,0,0,"The text fails to demonstrate awareness of the current state-of-the-art. It mentions the technologies (ToF and LiDAR) but does not cite any specific research, recent developments, or existing comparative studies in the field."
+20,Gap,0,0,1,0,"While the author mentions the need to evaluate efficiency and limitations, they do not explicitly identify a research gap based on existing literature (e.g., stating that a specific comparison or evaluation is missing from current scientific knowledge)."
+20,Problem,1,0,1,1,"The problem is identifiable: the need to evaluate the capabilities, efficiency, and limitations of ToF and LiDAR sensors for 3D surface and hole detection."
+20,References,0,0,0,0,There are no references included in the text to support the claims made about the applications or the technologies mentioned.
+20,Purpose,1,1,1,1,"The goal is well-defined and measurable. It specifies exactly what is being investigated (applicability and precision) and the specific focus area (3D hole scanning), which allows for clear evaluation of the results."
+20,Intention,1,1,1,1,The goal focuses on the research objective (investigating and evaluating) rather than detailing the specific experimental setup or step-by-step procedures.
+20,Structure,1,1,1,1,"The goal is presented as a single, concise, and direct sentence."
+20,Congruence,1,0,1,1,"The goal is highly congruent with the preceding text. The introduction establishes the need to evaluate the capabilities and limitations of ToF and LiDAR sensors, specifically regarding complex surfaces/holes, and the goal directly addresses this by proposing to investigate their applicability and precision in that specific context."
+20,Outlook,0,0,0,0,The tasks are presented in a bulleted list rather than a numbered list.
+20,Quantity,5,1,5,5,5
+20,Completeness,0,1,1,1,"The tasks cover the entire research cycle: theoretical research, analysis of existing technology, experimental testing, and validation through comparison with theoretical sources."
+20,Format,1,1,1,1,Each task is contained within a single sentence.
+20,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (Izpētīt, Analizēt, Pārbaudīt, Salīdzināt, Izdarīt)."
+20,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+20,Relevance,1,1,1,1,"The tasks directly follow the logic required to achieve the goal of evaluating ToF and LiDAR sensors, moving from theory to experiment and final evaluation."
+20,Chapters,1,1,1,1,The text clearly identifies that the work is divided into two main parts.
+20,Description,1,1,1,1,"The text provides a good summary of what is covered in each part, including the theoretical aspects in the first part and the experimental/methodological aspects in the second part."
+20,Structure,1,1,1,1,The logical flow from theoretical overview to experimental validation and final comparison is very clear and easy to follow.
+21,Significance,0,0,0,0,
+21,State_of_the_art,0,0,0,0,
+21,Gap,0,0,0,0,
+21,Problem,0,0,0,0,
+21,References,0,0,0,0,
+21,Purpose,1,1,1,1,"The goal is clearly stated and measurable, as the development of a specific application can be verified."
+21,Intention,0,0,0,0,"The goal includes specific tools and environments ('izmantojot datorredzes tehnoloģijas Android Studio vidē'), which describes the method/process rather than just the outcome."
+21,Structure,1,1,1,1,"The text is a single, concise sentence that directly communicates the goal."
+21,Congruence,0,0,1,0,
+21,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+21,Quantity,8,0,8,8,8
+21,Completeness,1,0,1,1,"The tasks cover the entire research cycle: theoretical analysis, implementation, and validation through comparison with existing solutions."
+21,Format,1,1,1,1,Each task is contained within a single sentence.
+21,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Izvēlēties', 'Projektēt', 'Izveidot') at the beginning of each point."
+21,Clarity,1,0,1,1,"The language is precise, professional, and the sentences are straightforward."
+21,Relevance,1,1,1,1,The tasks follow a logical progression that directly supports the goal of developing and validating an Arabic OCR application.
+21,Chapters,0,0,0,0,"The text does not explicitly list the chapters of the thesis (e.g., Chapter 1, Chapter 2). It only provides a problem statement, relevance, and a development plan, but lacks a formal outline of the thesis sections."
+21,Description,0,0,0,0,"Since the chapters themselves are not listed, there is no description of what each section of the thesis will contain. The text describes the problem and the project plan, but not the thesis structure."
+21,Structure,0,0,0,0,"The general structure of the thesis cannot be understood from this text. While the development plan provides a timeline for tasks, it does not reveal the logical flow or the composition of the final written work."
+22,Significance,0,1,1,1,"The text does a good job of explaining the relevance of the topic, linking technological progress to the need for security in public spaces and mentioning the dual nature of the technology (convenience vs. security risks)."
+22,State_of_the_art,0,0,0,0,"The text lacks a formal review of the current state-of-the-art. While it mentions FaceID as an example of existing technology, it does not cite specific research, published studies, or recent technical advancements in the field of facial recognition analysis."
+22,Gap,0,1,1,0,"The text identifies general challenges (privacy, surveillance, technical limitations), but it does not explicitly identify a scientific or research gap based on existing literature. It describes known problems rather than a lack of knowledge or an unresolved research question."
+22,Problem,0,0,1,1,"The problem is clearly identifiable: the tension between the benefits of facial recognition for security and the risks regarding privacy, data protection, and technical unreliability in certain conditions."
+22,References,0,0,0,0,"There are no academic references or citations provided to support the claims made regarding technological trends, privacy concerns, or technical limitations of the systems."
+22,Purpose,1,0,1,1,"The goal is well-defined and measurable. It clearly outlines the objectives: evaluating efficiency/accuracy, analyzing privacy impact, and developing recommendations. The scope is specific enough to be evaluated upon completion."
+22,Intention,1,0,1,0,"The text fails this criterion because it includes descriptions of the work type (1st type bachelor thesis), the research approach (research of existing solutions), and the planned methodology (experiments and data analysis). The goal should focus on the outcome, not the process."
+22,Structure,0,0,0,0,"The text is not limited to a single, concise sentence. It consists of three separate sentences that include the goal, the thesis type, and the planned practical part."
+22,Congruence,1,1,1,1,"The goal is highly congruent with the preceding text. It directly addresses the problems mentioned in the introduction: technical limitations (efficiency/accuracy), privacy concerns (data protection), and the need for societal acceptance (recommendations)."
+22,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+22,Quantity,6,1,6,6,6
+22,Completeness,0,0,1,1,"The tasks cover the entire research cycle: theoretical analysis, legal/ethical review, practical experimentation, and the formulation of recommendations based on results."
+22,Format,1,1,1,1,Each task is exactly one sentence long.
+22,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (Analizēt, Izvērtēt, Iepazīties, Izpētīt, Veikt, Veikt)."
+22,Clarity,1,0,1,1,"The language is concise, professional, and easy to understand."
+22,Relevance,1,1,1,1,"The tasks directly align with the goal of evaluating existing systems, conducting experiments, and providing recommendations for responsible use."
+22,Chapters,1,1,1,1,The text clearly and explicitly lists all six chapters of the thesis.
+22,Description,1,1,1,1,"Each chapter is accompanied by a brief summary of its content, covering everything from theoretical foundations to experimental results and conclusions."
+22,Structure,1,1,1,1,"The logical flow of the thesis is very easy to follow, moving from definitions and history to methods, legal aspects, empirical research, and finally conclusions."
+23,Significance,1,1,1,1,"The text successfully establishes the importance of digital tools in modern education, specifically mentioning the shift towards hybrid learning due to the pandemic and the role of these platforms in enhancing engagement and motivation."
+23,State_of_the_art,0,1,1,1,"The text demonstrates awareness of the current landscape by describing the specific functionalities of Kahoot!, Quizizz, and Mentimeter and citing recent sources like Wooclap (2024) and Windsor University (2020) to support the description of these tools."
+23,Gap,0,0,1,1,"The text identifies a gap by noting limitations in existing platforms regarding 'adaptability, scalability, and user experience' and suggests that current solutions need improvement, leading to the proposal of a new customized platform."
+23,Problem,1,0,1,1,"The problem is clearly identified: while existing tools are useful, there is a need for a more optimized, adaptive, and customized learning platform that incorporates best practices to meet specific pedagogical and technical needs."
+23,References,0,0,1,1,"References are appropriately included to support claims about specific platforms (Wooclap, 2024) and the broader educational context (Windsor University, 2020)."
+23,Purpose,1,0,1,1,"The goal is clearly stated and contains measurable components, such as performing an analysis, defining requirements, and developing recommendations. It avoids vague language and outlines specific deliverables."
+23,Intention,1,0,1,1,"The goal focuses on the final objectives (analysis, defining requirements, and recommendations). However, it slightly touches upon the 'how' by mentioning that the requirements are based on surveys, which borders on describing the method."
+23,Structure,1,0,0,1,"The goal is presented as a single, concise sentence that directly communicates the main objective of the thesis."
+23,Congruence,1,0,1,1,"The goal is well-aligned with the preceding text. The introduction discusses the limitations of existing platforms (Kahoot!, Quizizz, Mentimeter) and the need for better integration/optimization, which directly justifies the goal of analyzing them and proposing a new concept based on user needs."
+23,Outlook,0,0,0,0,
+23,Quantity,5,1,5,0,
+23,Completeness,1,0,1,0,
+23,Format,1,1,1,0,
+23,Structure,1,1,1,0,
+23,Clarity,1,0,0,0,
+23,Relevance,1,1,1,0,
+23,Chapters,0,0,0,0,
+23,Description,0,0,0,0,
+23,Structure,0,0,0,0,
+24,Significance,1,1,1,1,The text does a good job of establishing the context of the gaming industry and explaining why moving from graphical improvements to AI improvements is a relevant trend.
+24,State_of_the_art,0,0,0,1,"The text mentions the origins of the Alpha-beta pruning technique and cites relevant literature (Luger, 2009; Sweetswer&Wiles, 2002), which demonstrates awareness of the foundational methods in the field."
+24,Gap,1,1,1,1,The text clearly identifies a specific limitation in the standard Alpha-beta algorithm: its inability to distinguish between high-heuristic nodes that lead to loss and those that lead to a guaranteed negative result. This serves as a clear research gap.
+24,Problem,1,1,1,1,"The problem is very clearly defined: the algorithm's failure to differentiate moves in disadvantageous positions can lead to suboptimal decision-making, potentially causing the computer to miss opportunities to exploit opponent errors."
+24,References,1,0,0,1,"References are appropriately used to support historical claims and technical definitions (Luger, 2009; Sweetswer&Wiles, 2002)."
+24,Purpose,0,0,1,1,"The goal is well-defined and measurable. It specifies the development of a modification and the evaluation of its impact on win rate and move quality, which can be empirically tested."
+24,Intention,1,0,1,1,"The goal focuses on the outcome (developing a modification and drawing conclusions). However, it slightly touches upon the process by mentioning 'integrating' the algorithm, though this is minor and acceptable in this context."
+24,Structure,1,0,0,1,"The goal is presented as a single, concise, and direct sentence."
+24,Congruence,1,1,0,0,"The goal aligns well with the problem described in the preceding text (the inability of the standard algorithm to handle unfavorable positions). However, the goal introduces the specific context of 'two-player games with full information', which was not explicitly mentioned as the scope in the preceding text (the text only mentioned 'two-player games' generally)."
+24,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+24,Quantity,5,1,5,5,5
+24,Completeness,1,0,1,1,"The tasks cover the full research cycle: literature review, development, implementation, experimentation, and comparative analysis/validation."
+24,Format,1,1,1,1,"Each task is presented as a single, concise sentence."
+24,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (izpētīt, izstrādāt, implementēt, veikt, salīdzināt) at the beginning of each point."
+24,Clarity,1,0,1,1,"The language is precise, professional, and easy to understand."
+24,Relevance,1,0,1,1,The tasks directly follow the logical steps required to achieve the goal of developing and testing a modified Alpha-beta algorithm.
+24,Chapters,0,0,0,0,"Teksts neuzskaitā darba nodaļas vai sadaļas; tas ir tikai vērstības vai struktūras apraksta sākums, kas norāda, ka apraksts būs, bet nepiešķir saturu."
+24,Description,0,0,0,0,"Tekstā nav sniegts nekas par nodaļu saturu; teksts tikai pasaka, ka apraksts būs pieejams."
+24,Structure,0,0,0,0,"Teksts neizskaidro darba struktūru, jo tajā nav nemaz informācijas par darba sastāvdaļām."
+25,Significance,1,1,1,1,The text successfully explains the relevance of object recognition by linking it to modern applications like assistive technology for the visually impaired and autonomous robotics.
+25,State_of_the_art,1,1,1,1,"The text demonstrates awareness of the field by citing specific recent research (e.g., Zou et al., 2023; Narzillo et al., 2021) and mentioning existing solutions like Microsoft's SeeingAI."
+25,Gap,1,1,1,1,The text explicitly identifies a gap: the lack of an existing solution specifically for indoor space object recognition within the context of wide-angle cameras.
+25,Problem,1,0,1,1,The problem is clearly identified: the need to develop a neural network-based solution and a corresponding dataset specifically for wide-angle indoor imagery.
+25,References,1,1,1,1,References are appropriately included throughout the text to support claims regarding the growth of the field and specific existing technological implementations.
+25,Purpose,1,1,1,1,"The goal is clearly stated and measurable. It specifies the development of a solution for a specific task (recognizing objects from wide-angle images), which allows for clear evaluation of success."
+25,Intention,0,1,0,1,"The goal focuses on the outcome (developing a solution) rather than detailing the step-by-step methodology or specific neural network architectures, which is appropriate."
+25,Structure,1,1,1,1,"The goal is presented as a single, concise, and direct sentence."
+25,Congruence,1,1,1,1,"The goal perfectly aligns with the identified gap in the preceding text. The text explicitly mentions that a solution for wide-angle camera object recognition in interior spaces does not yet exist and requires a dataset and a neural network-based solution, which the goal directly addresses."
+25,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+25,Quantity,6,1,6,6,6
+25,Completeness,1,0,1,1,"The text covers the full research cycle: theoretical analysis (tasks 1-3), implementation/development (tasks 4-5), and evaluation (task 6)."
+25,Format,1,1,1,1,"Each numbered task is a single, concise sentence."
+25,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Veikt', 'Aplūkot', 'Izpētīt', 'Izstrādāt', 'Novērtēt') at the beginning."
+25,Clarity,1,1,1,1,The language is precise and the sentences are straightforward.
+25,Relevance,1,1,1,1,The tasks directly follow the logical progression required to achieve the goal of developing a neural network-based solution for wide-angle images.
+25,Chapters,1,1,1,1,"The text clearly identifies the main sections of the thesis, specifically mentioning the first, second, and third chapters, as well as the subsequent analysis section."
+25,Description,1,1,1,1,"Each section is described with its core purpose (e.g., reviewing algorithms, data augmentation, model creation, and results analysis). However, the description of the second chapter is somewhat repetitive and wordy."
+25,Structure,1,1,1,1,"The logical flow of the thesis is easy to follow, moving from theoretical background and data preparation to implementation and final evaluation."
+26,Significance,1,1,1,1,The text does a good job of explaining the relevance of steganography in the context of modern digital technologies and the need for information security. It connects the topic to real-world needs like protecting intellectual property and preventing unauthorized access.
+26,State_of_the_art,0,0,1,0,"While the text mentions general methods (images, music, text) and cites Grebnikov (2019), it lacks a deep dive into the current state-of-the-art specifically regarding steganography in executable files (PE). It mentions that PE is 'not deeply researched,' but does not cite specific recent studies or advanced techniques currently used in this specific niche."
+26,Gap,0,1,1,1,"The text identifies a gap by stating that steganography in the PE format 'has not been deeply researched from the perspective of steganography.' However, this gap is somewhat generic. It would be stronger if it specified what exactly is missing (e.g., lack of detection methods, lack of robust embedding algorithms for PE, etc.)."
+26,Problem,1,0,1,1,The problem is clearly identifiable: the potential for using the PE format to hide information (including malicious code) and the need to understand these properties to ensure cybersecurity.
+26,References,1,0,0,1,"References are included (e.g., Grebnikov V., 2019) to support definitions and claims. However, the text contains a repetitive paragraph regarding the PE format's data sections, which should be cleaned up."
+26,Purpose,1,0,1,1,"The goal is clearly stated and measurable. The student aims to investigate methods, identify efficient approaches, and compare tools, all of which are concrete objectives that can be evaluated upon completion."
+26,Intention,1,0,1,0,The goal slightly violates this criterion because it includes the process/methodology of 'analyzing and comparing tools' rather than focusing solely on the final outcome or objective.
+26,Structure,1,0,0,1,"The text is a single, concise, and well-structured sentence that directly communicates the thesis goal."
+26,Congruence,1,1,1,1,"The goal is highly congruent with the preceding text. The introduction identifies the lack of in-depth research into PE steganography and the need to understand how to hide/reveal information, which the goal directly addresses by proposing the investigation of methods and tools."
+26,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+26,Quantity,6,1,6,6,6
+26,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical research, practical experimentation, analysis, and evaluation of results."
+26,Format,1,1,1,1,Each task is exactly one sentence long.
+26,Structure,1,1,1,0,"The text is mostly consistent, but task 6 uses an imperative/different form ('Sniedziet' instead of 'Sniegt'), which breaks the infinitive pattern used in the previous tasks."
+26,Clarity,1,0,1,1,"The language is concise, professional, and easy to understand."
+26,Relevance,0,0,1,1,"The tasks directly follow the goal of exploring methods, conducting experiments, and comparing/analyzing solutions."
+26,Chapters,0,0,0,0,"Teksts neizskatās pēc nodaļas saraksta vai strukturētas struktūras apraksta. Lai gan tajā ir minētas darbā ietvertās aktivitātes (teorētiskā izpēte, analīze, praktiskā daļa), tekstā nav skaidri norādītas nodaļas (piemēram, 'Darbs sastāv no trim nodaļām...')."
+26,Description,0,1,0,1,"Teksts labi apraksta saturu, detalizēti izskaidrojot, ko tieši tiek pētīts (Slack Space, virkņu nomaiņa, dll injekcijas) un kāda ir praktiskā daļas mērķa būtība."
+26,Structure,0,1,0,0,"Struktūra ir saprotama no darbības loģikas (izpēte -> analīze -> praktiskā daļa), taču tekstam trūkst formālā struktūras skaidrības, kas būtu nepieciešama, lai precīzi identificētu darba nodaļas un to secību."
+27,Significance,0,0,0,0,"The text does not contain any information regarding the significance of the topic, as it only contains the placeholder 'Vēl nav gatavs' (Not ready yet)."
+27,State_of_the_art,0,0,0,0,The text does not provide any information about the current state of the field or existing research.
+27,Gap,0,0,0,0,No research gap is identified because the text is essentially empty.
+27,Problem,0,0,0,0,The concrete issue or challenge cannot be identified as there is no content provided.
+27,References,0,0,0,0,There are no references included in the text.
+27,Purpose,0,0,0,0,
+27,Intention,0,0,0,0,
+27,Structure,0,0,0,0,
+27,Congruence,0,0,0,0,
+27,Outlook,0,0,0,0,
+27,Quantity,0,0,0,0,
+27,Completeness,0,0,0,0,
+27,Format,0,0,0,0,
+27,Structure,0,0,0,0,
+27,Clarity,0,0,0,0,
+27,Relevance,0,0,0,0,
+27,Chapters,0,0,0,0,
+27,Description,0,0,0,0,
+27,Structure,0,0,0,0,
+28,Significance,1,0,1,1,"The text does a good job of explaining why the topic is important, highlighting the dual role of cookies in user experience and the growing security/privacy risks."
+28,State_of_the_art,0,0,0,0,"While the text mentions specific security mechanisms (Secure, HttpOnly, SameSite), it fails to cite any specific research, studies, or published works that discuss the current state of cookie security or recent advancements in attack methods."
+28,Gap,0,0,1,0,"The text suggests a need to understand risks and improvements, but it does not explicitly identify a research gap based on existing literature (e.g., it doesn't state that current defenses are insufficient against a specific new type of attack or that a comparative analysis of these mechanisms is missing in current research)."
+28,Problem,1,0,1,1,"The problem is clearly identified: the increasing number of potential threats (session hijacking, XSS, tracking) despite existing security mechanisms."
+28,References,0,0,0,0,There are no formal academic references or citations provided in the text to support the claims made about security risks or the effectiveness of existing mechanisms.
+28,Purpose,1,0,1,1,"The goal is clearly stated and measurable. The student specifies exactly what will be done (analyzing and comparing implementation of security functions), which allows for a clear assessment of whether the objective has been met."
+28,Intention,1,1,1,1,"The goal focuses on the outcome (analysis and comparison) rather than detailing the specific software used for testing or the step-by-step methodology, which is appropriate for a goal statement."
+28,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the primary objective of the thesis."
+28,Congruence,0,0,1,1,"The goal is highly congruent with the preceding text. The introduction discusses the risks of cookies and the existence of security mechanisms (Secure, HttpOnly, SameSite), and the goal directly addresses the need to analyze and compare these implementations."
+28,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+28,Quantity,6,1,6,6,6
+28,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical research, risk assessment, implementation analysis, and comparison/validation of findings."
+28,Format,1,1,1,1,"Each task is presented as a single, concise sentence."
+28,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Izpētīt, Noteikt, Izveidot, Izpētīt, Salīdzināt, Noformulēt) at the beginning."
+28,Clarity,1,1,1,1,"The language is precise, professional, and easy to understand."
+28,Relevance,0,1,1,1,The tasks directly follow the logic required to achieve the goal of analyzing and comparing browser cookie security features.
+28,Chapters,0,0,0,0,"Teksts neuzskaitā darba nodaļas vai galvenos sadaļus. Sniegtais teksts ir tikai darba izstrādes plāns (grafiks), nevis darba struktūras apraksts."
+28,Description,0,0,0,0,Tekstā nav aprakstīts saturs vai nodaļu satura apraksts; ir tikai uzskaitītas aktivitātes un to termiņi.
+28,Structure,0,0,0,0,"Teksts sniedz informāciju par laika plānu, bet ne par pašas darba struktūru (nodaļas, sadaļas, logiku). No šī teksta nav saprotams, kāda būs pētījuma loģiskā uzbūve."
+29,Significance,1,1,1,1,The text does an excellent job of establishing significance. It uses global statistics (World Bank) to demonstrate the growing problem of waste and explains the environmental and economic consequences of improper waste management.
+29,State_of_the_art,1,1,1,1,"The text mentions the use of machine learning, computer vision, and neural networks as current approaches. However, it relies heavily on a single recent publication (2023) to represent the state-of-the-art, which is a bit narrow."
+29,Gap,0,0,0,0,"The text identifies the limitations of manual sorting (speed, cost, human error) as a motivation, but it does not explicitly identify a specific research gap in the existing machine learning literature (e.g., what is missing in current automated systems that this thesis will address)."
+29,Problem,0,0,0,1,"The problem is clearly identified: the need for efficient, automated waste classification to replace slow and error-prone manual processes."
+29,References,1,1,1,1,"References are included to support claims regarding waste statistics and current technological approaches. However, some references are formatted inconsistently (e.g., using DOI/journal strings instead of author-year format in some places)."
+29,Purpose,0,0,0,0,
+29,Intention,0,0,0,0,
+29,Structure,0,0,0,0,
+29,Congruence,0,0,0,0,
+29,Outlook,0,0,0,0,
+29,Quantity,0,0,0,0,
+29,Completeness,0,0,0,0,
+29,Format,0,0,0,0,
+29,Structure,0,0,0,0,
+29,Clarity,0,0,0,0,
+29,Relevance,0,0,0,0,
+29,Chapters,0,0,0,0,
+29,Description,0,0,0,0,
+29,Structure,0,0,0,0,
+30,Significance,1,1,1,1,The text successfully explains the relevance of the topic by describing how the evolution of data complexity (from simple to hierarchical/interconnected) necessitates a comparison between object-relational and relational systems.
+30,State_of_the_art,0,0,0,0,"The text mentions that object-relational databases are studied and documented, but it fails to cite any specific authors, studies, or recent technological advancements. It lacks a formal review of existing comparative literature."
+30,Gap,1,0,1,1,"The text identifies a gap by stating that empirical data regarding efficiency, performance, and ease of implementation is not readily available. However, this gap is stated as a general observation rather than being derived from a critique of existing research."
+30,Problem,1,0,1,1,The problem is clearly identified in the 'Problēmas nostādne' section: the lack of available data for comparing performance and the complexity of designing object-relational databases compared to relational ones.
+30,References,0,0,0,0,There are no formal references or citations provided in the text to support the claims made about the history of databases or the current state of technology.
+30,Purpose,1,1,1,1,"The goal is well-defined and measurable. It clearly states the intention to compare implementation variants and investigate the impact of design choices on performance, which can be empirically verified."
+30,Intention,1,0,1,1,The goal focuses on the research outcome (comparison and investigation of impacts) rather than detailing the specific software tools or experimental setup used to achieve it.
+30,Structure,1,0,0,1,"The goal is presented as a single, concise, and direct sentence."
+30,Congruence,1,1,1,1,"The goal aligns perfectly with the preceding text. The introduction highlights the lack of empirical data regarding performance and the complexity of design choices, and the goal directly proposes to address these gaps through comparison and investigation."
+30,Outlook,1,1,1,1,The tasks are organized into a clearly separated numbered list.
+30,Quantity,6,1,6,6,6
+30,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical analysis, experimental setup, implementation of experiments, and final synthesis/conclusions."
+30,Format,1,1,1,1,Each task is contained within a single sentence.
+30,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (iepazīties, izpētīt, veikt, sistematizēt) to start the phrases."
+30,Clarity,1,0,0,1,The language is precise and the tasks are described straightforwardly.
+30,Relevance,1,1,1,1,"The tasks directly support the goal of comparing technologies by including literature analysis, experimental testing of specific features, and performance comparison."
+30,Chapters,0,0,0,0,
+30,Description,0,0,0,0,
+30,Structure,0,0,0,0,
+31,Significance,1,1,1,1,The text does a good job of explaining the importance of data compression in the context of increasing data volumes and the need for efficient processing and storage.
+31,State_of_the_art,0,0,0,0,"While the text mentions historical milestones (Huffman, Lempel-Ziv), it fails to provide a modern state-of-the-art overview. It does not cite recent research, specific modern libraries, or existing comparative studies that would demonstrate awareness of the current technological landscape."
+31,Gap,0,0,1,0,"The text identifies a need for research but does not explicitly identify a scientific or technical gap. It states that a comparison is 'needed' to reduce costs, but it does not point out what is missing in current comparative literature or why existing comparisons are insufficient."
+31,Problem,1,1,1,1,The problem is clearly identifiable: the necessity to choose the correct compression libraries to minimize transmission costs and improve system response time.
+31,References,0,0,0,0,"The text mentions historical figures (David Huffman) and algorithms, but it lacks formal academic citations (e.g., author, year) to support the claims regarding modern trends or the necessity of the research."
+31,Purpose,0,0,0,0,
+31,Intention,0,0,0,0,
+31,Structure,0,0,0,0,
+31,Congruence,0,0,0,0,
+31,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+31,Quantity,5,1,5,5,5
+31,Completeness,0,1,1,1,"The tasks cover the full research cycle: literature review, criteria definition, synthesis of existing results, practical experimentation, and formulation of conclusions."
+31,Format,1,1,1,1,"Each task is presented as a single, concise sentence."
+31,Structure,0,0,0,0,"The tasks consistently start with infinitive verbs (Veikt, Definēšana [Note: 'definēšana' is a noun, but the others are infinitives; however, in Latvian academic context, this list uses a mix of infinitives and nouns, but the primary structure follows the pattern of action-oriented items], Apkopošana, Veikšana, Izstrāde]. To be strictly compliant with 'infinitive verbs', item 2, 3, and 5 use nouns instead of verbs)."
+31,Clarity,0,1,1,1,"The language is precise, professional, and easy to understand."
+31,Relevance,0,0,1,0,
+31,Chapters,1,0,1,1,"Tekstā ir skaidri uzskaitītas galvenās nodaļas un darba sastāvdaļas (atsauces, pielikumi, kodi)."
+31,Description,1,1,1,0,"Apraksts ir ļoti īss un fragmentārs. Piemēram, pirmajā nodaļā ir nepareiza interroga no beigām, un apraksts neizskaidro ievērojami saturu. Nepieciešams izvairīties no neprecīziem teikumiem."
+31,Structure,0,0,1,1,"Darba struktūra ir saprotama, taču tekstā redzamas kļūdas interpunktācijā un nepareizi noformēti teikumi, kas var radīt neprofesionālu iespaidu."
+32,Significance,1,1,1,1,"The text does an excellent job of explaining the significance. It clearly links the increase in data volume to the growing need for efficient storage and processing, highlighting the real-world consequences of inefficient methods (resource exhaustion and system errors)."
+32,State_of_the_art,0,1,1,1,"The text successfully demonstrates awareness of the state-of-the-art by citing recent research (2023, 2024) regarding the use of Trie and hash tables in specific contexts like real-time analysis and n-gram processing."
+32,Gap,1,1,1,1,"The research gap is clearly and explicitly identified: while these structures are studied in general contexts, their specific comparative analysis for large-scale text file processing has not been sufficiently deepened."
+32,Problem,1,0,1,1,"The problem is very easy to identify. The text clearly states that traditional methods become inefficient with large files, leading to high memory usage and reduced performance, which necessitates a comparative study of more efficient structures."
+32,References,1,1,1,1,"The text is well-supported with numerous relevant and recent citations (ranging from 2018 to 2024) that support the claims regarding data trends, technical challenges, and existing solutions."
+32,Purpose,1,1,1,1,"The goal is clearly stated and measurable. The student aims to perform a comparative analysis and define a methodology, which are concrete objectives that can be evaluated upon completion."
+32,Intention,1,0,1,1,"The goal focuses on the outcome (analysis and definition of methodology). It avoids detailing the specific software, programming language, or step-by-step experimental procedures, which is correct."
+32,Structure,1,1,0,1,"The text is a single, concise, and well-structured sentence that directly communicates the primary objective of the thesis."
+32,Congruence,1,1,1,1,"The goal perfectly aligns with the preceding text. The introduction identifies the problem of large text files and the lack of in-depth analysis regarding Trie and hash structures, and the goal directly proposes to address this via comparative analysis."
+32,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+32,Quantity,5,1,5,5,5
+32,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical analysis, defining criteria, performing the comparison (experiment), analyzing results, and developing a methodology."
+32,Format,1,1,1,1,Each task is contained within a single sentence.
+32,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Analizēt, Definēt, Veikt, Izstrādāt) at the beginning of each point."
+32,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+32,Relevance,1,1,1,1,The tasks directly follow the logical steps required to achieve the goal of performing a comparative analysis and defining a methodology.
+32,Chapters,1,1,1,1,The text clearly and explicitly lists all four chapters of the thesis.
+32,Description,1,1,1,1,"Each chapter is well-described, covering the theoretical basis, existing solutions, practical implementation, and final conclusions/methodology."
+32,Structure,1,1,1,1,The logical flow from theory to practice and finally to results is very clear and easy to follow.
+33,Significance,1,1,1,1,The text does a good job of establishing significance by using statistics regarding internet usage and the economic/user-experience impact of slow loading times and downtime.
+33,State_of_the_art,0,0,0,0,"While the text mentions Blue-Green and Canary deployment strategies and DevOps principles, it lacks citations to specific, published research or technical documentation that defines the current state-of-the-art in these methodologies."
+33,Gap,0,0,0,0,"The text fails to identify a specific research gap. It describes the benefits of existing strategies but does not explain what is missing, unresolved, or insufficient in current implementations of Blue-Green or Canary deployments."
+33,Problem,0,0,0,1,The problem is clearly identified: the need to prevent web service interruptions and downtime to maintain user trust and prevent financial losses.
+33,References,0,0,0,1,"The text includes numbered citations (1) and (2), which is a good start, but it lacks a formal bibliography or full bibliographic details to verify the sources of the statistics provided."
+33,Purpose,1,1,1,1,The goal is clearly stated and provides a measurable outcome (developing a solution). It avoids vague language and specifies what is being achieved.
+33,Intention,1,1,0,0,"The goal fails this criterion because it explicitly includes the methods/strategies ('izmantojot Blue-Green un Canary izvietošanas stratēģijas') used to achieve the objective, rather than focusing solely on the outcome."
+33,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the goal."
+33,Congruence,0,0,1,1,The goal is highly congruent with the preceding text. The problem of downtime/interruptions and the specific strategies (Blue-Green and Canary) are all introduced and motivated in the introduction.
+33,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+33,Quantity,6,1,6,6,6
+33,Completeness,1,0,1,1,"The tasks cover the full research cycle: theoretical analysis, comparison, identification of gaps, development of improvements, and validation of the solution."
+33,Format,1,1,1,1,Each task is exactly one sentence long.
+33,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Analizēt, Izpētīt, Veikt, Identificēt, Izstrādāt, Pārbaudīt) at the beginning."
+33,Clarity,1,1,1,1,"The language is concise, precise, and easy to understand."
+33,Relevance,0,1,1,1,The tasks follow a logical progression that directly leads to the goal of developing a solution for downtime prevention using the specified strategies.
+33,Chapters,1,1,1,1,The text clearly lists all 5 chapters of the thesis.
+33,Description,1,1,1,1,"Each chapter is briefly described, providing a good overview of the topics covered, such as history, comparison of strategies, and practical implementation."
+33,Structure,1,1,1,1,"The general structure of the thesis is easy to understand, following a logical progression from theory to practical implementation and testing."
+34,Significance,1,1,1,1,The text successfully establishes the social and economic importance of the topic by linking the aging population in Latvia to the need for technological independence.
+34,State_of_the_art,0,0,0,0,"The text fails to mention any specific existing research, published studies, or current technological solutions/frameworks that address UI/UX for seniors. It only describes general physiological changes."
+34,Gap,0,0,1,0,"While the text implies a need for better design, it does not explicitly identify a research gap based on existing literature. It does not state what is currently missing in existing UI/UX solutions for this demographic."
+34,Problem,1,0,1,1,The problem is clearly identifiable: the mismatch between the physiological/cognitive changes in elderly users and the current design of digital products.
+34,References,0,0,0,0,There are no references or citations provided in the text to support the claims regarding demographic trends or physiological changes.
+34,Purpose,1,1,1,1,The goal is clearly stated and measurable. It defines the scope of the research (exploring interaction and challenges) and the expected outcome (offering UI/UX solutions).
+34,Intention,1,0,0,1,The goal focuses on the objective (exploring and offering solutions) rather than detailing the specific research methods or tools to be used.
+34,Structure,1,0,0,1,"The text is a single, concise, and well-structured sentence that directly communicates the thesis goal."
+34,Congruence,1,0,1,1,"The goal aligns well with the preceding text. The introduction establishes the problem of aging populations and physiological changes affecting digital interaction, which directly justifies the goal of exploring challenges and providing accessibility solutions."
+34,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+34,Quantity,5,1,5,5,5
+34,Completeness,0,0,1,0,"The tasks cover the full research cycle: literature review, empirical research (survey/testing), problem definition, and proposing solutions. However, it lacks an explicit validation step where the proposed solutions are tested or compared against existing benchmarks/standards."
+34,Format,1,1,1,1,Each task is exactly one sentence long.
+34,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Veikt, Analizēt, Izstrādāt, Definēt, Izvirzīt) at the beginning."
+34,Clarity,1,0,1,1,"The language is concise, professional, and easy to understand."
+34,Relevance,1,1,1,1,"The tasks directly follow the logic of the goal, moving from investigation of problems to the proposal of UI/UX solutions."
+34,Chapters,0,0,0,0,
+34,Description,0,0,0,0,
+34,Structure,0,0,0,0,
+35,Significance,1,1,1,1,"The text does a good job of explaining the importance of the topic, highlighting how internet instability affects user experience and productivity in various modern contexts."
+35,State_of_the_art,0,1,0,0,"While the text mentions that technological advancements have opened new possibilities, it fails to cite specific existing technologies, frameworks, or specific recent research achievements (other than a general mention of a demand increase). It lacks a concrete overview of the current technical landscape."
+35,Gap,0,0,1,0,"The text identifies a general need for better solutions but does not explicitly identify a specific research gap (e.g., a specific technical limitation in current PWA/offline sync methods) based on a review of existing literature."
+35,Problem,1,0,1,1,"The problem is clearly identified: the challenges of data synchronization, resource access, and user interaction when internet connectivity is lost or unstable."
+35,References,0,0,0,1,"The text includes a reference to Orozco (2024) to support the claim regarding increasing demand, which is a good start, but more references are needed to support the technical claims made in the text."
+35,Purpose,1,0,1,1,"The goal is clearly stated and measurable. The student aims to identify the 'best solution' through investigation, which provides a clear endpoint for the research."
+35,Intention,1,0,0,1,"The goal focuses on the outcome (identifying the best solution) rather than detailing specific programming languages, frameworks, or step-by-step methodologies."
+35,Structure,1,1,0,1,"The text is a single, concise, and direct sentence that clearly communicates the objective."
+35,Congruence,1,0,1,1,"The goal is highly congruent with the preceding text. The problem of offline functionality and the need for synchronization are explicitly mentioned in the introduction, and the goal directly addresses finding solutions for these specific issues."
+35,Outlook,1,1,1,1,The tasks are organized into a clearly separated numbered list.
+35,Quantity,6,1,5,6,6
+35,Completeness,1,0,1,1,"The tasks cover the full research cycle: theoretical research, literature review, implementation (prototype development), and validation (performance and UX analysis compared to traditional apps)."
+35,Format,1,1,1,0,The last task in the list is not numbered and appears to be a separate sentence/instruction rather than a single-sentence numbered item like the others.
+35,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Izpētīt, Veikt, Izstrādāt, Analizēt) at the beginning of the items."
+35,Clarity,1,0,1,1,"The language is concise, professional, and the tasks are easy to understand."
+35,Relevance,0,0,1,1,"The tasks directly follow the logic required to reach the goal of determining the best solution by researching, developing, and comparing a prototype."
+35,Chapters,1,1,1,1,The text clearly identifies and lists the two main chapters of the thesis.
+35,Description,1,1,1,1,"Each chapter is well-described, detailing the specific technologies (LocalStorage, IndexedDB, etc.) and the focus of the research (PWA principles, architecture)."
+35,Structure,1,0,1,1,The logical flow from theoretical analysis of solutions in the first chapter to the practical prototype development in the second chapter is very clear.
+36,Significance,1,1,1,1,"The text does a great job of explaining the importance of the topic by highlighting the limitations of centralized cloud computing (latency, bandwidth) and the growing demand for real-time processing in IoT and web applications."
+36,State_of_the_art,0,0,0,1,"The text successfully demonstrates awareness of the current state-of-the-art by citing specific research (Edge Computing: Vision and Challenges, 2016 and Fog computing: Platform and applications, 2015) and providing concrete performance metrics (latency reduction from 900ms to 169ms)."
+36,Gap,1,1,1,1,"The text identifies a gap regarding the challenges of choosing the correct technology and integrating edge computing with traditional cloud systems, specifically noting the need for more practical examples and studies for web application development."
+36,Problem,1,0,1,1,The problem is clearly identified: the difficulty in selecting and integrating edge computing technologies into web application development due to varying technical requirements.
+36,References,0,0,0,1,References are included to support the claims regarding the limitations of cloud computing and the benefits of edge/fog computing.
+36,Purpose,1,1,1,1,"The goal is clearly stated and measurable. The student aims to investigate possibilities and evaluate performance, which can be quantified through comparative analysis."
+36,Intention,1,1,1,1,The goal focuses on the objective (investigating and evaluating) rather than detailing the specific experimental setup or software tools to be used.
+36,Structure,1,1,0,1,"The goal is presented as a single, concise sentence that directly communicates the research objective."
+36,Congruence,1,0,1,1,"The goal perfectly aligns with the preceding text. The introduction highlights the challenges of cloud computing latency and the potential of edge computing, and the goal directly proposes a comparative study to address these issues."
+36,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+36,Quantity,6,1,6,6,6
+36,Completeness,0,0,1,1,"The tasks cover the entire research cycle: theoretical research, criteria development, experimental setup, comparison, and analysis of results."
+36,Format,1,1,1,1,"Each task is presented as a single, concise sentence."
+36,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Izstrādāt', 'Izvēlēties', 'Salīdzināt', 'Analizēt') at the beginning."
+36,Clarity,1,1,1,1,"The language is precise, professional, and easy to understand."
+36,Relevance,1,0,1,1,The tasks directly follow the logic required to achieve the goal of evaluating and comparing edge computing with cloud computing.
+36,Chapters,1,0,1,1,"The text clearly identifies the main sections of the thesis, including the introduction, the second, third, and subsequent chapters."
+36,Description,1,1,1,1,"Each section is well-described, covering the theoretical background, the comparative analysis, and the experimental methodology/results."
+36,Structure,1,0,1,1,"The logical flow of the thesis is very clear, moving from theoretical foundations to comparative analysis and finally to experimental evaluation."
+37,Significance,1,1,1,1,"The text successfully establishes the relevance of adaptive learning systems, linking their development to the progress of AI and data analysis, and explaining why traditional methods are no longer sufficient."
+37,State_of_the_art,0,1,0,1,"The text demonstrates awareness of the field by citing specific authors (Crossley & McNamara, 2016; Jain & Kumar, 2020) and mentioning the evolution from traditional intelligent tutoring systems to modern machine learning approaches."
+37,Gap,0,1,1,0,"While the text mentions technical challenges (computational complexity, scalability, etc.), it does not explicitly state that a specific gap exists in current research or that existing solutions fail to address a particular aspect of the 'balance' mentioned in the topic."
+37,Problem,0,0,0,1,The core challenge is clearly identified: the need for a systematic approach to find a balance between system performance (technical constraints) and the depth of personalization (user interaction requirements).
+37,References,1,1,1,1,References are appropriately used to support claims regarding the development of adaptive technologies and the specific technical challenges in implementation.
+37,Purpose,1,0,1,1,"The goal is clearly stated and provides a measurable outcome (exploring/analyzing and developing solutions). However, 'izpētīt un analizēt' (to explore and analyze) is slightly broad, but the addition of 'izstrādāt konkrētus tehniskos risinājumus' (to develop specific technical solutions) makes the achievement of the goal verifiable."
+37,Intention,1,0,1,1,The goal focuses on the objective (improving/developing solutions) rather than detailing the specific algorithms or software tools that will be used to achieve it.
+37,Structure,1,1,1,1,"The text is a single, concise, and well-structured sentence that directly communicates the primary objective."
+37,Congruence,1,0,1,1,"The goal aligns well with the preceding text, which discusses the challenges of algorithmic implementation and the need for optimization. The goal directly addresses the 'need for a systematic approach to algorithm research, analysis, and optimization' mentioned in the introduction."
+37,Outlook,0,0,0,0,The tasks are presented in a bulleted list rather than a numbered list.
+37,Quantity,6,1,6,6,6
+37,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical analysis, comparative analysis, development of an algorithm, experimental evaluation (comparing with a non-personalized approach), and practical guidelines."
+37,Format,1,0,1,1,Each task is contained within a single sentence.
+37,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (analizēt, izpētīt, identificēt, noteikt, izstrādāt)."
+37,Clarity,1,1,0,1,"The language is professional, precise, and the tasks are clearly articulated."
+37,Relevance,0,1,1,1,"The tasks directly support the goal of researching adaptive algorithms and developing technical solutions for improvement through analysis, development, and experimental validation."
+37,Chapters,0,0,0,0,
+37,Description,0,0,0,0,
+37,Structure,0,0,0,0,
+38,Significance,1,1,1,1,"The text does an excellent job of establishing the importance of asynchronous programming within the context of digital transformation, high throughput, and scalability requirements."
+38,State_of_the_art,0,1,1,1,"The text successfully demonstrates awareness of the current state-of-the-art by citing recent research (2023, 2024) and mentioning specific technologies like CompletableFuture, Akka, and asyncio."
+38,Gap,0,1,0,0,"The text fails to explicitly identify a research gap. While it describes the strengths of both Java and Python, it does not state what is missing in current comparative studies or why a new comparison is necessary."
+38,Problem,0,1,0,0,"The specific research problem is not clearly stated. While the text discusses the utility of asynchronous programming, it does not explicitly define the challenge or the specific question the thesis aims to answer regarding the comparison of these two languages."
+38,References,1,1,1,1,References are well-integrated and used appropriately to support technical claims and provide context for the technologies and research mentioned.
+38,Purpose,1,1,1,1,"The goal is clearly stated and measurable. The student defines specific outcomes: comparing approaches, identifying pros/cons, and developing recommendations, which can be verified upon completion."
+38,Intention,1,1,0,1,The goal focuses on the research objectives (comparing and identifying) rather than detailing the specific experimental setup or software tools used to achieve them.
+38,Structure,1,1,0,1,"The text is a single, concise, and well-structured sentence that directly communicates the thesis objective."
+38,Congruence,0,1,1,1,"The goal aligns well with the preceding text, which establishes the importance of both Java and Python in asynchronous programming. However, the preceding text focuses more on the benefits of the technologies themselves rather than explicitly highlighting a 'gap' or 'problem' that necessitates a comparison, though the need for 'deep research' is mentioned."
+38,Outlook,0,0,0,0,"The tasks are presented in a bulleted list using squares, not in a NUMBERED list."
+38,Quantity,4,0,4,4,4
+38,Completeness,0,0,1,1,"The text covers theoretical analysis, experimental design, and drawing conclusions based on results, which represents a complete research process."
+38,Format,1,1,1,1,Each task is contained within a single sentence.
+38,Structure,0,1,1,1,"The tasks consistently use infinitive verbs (analizēt, definēt, organizēt, izdarīt) at the beginning of each point."
+38,Clarity,1,1,0,1,"The language is concise, professional, and the tasks are clearly stated."
+38,Relevance,0,1,1,1,The tasks directly follow the logical steps required to achieve the goal of comparing Java and Python in an asynchronous context.
+38,Chapters,0,0,0,0,
+38,Description,0,0,0,0,
+38,Structure,0,0,0,0,
+39,Significance,1,1,1,1,The text does a good job of explaining the importance of credit risk forecasting and the growing need for transparency due to the complexity of ML models.
+39,State_of_the_art,0,0,0,0,"While the text mentions specific XAI methods (LIME and SHAP), it fails to cite any specific published research, studies, or existing literature that demonstrates the current state of the art in this field."
+39,Gap,0,1,1,0,"The text identifies a general problem (the 'black box' nature of models), but it does not explicitly identify a specific research gap based on existing studies (e.g., it doesn't state that previous evaluations of XAI in credit risk are lacking or insufficient)."
+39,Problem,1,0,1,1,The problem is clearly identified: the lack of transparency and interpretability in complex ML models hinders trust and regulatory compliance in financial risk assessment.
+39,References,0,0,0,0,There are no academic references or citations provided to support the claims made regarding the complexity of models or the utility of XAI methods.
+39,Purpose,1,1,1,1,"The goal is clearly stated and measurable. The student aims to evaluate the applicability and effectiveness of XAI methods, which provides a clear direction for the research."
+39,Intention,1,1,1,1,The goal focuses on the objective (evaluating applicability and effectiveness) rather than detailing the specific step-by-step technical implementation or software used.
+39,Structure,1,1,0,1,"The goal is presented as a single, concise, and direct sentence."
+39,Congruence,1,1,1,1,"The goal is highly congruent with the preceding text. The introduction establishes the problem of 'black box' models and the need for interpretability, and the goal directly proposes evaluating XAI methods to address this."
+39,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+39,Quantity,6,1,6,6,6
+39,Completeness,0,0,1,1,"The tasks cover the entire research cycle: literature review, data preparation, implementation, evaluation, and impact assessment."
+39,Format,1,1,1,1,Each task is contained within a single sentence.
+39,Structure,0,0,0,1,"The tasks consistently use infinitive verbs (Pārskatīt, Sagatavot, Izstrādāt, Novērtēt, Izmantot, Novērtēt) at the beginning."
+39,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+39,Relevance,0,0,1,1,The tasks directly follow the logical steps required to achieve the goal of evaluating XAI applicability in credit risk forecasting.
+39,Chapters,0,0,0,0,"Tekstā ir minēta tikai viena nodaļa, un tekstā pat ir norādīts, ka tā ir nepabeigta. Nav sarakstītas visas darba galvenās sadaļas."
+39,Description,0,0,0,0,"Apraksts ir ļoti īss un nepieejams, jo ir aprakstīta tikai viena nodaļa, un informācija par pārējām nodaļām trūkst."
+39,Structure,0,0,0,0,"Tā kā teksts ir nepabeigts un satur tikai vienu nodaļu, kopējā darba struktūra nav saprotama."
+40,Significance,0,0,0,0,
+40,State_of_the_art,0,0,0,0,
+40,Gap,0,0,0,0,
+40,Problem,0,0,0,0,
+40,References,0,0,0,0,
+40,Purpose,1,1,1,1,"The goal is clearly stated and measurable, as the creation of software to reduce accident probability provides a concrete endpoint for the research."
+40,Intention,1,1,1,1,"The goal focuses on the outcome (reducing accident probability), but it also mentions the specific tool/method (AR devices), which slightly overlaps with describing the means."
+40,Structure,1,1,1,1,"The text is a single, concise sentence that directly communicates the objective."
+40,Congruence,0,0,1,0,
+40,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+40,Quantity,6,1,6,6,6
+40,Completeness,0,0,1,0,"The tasks cover research, development, and testing, but the validation phase lacks a comparison with existing solutions or benchmarks to demonstrate effectiveness beyond simple software testing."
+40,Format,1,1,1,1,Each task is contained within a single sentence.
+40,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Izstrādāt', 'Pārbaudīt') at the beginning of each point."
+40,Clarity,1,1,1,1,"The language used is concise, direct, and easy to understand."
+40,Relevance,0,1,1,1,"The tasks follow a logical progression from researching existing technologies and statistics to developing and testing the software, directly supporting the goal of creating software to reduce accidents."
+40,Chapters,0,0,0,0,
+40,Description,0,0,0,0,
+40,Structure,0,0,0,0,
+41,Significance,1,1,1,1,"The text does a good job of explaining the practical benefits of the research, such as improving resource planning for municipalities and enhancing safety for event management."
+41,State_of_the_art,1,0,0,0,"The text lacks any mention of existing scientific research, specific algorithms, or technological solutions currently used in tourism forecasting. It only describes a 'traditional approach' without citing any literature or specific existing methods."
+41,Gap,1,0,1,0,"The text identifies a practical gap (the failure to include web traffic and search data in current forecasting), but it does not frame this as a research gap based on a review of existing studies or literature."
+41,Problem,1,0,1,1,The problem is clearly identified: current forecasting methods are limited because they rely only on historical events and ignore real-time digital footprints like website visits and search engine trends.
+41,References,0,0,0,0,There are no references or citations provided in the text to support the claims regarding the current state of forecasting or the effectiveness of the proposed data integration.
+41,Purpose,1,0,1,1,The goal is clearly stated and provides a measurable outcome (evaluating potential and offering solutions). It avoids being overly vague by specifying the subject matter (open data for tourism forecasting).
+41,Intention,1,0,1,1,The goal focuses on the objective (researching and evaluating potential) rather than detailing the specific algorithms or data processing steps used to achieve it.
+41,Structure,1,1,0,1,"The text is a single, concise, and well-structured sentence that directly communicates the thesis goal."
+41,Congruence,1,0,1,1,The goal aligns perfectly with the preceding text. The introduction identifies the gap (limitations of traditional methods and lack of use of web/search data) and the goal directly proposes addressing this by evaluating open data usage to improve forecasting accuracy.
+41,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+41,Quantity,6,1,6,6,6
+41,Completeness,1,0,1,1,"The tasks cover the full research cycle: theoretical comparison, data acquisition, modeling, and validation against actual data."
+41,Format,1,1,1,1,Each task is contained within a single sentence.
+41,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (Izpētīt, Apskatīt, Iegūt, Veikt, Izstrādāt, Novērtēt)."
+41,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+41,Relevance,1,0,1,1,The tasks directly follow the logic required to achieve the goal of evaluating open data potential for forecasting.
+41,Chapters,1,1,1,1,The text clearly identifies that the thesis consists of 3 chapters.
+41,Description,1,1,1,1,"Each chapter is briefly and accurately described, covering literature review, data analysis/algorithms, and model development/evaluation."
+41,Structure,1,0,1,1,The logical flow from theory to analysis and finally to implementation is very easy to follow.
+42,Significance,0,0,1,1,The text does a good job of explaining why sentiment analysis is important for businesses and how LLMs represent a significant technological shift in this field.
+42,State_of_the_art,0,0,0,0,"The text mentions existing methods (machine learning models) and current technologies (GPT), but it lacks citations of specific, published research or comparative studies that demonstrate the current state of the art in sentiment analysis."
+42,Gap,0,0,1,0,"The text identifies a gap regarding the inability of traditional models to capture linguistic nuances and deep meaning, but it does not ground this gap in a review of existing literature or specific studies."
+42,Problem,0,0,1,1,The problem is clearly identified: the difficulty of manually processing large volumes of unstructured text data and the limitations of traditional automated methods in understanding complex emotions.
+42,References,0,0,0,0,"The text includes a reference to an AI prompt used to generate part of the text, which is transparent, but it lacks academic citations to support the claims made about traditional machine learning limitations or the capabilities of LLMs."
+42,Purpose,1,1,1,1,"The goal is clearly stated and measurable. It specifies the investigation of LLM efficiency in sentiment analysis and the comparison with traditional methods, which allows for a clear evaluation of whether the objective has been met."
+42,Intention,1,1,1,0,"The text slightly violates this criterion because it describes the method/process (comparing traditional methods and LLM efficiency) to achieve the outcome, rather than focusing solely on the intended outcome."
+42,Structure,1,0,1,0,"The goal is presented in two sentences. While the second sentence adds necessary detail, the structure is not limited to a single, concise sentence."
+42,Congruence,0,0,1,1,"The goal is highly congruent with the preceding text. The introduction establishes the problem of analyzing text-based feedback and the limitations of traditional machine learning models, which the goal directly addresses by proposing the evaluation of LLMs."
+42,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+42,Quantity,4,0,4,4,4
+42,Completeness,0,0,1,1,"The tasks cover the full research cycle: literature review, data selection, experimentation (comparison), and evaluation of results/limitations."
+42,Format,1,1,1,1,Each task is contained within a single sentence.
+42,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (Veikt, Atlasīt, Izvēlēties, Izvērtēt)."
+42,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+42,Relevance,1,1,1,1,The tasks directly follow the logic required to achieve the goal of comparing LLM efficiency with traditional methods.
+42,Chapters,1,1,1,1,The text clearly identifies that the work consists of 4 sections.
+42,Description,1,1,1,1,"Each section is described with its main focus, including the literature review, data selection, methodology, and practical application/evaluation."
+42,Structure,1,0,1,1,The logical flow from theoretical background to practical implementation and evaluation is well-presented and easy to follow.
+44,Significance,1,1,1,1,The text successfully explains the relevance of the topic by linking the development of smart homes and industrial automation to the need for efficient sensor management.
+44,State_of_the_art,0,1,0,0,"While the text mentions existing communication protocols (Modbus, BACnet, Zigbee), it fails to cite any specific research, published studies, or existing software solutions/virtual laboratories that currently address this issue."
+44,Gap,0,1,1,0,"The text identifies a practical gap (the difficulty of managing multi-vendor sensors due to different protocols), but it does not frame this as a research gap based on a lack of existing scientific solutions or studies."
+44,Problem,1,1,1,1,The concrete problem is clearly identified: the complexity and high cost of managing diverse sensors without a unified environment.
+44,References,0,0,0,0,There are no academic references or citations provided to support the claims regarding technological trends or the limitations of current management methods.
+44,Purpose,1,1,1,1,The goal is clearly stated and provides a measurable outcome (creating a virtual laboratory for learning and integration). It avoids vague language and defines the scope of the work effectively.
+44,Intention,1,0,0,1,"The goal focuses on the final objective (creating the laboratory) rather than detailing the specific software, programming languages, or step-by-step implementation processes."
+44,Structure,1,1,0,1,"The text is a single, concise, and well-structured sentence that directly communicates the primary objective."
+44,Congruence,1,1,1,1,"The goal perfectly aligns with the preceding text. The problem of fragmented management due to different protocols (Modbus, Zigbee, etc.) is directly addressed by the goal's focus on 'different manufacturers' and 'unified approach'."
+44,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+44,Quantity,6,1,6,6,6
+44,Completeness,1,0,1,1,"The tasks cover the full research cycle: theoretical analysis (task 1), requirements definition (task 2), implementation (task 3), and evaluation/validation (task 6)."
+44,Format,1,1,1,1,Each task is exactly one sentence long.
+44,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (Izpētīt, Definēt, Izstrādāt, Pārbaudīt, Izveidot, Novērtēt)."
+44,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+44,Relevance,1,1,1,1,"The tasks directly support the goal of creating a virtual laboratory by covering research, development, testing, and documentation."
+44,Chapters,0,0,0,0,
+44,Description,0,0,0,0,
+44,Structure,0,0,0,0,
+45,Significance,1,0,1,1,"The text does a good job of explaining the relevance of the topic, specifically linking asynchronous programming to the resource constraints of mobile devices."
+45,State_of_the_art,0,1,1,1,"The text mentions the current status of Kotlin and its relationship with Java/JVM and cites relevant sources, showing awareness of the current technological landscape."
+45,Gap,0,0,1,0,"While the text mentions a question regarding the efficient use of tools and their pros/cons, it does not explicitly identify a research gap based on a lack of existing studies or unresolved scientific problems. It describes a technical challenge rather than a research gap."
+45,Problem,1,0,1,1,"The problem is identifiable: the need to determine how to effectively use coroutines and threads in Kotlin for various tasks, considering the pros and cons of each."
+45,References,1,1,1,1,"References are appropriately included throughout the text to support claims regarding mobile device constraints, Kotlin's adoption, and its technical characteristics."
+45,Purpose,1,1,1,1,The goal is clearly stated and measurable. 'Evaluating tools' is a concrete objective that can be assessed through comparison or analysis.
+45,Intention,1,1,1,1,The goal focuses on the outcome (evaluation) rather than detailing the specific methodology or the steps taken to achieve it.
+45,Structure,1,1,1,1,"The text is a single, concise, and direct sentence."
+45,Congruence,1,0,1,1,"The goal follows logically from the preceding text, which concludes by raising the question of the effective use of tools and their pros and cons. The goal directly addresses this by proposing an evaluation of these tools."
+45,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+45,Quantity,7,1,7,7,7
+45,Completeness,0,0,1,1,"The tasks cover the entire research cycle: theoretical foundation, tool analysis, criteria development, practical experimentation, comparative analysis, and final recommendations."
+45,Format,1,1,1,1,"Each task is presented as a single, concise sentence."
+45,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (e.g., 'Izpētīt', 'Analizēt', 'Izveidot', 'Izstrādāt', 'Veikt', 'Apkopot')."
+45,Clarity,1,1,1,1,"The language used is precise, professional, and easy to understand."
+45,Relevance,1,1,1,1,"The tasks directly support the goal of evaluating Kotlin tools by including preparation, experimentation, comparison, and evaluation of results."
+45,Chapters,0,0,0,0,
+45,Description,0,0,0,0,
+45,Structure,0,0,0,0,
+46,Significance,1,1,1,1,"The text does a good job of explaining the relevance of the topic, linking the rise of digital transactions and new technologies (like cryptocurrencies) to the increasing complexity of financial fraud."
+46,State_of_the_art,0,1,1,0,"The text mentions that traditional approaches are no longer sufficient for large data volumes and briefly introduces AI as a potential solution, but it lacks a detailed review of specific existing AI-based solutions or recent research achievements in this specific field."
+46,Gap,0,0,1,0,"While the text implies a need for better detection methods due to the limitations of traditional approaches, it does not explicitly identify a specific research gap (e.g., a particular type of fraud that AI hasn't solved yet or a limitation in current AI models)."
+46,Problem,1,0,1,1,The problem is clearly identifiable: the increasing volume of digital transactions and evolving fraud methods make it difficult for traditional security measures to detect fraudulent activities.
+46,References,1,1,1,1,"References are included throughout the text to support claims regarding the impact of fraud, digital payments, and the potential of AI."
+46,Purpose,1,1,1,1,The goal is clearly stated and measurable through the investigation of possibilities for applying AI solutions. It avoids vague language and defines a clear scope of research.
+46,Intention,1,1,1,1,The goal focuses on the objective (investigating possibilities) rather than detailing the specific step-by-step research process or experimental setup.
+46,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the thesis goal."
+46,Congruence,1,0,1,1,"The goal is highly congruent with the preceding text. The introduction establishes the rise in digital fraud and the limitations of traditional methods, directly motivating the need to explore AI-based solutions mentioned in the goal."
+46,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+46,Quantity,7,1,7,7,7
+46,Completeness,0,0,1,1,"The tasks cover the entire research cycle: literature review, data preparation, implementation, and evaluation/comparison."
+46,Format,1,1,1,1,Each task is exactly one sentence long.
+46,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (e.g., 'Izpētīt', 'Analizēt', 'Atrast', 'Izvēlēties', 'Realizēt', 'Izdarīt')."
+46,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+46,Relevance,1,1,1,1,"The tasks directly support the goal of investigating AI-based solutions by covering research, implementation, and evaluation."
+46,Chapters,0,0,0,0,
+46,Description,0,0,0,0,
+46,Structure,0,0,0,0,
+47,Significance,0,0,0,0,
+47,State_of_the_art,0,0,0,0,
+47,Gap,0,0,0,0,
+47,Problem,0,0,0,0,
+47,References,0,0,0,0,
+47,Purpose,1,0,1,1,"The goal is clearly defined and measurable; it specifies the creation of a prototype and the specific functionality (identifying and augmenting tasks), which allows for clear evaluation of success."
+47,Intention,0,0,0,0,"The goal includes a description of the methods/tools used ('izmantojot dabīgās valodas apstrādes tehnoloģijas'), which should ideally be omitted to focus solely on the outcome."
+47,Structure,1,0,0,1,"The text is a single, concise sentence that directly communicates the objective."
+47,Congruence,0,0,1,0,
+47,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+47,Quantity,6,1,6,6,6
+47,Completeness,1,0,1,1,"The tasks cover the full research cycle: analysis of existing solutions, requirement definition, implementation (prototype development), and evaluation of the result."
+47,Format,1,1,1,1,Each task is exactly one sentence long.
+47,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Analīzēt, Analizēt, Izvirzīt, Izstrādāt, Novērtēt, Secināt) at the beginning."
+47,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+47,Relevance,1,1,1,1,"The tasks directly support the goal of developing a prototype by including research, development, and evaluation phases."
+47,Chapters,0,0,0,0,Tekstā nav minētas darba nodaļas vai galvenie sadaļi. Teksts koncentrējas tikai uz problēmas definēšanu un risinājuma piedāvāšanu.
+47,Description,0,0,0,0,"Tā kā nodaļas nav minētas, arī to satura apraksts šajā tekstā pilnībā trūkst."
+47,Structure,0,0,0,0,"Teksts sniedz informāciju par problēmas kontekstu un mērķi, bet nevar saprast pašas diplomdarba struktūru, jo nav aprakstīts, kā tas ir organizēts (piemēram, teorija, metodoloģija, eksperiments)."
+48,Significance,1,0,1,1,The text successfully establishes the importance of the topic by linking the need for fast text processing to the increasing volume of digital data and the necessity for real-time decision-making.
+48,State_of_the_art,1,1,1,1,"The text demonstrates awareness of the field by mentioning specific advancements like 'out-of-place hashing' and the impact of AI on text generation, supported by citations."
+48,Gap,1,0,1,1,The text identifies a clear gap: the lack of a unified methodology for comparing the advantages and disadvantages of trie and hash table implementations specifically within the context of modern real-time systems.
+48,Problem,1,0,1,1,"The problem is clearly identifiable: the challenge of finding an optimal, unified approach for comparing these two data structures to handle the demands of modern, high-speed text processing."
+48,References,1,1,1,1,"References are appropriately used throughout the text to support claims regarding data structure performance, recent innovations, and the identified research gap."
+48,Purpose,1,0,1,1,The goal is clearly stated and provides a measurable outcome (developing a methodology for efficient use). It avoids vague language and specifies the context of real-time systems.
+48,Intention,1,1,0,1,The goal focuses on the objective (analysis and methodology development) rather than detailing the specific step-by-step experimental processes or software tools used.
+48,Structure,1,1,0,1,"The text is a single, concise, and direct sentence that clearly communicates the thesis goal."
+48,Congruence,1,0,1,1,"The goal perfectly aligns with the preceding text. The introduction identifies the lack of a unified methodology for comparing these structures in real-time contexts, and the goal directly proposes to develop that methodology."
+48,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+48,Quantity,5,1,5,5,5
+48,Completeness,1,1,1,1,"The tasks cover the full research cycle: theoretical analysis, criteria development, methodology creation, and experimental validation."
+48,Format,1,1,1,1,Each task is contained within a single sentence.
+48,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (Analizēt, Izvērtēt, Izstrādāt, Izveidot, Veikt)."
+48,Clarity,1,1,1,1,"The language is precise, professional, and easy to understand."
+48,Relevance,1,1,1,1,"The tasks directly support the goal of developing a methodology for efficient text processing by including analysis, criteria setting, and experimental validation."
+48,Chapters,1,1,1,1,The text clearly identifies and lists the three main parts/chapters of the thesis.
+48,Description,1,1,1,1,"The text provides a brief overview of what each chapter contains, which is sufficient for a structural summary."
+48,Structure,1,1,1,1,The logical flow from theory to methodology/experiment and finally to results is very easy to follow.
+49,Significance,0,0,0,0,
+49,State_of_the_art,0,0,0,0,
+49,Gap,0,0,0,0,
+49,Problem,0,0,0,0,
+49,References,0,0,0,0,
+49,Purpose,1,1,1,1,"The goal is clearly defined, specific, and measurable. It explicitly states the objective of comparing the two frameworks based on concrete criteria, making it easy to evaluate the final result."
+49,Intention,1,0,0,1,"The goal includes a detailed list of specific criteria (performance, scalability, development speed, etc.) and the final outcome (providing recommendations). While these describe the scope of the analysis, they are closely tied to the objective itself."
+49,Structure,1,0,0,1,"The text is a single, well-structured, and concise sentence that directly communicates the research objective."
+49,Congruence,0,0,1,0,
+49,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+49,Quantity,6,1,6,6,6
+49,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical research, practical implementation (development), comparison (validation), and final conclusions."
+49,Format,1,1,1,1,"Each task is presented as a single, concise sentence."
+49,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Izstrādāt', 'Novērtēt') at the beginning."
+49,Clarity,1,1,1,1,"The language is precise, professional, and easy to understand."
+49,Relevance,1,0,1,1,"The tasks directly follow the logic required to achieve the goal of comparing the two frameworks, including preparation, implementation, and evaluation."
+49,Chapters,0,0,0,0,The text does not mention the chapters or specific sections that make up the thesis. It only focuses on the problem statement and the relevance of the topic.
+49,Description,0,0,0,0,"Since the chapters are not listed, there is no description of the contents of the thesis sections provided in this text."
+49,Structure,0,0,0,0,"The text provides a good logical flow for the introduction (problem and relevance), but it does not outline the structural organization of the thesis itself."
+50,Significance,1,1,1,1,The text successfully explains the importance of microservices architecture and the relevance of the topic by highlighting the efficiency issues caused by synchronous communication in modern high-load systems.
+50,State_of_the_art,0,0,0,0,"The text mentions existing technologies and frameworks (Flask, Django, asyncio, FastAPI, Celery, aiohttp), which shows awareness of the current tools available. However, it lacks citations of specific research, studies, or comparative evaluations performed by other authors to establish a scientific state-of-the-art."
+50,Gap,0,1,1,0,"While the text identifies a technical problem (inefficiency of synchronous approaches), it does not explicitly formulate a research gap based on existing literature. It states that application requires 'detailed research' to understand solutions, but it doesn't point to a specific lack of existing knowledge or unresolved scientific/technical findings in current studies."
+50,Problem,0,0,1,1,The problem is clearly identified: the need to explore and demonstrate solutions for creating asynchronous microservices in Python to overcome the performance and resource consumption issues of synchronous methods.
+50,References,0,0,0,0,There are no academic references or citations provided to support the claims made about the efficiency of certain architectures or the limitations of specific frameworks. The text relies solely on general technical assertions.
+50,Purpose,1,0,1,1,The goal is clearly stated and provides a measurable objective (investigating principles). It avoids vague language and defines the scope of the research.
+50,Intention,1,1,1,1,"The goal focuses on the research objective (investigating principles) rather than listing specific tools like FastAPI or Celery, which are appropriately left for the methodology/introduction."
+50,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the thesis goal."
+50,Congruence,1,0,1,1,"The goal is logically consistent with the preceding text. The introduction establishes the problem of synchronous communication and the potential of Python's asynchronous capabilities, which the goal directly addresses by proposing an investigation into these principles."
+50,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+50,Quantity,6,1,6,6,6
+50,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical research, development of a criteria system, implementation of a prototype, and analysis/conclusions."
+50,Format,1,1,1,1,"Each task is presented as a single, concise sentence."
+50,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (Izpētīt, Analizēt, Izveidot, Izstrādāt, Noformulēt)."
+50,Clarity,1,1,1,1,"The language is precise, professional, and easy to understand."
+50,Relevance,0,1,1,1,The tasks directly support the goal of investigating asynchronous microservices development in Python by progressing from theory to practical implementation and evaluation.
+50,Chapters,0,0,0,0,"Teksts neizskatās pēc darba struktūras vai nodaļu saraksta; tas ir darba izstrādes plāns (Gantt chart tipa tabula), kas apraksta laika plānotās aktivitātes, nevis darba nodaļas."
+50,Description,0,0,0,0,"Tekstā nav aprakstīts saturs nodaļām, jo teksts sastāv tikai no aktivitāšu un termiņu saraksta, nevis no darba satura apraksta."
+50,Structure,0,0,0,0,"Teksts sniedz informāciju par darba izstrādes procesa laika plānu, bet nevar izprotīt paša darba akadēmisko struktūru (nodaļas, apakšnodaļas) no šī teksta."
+51,Significance,1,1,1,1,The text does a good job of explaining the importance of parallelism in modern software development and why TBB is a relevant tool for high-performance computing.
+51,State_of_the_art,0,0,0,0,"The text lacks references to specific, published research or recent academic/industrial benchmarks that demonstrate the current state of the art in TBB or parallel C++ development. It mentions the library's features but does not cite existing studies or comparative evaluations."
+51,Gap,0,0,1,0,"While the author mentions that it would be useful to explain improvements and compare solutions, they do not explicitly identify a specific research gap (e.g., a lack of recent comparative data or a specific limitation in current TBB implementations) based on existing literature."
+51,Problem,0,0,1,1,The problem is identifiable: the need to understand how TBB can improve performance and the need to compare it with other solutions.
+51,References,0,0,0,0,There are no formal academic references or citations provided to support the claims made about the library's capabilities or the historical context of C++ parallelism.
+51,Purpose,0,1,1,0,"The goal is somewhat vague because 'exploring possibilities' (izpētīt iespējas) is difficult to measure objectively. It would be stronger if the goal specified what exactly is being evaluated (e.g., performance, efficiency, or scalability)."
+51,Intention,1,1,1,1,The goal focuses on the objective of the research without prematurely detailing the specific experimental methods or the step-by-step process.
+51,Structure,1,1,1,1,"The goal is presented as a single, concise, and direct sentence."
+51,Congruence,1,0,1,1,"The goal aligns well with the preceding text, specifically addressing the problem of improving performance/speed in C++ using the TBB library mentioned in the problem statement."
+51,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+51,Quantity,7,1,7,7,7
+51,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical analysis, investigation of TBB, experimental work, and formulation of conclusions."
+51,Format,1,1,1,1,"Each task is a single, concise sentence."
+51,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Noteikt', 'Analizēt', 'Izpētīt') at the beginning of each point."
+51,Clarity,1,1,1,1,"The language is precise, professional, and easy to understand."
+51,Relevance,1,1,1,1,The tasks directly support the goal of investigating TBB's potential for improving C++ parallelism by moving from general theory to specific experimentation and evaluation.
+51,Chapters,0,0,0,0,
+51,Description,0,0,0,0,
+51,Structure,0,0,0,0,
+52,Significance,1,0,1,1,The text successfully establishes the importance of the topic by linking blockchain technology to the digital economy and highlighting the critical issues of transaction costs and scalability in Layer-1 systems.
+52,State_of_the_art,0,0,0,0,"The text fails to demonstrate the state-of-the-art. While it mentions Layer-2 solutions generally, it does not cite any specific existing technologies, protocols, or published research that represent the current cutting edge of the field."
+52,Gap,0,0,0,0,"The text does not identify a concrete research gap. It mentions a motivation to explore Layer-2 solutions, but it does not explain what is currently missing, unresolved, or insufficiently addressed in existing Layer-2 research or implementations."
+52,Problem,1,0,0,1,The problem is clearly identified: the increasing transaction costs and limited scalability of traditional Layer-1 blockchain systems.
+52,References,0,0,0,0,"There are no references included in the text to support the claims made about the digital economy, Layer-1 limitations, or the functionality of Layer-2 solutions."
+52,Purpose,0,0,0,0,
+52,Intention,0,0,0,0,
+52,Structure,0,0,0,0,
+52,Congruence,0,0,0,0,
+52,Outlook,0,0,0,0,The tasks are written in a narrative paragraph format rather than being organized into a numbered list.
+52,Quantity,0,0,0,2,2
+52,Completeness,0,0,0,0,"The text covers theoretical analysis (literature review) and practical research (experimental model/comparison), but it lacks a clear description of validation against existing benchmarks or literature results."
+52,Format,0,0,0,0,The tasks are embedded within a descriptive text and consist of multiple sentences per task/paragraph rather than being single-sentence items.
+52,Structure,0,0,0,0,"The text uses first-person narrative verbs (e.g., 'plānoju', 'pievērsīšu', 'tiks izstrādāts') instead of starting with infinitive verbs."
+52,Clarity,0,0,0,0,"The language is relatively clear, but the structure is too conversational and descriptive for a formal list of tasks."
+52,Relevance,0,0,0,0,
+52,Chapters,0,0,0,0,Tekstā nav minētas darba nodaļas vai galvenie sadaļi. Teksts tikai apraksta pētījuma nozīmi.
+52,Description,0,0,0,0,"Tekstā nav sniegts satura apraksts, jo tekstā nav pieminētas pat nodaļas, ko varētu aprakstīt."
+52,Structure,0,1,0,0,"Teksts nevar sniegt ieskatu darba struktūrā, jo tajā ir tikai viena teikums par pētījuma nozīmi, nevis par darba uzbūvi."
+53,Significance,1,0,1,1,The text does a good job of explaining the relevance of the topic by linking the rise of AI and digital manipulation to the need for authenticity in documents. It establishes why the issue is important in the current technological landscape.
+53,State_of_the_art,0,0,1,0,"The text lacks a review of the current state-of-the-art. While it mentions general concepts like digital security levels, it does not cite specific, published research or existing technological solutions/methods used to determine the integrity of handwritten characters in a digital environment."
+53,Gap,0,0,1,0,"The text identifies a need for technologies to protect integrity, but it does not explicitly define a research gap based on existing studies. It fails to state what specifically is missing in current methods for verifying digitized handwritten characters."
+53,Problem,1,0,1,1,"The problem is clearly identifiable: the difficulty of ensuring the integrity and authenticity of documents that appear handwritten but are digital, especially when they are digitized from physical sources."
+53,References,1,0,1,1,"References are included to support claims regarding data processing and security levels. However, they are somewhat repetitive (using [3] for almost every point) and lack the breadth needed to support a scientific state-of-the-art review."
+53,Purpose,1,1,1,1,"The goal is clearly stated and measurable. The student specifies both the investigation of factors and the creation/evaluation of specific solutions (machine learning and heuristic-based), which allows for a clear assessment of whether the objective was achieved."
+53,Intention,0,1,0,0,The goal fails this criterion because it explicitly describes the methods to be used (machine learning and heuristic-based solutions) rather than focusing solely on the intended outcome or objective.
+53,Structure,0,0,0,0,The text is not a single sentence; it consists of two distinct sentences that separate the investigative part from the developmental part of the goal.
+53,Congruence,1,0,0,0,"The goal aligns well with the problem of ensuring integrity after digitalization mentioned in the text. However, the 'preceding text' does not explicitly mention 'machine learning' or 'heuristics', nor does it explicitly discuss 'factors' affecting integrity, though it touches upon the necessity of verification tools."
+53,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+53,Quantity,6,1,6,6,6
+53,Completeness,0,0,1,1,"The tasks cover the full research cycle: literature review, data collection, development, and analysis of results. However, the validation step (comparing the new solution to existing ones) is not explicitly stated as a task, though it is implied in the analysis."
+53,Format,1,1,1,1,"Each task is a single, concise sentence."
+53,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Izpētīt, Noskaidrot, Ievākt, Izstrādāt, Analizēt, Analizēt) at the beginning."
+53,Clarity,1,1,1,1,"The language is direct, professional, and easy to understand."
+53,Relevance,1,1,1,1,"The tasks directly follow the logic of the goal: researching factors, collecting data, developing solutions, and evaluating them in a digital context."
+53,Chapters,0,0,0,0,
+53,Description,0,0,0,0,
+53,Structure,0,0,0,0,
+54,Significance,1,0,1,1,"The text does a good job of explaining the importance of microservices and the necessity of efficient testing due to frequent code changes. It uses statistical data (Statista, 2021) to demonstrate the growing trend and relevance of the topic."
+54,State_of_the_art,0,0,1,1,"The text mentions a very recent source (Mingxuan Hui et al., 2025) regarding the challenges of balancing cost-efficiency and test completeness, which demonstrates awareness of current research. However, it could be strengthened by mentioning specific existing optimization techniques or tools currently used in CI/CD pipelines."
+54,Gap,1,1,1,1,"The text identifies a gap related to the 'imperfections' (nepilnības) in testing optimization methods within DevOps environments. While it points to the problem of long testing times and resource consumption, the gap could be more explicitly linked to a lack of specific research or a failure of current existing methods to solve these issues."
+54,Problem,1,1,1,1,The problem is clearly identified: the tension between the need for frequent updates and the challenges of long testing times and excessive resource consumption in CI/CD pipelines.
+54,References,1,1,1,1,References are appropriately used to support claims regarding market trends (Statista) and the current state of research challenges (Mingxuan Hui et al.).
+54,Purpose,1,0,1,1,"The goal is well-defined and measurable. It clearly outlines the stages of the research: investigating existing solutions, developing a new method, and evaluating its effectiveness and precision."
+54,Intention,1,0,0,0,The goal partially fails this criterion because it describes the specific actions/processes to be performed (developing and evaluating a method) rather than focusing solely on the intended outcome or objective.
+54,Structure,0,0,0,0,"The text is not limited to a single sentence; it consists of three separate sentences, which makes the goal statement less concise than required."
+54,Congruence,1,0,1,1,"The goal is highly congruent with the preceding text. The problems mentioned (efficiency, time, and resource consumption in CI/CD) are directly addressed by the goal of investigating optimization possibilities and evaluating new methods."
+54,Outlook,1,1,1,1,The tasks are organized into a clearly separated numbered list.
+54,Quantity,6,1,6,6,6
+54,Completeness,1,0,1,1,"The tasks cover the full research cycle: theoretical analysis (1), implementation/setup (2, 3, 4), and evaluation/validation (5, 6)."
+54,Format,1,1,1,1,"Each task is presented as a single, concise sentence."
+54,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Izpētīt, Izstrādāt, Ieviest, Pielietot, Novērtēt, Analizēt) at the beginning."
+54,Clarity,1,1,1,1,"The language is direct, professional, and easy to understand."
+54,Relevance,1,0,1,1,"The tasks directly follow the logic of the goal: researching existing methods, developing a solution (architecture and method), and evaluating its effectiveness."
+54,Chapters,0,0,0,0,The text only contains the heading 'Sadalījums pa nodaļām:' but does not actually list any chapters or sections of the thesis.
+54,Description,0,0,0,0,There is no description of the contents provided in the text.
+54,Structure,0,0,0,0,"Since no chapters or content descriptions are present, it is impossible to understand the general structure of the thesis from this text."
+55,Significance,1,1,1,1,The text does a good job of explaining the relevance of AR technology in navigation and the potential benefits for both users and business owners in shopping centers.
+55,State_of_the_art,0,0,0,0,"The text lacks specific references to existing technological solutions, research, or specific software/platforms currently used for indoor navigation. It mentions that the technology is 'rarely encountered' but does not cite any specific existing implementations or studies."
+55,Gap,1,1,1,0,"While the text identifies a practical problem (difficulty finding stores), it does not explicitly frame a research gap based on a lack of existing scientific studies or a failure in current technological approaches. It focuses more on a practical inconvenience than a scientific/technical gap."
+55,Problem,1,0,1,1,"The problem is clearly identified: the difficulty and time-consuming nature of finding specific stores in large, multi-level shopping centers due to static and insufficient signage."
+55,References,0,0,0,0,There are no academic references or citations provided to support the claims made about the prevalence of the technology or the effectiveness of current navigation methods.
+55,Purpose,1,1,1,1,The goal is clearly stated and measurable. Developing a solution for a mobile app using AR technology provides a concrete endpoint that can be evaluated upon completion.
+55,Intention,1,1,0,1,"The goal focuses on the outcome (developing a solution). While it mentions the technology (AR), it does not get bogged down in the step-by-step implementation process or specific coding tools."
+55,Structure,1,0,0,1,"The text is a single, concise, and direct sentence that clearly communicates the objective."
+55,Congruence,1,1,1,1,"The goal perfectly aligns with the preceding text. The introduction identifies the difficulty of navigating large malls and the potential of AR, and the goal directly proposes solving this by developing an AR-based mobile solution."
+55,Outlook,1,1,1,1,The tasks are organized into a clearly separated numbered list.
+55,Quantity,5,1,5,5,5
+55,Completeness,1,1,1,1,"The tasks cover the full research cycle: theoretical analysis of existing solutions, experimental comparison of methods, implementation of a solution, and validation through usability testing."
+55,Format,1,1,1,1,Each task is contained within a single sentence.
+55,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Izpētīt, Veikt, Noteikt, Izveidot, Pārbaudīt) at the beginning of each point."
+55,Clarity,1,0,0,1,"The language is concise, professional, and the objectives are clearly stated."
+55,Relevance,0,1,1,1,"The tasks directly support the goal of developing an AR navigation solution by including research, method selection, development, and testing."
+55,Chapters,0,0,0,0,
+55,Description,0,0,0,0,
+55,Structure,0,0,0,0,
+56,Significance,1,1,1,1,"The text does a good job of explaining the importance of blockchain technology in various sectors (finance, medicine, public administration) and highlights the critical issue of scalability due to the exponential growth of data."
+56,State_of_the_art,0,1,1,1,"The text mentions that segmentation approaches are a known method for scaling blockchain and provides numerous citations ([9]-[17]) to support this, demonstrating awareness of existing research."
+56,Gap,0,1,1,0,"While the text mentions that segmentation 'introduces new problems that need to be solved,' it does not explicitly define what those specific unresolved problems or gaps are in the current literature. It needs to be more precise about what is missing in existing segmentation methods."
+56,Problem,0,0,1,1,The core problem (scalability and the increasing storage burden on users) is clearly identified and supported by a concrete example regarding the Bitcoin blockchain size.
+56,References,1,1,1,1,"References are used appropriately throughout the text to support claims regarding the use of blockchain, the growth of data, and existing segmentation methods."
+56,Purpose,0,0,0,0,
+56,Intention,0,0,0,0,
+56,Structure,0,0,0,0,
+56,Congruence,0,0,0,0,
+56,Outlook,0,0,0,0,
+56,Quantity,0,0,0,0,
+56,Completeness,0,0,0,0,
+56,Format,0,0,0,0,
+56,Structure,0,0,0,0,
+56,Clarity,0,0,0,0,
+56,Relevance,0,0,0,0,
+56,Chapters,0,0,0,0,
+56,Description,0,0,0,0,
+56,Structure,0,0,0,0,
+57,Significance,0,0,0,0,"The text briefly mentions the potential of AR in tourism, but it does not provide a deep explanation of why this specific topic is important or relevant in the context of current technological trends or specific problems in navigation."
+57,State_of_the_art,0,0,0,0,"The text does not mention any existing solutions, specific technologies, or published research regarding AR-based navigation or GPS integration."
+57,Gap,0,0,0,0,There is no research gap identified. The text only introduces a general concept without pointing out what is missing in current navigation applications.
+57,Problem,0,0,0,0,The text does not identify a concrete problem or challenge; it only makes a general statement about how people view the world through AR.
+57,References,0,0,0,0,There are no references provided to support the claims made in the text.
+57,Purpose,0,0,1,1,"The goal is clear and measurable, as it specifies the creation of a tourism guide. However, the phrasing 'es izstrādāšu šo darbu' (I will develop this work) is unnecessary and should be removed to focus strictly on the objective."
+57,Intention,0,0,1,0,The goal fails this criterion because it includes the methods/tools used to achieve the result ('izmantojot papildināto realitāti un GPS tehnoloģijas'). The goal should focus on the outcome (the guide itself) rather than the technical implementation.
+57,Structure,0,0,1,0,"The text is a single sentence, but it is not concise due to the inclusion of first-person narrative ('Tādēļ arī es izstrādāšu šo darbu') which does not belong in a formal thesis goal."
+57,Congruence,0,0,0,0,"The goal introduces 'GPS tehnoloģijas', which were not mentioned in the preceding text. For logical consistency, the preceding text should establish the relevance or need for GPS technology alongside AR."
+57,Outlook,0,0,0,0,The tasks are presented as a continuous paragraph rather than a numbered list.
+57,Quantity,0,0,4,4,4
+57,Completeness,0,0,5,0,"While the text covers research, development, and testing, it lacks a clear validation step where the solution is compared to existing solutions or benchmarks to demonstrate its effectiveness."
+57,Format,0,0,0,0,"The tasks are embedded within a single paragraph and are not separated into individual, one-sentence items."
+57,Structure,0,0,0,0,"The text uses first-person conjugated verbs (e.g., 'izpētīšu', 'izstrādāšu') instead of the required infinitive form (e.g., 'izpētīt', 'izstrādāt')."
+57,Clarity,0,0,0,1,"The text is relatively clear, but the lack of structural separation makes it harder to distinguish individual objectives."
+57,Relevance,0,0,1,0,"The tasks follow a logical progression toward the goal of developing a guide, but they lack the necessary comparison/validation phase required for a complete research process."
+57,Chapters,0,0,0,0,
+57,Description,0,0,0,0,
+57,Structure,0,0,0,0,
+58,Significance,0,0,0,0,"The provided text does not contain any discussion regarding the significance, relevance, or motivation of the topic. It only contains a structural template and formatting instructions for the thesis."
+58,State_of_the_art,0,0,0,0,"The text does not mention any existing research, technologies, or the current state of the field related to Large Language Models or competency assessment."
+58,Gap,0,0,0,0,There is no identification of a research gap. The text is a set of formatting guidelines rather than an introduction to a research topic.
+58,Problem,0,0,0,0,The text does not define a research problem or challenge. It only outlines the required structure of the introduction section.
+58,References,0,0,0,0,"There are no references included in the text to support any claims, as there are no scientific claims present in the text."
+58,Purpose,0,0,0,0,
+58,Intention,0,0,0,0,
+58,Structure,0,0,0,0,
+58,Congruence,0,0,0,0,
+58,Outlook,0,0,0,0,
+58,Quantity,0,0,0,0,
+58,Completeness,0,0,0,0,
+58,Format,0,0,0,0,
+58,Structure,0,0,0,0,
+58,Clarity,0,0,0,0,
+58,Relevance,0,0,0,0,
+58,Chapters,0,0,0,0,
+58,Description,0,0,0,0,
+58,Structure,0,0,0,0,
+59,Significance,1,1,1,1,The text does a good job of establishing significance by linking the topic to current geopolitical events (Russia-Ukraine war) and highlighting the rapid growth in patent activity and investment in drone technology.
+59,State_of_the_art,0,1,1,0,"The text mentions general technological advancements, such as the integration of computer vision and geospatial data, and cites a source (Disruptor, 2024) regarding patent trends. However, it lacks specific citations of academic research or specific existing technical solutions/algorithms that represent the current state-of-the-art in AI-integrated drone swarms."
+59,Gap,0,0,0,0,"The text fails to explicitly identify a research gap. While it mentions that drone swarms are expanding into new sectors, it does not state what is currently missing, unresolved, or insufficient in the context of automating rescue missions using AI."
+59,Problem,0,1,0,0,"The problem is somewhat identifiable (the need for automation in rescue missions to improve efficiency), but it is not clearly formulated as a specific technical or scientific challenge that the thesis intends to solve."
+59,References,1,1,1,1,"References are included to support claims regarding patent trends and Latvian rescue statistics. However, there is a lack of academic references to support the technical claims regarding AI and drone capabilities."
+59,Purpose,1,0,1,1,The goal is clearly stated and provides a measurable objective (investigating possibilities of swarm management). It avoids vague language and defines the scope of the research.
+59,Intention,0,1,0,1,The goal focuses on the research objective (investigating possibilities) rather than detailing the specific technical implementation or step-by-step processes.
+59,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the thesis goal."
+59,Congruence,0,1,0,1,"The goal is highly congruent with the preceding text. The introduction establishes the potential of AI-integrated drone swarms (MIiDS) and specifically highlights their utility in search and rescue operations, which directly leads to the stated goal of investigating swarm management for search tasks."
+59,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+59,Quantity,7,1,7,7,7
+59,Completeness,0,0,1,1,"The tasks cover research, analysis, and proposal of a modified process, including comparison of algorithms, which represents a complete research cycle."
+59,Format,1,1,1,1,Each task is exactly one sentence long.
+59,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Apskatīt', 'Identificēt', 'Ieteikt') at the beginning."
+59,Clarity,1,0,1,1,"The language is concise, professional, and easy to understand."
+59,Relevance,1,0,1,1,"The tasks follow a logical progression from studying existing drone swarms and AI integration to proposing a modified mission process and evaluating its pros and cons, directly supporting the goal."
+59,Chapters,0,0,1,0,"The text does not list the actual chapters of the thesis; instead, it only describes the structural components that an introduction should contain."
+59,Description,0,0,1,0,"The text fails to describe the contents of the specific thesis chapters, providing only a generic template of what an introduction should include."
+59,Structure,0,0,1,0,"The text describes the structure of an 'Introduction' section, but it does not provide information about the general structure of the entire thesis itself."
+60,Significance,1,0,0,1,The text does a good job of establishing the historical context and explaining how technological progress has always influenced music. It successfully highlights why data analysis is a relevant new dimension in the modern era.
+60,State_of_the_art,0,0,0,0,"While the text mentions that data analysis tools exist for collecting and analyzing data, it lacks a specific review of current cutting-edge achievements or specific existing solutions/technologies currently used in the industry. It remains too general."
+60,Gap,0,0,0,0,"The text fails to identify a specific research gap. It states that data analysis is a new way to influence music creation, but it does not point out what is currently missing, unresolved, or insufficiently studied regarding the use of these technologies."
+60,Problem,0,0,0,0,The concrete problem or challenge that the thesis intends to address is not clearly stated. The text describes a phenomenon (the availability of data) rather than a specific issue or research question that needs solving.
+60,References,1,0,0,1,"References are included to support historical claims and technological shifts, which is a strong point of the current draft."
+60,Purpose,0,0,1,1,"The goal is well-defined and measurable. It clearly outlines the specific actions (evaluating, analyzing, and developing recommendations) that the student intends to achieve."
+60,Intention,1,0,0,1,The goal focuses on the research objectives (evaluation and analysis) rather than detailing the specific research methods or software tools to be used.
+60,Structure,1,0,0,1,"The text is a single, concise, and well-structured sentence that directly communicates the thesis goal."
+60,Congruence,0,0,0,0,"The goal aligns well with the preceding text, which introduces the importance of data analysis in the music industry. However, while the goal mentions 'challenges' and 'recommendations', the preceding text only focuses on the 'opportunities' (data collection/analysis) and does not explicitly mention existing challenges or the need for integration recommendations."
+60,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+60,Quantity,5,1,5,5,5
+60,Completeness,0,0,0,1,"The tasks cover theoretical research, analysis, practical data collection (interviews), and development of recommendations, which represents a complete research process."
+60,Format,1,1,1,1,Each task is exactly one sentence long.
+60,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (Apkopot, Izpētīt, Veikt, Izstrādāt) at the beginning of each point."
+60,Clarity,0,0,1,1,"The language is concise, professional, and easy to understand."
+60,Relevance,1,1,1,1,The tasks directly follow the logical steps required to achieve the goal of evaluating technologies and providing recommendations.
+60,Chapters,1,0,0,1,"The text successfully identifies the main components of the theoretical part, specifically mentioning the progression through different eras and the final summary of tools."
+60,Description,1,1,1,1,"The text provides a very good description of the content within each period (pre-digitalization, early digitalization, and modern era) and the specific methods covered in the conclusion."
+60,Structure,1,0,0,1,"The logical flow of the thesis is clear, moving chronologically from historical context to modern technological applications, making the overall structure easy to follow."
+61,Significance,1,0,1,1,"The text does a good job of explaining the increasing role of robotics in various industries and the economic benefits of automation, establishing the relevance of the topic."
+61,State_of_the_art,0,1,1,1,"The text mentions the use of sensors and the importance of image segmentation, citing specific authors (Jahn&Heß et al., 2020; Rubio& Valero et al., 2019). However, it lacks a deeper discussion of specific modern segmentation algorithms or recent comparative studies."
+61,Gap,0,0,1,0,"The text fails to explicitly identify a concrete research gap. While it mentions that new requirements for precision and speed are emerging, it does not clearly state what is currently missing or unresolved in existing segmentation methods that this thesis intends to address."
+61,Problem,0,0,1,1,"The problem is identifiable: the need for efficient object recognition and collision avoidance to prevent robot damage, especially when using cost-effective hardware."
+61,References,1,1,1,1,References are included and used to support claims regarding the role of robotics and the necessity of sensor integration.
+61,Purpose,1,0,1,1,"The goal is clearly stated and specific. It defines exactly what will be investigated (methods for segmentation) and for what specific application (obstacle identification and trajectory correction), making it measurable."
+61,Intention,1,0,1,1,"The goal focuses on the research objective (investigating methods and their use) rather than detailing the specific software, hardware, or step-by-step experimental process."
+61,Structure,1,0,0,1,"The text is a single, concise, and well-structured sentence that directly communicates the research aim."
+61,Congruence,0,0,1,1,"The goal follows logically from the preceding text. The introduction highlights the need for efficient object recognition and collision avoidance, which directly leads to the goal of identifying obstacles and correcting trajectories."
+61,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+61,Quantity,6,1,6,6,6
+61,Completeness,1,0,1,1,"The tasks cover the full research cycle: theoretical research (tasks 1-2), implementation (tasks 3-4), and evaluation/comparison (tasks 5-6)."
+61,Format,1,1,1,1,"Each task is a single, concise sentence."
+61,Structure,1,1,1,1,"The tasks consistently start with infinitive verbs (Izpētīt, Implementēt, Novērtēt, Salīdzināt)."
+61,Clarity,1,1,1,1,"The language is precise, professional, and easy to understand."
+61,Relevance,1,0,1,1,"The tasks directly follow the logic of the goal, moving from researching algorithms to implementing them for obstacle detection and finally evaluating the approach."
+61,Chapters,0,0,0,0,
+61,Description,0,0,0,0,
+61,Structure,0,0,0,0,
+62,Significance,1,1,1,1,The text does a good job of explaining the importance of evacuation safety and the risks associated with traditional testing methods (risking lives).
+62,State_of_the_art,0,1,1,0,"The text mentions that simulation technology has changed the field, but it lacks specific references to current cutting-edge simulation software, specific models, or recent academic achievements in the field of evacuation simulation."
+62,Gap,0,0,1,0,"The text identifies a gap regarding the impossibility of testing real-life panic scenarios safely, but it does not explicitly state a research gap in the context of existing simulation technologies (e.g., what current simulations fail to capture or where they are insufficient)."
+62,Problem,1,0,1,1,The problem is clearly identified: the difficulty of predicting human behavior in panic and the danger of testing evacuation plans in real-world scenarios.
+62,References,1,0,1,1,"References are included throughout the text to support various claims and definitions, which is a strong point."
+62,Purpose,1,0,1,1,"The goal is clearly stated and measurable. The student aims to develop a simulation project and identify problem areas, which provides a clear endpoint for the research."
+62,Intention,1,0,1,0,"The goal includes the method/tool ('izstrādāt simulācijas projektu') to achieve the outcome. While the outcome is the focus, the phrasing explicitly links the process of creating the project to the objective."
+62,Structure,1,0,1,1,"The text is a single, concise, and direct sentence that clearly communicates the objective."
+62,Congruence,1,1,1,1,"The goal follows logically from the preceding text. The introduction highlights the risks of real-life testing and the benefits of simulation, which directly justifies the goal of developing a simulation project to identify problems without risk."
+62,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+62,Quantity,5,1,5,5,5
+62,Completeness,0,0,1,0,"The tasks cover research, implementation, and testing, but lack an explicit validation step where the results are compared against existing benchmarks or prior studies to prove the effectiveness of the developed model."
+62,Format,1,1,1,1,Each task is exactly one sentence long.
+62,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Savākt', 'Izstrādāt') at the beginning."
+62,Clarity,1,1,1,1,"The language is concise, direct, and easy to understand."
+62,Relevance,1,1,1,1,The tasks follow a logical progression that directly supports the goal of developing a simulation project and providing recommendations.
+62,Chapters,1,1,1,1,The text clearly identifies the main division into theoretical and practical parts and further breaks down the theoretical part into three sub-sections.
+62,Description,1,1,0,1,"The text provides a good summary of what each part contains, specifically mentioning the scope of the theoretical sections and the focus on Xiaomi arena plans."
+62,Structure,0,0,0,1,The general structure is very easy to follow due to the logical progression described from general principles to specific case studies and existing research.
+63,Significance,1,0,1,1,"The text does a good job of explaining the importance of the topic, linking the increasing complexity of computer systems to the need for efficient training methods and highlighting the cost-effectiveness of AR."
+63,State_of_the_art,0,0,0,0,"The text lacks specific references to existing technological solutions, software, or research papers regarding AR-based assembly simulators. It mentions that AR is effective in general contexts but does not cite specific recent achievements or existing tools in this specific niche."
+63,Gap,0,0,1,0,"While the text implies a need for better training tools, it does not explicitly identify a research gap based on existing studies. It states that users lack understanding, but it doesn't point out what is missing in current AR training solutions or why current methods are insufficient beyond cost."
+63,Problem,1,0,1,1,"The problem is clearly identifiable: the difficulty, cost, and logistical complexity of traditional physical component-based training for computer assembly."
+63,References,0,0,0,0,There are no formal academic references or citations provided in the text to support the claims regarding the effectiveness of AR or the current state of technology.
+63,Purpose,1,1,1,1,The goal is clearly stated and provides a measurable outcome (developing software). It avoids vague language and specifies the subject of the development.
+63,Intention,1,1,1,1,"The goal focuses on the final outcome (the software) rather than detailing the specific programming languages, hardware, or development steps used to achieve it."
+63,Structure,1,1,1,1,"The text is a single, concise, and direct sentence that clearly communicates the primary objective."
+63,Congruence,1,0,1,1,"The goal aligns perfectly with the preceding text, which identifies the need for innovative AR training methods and proposes AR as a solution for computer assembly training."
+63,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+63,Quantity,5,1,5,5,5
+63,Completeness,1,0,1,0,"The tasks cover research, development, and testing, but lack a clear validation step that compares the developed solution to existing ones or demonstrates its effectiveness in solving a specific practical problem beyond simple functional testing."
+63,Format,1,1,0,1,Each task is contained within a single sentence.
+63,Structure,1,1,0,1,"The tasks consistently use infinitive verbs (Izpētīt, Izplānot, Izveidot, Testēt) at the beginning of each point."
+63,Clarity,1,1,0,1,"The language used is concise, professional, and easy to understand."
+63,Relevance,1,1,1,1,"The tasks follow a logical progression that directly supports the goal of developing the AR software, moving from research to planning, implementation, and testing."
+63,Chapters,0,0,0,0,"The text does not explicitly list the chapters of the thesis (e.g., Chapter 1, Chapter 2). Instead, it lists research tasks or development stages. While these stages likely correspond to the work content, they are presented as a process/workflow rather than a structural outline of the final document."
+63,Description,0,0,0,1,"The text provides a very good and detailed description of what will be achieved in each stage of the research and development process, covering everything from literature review to experimental testing."
+63,Structure,0,0,0,0,"The text describes the logical progression of the research project (the 'how'), but it does not clearly communicate the structural organization of the written thesis itself (the 'what' is in which chapter)."
+64,Significance,1,1,1,1,The text does a good job of explaining why Java and garbage collection are important in the context of performance and memory management in large-scale systems.
+64,State_of_the_art,0,1,0,0,"The text fails to demonstrate awareness of the current state-of-the-art. It mentions existing collectors (Serial, Parallel, etc.) but does not cite any specific research, published studies, or recent technological advancements/comparisons in the field."
+64,Gap,0,0,1,0,"While the text identifies a general problem (the impact of GC on performance), it does not explicitly identify a research gap based on existing studies. It does not state what is missing from current knowledge or what specific area of GC research remains unaddressed."
+64,Problem,1,1,1,1,The concrete issue is clearly identified: the trade-off between automated memory management and the performance degradation (specifically 'Stop-The-World' pauses) in resource-intensive systems.
+64,References,0,0,0,0,"There are no academic references or citations provided to support the claims made about Java's impact, the behavior of specific algorithms, or the necessity of the research."
+64,Purpose,1,0,1,1,"The goal is clearly defined and measurable. It specifies exactly what will be analyzed (mechanism and impact) and what will be evaluated (efficiency and suitability), which allows for a clear assessment of whether the research objectives have been met."
+64,Intention,1,0,1,1,"The goal focuses on the scientific objectives (analyzing and evaluating) rather than detailing the specific experimental setup, software tools, or step-by-step procedures used to achieve them."
+64,Structure,1,0,0,1,"The text is a single, concise, and well-structured sentence that directly communicates the primary objective of the thesis."
+64,Congruence,1,1,1,1,"The goal is highly congruent with the preceding text. The introduction identifies the problem of performance impact and the existence of various GC algorithms, and the goal directly proposes to analyze that impact and evaluate those specific algorithms."
+64,Outlook,1,1,1,1,The tasks are clearly organized into a numbered list.
+64,Quantity,6,1,6,6,6
+64,Completeness,0,0,1,1,"The tasks cover the full research cycle: theoretical research, criteria definition, analysis, experimentation, and drawing conclusions."
+64,Format,1,1,1,1,Each task is exactly one sentence long.
+64,Structure,1,1,1,1,"The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Noteikt', 'Analizēt', 'Veikt', 'Izstrādāt', 'Izdarīt') at the beginning."
+64,Clarity,1,1,1,1,"The language is concise, professional, and easy to understand."
+64,Relevance,1,1,1,1,The tasks directly follow the logic required to achieve the goal of analyzing GC mechanisms and evaluating their efficiency through experiments.
+64,Chapters,0,0,0,0,
+64,Description,0,0,0,0,
+64,Structure,0,0,0,0,

@@ -1,14 +1,19 @@
 from src.code.parsing.old.EvaluationDataset import EvaluationDataset
 from src.data.constants import BASE_PATH
-import csv
 import os
 import pandas as pd
 from pathlib import Path
+import logging
+import src.code.parsing.old.logging_config as logging_config 
+
+logger = logging.getLogger(__name__)
+logger.info("STARTED COMPUTING STATS")
 
 #PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "responses")
-PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "single_prompt_testing_01", "responses", "gemma4-26b-q4", "t0", "02")
+#PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "single_prompt_testing_01", "responses", "gemma4-26b-q4", "t0", "02")
+PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "responses")
 PATH_RESULTS_OLD = os.path.join(BASE_PATH, "results_04")
-postfix_new = "feedback_optional"
+postfix_new = ""
 #postfix_new = "08"
 postfix_old = "04"
 evaluators = [
@@ -39,9 +44,9 @@ HUMAN_RESPONSES_DIR = Path("src/results/human")
 human1_ds = EvaluationDataset("human1")
 human2_ds = EvaluationDataset("human2")
 human3_ds = EvaluationDataset("human3")
-human1_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human1_orig.csv")
-human2_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human2_orig.csv")
-human3_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human3_orig.csv")
+human1_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human1_orig.csv", skipped_rows=[1, 5, 43]) # skipped_rows only for few-shot
+human2_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human2_orig.csv", skipped_rows=[1, 5, 43]) # skipped_rows only for few-shot
+human3_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human3_orig.csv", skipped_rows=[1, 5, 43]) # skipped_rows only for few-shot
 human1_ds.to_bool()
 human2_ds.to_bool(quantity_already_bool=True)
 human3_ds.to_bool()

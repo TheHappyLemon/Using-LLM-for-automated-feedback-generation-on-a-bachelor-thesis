@@ -52,7 +52,11 @@ class EvaluationDataset:
     def append(self, row: EvaluationRow):
         self.rows.append(row)
 
-    def load_from_csv(self, path : str):
+    def load_from_csv(self, path : str, skipped_rows : list = None):
+
+        if not skipped_rows is None:
+            logger.warning(f"Load of {self.author} is configured to ignore rows: {skipped_rows}")
+
         with open(path, mode='r', newline='', encoding='utf-8') as file:
             reader = csv.reader(file)
             header = next(reader) # skip header
@@ -76,6 +80,10 @@ class EvaluationDataset:
                     Outlook, Quantity, Completeness, Format, Structure_tasks, Clarity, Relevance,
                     Chapters, Description, Structure_after_tasks
                 ) = values
+
+                if (not skipped_rows is None) and (Nr in skipped_rows):
+                    logger.warning(f"Skipping row {Nr}!")
+                    continue
 
                 evaluation_row = EvaluationRow(self.author)
                 evaluation_row.load_1(
@@ -599,7 +607,7 @@ class EvaluationDataset:
             writer.writerows(rows)
 
     @staticmethod
-    def dump_to_csv_feedback(path : str, human_datasets: list[EvaluationDataset], model_datasets : list[EvaluationDataset]):
+    def dump_to_csv_feedback(path : str, human_datasets: list[EvaluationDataset], model_datasets : list[EvaluationDataset], skipped_rows : list = None):
 
         with open(path, mode='w', newline='', encoding='utf-8') as file:
             header = EvaluationDataset.HEADER_feedback.copy()
@@ -614,6 +622,11 @@ class EvaluationDataset:
             # Here we have a loop for 64 entries (64 texts)
             for i in range(len(human_datasets[0].rows)):
                 Nr = human_datasets[0].rows[i].Nr
+
+                # for few-shot testing
+                if (not skipped_rows is None) and (Nr in skipped_rows):
+                    continue
+
                 # Here we have a loop for 20 questions.
                 for question, path in EvaluationDataset.questions:
                     
