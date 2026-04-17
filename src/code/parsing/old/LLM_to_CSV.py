@@ -238,7 +238,8 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
 
 # python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/initial_testing_01/responses" "src/data/texts/divided" --feedback --run_id="08"
 # python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/single_prompt_testing_01/responses/gemma4-26b-q4/t0/01" "src/data/texts/divided" --feedback
-# python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/one_shot_testing_01/responses" "src/data/texts/divided" --feedback --skip_rows 1 5 43
+# python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/one_shot_testing_01/positive/responses/gemma4-26b-q4/01" "src/data/texts/divided" --feedback --skip_rows 1 5 43
+# python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/one_shot_testing_01/negative/responses/gemma4-26b-q4/01" "src/data/texts/divided" --feedback --skip_rows 7 57
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("results_path", help="Path to folder with model responses")

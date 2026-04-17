@@ -11,7 +11,7 @@ logger.info("STARTED COMPUTING STATS")
 
 #PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "responses")
 #PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "single_prompt_testing_01", "responses", "gemma4-26b-q4", "t0", "02")
-PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "responses")
+PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "negative", "responses", "gemma4-26b-q4", "01")
 PATH_RESULTS_OLD = os.path.join(BASE_PATH, "results_04")
 postfix_new = ""
 #postfix_new = "08"
@@ -40,13 +40,16 @@ evaluators = [
 #    "ministral3-14b-q8"
 #]
 
+POSITIVE_ONE_SHOT_SKIPPED_ROWS = [1, 5, 43]
+NEGATIVE_ONE_SHOT_SKIPPED_ROWS = [7, 57]
+
 HUMAN_RESPONSES_DIR = Path("src/results/human")
 human1_ds = EvaluationDataset("human1")
 human2_ds = EvaluationDataset("human2")
 human3_ds = EvaluationDataset("human3")
-human1_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human1_orig.csv", skipped_rows=[1, 5, 43]) # skipped_rows only for few-shot
-human2_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human2_orig.csv", skipped_rows=[1, 5, 43]) # skipped_rows only for few-shot
-human3_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human3_orig.csv", skipped_rows=[1, 5, 43]) # skipped_rows only for few-shot
+human1_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human1_orig.csv", skipped_rows=NEGATIVE_ONE_SHOT_SKIPPED_ROWS) # skipped_rows only for few-shot
+human2_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human2_orig.csv", skipped_rows=NEGATIVE_ONE_SHOT_SKIPPED_ROWS) # skipped_rows only for few-shot
+human3_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human3_orig.csv", skipped_rows=NEGATIVE_ONE_SHOT_SKIPPED_ROWS) # skipped_rows only for few-shot
 human1_ds.to_bool()
 human2_ds.to_bool(quantity_already_bool=True)
 human3_ds.to_bool()
