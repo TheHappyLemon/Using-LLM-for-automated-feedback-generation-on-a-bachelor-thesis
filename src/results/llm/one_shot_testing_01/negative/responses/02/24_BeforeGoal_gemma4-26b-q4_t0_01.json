@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the importance of AI in modern gaming, noting the shift from graphical improvements to AI intelligence as a way to maintain player interest.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the historical origin of Alpha-beta pruning and cites relevant literature (Luger, 2009; Sweetswer&Wiles, 2002), demonstrating awareness of the foundational methods in the field.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text clearly identifies a specific gap: the standard Alpha-beta algorithm's inability to distinguish between high-heuristic moves that lead to loss and moves that guarantee a negative result, specifically in unfavorable positions.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is very clearly defined: the algorithm's failure to differentiate moves in 'unfavorable' states, which can lead to suboptimal move selection by the computer.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are appropriately used to support claims regarding the evolution of graphics and the history of the Alpha-beta pruning technique.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of steganography in the context of modern digital technologies and the need for information security. It explains why the PE format is a significant area of study due to its widespread use in Windows environments.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions general historical approaches (images, music, text) and cites a specific source (Grebnikov V., 2019), but it lacks a deep dive into the current state-of-the-art specifically regarding steganography within PE files. It does not sufficiently discuss recent advanced techniques or specific recent research findings in this niche.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by stating that while the PE format is widely used, it has not been deeply researched from a steganographic perspective. However, this gap is stated somewhat broadly; it would be stronger if it pointed to a specific limitation in existing PE-based steganography methods.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identifiable: the need to understand how the properties of the PE format can be exploited to both hide and detect information, especially regarding the potential for hiding malicious code.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included (Grebnikov V., 2019) to support claims about the definition and applications of steganography. However, the text contains a repetitive paragraph (the paragraph starting with 'PE formāts ietver...' is repeated almost identically), which should be corrected.",
+        "complies": true
+    }
+]
+```

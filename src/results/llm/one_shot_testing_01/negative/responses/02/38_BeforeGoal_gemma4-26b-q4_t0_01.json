@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does an excellent job of establishing the importance of asynchronous programming within the context of digital transformation, scalability, and real-time processing needs.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text successfully demonstrates awareness of the current state-of-the-art by mentioning specific technologies (CompletableFuture, Akka, asyncio) and citing recent research (2023-2025) regarding their applications.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text explains the importance of the technologies, it fails to explicitly identify a research gap. It does not state what is missing in current comparisons between Java and Python or what specific unresolved issue the thesis intends to investigate.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The text describes the utility of the technologies well, but the specific research problem (e.g., the lack of a direct performance comparison under specific workloads) is not clearly formulated as a challenge to be addressed by this thesis.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "The text is well-supported with relevant, recent academic and technical citations used to justify claims about technology features and industry applications.",
+        "complies": true
+    }
+]
+```

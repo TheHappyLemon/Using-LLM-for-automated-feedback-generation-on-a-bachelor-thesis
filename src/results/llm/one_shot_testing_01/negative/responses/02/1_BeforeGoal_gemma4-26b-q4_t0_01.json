@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully explains the importance of the topic by highlighting the increasing complexity of computer systems and the need for timely, precise testing in the context of continuous integration/delivery.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the general existence of AI tools for automation but fails to cite any specific, published research, specific existing tools, or recent academic achievements in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text identifies a practical problem (the slowness of manual test maintenance), it does not explicitly identify a research gap based on existing studies or literature; it lacks a scholarly foundation to show what is missing in current scientific knowledge.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is clearly identified: the inefficiency, time-consuming nature, and repetitive workload of manual test case creation and maintenance in a continuous testing environment.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no citations or references provided in the text to support the claims made regarding the benefits of AI or the current state of continuous testing practices.",
+        "compliance": false
+    }
+]
+```
