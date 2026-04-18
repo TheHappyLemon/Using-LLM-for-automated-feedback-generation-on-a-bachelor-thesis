@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively explains the importance of the topic by highlighting the challenges of working with large datasets and high-load applications, specifically regarding performance and complexity.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing tools and libraries (json, ujson, orjson, simplejson), which demonstrates awareness of the current landscape, though it could be strengthened by citing specific performance benchmarks or studies comparing these libraries.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap in terms of the difficulties encountered when handling large volumes of data (speed and structure formation), but it does not explicitly state that there is a lack of existing research or a specific unresolved scientific problem in the current literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the performance issues (serialization/deserialization speed) and structural complexities encountered when using JSON in high-load Python environments.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are correctly included to support the definition and popularity of the JSON format.",
+        "complies": true
+    }
+]
+```

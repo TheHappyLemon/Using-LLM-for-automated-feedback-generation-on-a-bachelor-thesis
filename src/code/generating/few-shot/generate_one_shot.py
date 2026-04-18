@@ -56,8 +56,6 @@ def main(run_id : str):
       prompts_part_refinement[p]["Tasks"]      = prompts_part_refinement[p]["Tasks"].replace('{TASKS_57}', introduction_texts_divided[57]['Tasks']).replace('{THESIS_TOPIC_57}', topics[57]).replace('{GOAL_57}', introduction_texts_divided[57]['Goal'])
       prompts_part_refinement[p]["AfterTasks"] = prompts_part_refinement[p]["AfterTasks"].replace('{AFTER_TASKS_7}', introduction_texts_divided[7]['AfterTasks']).replace('{THESIS_TOPIC_7}', topics[7])
 
-  print(introduction_texts_divided[43]['BeforeGoal'])
-
   # delete 'shots' from evaluation set
   if is_positive_context():
     del prompts_part_refinement[1] # used for Tasks example
