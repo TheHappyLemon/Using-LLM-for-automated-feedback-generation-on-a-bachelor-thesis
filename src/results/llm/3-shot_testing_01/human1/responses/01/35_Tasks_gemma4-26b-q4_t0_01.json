@@ -1,0 +1,40 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are organized into a numbered list, which is clear and well-structured.",
+        "complies": "true"
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": "true"
+    },
+    // Note: The 6th item in the provided text is actually a separate sentence following task 5, but it functions as a 6th task.
+    {
+        "question": "Completeness",
+        "feedback": "The text covers the full research cycle: theoretical research, literature review, practical implementation (prototype development), and validation through performance and user experience analysis compared to traditional solutions.",
+        "complies": "true"
+    },
+    {
+        "question": "Format",
+        "feedback": "The last task is not formatted as a numbered item and appears as a separate sentence following the 5th task, rather than being part of the numbered list.",
+        "complies": "false"
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs (e.g., 'Izpētīt', 'Veikt', 'Izstrādāt', 'Analizēt') at the beginning of the phrases.",
+        "complies": "true"
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are written in a clear, concise, and professional manner.",
+        "complies": "true"
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks directly support the goal of finding the best solution by covering research, development, and comparative analysis.",
+        "complies": "true"
+    }
+]
+```

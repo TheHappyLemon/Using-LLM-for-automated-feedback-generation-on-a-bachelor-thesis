@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but the phrase 'izstrādāšu šo darbu' (I will develop this work) is redundant and unprofessional. The core objective of developing a guide is measurable, but the wording could be more academic.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly mentions the tools/methods ('izmantojot papildināto realitāti un GPS tehnoloģijas') instead of focusing solely on the intended outcome or objective.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single sentence, which is good, but it includes unnecessary introductory filler ('Tādēļ arī es izstrādāšu šo darbu, kur mans mērķis ir...'). It should be a direct statement of the goal.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is partially congruent as it mentions AR and GPS, but the preceding text only mentions AR and tourism. There is no mention of GPS technology in the introduction, so the goal introduces a new element that wasn't established as a necessity or context in the preceding text.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does an excellent job of establishing significance. It uses global statistics (World Bank) to illustrate the growing problem of waste and explains the environmental and economic consequences of improper waste management.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing approaches, specifically neural networks and classification algorithms applied to waste images, and cites a recent publication (2023). This demonstrates awareness of current technological trends in the field.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies the limitations of manual sorting (speed, cost, human error) and the need for automation, but it does not explicitly identify a specific research gap in the current state of machine learning algorithms (e.g., what is missing in current neural network approaches for this specific task).",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is very clearly identified: the inefficiency and inaccuracy of manual waste sorting and the necessity for automated systems that can handle the diversity of waste objects.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included to support claims regarding waste volumes and the current state of research. However, there is a formatting issue where a DOI/citation (10.3390/mi14112047, 2023) is placed as a standalone sentence, which disrupts the flow.",
+        "complies": false
+    }
+]
+```

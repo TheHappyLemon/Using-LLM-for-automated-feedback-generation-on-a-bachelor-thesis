@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the relevance of the topic, specifically mentioning the growing demand for personalized music recommendation systems and the impact of music on emotions.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text fails to mention any specific existing research, published studies, or current cutting-edge achievements in the field of audio feature extraction or emotion recognition. It only speaks in general terms about what machine learning methods can do.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text implies a need for comparison, it does not explicitly identify a research gap based on existing literature (e.g., stating that previous comparisons are outdated, limited to specific features, or non-existent).",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete challenge is clearly identified: the need to compare different machine learning methods and audio parameters to determine their suitability for accurate music emotion recognition.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no references or citations provided in the text to support the claims made regarding the importance of the field or the technical capabilities of the methods.",
+        "complies": false
+    }
+]
+```

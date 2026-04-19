@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully explains the relevance of the topic by describing how the evolution of data complexity and industry needs makes the comparison between object-relational and relational databases necessary for modern systems.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the general historical context and the existence of tools, but it fails to cite specific, published research, recent studies, or specific technological benchmarks that represent the current state-of-the-art in database performance evaluation.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by stating that empirical data regarding efficiency, performance, and the trade-off between simplicity and complexity in object-relational databases is not readily available, which serves as a valid research gap.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated in the 'Problēmas nostādne' section: the lack of available data on performance improvements when making design choices in object-relational databases.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text to support the claims made about the evolution of databases or the lack of existing empirical data.",
+        "complies": false
+    }
+]
+```

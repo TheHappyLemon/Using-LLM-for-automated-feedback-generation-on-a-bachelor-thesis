@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly stated and measurable. The student defines both an investigative component (identifying factors) and a developmental/evaluative component (creating and assessing solutions), which provides a clear roadmap for the thesis.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the desired outcomes (identifying factors and creating solutions). However, it does slightly touch upon the 'how' by mentioning the types of solutions (machine learning and heuristic-based), though this is often acceptable in technical theses to define the scope.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, concise block of text that directly communicates the objective. While it consists of two sentences, they are tightly coupled to form one cohesive statement of purpose.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the preceding text regarding the need to ensure integrity in digital environments. However, the goal introduces 'machine learning' and 'heuristic-based solutions' which were not explicitly mentioned as the proposed direction in the introduction. The introduction focuses on the problem of integrity but does not set the stage for these specific technical approaches.",
+        "complies": false
+    }
+]
+```

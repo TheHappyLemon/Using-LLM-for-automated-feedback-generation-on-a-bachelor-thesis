@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of AI in modern gaming and why improving decision-making algorithms is relevant for player engagement and game quality.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the historical context and the standard Alpha-Beta algorithm, but it lacks a discussion of recent advancements or specific modern techniques that have been developed to address the limitations of the standard algorithm.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a specific functional gap: the standard Alpha-Beta algorithm's inability to distinguish between moves that lead to a likely loss and moves that are guaranteed to lose, which can lead to poor decision-making in disadvantageous positions.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated: the algorithm's failure to differentiate between high-heuristic nodes that lead to loss and nodes that are certain losses, causing the computer to make suboptimal moves.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included to support the historical context and the definition of the algorithm (Luger, 2009; Sweetswer&Wiles, 2002).",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of microservices architecture and the necessity of moving towards asynchronous approaches to improve efficiency and scalability in modern systems.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text mentions specific technologies (asyncio, FastAPI, Celery, aiohttp) and traditional frameworks (Flask, Django), it fails to cite any specific research, studies, or comparative evaluations performed by other authors to establish the current state of the art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a practical problem (performance issues with synchronous approaches), but it does not explicitly identify a research gap in terms of what is missing in current scientific literature or existing technical studies regarding Python's asynchronous implementation.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is clearly identified: the inefficiency and resource consumption caused by synchronous communication in microservices and the need to explore/demonstrate asynchronous solutions in Python.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided to support the claims made about the performance of synchronous vs. asynchronous approaches or the popularity of the mentioned libraries.",
+        "complies": false
+    }
+]
+```

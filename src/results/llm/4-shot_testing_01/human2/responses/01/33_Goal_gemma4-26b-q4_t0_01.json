@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly stated and measurable. The student aims to develop a specific solution (a prevention mechanism) using defined strategies, which allows for a clear assessment of whether the objective has been achieved.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it includes the specific methods/strategies (Blue-Green and Canary) used to achieve the outcome. The goal should focus on the outcome (preventing downtime) rather than describing the implementation approach.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single, concise, and direct sentence, which perfectly follows the structural requirement.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is highly congruent with the preceding text. The introduction establishes the problem of downtime and the importance of availability, and the goal directly proposes a solution using the specific strategies mentioned in the final paragraph of the introduction.",
+        "complies": true
+    }
+]
+```

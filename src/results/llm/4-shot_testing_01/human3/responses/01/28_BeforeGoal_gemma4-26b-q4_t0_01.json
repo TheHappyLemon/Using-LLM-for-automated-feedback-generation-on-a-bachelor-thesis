@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining why cookies are important for user experience and how they pose significant security and privacy risks, making the topic clearly relevant.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text mentions specific existing security mechanisms (Secure, HttpOnly, SameSite), it fails to cite any specific research, published studies, or recent academic findings that describe the current state of cookie security research or recent advancements in attack vectors.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies that new attack methods are emerging and that existing mechanisms can be bypassed, but it does not explicitly state a research gap based on a lack of existing studies or a specific unresolved scientific problem.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is well-defined: the increasing number of threats (session hijacking, XSS, tracking) despite existing protections, and the need to investigate how to better protect users.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal citations or references provided in the text to support the claims regarding security risks or the effectiveness of the mentioned mechanisms.",
+        "complies": false
+    }
+]
+```

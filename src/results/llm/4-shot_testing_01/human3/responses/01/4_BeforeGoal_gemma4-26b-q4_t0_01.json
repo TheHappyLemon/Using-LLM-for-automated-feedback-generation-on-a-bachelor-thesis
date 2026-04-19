@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of Java and the relevance of the new virtual threads feature (JDK 21) in the context of modern parallel programming and performance optimization.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the evolution of Java concurrency (java.util.concurrent) and the introduction of virtual threads, but it lacks a review of specific, published research or comparative studies that evaluate these mechanisms. It mentions the technology itself, but not the 'state-of-the-art' in terms of existing scientific evaluations.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap by stating the need to evaluate old and new Java concurrency mechanisms, but it doesn't explicitly state that there is a lack of existing comparative research or that current literature is insufficient regarding this specific comparison.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the inherent vulnerabilities in classical thread-based architecture (race conditions, deadlocks, etc.) and the need to understand the performance/application perspectives of the new virtual threads.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included (TIOBE, Oracle, Giebas et. al.) to support claims about popularity and technical issues, which is a strong point.",
+        "complies": true
+    }
+]
+```

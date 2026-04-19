@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It clearly states the intention to investigate efficiency, precision, and impact on privacy, and aims to produce specific recommendations, which allows for clear evaluation of whether the goal has been achieved.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The text contains unnecessary descriptions of the work type (1. tipa bakalaura darbs) and specific plans for the practical part (experiments and data analysis). The goal should focus on the objective itself rather than describing the methodology or the nature of the thesis.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is not limited to a single sentence; it consists of three separate sentences that include the objective, the classification of the work, and the plan for the practical part.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is highly congruent with the preceding text. It directly addresses the problems mentioned in the introduction: the technical limitations (efficiency/precision) and the ethical/legal concerns (privacy and data protection).",
+        "complies": true
+    }
+]
+```

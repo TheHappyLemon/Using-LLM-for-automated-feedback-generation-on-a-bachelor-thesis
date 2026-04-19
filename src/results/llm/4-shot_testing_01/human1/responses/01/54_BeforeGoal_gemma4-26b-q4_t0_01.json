@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text effectively establishes the importance of microservices architecture and the necessity of efficient testing due to frequent code changes. It uses relevant statistics to demonstrate the growing trend and scale of the technology.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the current challenge regarding the balance between cost-efficiency and test completeness and cites a recent source (Mingxuan Hui et al., 2025). However, it could be strengthened by mentioning specific existing optimization techniques or tools currently used in CI/CD pipelines.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies that automation integration in CI/CD can lead to long testing times and excessive resource consumption, and mentions 'imperfections related to testing optimization techniques'. However, the gap could be more explicitly linked to a lack of specific research or a failure of current methods to handle the scale of microservices.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the need to optimize automated testing methods to ensure faster and more efficient testing cycles in CI/CD pipelines without sacrificing quality.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are used appropriately to support the significance of the topic (Statista, 2021) and to highlight the current challenges in the field (Mingxuan Hui et al., 2025).",
+        "complies": true
+    }
+]
+```

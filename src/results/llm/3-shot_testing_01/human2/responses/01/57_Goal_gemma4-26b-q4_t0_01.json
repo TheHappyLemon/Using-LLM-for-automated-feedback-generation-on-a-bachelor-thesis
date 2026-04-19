@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly stated and measurable, as the development of a specific product (a tourism guide) is a tangible outcome.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal includes the methods/tools used to achieve the outcome ('izmantojot papildināto realitāti un GPS tehnoloģijas'), which should ideally be omitted to focus solely on the objective.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single sentence, but it starts with a filler phrase ('Tādēļ arī es izstrādāšu šo darbu, kur mans mērķis ir...'), which makes it less concise than it could be.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal introduces 'GPS tehnoloģijas', which were not mentioned in the preceding text. The preceding text only discusses AR and tourism, creating a logical gap regarding the necessity of GPS.",
+        "complies": false
+    }
+]
+```

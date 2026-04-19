@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of establishing the importance of the topic by using statistics regarding internet usage and the economic impact of downtime (bounce rates). It clearly links the topic to user experience and business stability.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text mentions Blue-Green and Canary deployment strategies and DevOps principles, it fails to cite specific research, published studies, or existing technological implementations that represent the current state-of-the-art. It describes the methods generally rather than situating them within the current scientific or industrial landscape.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly identify a research gap. It describes the benefits of the existing strategies (Blue-Green and Canary) but does not state what is missing, what remains unresolved, or what specific limitation in current implementations the thesis intends to address.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem (preventing downtime in web development) is clearly identified and well-contextualized within the introduction.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes numerical citations (1) and (2), which is a good start, but it lacks a formal bibliography or full bibliographic details to verify the sources of the specific statistics provided.",
+        "complies": true
+    }
+]
+```

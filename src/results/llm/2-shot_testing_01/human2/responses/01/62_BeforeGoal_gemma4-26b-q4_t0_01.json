@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining why evacuation planning is important and the inherent risks of traditional testing methods (risking lives).",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions that simulation technology has changed the field, but it fails to cite specific existing simulation software, models, or recent research papers that demonstrate the current state of the art in evacuation simulation.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text identifies the problem of unpredictable human behavior and the danger of real-world testing, it does not explicitly identify a research gap in the context of simulation technology itself (e.g., what current simulations fail to capture or where they are insufficient).",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is clearly identified: the difficulty of predicting human behavior in panic and the impossibility of testing evacuation plans in real life without risking lives.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text uses numerical citations effectively to support various claims regarding evacuation and human behavior.",
+        "complies": true
+    }
+]
+```

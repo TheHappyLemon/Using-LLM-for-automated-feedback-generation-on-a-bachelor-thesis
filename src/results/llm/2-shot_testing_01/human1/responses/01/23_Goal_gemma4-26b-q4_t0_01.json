@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It clearly outlines the stages of the work: analysis, defining requirements, and developing recommendations. The objectives are concrete and avoid vague terminology.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcomes (analysis, defining requirements, and recommendations). However, it slightly touches upon the process by mentioning that the requirements are 'based on survey results', which borders on describing the method.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, continuous sentence, which is structurally correct and concise.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a slight logical gap. The preceding text discusses the features of existing platforms (Kahoot!, Quizizz, Mentimeter) and the need for digital tools, but it does not explicitly mention the need for a 'new' platform or the specific intention to conduct surveys among students and teachers to define requirements. The motivation for a new development should be more clearly linked to a identified deficiency in the existing tools mentioned in the introduction.",
+        "complies": false
+    }
+]
+```

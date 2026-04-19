@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a great job of explaining the importance of asynchronous programming in the context of digital transformation, high throughput, and scalability. It effectively links the topic to real-world needs like web servers and microservices.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text successfully demonstrates awareness of the current state-of-the-art by mentioning specific features (CompletableFuture, Akka, asyncio) and citing recent research (2023, 2024) regarding their application in various domains.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text fails to explicitly identify a research gap. While it describes the strengths of both Java and Python, it does not state what is missing in current comparative studies or what specific unresolved question the thesis intends to answer.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is somewhat ambiguous. While the text discusses the importance of the technologies, it doesn't clearly state the specific challenge or difficulty that arises when choosing between or using these two languages in an asynchronous context that necessitates this study.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are well-integrated and used appropriately to support technical claims and provide context for the current state of the field.",
+        "complies": true
+    }
+]
+```

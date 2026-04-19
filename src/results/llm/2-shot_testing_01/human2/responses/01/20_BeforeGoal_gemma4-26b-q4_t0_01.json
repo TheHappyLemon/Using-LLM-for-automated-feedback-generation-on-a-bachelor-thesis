@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of distance measurement technologies by mentioning their widespread use in various industries like cartography, construction, and robotics.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions specific technologies (ToF cameras and LiDAR), but it fails to cite any specific research, published studies, or existing comparative evaluations that represent the current state-of-the-art in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text mentions the need to evaluate capabilities and limitations, it does not explicitly identify a research gap based on existing literature (e.g., stating that a comparative analysis of these two specific sensors for 3D surface relief has not been sufficiently addressed).",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: the need to determine the specific application characteristics, advantages, and limitations of ToF and LiDAR sensors for 3D surface scanning.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no references or citations provided in the text to support the claims made about the technologies or their applications.",
+        "complies": false
+    }
+]
+```

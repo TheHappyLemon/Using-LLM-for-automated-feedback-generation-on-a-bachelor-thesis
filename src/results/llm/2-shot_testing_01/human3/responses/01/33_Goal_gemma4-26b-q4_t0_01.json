@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clear and measurable. It specifies the creation of a solution for a specific problem (preventing downtime) using defined strategies, which allows for a clear evaluation of whether the objective has been met.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails this criterion because it explicitly includes the methods/strategies ('izmantojot Blue-Green un Canary izvietošanas stratēģijas') within the statement of the objective. The goal should focus on the outcome (preventing downtime) rather than the technical implementation details.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single, concise, and direct sentence, which perfectly follows the structural requirement for a thesis goal.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal is highly congruent with the preceding text. The introduction establishes the problem of web downtime and the importance of availability, and then introduces Blue-Green and Canary strategies as solutions, which the goal then proposes to implement.",
+        "complies": true
+    }
+]
+```

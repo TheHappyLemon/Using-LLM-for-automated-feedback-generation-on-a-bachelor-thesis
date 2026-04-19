@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of the topic by linking the rise of AI and digital transformation to the risks of document forgery and the need for authenticity guarantees.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks a discussion of the current state-of-the-art. While it mentions general concepts like digital signatures and data security levels, it does not cite specific, published research or existing technological solutions/methods used to detect handwritten integrity in digital environments.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap regarding the difficulty of verifying the integrity of digitized physical materials (handwritten notes) compared to native digital documents, but it does not explicitly frame this as a research gap based on a lack of existing scientific solutions or studies.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the difficulty of ensuring the integrity and authenticity of documents that appear handwritten but are distributed in a digital format, especially when they lack digital signatures.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included using numerical citations [3] to support claims regarding data processing and security levels, which is a strong point.",
+        "complies": true
+    }
+]
+```

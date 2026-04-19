@@ -188,8 +188,6 @@ def main(run_id : str):
               raw_responses_dir = os.path.join(RAW_RESPONSES_PATH) + os.path.sep
               responses_dir     = os.path.join(RESPONSES_PATH) + os.path.sep
 
-              '''
-
               logger.info("BeforeGoal")
               make_prompt(
                 text=prompts_part_refinement[p]["BeforeGoal"],
@@ -238,7 +236,6 @@ def main(run_id : str):
                 to_think=to_think,
                 num_ctx=8196
               )
-              '''
 # python -m src.code.generating.few-shot.generate_few_shot
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Context selector")

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining why YAML is important (popularity, readability, ease of use) and why the topic is relevant to developers (potential for errors in large systems).",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing libraries (PyYAML, js-yaml, Ruby), but it does not cite any specific research, published studies, or comparative evaluations previously conducted by other authors. It lacks a discussion of the current scientific or technical state-of-the-art.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text implies a need for comparison to find the most efficient library, it does not explicitly identify a research gap based on existing studies. It does not state whether previous comparisons exist or if there is a lack of such data in the current literature.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is clearly identified: the risk of configuration errors in large systems due to YAML's syntax and the need for developers to know which libraries provide the best performance (speed) for data processing.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal academic references or citations provided to support the claims made about the popularity of the format or the risks associated with it. Mentioning library names is not a substitute for academic referencing.",
+        "complies": false
+    }
+]
+```

@@ -1,0 +1,27 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly defined and measurable. It specifies the investigation of problems, analysis of existing solutions, and the development of a new software solution, which provides a clear roadmap for the thesis.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the intended outcomes (improving efficiency, reducing management time, and balancing needs). However, it slightly drifts into describing the process by mentioning 'investigating and analyzing' as a precursor to development.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, long, and complex sentence. While it is a single sentence, it is quite dense and could be more concise.",
+        "complies": true
+    },
+    // Note: The goal text provided is actually two sentences (the second part starts with 'lai...'). 
+    // However, looking at the structure of the provided text, it is one continuous grammatical thought 
+    // but contains multiple clauses.
+    {
+        "question": "Congruence",
+        "feedback": "There is a significant discrepancy between the preceding text and the goal. The preceding text discusses 'time allocation' (laika sadāle) and 'shift scheduling' (maiņu plānošana), but the goal introduces 'time accounting' (darba laika uzskāte). The goal should focus on the scheduling/generation aspect mentioned in the topic and intro, rather than shifting the focus to accounting.",
+        "complies": false
+    }
+]
+```

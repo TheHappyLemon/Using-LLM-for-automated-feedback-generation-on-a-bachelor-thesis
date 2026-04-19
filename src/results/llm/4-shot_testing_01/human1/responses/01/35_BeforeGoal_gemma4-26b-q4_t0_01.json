@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining why the topic is important, highlighting the impact on user experience, productivity, and the necessity of functionality in unstable network conditions.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "While the text mentions that technological advancements have opened new possibilities for synchronization and local resource access, it fails to cite specific existing technologies, frameworks, or recent research papers that represent the current state-of-the-art in offline web capabilities.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a general problem (the need for better offline support), but it does not explicitly identify a research gap based on existing studies. It does not state what is currently missing or insufficient in existing offline web solutions.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue is clearly identified: the challenges of data synchronization, resource access, and user interaction when internet connectivity is lost or unstable.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes a reference to Orozco (2024), which helps support the claim regarding the increasing demand for offline solutions, but more references would be needed to support the technical claims regarding synchronization and technological advancements.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the relevance of generative AI and the importance of RAG (Retrieval Augmented Generation) in addressing the limitations of standard language models.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text demonstrates awareness of the current state-of-the-art by citing recent works (e.g., Naveed et al. 2024, Lewis et al. 2021) and explaining the mechanics of how current models and RAG systems function.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "While the text identifies a limitation in language models (inability to answer questions outside training data), it fails to explicitly identify a research gap regarding the specific topic of the thesis: the investigation of embedding and text segmentation methods for Latvian language generation. It describes how RAG works generally, but does not state what is missing or insufficiently researched regarding these specific methods in the Latvian context.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete issue (the need for context provision to overcome model limitations) is clearly identified, which leads into the technical components (embeddings and segmentation) that the thesis aims to investigate.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are well-integrated and used appropriately to support technical claims and definitions throughout the text.",
+        "complies": true
+    }
+]
+```

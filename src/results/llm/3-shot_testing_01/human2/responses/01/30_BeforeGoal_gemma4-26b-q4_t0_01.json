@@ -1,0 +1,30 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the increasing complexity of modern information systems and why the transition from traditional relational databases to object-relational models is relevant due to the need for handling hierarchical and interconnected data.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the historical context (80s) and the general existence of tools, but it fails to cite specific, published research, existing benchmarks, or specific modern implementations that represent the current state-of-the-art in the field.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The student identifies a gap regarding the lack of empirical data on performance, efficiency, and the trade-offs between simplicity and complexity in object-relational databases. However, this gap is presented somewhat informally and lacks a connection to existing literature to prove it hasn't been addressed before.",
+        "complies": true
+    
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified in the 'Problēmas nostādne' section: the difficulty in designing object-relational databases and the lack of available data regarding performance improvements when making specific design choices.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text to support the claims made about the evolution of database technologies or the current state of the industry.",
+        "complies": false
+    }
+]
+```

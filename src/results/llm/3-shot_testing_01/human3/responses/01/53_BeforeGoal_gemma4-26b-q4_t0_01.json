@@ -1,0 +1,30 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of the topic, specifically highlighting the risks of forgery in the era of AI and the necessity of ensuring document integrity for legal and ethical reasons.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks a review of the current state-of-the-art. While it mentions the general context of digital data processing and security levels, it does not cite specific existing technologies, methods, or research papers that address the integrity of handwritten characters in digital environments.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap regarding the difficulty of verifying the integrity of documents when the source is a physical printed material that has been digitized, but it does not frame this gap as a lack of existing research or specific technological failure in the literature.",
+        "complies": true
+    }
+    ,
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is clearly identified: the difficulty of ensuring the authenticity and integrity of digitized handwritten documents, as digital copies can be easily manipulated without traceable evidence.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included (indicated by [3]) to support claims regarding data processing and security levels, which is a strong point.",
+        "complies": true
+    }
+]
+```

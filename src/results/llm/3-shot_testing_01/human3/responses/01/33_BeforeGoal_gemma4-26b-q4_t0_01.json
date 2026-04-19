@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of establishing significance by using statistics regarding internet usage and the economic/user-experience impact of downtime (e.g., bounce rates and loading times).",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions Blue-Green and Canary deployment strategies and DevOps principles, but it lacks citations to specific, published research or technical papers that demonstrate the current state-of-the-art in these specific methodologies.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text fails to explicitly identify a research gap. While it mentions that these strategies are solutions to downtime, it does not state what is currently missing, unresolved, or insufficient in the existing implementation of these strategies.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The concrete problem is clearly identified: the need to prevent web service interruptions and downtime to maintain user experience and company stability.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "The text includes numbered citations (1) and (2), which is a good start, but the bibliography/reference list is not provided to verify the sources, and the state-of-the-art section lacks academic depth.",
+        "complies": false
+    }
+]
+```
