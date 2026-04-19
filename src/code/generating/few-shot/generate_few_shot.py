@@ -136,10 +136,21 @@ def main(run_id : str):
               IS_RELEVANT = row.tasks.Relevance.value > 0
               prompts_part_refinement[p][part] = prompts_part_refinement[p][part].replace(RELEVANT_OR, " relevant " if IS_RELEVANT else " not relevant ")
 
-      del prompts_part_refinement[1]
-      del prompts_part_refinement[5]
-      del prompts_part_refinement[7]
-      del prompts_part_refinement[43]
+      if SHOT == "2-shot":
+        del prompts_part_refinement[1]
+        del prompts_part_refinement[5]
+        logger.info(f"Removed from test set texts 1, 5")
+      elif SHOT == "3-shot":
+        del prompts_part_refinement[1]
+        del prompts_part_refinement[5]
+        del prompts_part_refinement[7]
+        logger.info(f"Removed from test set texts 1, 5, 7")
+      elif SHOT == "4-shot":
+        del prompts_part_refinement[1]
+        del prompts_part_refinement[5]
+        del prompts_part_refinement[7]
+        del prompts_part_refinement[43]
+        logger.info(f"Removed from test set texts 1, 5, 7, 43")
 
       # -----------------  DEFINE CONSTANTS  -----------------
 
@@ -177,7 +188,8 @@ def main(run_id : str):
               raw_responses_dir = os.path.join(RAW_RESPONSES_PATH) + os.path.sep
               responses_dir     = os.path.join(RESPONSES_PATH) + os.path.sep
 
-            '''
+              '''
+
               logger.info("BeforeGoal")
               make_prompt(
                 text=prompts_part_refinement[p]["BeforeGoal"],
