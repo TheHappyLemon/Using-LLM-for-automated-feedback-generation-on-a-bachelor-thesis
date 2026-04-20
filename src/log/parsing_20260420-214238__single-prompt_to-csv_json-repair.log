@@ -1,0 +1,544 @@
+2026-04-20 21:42:38,583 - __main__ - INFO - STARTED
+2026-04-20 21:42:38,583 - __main__ - INFO - Processing: '10_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,627 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,627 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,627 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 21:42:38,627 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,627 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,627 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,628 - __main__ - INFO - Processing: '11_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,629 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,629 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,629 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[17].feedback'}
+2026-04-20 21:42:38,629 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[17].description'}
+2026-04-20 21:42:38,629 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,629 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,630 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,630 - __main__ - INFO - Processing: '12_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,631 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,631 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,631 - __main__ - DEBUG - {'text': 'While parsing an object value we found a stray }, ignoring it', 'context': 'ies":\n    },\n    {\n '}
+2026-04-20 21:42:38,631 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[4]'}
+2026-04-20 21:42:38,631 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[10]'}
+2026-04-20 21:42:38,632 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,632 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,632 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,632 - __main__ - INFO - Processing: '13_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,633 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,633 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,633 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,634 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,634 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,634 - __main__ - INFO - Processing: '14_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,636 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,636 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,636 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[7].feedback'}
+2026-04-20 21:42:38,636 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[7].structure_goal'}
+2026-04-20 21:42:38,637 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,637 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,637 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,637 - __main__ - INFO - Processing: '15_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,639 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,639 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,639 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,639 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,639 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,640 - __main__ - INFO - Processing: '16_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,641 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,641 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,642 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[9].feedback'}
+2026-04-20 21:42:38,642 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[9].text'}
+2026-04-20 21:42:38,642 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,642 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,642 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,642 - __main__ - INFO - Processing: '17_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,645 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,645 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,645 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[7].feedback'}
+2026-04-20 21:42:38,645 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[7].congruence'}
+2026-04-20 21:42:38,645 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[11]'}
+2026-04-20 21:42:38,645 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,645 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,645 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,646 - __main__ - INFO - Processing: '18_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,647 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,647 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,647 - __main__ - DEBUG - {'text': 'While parsing an object value we found a stray }, ignoring it', 'context': 'ies":\n    },\n    {\n '}
+2026-04-20 21:42:38,655 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[3]'}
+2026-04-20 21:42:38,656 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[15].feedback'}
+2026-04-20 21:42:38,656 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[15].feedack'}
+2026-04-20 21:42:38,656 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,656 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,656 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,657 - __main__ - INFO - Processing: '19_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,660 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,661 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,661 - __main__ - DEBUG - {'text': 'While parsing an object value we found a stray }, ignoring it', 'context': 'ies":\n    },\n    {\n '}
+2026-04-20 21:42:38,661 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[3]'}
+2026-04-20 21:42:38,661 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[9].feedback'}
+2026-04-20 21:42:38,661 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[9].text'}
+2026-04-20 21:42:38,661 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[13].complies'}
+2026-04-20 21:42:38,661 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[13].complates'}
+2026-04-20 21:42:38,661 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,661 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,661 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,662 - __main__ - INFO - Processing: '1_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,664 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,665 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,665 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[13].complies'}
+2026-04-20 21:42:38,665 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[13].complates'}
+2026-04-20 21:42:38,666 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,666 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,666 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,667 - __main__ - INFO - Processing: '20_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,669 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,669 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,670 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,670 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,670 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,671 - __main__ - INFO - Processing: '21_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,673 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,674 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,674 - __main__ - DEBUG - {'text': 'While parsing an object value we found a stray }, ignoring it', 'context': 'ies":\n    },\n    {\n '}
+2026-04-20 21:42:38,674 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[4]'}
+2026-04-20 21:42:38,674 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[18].feedback'}
+2026-04-20 21:42:38,674 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[18].append'}
+2026-04-20 21:42:38,675 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,675 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,675 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,676 - __main__ - INFO - Processing: '22_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,677 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,677 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,677 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[3].feedback'}
+2026-04-20 21:42:38,678 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[3].text'}
+2026-04-20 21:42:38,678 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[7].complies'}
+2026-04-20 21:42:38,678 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[7].complates'}
+2026-04-20 21:42:38,678 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[15]'}
+2026-04-20 21:42:38,678 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,679 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,679 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,679 - __main__ - INFO - Processing: '23_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,681 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,681 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,681 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,681 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,681 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,681 - __main__ - INFO - Processing: '24_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,683 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,683 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,683 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[11]'}
+2026-04-20 21:42:38,684 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,685 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,685 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,686 - __main__ - INFO - Processing: '25_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,688 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,688 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,688 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,689 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,690 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,691 - __main__ - INFO - Processing: '26_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,693 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,694 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,694 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,694 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,694 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,695 - __main__ - INFO - Processing: '27_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,695 - __main__ - ERROR - Invalid item skipped: [{'type': 'missing', 'loc': ('question',), 'msg': 'Field required', 'input': {'quality': 'Clarity', 'feedback': 'No tasks are provided to evaluate.', 'complies': False}, 'url': 'https://errors.pydantic.dev/2.12/v/missing'}] | item={'quality': 'Clarity', 'feedback': 'No tasks are provided to evaluate.', 'complies': False}
+2026-04-20 21:42:38,695 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,696 - __main__ - INFO - Processing: '28_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,697 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,697 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,698 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[8]'}
+2026-04-20 21:42:38,698 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,698 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,698 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,698 - __main__ - INFO - Processing: '29_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,700 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,700 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,700 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[9].feedback'}
+2026-04-20 21:42:38,700 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[9].text'}
+2026-04-20 21:42:38,700 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,700 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,700 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,701 - __main__ - INFO - Processing: '2_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,702 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,702 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,702 - __main__ - DEBUG - {'text': 'While parsing an object value we found a stray }, ignoring it', 'context': 'ies":\n    },\n    {\n '}
+2026-04-20 21:42:38,702 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[3]'}
+2026-04-20 21:42:38,702 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[17].complies'}
+2026-04-20 21:42:38,703 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[17].complates'}
+2026-04-20 21:42:38,703 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,703 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,703 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,703 - __main__ - INFO - Processing: '30_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,704 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,705 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,705 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,705 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,705 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,705 - __main__ - INFO - Processing: '31_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,707 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,707 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,707 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[7]'}
+2026-04-20 21:42:38,707 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[8]'}
+2026-04-20 21:42:38,707 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,707 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,707 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,708 - __main__ - INFO - Processing: '32_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,709 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,709 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,709 - __main__ - DEBUG - {'text': 'While parsing an object value we found a stray }, ignoring it', 'context': 'ies":\n    },\n    {\n '}
+2026-04-20 21:42:38,709 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[3]'}
+2026-04-20 21:42:38,709 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,709 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,709 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,710 - __main__ - INFO - Processing: '33_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,711 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,711 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,711 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,711 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,712 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,712 - __main__ - INFO - Processing: '34_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,713 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,714 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,714 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,714 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,714 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,714 - __main__ - INFO - Processing: '35_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,716 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,716 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,716 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[8]'}
+2026-04-20 21:42:38,716 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,716 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,716 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,716 - __main__ - INFO - Processing: '36_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,718 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,718 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,718 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,718 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,718 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,719 - __main__ - INFO - Processing: '37_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,720 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,720 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,720 - __main__ - DEBUG - {'text': 'While parsing a string in Object Key context, we detected a quoted section that would have closed the string but has a different meaning here, ignoring it', 'context': ' "        "question"'}
+2026-04-20 21:42:38,720 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[9].feedback'}
+2026-04-20 21:42:38,720 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[9].text'}
+2026-04-20 21:42:38,720 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[14].complies'}
+2026-04-20 21:42:38,721 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[14].complates'}
+2026-04-20 21:42:38,721 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[15]'}
+2026-04-20 21:42:38,721 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,721 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,721 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,721 - __main__ - INFO - Processing: '38_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,723 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,723 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,723 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[18].feedback'}
+2026-04-20 21:42:38,723 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[18].append'}
+2026-04-20 21:42:38,723 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,723 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,724 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,724 - __main__ - INFO - Processing: '39_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,726 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,726 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,726 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[18].feedback'}
+2026-04-20 21:42:38,726 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[18].goes'}
+2026-04-20 21:42:38,726 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,726 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,727 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,727 - __main__ - INFO - Processing: '3_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,728 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,728 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,728 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[9].feedback'}
+2026-04-20 21:42:38,729 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[9].text'}
+2026-04-20 21:42:38,729 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[13].complies'}
+2026-04-20 21:42:38,729 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[13].complates'}
+2026-04-20 21:42:38,729 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,729 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,729 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,729 - __main__ - INFO - Processing: '40_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,731 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,731 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,731 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[7].feedback'}
+2026-04-20 21:42:38,731 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[7].feedack'}
+2026-04-20 21:42:38,732 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,732 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,732 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,732 - __main__ - INFO - Processing: '41_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,733 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,734 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,734 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,734 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,734 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,734 - __main__ - INFO - Processing: '42_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,736 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,736 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,736 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[9].feedback'}
+2026-04-20 21:42:38,736 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[9].text'}
+2026-04-20 21:42:38,736 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,736 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,736 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,736 - __main__ - INFO - Processing: '43_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,738 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,738 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,738 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,738 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,738 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,738 - __main__ - INFO - Processing: '44_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,740 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,740 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,740 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[9].feedback'}
+2026-04-20 21:42:38,740 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[9].text'}
+2026-04-20 21:42:38,740 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,740 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,740 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,740 - __main__ - INFO - Processing: '45_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,742 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,742 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,742 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[9].feedback'}
+2026-04-20 21:42:38,742 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[9].features'}
+2026-04-20 21:42:38,742 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,742 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,742 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,742 - __main__ - INFO - Processing: '46_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,744 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,744 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,744 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,744 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,744 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,745 - __main__ - INFO - Processing: '47_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,746 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,746 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,746 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,746 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,746 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,747 - __main__ - INFO - Processing: '48_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,748 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,748 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,748 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,748 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,748 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,749 - __main__ - INFO - Processing: '49_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,750 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,750 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,750 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[18].feedback'}
+2026-04-20 21:42:38,750 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[18].research_gap'}
+2026-04-20 21:42:38,750 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,750 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,750 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,751 - __main__ - INFO - Processing: '4_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,753 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,753 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,753 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,753 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,753 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,754 - __main__ - INFO - Processing: '50_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,755 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,755 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,755 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[8]'}
+2026-04-20 21:42:38,756 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[13].complies'}
+2026-04-20 21:42:38,756 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[13].complates'}
+2026-04-20 21:42:38,756 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,756 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,756 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,757 - __main__ - INFO - Processing: '51_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,758 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,759 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,759 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,759 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,759 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,760 - __main__ - INFO - Processing: '52_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,761 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,761 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,762 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,762 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,762 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,762 - __main__ - INFO - Processing: '53_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,763 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,763 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,764 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,764 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,764 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,764 - __main__ - INFO - Processing: '54_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,766 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,766 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,766 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[7]'}
+2026-04-20 21:42:38,766 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,766 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,767 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,767 - __main__ - INFO - Processing: '55_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,768 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,768 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,768 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[9].feedback'}
+2026-04-20 21:42:38,768 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[9].text'}
+2026-04-20 21:42:38,768 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,769 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,769 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,769 - __main__ - INFO - Processing: '56_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,771 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,771 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,771 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[7].feedback'}
+2026-04-20 21:42:38,771 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[7].feedack'}
+2026-04-20 21:42:38,771 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,771 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,771 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,772 - __main__ - INFO - Processing: '57_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,773 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,774 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,774 - __main__ - DEBUG - {'text': 'While parsing an object we missed a : after a key', 'context': '"feedback",\n        '}
+2026-04-20 21:42:38,774 - __main__ - DEBUG - {'text': 'While parsing a string, we found a misplaced quote that would have closed the string but has a different meaning here, ignoring it', 'context': ' "feedback": "4",\n  '}
+2026-04-20 21:42:38,774 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 21:42:38,774 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,774 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,774 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,774 - src.code.parsing.old.Part - WARNING - Failed to parse 'quantity' question. Field 'feedback": "4' is not a single integer.
+2026-04-20 21:42:38,775 - src.code.parsing.old.Part - INFO - Found a single integer - '4'. Using that value as an anwswer.
+2026-04-20 21:42:38,775 - __main__ - INFO - Processing: '58_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,777 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,777 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,777 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[7].feedback'}
+2026-04-20 21:42:38,777 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[7].text'}
+2026-04-20 21:42:38,778 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,778 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,778 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,778 - __main__ - INFO - Processing: '59_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,780 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,780 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,780 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,780 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,780 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,780 - __main__ - INFO - Processing: '5_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,781 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,782 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,782 - __main__ - DEBUG - {'text': 'While parsing a string, we found a literal instead of a quote', 'context': 'complies":ES true\n  '}
+2026-04-20 21:42:38,782 - __main__ - DEBUG - {'text': "While parsing a string missing the left delimiter in object value context, we found a , or } and we couldn't determine that a right delimiter was present. Stopping here", 'context': ' true\n    },\n    {\n '}
+2026-04-20 21:42:38,782 - __main__ - DEBUG - {'text': 'While parsing a string, we missed the closing quote, ignoring', 'context': ' true\n    },\n    {\n '}
+2026-04-20 21:42:38,782 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[3]'}
+2026-04-20 21:42:38,782 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,782 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,782 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,783 - __main__ - INFO - Processing: '60_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,784 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,784 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,784 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,785 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,785 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,785 - __main__ - INFO - Processing: '61_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,787 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,787 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,787 - __main__ - DEBUG - {'text': 'While parsing an object we found a duplicate key with a normal comma separator, keeping duplicate-key overwrite behavior', 'context': '"question": "Structu'}
+2026-04-20 21:42:38,787 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,787 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,788 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,789 - __main__ - INFO - Processing: '62_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,791 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,792 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,792 - __main__ - DEBUG - {'text': 'While parsing an object value we found a stray }, ignoring it', 'context': 'ies":\n    },\n    {\n '}
+2026-04-20 21:42:38,792 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[12]'}
+2026-04-20 21:42:38,792 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,792 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,792 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,793 - __main__ - INFO - Processing: '63_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,794 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,795 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,795 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,795 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,796 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,796 - __main__ - INFO - Processing: '64_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,798 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,798 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,798 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[3].feedback'}
+2026-04-20 21:42:38,799 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[3].feedack'}
+2026-04-20 21:42:38,799 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,799 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,799 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,799 - __main__ - INFO - Processing: '6_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,801 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,801 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,801 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 21:42:38,801 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,801 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,802 - __main__ - INFO - Processing: '7_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,803 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,804 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,804 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,804 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,804 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,804 - __main__ - INFO - Processing: '8_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,806 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,806 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,806 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[9].feedback'}
+2026-04-20 21:42:38,806 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[9].text'}
+2026-04-20 21:42:38,806 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,806 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,806 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,807 - __main__ - INFO - Processing: '9_full_gemma4-26b-q4_t0_02.json'
+2026-04-20 21:42:38,808 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 21:42:38,809 - __main__ - DEBUG - Logs:
+2026-04-20 21:42:38,809 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 21:42:38,809 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 21:42:38,809 - __main__ - INFO - Parsing FULL entry
+2026-04-20 21:42:38,810 - __main__ - INFO - Start creatting datasets
+2026-04-20 21:42:38,810 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,810 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,810 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,810 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,810 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,811 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,812 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,812 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,812 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,812 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,812 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,812 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,812 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,813 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,813 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,813 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,813 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,813 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,813 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,813 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,813 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,813 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,813 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,814 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,814 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,814 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,814 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,814 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,814 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,814 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,814 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,814 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,815 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,815 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,815 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,815 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,815 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,815 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,815 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,815 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,815 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,815 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,816 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,816 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,816 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,816 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,816 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,816 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,816 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,816 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,816 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,816 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,817 - __main__ - INFO - load 3 called
+2026-04-20 21:42:38,817 - __main__ - INFO - load 3 called

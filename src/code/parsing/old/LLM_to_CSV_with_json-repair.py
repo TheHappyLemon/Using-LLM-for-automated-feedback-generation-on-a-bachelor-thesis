@@ -90,23 +90,38 @@ def parse_full(json_arr : list[QuestionAnswer], model_validation_OK : bool, **kw
     part.load(json_arr)
     return part
 
-def get_json(json_str : str) -> tuple:
-    # returns object, bool_was_json_good_initially, bool_did_json_repair_help
+def get_json(json_str : str, part : str = "") -> tuple:
+    # returns object, bool_was_json_good_initially, bool_did_json_repair_help, amount_of_skipped_questions
     try:
         result = json.loads(json_str)
-        return result, True, False
+        return result, True, False, 0
     # ANTI-PATTERN according to docs, but I want to catch cases, where initial JSON was valid for statistics
     except JSONDecodeError as e:
         try:
+            skipped_questions = 0
             repaired_json, logs = json_repair.repair_json(json_str, return_objects=True, skip_json_loads=True, logging=True, schema=JSON_SCHEMA, schema_repair_mode='salvage')
             logger.info("Fixed JSON with json_repair.")
             logger.debug("Logs:")
             for log in logs:
                 logger.debug(log)
-            return repaired_json, False, True
+                if log['text'] == "Dropped invalid array item while salvaging":
+                    skipped_questions = skipped_questions + 1
+                elif log['text'] == "Inserted default value for missing property" and "complies" in log['context']:
+                    skipped_questions = skipped_questions + 1
+            return repaired_json, False, True, skipped_questions
         except ValueError as ve:
             logger.error("Even json_repair could not fix this mess")
-            return [], False, False
+            if part != "BeforeGoal":
+                skipped_questions = 5
+            elif part == "Goal":
+                skipped_questions = 4
+            elif part == "Tasks":
+                skipped_questions = 7
+            elif part == "AfterTasks":
+                skipped_questions = 3
+            else:
+                skipped_questions = 0
+            return [], False, False, skipped_questions
             
 # ministral3-14b-q8 forgets to escape newlines
 def fix_json_newlines(bad_json: str) -> str:
@@ -119,14 +134,13 @@ def fix_json_newlines(bad_json: str) -> str:
 def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
     # returns object of one of four types: Goal, Tasks, BeforeGoal, AfterTasks
     
-
-    (json_arr, was_json_good_initially, did_json_repair_help) = get_json(llm_response)
+    skipped_questions = 0
+    (json_arr, was_json_good_initially, did_json_repair_help, skipped_questions) = get_json(llm_response, part_type)
     if json_arr == []:
-        return was_json_good_initially, did_json_repair_help, 'all', None
+        return was_json_good_initially, did_json_repair_help, skipped_questions, None
     
     answers : list[QuestionAnswer] = []
     model_validation_OK = True # redundant leftover
-    skipped_questions = 0
 
     for item in json_arr:
         try:
@@ -240,10 +254,9 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
 
     return 0
 
-# python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/initial_testing_01/responses" "src/data/texts/divided" --feedback --run_id="08"
-# python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/single_prompt_testing_01/responses/gemma4-26b-q4/t0/01" "src/data/texts/divided" --feedback
-# python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/one_shot_testing_01/positive/responses/02" "src/data/texts/divided" --feedback --skip_rows 1 5 43
-# python -m src.code.parsing.old.LLM_to_CSV "src/results/llm/one_shot_testing_01/negative/responses/02" "src/data/texts/divided" --feedback --skip_rows 7 57
+# python -m src.code.parsing.old.LLM_to_CSV_with_json-repair "src/results/llm/single_prompt_testing_01/responses/gemma4-26b-q4/t0/02" "src/data/texts/divided" --feedback --logfile_postfix="_single-prompt_to-csv_json-repair" --run_id="json-repair"
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("results_path", help="Path to folder with model responses")
