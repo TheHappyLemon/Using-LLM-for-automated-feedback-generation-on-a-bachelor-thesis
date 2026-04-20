@@ -1,0 +1,103 @@
+2026-04-20 14:30:10,122 - __main__ - INFO - STARTED COMPUTING STATS FOR FEW-SHOT
+2026-04-20 14:30:10,122 - __main__ - INFO - Working on shot 2-shot
+2026-04-20 14:30:10,123 - __main__ - INFO - Skipped rows will be: [1, 5, 7, 43]
+2026-04-20 14:30:10,123 - src.code.parsing.old.EvaluationDataset - WARNING - Load of human1 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,123 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:10,123 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:10,123 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,124 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:10,127 - src.code.parsing.old.EvaluationDataset - WARNING - Load of human2 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,127 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:10,127 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:10,128 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,128 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:10,128 - src.code.parsing.old.EvaluationDataset - WARNING - Load of human3 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,129 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:10,129 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:10,129 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,129 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:10,130 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,140 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:10,140 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:10,141 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,141 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:10,205 - __main__ - INFO - Calculating results in: D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\2-shot_testing_01\human1\responses\01
+2026-04-20 14:30:10,205 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,206 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,207 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:10,208 - src.code.parsing.old.EvaluationDataset - INFO - 'compute_metrics': Comparing human1 to gemma4-26b-q4
+2026-04-20 14:30:10,453 - __main__ - INFO - Calculating results in: D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\2-shot_testing_01\human2\responses\01
+2026-04-20 14:30:10,454 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,459 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,459 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:10,464 - src.code.parsing.old.EvaluationDataset - INFO - 'compute_metrics': Comparing human2 to gemma4-26b-q4
+2026-04-20 14:30:10,699 - __main__ - INFO - Calculating results in: D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\2-shot_testing_01\human3\responses\01
+2026-04-20 14:30:10,699 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,706 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,706 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:10,708 - src.code.parsing.old.EvaluationDataset - INFO - 'compute_metrics': Comparing human3 to gemma4-26b-q4
+2026-04-20 14:30:10,943 - __main__ - INFO - Working on shot 3-shot
+2026-04-20 14:30:10,943 - __main__ - INFO - Skipped rows will be: [1, 5, 7, 43]
+2026-04-20 14:30:10,943 - src.code.parsing.old.EvaluationDataset - WARNING - Load of human1 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,944 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:10,944 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:10,944 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,944 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:10,945 - src.code.parsing.old.EvaluationDataset - WARNING - Load of human2 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,945 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:10,945 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:10,945 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,945 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:10,946 - src.code.parsing.old.EvaluationDataset - WARNING - Load of human3 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,946 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:10,946 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:10,946 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,946 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:10,947 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:10,947 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:10,947 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:10,947 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:10,948 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:11,015 - __main__ - INFO - Calculating results in: D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\3-shot_testing_01\human1\responses\01
+2026-04-20 14:30:11,015 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:11,021 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:11,022 - src.code.parsing.old.EvaluationDataset - INFO - 'compute_metrics': Comparing human1 to gemma4-26b-q4
+2026-04-20 14:30:11,256 - __main__ - INFO - Calculating results in: D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\3-shot_testing_01\human2\responses\01
+2026-04-20 14:30:11,257 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:11,263 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:11,268 - src.code.parsing.old.EvaluationDataset - INFO - 'compute_metrics': Comparing human2 to gemma4-26b-q4
+2026-04-20 14:30:11,500 - __main__ - INFO - Calculating results in: D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\3-shot_testing_01\human3\responses\01
+2026-04-20 14:30:11,500 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:11,506 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:11,508 - src.code.parsing.old.EvaluationDataset - INFO - 'compute_metrics': Comparing human3 to gemma4-26b-q4
+2026-04-20 14:30:11,744 - __main__ - INFO - Working on shot 4-shot
+2026-04-20 14:30:11,744 - __main__ - INFO - Skipped rows will be: [1, 5, 7, 43]
+2026-04-20 14:30:11,744 - src.code.parsing.old.EvaluationDataset - WARNING - Load of human1 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:11,745 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:11,745 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:11,745 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:11,745 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:11,746 - src.code.parsing.old.EvaluationDataset - WARNING - Load of human2 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:11,746 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:11,746 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:11,746 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:11,746 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:11,747 - src.code.parsing.old.EvaluationDataset - WARNING - Load of human3 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:11,747 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:11,747 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:11,747 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:11,747 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:11,748 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:11,749 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 1!
+2026-04-20 14:30:11,749 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 5!
+2026-04-20 14:30:11,749 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 7!
+2026-04-20 14:30:11,749 - src.code.parsing.old.EvaluationDataset - WARNING - Skipping row 43!
+2026-04-20 14:30:11,814 - __main__ - INFO - Calculating results in: D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\4-shot_testing_01\human1\responses\01
+2026-04-20 14:30:11,814 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:11,820 - src.code.parsing.old.EvaluationDataset - INFO - 'compute_metrics': Comparing human1 to gemma4-26b-q4
+2026-04-20 14:30:12,055 - __main__ - INFO - Calculating results in: D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\4-shot_testing_01\human2\responses\01
+2026-04-20 14:30:12,055 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:12,062 - src.code.parsing.old.EvaluationDataset - INFO - 'compute_metrics': Comparing human2 to gemma4-26b-q4
+2026-04-20 14:30:12,296 - __main__ - INFO - Calculating results in: D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\4-shot_testing_01\human3\responses\01
+2026-04-20 14:30:12,297 - src.code.parsing.old.EvaluationDataset - WARNING - Load of gemma4-26b-q4 is configured to ignore rows: [1, 5, 7, 43]
+2026-04-20 14:30:12,305 - src.code.parsing.old.EvaluationDataset - INFO - 'compute_metrics': Comparing human3 to gemma4-26b-q4
