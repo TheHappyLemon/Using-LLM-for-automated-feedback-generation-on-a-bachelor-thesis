@@ -9,36 +9,36 @@ import src.code.parsing.old.logging_config as logging_config
 logger = logging.getLogger(__name__)
 logger.info("STARTED COMPUTING STATS")
 
-#PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "responses")
-PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "single_prompt_testing_01", "responses", "gemma4-26b-q4", "t0", "02")
+PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "responses")
+#PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "single_prompt_testing_01", "responses", "gemma4-26b-q4", "t0", "02")
 #PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "negative", "responses", "02")
 PATH_RESULTS_OLD = os.path.join(BASE_PATH, "results_04")
 postfix_new = "json-repair"
 #postfix_new = "08"
 postfix_old = "04"
-evaluators = [
-    "gemma4-26b-q4"
-]
 #evaluators = [
-#	"gemma2-9b-q8",
-#	"gemma3-12b-qat",
-#	"gemma3-12b-q8",
-#	"gemma3-27b-qat",
-#	"llama3.1-8b-q8",
-#	"llama3.1-8b-fp16",
-#	"mistral-nemo-12b-q8",
-#	"mistral-small-22b-q6",
-#	"mistral-small-24b-q4",
-#	"qwen3-14b-q8-thinking",
-#	"qwen3-30b-q4-thinking",
-#	"deepseek-r1-14b-q8",
-#	"gpt-oss-20b-thinking",
-#	"eurollm-9b-q8",
-#    "magistral-24b-q4",
-#    "qwen3.5-9b-q8",
-#    "gemma4-26b-q4",
-#    "ministral3-14b-q8"
+#    "gemma4-26b-q4"
 #]
+evaluators = [
+	"gemma2-9b-q8",
+	"gemma3-12b-qat",
+	"gemma3-12b-q8",
+	"gemma3-27b-qat",
+	"llama3.1-8b-q8",
+	"llama3.1-8b-fp16",
+	"mistral-nemo-12b-q8",
+	"mistral-small-22b-q6",
+	"mistral-small-24b-q4",
+	"qwen3-14b-q8-thinking",
+	"qwen3-30b-q4-thinking",
+	"deepseek-r1-14b-q8",
+	"gpt-oss-20b-thinking",
+	"eurollm-9b-q8",
+    "magistral-24b-q4",
+    "qwen3.5-9b-q8",
+    "gemma4-26b-q4",
+    "ministral3-14b-q8"
+]
 
 #POSITIVE_ONE_SHOT_SKIPPED_ROWS = [1, 5, 43]
 #NEGATIVE_ONE_SHOT_SKIPPED_ROWS = [7, 57]

@@ -255,7 +255,7 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
     return 0
 
 # python -m src.code.parsing.old.LLM_to_CSV_with_json-repair "src/results/llm/single_prompt_testing_01/responses/gemma4-26b-q4/t0/02" "src/data/texts/divided" --feedback --logfile_postfix="_single-prompt_to-csv_json-repair" --run_id="json-repair"
-
+# python -m src.code.parsing.old.LLM_to_CSV_with_json-repair "src/results/llm/initial_testing_01/responses" "src/data/texts/divided" --feedback --logfile_postfix="initial-testing_to-csv_json-repair" --run_id="json-repair"
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
