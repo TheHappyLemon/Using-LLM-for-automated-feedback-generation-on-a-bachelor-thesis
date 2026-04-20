@@ -127,11 +127,16 @@ def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
     model_validation_OK = True
     answers : list[QuestionAnswer] = []
 
-    try:
-        answers = [QuestionAnswer.model_validate(item) for item in json_arr]
-    except ValidationError as e:
-        model_validation_OK = False
-        logger.error(f"Pydantic model 'QuestionAnswer' failed validation: {e.errors()}")
+    answers = []
+    model_validation_OK = True # redundant leftover
+
+    for item in json_arr:
+        try:
+            validated = QuestionAnswer.model_validate(item)
+            answers.append(validated)
+        except ValidationError as e:
+            #model_validation_OK = False
+            logger.error(f"Invalid item skipped: {e.errors()} | item={item}")
 
     if part_type != "full":
         part = globals()[f"parse_{part_type}"](answers, has_goal=has_goal, model_validation_OK=model_validation_OK)
