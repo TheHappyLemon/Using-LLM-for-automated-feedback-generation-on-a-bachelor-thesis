@@ -14,6 +14,7 @@ HUMANS = ["human1", "human2", "human3"]
 evaluators = [
     "gemma4-26b-q4"
 ]
+postfix_new = "better-parsing"
 
 def main():
 
@@ -21,14 +22,16 @@ def main():
 
         logger.info(f"Working on shot {SHOT}")
 
-        skipped_rows = []
+        skipped_rows = [1, 5, 7, 43]
+        # test set should always be the same
+        '''
         if SHOT == "2-shot":
             skipped_rows = [1, 5]
         elif SHOT == "3-shot":
             skipped_rows = [1, 5, 7]
         elif SHOT == "4-shot":
             skipped_rows = [1, 5, 7, 43]
-
+        '''
         logger.info(f"Skipped rows will be: {skipped_rows}")
 
         HUMAN_RESPONSES_DIR = Path("src/results/human")
@@ -50,14 +53,13 @@ def main():
             dataset.load_from_csv(os.path.join(PATH_RESULTS_INITIAL, f"{evaluator}_as_int_08.csv"), skipped_rows=skipped_rows)
             dataset.to_bool()
             datasets.append(dataset)
-        EvaluationDataset.compute_metrics_total_average(human1_ds, datasets, path=os.path.join(BASE_PATH, "src", "results", "llm", f"{SHOT}_testing_01", f"OG_VS_{human1_ds.author}_total.csv"))
-        EvaluationDataset.compute_metrics_total_average(human2_ds, datasets, path=os.path.join(BASE_PATH, "src", "results", "llm", f"{SHOT}_testing_01", f"OG_VS_{human2_ds.author}_total.csv"))
-        EvaluationDataset.compute_metrics_total_average(human3_ds, datasets, path=os.path.join(BASE_PATH, "src", "results", "llm", f"{SHOT}_testing_01", f"OG_VS_{human3_ds.author}_total.csv"))
+        EvaluationDataset.compute_metrics_total_average(human1_ds, datasets, path=os.path.join(BASE_PATH, "src", "results", "llm", f"{SHOT}_testing_01", f"OG_VS_{human1_ds.author}_total_{postfix_new}.csv"))
+        EvaluationDataset.compute_metrics_total_average(human2_ds, datasets, path=os.path.join(BASE_PATH, "src", "results", "llm", f"{SHOT}_testing_01", f"OG_VS_{human2_ds.author}_total_{postfix_new}.csv"))
+        EvaluationDataset.compute_metrics_total_average(human3_ds, datasets, path=os.path.join(BASE_PATH, "src", "results", "llm", f"{SHOT}_testing_01", f"OG_VS_{human3_ds.author}_total_{postfix_new}.csv"))
 
         for HUMAN in HUMANS:
             PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", f"{SHOT}_testing_01", HUMAN, "responses", "01")
             logger.info(f"Calculating results in: {PATH_RESULTS_NEW}")
-            postfix_new = ""
             datasets : list[EvaluationDataset] = []
             for evaluator in evaluators:
                 dataset = EvaluationDataset(author=evaluator)

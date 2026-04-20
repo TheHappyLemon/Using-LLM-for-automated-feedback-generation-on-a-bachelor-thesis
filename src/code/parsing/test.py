@@ -1,38 +1,34 @@
 import demjson3
+import json5
 
 def main():
-    data = '''
-    [
-        {
-            "question": "Significance",
-            "feedback": "The text does a good job of explaining the relevance of the topic, highlighting how AR can improve user experience and provide new opportunities for retailers in large, complex environments.",
-            "complies": true
-        },
-        {
-            "question": "State-of-the-art",
-            "feedback": "The text lacks specific references to existing technological solutions, research, or current industry implementations of AR navigation. It mentions that the technology is 'rarely encountered' but does not cite any specific existing works or cutting-edge achievements.",
-            "complies": false
-        },
-        {
-            "question": "Gap",
-            "feedback": "While the text identifies a practical problem (difficulty finding stores in large malls), it does not explicitly formulate a research gap based on existing studies or technical limitations of current 2D solutions.",
-            "complies": false
-        },
-        {
-            "question": "Problem",
-            "feedback": "The concrete problem is clearly identified: the difficulty and time-consuming nature of navigating large, multi-level shopping centers using static, traditional signage.",
-            "complies": true
-        },
-        // check
-        {
-            "question": "References",
-            "feedback": "There are no academic or technical references included to support the claims made about the current state of navigation technology or the effectiveness of AR.",
-            "complies": false
-        }
-    ]
-    '''
-    res = demjson3.decode(data)
-    print(res)
+
+    def repair_json(s: str) -> str:
+        # Remove obvious comment types (json5 can handle them, but safe anyway)
+        
+        # Balance brackets
+        stack = []
+        for char in s:
+            if char in "{[":
+                stack.append(char)
+            elif char in "}]":
+                if stack and ((char == "}" and stack[-1] == "{") or
+                            (char == "]" and stack[-1] == "[")):
+                    stack.pop()
+                else:
+                    # skip extra closing bracket
+                    s = s.replace(char, '', 1)
+
+        # Add missing closing brackets
+        for open_bracket in reversed(stack):
+            s += "}" if open_bracket == "{" else "]"
+
+        return s
+
+
+    def parse_loose_json(s: str):
+        repaired = repair_json(s)
+        return json5.loads(repaired)
 
 if __name__ == "__main__":
     main()
