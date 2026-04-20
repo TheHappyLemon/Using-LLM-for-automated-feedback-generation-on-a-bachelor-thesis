@@ -1,0 +1,1397 @@
+2026-04-20 14:14:39,944 - __main__ - INFO - STARTED
+2026-04-20 14:14:39,946 - __main__ - INFO - Processing: '10_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:39,992 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:39,992 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:39,993 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:39,993 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:39,998 - __main__ - INFO - Processing: '10_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:39,999 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:39,999 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:39,999 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,000 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,004 - __main__ - INFO - Processing: '10_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,005 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,005 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,005 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,005 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,015 - __main__ - INFO - Processing: '10_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,015 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,016 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,016 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,016 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,017 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,017 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,017 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,017 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,017 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,017 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,017 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,026 - __main__ - INFO - Processing: '11_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,027 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,027 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,027 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,027 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,036 - __main__ - INFO - Processing: '11_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,037 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,037 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,037 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,037 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,045 - __main__ - INFO - Processing: '11_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,046 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,046 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,046 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,046 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,047 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,047 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,047 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,047 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,047 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,047 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,047 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,057 - __main__ - INFO - Processing: '12_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,058 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,058 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,058 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,058 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,066 - __main__ - INFO - Processing: '12_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,067 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,067 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,067 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,068 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,075 - __main__ - INFO - Processing: '12_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,076 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,076 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,077 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,077 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,077 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,077 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,077 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,077 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,077 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,077 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,078 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,079 - __main__ - INFO - Processing: '13_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,079 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,079 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,080 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,080 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,087 - __main__ - INFO - Processing: '13_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,088 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,088 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,088 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,088 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,094 - __main__ - INFO - Processing: '13_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,095 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,095 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,095 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,095 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,103 - __main__ - INFO - Processing: '13_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,104 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,104 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,105 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,105 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,105 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,105 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,105 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,105 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,105 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,105 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,105 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,106 - __main__ - INFO - Processing: '14_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,107 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,107 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,107 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,107 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,115 - __main__ - INFO - Processing: '14_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,116 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,116 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,116 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,116 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,123 - __main__ - INFO - Processing: '14_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,124 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,124 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,124 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,125 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,125 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,125 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,125 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,125 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,125 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,125 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,125 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,127 - __main__ - INFO - Processing: '15_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,128 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,128 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,129 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,129 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,136 - __main__ - INFO - Processing: '15_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,137 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,137 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,137 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,137 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,145 - __main__ - INFO - Processing: '15_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,146 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,146 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,146 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,146 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,153 - __main__ - INFO - Processing: '15_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,154 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,154 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,154 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,155 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,155 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,155 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,155 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,155 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,155 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,155 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,156 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,164 - __main__ - INFO - Processing: '16_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,165 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,165 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,165 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,165 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,172 - __main__ - INFO - Processing: '16_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,173 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,173 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,173 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,173 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,182 - __main__ - INFO - Processing: '16_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,183 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,184 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,184 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,184 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,184 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,186 - __main__ - INFO - Processing: '17_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,186 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,186 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,186 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,187 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,196 - __main__ - INFO - Processing: '17_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,197 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,197 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,197 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,197 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,205 - __main__ - INFO - Processing: '17_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,207 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,207 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,207 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,207 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,213 - __main__ - INFO - Processing: '17_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,214 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,214 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,214 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,215 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,215 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,215 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,215 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,215 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,215 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,215 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,215 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,223 - __main__ - INFO - Processing: '18_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,224 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,225 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,225 - __main__ - DEBUG - {'text': 'While parsing an array we missed the closing ], ignoring it', 'context': 'rue\n    }\n}\n]\n```'}
+2026-04-20 14:14:40,225 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n}\n]\n```'}
+2026-04-20 14:14:40,225 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '}\n}\n]\n```'}
+2026-04-20 14:14:40,232 - __main__ - INFO - Processing: '18_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,233 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,233 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,233 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,233 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,243 - __main__ - INFO - Processing: '18_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,244 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,244 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,244 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,245 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,245 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,245 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,245 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,245 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,245 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,245 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,245 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,246 - __main__ - INFO - Processing: '19_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,247 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,247 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,247 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,247 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,253 - __main__ - INFO - Processing: '19_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,254 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,254 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,254 - __main__ - DEBUG - {'text': 'While parsing an array we missed the closing ], ignoring it', 'context': 'rue\n    }\n}\n]\n```'}
+2026-04-20 14:14:40,255 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n}\n]\n```'}
+2026-04-20 14:14:40,255 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '}\n}\n]\n```'}
+2026-04-20 14:14:40,263 - __main__ - INFO - Processing: '19_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,263 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,263 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,263 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,264 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,270 - __main__ - INFO - Processing: '19_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,272 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,272 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,272 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,272 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,272 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,272 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,272 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,272 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,272 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,273 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,273 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,280 - __main__ - INFO - Processing: '20_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,281 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,281 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,281 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,281 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,289 - __main__ - INFO - Processing: '20_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,291 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,291 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,291 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,291 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,297 - __main__ - INFO - Processing: '20_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,298 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,298 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,298 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,299 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,306 - __main__ - INFO - Processing: '20_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,307 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,307 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,307 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,307 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,307 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,307 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,307 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,307 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,308 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,308 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,308 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,309 - __main__ - INFO - Processing: '21_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,310 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,310 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,311 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,311 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,324 - __main__ - INFO - Processing: '21_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,326 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,326 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,326 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,326 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,339 - __main__ - INFO - Processing: '21_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,341 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,341 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,341 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,341 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,342 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,342 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,342 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,342 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,342 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,342 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,343 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,353 - __main__ - INFO - Processing: '22_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,353 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,354 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,354 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,354 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,363 - __main__ - INFO - Processing: '22_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,364 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,365 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,365 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,365 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,373 - __main__ - INFO - Processing: '22_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,374 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,374 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,374 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,374 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,383 - __main__ - INFO - Processing: '22_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,384 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,384 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,384 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,384 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,385 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,385 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,385 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,385 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,385 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,385 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,385 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,395 - __main__ - INFO - Processing: '23_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,396 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,396 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,396 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,396 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,404 - __main__ - INFO - Processing: '23_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,405 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,405 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,405 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,405 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,412 - __main__ - INFO - Processing: '23_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,413 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,413 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,414 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,414 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,414 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,414 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,414 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,414 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,414 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,414 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,415 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,421 - __main__ - INFO - Processing: '24_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,432 - __main__ - INFO - Processing: '24_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,433 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,433 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,433 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,433 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,441 - __main__ - INFO - Processing: '24_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,442 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,442 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,442 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,442 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,449 - __main__ - INFO - Processing: '24_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,450 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,450 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,450 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,450 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,451 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,451 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,451 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,451 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,451 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,451 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,451 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,460 - __main__ - INFO - Processing: '25_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,461 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,461 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,461 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,461 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,472 - __main__ - INFO - Processing: '25_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,473 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,474 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,474 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,474 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,480 - __main__ - INFO - Processing: '25_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,481 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,481 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,481 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,481 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,488 - __main__ - INFO - Processing: '25_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,489 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,490 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,490 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,490 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,490 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,490 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,490 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,490 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,490 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,490 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,490 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,497 - __main__ - INFO - Processing: '26_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,498 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,498 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,498 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,498 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,506 - __main__ - INFO - Processing: '26_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,507 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,507 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,507 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,507 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,516 - __main__ - INFO - Processing: '26_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,517 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,517 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,517 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,517 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,523 - __main__ - INFO - Processing: '26_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,524 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,524 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,524 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,524 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,524 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,524 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,525 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,525 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,525 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,525 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,525 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,531 - __main__ - INFO - Processing: '27_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,532 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,533 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,533 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,533 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,535 - __main__ - INFO - Processing: '28_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,535 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,538 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,538 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,539 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,547 - __main__ - INFO - Processing: '28_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,548 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,548 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,548 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,548 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,557 - __main__ - INFO - Processing: '28_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,557 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,558 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,558 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,558 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,565 - __main__ - INFO - Processing: '28_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,566 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,566 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,566 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,566 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,566 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,566 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,566 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,566 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,567 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,567 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,567 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,575 - __main__ - INFO - Processing: '29_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,575 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,576 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,576 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,576 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,584 - __main__ - INFO - Processing: '2_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,585 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,585 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,585 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,585 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,592 - __main__ - INFO - Processing: '2_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,593 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,593 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,593 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,593 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,601 - __main__ - INFO - Processing: '2_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,602 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,602 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,602 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,602 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,602 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,602 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,602 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,602 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,602 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,602 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,602 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,611 - __main__ - INFO - Processing: '30_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,611 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,612 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,612 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,612 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,621 - __main__ - INFO - Processing: '30_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,621 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,622 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,622 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,622 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,633 - __main__ - INFO - Processing: '30_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,635 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,635 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,635 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,635 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,636 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,636 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,636 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,636 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,636 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,636 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,636 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,644 - __main__ - INFO - Processing: '31_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,645 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,645 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,646 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,646 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,656 - __main__ - INFO - Processing: '31_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,657 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,657 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,657 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,657 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,667 - __main__ - INFO - Processing: '31_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,667 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,668 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,668 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,668 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,668 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,668 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,668 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,668 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,668 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,668 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,669 - __main__ - INFO - Processing: '32_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,670 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,670 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,670 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,670 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,679 - __main__ - INFO - Processing: '32_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,680 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,680 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,680 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,680 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,687 - __main__ - INFO - Processing: '32_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,688 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,688 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,688 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,688 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,697 - __main__ - INFO - Processing: '32_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,698 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,698 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,698 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,698 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,698 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,698 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,698 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,698 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,698 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,698 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,698 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,699 - __main__ - INFO - Processing: '33_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,700 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,700 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,700 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,700 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,709 - __main__ - INFO - Processing: '33_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,709 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,710 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,710 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,710 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,717 - __main__ - INFO - Processing: '33_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,718 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,718 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,718 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,718 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,725 - __main__ - INFO - Processing: '33_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,727 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,727 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,728 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,728 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,728 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,728 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,728 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,728 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,728 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,728 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,728 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,735 - __main__ - INFO - Processing: '34_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,736 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,736 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,736 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': '   }\n    ]\n```'}
+2026-04-20 14:14:40,736 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '    ]\n```'}
+2026-04-20 14:14:40,746 - __main__ - INFO - Processing: '34_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,747 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,747 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,747 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': '   }\n    ]\n```'}
+2026-04-20 14:14:40,747 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '    ]\n```'}
+2026-04-20 14:14:40,756 - __main__ - INFO - Processing: '34_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,758 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,758 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,758 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,758 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,758 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,758 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,758 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,759 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,759 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,759 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,759 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,760 - __main__ - INFO - Processing: '35_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,760 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,760 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,760 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,760 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,768 - __main__ - INFO - Processing: '35_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,770 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,770 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,770 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,770 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,777 - __main__ - INFO - Processing: '35_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,778 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,778 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,779 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,779 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,788 - __main__ - INFO - Processing: '35_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,789 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,789 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,789 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,789 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,789 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,789 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,789 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,789 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,790 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,790 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,790 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,791 - __main__ - INFO - Processing: '36_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,791 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,791 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,792 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,792 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,800 - __main__ - INFO - Processing: '36_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,801 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,801 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,801 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,801 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,808 - __main__ - INFO - Processing: '36_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,808 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,808 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,809 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,809 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,815 - __main__ - INFO - Processing: '36_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,817 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,817 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,818 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,818 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,818 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,818 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,818 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,818 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,818 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,818 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,818 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,825 - __main__ - INFO - Processing: '37_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,826 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,826 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,826 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,826 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,837 - __main__ - INFO - Processing: '37_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,838 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,838 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,838 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,838 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,846 - __main__ - INFO - Processing: '37_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,848 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,848 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,848 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,849 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,849 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,849 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,849 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,849 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,849 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,849 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,849 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,856 - __main__ - INFO - Processing: '38_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,857 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,857 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,857 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,857 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,864 - __main__ - INFO - Processing: '38_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,865 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,865 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,866 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,866 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,875 - __main__ - INFO - Processing: '38_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,876 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,876 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,876 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,877 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,877 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,877 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,877 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,877 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,877 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,877 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,877 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,884 - __main__ - INFO - Processing: '39_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,885 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,885 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,885 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,885 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,892 - __main__ - INFO - Processing: '39_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,893 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,893 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,893 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,893 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,902 - __main__ - INFO - Processing: '39_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,903 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,903 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,903 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,903 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,911 - __main__ - INFO - Processing: '39_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,911 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,911 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,911 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,912 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,912 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,912 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,912 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,912 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,912 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,912 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,912 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,914 - __main__ - INFO - Processing: '3_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,915 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,915 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,915 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,915 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,922 - __main__ - INFO - Processing: '3_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,923 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,923 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,923 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,923 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,932 - __main__ - INFO - Processing: '3_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,933 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,933 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,933 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,933 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,941 - __main__ - INFO - Processing: '3_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,942 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,942 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,942 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,942 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:40,943 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,943 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,943 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,943 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,943 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,943 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,944 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,951 - __main__ - INFO - Processing: '40_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,951 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,951 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,952 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,952 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,959 - __main__ - INFO - Processing: '40_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,960 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,960 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,960 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,961 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,969 - __main__ - INFO - Processing: '40_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,970 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,970 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,970 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:40,971 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:40,971 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:40,971 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:40,971 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:40,971 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:40,971 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:40,971 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:40,971 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,972 - __main__ - INFO - Processing: '41_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,973 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,973 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,973 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,973 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,981 - __main__ - INFO - Processing: '41_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,982 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,982 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,982 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:40,983 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:40,990 - __main__ - INFO - Processing: '41_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:40,991 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:40,992 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:40,992 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:40,992 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,000 - __main__ - INFO - Processing: '41_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,001 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,001 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,001 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,001 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,001 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,001 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,001 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,001 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,002 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,002 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,002 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,011 - __main__ - INFO - Processing: '42_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,012 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,012 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,012 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,012 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,020 - __main__ - INFO - Processing: '42_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,021 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,021 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,021 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,021 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,028 - __main__ - INFO - Processing: '42_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,030 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,030 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,030 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,030 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,038 - __main__ - INFO - Processing: '42_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,038 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,038 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,039 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,039 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:41,039 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,039 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,039 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,039 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,039 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,039 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,039 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,048 - __main__ - INFO - Processing: '44_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,049 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,049 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,049 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,049 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,057 - __main__ - INFO - Processing: '44_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,058 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,059 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,059 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,059 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,066 - __main__ - INFO - Processing: '44_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,068 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,068 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,068 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,068 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:41,068 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,068 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,068 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,068 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,068 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,068 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,069 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,078 - __main__ - INFO - Processing: '45_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,079 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,079 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,079 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,079 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,088 - __main__ - INFO - Processing: '45_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,090 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,090 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,090 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,091 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,099 - __main__ - INFO - Processing: '45_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,100 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,100 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,100 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,100 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,100 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,100 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,101 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,101 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,101 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,101 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,101 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,109 - __main__ - INFO - Processing: '46_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,110 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,110 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,110 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,110 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,118 - __main__ - INFO - Processing: '46_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,118 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,119 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,119 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,119 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,126 - __main__ - INFO - Processing: '46_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,127 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,127 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,127 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,127 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,128 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,128 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,128 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,128 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,128 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,128 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,128 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,129 - __main__ - INFO - Processing: '47_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,130 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,131 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,131 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,131 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,138 - __main__ - INFO - Processing: '47_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,139 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,139 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,139 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,139 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,146 - __main__ - INFO - Processing: '47_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,147 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,147 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,147 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,148 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,148 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,148 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,148 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,148 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,148 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,148 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,148 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,155 - __main__ - INFO - Processing: '48_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,157 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,157 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,157 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,157 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,166 - __main__ - INFO - Processing: '48_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,167 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,167 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,167 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,167 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,175 - __main__ - INFO - Processing: '48_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,175 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,176 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,176 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,176 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,183 - __main__ - INFO - Processing: '48_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,184 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,184 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,184 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,185 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,185 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,185 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,187 - __main__ - INFO - Processing: '49_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,188 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,188 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,188 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,188 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,195 - __main__ - INFO - Processing: '49_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,196 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,196 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,196 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,196 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,206 - __main__ - INFO - Processing: '49_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,207 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,207 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,208 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,208 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,208 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,208 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,208 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,208 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,208 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,208 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,208 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,216 - __main__ - INFO - Processing: '4_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,217 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,218 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,218 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,218 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,225 - __main__ - INFO - Processing: '4_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,226 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,226 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,226 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,227 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,236 - __main__ - INFO - Processing: '4_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,237 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,237 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,237 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,237 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,244 - __main__ - INFO - Processing: '4_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,245 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,245 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,245 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,245 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:41,245 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,245 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,246 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,246 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,246 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,246 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,246 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,253 - __main__ - INFO - Processing: '50_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,254 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,254 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,254 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,254 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,262 - __main__ - INFO - Processing: '50_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,263 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,263 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,263 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,263 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,270 - __main__ - INFO - Processing: '50_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,271 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,271 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,271 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,271 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,279 - __main__ - INFO - Processing: '50_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,280 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,280 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,280 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,280 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,280 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,280 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,281 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,281 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,281 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,281 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,281 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,288 - __main__ - INFO - Processing: '51_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,289 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,289 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,289 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,289 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,297 - __main__ - INFO - Processing: '51_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,298 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,298 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,298 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,298 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,305 - __main__ - INFO - Processing: '51_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,306 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,306 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,306 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,306 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,306 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,306 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,307 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,307 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,307 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,307 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,307 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,313 - __main__ - INFO - Processing: '52_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,314 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,314 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,315 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,315 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,322 - __main__ - INFO - Processing: '52_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,323 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,323 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,323 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,323 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,330 - __main__ - INFO - Processing: '52_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,331 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,331 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,332 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,332 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,332 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,332 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,332 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,332 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,332 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,332 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,340 - __main__ - INFO - Processing: '53_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,341 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,341 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,341 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,341 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,348 - __main__ - INFO - Processing: '53_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,348 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,349 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,349 - __main__ - DEBUG - {'text': 'While parsing an array we missed the closing ], ignoring it', 'context': 'rue\n    }\n}\n]\n```'}
+2026-04-20 14:14:41,349 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n}\n]\n```'}
+2026-04-20 14:14:41,349 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '}\n}\n]\n```'}
+2026-04-20 14:14:41,359 - __main__ - INFO - Processing: '53_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,360 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,360 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,360 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,360 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,360 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,360 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,361 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,361 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,361 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,361 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,361 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,363 - __main__ - INFO - Processing: '54_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,364 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,364 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,364 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,364 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,371 - __main__ - INFO - Processing: '54_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,372 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,372 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,372 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,372 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,379 - __main__ - INFO - Processing: '54_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,381 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,381 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,381 - __main__ - DEBUG - {'text': 'While parsing an array we missed the closing ], ignoring it', 'context': 'rue\n    }\n}\n]\n```'}
+2026-04-20 14:14:41,381 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n}\n]\n```'}
+2026-04-20 14:14:41,381 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '}\n}\n]\n```'}
+2026-04-20 14:14:41,389 - __main__ - INFO - Processing: '54_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,390 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,390 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,390 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,390 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,390 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,390 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,391 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,391 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,391 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,391 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,391 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,400 - __main__ - INFO - Processing: '55_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,401 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,401 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,401 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,401 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,408 - __main__ - INFO - Processing: '55_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,409 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,409 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,409 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,409 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,419 - __main__ - INFO - Processing: '55_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,420 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,420 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,420 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,420 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:41,420 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,420 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,420 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,420 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,420 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,421 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,421 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,427 - __main__ - INFO - Processing: '56_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,428 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,429 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,429 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,429 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,436 - __main__ - INFO - Processing: '57_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,437 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,437 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,437 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,437 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,444 - __main__ - INFO - Processing: '57_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,445 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,445 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,445 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': '   }\n    ]\n```'}
+2026-04-20 14:14:41,445 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '    ]\n```'}
+2026-04-20 14:14:41,452 - __main__ - INFO - Processing: '57_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,453 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,453 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,453 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,454 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,454 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,454 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,454 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,454 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,454 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,454 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,454 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,461 - __main__ - INFO - Processing: '58_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,462 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,462 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,462 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,462 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,469 - __main__ - INFO - Processing: '59_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,469 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,470 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,470 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,470 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,476 - __main__ - INFO - Processing: '59_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,477 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,478 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,478 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,478 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,486 - __main__ - INFO - Processing: '59_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,486 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,486 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,487 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,487 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,494 - __main__ - INFO - Processing: '59_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,494 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,494 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,495 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,495 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:41,495 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,495 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,495 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,495 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,495 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,495 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,496 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,502 - __main__ - INFO - Processing: '60_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,502 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,503 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,503 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,503 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,510 - __main__ - INFO - Processing: '60_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,511 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,511 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,511 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,511 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,518 - __main__ - INFO - Processing: '60_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,518 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,519 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,519 - __main__ - DEBUG - {'text': 'While parsing an array we missed the closing ], ignoring it', 'context': 'lse\n    }\n}\n]\n```'}
+2026-04-20 14:14:41,519 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n}\n]\n```'}
+2026-04-20 14:14:41,519 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '}\n}\n]\n```'}
+2026-04-20 14:14:41,528 - __main__ - INFO - Processing: '60_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,529 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,529 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,529 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,529 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,529 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,530 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,530 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,530 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,530 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,530 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,530 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,537 - __main__ - INFO - Processing: '61_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,539 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,539 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,539 - __main__ - DEBUG - {'text': 'While parsing an array we missed the closing ], ignoring it', 'context': 'rue\n    }\n}\n]\n```'}
+2026-04-20 14:14:41,539 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n}\n]\n```'}
+2026-04-20 14:14:41,539 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '}\n}\n]\n```'}
+2026-04-20 14:14:41,545 - __main__ - INFO - Processing: '61_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,546 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,546 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,546 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,546 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,553 - __main__ - INFO - Processing: '61_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,554 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,554 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,554 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,555 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:41,555 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,555 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,555 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,555 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,555 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,555 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,555 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,561 - __main__ - INFO - Processing: '62_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,562 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,562 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,562 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,562 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,570 - __main__ - INFO - Processing: '62_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,571 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,571 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,571 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,571 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,581 - __main__ - INFO - Processing: '62_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,581 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,582 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,582 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,582 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,590 - __main__ - INFO - Processing: '62_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,591 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,591 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,592 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,592 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:41,592 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,592 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,592 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,592 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,592 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,592 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,593 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,594 - __main__ - INFO - Processing: '63_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,595 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,595 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,595 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,595 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,602 - __main__ - INFO - Processing: '63_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,602 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,602 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,603 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,603 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,609 - __main__ - INFO - Processing: '63_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,609 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,610 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,610 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,610 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,617 - __main__ - INFO - Processing: '63_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,618 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,618 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,618 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,618 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,619 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,619 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,619 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,619 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,619 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,619 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,619 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,626 - __main__ - INFO - Processing: '64_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,627 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,627 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,627 - __main__ - DEBUG - {'text': 'While parsing an array we missed the closing ], ignoring it', 'context': 'lse\n    }\n}\n]\n```'}
+2026-04-20 14:14:41,627 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n}\n]\n```'}
+2026-04-20 14:14:41,627 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '}\n}\n]\n```'}
+2026-04-20 14:14:41,635 - __main__ - INFO - Processing: '64_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,635 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,635 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,635 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,636 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,642 - __main__ - INFO - Processing: '64_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,643 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,643 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,643 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,643 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,643 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,643 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,643 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,643 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,643 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,643 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,644 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,645 - __main__ - INFO - Processing: '6_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,645 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,645 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,645 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,645 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,670 - __main__ - INFO - Processing: '6_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,671 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,672 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,672 - __main__ - DEBUG - {'text': 'Inserted default value for missing property', 'context': '$[2].complies'}
+2026-04-20 14:14:41,672 - __main__ - DEBUG - {'text': 'Dropped extra property not covered by schema', 'context': '$[2].complates'}
+2026-04-20 14:14:41,672 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,672 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,687 - __main__ - INFO - Processing: '6_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,688 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,688 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,688 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,688 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,698 - __main__ - INFO - Processing: '6_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,698 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,698 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,699 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,699 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,699 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,699 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,699 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,699 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,699 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,699 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,699 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,710 - __main__ - INFO - Processing: '8_BeforeGoal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,712 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,712 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,712 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,712 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,721 - __main__ - INFO - Processing: '8_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,721 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,721 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,721 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,722 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,729 - __main__ - INFO - Processing: '8_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,730 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,730 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,731 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,731 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[1].complies'}
+2026-04-20 14:14:41,731 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,731 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,731 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,731 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,731 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,731 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,731 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,733 - __main__ - INFO - Processing: '9_AfterTasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,734 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,734 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,734 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'se\n    }\n]\n```'}
+2026-04-20 14:14:41,734 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,740 - __main__ - INFO - Processing: '9_Goal_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,741 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,741 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,741 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'ue\n    }\n]\n```'}
+2026-04-20 14:14:41,741 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,748 - __main__ - INFO - Processing: '9_Tasks_gemma4-26b-q4_t0_01.json'
+2026-04-20 14:14:41,749 - __main__ - INFO - Fixed JSON with json_repair.
+2026-04-20 14:14:41,749 - __main__ - DEBUG - Logs:
+2026-04-20 14:14:41,749 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[0].complies'}
+2026-04-20 14:14:41,750 - __main__ - DEBUG - {'text': 'Dropped invalid array item while salvaging', 'context': '$[1]'}
+2026-04-20 14:14:41,750 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[2].complies'}
+2026-04-20 14:14:41,750 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[3].complies'}
+2026-04-20 14:14:41,750 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[4].complies'}
+2026-04-20 14:14:41,750 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[5].complies'}
+2026-04-20 14:14:41,750 - __main__ - DEBUG - {'text': 'Coerced string to boolean', 'context': '$[6].complies'}
+2026-04-20 14:14:41,750 - __main__ - DEBUG - {'text': "The parser returned early, checking if there's more json elements", 'context': 'e"\n    }\n]\n```'}
+2026-04-20 14:14:41,750 - __main__ - DEBUG - {'text': 'There were no more elements, returning the element without the array', 'context': '  }\n]\n```'}
+2026-04-20 14:14:41,751 - __main__ - INFO - Start creatting datasets

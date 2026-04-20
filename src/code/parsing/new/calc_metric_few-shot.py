@@ -14,7 +14,7 @@ HUMANS = ["human1", "human2", "human3"]
 evaluators = [
     "gemma4-26b-q4"
 ]
-postfix_new = "better-parsing"
+postfix_new = "json-repair"
 
 def main():
 
