@@ -6,6 +6,29 @@ import logging
 import pandas as pd
 
 logger = logging.getLogger(__name__)
+JSON_SCHEMA = {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "properties": {
+                "question": {"type": "string"},
+                "feedback": {
+                    "anyOf": [
+                        {"type": "string"},
+                        {"type": "integer"},
+                        {"type": "null"}
+                    ],
+                    "default": None
+                },
+                "complies": {
+                    "type": "boolean",
+                    "default": False
+                }
+            },
+            "required": ["question"],
+            "additionalProperties": False
+        }
+    }
 
 # ----------------- FUNCTION USED LATER ----------------- #
 # return raw text from given file
@@ -14,7 +37,7 @@ def read_file(path : str) -> str:
     return f.read().strip("\n").strip()
 
 # call LLM provider API
-def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : float = 0, to_think : bool = None, num_ctx : int = None):
+def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : float = 0, to_think : bool = None, num_ctx : int = None, use_schema : bool = False):
 
     payload = {
         'model': model,
@@ -33,6 +56,9 @@ def prompt(system, user, model='gemma3:1b', save_to : str = "", temperature : fl
     if not num_ctx is None:
        logger.info(f'using num_ctx as {num_ctx}')
        payload['options']['num_ctx'] = num_ctx
+    if use_schema:
+       payload['format'] = JSON_SCHEMA
+       logger.info("Using JSON schema!")
 
     response = requests.post(
         PROXY_URL,
@@ -162,7 +188,7 @@ def save_used_prompts_not_divided(PROMPTS_PATH: str, prompt_not_divided: dict):
             f.write(prompt_not_divided[p])
     logger.info(f"used prompts saved to {PROMPTS_PATH}")
 
-def make_prompt(text: str, model : str, model_role: str, temperature: float, raw_response_model_path: str, response_model_path: str, fname: str, to_think: bool = None, num_ctx: int = None):
+def make_prompt(text: str, model : str, model_role: str, temperature: float, raw_response_model_path: str, response_model_path: str, fname: str, to_think: bool = None, num_ctx: int = None, use_schema : bool = False):
 
   if text == "":
     return
@@ -178,7 +204,8 @@ def make_prompt(text: str, model : str, model_role: str, temperature: float, raw
       save_to=f"{raw_response_model_path}{fname}",
       temperature=temperature,
       to_think=to_think,
-      num_ctx=num_ctx
+      num_ctx=num_ctx,
+      use_schema=use_schema
     )
     with open(f'{response_model_path}{fname}', 'w', encoding='utf-8') as f:
       f.write(response)

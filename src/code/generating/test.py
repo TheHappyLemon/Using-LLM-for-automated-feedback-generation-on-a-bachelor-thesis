@@ -11,15 +11,9 @@ texts = get_texts_not_divided()
 topics = get_topics()
 prompts = {}
 
-# LONGEST INTRODUCTION IS WITH ID 21
-for text_id in texts:
-    prompts[text_id] = single_prompt.replace("{THESIS_TOPIC}", topics[text_id]).replace("{TEXT}", texts[text_id])
-my_prompt = prompts[34]
+my_prompt = "What is capital of Italy. Respond in this schema: [{'question':'some_question', 'feedback':'some_feedback', 'complie':true}]} "
 
-with open(os.path.join(BASE_PATH, "src", "code", "generating", "prompt.txt"), 'w', encoding='utf-8') as f:
-    f.write(my_prompt)
-
-resp = prompt(system='You are a helpful tutor', user=my_prompt, model='gemma4:26b-a4b-it-q4_K_M', temperature=0, num_ctx=8196, to_think=False, save_to=os.path.join(BASE_PATH, "src", "code", "generating", "response_raw.json"))
+resp = prompt(system='You are a helpful tutor', user=my_prompt, model='gemma4:26b-a4b-it-q4_K_M', temperature=0, num_ctx=8196, to_think=False, use_schema=True, save_to=os.path.join(BASE_PATH, "src", "code", "generating", "response_raw.json"))
 
 with open(os.path.join(BASE_PATH, "src", "code", "generating", "response.json"), 'w', encoding='utf-8') as f:
     f.write(resp)

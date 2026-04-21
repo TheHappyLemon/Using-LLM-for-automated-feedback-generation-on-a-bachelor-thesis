@@ -40,7 +40,7 @@ for model in MODELS:
   for t in TEMPERATURES:
     logger.info(f"Temperature = {t}.")
     for i in range(ITERATIONS):
-      iter = str(i + 2).zfill(2) # + 2 IS TEMPORARILY TO STORE RESPONSES WITH NEW PROMPT in another folder
+      iter = str(i + 3).zfill(2) # + 3 IS TEMPORARILY TO STORE RESPONSES WITH NEW PROMPT in another folder
       logger.info(f"Iteration Nr. {iter:2}")
       for p in sorted(prompts):
         logger.info(f"Text Nr. {p}")
@@ -58,7 +58,8 @@ for model in MODELS:
           response_model_path=responses_dir,
           fname=f"{p}_full_{MODELS[model]}_{t_string}_{iter}.json",
           to_think=False, # disable for gemma4:26b-a4b-it-q4_K_M
-          num_ctx=8196
+          num_ctx=8196,
+          use_schema=True
         )
 
 # python -m src.code.generating.generate_in_single_prompt

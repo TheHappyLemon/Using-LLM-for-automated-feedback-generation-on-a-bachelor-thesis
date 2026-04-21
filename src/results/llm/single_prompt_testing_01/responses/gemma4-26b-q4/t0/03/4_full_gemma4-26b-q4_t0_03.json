@@ -1,0 +1,99 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text clearly explains the importance of Java's popularity and the relevance of exploring new concurrency features like virtual threads.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing technologies (java.util.concurrent) and recent updates (JDK 21), but it lacks a specific citation of published research or a clear statement regarding the research gap in existing literature.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies technical 'weaknesses' in classical threading (race conditions, etc.), but it does not explicitly identify a research gap in terms of what is missing from current scientific studies or evaluations.",
+        "complies": false
+    },
+    _ {
+        "question": "Problem",
+        "feedback": "The problem is clearly identified: the need to evaluate the perspectives and performance of new virtual threads compared to existing mechanisms.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included (TIOBE, Giebas et. al., Oracle.com) to support claims about popularity and technical issues.",
+        "complies": true
+    },
+    {
+        "question": "Purpose",
+        "feedback": "The goal is clearly defined: 'to determine the perspectives of using virtual threads in the context of other Java parallel opportunities'. It is measurable through the planned experiments.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the objective (determining perspectives) rather than detailing the specific methods or tools used.",
+        "complies": true
+    },
+    {
+        "question": "Structure_goal",
+        "feedback": "The goal is presented as a single, concise sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the stated motivation regarding the need to evaluate new Java concurrency features.",
+        "comparies": true
+    },
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are organized into a clearly separated numbered list.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover the full research process: theoretical analysis, experimental design, implementation, and evaluation of results.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is contained within a single sentence.",
+        "complies": true
+    },
+    {
+        "question": "Structure_tasks",
+        "feedback": "The tasks consistently use infinitive verbs (e.g., 'Noformulēt', 'Izpētīt', 'Analizēt', 'Noteikt', 'Izstrādāt', 'Norādīt').",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The tasks are written in a straightforward and precise manner.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression from theory to experimentation and finally to providing recommendations, which directly serves the goal.",
+        "complies": true
+    },
+    {
+        "question": "Chapters",
+        "feedback": "The text does not list the main chapters of the thesis.",
+        "complies": false
+    },
+    {
+        "question": "Description",
+        "feedback": "The text does not provide a description of the contents of each section/chapter of the thesis.",
+        "complies": false
+    },
+    {
+        "question": "Structure_aftertasks",
+        "feedback": "Because the chapters and their descriptions are missing, the general structure of the thesis cannot be fully understood from this text alone.",
+        "complies": false
+    }
+]
+```
