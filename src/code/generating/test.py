@@ -11,7 +11,7 @@ texts = get_texts_not_divided()
 topics = get_topics()
 prompts = {}
 
-my_prompt = "What is capital of Italy. Respond in this schema: [{'question':'some_question', 'feedback':'some_feedback', 'complie':true}]} "
+my_prompt = "Make a fictional story about cat named kitty. Two sentences only. Format the story as a JSON object"
 
 resp = prompt(system='You are a helpful tutor', user=my_prompt, model='gemma4:26b-a4b-it-q4_K_M', temperature=0, num_ctx=8196, to_think=False, use_schema=True, save_to=os.path.join(BASE_PATH, "src", "code", "generating", "response_raw.json"))
 
