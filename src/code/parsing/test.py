@@ -31,26 +31,39 @@ def main():
 ```json
 [
     {
-        "question": "Purpose",
-        "feedback": "The goal is clear and measurable, as the development of software can be verified through its functionality and completion.",
+        "question": "Outlook",
+        "feedback": "The tasks are clearly organized into a numbered list.",
         "complies": true
     },
     {
-        "question": "Intention",
-        "feedback": "The goal focuses on the outcome (developing software) without getting bogged down in the specific technical implementation or tools used.",
+        "question": "Quantity",
+        "feedback": "4",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover research, analysis, and development, but they lack a clear validation step where the developed prototype is compared against existing solutions or benchmarks to demonstrate its effectiveness.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is contained within a single sentence.",
         "complies": true
     },
     {
         "question": "Structure",
-        "feedback": "The text is a single, concise, and direct sentence that clearly communicates the objective.",
+        "feedback": "The tasks consistently use infinitive verbs (Apkopot, Analizēt, Izstrādāt) at the beginning.",
         "complies": true
     },
-    /// lalalalalal
     {
-        "question": "Congruence"
-        "feedback": "The goal perfectly aligns with the preceding text, which identifies the need for training in computer assembly and proposes AR technology as the solution.",
+        "question": "Clarity",
+        "feedback": "The language is precise, professional, and the sentences are straightforward.",
         "complies": true
-    }
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression toward the goal, covering literature review, analysis of existing methods, and the development of the prototype. However, it lacks a final task for validating the results.",
+        "complies": false
     }
 ]
 ```
@@ -66,6 +79,5 @@ def kek():
     return [], True, False
 
 if __name__ == "__main__":
-    #main()
-    (obj, bool1, bool2) = kek()
-    print(type(obj), obj, type(bool1), bool1, type(bool2), bool2)
+    main()
+    

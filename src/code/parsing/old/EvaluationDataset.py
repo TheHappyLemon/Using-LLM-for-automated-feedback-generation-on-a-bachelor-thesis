@@ -649,8 +649,8 @@ class EvaluationDataset:
                         for r in ds.rows:
                             if r.Nr == Nr:
                                 evaluation_row = r
-                                break 
-                       
+                                break
+
                         row[ds.author] =  getattr(getattr(getattr(evaluation_row, path), question), "value")
                         row[f"{ds.author}_feedback"] = getattr(getattr(getattr(evaluation_row, path), question), "feedback")
                     writer.writerow(row)
