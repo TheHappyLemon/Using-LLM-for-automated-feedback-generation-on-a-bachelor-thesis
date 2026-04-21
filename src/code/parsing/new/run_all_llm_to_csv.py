@@ -7,7 +7,7 @@ from src.code.parsing.old import LLM_to_CSV_with_json_repair
 logger = logging.getLogger(__name__)
 logger.info("STARTED TRANSFORMING EACH RESPONSE FROM TEMPERATURE TESTING TO CSV")
 
-BASE_RESPONSES_DIR = Path("src/results/llm/temperature_testing_01/responses/gemma4-26b-q4")
+BASE_RESPONSES_DIR = Path("src/results/llm/temperature_testing_01/responses/gpt-oss-20b-thinking")
 TEXTS_DIR = Path("src/data/texts/divided")
 TEMPERATURE_FOLDERS = ["t0", "t0-5", "t1"]
 

@@ -9,7 +9,7 @@ import os
 logger = logging.getLogger(__name__)
 logger.info("STARTED CALCULATING METRICS BASED ON TEMPERATURE TESTS")
 
-MODEL = "gemma4-26b-q4" #gpt-oss-20b-thinking gemma4-26b-q4
+MODEL = "gpt-oss-20b-thinking" #gemma4-26b-q4
 BASE_RESPONSES_DIR = Path(f"src/results/llm/temperature_testing_01/responses/{MODEL}")
 HUMAN_RESPONSES_DIR = Path("src/results/human")
 TEMPERATURE_FOLDERS = ["t0", "t0-5", "t1"]
@@ -26,6 +26,7 @@ def main() -> int:
     human1_ds.to_bool()
     human2_ds.to_bool(quantity_already_bool=True)
     human3_ds.to_bool()
+    postfix = "json-repair"
 
     for temp_folder in TEMPERATURE_FOLDERS:
         for i in range(10):
@@ -36,11 +37,14 @@ def main() -> int:
                 continue
 
             predicted_dataset = EvaluationDataset(f"{MODEL}_{temp_folder}", iteration=i)
-            predicted_dataset.load_from_csv(input_dir / f"{MODEL}_as_int.csv")
+            if postfix == "":
+                predicted_dataset.load_from_csv(input_dir / f"{MODEL}_as_int.csv")
+            else:
+                predicted_dataset.load_from_csv(input_dir / f"{MODEL}_as_int_{postfix}.csv")
             predicted_dataset.to_bool()
-            EvaluationDataset.compute_metrics(baseline_ds=human1_ds, predicted_ds=predicted_dataset, path=input_dir / f"{MODEL}_vs_human1.csv")
-            EvaluationDataset.compute_metrics(baseline_ds=human2_ds, predicted_ds=predicted_dataset, path=input_dir / f"{MODEL}_vs_human2.csv")
-            EvaluationDataset.compute_metrics(baseline_ds=human3_ds, predicted_ds=predicted_dataset, path=input_dir / f"{MODEL}_vs_human3.csv")
+            EvaluationDataset.compute_metrics(baseline_ds=human1_ds, predicted_ds=predicted_dataset, path=input_dir / f"{MODEL}_vs_human1_{postfix}.csv")
+            EvaluationDataset.compute_metrics(baseline_ds=human2_ds, predicted_ds=predicted_dataset, path=input_dir / f"{MODEL}_vs_human2_{postfix}.csv")
+            EvaluationDataset.compute_metrics(baseline_ds=human3_ds, predicted_ds=predicted_dataset, path=input_dir / f"{MODEL}_vs_human3_{postfix}.csv")
             predicted_datasets.append(predicted_dataset)
 
         logger.info(f"Loaded {temp_folder} datasets")
@@ -53,10 +57,10 @@ def main() -> int:
     for human in human_datasets:
         logger.info(f"Calculating metrics against {human}")
         EvaluationDataset.compute_metrics_total_average_by_iterations(
-            human_datasets[human], predicted_datasets, os.path.join(BASE_PATH, "src", "results", "llm", "temperature_testing_01", f"{MODEL}_vs_{human}_total.csv")
+            human_datasets[human], predicted_datasets, os.path.join(BASE_PATH, "src", "results", "llm", "temperature_testing_01", f"{MODEL}_vs_{human}_total_{postfix}.csv")
         )
         EvaluationDataset.compute_metrics_by_question_mean_std_by_iterations(
-            human_datasets[human], predicted_datasets, os.path.join(BASE_PATH, "src", "results", "llm", "temperature_testing_01", f"{MODEL}_vs_{human}_by_question.csv")
+            human_datasets[human], predicted_datasets, os.path.join(BASE_PATH, "src", "results", "llm", "temperature_testing_01", f"{MODEL}_vs_{human}_by_question_{postfix}.csv")
         )
 
     return 0
