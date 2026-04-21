@@ -22,6 +22,7 @@ from src.code.parsing.old.EvaluationDataset import EvaluationDataset
 from pydantic import ValidationError
 from pathlib import Path
 
+logger = logging.getLogger(__name__)
 ARRAY_REGEX = r'\[\s*(\{(?:[^{}]|\{[^{}]*\})*\}\s*,?\s*)+\]'
 JSON_SCHEMA = {
         "type": "array",
@@ -157,7 +158,11 @@ def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
         part = parse_full(answers, model_validation_OK=model_validation_OK)
     return was_json_good_initially, did_json_repair_help, skipped_questions, part
 
-def main(path_answer : str, path_source, dump_feedback : bool = False, postfix : str = "", skipped_rows : list = None) -> int:
+def main(path_answer : str, path_source, dump_feedback : bool = False, postfix : str = "", skipped_rows : list = None, logfile_postfix: str = "") -> int:
+
+    setup_logging(logfile_postfix)
+    logger = logging.getLogger(__name__)
+    logger.info("STARTED")
 
     with open(os.path.join(path_answer, f"stats_{postfix}.csv"), 'w', encoding='utf-8', newline='') as stats_f:
 
@@ -284,14 +289,11 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    setup_logging(args.logfile_postfix)
-    logger = logging.getLogger(__name__)
-    logger.info("STARTED")
-
     main(
         path_answer=os.path.join(BASE_PATH, args.results_path),
         path_source=os.path.join(BASE_PATH, args.data_path),
         dump_feedback=args.feedback,
         postfix=args.run_id,
-        skipped_rows=args.skip_rows
+        skipped_rows=args.skip_rows,
+        logfile_postfix=args.logfile_postfix
     )

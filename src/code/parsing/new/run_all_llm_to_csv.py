@@ -2,7 +2,7 @@ from pathlib import Path
 import logging
 
 import src.code.parsing.old.logging_config as logging_config
-from src.code.parsing.old import LLM_to_CSV
+from src.code.parsing.old import LLM_to_CSV_with_json_repair
 
 logger = logging.getLogger(__name__)
 logger.info("STARTED TRANSFORMING EACH RESPONSE FROM TEMPERATURE TESTING TO CSV")
@@ -21,11 +21,11 @@ def main() -> int:
                 continue
 
             logger.info(f"Callin LLM_to_CSV for folder: {input_dir}")
-            result = LLM_to_CSV.main(str(input_dir), str(TEXTS_DIR), dump_feedback=True)
+            result = LLM_to_CSV_with_json_repair.main(str(input_dir), str(TEXTS_DIR), dump_feedback=True, postfix="json-repair", logfile_postfix="temperature_to-csv_json-repair")
 
     logger.info("All folders processed.")
     return 0
 
-
+# python -m src.code.parsing.new.run_all_llm_to_csv
 if __name__ == "__main__":
     raise SystemExit(main())
