@@ -255,6 +255,7 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
         human2_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human2_orig.csv")
         human3_ds.load_from_csv(HUMAN_RESPONSES_DIR / "human3_orig.csv")
         human_datasets = [human1_ds, human2_ds, human3_ds]
+        #EvaluationDataset.dump_to_csv_feedback(os.path.join(path_answer, f"feedback_{postfix}.csv"), human_datasets, [datasets["gemma4-26b-q4"]], skipped_rows=skipped_rows)
         EvaluationDataset.dump_to_csv_feedback(os.path.join(path_answer, f"feedback_{postfix}.csv"), human_datasets, list(datasets.values()), skipped_rows=skipped_rows)
 
     return 0

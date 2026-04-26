@@ -20,7 +20,7 @@ from sklearn.metrics import (
 class EvaluationDataset:
 
     HEADER_data = ['Nr', 'Significance', 'State-of-the-art', 'Gap', 'Problem', 'References', 'Purpose', 'Intention', 'Structure_goal', 'Congruence', 'Outlook', 'Quantity', 'Completeness', 'Format', 'Structure_tasks', 'Clarity', 'Relevance', 'Chapters', 'Description', 'Structure_aftertasks']
-    HEADER_feedback = ['Nr', 'Question'] # dynamicaly appended with 'author_value', 'author_feedback'.
+    HEADER_feedback = ['Nr', 'Question', 'part'] # dynamicaly appended with 'author_value', 'author_feedback'.
 
     questions = [
         ("Significance",     "beforeGoal"),
@@ -633,6 +633,7 @@ class EvaluationDataset:
                     row = {} # entry to write to CSV
                     row['Nr'] = Nr
                     row['Question'] = question
+                    row['part'] = path
 
                     for h_ds in human_datasets:
                         evaluation_row = None
