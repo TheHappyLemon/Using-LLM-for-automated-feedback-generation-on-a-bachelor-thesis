@@ -46,6 +46,17 @@ mapping = {
     ]
 }
 
+#{
+#    "1": {
+#        "text": "la-la",
+#        "feedback": [
+#            {
+#                "question": "feedback"
+#            }
+#        ]
+#    }
+#}
+
 texts = {}
 
 with open(path_feedback, mode="r", newline="", encoding="utf-8") as f:
@@ -64,37 +75,50 @@ with open(path_feedback, mode="r", newline="", encoding="utf-8") as f:
         has_tasks = False
         has_aftertasks =  False
 
+        # Not efficient but I do not care
         with open(os.path.join(path_source, f"{Nr}.json"), 'r', encoding='utf-8') as source:
             source_json = json.loads(source.read())
-            has_beforegoal = source_json.get("BeforeGoal", "") != ""
-            has_goal = source_json.get("Goal", "") != ""
-            has_tasks = source_json.get("Tasks", "") != ""
-            has_aftertasks = source_json.get("AfterTasks", "") != ""
+            before_goal = source_json.get("BeforeGoal", "")
+            goal = source_json.get("Goal", "")
+            tasks = source_json.get("Tasks", "")
+            aftertasks = source_json.get("AfterTasks", "")
 
-        if answer != '1' and (answer != "5" and answer != "6" and answer != "7"):
-            text = ""
-            if part == "beforegoal" and has_beforegoal:
-                text = source_json['BeforeGoal']
-            elif part == "goal" and has_goal:
-                text = source_json['Goal']
-            elif part == "tasks" and has_tasks:
-                text = source_json['Tasks']
-            elif part == "aftertasks" and has_aftertasks:
-                text = source_json['AfterTasks']
-            if texts.get(Nr, "") == "":
-                texts[Nr] = {}
-            if texts[Nr].get(part, "") == "":
-                texts[Nr][part] = {}
-                texts[Nr][part]['lines'] = []
-                texts[Nr][part]['text'] = ""
-            #print(json.dumps(texts))
-            texts[Nr][part]['lines'].append(f"question : {question} - {feedback}\n\n")
-            texts[Nr][part]['text'] = text
+        if not Nr in texts:
+            texts[Nr] = {}
+            texts[Nr]['beforegoal'] = {}
+            texts[Nr]['goal'] = {}
+            texts[Nr]['tasks'] = {}
+            texts[Nr]['aftertasks'] = {}
+            texts[Nr]['beforegoal']['text'] = ''
+            texts[Nr]['goal']['text'] = ''
+            texts[Nr]['tasks']['text'] = ''
+            texts[Nr]['aftertasks']['text'] = ''
+            texts[Nr]['beforegoal']['feedback'] = []
+            texts[Nr]['goal']['feedback'] = []
+            texts[Nr]['tasks']['feedback'] = []
+            texts[Nr]['aftertasks']['feedback'] = []
+
+        if part == "beforegoal":
+            texts[Nr][part]['text'] = before_goal
+        elif part == "goal":
+            texts[Nr][part]['text'] = goal
+        elif part == "tasks":
+            texts[Nr][part]['text'] = tasks
+        elif part == "aftertasks":
+            texts[Nr][part]['text'] = aftertasks
+
+        # Skip positive answers
+        if answer == '1' or (question == "Quantity" and (answer == "5" or answer == "6" or answer == "7")):
+            continue
+
+        texts[Nr]['aftertasks']['feedback'].append(
+            {
+                f"{question}" : feedback
+            }
+        )
 
 os.makedirs(pats_answer, exist_ok=True)
+with open(os.path.join(pats_answer, "full.json"), 'w', encoding='utf-8') as f_w:
+    f_w.write(json.dumps(texts))
 
-for text in texts:
-    for part in texts[text]:
-        with open(os.path.join(pats_answer, f"feedback_analysis_{text}_{part}.txt"), 'w', encoding='utf-8') as f_w:
-            f_w.write(f"# TEXT = {texts[text][part]['text']}\n\n")
-            f_w.writelines(texts[text][part]['lines'])
+print(json.dumps(texts))
