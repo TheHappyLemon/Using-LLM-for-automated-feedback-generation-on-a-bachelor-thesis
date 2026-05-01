@@ -6,12 +6,13 @@ import random
 
 path_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_feedback_for_analysis.csv")
 path_source = os.path.join(BASE_PATH, "src", "data", "texts", "divided")
-pats_answer = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis")
-csv_path = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "template.csv")
+pats_answer_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01")
+pats_json_debug = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01", "full.json")
+csv_path = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01", "template.csv")
 
 def main():
 
-    os.makedirs(pats_answer, exist_ok=True)
+    os.makedirs(pats_answer_feedback, exist_ok=True)
     fieldnames = [
         "Nr",
         "Question",
@@ -77,7 +78,7 @@ def main():
                 }
             )
     # for debug
-    with open(os.path.join(pats_answer, "full.json"), 'w', encoding='utf-8') as f_w:
+    with open(pats_json_debug, 'w', encoding='utf-8') as f_w:
         f_w.write(json.dumps(texts, indent=3, ensure_ascii=True))
 
     # now prepare this in propert format for people to read
@@ -90,7 +91,10 @@ def main():
     for id in ids:
         if amount >= 90:
             break
-        amount = amount + prepare_part(id, texts[id])
+        part_amount = prepare_part(id, texts[id])
+        if part_amount == 0:
+            continue
+        amount = amount + part_amount 
         selected.append(int(id))
 
     with open(csv_path, "w", newline="", encoding="utf-8") as f_csv:
@@ -103,8 +107,7 @@ def main():
 
 def prepare_part(id, data : dict):
     counter = 0
-    text = ""
-    text = "--- BEFORE GOAL ---" + "\n" + data["beforegoal"]['text'] + "\n--- GOAL ---\n" + data["goal"]['text'] + "\n--- TASKS ---\n" + data["tasks"]['text'] + "\n--- AFTER TASKS ---\n" + data["aftertasks"]['text']
+    text_full = "--- BEFORE GOAL ---" + "\n" + data["beforegoal"]['text'] + "\n--- GOAL ---\n" + data["goal"]['text'] + "\n--- TASKS ---\n" + data["tasks"]['text'] + "\n--- AFTER TASKS ---\n" + data["aftertasks"]['text']
     BG_feedbacks_1 = data["beforegoal"]["feedback"]
     G_feedbacks_1 = data["goal"]["feedback"]
     T_feedbacks_1 = data["tasks"]["feedback"]
@@ -143,33 +146,88 @@ def prepare_part(id, data : dict):
         AT_feedbacks.append(feedback.copy())
 
     # early exit if student did not write anything
-    if text == "":
+    if text_full == "":
         return counter
     # early exit if text perfect = no negative answers = no feedback
     if len(BG_feedbacks) + len(G_feedbacks) + len(T_feedbacks) + len(AT_feedbacks) == 0:
         return counter
-    with open(os.path.join(pats_answer, f"{id}.txt"), 'w', encoding='utf-8') as f_w:
-        f_w.write("STUDENT TEXT:\n\n" + text + "\n\n--- FEDBACK ---\n\n")
-        if len(BG_feedbacks) > 0 and data["beforegoal"]['text'] != "":
-            f_w.write("Feedback for text preceding goal of the thesis\n")
+    with open(os.path.join(pats_answer_feedback, f"{id}_source.txt"), 'w', encoding='utf-8') as f_w:
+       
+        f_w.write("--- BEFORE GOAL ---")
+        f_w.write("\n")
+        if data["beforegoal"]['text'] == "":
+            f_w.write("* Not written *")
+        else:
+            f_w.write(data["beforegoal"]['text'])
+
+        f_w.write("\n")
+        f_w.write("--- GOAL ---")
+        f_w.write("\n")
+        if data["goal"]['text'] == "":
+            f_w.write("* Not written *")
+        else:
+            f_w.write(data["goal"]['text'])
+        f_w.write("\n")
+
+        f_w.write("\n")
+        f_w.write("--- TASKS ---")
+        f_w.write("\n")
+        if data["tasks"]['text'] == "":
+            f_w.write("* Not written *")
+        else:
+            f_w.write(data["tasks"]['text'])
+        f_w.write("\n")
+
+        f_w.write("\n")
+        f_w.write("--- AFTER TASKS ---")
+        f_w.write("\n")
+        if data["aftertasks"]['text'] == "":
+            f_w.write("* Not written *")
+        else:
+            f_w.write(data["aftertasks"]['text'])
+        f_w.write("\n")
+
+    with open(os.path.join(pats_answer_feedback, f"{id}_feedback.txt"), 'w', encoding='utf-8') as f_w:
+       
+        f_w.write("--- BEFORE GOAL: feedback ---")
+        f_w.write("\n")
+        if len(BG_feedbacks) == 0 or data["beforegoal"]['text'] == "":
+            f_w.write("* No feedback *")
+        else:
             for feedback in BG_feedbacks:
                 counter = counter + 1
                 f_w.write(f"{counter}) " + feedback[list(feedback.keys())[0]] + "\n")
-        if len(G_feedbacks) > 0 and data["goal"]['text'] != "":
-            f_w.write("\nFeedback for goal of the thesis\n")
+
+        f_w.write("\n")
+        f_w.write("--- GOAL: feedback ---")
+        f_w.write("\n")
+        if len(G_feedbacks) == 0 or data["goal"]['text'] == "":
+            f_w.write("* No feedback *")
+        else:
             for feedback in G_feedbacks:
                 counter = counter + 1
                 f_w.write(f"{counter}) " + feedback[list(feedback.keys())[0]] + "\n")
-        if len(T_feedbacks) > 0 and data["tasks"]['text'] != "":
-            f_w.write("\nFeedback for tasks of the thesis\n")
+
+        f_w.write("\n")
+        f_w.write("--- TASKS: feedback ---")
+        f_w.write("\n")
+        if len(T_feedbacks) == 0 or data["tasks"]['text'] == "":
+            f_w.write("* No feedback *")
+        else:
             for feedback in T_feedbacks:
                 counter = counter + 1
                 f_w.write(f"{counter}) " + feedback[list(feedback.keys())[0]] + "\n")
-        if len(AT_feedbacks) > 0 and data["aftertasks"]['text'] != "":
-            f_w.write("\nFeedback for text after tasks of the thesis\n")
+
+        f_w.write("\n")
+        f_w.write("--- AFTER TASKS: feedback ---")
+        f_w.write("\n")
+        if len(AT_feedbacks) == 0 or data["tasks"]['text'] == "":
+            f_w.write("* No feedback *")
+        else:
             for feedback in AT_feedbacks:
                 counter = counter + 1
                 f_w.write(f"{counter}) " + feedback[list(feedback.keys())[0]] + "\n")
+
 
     return counter
 # python -m src.code.parsing.new.prepare_feedback_for_analysis
