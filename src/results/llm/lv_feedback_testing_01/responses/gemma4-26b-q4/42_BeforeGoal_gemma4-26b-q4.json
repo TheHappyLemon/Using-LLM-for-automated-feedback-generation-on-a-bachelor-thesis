@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts labi argumentē tēmas aktualitāti, skaidri norādot, ka noskaņojuma analīze ir kritiski svarīga uzņēmumiem un ka LLM modeļi piedāvā jaunas iespējas salīdzinājumā ar iepriekšējām metodēm.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Teksts piemin esošās metodes (mašīnmācīšanās) un mūsdienu tehnoloģijas (GPT), taču trūkst konkrētu, zinātnisku publikāciju vai citu pētniecības darbu piemēru, kas apstiprinātu pašreizējo zinātnes līmeni šajā specifiskajā jomā.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Teksts identificē problēmu (tradicionālo metodu nespēja uztvert teksta smalkumus), taču neidentificē specifisku zinātnisku vai tehnoloģisku 'ziedu' (gap) – piemēram, vai šāda salīdzinājuma šobrīd nav veikti vai esošie salīdzinājumi ir nepilnīgi.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēma ir skaidri definēta: teksta formātā esošo datu grūtības manuāli apstrādāt un iepriekšējo modeļu ierobežojumi konteksta izpratē.",
+        "complies": true
+    },
+    {
+	"question": "References",
+        "feedback": "Tekstā ir ietverta atsauce uz ChatGPT kā rīku, taču tekstā trūkst akadēmiskas literatūras atsauču, lai uzturētu zinātnisku argumentācijas kvalitāti un apstiprinātu apgalvojumus par iepriekšējām metodēm.",
+        "complies": false
+    }
+]
+```

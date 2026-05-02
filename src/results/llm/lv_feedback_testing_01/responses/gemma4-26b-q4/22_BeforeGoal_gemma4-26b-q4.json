@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts labi argumentē tēmas aktualitāti, laigan tekstā ir skaidri definēti gan tehnoloģiskie ieguvumi drošībai, gan sociālie riski (privātums, uzraudzība), kas padara pētījumu svarīgu mūsdienu kontekstā.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Tekstā trūkst konkrētu atsauču uz zinātnisko literatūru vai specifiskiem pētījumiem. Minēta tikai vispārīga tehnoloģiju pielietojums (piemēram, FaceID), bet nav analizēts pašreizējais zinātniskais līmenis vai esošie tehnoloģiskie sasniegumi no akadēmiskā viedokļa.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Teksts identificē problēmas (datu aizsardzība, tehniskie ierobežojumi), taču nav skaidri formulēta pētniecības dobja (research gap) – nav norādīts, kas tieši nav izpētīts iepriekšējos darbos vai kāda specifiska analīzes daļa joprojām paliek neatrisināta.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēma ir definēta relatīvi skaidri – tekstā ir izkļūst, ka pētījuma mērķis ir analizēt sistēmu efektivitāti un risku (drošība pret privātumu) publiskās vidē.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Tekstā pilnībā trūkst bibliogrāfiskas atsauču vai citātu, kas atbalidzinātu apgalvojumus par tehnoloģiju attīstību, drošības riskiem vai tehniskajiem ierobežojumiem.",
+        "complies": false
+    }
+]
+```

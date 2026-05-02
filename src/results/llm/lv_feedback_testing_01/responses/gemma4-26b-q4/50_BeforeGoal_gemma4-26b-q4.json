@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts skaidri un loģiski pamato tēmas aktualitāti, izceļot mikropakalpojumu arhitektūras priekšrocības mūsdienu nozarēs (finanšu tehnoloģijas, e-komercija) un problēmu nepieciešamību.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Teksts piemin esošos rīkus un tehnoloģijas (Flask, Django, asyncio, FastAPI, Celery), taču trūkst atsauču uz specifiskiem pētījumiem, zinātniskajiem darbiem vai iepriekšējām izvērtēm, kas pierādītu zinātnisko kontekstu, nevis tikai tehnoloģisku rīku sarakstu.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Teksts identificē tehnoloģisku problēmu (sinhronās pieejas resursu patēriņš), taču neidentificē zinātnisko vai izpētes zobgalu (research gap). Nepieciegams skaidrāt, kāpēc esošās asinhronās metodes nav pietiekami izpētītas vai kāda specifika šajā izpētē nav atrisināta.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēma ir definēta relatīvi skaidri: nepieciešamība izpētīt un demonstrēt asinhrono mikropakalpojumu veidošanas risinājumus Python valodā, lai mazinātu resursu patēriņu un uzlabotu veiktspēju.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Tekstā pilnībā trūkst bibliogrāfiskām atsaucemēm vai citātiem, lai uzturētu zinātnisku argumentāciju un apstiprinātu apgalvojumus par tehnoloģiju efektivitāti vai arhitektūras tendencēm.",
+        "complies": false
+    }
+]
+```

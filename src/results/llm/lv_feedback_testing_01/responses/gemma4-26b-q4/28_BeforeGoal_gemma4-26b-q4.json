@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts ir ļoti labi uzrakstīts šajā sadaļā. Autors skaidri un pārliecinoši argumentē tēmas aktualitāti, izceļot gan sīkfailu vērtību lietotāja pieredzei, gan potenciālos draudus privātumam un drošībai mūsdienu vidē.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Tekstā ir pieminēti konkrēti tehniskie risinājumi (Secure, HttpOnly, SameSite), kas parāda zināšanas par pašreizējo situāciju, taču tekstā trūkst atsauces uz specifiskiem, publicētiem pētījumiem, zinātniskajiem darbiem vai ekspertu izvērtējumiem, kas būtu nepieciešami, lai parādītu zinātnisko kontekstu.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Teksts norāda, ka drošības mehānismus var apiet un ka metodēm pastāv, taču pētījuma zinātniskais 'sloga' (gap) nav definēts pietiekami precīzi. Nav skaidri izpētīts, kas tieši nav izpētīts iepriekšējos darbos – vai tas ir konkrēts jauns uzbrukumu veids, vai esošo mehānismu efektivitātes trūkums specifiskā scenārijā.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēma ir definēta skaidri: sīkfailu izmantošana rada drošības riskus (sesijas nolaupīšana, XSS), un nepieciešams izpētīt aizsardzības mehānismu efektivitāti pret pieaugošajiem draudiem.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Tekstā pilnībā trūkst bibliogrāfiskām atsaucemēm vai rakstiskām atsaucemēm uz avotiem. Visi apgalvojumi par drošības riskiem un mehānismu darbību ir jāpapildina ar atsauces uz literatūru vai tehniskajiem standartiem, lai tekstam būtu zinātniska vērtība.",
+        "complies": false
+    }
+]
+```

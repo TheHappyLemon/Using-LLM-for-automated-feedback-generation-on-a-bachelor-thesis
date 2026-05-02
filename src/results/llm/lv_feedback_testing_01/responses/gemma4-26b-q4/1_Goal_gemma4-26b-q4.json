@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "Mērķis ir definēts skaidri un konkrēti. Tas neizskatās pārāk vispārīgs, jo tajā ir definētas konkrētas darbības (ģenerēšana, labošana, atjaunošana) un konteksts (lietotājstāsti). Mērķa sasniegšanu ir iespējams izvērtēt, analizējot minētos procesus.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "Mērķī ir iekļauti daži procesi (piemēram, 'izvērtēti esošie risinājumi un tehnoloģijas'), kas var tikt uzskatīti par metodu vai darba gaitas aprakstu, nevis tikai rezultāta definēšanu. Ideālā gadījumā mērķim būtu jāfokusējas uz to, ko vēlas sasniegt (piemēram, testēšanas efektivitātes uzlabošanu), nevis uz to, ko darbā tiks veikts.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "Teksts nav ierobežots ar vienu teikumu; mērķis ir sastāviet no diviem atsevišķiem teikumiem. Lai uzlabotu struktūru, mērķi būtu ieteicams apvienot vienā, koncīzā teikumā, kas tieši komunikē darba būtību.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "Mērķis loģiski turpinām ievedu. Ievadā minētās problēmas (manuāla testu scenāriju atjaunošana, laika patērēšana, mainīgas prasības) tiek tieši adresētas mērķī. Tomēr mērķī parādās papildu jēdziens 'mašīnmācīšanās modeļi', kas ievadā nav tieši izcelti kā atsevišķs papildinājums pie AI, lai gan tas ir loģiski saistāms.",
+        "complies": true
+    }
+]
+```

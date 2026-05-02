@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts ļoti skaidri un pārliecinoši argumentē tēmas aktualitāti, izmantojot statistiskos datus par pieaugošo atkritumu apjomu un to negatīvo ietekmi uz vidi. Problema ir skaidri definēta globālā kontekstā.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Autors demonstrē zināšanas par esošo tehnoloģiju statusu, pieminot neironu tīklus un datorredzes metodes. Tomēr citētais avots (10.3390/mi14112047, 2023) ir DOI numurs, nevis akadēmiska atsauce formātā, kas var radīt neprofesionālu iespaidu.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "Teksts identificē manuālās šķirošanas trūkumus (lēts, lēns, kļūdainds), taču neidentificē specifisku zinātnisku 'sloga' (gap) pašā mašīnmācīšanās algoritmu jomā. Nepieciešams precizēt, kas tieši nav izpētīts šajos algoritmu pētījumos (piemēram, ātruma trūkums vai precizitātes ierobežojumi konkrētos apstākļos).",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēma ir definēta skaidri: nepieciešamība pēc automatizētu sistēmu, kas spētu ātri un precīzi klasificēt atkritumus, lai palielinātu pārstrādes līmeni.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Atsauces ir iekļautas, taču tās ir formētas nepareizi. Izmantoti DOI numuri un nepareizi formēti tekstā iekļauti avoti (piemēram, 'worldbank, 2018' un DOI numurs kā teksts). Jāievēro konkrētā universitātes noformēšanas standarts (piemēram, APA vai IEEE).",
+        "complies": false
+    }
+]
+```

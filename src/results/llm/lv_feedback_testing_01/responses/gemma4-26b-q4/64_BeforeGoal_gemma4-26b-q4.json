@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts ir ļoti labi uzrakstīts šajā sadaļā. Autors skaidri un pārliecinoši argumentē tēmas aktualitāti, izceļot Java valodas nozīmi un drazu savākšanas ietekmi uz sistēmas veiktspēju un resursu patēriņu.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Tekstā trūkst konkrētu atsauču uz publikētiem pētījumiem vai aktuālu zinātnisko darbu, kas aprakstītu pašreizējo situāciju šajā jomā. Lai gan pieminēti konkrēti algoritmi (piemēram, Serial GC, Parallel GC), tekstā nav norādīts, kādas iepriekšējās izpētes vai salīdzinājumi jau ir veikti.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Teksts identificē problēmu (veiktspējas zemināšana un 'Stop-The-World' pauzes), taču neidentificē zinātnisko vai pētniecības 'slogo' (gap). Autors norāda, ka ir lietderīgi izpētīt algoritmus, bet neprecizē, kas tieši nav izpētīts vai kur ir nepietojamība esošajās zinātniskajās zināšanās.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēmas nostādne ir skaidri definēta. Autors precīzi norāda uz konfliktu starp automatizēto atmiņas pārvaldību un nepieciešamību pēc augstas veiktspējas bez ilgām pauzēm izpildes procesā.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Tekstā pilnībā trūkst bibliogrāfiskā atsaujumu (citātu) sniegšanai. Visi apgalvojumi par algoritmu darbību un to ietekmi uz veiktspēmi ir jāapstiprina ar atsauces uz literatūru vai dokumentāciju, lai tekstam būtu zinātniska vērtība.",
+        "complies": false
+    }
+]
+```

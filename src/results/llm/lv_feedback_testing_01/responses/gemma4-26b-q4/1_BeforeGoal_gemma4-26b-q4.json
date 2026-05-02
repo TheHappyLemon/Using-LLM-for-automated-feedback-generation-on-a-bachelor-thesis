@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts labi argumentē tēmas aktualitāti, skaidri norādot uz manuālas testēšanas laikietilpīgumu un nepieciešamību pēc automatizācijas mūsdienu dinamiskajā izstrādes vidē.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Tekstā trūkst konkrētu atsaujumu uz esošajām zinātniskajām publikācijām vai specifiskiem rīkiem/metodēm, kas šobrīd tiek izmantoti šajā jomā. Teksts ir pārāk vispārīgs un neidentificē pašreizējās tehnoloģiju līmeni ar konkrētiem piemēriem.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Lai gan tekstā ir identificēta praktiskā problēma (testa scenāriju apkope), zinātniskais gaps (apaudzis) nav definēts precīzi, balstoties uz literatūras apskatu. Nav skaidri norādīts, kas tieši nav izpētīts mākslīgā intelekta lietojumā nepārtrauktās testēšanas kontekstā.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēma ir skaidri identificējama: manuālā testu scenāriju izveide un apkope palēnina izstrādes procesu, kas traucē efektīvai nepārtrauktajai testēšanai.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Tekstā pilnībā trūkst bibliogrāfiskām atsaujēm vai citātiem, lai uzturētu akadēmisku integritāti un apstiprinātu apakšējos faktos minētos apgalvojumus par nozares tendencēm.",
+        "complies": false
+    }
+]
+```

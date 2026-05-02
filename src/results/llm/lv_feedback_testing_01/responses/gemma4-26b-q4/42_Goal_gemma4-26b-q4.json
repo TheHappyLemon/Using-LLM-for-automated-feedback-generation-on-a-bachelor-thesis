@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "Mērķis ir definēts skaidri un mērītami. Tas ne tikai nosaka, ko studentam ir jāizpēta (LLM iespējas noskaņojuma analīzē), bet arī norāda uz konkrētu rezultātu – metodu salīdzināšanu, kas ļauj noteikt, vai mērķis ir sasniegts.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "Mērķis ir orientēts uz rezultātu (izvērtēt efektivitāti), taču tekstā ir iekļauti arī procesa elementi (salīdzināšana metodu), kas nedaudz papludinā ir ar metodoloģisko aprakstu. Tomēr tas nav kritiski, jo mērķis joprojām saglabā fokusu uz galveno izpētes objektu.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Mērķa teksts sastāv no divām garām teikumiem. Lai teksts būtu strukturāli ideāli, mērķi būtu ieteicams formulēt kā vienu, koncentētu teikumu, izvairoties no papildus skaidrojumiem par uzmanības pievēršanu konkrētai daļai.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "Mērķis loģiski turpina ievedu. Ievadā minētie problēmas (tradicionālo metodu nespēja uztvert teksta smalkumus un LLM jaunas iespējas) tieši tiek risināti mērķī, paredzot metodu salīdzināšanu. Viss mērķī minētais (klientu atsauksmes, LLM, salīdzināšana) ir iepriekš sastāvējies.",
+        "complies": true
+    }
+]
+```

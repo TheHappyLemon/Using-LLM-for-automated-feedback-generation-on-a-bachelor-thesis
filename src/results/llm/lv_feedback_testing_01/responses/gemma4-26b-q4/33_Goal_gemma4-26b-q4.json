@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "Mērķis ir definēts skaidri un ir mērāms, jo tas paredz risinājuma izstrādi. Tomēr frāze \"pārtraukumu novēršanas risinājumu\" ir nedaudz vispārīga; būtu vēl precīzāk norādīt, vai tas ir praktisks eksperiments, prototips vai arhitektūras modelis.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "Mērķis nepareizi koncentrējas uz metodēm, nevis rezultātu. Tekstā mērķis ir definēts caur specifiskām stratēģijām (Blue-Green un Canary), kas patiesībā ir rīki/metodes, nevis pats mērķa sasniegšanas rezultāts. Mērķim būtu jāfokusējas uz servisa pieejamības uzlabošanu vai stabilitātes nodrošināšanu.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "Struktūra ir pareiza; mērķis ir izteikts ar vienu skaidru un kodolīgu teikumu.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "Mērķis loģiski turpinās no ieveda, jo ievedā jau ir pieminētas problēmas ar pārtraukumiem un šīs specifiskās stratēģijas kā risinājums. Visi mērķī minētie elementi (pārtraukumi, Blue-Green, Canary, DevOps) ir iepriekš sastopami tekstā, nodrošinot saskaņotību.",
+        "complies": true
+    }
+]
+```

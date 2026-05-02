@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "Uzdevumi ir sakārtoti skaidrā, numurētas saraksta formā.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "6",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "Teksts apraksta teorijas izpēti un programmatūras izstrādi, taču validācijas posms ir nepilnīgs. Testēšana (6. uzdevums) nav pietiekama validācijai; nepieciešams salīdzināt rezultātus ar esošajiem risinājumiem vai pierādīt, ka izstrādātā programmatūra tiešām risina identificētos drošības trūkumus.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Katrs uzdevums ir izmantots kā viena teikums, neaizņemot vairākus teikumus.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Uzdevumi konsekventi sāks tiekrīgas darbības vārdi (infinitīva veids latviešu valodā: izpētīt, izstrādāt, pārbaudīt).",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Uzdevumi ir formulēti skaidri, izmantojot precīzu un saprotamu terminoloģiju.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "Uzdevumu secība loģiski noved pie mērķa sasniegšanas (izpēte -> tehnoloģiju izvēle -> izstrāde -> testēšana), taču trūkst loģiskā saiknes starp testēšanu un mērķa pilnīgu apstiprināšanu (validāciju) pret iepriekš izpētītajām problēmām.",
+        "complies": false
+    }
+]
+```

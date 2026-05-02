@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "Teksts nav organizēts numerētas saraksta formātā; uzdevumi ir apvienoti vienā tekstā.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "4",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "Teksts apraksta izpēti, izstrādi un testēšanu, taču trūkst validācijas procesa apraksta (salīdzinājuma ar esošām lietotnēm vai problēmas risinājuma pierādīšanas ar eksistējošām metodēm).",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Teksts satur vairākus uzdevumus vienā teikumā, nevis atsevišķus, vienā teikumā aprakstītus uzdevumus.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "Teikumu sākumā nav izmantoti infinitīvi (piemēram, 'izpētīt', 'izstrādāt'), instead, izmantoti darbības vārdi personīgā formā ('es izpētīšu', 'es izveidošu').",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Teksts ir saprotams un skaidrs, taču tas ir pārāk apvienots vienā garā teikumā.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "Uzdevumi atbilst mērķim, jo ietver tehnoloģiju izpēti, izstrādi un potenciāla novērtēšanu, taču trūkst tiešā validācijas posma.",
+        "complies": true
+    }
+]
+```

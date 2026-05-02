@@ -1,0 +1,30 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts labi pamato tēmas aktualitāti, uzsverot YAML popularitāti un potenciālos riskus (kļūdas konfigurācijā), kas padara izpēti par svarīgu praktisku rīku izstrādātājiem.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Tekstā trūkst akadēmiskas literatūras vai specifisku pētījumu piemēru. Lai gan pieminētas konkrētas bibliotēkas (PyYAML, js-yaml), nav citēti iepriekšēji izpētes darbi vai salīdzinājumi, kas parādītu pašreizējo zinātnisko zināšanu līmeni šajā jomā.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Teksts neidentificē zinātnisku vai metodoloģisku 'sverošo jautājumu' (gap). Autors norāda, ka ir nepieciešams salīdzinājums, bet neargumentē, kāpēc iepriekšējie salīdzinājumi nav pietiekami vai kāpēc tie nav pieejami/aktuāli.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēma ir definēta skaidri: nepieciešamība pēc datu un efektivitātes salīdzinājuma dažādās programmēšanas valodās, lai optimizētu YAML apstrādes procesu.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Tekstā pilnībā trūkst atsauces uz literatūru vai citātiem, lai uzturētu akadēmisku integritāti un apstiprinātu apgalvojumus par YAML popularitāti vai iepriekšējām metodēm.",
+        "complies": false
+    }
+
+]
+```

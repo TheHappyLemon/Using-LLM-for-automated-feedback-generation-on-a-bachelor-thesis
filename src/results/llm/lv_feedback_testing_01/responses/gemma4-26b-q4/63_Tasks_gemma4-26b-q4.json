@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "Uzdevumi ir sakārtoti skaidri atšķirtā numerētajā sarakstā.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "5",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "Teksts apraksta pētījuma procesa posmus (izpēte, izstrāde, testēšana), taču trūkst skaidras validācijas posma, kas ietvertu izstrādātā risinājuma salīdzināšanu ar esošajiem risinājumiem vai pierādīšanu, ka tas risina konkrētu problēmu.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Katrs uzdevums ir izvirzīts kā atsevišķs, viens teikums gars fragments.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "Uzdevumi sāk się ar infinitīva darbības vārdus (izpētīt, izplānot, izveidot, testēt), kas ir atbilstoši.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "Uzdevumi ir formulēti īsi, skaidri un precīzi.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "Uzdevumu secība loģiski noved pie mērķa sasniegšanas (izpēte -> plānošana -> izstrāde -> testēšana), taču, kā minēts iepriekš, trūkst validācijas posma, lai pilnībā sasniegtu mērķi par programmatūras izstrādi ar rezultātu pierādīšanu.",
+        "complies": false
+    }
+]
+```

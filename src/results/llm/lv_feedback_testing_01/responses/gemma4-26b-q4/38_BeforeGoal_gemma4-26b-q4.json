@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts ir ļoti pārliecinoši uzrakstīts. Autors skaidri definē digitālās transformācijas kontekstu un argumentē, kāpēc asinhronā programmēšana ir kritiski svarīga mūsdienu sistēmu veiktspējam un mērogojamumam.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Teksts demonstrē labu zināšanas līmeni, citējot aktuālus pētījumus (2023-2025) un pieminot specifiskas tehnoloģijas (CompletableFuture, Akka, asyncio). Tas parāda, ka autors orientējas mūsdienu tehnoloģiju attīstībā.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "Šis ir teksts vājākais punkts. Lai gan autors uzsver pieejas nozīmību, tekstā nav skaidri formulēts pētījuma 'ziedojums' (gap) – piemēram, ka esošie salīdzinājumi nav pietiekami detalizēti vai nav veikti specifiski testējumi noteiktos scenārijos. Nepieciešams norādīt, kas tieši joprojām nav izpētīts.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Teksts apraksta asinhronās programmēšanas priekšrocības un pielietojumu, taču neidentificē konkrētu problēmu, ko šis pētījums risinās. Tā kā tēma ir 'salīdzināms pētījums', problēma būtu jāformulē kā nepieciešamība pēc objektīvas veiktspējas salīdzinājuma starp Java un Python modeļiem.",
+        "compls": false
+    },
+    {
+        "question": "References",
+        "feedback": "Referenču izmantošana ir izcila. Autors precīzi citē avotus, lai atbalstītu apgalvojumus par tehnoloģijām un specifiskiem lietojuma scenārijiem, kas piešķir tekstam akadēmisku kredibilitāti.",
+        "complies": true
+    }
+]
+```

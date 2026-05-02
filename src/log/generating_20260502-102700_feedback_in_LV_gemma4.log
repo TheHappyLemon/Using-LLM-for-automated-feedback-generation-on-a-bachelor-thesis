@@ -1,0 +1,549 @@
+2026-05-02 10:27:01,051 - __main__ - INFO - STARTED GENERATING RESPONSES WITH FEEDBACK IN LATVIAN LANGUGE
+2026-05-02 10:27:01,051 - src.code.functions - INFO - Imported prompt: REFINE_BEFORE_GOAL
+2026-05-02 10:27:01,051 - src.code.functions - INFO - Imported prompt: REFINE_GOAL_WITH_PRECEDING_TEXT
+2026-05-02 10:27:01,051 - src.code.functions - INFO - Imported prompt: REFINE_GOAL_WITHOUT_PRECEDING_TEXT
+2026-05-02 10:27:01,051 - src.code.functions - INFO - Imported prompt: REFINE_TASKS_WITH_GOAL
+2026-05-02 10:27:01,052 - src.code.functions - INFO - Imported prompt: REFINE_TASKS_WITHOUT_GOAL
+2026-05-02 10:27:01,052 - src.code.functions - INFO - Imported prompt: REFINE_AFTER_TASKS
+2026-05-02 10:27:01,060 - src.code.functions - INFO - get_texts executed
+2026-05-02 10:27:01,062 - src.code.functions - INFO - get_topics executed
+2026-05-02 10:27:01,063 - src.code.functions - INFO - prepare_prompts executed
+2026-05-02 10:27:01,097 - src.code.functions - INFO - used prompts saved to D:\repos\Using-LLM-for-automated-feedback-generation-on-a-bachelor-thesis\src\results\llm\lv_feedback_testing_01\prompts\
+2026-05-02 10:27:01,097 - __main__ - INFO - START PROMPTING 
+2026-05-02 10:27:01,097 - __main__ - INFO - Working on model 'gemma4-26b-q4'.
+2026-05-02 10:27:01,097 - __main__ - INFO - Text Nr. 1
+2026-05-02 10:27:01,097 - __main__ - INFO - BeforeGoal
+2026-05-02 10:27:01,097 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:27:15,293 - __main__ - INFO - Goal
+2026-05-02 10:27:15,294 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:27:23,309 - __main__ - INFO - Tasks
+2026-05-02 10:27:23,310 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:27:29,896 - __main__ - INFO - AfterTasks
+2026-05-02 10:27:29,897 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:27:33,701 - __main__ - INFO - Text Nr. 2
+2026-05-02 10:27:33,702 - __main__ - INFO - BeforeGoal
+2026-05-02 10:27:33,702 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:27:40,594 - __main__ - INFO - Goal
+2026-05-02 10:27:40,594 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:27:46,295 - __main__ - INFO - Tasks
+2026-05-02 10:27:46,295 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:27:52,589 - __main__ - INFO - AfterTasks
+2026-05-02 10:27:52,590 - __main__ - INFO - Text Nr. 3
+2026-05-02 10:27:52,590 - __main__ - INFO - BeforeGoal
+2026-05-02 10:27:52,590 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:28:00,237 - __main__ - INFO - Goal
+2026-05-02 10:28:00,239 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:28:05,458 - __main__ - INFO - Tasks
+2026-05-02 10:28:05,459 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:28:12,035 - __main__ - INFO - AfterTasks
+2026-05-02 10:28:12,036 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:28:15,787 - __main__ - INFO - Text Nr. 4
+2026-05-02 10:28:15,788 - __main__ - INFO - BeforeGoal
+2026-05-02 10:28:15,789 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:28:25,274 - __main__ - INFO - Goal
+2026-05-02 10:28:25,274 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:28:31,903 - __main__ - INFO - Tasks
+2026-05-02 10:28:31,904 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:28:38,226 - __main__ - INFO - AfterTasks
+2026-05-02 10:28:38,227 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:28:43,096 - __main__ - INFO - Text Nr. 5
+2026-05-02 10:28:43,096 - __main__ - INFO - BeforeGoal
+2026-05-02 10:28:43,097 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:28:52,136 - __main__ - INFO - Goal
+2026-05-02 10:28:52,136 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:28:58,310 - __main__ - INFO - Tasks
+2026-05-02 10:28:58,311 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:29:04,808 - __main__ - INFO - AfterTasks
+2026-05-02 10:29:04,808 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:29:08,653 - __main__ - INFO - Text Nr. 6
+2026-05-02 10:29:08,654 - __main__ - INFO - BeforeGoal
+2026-05-02 10:29:08,654 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:29:16,115 - __main__ - INFO - Goal
+2026-05-02 10:29:16,116 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:29:21,796 - __main__ - INFO - Tasks
+2026-05-02 10:29:21,796 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:29:28,150 - __main__ - INFO - AfterTasks
+2026-05-02 10:29:28,150 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:29:31,645 - __main__ - INFO - Text Nr. 7
+2026-05-02 10:29:31,646 - __main__ - INFO - BeforeGoal
+2026-05-02 10:29:31,646 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:29:40,398 - __main__ - INFO - Goal
+2026-05-02 10:29:40,399 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:29:46,020 - __main__ - INFO - Tasks
+2026-05-02 10:29:46,020 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:29:51,961 - __main__ - INFO - AfterTasks
+2026-05-02 10:29:51,961 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:29:56,138 - __main__ - INFO - Text Nr. 8
+2026-05-02 10:29:56,138 - __main__ - INFO - BeforeGoal
+2026-05-02 10:29:56,138 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:30:03,616 - __main__ - INFO - Goal
+2026-05-02 10:30:03,617 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:30:09,687 - __main__ - INFO - Tasks
+2026-05-02 10:30:09,688 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:30:15,985 - __main__ - INFO - AfterTasks
+2026-05-02 10:30:15,986 - __main__ - INFO - Text Nr. 9
+2026-05-02 10:30:15,986 - __main__ - INFO - BeforeGoal
+2026-05-02 10:30:15,986 - __main__ - INFO - Goal
+2026-05-02 10:30:15,987 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:30:20,422 - __main__ - INFO - Tasks
+2026-05-02 10:30:20,423 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:30:27,349 - __main__ - INFO - AfterTasks
+2026-05-02 10:30:27,350 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:30:31,190 - __main__ - INFO - Text Nr. 10
+2026-05-02 10:30:31,190 - __main__ - INFO - BeforeGoal
+2026-05-02 10:30:31,191 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:30:37,780 - __main__ - INFO - Goal
+2026-05-02 10:30:37,781 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:30:43,674 - __main__ - INFO - Tasks
+2026-05-02 10:30:43,675 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:30:50,051 - __main__ - INFO - AfterTasks
+2026-05-02 10:30:50,052 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:30:53,452 - __main__ - INFO - Text Nr. 11
+2026-05-02 10:30:53,453 - __main__ - INFO - BeforeGoal
+2026-05-02 10:30:53,453 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:31:00,464 - __main__ - INFO - Goal
+2026-05-02 10:31:00,464 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:31:06,794 - __main__ - INFO - Tasks
+2026-05-02 10:31:06,795 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:31:13,724 - __main__ - INFO - AfterTasks
+2026-05-02 10:31:13,725 - __main__ - INFO - Text Nr. 12
+2026-05-02 10:31:13,725 - __main__ - INFO - BeforeGoal
+2026-05-02 10:31:13,725 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:31:22,001 - __main__ - INFO - Goal
+2026-05-02 10:31:22,002 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:31:27,804 - __main__ - INFO - Tasks
+2026-05-02 10:31:27,804 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:31:33,992 - __main__ - INFO - AfterTasks
+2026-05-02 10:31:33,992 - __main__ - INFO - Text Nr. 13
+2026-05-02 10:31:33,993 - __main__ - INFO - BeforeGoal
+2026-05-02 10:31:33,993 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:31:40,952 - __main__ - INFO - Goal
+2026-05-02 10:31:40,952 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:31:47,177 - __main__ - INFO - Tasks
+2026-05-02 10:31:47,177 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:31:53,366 - __main__ - INFO - AfterTasks
+2026-05-02 10:31:53,366 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:31:56,236 - __main__ - INFO - Text Nr. 14
+2026-05-02 10:31:56,236 - __main__ - INFO - BeforeGoal
+2026-05-02 10:31:56,236 - __main__ - INFO - Goal
+2026-05-02 10:31:56,237 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:32:00,541 - __main__ - INFO - Tasks
+2026-05-02 10:32:00,541 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:32:06,828 - __main__ - INFO - AfterTasks
+2026-05-02 10:32:06,829 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:32:11,327 - __main__ - INFO - Text Nr. 15
+2026-05-02 10:32:11,327 - __main__ - INFO - BeforeGoal
+2026-05-02 10:32:11,327 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:32:18,419 - __main__ - INFO - Goal
+2026-05-02 10:32:18,421 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:32:24,040 - __main__ - INFO - Tasks
+2026-05-02 10:32:24,041 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:32:30,113 - __main__ - INFO - AfterTasks
+2026-05-02 10:32:30,114 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:32:33,963 - __main__ - INFO - Text Nr. 16
+2026-05-02 10:32:33,964 - __main__ - INFO - BeforeGoal
+2026-05-02 10:32:33,964 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:32:41,925 - __main__ - INFO - Goal
+2026-05-02 10:32:41,926 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:32:48,538 - __main__ - INFO - Tasks
+2026-05-02 10:32:48,539 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:32:55,540 - __main__ - INFO - AfterTasks
+2026-05-02 10:32:55,540 - __main__ - INFO - Text Nr. 17
+2026-05-02 10:32:55,540 - __main__ - INFO - BeforeGoal
+2026-05-02 10:32:55,541 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:33:02,895 - __main__ - INFO - Goal
+2026-05-02 10:33:02,896 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:33:08,297 - __main__ - INFO - Tasks
+2026-05-02 10:33:08,297 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:33:14,902 - __main__ - INFO - AfterTasks
+2026-05-02 10:33:14,903 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:33:18,658 - __main__ - INFO - Text Nr. 18
+2026-05-02 10:33:18,659 - __main__ - INFO - BeforeGoal
+2026-05-02 10:33:18,659 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:33:28,395 - __main__ - INFO - Goal
+2026-05-02 10:33:28,396 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:33:36,377 - __main__ - INFO - Tasks
+2026-05-02 10:33:36,378 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:33:42,840 - __main__ - INFO - AfterTasks
+2026-05-02 10:33:42,841 - __main__ - INFO - Text Nr. 19
+2026-05-02 10:33:42,841 - __main__ - INFO - BeforeGoal
+2026-05-02 10:33:42,841 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:33:50,133 - __main__ - INFO - Goal
+2026-05-02 10:33:50,134 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:33:56,979 - __main__ - INFO - Tasks
+2026-05-02 10:33:56,979 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:34:03,480 - __main__ - INFO - AfterTasks
+2026-05-02 10:34:03,480 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:34:06,793 - __main__ - INFO - Text Nr. 20
+2026-05-02 10:34:06,793 - __main__ - INFO - BeforeGoal
+2026-05-02 10:34:06,794 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:34:14,912 - __main__ - INFO - Goal
+2026-05-02 10:34:14,913 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:34:20,111 - __main__ - INFO - Tasks
+2026-05-02 10:34:20,112 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:34:26,310 - __main__ - INFO - AfterTasks
+2026-05-02 10:34:26,311 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:34:29,838 - __main__ - INFO - Text Nr. 21
+2026-05-02 10:34:29,838 - __main__ - INFO - BeforeGoal
+2026-05-02 10:34:29,839 - __main__ - INFO - Goal
+2026-05-02 10:34:29,839 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:34:33,539 - __main__ - INFO - Tasks
+2026-05-02 10:34:33,540 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:34:39,794 - __main__ - INFO - AfterTasks
+2026-05-02 10:34:39,795 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:34:46,058 - __main__ - INFO - Text Nr. 22
+2026-05-02 10:34:46,059 - __main__ - INFO - BeforeGoal
+2026-05-02 10:34:46,059 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:34:53,843 - __main__ - INFO - Goal
+2026-05-02 10:34:53,845 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:35:00,648 - __main__ - INFO - Tasks
+2026-05-02 10:35:00,649 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:35:07,726 - __main__ - INFO - AfterTasks
+2026-05-02 10:35:07,727 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:35:11,501 - __main__ - INFO - Text Nr. 23
+2026-05-02 10:35:11,502 - __main__ - INFO - BeforeGoal
+2026-05-02 10:35:11,503 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:35:19,991 - __main__ - INFO - Goal
+2026-05-02 10:35:19,992 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:35:27,372 - __main__ - INFO - Tasks
+2026-05-02 10:35:27,372 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:35:33,923 - __main__ - INFO - AfterTasks
+2026-05-02 10:35:33,924 - __main__ - INFO - Text Nr. 24
+2026-05-02 10:35:33,924 - __main__ - INFO - BeforeGoal
+2026-05-02 10:35:33,924 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:35:41,419 - __main__ - INFO - Goal
+2026-05-02 10:35:41,419 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:35:47,282 - __main__ - INFO - Tasks
+2026-05-02 10:35:47,282 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:35:53,246 - __main__ - INFO - AfterTasks
+2026-05-02 10:35:53,246 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:35:56,532 - __main__ - INFO - Text Nr. 25
+2026-05-02 10:35:56,533 - __main__ - INFO - BeforeGoal
+2026-05-02 10:35:56,533 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:36:03,513 - __main__ - INFO - Goal
+2026-05-02 10:36:03,513 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:36:09,677 - __main__ - INFO - Tasks
+2026-05-02 10:36:09,679 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:36:16,829 - __main__ - INFO - AfterTasks
+2026-05-02 10:36:16,831 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:36:21,064 - __main__ - INFO - Text Nr. 26
+2026-05-02 10:36:21,065 - __main__ - INFO - BeforeGoal
+2026-05-02 10:36:21,066 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:36:29,938 - __main__ - INFO - Goal
+2026-05-02 10:36:29,940 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:36:37,008 - __main__ - INFO - Tasks
+2026-05-02 10:36:37,012 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:36:43,431 - __main__ - INFO - AfterTasks
+2026-05-02 10:36:43,433 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:36:47,714 - __main__ - INFO - Text Nr. 27
+2026-05-02 10:36:47,718 - __main__ - INFO - BeforeGoal
+2026-05-02 10:36:47,719 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:36:52,905 - __main__ - INFO - Goal
+2026-05-02 10:36:52,906 - __main__ - INFO - Tasks
+2026-05-02 10:36:52,906 - __main__ - INFO - AfterTasks
+2026-05-02 10:36:52,906 - __main__ - INFO - Text Nr. 28
+2026-05-02 10:36:52,907 - __main__ - INFO - BeforeGoal
+2026-05-02 10:36:52,907 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:37:01,976 - __main__ - INFO - Goal
+2026-05-02 10:37:01,977 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:37:07,846 - __main__ - INFO - Tasks
+2026-05-02 10:37:07,847 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:37:14,206 - __main__ - INFO - AfterTasks
+2026-05-02 10:37:14,208 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:37:18,296 - __main__ - INFO - Text Nr. 29
+2026-05-02 10:37:18,299 - __main__ - INFO - BeforeGoal
+2026-05-02 10:37:18,300 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:37:27,052 - __main__ - INFO - Goal
+2026-05-02 10:37:27,053 - __main__ - INFO - Tasks
+2026-05-02 10:37:27,053 - __main__ - INFO - AfterTasks
+2026-05-02 10:37:27,053 - __main__ - INFO - Text Nr. 30
+2026-05-02 10:37:27,053 - __main__ - INFO - BeforeGoal
+2026-05-02 10:37:27,054 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:37:34,119 - __main__ - INFO - Goal
+2026-05-02 10:37:34,120 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:37:39,865 - __main__ - INFO - Tasks
+2026-05-02 10:37:39,866 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:37:46,256 - __main__ - INFO - AfterTasks
+2026-05-02 10:37:46,257 - __main__ - INFO - Text Nr. 31
+2026-05-02 10:37:46,257 - __main__ - INFO - BeforeGoal
+2026-05-02 10:37:46,258 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:37:54,339 - __main__ - INFO - Goal
+2026-05-02 10:37:54,340 - __main__ - INFO - Tasks
+2026-05-02 10:37:54,340 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:37:59,814 - __main__ - INFO - AfterTasks
+2026-05-02 10:37:59,814 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:38:03,791 - __main__ - INFO - Text Nr. 32
+2026-05-02 10:38:03,792 - __main__ - INFO - BeforeGoal
+2026-05-02 10:38:03,793 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:38:10,724 - __main__ - INFO - Goal
+2026-05-02 10:38:10,725 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:38:17,186 - __main__ - INFO - Tasks
+2026-05-02 10:38:17,187 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:38:23,838 - __main__ - INFO - AfterTasks
+2026-05-02 10:38:23,839 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:38:27,363 - __main__ - INFO - Text Nr. 33
+2026-05-02 10:38:27,363 - __main__ - INFO - BeforeGoal
+2026-05-02 10:38:27,363 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:38:35,510 - __main__ - INFO - Goal
+2026-05-02 10:38:35,511 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:38:42,159 - __main__ - INFO - Tasks
+2026-05-02 10:38:42,159 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:38:48,672 - __main__ - INFO - AfterTasks
+2026-05-02 10:38:48,673 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:38:51,901 - __main__ - INFO - Text Nr. 34
+2026-05-02 10:38:51,901 - __main__ - INFO - BeforeGoal
+2026-05-02 10:38:51,902 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:38:59,138 - __main__ - INFO - Goal
+2026-05-02 10:38:59,139 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:39:04,873 - __main__ - INFO - Tasks
+2026-05-02 10:39:04,874 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:39:11,321 - __main__ - INFO - AfterTasks
+2026-05-02 10:39:11,322 - __main__ - INFO - Text Nr. 35
+2026-05-02 10:39:11,322 - __main__ - INFO - BeforeGoal
+2026-05-02 10:39:11,322 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:39:20,291 - __main__ - INFO - Goal
+2026-05-02 10:39:20,292 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:39:26,244 - __main__ - INFO - Tasks
+2026-05-02 10:39:26,245 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:39:32,778 - __main__ - INFO - AfterTasks
+2026-05-02 10:39:32,778 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:39:36,382 - __main__ - INFO - Text Nr. 36
+2026-05-02 10:39:36,383 - __main__ - INFO - BeforeGoal
+2026-05-02 10:39:36,383 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:39:44,734 - __main__ - INFO - Goal
+2026-05-02 10:39:44,735 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:39:50,768 - __main__ - INFO - Tasks
+2026-05-02 10:39:50,769 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:39:56,970 - __main__ - INFO - AfterTasks
+2026-05-02 10:39:56,971 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:40:01,160 - __main__ - INFO - Text Nr. 37
+2026-05-02 10:40:01,160 - __main__ - INFO - BeforeGoal
+2026-05-02 10:40:01,161 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:40:09,263 - __main__ - INFO - Goal
+2026-05-02 10:40:09,264 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:40:15,936 - __main__ - INFO - Tasks
+2026-05-02 10:40:15,937 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:40:22,406 - __main__ - INFO - AfterTasks
+2026-05-02 10:40:22,407 - __main__ - INFO - Text Nr. 38
+2026-05-02 10:40:22,407 - __main__ - INFO - BeforeGoal
+2026-05-02 10:40:22,407 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:40:30,899 - __main__ - INFO - Goal
+2026-05-02 10:40:30,900 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:40:37,622 - __main__ - INFO - Tasks
+2026-05-02 10:40:37,623 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:40:43,537 - __main__ - INFO - AfterTasks
+2026-05-02 10:40:43,538 - __main__ - INFO - Text Nr. 39
+2026-05-02 10:40:43,538 - __main__ - INFO - BeforeGoal
+2026-05-02 10:40:43,538 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:40:51,925 - __main__ - INFO - Goal
+2026-05-02 10:40:51,926 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:40:57,165 - __main__ - INFO - Tasks
+2026-05-02 10:40:57,166 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:41:03,550 - __main__ - INFO - AfterTasks
+2026-05-02 10:41:03,551 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:41:06,467 - __main__ - INFO - Text Nr. 40
+2026-05-02 10:41:06,467 - __main__ - INFO - BeforeGoal
+2026-05-02 10:41:06,467 - __main__ - INFO - Goal
+2026-05-02 10:41:06,467 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:41:10,869 - __main__ - INFO - Tasks
+2026-05-02 10:41:10,870 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:41:25,934 - __main__ - INFO - AfterTasks
+2026-05-02 10:41:25,935 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:41:30,214 - __main__ - INFO - Text Nr. 41
+2026-05-02 10:41:30,214 - __main__ - INFO - BeforeGoal
+2026-05-02 10:41:30,215 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:41:38,676 - __main__ - INFO - Goal
+2026-05-02 10:41:38,676 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:41:44,794 - __main__ - INFO - Tasks
+2026-05-02 10:41:44,795 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:41:51,808 - __main__ - INFO - AfterTasks
+2026-05-02 10:41:51,809 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:41:55,369 - __main__ - INFO - Text Nr. 42
+2026-05-02 10:41:55,370 - __main__ - INFO - BeforeGoal
+2026-05-02 10:41:55,370 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:42:03,043 - __main__ - INFO - Goal
+2026-05-02 10:42:03,044 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:42:10,362 - __main__ - INFO - Tasks
+2026-05-02 10:42:10,363 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:42:16,878 - __main__ - INFO - AfterTasks
+2026-05-02 10:42:16,878 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:42:20,902 - __main__ - INFO - Text Nr. 43
+2026-05-02 10:42:20,903 - __main__ - INFO - BeforeGoal
+2026-05-02 10:42:20,903 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:42:28,983 - __main__ - INFO - Goal
+2026-05-02 10:42:28,984 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:42:35,066 - __main__ - INFO - Tasks
+2026-05-02 10:42:35,067 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:42:41,282 - __main__ - INFO - AfterTasks
+2026-05-02 10:42:41,282 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:42:44,975 - __main__ - INFO - Text Nr. 44
+2026-05-02 10:42:44,975 - __main__ - INFO - BeforeGoal
+2026-05-02 10:42:44,975 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:42:52,674 - __main__ - INFO - Goal
+2026-05-02 10:42:52,674 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:42:58,626 - __main__ - INFO - Tasks
+2026-05-02 10:42:58,627 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:43:05,203 - __main__ - INFO - AfterTasks
+2026-05-02 10:43:05,203 - __main__ - INFO - Text Nr. 45
+2026-05-02 10:43:05,203 - __main__ - INFO - BeforeGoal
+2026-05-02 10:43:05,203 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:43:12,478 - __main__ - INFO - Goal
+2026-05-02 10:43:12,478 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:43:18,701 - __main__ - INFO - Tasks
+2026-05-02 10:43:18,701 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:43:25,116 - __main__ - INFO - AfterTasks
+2026-05-02 10:43:25,118 - __main__ - INFO - Text Nr. 46
+2026-05-02 10:43:25,118 - __main__ - INFO - BeforeGoal
+2026-05-02 10:43:25,119 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:43:34,343 - __main__ - INFO - Goal
+2026-05-02 10:43:34,344 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:43:40,281 - __main__ - INFO - Tasks
+2026-05-02 10:43:40,281 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:43:46,688 - __main__ - INFO - AfterTasks
+2026-05-02 10:43:46,688 - __main__ - INFO - Text Nr. 47
+2026-05-02 10:43:46,689 - __main__ - INFO - BeforeGoal
+2026-05-02 10:43:46,689 - __main__ - INFO - Goal
+2026-05-02 10:43:46,690 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:43:50,591 - __main__ - INFO - Tasks
+2026-05-02 10:43:50,592 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:43:56,551 - __main__ - INFO - AfterTasks
+2026-05-02 10:43:56,552 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:01,032 - __main__ - INFO - Text Nr. 48
+2026-05-02 10:44:01,032 - __main__ - INFO - BeforeGoal
+2026-05-02 10:44:01,033 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:07,894 - __main__ - INFO - Goal
+2026-05-02 10:44:07,894 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:14,064 - __main__ - INFO - Tasks
+2026-05-02 10:44:14,064 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:20,235 - __main__ - INFO - AfterTasks
+2026-05-02 10:44:20,236 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:23,355 - __main__ - INFO - Text Nr. 49
+2026-05-02 10:44:23,355 - __main__ - INFO - BeforeGoal
+2026-05-02 10:44:23,355 - __main__ - INFO - Goal
+2026-05-02 10:44:23,356 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:28,360 - __main__ - INFO - Tasks
+2026-05-02 10:44:28,361 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:34,661 - __main__ - INFO - AfterTasks
+2026-05-02 10:44:34,661 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:39,118 - __main__ - INFO - Text Nr. 50
+2026-05-02 10:44:39,119 - __main__ - INFO - BeforeGoal
+2026-05-02 10:44:39,119 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:47,140 - __main__ - INFO - Goal
+2026-05-02 10:44:47,140 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:53,505 - __main__ - INFO - Tasks
+2026-05-02 10:44:53,506 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:44:59,362 - __main__ - INFO - AfterTasks
+2026-05-02 10:44:59,363 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:45:03,024 - __main__ - INFO - Text Nr. 51
+2026-05-02 10:45:03,024 - __main__ - INFO - BeforeGoal
+2026-05-02 10:45:03,024 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:45:10,375 - __main__ - INFO - Goal
+2026-05-02 10:45:10,376 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:45:16,719 - __main__ - INFO - Tasks
+2026-05-02 10:45:16,720 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:45:22,834 - __main__ - INFO - AfterTasks
+2026-05-02 10:45:22,834 - __main__ - INFO - Text Nr. 52
+2026-05-02 10:45:22,835 - __main__ - INFO - BeforeGoal
+2026-05-02 10:45:22,835 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:45:29,234 - __main__ - INFO - Goal
+2026-05-02 10:45:29,235 - __main__ - INFO - Tasks
+2026-05-02 10:45:29,235 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:45:35,617 - __main__ - INFO - AfterTasks
+2026-05-02 10:45:35,617 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:45:38,927 - __main__ - INFO - Text Nr. 53
+2026-05-02 10:45:38,928 - __main__ - INFO - BeforeGoal
+2026-05-02 10:45:38,928 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:45:47,065 - __main__ - INFO - Goal
+2026-05-02 10:45:47,066 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:45:53,797 - __main__ - INFO - Tasks
+2026-05-02 10:45:53,798 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:46:00,306 - __main__ - INFO - AfterTasks
+2026-05-02 10:46:00,306 - __main__ - INFO - Text Nr. 54
+2026-05-02 10:46:00,307 - __main__ - INFO - BeforeGoal
+2026-05-02 10:46:00,307 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:46:07,403 - __main__ - INFO - Goal
+2026-05-02 10:46:07,404 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:46:13,727 - __main__ - INFO - Tasks
+2026-05-02 10:46:13,728 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:46:20,214 - __main__ - INFO - AfterTasks
+2026-05-02 10:46:20,214 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:46:23,475 - __main__ - INFO - Text Nr. 55
+2026-05-02 10:46:23,475 - __main__ - INFO - BeforeGoal
+2026-05-02 10:46:23,475 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:46:32,865 - __main__ - INFO - Goal
+2026-05-02 10:46:32,866 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:46:38,910 - __main__ - INFO - Tasks
+2026-05-02 10:46:38,911 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:46:46,106 - __main__ - INFO - AfterTasks
+2026-05-02 10:46:46,107 - __main__ - INFO - Text Nr. 56
+2026-05-02 10:46:46,108 - __main__ - INFO - BeforeGoal
+2026-05-02 10:46:46,108 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:46:54,199 - __main__ - INFO - Goal
+2026-05-02 10:46:54,199 - __main__ - INFO - Tasks
+2026-05-02 10:46:54,199 - __main__ - INFO - AfterTasks
+2026-05-02 10:46:54,200 - __main__ - INFO - Text Nr. 57
+2026-05-02 10:46:54,200 - __main__ - INFO - BeforeGoal
+2026-05-02 10:46:54,200 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:47:00,805 - __main__ - INFO - Goal
+2026-05-02 10:47:00,806 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:47:06,270 - __main__ - INFO - Tasks
+2026-05-02 10:47:06,271 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:47:13,142 - __main__ - INFO - AfterTasks
+2026-05-02 10:47:13,143 - __main__ - INFO - Text Nr. 58
+2026-05-02 10:47:13,143 - __main__ - INFO - BeforeGoal
+2026-05-02 10:47:13,143 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:47:18,941 - __main__ - INFO - Goal
+2026-05-02 10:47:18,941 - __main__ - INFO - Tasks
+2026-05-02 10:47:18,942 - __main__ - INFO - AfterTasks
+2026-05-02 10:47:18,942 - __main__ - INFO - Text Nr. 59
+2026-05-02 10:47:18,942 - __main__ - INFO - BeforeGoal
+2026-05-02 10:47:18,942 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:47:28,550 - __main__ - INFO - Goal
+2026-05-02 10:47:28,551 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:47:36,132 - __main__ - INFO - Tasks
+2026-05-02 10:47:36,133 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:47:43,244 - __main__ - INFO - AfterTasks
+2026-05-02 10:47:43,245 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:47:46,748 - __main__ - INFO - Text Nr. 60
+2026-05-02 10:47:46,748 - __main__ - INFO - BeforeGoal
+2026-05-02 10:47:46,749 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:47:55,259 - __main__ - INFO - Goal
+2026-05-02 10:47:55,260 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:48:01,413 - __main__ - INFO - Tasks
+2026-05-02 10:48:01,413 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:48:07,681 - __main__ - INFO - AfterTasks
+2026-05-02 10:48:07,682 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:48:11,538 - __main__ - INFO - Text Nr. 61
+2026-05-02 10:48:11,539 - __main__ - INFO - BeforeGoal
+2026-05-02 10:48:11,539 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:48:18,992 - __main__ - INFO - Goal
+2026-05-02 10:48:18,993 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:48:24,914 - __main__ - INFO - Tasks
+2026-05-02 10:48:24,914 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:48:31,013 - __main__ - INFO - AfterTasks
+2026-05-02 10:48:31,014 - __main__ - INFO - Text Nr. 62
+2026-05-02 10:48:31,014 - __main__ - INFO - BeforeGoal
+2026-05-02 10:48:31,014 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:48:39,404 - __main__ - INFO - Goal
+2026-05-02 10:48:39,405 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:48:45,364 - __main__ - INFO - Tasks
+2026-05-02 10:48:45,365 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:48:52,048 - __main__ - INFO - AfterTasks
+2026-05-02 10:48:52,049 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:48:55,615 - __main__ - INFO - Text Nr. 63
+2026-05-02 10:48:55,616 - __main__ - INFO - BeforeGoal
+2026-05-02 10:48:55,616 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:49:03,734 - __main__ - INFO - Goal
+2026-05-02 10:49:03,735 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:49:09,022 - __main__ - INFO - Tasks
+2026-05-02 10:49:09,023 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:49:16,009 - __main__ - INFO - AfterTasks
+2026-05-02 10:49:16,010 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:49:20,438 - __main__ - INFO - Text Nr. 64
+2026-05-02 10:49:20,439 - __main__ - INFO - BeforeGoal
+2026-05-02 10:49:20,440 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:49:29,018 - __main__ - INFO - Goal
+2026-05-02 10:49:29,020 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:49:34,597 - __main__ - INFO - Tasks
+2026-05-02 10:49:34,598 - src.code.functions - INFO - Set thinking to False
+2026-05-02 10:49:41,097 - __main__ - INFO - AfterTasks

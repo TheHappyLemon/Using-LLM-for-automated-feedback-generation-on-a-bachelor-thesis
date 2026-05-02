@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts labi pamato tēmas aktualitāti, izmantojot Java popularitātes dati (TIOBE) un pieminot tehnoloģisku attīstību (JDK 21). Ir skaidri redzams, ka pētījums ir aktuāls, lai saprastu jauno virtuālo pavedienu pielietojamo iespējas.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Teksts piemin esošos mehānismus (java.util.concurrent) un jauno sasniegumu (virtuālie pavedieni), taču trūkst konkrētāku atsauču uz citu autoru veiktām izpētēm vai salīdzinājumiem par šīm tehnoloģijām. Teksts tikai apraksta tehnoloģiju statusu, nevis analizē iepriekšējo pētniecības rezultātu klātbūtni.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "Tekstā ir identificēta tehniskā problēma (klasiskās arhitektūras vājās vietas), taču pētniecības gaps (zinātniskais gaps) nav pilnībā formulēts. Nepieciešams skaidrāk norādīt, ka tieši šis salīdzinājums starp vecajiem un jaunajiem mehānismiem vēl nav izpētīts vai ir nepilnīgs.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēma ir definēta relatīvi skaidri: nepieciešamība novērtēt un salīdzināt iepriekšējos paralelitātes mehānismus ar jauno virtuālo pavedienu implementāciju, lai identificētu to efektivitāti un risinājumus problēmām (sacensības apstākļi u.c.).",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Atsaucēm ir jābūt precīzākām. Tekstā ir izmantotas atsauces (Giebas et. al., 2021; TIOBE.com; Oracle.com), kas ir laba prakse, taču ir nepieciešams izvairīties no pārāk vispārīgas atsauces uz mājaslapām un nodrošināt, lai visas sastatāmās prasības (piemēram, par vājajām vietām) būtu pilnībā dokumentētas.",
+        "complies": true
+    }
+]
+```

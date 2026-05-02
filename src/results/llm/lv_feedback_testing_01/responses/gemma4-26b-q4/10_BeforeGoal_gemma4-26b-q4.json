@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts skaidri definē tēmas aktualitāti, uzsver JSON izplatību un problēmas, kas rodas strādājot ar lieliem datu apjomiem augstas noslodzes lietotnēs.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Teksts ir labā līmenī. Autors piemin esošos rīkus (iebūvēto moduli un trešo pušu bibliotēkas kā ujson, orjson), kas parāda zināšanas par pašreizējo situāciju nozarē.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "Lai gan tekstā ir identificētas problēmas (veiktspējas un sarežģītības), pētniecības plaisa (gap) nav formulēta pietiekami precīzi. Nepieciešams skaidrāk norādīt, kas tieši nav izpētīts – vai tas ir rīku salīdzinājums, jaunu optimizācijas metožu izstrāde vai specifisku scenariju trūkums.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēma ir skaidri identificējama: datu apstrādes efektivitātes un uzticamības samazināšanās strādājot ar lieliem JSON apjomiem Python vidē.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "Referencēm izmantots pareizi; tekstā ir ietverti atsauces uz publikācijām, lai uzturētu zinātnisku argumentāciju.",
+        "complies": true
+    }
+]
+```

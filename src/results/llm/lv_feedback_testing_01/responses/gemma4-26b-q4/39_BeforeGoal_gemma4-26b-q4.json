@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "Teksts ir ļoti labi uzrakstīts šajā ziņā. Autors skaidri definē, kāpēc kredītriska prognozēšana ir svarīga un kā ML modeļu sarežģītība rada aktuālu problēmu (pārredzamības trūkums), kas tieši ietekmē riska pārvaldību un regulējuma ievērošanu.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "Tekstā ir pieminētas konkrētas, mūsdienu metodes (LIME un SHAP), kas parāda zināšanas par nozares aktuālajām tehnoloģijām. Tomēr tekstā trūkst atsauces uz specifiskiem, publicētiem pētījumiem vai darbiem, kas pierādītu šo metožu lietojumu šajā kontekstā, lai parādītu zinātnisko kontekstu.",
+        "false"
+    },
+    {
+        "question": "Gap",
+        "feedback": "Autors veiksmīgi identificē problēmu kā 'melnās kastes' raksturu un uzticības trūkumu. Lai pilnībā izpildītu 'gap' kritēriju, būtu vēl labāk explicitēt, vai šis specifiskais pētījuma aspekts (piemēram, metodu salīdzināšana tieši kredītriskā kontekstā) vēl nav pietiekami izpētīts.",
+        "true"
+    },
+    {
+        "question": "Problem",
+        "feedback": "Problēma ir definēta ļoti skaidri: ML modeļu neinterpretējamība un tās ietekme uz uzticību un regulējuma atbilstību. Lasītājs var viegli saprast, kādu izaicinājumu pētniecība mēģina risināt.",
+        "true"
+    },
+    {
+        "question": "References",
+        "feedback": "Tekstā pilnībā trūkst bibliogrāfiskām atsaucelēm. Lai teksts būtu akadēmiski pierādīts, apgalvojumi par ML modeļu sarežģītību un XAI metožu pielietojumu būtu jāpapildina ar atsaucelēm uz literatūru vai pētījumiem.",
+        "false"
+    }
+]
+```

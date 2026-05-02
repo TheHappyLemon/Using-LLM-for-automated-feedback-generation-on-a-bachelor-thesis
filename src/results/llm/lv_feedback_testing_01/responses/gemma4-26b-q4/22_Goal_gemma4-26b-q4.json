@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "Mērķis ir definēts skaidri un ir mērāms. Tas ietver gan tehnoloģiju efektivitātes izvērtēšanu, gan ietekmes analīzi un rekomendāciju izstrādi, kas ļauj noteikt, vai darba uzdevums ir izpildīts.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "Mērķa tekstā ir iekļauti metodoloģiskie elementi, kas nav būtu jāiesaista mērķī, piemēram, informācija par darba tipu (1. tips) un plānotās darbības (eksperimenti, datu analīze, salīdzināšana). Mērķis būtu jāfokusē tikai uz rezultātu, nevis uz procesa aprakstu.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "Teksts nav ierobežots ar vienu teikumu. Mērķa formulējums ir izkaisīts vairākās teikumos, kas padara to mazāk koncentrētu un pārsaug mērķa definīcijas robežu, pārejot uz darba aprakstu.",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "Mērķis loģiski turpinās no ieveda. Ievadā minētās problēmas (drošība, privātums, datu aizsardzība, sistēmu precizitāte) tiek tieši adresētas mērķī, nodrošinot pilnvērtīgu saistību starp problēmas definīciju un risinājuma meklēšanu.",
+        "complies": true
+    }
+]
+```
