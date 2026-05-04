@@ -22,7 +22,7 @@ def main():
 
         logger.info(f"Working on shot {SHOT}")
 
-        skipped_rows = [1, 5, 7, 43]
+        skipped_rows = [1, 5, 7, 43, 57]
         # test set should always be the same
         '''
         if SHOT == "2-shot":
@@ -50,7 +50,7 @@ def main():
         datasets : list[EvaluationDataset] = []
         for evaluator in evaluators:
             dataset = EvaluationDataset(author=evaluator)
-            dataset.load_from_csv(os.path.join(PATH_RESULTS_INITIAL, f"{evaluator}_as_int_08.csv"), skipped_rows=skipped_rows)
+            dataset.load_from_csv(os.path.join(PATH_RESULTS_INITIAL, f"{evaluator}_as_int_{postfix_new}.csv"), skipped_rows=skipped_rows)
             dataset.to_bool()
             datasets.append(dataset)
         EvaluationDataset.compute_metrics_total_average(human1_ds, datasets, path=os.path.join(BASE_PATH, "src", "results", "llm", f"{SHOT}_testing_01", f"OG_VS_{human1_ds.author}_total_{postfix_new}.csv"))
