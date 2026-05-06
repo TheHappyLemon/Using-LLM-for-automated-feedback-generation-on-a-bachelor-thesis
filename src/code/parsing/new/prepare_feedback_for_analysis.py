@@ -4,11 +4,11 @@ import os
 import csv
 import random
 
-path_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_feedback_for_analysis.csv")
+path_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "responses", "gemma4-26b-q4", "feedback_json-repair.csv")
 path_source = os.path.join(BASE_PATH, "src", "data", "texts", "divided")
-pats_answer_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01")
-pats_json_debug = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01", "full.json")
-csv_path = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01", "template.csv")
+pats_answer_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01")
+pats_json_debug = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01", "full.json")
+csv_path = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01", "template.csv")
 
 def main():
 
@@ -96,7 +96,8 @@ def main():
             continue
         amount = amount + part_amount 
         selected.append(int(id))
-
+    print(amount)
+    
     with open(csv_path, "w", newline="", encoding="utf-8") as f_csv:
         writer = csv.writer(f_csv)
         header = ["ID"] + [str(i) for i in range(1, 19)]

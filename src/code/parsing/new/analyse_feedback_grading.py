@@ -3,7 +3,7 @@ from src.data.constants import BASE_PATH
 import os
 
 
-FILE_PATH = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01_w_rubrics", "template.csv") 
+FILE_PATH = os.path.join(BASE_PATH, "src", "results",   "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "responses", "feedback_eval_artkuc.csv")
 
 df = pd.read_csv(FILE_PATH)
 grades = df.drop(columns=['ID'])

@@ -5,7 +5,8 @@ import re
 from src.data.constants import BASE_PATH
 import os
 
-FILE_PATH = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01_w_rubrics", "grading_with_rubrics_artkuc.csv") 
+FILE_PATH = os.path.join(BASE_PATH, "src", "results",   "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "responses", "feedback-detailed_eval_artkuc.csv") 
+OUTPUT_PATH = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "responses", "rubric_summary_artkuc.csv")
 
 # Normalize text (remove accents, lowercase, strip punctuation)
 def normalize(text):
@@ -89,13 +90,14 @@ for rubric_idx in range(1, 6):
         pct = (count / total * 100) if total else 0
 
         #row[f"{answer}_count"] = count
-        row[f"{answer}_pct"] = round(pct, 2)
+        row[f"{answer}"] = round(pct, 2)
 
     output_rows.append(row)
 
 output_df = pd.DataFrame(output_rows)
 
-OUTPUT_PATH = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01_w_rubrics", "rubric_summary.csv")
+# python -m src.code.parsing.new.analyse_feedback_grading_w_rubrics.py
+
 output_df.to_csv(OUTPUT_PATH, index=False)
 
 print(f"Saved results to {OUTPUT_PATH}")

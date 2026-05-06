@@ -4,16 +4,16 @@ import os
 import csv
 import random
 
-path_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_feedback_for_analysis.csv")
+path_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "responses", "gemma4-26b-q4", "feedback_json-repair.csv")
 path_source = os.path.join(BASE_PATH, "src", "data", "texts", "divided")
-pats_answer_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01_w_rubrics")
-pats_json_debug = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01_w_rubrics", "full.json")
-csv_path = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "gemma4_negative_feedback_analysis", "01_w_rubrics", "template.csv")
+pats_answer_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01_detailed")
+pats_json_debug = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01_detailed", "full.json")
+csv_path = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01_detailed", "template.csv")
 
 def main():
 
     # Random subset (so it is equal to the ones without rubrics)
-    IDS_TO_KEEP = [1, 6, 9, 17, 19, 21, 22, 23, 26, 31, 33, 35, 40, 43, 45, 49, 50, 53, 59, 60, 61]
+    IDS_TO_KEEP = [1, 6, 11, 17, 18, 23, 24, 27, 33, 35, 37, 38, 40, 44, 49, 57, 58, 59, 61, 63, 64]
 
     os.makedirs(pats_answer_feedback, exist_ok=True)
     fieldnames = [
@@ -101,6 +101,7 @@ def main():
             continue
         amount = amount + part_amount 
         selected.append(int(id))
+    print(amount)
 
     print('Writing csv to', csv_path)
 
