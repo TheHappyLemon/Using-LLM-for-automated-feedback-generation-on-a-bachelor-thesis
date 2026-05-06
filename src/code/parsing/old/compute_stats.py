@@ -10,8 +10,9 @@ logger = logging.getLogger(__name__)
 logger.info("STARTED COMPUTING STATS")
 
 #PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "initial_testing_01", "responses")
-PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "single_prompt_testing_01", "responses", "gemma4-26b-q4", "t0", "03")
+#PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "single_prompt_testing_01", "responses", "gemma4-26b-q4", "t0", "03")
 #PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "positive", "responses", "02")
+PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "responses", "gemma4-26b-q4")
 PATH_RESULTS_OLD = os.path.join(BASE_PATH, "results_04")
 postfix_new = "json-repair"
 #postfix_new = "08"
@@ -40,8 +41,8 @@ evaluators = [
 #    "ministral3-14b-q8"
 #]
 
-POSITIVE_ONE_SHOT_SKIPPED_ROWS = [1, 5, 43]
-NEGATIVE_ONE_SHOT_SKIPPED_ROWS = [7, 57]
+#POSITIVE_ONE_SHOT_SKIPPED_ROWS = [1, 5, 43]
+#NEGATIVE_ONE_SHOT_SKIPPED_ROWS = [7, 57]
 
 HUMAN_RESPONSES_DIR = Path("src/results/human")
 human1_ds = EvaluationDataset("human1")
