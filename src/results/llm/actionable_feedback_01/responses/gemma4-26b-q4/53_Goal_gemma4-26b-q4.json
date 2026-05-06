@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is well-defined and measurable. It clearly states the intent to investigate factors and to develop/evaluate specific solutions, which allows for a clear assessment of whether the research objectives were met.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal fails to focus solely on the outcome because it explicitly describes the methods to be used ('mašīnmācīšanās, gan heiristikā bāzētus risinājumus'). To improve, focus on the objective of 'ensuring integrity' or 'developing a detection system' rather than listing the specific algorithmic approaches.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is not limited to a single sentence; it consists of two distinct sentences. To improve, try to merge these into one cohesive statement, for example: 'The goal of this thesis is to investigate the factors affecting the integrity of handwritten documents in a digital environment and to develop and evaluate solutions for their detection.'",
+        "complies": false
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns well with the problem of digital forgery and the need for integrity verification mentioned in the introduction. However, the 'heuristic-based solutions' part of the goal is introduced abruptly, as the preceding text does not mention heuristics or the specific need for these types of algorithmic approaches.",
+        "complies": false
+    }
+]
+```

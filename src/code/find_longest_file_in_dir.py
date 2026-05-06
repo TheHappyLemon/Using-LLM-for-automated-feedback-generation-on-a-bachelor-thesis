@@ -24,7 +24,7 @@ def find_most_characters(directory):
 
     return max_file, max_chars
 
-
+# python -m src.code.generating.find_longest_file_in_dir
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Find .txt file with most characters")
     parser.add_argument("directory", help="Path to folder")

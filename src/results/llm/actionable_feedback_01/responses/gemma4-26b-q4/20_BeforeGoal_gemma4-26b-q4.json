@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully identifies the broad relevance of distance measurement technologies across various industries (cartography, construction, etc.). However, it could be strengthened by specifically linking the importance of 3D surface relief measurement to current technological trends or specific industrial needs.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text fails to demonstrate awareness of the current state-of-the-art. It mentions the technologies (ToF and LiDAR) but does not cite any specific research, recent advancements, or previous comparative studies. To improve, you should mention recent developments in these sensor types or refer to existing literature that compares them.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text does not explicitly identify a research gap based on existing studies. While it implies a need to evaluate these sensors, it does not state what is currently missing in the scientific literature or practical application (e.g., a lack of comparative data for specific surface types). You need to frame your research as a way to fill a specific void in current knowledge.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: the need to evaluate the effectiveness and limitations of ToF and LiDAR sensors for 3D surface and hole detection. However, the problem statement is somewhat vague. It would be better to define a specific challenge, such as the difficulty of measuring certain complex geometries with current standard sensors.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no references included in the text. Every claim regarding the use of these technologies in specific industries and the technical characteristics of the sensors should be supported by academic or technical citations to validate the context of your research.",
+        "complies": false
+    }
+]
+```

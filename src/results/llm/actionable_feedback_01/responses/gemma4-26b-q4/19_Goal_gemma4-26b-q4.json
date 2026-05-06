@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but it contains a slight mismatch between 'analyzing problems' and the final output. While the objective of developing a solution is measurable, the phrase 'to improve efficiency' is somewhat vague. Suggestion: Specify what 'efficiency' means in this context (e.g., reduction in scheduling time or error rate) to make the goal more verifiable.",
+        "complies": true
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal includes the process/methodology ('Izpētīt un analizēt... lai... izstrādāt'), which describes the steps taken to reach the result rather than just the final objective. Suggestion: Focus the goal on the creation and evaluation of the system itself, rather than describing the research steps (analysis/investigation) used to get there.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is presented as a single, complex sentence. While it is one sentence, it is quite long and contains multiple clauses. However, it does directly communicate the primary objective.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a significant logical gap regarding the scope. The preceding text focuses on 'dynamic scheduling' and 'generating shifts' (maiņu ģenerēšana), but the goal shifts the focus to 'time tracking' (darba laika uzskate). The introduction discusses optimization of schedules, not the accounting/tracking of hours. Suggestion: Align the terminology in the goal with the introduction; if the thesis is about scheduling, the goal should focus on 'plānošana', not 'uzskate'.",
+        "complies": false
+    }
+]
+```

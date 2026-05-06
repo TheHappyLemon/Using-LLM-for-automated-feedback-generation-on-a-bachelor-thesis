@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is well-organized into a clearly separated numbered list, making it easy to distinguish between individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "5",
+        "complies": true
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks represent a complete research cycle: theoretical analysis of existing solutions, development of an experimental solution, practical experimentation, and analysis of results. The validation step is present through the comparison of the new AR solution against traditional methods.",
+        "complies": true
+    },
+    {
+        "question": "Format",
+        "feedback": "Several tasks (1, 2, 4, and 5) consist of multiple sentences rather than being exactly one sentence long. To improve, try to condense each task into a single, concise sentence.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text consistently uses infinitive verbs (e.g., 'Izpētīt', 'Izstrādāt', 'Pārbaudīt', 'Analizēt') at the beginning of the tasks, which is correct for defining research objectives.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language is precise and professional; however, some tasks are quite long and contain multiple clauses. Shortening these into more direct statements would improve readability.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression that directly supports the goal: researching existing tech, comparing it to traditional methods, developing a solution, testing it, and analyzing the impact on precision and efficiency.",
+        "complies": true
+    }
+]
+```

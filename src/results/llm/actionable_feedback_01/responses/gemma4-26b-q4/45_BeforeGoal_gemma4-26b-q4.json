@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the importance of the topic by linking asynchronous programming to the hardware limitations of mobile devices. It clearly explains why efficient resource usage is a modern necessity.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the transition to Kotlin and the availability of tools like coroutines and Threads, citing recent authors. However, it lacks a deeper discussion of current research findings or specific comparative studies regarding the performance of these tools, which would strengthen the context.",
+        "complies": true
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a potential gap by posing a question about the 'effective use of these tools' and their 'advantages and disadvantages.' However, this is phrased more as a general inquiry than a concrete research gap. To improve, explicitly state what is missing in current literature—for example, a lack of empirical performance comparisons between coroutines and threads in specific mobile scenarios.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: the challenge of choosing and effectively using asynchronous/parallel tools (coroutines vs. threads) in a resource-constrained environment. To make it even clearer, explicitly state if the thesis aims to solve a performance bottleneck or a developer complexity issue.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are well-integrated and used to support claims regarding the importance of the topic and the technical characteristics of Kotlin. Ensure that all citations (e.g., 'Elizarovetal.') have proper spacing and follow the required academic formatting style consistently.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is relatively clear, but the term 'izpētīt' (to investigate) can be considered vague in a technical thesis. To make it more measurable, consider specifying whether the goal is to develop a prototype, design an architecture, or evaluate an existing algorithm. For example: 'Izstrādāt un iztestēt...' (To develop and test...) would be more measurable.",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses on the objective (exploring management possibilities), but it starts to drift into describing the method/tool by mentioning 'integrāciju ar mākslīgā intelekta aģentiem'. While this is the core of the topic, try to focus more on the 'what' (improving search efficiency) rather than just the 'how' (integrating agents).",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text is a single, concise, and well-structured sentence that directly communicates the primary objective without unnecessary filler.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "There is a strong logical link between the preceding text (which discusses the potential of MIiDS in rescue operations) and the goal. However, the preceding text mentions 'automatizāciju' (automation) and 'atvieglotu/paātrinātu' (facilitating/speeding up), while the goal introduces 'pārvaldības iespējas' (management possibilities). To improve congruence, ensure the goal explicitly mentions 'automation' or 'efficiency improvement' to mirror the problem statement provided in the introduction.",
+        "complies": true
+    }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the importance of robotics in modern industry and the economic benefits of automation. It also links the need for efficient image segmentation to the practical necessity of avoiding collisions. To improve, try to more explicitly link the 'significance' specifically to the 'movement control' aspect mentioned in your title.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions that algorithms are being improved and new methods are being developed, and it cites specific authors (Jahn & Heß, Rubio & Valero). However, it is quite generic. To improve, instead of saying 'new methods are being developed', briefly mention specific types of modern architectures (e.g., U-Net, Mask R-CNN, or Transformers) to demonstrate a deeper awareness of the current technological landscape.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text fails to explicitly identify a specific research gap. While it mentions that there are 'new requirements' for precision and speed, it does not state what is currently missing or insufficient in existing segmentation methods when applied specifically to robot motion control. You need to clearly state: 'Despite advancements, current methods struggle with [X] in the context of [Y], which this thesis aims to address.'",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is somewhat identifiable (the need for efficient object recognition to avoid collisions and reduce costs), but it is a bit broad. The text describes a general field challenge rather than the specific technical problem your thesis will solve. Narrow down the problem statement to focus on the tension between segmentation accuracy and real-time processing speed for motion control.",
+        "complies": false
+    },
+    {
+        "question": "References",
+        "feedback": "References are included and used to support claims regarding the role of robotics and the necessity of sensors. However, there are minor formatting issues (e.g., 'Jahn&Heßet.al' lacks spaces). Ensure consistent spacing and proper punctuation in all citations to maintain academic standards.",
+        "complies": true
+    }
+]
+```

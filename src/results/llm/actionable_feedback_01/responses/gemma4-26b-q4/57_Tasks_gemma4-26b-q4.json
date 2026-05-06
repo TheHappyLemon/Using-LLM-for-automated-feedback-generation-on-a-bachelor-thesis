@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The tasks are presented as a continuous paragraph rather than a numbered list. To improve, separate each task into a numbered list.",
+        "complies": false
+    },
+    {
+        "question": "Quantity",
+        "feedback": "4",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The text includes research, development, and testing, but lacks a formal validation step. To meet the criteria, you must include a comparison of your prototype with existing navigation solutions or demonstrate how it specifically solves a practical problem compared to current methods.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "The tasks are embedded within a single paragraph. Each task should be isolated into its own single-sentence entry.",
+        "complies": false
+    },
+    {
+        "question": "Structure",
+        "feedback": "The text uses first-person conjugated verbs (e.g., 'es izpētīšu', 'es izstrādāšu') instead of the infinitive form. Rewrite the tasks using infinitives (e.g., 'izpētīt', 'izstrādāt', 'izveidot', 'testēt').",
+        "complies": false
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language is generally clear, but the tasks are currently bundled together. Breaking them into distinct, short sentences will improve precision.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression toward the goal of developing a tourism guide. However, to ensure full relevance, the 'evaluation' task should explicitly link back to the validation of the developed solution's effectiveness.",
+        "complies": true
+    }
+]
+```

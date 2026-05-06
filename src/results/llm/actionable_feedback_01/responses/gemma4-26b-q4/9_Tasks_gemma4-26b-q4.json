@@ -1,0 +1,39 @@
+```json
+[
+    {
+        "question": "Outlook",
+        "feedback": "The text is well-organized into a clearly separated numbered list, making it easy to distinguish individual tasks.",
+        "complies": true
+    },
+    {
+        "question": "Quantity",
+        "feedback": "4",
+        "complies": false
+    },
+    {
+        "question": "Completeness",
+        "feedback": "The tasks cover research, analysis, and implementation, but they lack a specific task for validation. You should add a task that describes how you will evaluate the prototype's performance (e.g., comparing its accuracy/stability against existing computer vision-only methods) to demonstrate that the solution actually solves the problem.",
+        "complies": false
+    },
+    {
+        "question": "Format",
+        "feedback": "Each task is contained within a single sentence, which adheres to the requirement.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The tasks consistently use infinitive verbs (Apkopot, Analizēt, Izstrādāt) at the beginning of each point, which is correct.",
+        "complies": true
+    },
+    {
+        "question": "Clarity",
+        "feedback": "The language used is precise and the sentences are straightforward, which is a strong point of the text.",
+        "complies": true
+    },
+    {
+        "question": "Relevance",
+        "feedback": "The tasks follow a logical progression toward the goal (researching existing solutions, analyzing them, and then developing the prototype). However, to fully reach the goal of 'improving precision and stability', the tasks must include a final step of validating/testing these improvements against a baseline.",
+        "complies": false
+    }
+]
+```

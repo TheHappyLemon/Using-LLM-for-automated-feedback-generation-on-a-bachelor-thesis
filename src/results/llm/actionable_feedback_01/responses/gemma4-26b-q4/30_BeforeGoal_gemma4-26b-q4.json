@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully identifies the increasing complexity of modern information systems and the need for more advanced data modeling. However, the significance could be strengthened by more clearly articulating the economic or operational consequences of choosing the wrong database paradigm.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks specific citations of existing research, benchmarks, or published studies. While it mentions that object-relational databases are 'studied and documented,' it does not name any specific authors, methodologies, or recent comparative studies. To improve, you should mention specific existing benchmarks or research papers that have attempted similar comparisons.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a gap regarding the lack of empirical data on performance and the trade-off between complexity and efficiency. However, this gap is presented somewhat vaguely. You should more precisely state that while theoretical differences are known, a lack of recent, empirical, and comparative performance data under modern workloads constitutes the research gap.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is identifiable: the difficulty in deciding between these two paradigms due to a lack of performance data and the complexity of design. To improve, refine the 'Problēmas nostādne' section to be more concise and directly link the lack of empirical evidence to the risk of inefficient system design.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal references or citations provided in the text to support the claims made about the evolution of databases or the current state of technology. You must include citations (e.g., [1], [2]) to support your statements about the history and the existing documentation of these systems.",
+        "complies": false
+    }
+]
+```

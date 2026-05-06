@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "question": "Purpose",
+        "feedback": "The goal is somewhat vague due to the word 'perspektīvas' (perspectives). It is difficult to measure if you have 'determined perspectives'. To make it measurable, specify what exactly will be evaluated or compared (e.g., performance, resource usage, or complexity).",
+        "complies": false
+    },
+    {
+        "question": "Intention",
+        "feedback": "The goal focuses well on the objective (determining perspectives) rather than listing the specific tools or steps used to achieve it, which is a strength.",
+        "complies": true
+    },
+    {
+        "question": "Structure",
+        "feedback": "The goal is well-structured, concise, and limited to a single sentence.",
+        "complies": true
+    },
+    {
+        "question": "Congruence",
+        "feedback": "The goal aligns with the preceding text regarding the comparison of new and old mechanisms. However, the preceding text mentions 'evaluating old and new Java concurrency mechanisms', while the goal uses 'perspectives'. To improve congruence, ensure the goal explicitly reflects the comparative nature (evaluation/comparison) mentioned in the introduction.",
+        "complies": true
+    }
+]
+```

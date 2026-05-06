@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text does a good job of explaining the importance of the topic by highlighting the duality of cookies (user convenience vs. security risks) and the increasing complexity of cyber threats. The relevance to both users and developers is well-established.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions existing technical mechanisms (Secure, HttpOnly, SameSite) but fails to cite any specific research, academic papers, or industry reports that represent the current state of the art. To improve, you should mention specific recent studies or security audits that have analyzed these mechanisms.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "While you mention that new attack methods are emerging and that there is a need to understand these mechanisms, you do not explicitly identify a specific research gap based on existing literature. You should clearly state what is missing in current research—for example, whether current evaluations of SameSite are outdated or if there is a lack of comparative analysis between different browser implementations.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly identifiable: the tension between the necessity of cookies for web functionality and the evolving security vulnerabilities (session hijacking, XSS, tracking) that existing protections may not fully mitigate.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "There are no formal citations or references provided in the text to support the claims regarding security risks or the effectiveness of existing mechanisms. You must include citations (e.g., [1], [2]) to attribute technical facts and previous findings to their original authors.",
+        "complies": false
+    }
+]
+```

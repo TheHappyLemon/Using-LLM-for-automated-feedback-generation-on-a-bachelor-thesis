@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the relevance of the topic by linking it to the rise of AI and the vulnerabilities of digital data. It clearly explains why ensuring authenticity is crucial in a digital era. To improve, try to connect the significance more specifically to the 'handwritten' aspect mentioned in the title, rather than just general digital data security.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text lacks a review of current technological solutions or specific research regarding handwriting integrity or digital authentication methods. While it mentions general security levels, it does not cite specific existing methods (e.g., biometric analysis, CNN-based verification, or blockchain) used to solve this problem. You should include a brief mention of current approaches to demonstrate you understand the existing landscape.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text hints at a gap (the difficulty of verifying integrity after digitalization), but it does not explicitly state that current methods are insufficient or where they fail specifically for handwritten characters. To improve, explicitly state that while digital signatures exist, a gap remains in verifying the integrity of 'analog-to-digital' transitions for handwritten content.",
+        "complies": false
+    },
+    {
+        "question": "Problem",
+        "feedback": "The core problem is identifiable: the difficulty of ensuring the integrity and authenticity of documents that originate as handwriting but are processed in a digital environment. The text clearly points toward the challenge of detecting alterations after digitalization.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are included using numerical citations [3], which is good for supporting claims about data processing and security levels. However, ensure that all claims, especially the specific breakdown of security levels, are properly attributed to specific authors rather than relying on a single source for multiple different points.",
+        "complies": true
+    }
+]
+```

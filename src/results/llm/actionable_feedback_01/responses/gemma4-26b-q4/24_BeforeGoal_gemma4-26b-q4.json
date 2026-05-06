@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Significance",
+        "feedback": "The text successfully establishes the context of the gaming industry and argues why AI development is the next logical step following the plateauing of graphical advancements. It clearly links the importance of the research to creating a more engaging player experience.",
+        "complies": true
+    },
+    {
+        "question": "State-of-the-art",
+        "feedback": "The text mentions the origins of Alpha-beta pruning and cites foundational works (Luger, 2009; Sweetswer&Wiles, 2002). However, it lacks a discussion of modern, contemporary advancements in game AI or recent modifications to pruning algorithms. To improve, include more recent literature (last 5-10 years) to show you are aware of the current cutting edge.",
+        "complies": false
+    },
+    {
+        "question": "Gap",
+        "feedback": "The text identifies a specific functional gap: the standard algorithm's inability to distinguish between high-heuristic nodes that lead to loss and those that lead to a guaranteed negative result. This is a well-defined research gap.",
+        "complies": true
+    },
+    {
+        "question": "Problem",
+        "feedback": "The problem is clearly stated: the standard Alpha-beta algorithm can lead a computer to make suboptimal moves in disadvantageous positions because it cannot differentiate between certain losses and potential opportunities for the opponent to make a mistake.",
+        "complies": true
+    },
+    {
+        "question": "References",
+        "feedback": "References are used to support historical claims and the shift toward AI. However, there is a typo in the citation 'Sweetswer&Wiles' (likely should be Sweetser). Ensure all citations are formatted strictly according to your university's required style guide and check for spelling accuracy.",
+        "complies": false
+    }
+]
