@@ -6,12 +6,13 @@ import random
 
 path_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "responses", "gemma4-26b-q4", "feedback_json-repair.csv")
 path_source = os.path.join(BASE_PATH, "src", "data", "texts", "divided")
-pats_answer_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01")
-pats_json_debug = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01", "full.json")
-csv_path = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01", "template.csv")
+pats_answer_feedback = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01_feedback")
+pats_json_debug = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01_feedback", "full.json")
+csv_path = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "gemma4_negative_feedback_analysis", "01_feedback", "template.csv")
 
 def main():
 
+    IDS_TO_KEEP = [1, 6, 11, 17, 18, 23, 24, 27, 33, 35, 37, 38, 40, 44, 49, 57, 58, 59, 61, 63, 64]
     os.makedirs(pats_answer_feedback, exist_ok=True)
     fieldnames = [
         "Nr",
@@ -89,8 +90,10 @@ def main():
     
     amount = 0
     for id in ids:
-        if amount >= 90:
-            break
+        if not int(id) in IDS_TO_KEEP:
+            continue
+        #if amount >= 90:
+        #    break
         part_amount = prepare_part(id, texts[id])
         if part_amount == 0:
             continue

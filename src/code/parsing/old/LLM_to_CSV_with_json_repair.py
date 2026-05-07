@@ -151,18 +151,18 @@ def parse_llm_response(llm_response : str, part_type : str, has_goal : bool):
             #model_validation_OK = False
             skipped_questions = skipped_questions + 1
             logger.error(f"Invalid item skipped: {e.errors()} | item={item}")
-
     if part_type != "full":
         part = globals()[f"parse_{part_type}"](answers, has_goal=has_goal, model_validation_OK=model_validation_OK)
     else:
         part = parse_full(answers, model_validation_OK=model_validation_OK)
-    return was_json_good_initially, did_json_repair_help, skipped_questions, part
+    return was_json_good_initially, did_json_repair_help, skipped_questions, part, len(answers)
 
 def main(path_answer : str, path_source, dump_feedback : bool = False, postfix : str = "", skipped_rows : list = None, logfile_postfix: str = "") -> int:
 
     setup_logging(logfile_postfix)
     logger = logging.getLogger(__name__)
     logger.info("STARTED")
+    TOTAL = 0
 
     with open(os.path.join(path_answer, f"stats_{postfix}.csv"), 'w', encoding='utf-8', newline='') as stats_f:
 
@@ -199,6 +199,7 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
                     res = parse_llm_response(f.read(), part, has_goal)
                     writer.writerow([text_id, part, model, res[0], res[1], res[2]])
                     entries.append((text_id, model, part, res[3]))
+                    TOTAL = TOTAL + res[4]
                 except Exception as e:
                     logger.error(f"UNKNOWN EXCEPTION: {str(e)}")
                     writer.writerow([text_id, part, model, False, False, 'all'])
@@ -258,6 +259,7 @@ def main(path_answer : str, path_source, dump_feedback : bool = False, postfix :
         #EvaluationDataset.dump_to_csv_feedback(os.path.join(path_answer, f"feedback_{postfix}.csv"), human_datasets, [datasets["gemma4-26b-q4"]], skipped_rows=skipped_rows)
         EvaluationDataset.dump_to_csv_feedback(os.path.join(path_answer, f"feedback_{postfix}.csv"), human_datasets, list(datasets.values()), skipped_rows=skipped_rows)
 
+    print(TOTAL)
     return 0
 
 # python -m src.code.parsing.old.LLM_to_CSV_with_json_repair "src/results/llm/single_prompt_testing_01/responses/gemma4-26b-q4/t0/02" "src/data/texts/divided" --feedback --logfile_postfix="_single-prompt_to-csv_json-repair" --run_id="json-repair"
