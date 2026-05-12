@@ -14,7 +14,7 @@ logger.info("STARTED COMPUTING STATS")
 #PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "one_shot_testing_01", "positive", "responses", "02")
 PATH_RESULTS_NEW = os.path.join(BASE_PATH, "src", "results", "llm", "actionable_feedback_01", "responses", "gemma4-26b-q4")
 PATH_RESULTS_OLD = os.path.join(BASE_PATH, "results_04")
-postfix_new = "json-repair"
+postfix_new = "json-repair_tuned"
 #postfix_new = "08"
 postfix_old = "04"
 evaluators = [
